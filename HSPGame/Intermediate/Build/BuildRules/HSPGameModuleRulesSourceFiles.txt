@@ -1,0 +1,3 @@
+C:\Users\gosus\Documents\CP-School\SeniorProject\gitRepos\Senior-Project-Game\HSPGame\Source\HSPGame\HSPGame.Build.cs
+C:\Users\gosus\Documents\CP-School\SeniorProject\gitRepos\Senior-Project-Game\HSPGame\Source\HSPGame.Target.cs
+C:\Users\gosus\Documents\CP-School\SeniorProject\gitRepos\Senior-Project-Game\HSPGame\Source\HSPGameEditor.Target.cs

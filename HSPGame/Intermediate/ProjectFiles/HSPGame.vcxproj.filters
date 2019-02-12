@@ -1,0 +1,60 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <None Include="..\..\HSPGame.uproject" />
+    <Filter Include="Source">
+      <UniqueIdentifier>{7029FF2A-E6CD-492D-8503-73E44233A058}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\HSPGame.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <None Include="..\..\Source\HSPGameEditor.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <Filter Include="Config">
+      <UniqueIdentifier>{E4F8FE5D-2EE0-4F22-87D5-FF9029A3277C}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Config\DefaultEditor.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEngine.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultGame.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultInput.ini">
+      <Filter>Config</Filter>
+    </None>
+    <Filter Include="Source\HSPGame">
+      <UniqueIdentifier>{9F3E197F-1C7C-4520-B8C2-71BBB0F36FA7}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\HSPGame\EnemySlime.cpp">
+      <Filter>Source\HSPGame</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\HSPGame\EnemySlime.h">
+      <Filter>Source\HSPGame</Filter>
+    </ClInclude>
+    <None Include="..\..\Source\HSPGame\HSPGame.Build.cs">
+      <Filter>Source\HSPGame</Filter>
+    </None>
+    <ClCompile Include="..\..\Source\HSPGame\HSPGame.cpp">
+      <Filter>Source\HSPGame</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\HSPGame\HSPGame.h">
+      <Filter>Source\HSPGame</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\HSPGame\HSPGameGameModeBase.cpp">
+      <Filter>Source\HSPGame</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\HSPGame\HSPGameGameModeBase.h">
+      <Filter>Source\HSPGame</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\HSPGame\ProtagClass.cpp">
+      <Filter>Source\HSPGame</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\HSPGame\ProtagClass.h">
+      <Filter>Source\HSPGame</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
