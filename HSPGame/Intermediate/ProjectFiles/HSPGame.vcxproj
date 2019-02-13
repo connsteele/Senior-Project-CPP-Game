@@ -506,8 +506,10 @@
     <None Include="..\..\Config\DefaultEngine.ini"/>
     <None Include="..\..\Config\DefaultGame.ini"/>
     <None Include="..\..\Config\DefaultInput.ini"/>
-    <ClCompile Include="..\..\Source\HSPGame\EnemySlime.cpp"/>
-    <ClInclude Include="..\..\Source\HSPGame\EnemySlime.h"/>
+    <ClCompile Include="..\..\Source\HSPGame\Base2DCharacter.cpp"/>
+    <ClInclude Include="..\..\Source\HSPGame\Base2DCharacter.h"/>
+    <ClCompile Include="..\..\Source\HSPGame\EnemyClass.cpp"/>
+    <ClInclude Include="..\..\Source\HSPGame\EnemyClass.h"/>
     <None Include="..\..\Source\HSPGame\HSPGame.Build.cs"/>
     <ClCompile Include="..\..\Source\HSPGame\HSPGame.cpp"/>
     <ClInclude Include="..\..\Source\HSPGame\HSPGame.h"/>

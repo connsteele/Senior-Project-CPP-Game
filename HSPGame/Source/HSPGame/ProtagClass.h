@@ -10,42 +10,20 @@
 #include "GameFramework/SpringArmComponent.h"
 #include "PaperFlipbookComponent.h"
 #include "PaperCharacter.h"
+#include "Base2DCharacter.h"
 #include "Math/Rotator.h"
 // No includes under this
 #include "ProtagClass.generated.h"
 
 UCLASS()
-class HSPGAME_API AProtagClass : public APaperCharacter
+class HSPGAME_API AProtagClass : public ABase2DCharacter
 {
 	GENERATED_BODY()
 
 public:
-	// Sets default values for this character's properties
+	// Constructor
 	AProtagClass();
 
-	// Booleans for animation
-	bool isHorzMovement;
-	bool isVertMovement;
-
-	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = Animations)
-		UPaperFlipbook * walkRightAnim;
-
-	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = Animations)
-		UPaperFlipbook * walkForwardAnim;
-
-	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = Animations)
-		UPaperFlipbook * walkDownAnim;
-
-	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = Animations)
-		UPaperFlipbook * idleAnim;
-
-//End Generate Body?
-
-protected:
-	// Called when the game starts or when spawned
-	virtual void BeginPlay() override;
-
-public:	
 	// Called every frame
 	virtual void Tick(float DeltaTime) override;
 
@@ -66,4 +44,13 @@ public:
 
 	UPROPERTY(EditAnywhere)
 		UCameraComponent * Camera;
+
+
+protected:
+	// Called when the game starts or when spawned
+	virtual void BeginPlay() override;
+
+private:
+
+
 };

@@ -3,18 +3,20 @@
 #include "ProtagClass.h"
 #include "GameFramework/FloatingPawnMovement.h"
 
-// Sets default values
+// On Class Construction
 AProtagClass::AProtagClass()
 {
+	/*
+	--- Notes ---
+	- Idle animation is set by blueprint so it's visible in the viewport
+	*/
+
  	// Set this character to call Tick() every frame.  You can turn this off to improve performance if you don't need it.
 	PrimaryActorTick.bCanEverTick = true;
 
-
+	//---  Set up Variables from Parent Classes ---
 	// Make Pawn Movement Component
 	CreateDefaultSubobject<UFloatingPawnMovement>("PawnMovement");
-
-	// Make a Mesh
-	/*MyMesh = CreateDefaultSubobject<UStaticMeshComponent>("myMesh");*/
 
 	// Make a Spring Arm Attached to the Mesh
 	CamBoom = CreateDefaultSubobject<USpringArmComponent>("cameraBoom");
@@ -25,8 +27,11 @@ AProtagClass::AProtagClass()
 	Camera->SetupAttachment(CamBoom);
 
 	// Initialize Movement Anim bools
-	isHorzMovement = false;
-	isVertMovement = false;
+	isHorzMoving = false;
+	isVertMoving = false;
+
+
+
 }
 
 // Called when the game starts or when spawned
@@ -55,11 +60,12 @@ void AProtagClass::SetupPlayerInputComponent(UInputComponent* PlayerInputCompone
 
 }
 
+// Override the Parent Classe's moveRight() function
 void AProtagClass::moveRight(float axisValue)
 {
 	if (axisValue == 1.0)
 	{
-		isHorzMovement = true;
+		isHorzMoving = true;
 		D("Left");
 		GetSprite()->SetFlipbook(walkRightAnim);
 		// Rotate the Flipbook
@@ -67,46 +73,46 @@ void AProtagClass::moveRight(float axisValue)
 	}
 	else if (axisValue == -1.0)
 	{
-		isHorzMovement = true;
+		isHorzMoving = true;
 		D("Right");
 		GetSprite()->SetFlipbook(walkRightAnim);
 		resetRotation();
 	}
 	else if (axisValue == 0.0)
 	{
-		isHorzMovement = false;
+		isHorzMoving = false;
 		D("No Horizontal Input");
-		if (isVertMovement == false)
+		if ( isVertMoving == false)
 		{
 			GetSprite()->SetFlipbook(idleAnim);
 		}
 		resetRotation();
 	}
-	AddMovementInput(GetActorRightVector(), axisValue);
+	Super::AddMovementInput(GetActorRightVector(), axisValue);
 }
 
 void AProtagClass::moveForward(float axisValue)
 {
 	if (axisValue == 1.0)
 	{
-		isVertMovement = true;
+		isVertMoving = true;
 		D("Backward");
 		GetSprite()->SetFlipbook(walkDownAnim);
-		resetRotation();
+		Super::resetRotation();
 	}
 	else if (axisValue == -1.0)
 	{
-		isVertMovement = true;
+		isVertMoving = true;
 		D("Forward");
 		GetSprite()->SetFlipbook(walkForwardAnim);
-		resetRotation();
+		Super::resetRotation();
 	}
 	else if (axisValue == 0.0)
 	{
-		isVertMovement = false;
+		 isVertMoving = false;
 	}
 
-	AddMovementInput(GetActorForwardVector(), axisValue);
+	Super::AddMovementInput(GetActorForwardVector(), axisValue);
 }
 
 void AProtagClass::resetRotation()
