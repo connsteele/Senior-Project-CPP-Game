@@ -111,7 +111,7 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>{3CD0D406-9B5D-46D3-A444-427ED7B0B223}</ProjectGuid>
+    <ProjectGuid>{7AA985ED-9555-4B7D-BC98-3545DE606D4D}</ProjectGuid>
     <Keyword>MakeFileProj</Keyword>
     <RootNamespace>HSPGame</RootNamespace>
     <PlatformToolset>v141</PlatformToolset>
