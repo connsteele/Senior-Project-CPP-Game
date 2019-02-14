@@ -20,15 +20,26 @@ class HSPGAME_API AHSPGameGameModeBase : public AGameModeBase
 	GENERATED_BODY()
 
 public:
-	// Array of all enemy types
-	TArray<AEnemyClass*> enemyTypes;
-	void initEnemyTypes();
+	struct battleCharNode
+	{
+		ABase2DCharacter * charRef;
+		FString className;
+
+	};
+
+
 	// Array of all characters currently in battle
-	TArray<ABase2DCharacter*> battleChars;
-	void addToBattle(ABase2DCharacter *addChar);
+	TArray<battleCharNode> battleChars;
+	void addToBattle(ABase2DCharacter *addChar, FString className);
+
+	int battleChIndex = 0;
+
+	int get2DcharClassType(FString className);
+
+	
 
 protected:
 
 private:
-	
+
 };

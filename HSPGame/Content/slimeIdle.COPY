@@ -1,0 +1,3 @@
+Begin Object Class=/Script/Paper2D.PaperFlipbook Name="slimeIdle"
+   KeyFrames(0)=(Sprite=PaperSprite'"/Game/Animations/Images/slimeHorizontalWalk_Sprite_0.slimeHorizontalWalk_Sprite_0"')
+End Object

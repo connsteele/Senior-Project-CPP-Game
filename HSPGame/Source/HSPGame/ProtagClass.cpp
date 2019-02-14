@@ -30,7 +30,8 @@ AProtagClass::AProtagClass()
 	isHorzMoving = false;
 	isVertMoving = false;
 
-
+	// Setup hit
+	GetCapsuleComponent()->OnComponentHit.AddDynamic(this, &AProtagClass::protagHit);
 
 }
 
@@ -42,14 +43,14 @@ void AProtagClass::BeginPlay()
 	// Test adding self to battle chars array
 	// Get the game mode and cast it
 	AHSPGameGameModeBase* gameModeref = (AHSPGameGameModeBase*)GetWorld()->GetAuthGameMode();
-	gameModeref->addToBattle((ABase2DCharacter *)this);
+	gameModeref->addToBattle(this, "Protag"); // maybe cast this to (ABase2DCharacter *)
+	
 }
 
 // Called every frame
 void AProtagClass::Tick(float DeltaTime)
 {
 	Super::Tick(DeltaTime);
-
 }
 
 // Called to bind functionality to input
@@ -68,7 +69,7 @@ void AProtagClass::moveRight(float axisValue)
 	if (axisValue == 1.0)
 	{
 		isHorzMoving = true;
-		D("Left");
+		//D("Left");
 		GetSprite()->SetFlipbook(walkRightAnim);
 		// Rotate the Flipbook
 		GetSprite()->SetWorldRotation(FRotator(0.f, 270.f, 0.f));
@@ -76,14 +77,14 @@ void AProtagClass::moveRight(float axisValue)
 	else if (axisValue == -1.0)
 	{
 		isHorzMoving = true;
-		D("Right");
+		//D("Right");
 		GetSprite()->SetFlipbook(walkRightAnim);
 		resetRotation();
 	}
 	else if (axisValue == 0.0)
 	{
 		isHorzMoving = false;
-		D("No Horizontal Input");
+		//D("No Horizontal Input");
 		if ( isVertMoving == false)
 		{
 			GetSprite()->SetFlipbook(idleAnim);
@@ -98,14 +99,14 @@ void AProtagClass::moveForward(float axisValue)
 	if (axisValue == 1.0)
 	{
 		isVertMoving = true;
-		D("Backward");
+		//D("Backward");
 		GetSprite()->SetFlipbook(walkDownAnim);
 		Super::resetRotation();
 	}
 	else if (axisValue == -1.0)
 	{
 		isVertMoving = true;
-		D("Forward");
+		//D("Forward");
 		GetSprite()->SetFlipbook(walkForwardAnim);
 		Super::resetRotation();
 	}
@@ -120,4 +121,17 @@ void AProtagClass::moveForward(float axisValue)
 void AProtagClass::resetRotation()
 {
 	GetSprite()->SetWorldRotation(FRotator(0.f, 90.f, 0.f));
+}
+
+UFUNCTION()
+void AProtagClass::protagHit(UPrimitiveComponent* HitComponent, AActor* OtherActor, UPrimitiveComponent* OtherComp, FVector NormalImpulse, const FHitResult& Hit)
+{
+	D("Protag Overlap!");
+
+	// Casts return Null if they fail
+	AEnemySlime * slimeRef = Cast<AEnemySlime>(OtherActor);
+	if (slimeRef)
+	{
+		D("Hit Enemy Slime!");
+	}
 }

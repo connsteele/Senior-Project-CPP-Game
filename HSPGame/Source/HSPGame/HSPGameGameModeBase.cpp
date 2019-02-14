@@ -1,14 +1,28 @@
 // Fill out your copyright notice in the Description page of Project Settings.
 
 #include "HSPGameGameModeBase.h"
+#define D(x) if(GEngine){GEngine->AddOnScreenDebugMessage(-1, 2.0f, FColor::Yellow, TEXT(x));} // Debug macro
 
-void AHSPGameGameModeBase::initEnemyTypes()
+
+void AHSPGameGameModeBase::addToBattle(ABase2DCharacter * addChar, FString className)
 {
-	// Push all enemy types onto this array
+	battleCharNode bpNode;
+	bpNode.charRef = addChar;
+	bpNode.className = className;
+	// Add the new character to the end of the battle array
+	battleChars.Add(bpNode);
+	//battleChars.Find(AProtagClass *, battleChIndex);
+	D("Battle Char Node added to the Battle Array");
 }
 
-void AHSPGameGameModeBase::addToBattle(ABase2DCharacter * addCharRef)
+
+
+int get2DcharClassType(FString className)
 {
-	// Add the new character to the end of the battle array
-	battleChars.Add(addCharRef);
+	if (className == "Protag")
+	{
+		D("Protag");
+		return 0;
+	}
+	return -1;
 }

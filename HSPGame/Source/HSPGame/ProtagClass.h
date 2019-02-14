@@ -4,6 +4,7 @@
 #define D(x) if(GEngine){GEngine->AddOnScreenDebugMessage(-1, 2.0f, FColor::Yellow, TEXT(x));} // Debug macro
 #include "CoreMinimal.h"
 #include "GameFramework/Character.h"
+#include "GameFramework/Actor.h"
 #include "Components/InputComponent.h"
 #include "Components/CapsuleComponent.h"
 #include "Camera/CameraComponent.h"
@@ -36,6 +37,10 @@ public:
 	void moveForward(float axisValue);
 	void resetRotation();
 
+	UFUNCTION()
+		void protagHit(UPrimitiveComponent* HitComponent, AActor* OtherActor, UPrimitiveComponent* OtherComp, FVector NormalImpulse, const FHitResult& Hit);
+
+	
 	// Class Properties
 	/*UPROPERTY(EditAnywhere)
 		UStaticMeshComponent * MyMesh;*/

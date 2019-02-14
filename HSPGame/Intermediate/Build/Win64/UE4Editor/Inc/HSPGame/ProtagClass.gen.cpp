@@ -17,11 +17,93 @@ void EmptyLinkFunctionForGeneratedCodeProtagClass() {}
 	HSPGAME_API UClass* Z_Construct_UClass_AProtagClass();
 	HSPGAME_API UClass* Z_Construct_UClass_ABase2DCharacter();
 	UPackage* Z_Construct_UPackage__Script_HSPGame();
+	HSPGAME_API UFunction* Z_Construct_UFunction_AProtagClass_protagHit();
+	ENGINE_API UScriptStruct* Z_Construct_UScriptStruct_FHitResult();
+	COREUOBJECT_API UScriptStruct* Z_Construct_UScriptStruct_FVector();
+	ENGINE_API UClass* Z_Construct_UClass_UPrimitiveComponent_NoRegister();
+	ENGINE_API UClass* Z_Construct_UClass_AActor_NoRegister();
 	ENGINE_API UClass* Z_Construct_UClass_UCameraComponent_NoRegister();
 	ENGINE_API UClass* Z_Construct_UClass_USpringArmComponent_NoRegister();
 // End Cross Module References
 	void AProtagClass::StaticRegisterNativesAProtagClass()
 	{
+		UClass* Class = AProtagClass::StaticClass();
+		static const FNameNativePtrPair Funcs[] = {
+			{ "protagHit", &AProtagClass::execprotagHit },
+		};
+		FNativeFunctionRegistrar::RegisterFunctions(Class, Funcs, ARRAY_COUNT(Funcs));
+	}
+	struct Z_Construct_UFunction_AProtagClass_protagHit_Statics
+	{
+		struct ProtagClass_eventprotagHit_Parms
+		{
+			UPrimitiveComponent* HitComponent;
+			AActor* OtherActor;
+			UPrimitiveComponent* OtherComp;
+			FVector NormalImpulse;
+			FHitResult Hit;
+		};
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_Hit_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FStructPropertyParams NewProp_Hit;
+		static const UE4CodeGen_Private::FStructPropertyParams NewProp_NormalImpulse;
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_OtherComp_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_OtherComp;
+		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_OtherActor;
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_HitComponent_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_HitComponent;
+		static const UE4CodeGen_Private::FPropertyParamsBase* const PropPointers[];
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam Function_MetaDataParams[];
+#endif
+		static const UE4CodeGen_Private::FFunctionParams FuncParams;
+	};
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_AProtagClass_protagHit_Statics::NewProp_Hit_MetaData[] = {
+		{ "NativeConst", "" },
+	};
+#endif
+	const UE4CodeGen_Private::FStructPropertyParams Z_Construct_UFunction_AProtagClass_protagHit_Statics::NewProp_Hit = { UE4CodeGen_Private::EPropertyClass::Struct, "Hit", RF_Public|RF_Transient|RF_MarkAsNative, (EPropertyFlags)0x0010008008000182, 1, nullptr, STRUCT_OFFSET(ProtagClass_eventprotagHit_Parms, Hit), Z_Construct_UScriptStruct_FHitResult, METADATA_PARAMS(Z_Construct_UFunction_AProtagClass_protagHit_Statics::NewProp_Hit_MetaData, ARRAY_COUNT(Z_Construct_UFunction_AProtagClass_protagHit_Statics::NewProp_Hit_MetaData)) };
+	const UE4CodeGen_Private::FStructPropertyParams Z_Construct_UFunction_AProtagClass_protagHit_Statics::NewProp_NormalImpulse = { UE4CodeGen_Private::EPropertyClass::Struct, "NormalImpulse", RF_Public|RF_Transient|RF_MarkAsNative, (EPropertyFlags)0x0010000000000080, 1, nullptr, STRUCT_OFFSET(ProtagClass_eventprotagHit_Parms, NormalImpulse), Z_Construct_UScriptStruct_FVector, METADATA_PARAMS(nullptr, 0) };
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_AProtagClass_protagHit_Statics::NewProp_OtherComp_MetaData[] = {
+		{ "EditInline", "true" },
+	};
+#endif
+	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UFunction_AProtagClass_protagHit_Statics::NewProp_OtherComp = { UE4CodeGen_Private::EPropertyClass::Object, "OtherComp", RF_Public|RF_Transient|RF_MarkAsNative, (EPropertyFlags)0x0010000000080080, 1, nullptr, STRUCT_OFFSET(ProtagClass_eventprotagHit_Parms, OtherComp), Z_Construct_UClass_UPrimitiveComponent_NoRegister, METADATA_PARAMS(Z_Construct_UFunction_AProtagClass_protagHit_Statics::NewProp_OtherComp_MetaData, ARRAY_COUNT(Z_Construct_UFunction_AProtagClass_protagHit_Statics::NewProp_OtherComp_MetaData)) };
+	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UFunction_AProtagClass_protagHit_Statics::NewProp_OtherActor = { UE4CodeGen_Private::EPropertyClass::Object, "OtherActor", RF_Public|RF_Transient|RF_MarkAsNative, (EPropertyFlags)0x0010000000000080, 1, nullptr, STRUCT_OFFSET(ProtagClass_eventprotagHit_Parms, OtherActor), Z_Construct_UClass_AActor_NoRegister, METADATA_PARAMS(nullptr, 0) };
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_AProtagClass_protagHit_Statics::NewProp_HitComponent_MetaData[] = {
+		{ "EditInline", "true" },
+	};
+#endif
+	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UFunction_AProtagClass_protagHit_Statics::NewProp_HitComponent = { UE4CodeGen_Private::EPropertyClass::Object, "HitComponent", RF_Public|RF_Transient|RF_MarkAsNative, (EPropertyFlags)0x0010000000080080, 1, nullptr, STRUCT_OFFSET(ProtagClass_eventprotagHit_Parms, HitComponent), Z_Construct_UClass_UPrimitiveComponent_NoRegister, METADATA_PARAMS(Z_Construct_UFunction_AProtagClass_protagHit_Statics::NewProp_HitComponent_MetaData, ARRAY_COUNT(Z_Construct_UFunction_AProtagClass_protagHit_Statics::NewProp_HitComponent_MetaData)) };
+	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UFunction_AProtagClass_protagHit_Statics::PropPointers[] = {
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_AProtagClass_protagHit_Statics::NewProp_Hit,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_AProtagClass_protagHit_Statics::NewProp_NormalImpulse,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_AProtagClass_protagHit_Statics::NewProp_OtherComp,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_AProtagClass_protagHit_Statics::NewProp_OtherActor,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_AProtagClass_protagHit_Statics::NewProp_HitComponent,
+	};
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_AProtagClass_protagHit_Statics::Function_MetaDataParams[] = {
+		{ "ModuleRelativePath", "ProtagClass.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_AProtagClass_protagHit_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_AProtagClass, "protagHit", RF_Public|RF_Transient|RF_MarkAsNative, nullptr, (EFunctionFlags)0x00C20401, sizeof(ProtagClass_eventprotagHit_Parms), Z_Construct_UFunction_AProtagClass_protagHit_Statics::PropPointers, ARRAY_COUNT(Z_Construct_UFunction_AProtagClass_protagHit_Statics::PropPointers), 0, 0, METADATA_PARAMS(Z_Construct_UFunction_AProtagClass_protagHit_Statics::Function_MetaDataParams, ARRAY_COUNT(Z_Construct_UFunction_AProtagClass_protagHit_Statics::Function_MetaDataParams)) };
+	UFunction* Z_Construct_UFunction_AProtagClass_protagHit()
+	{
+		static UFunction* ReturnFunction = nullptr;
+		if (!ReturnFunction)
+		{
+			UE4CodeGen_Private::ConstructUFunction(ReturnFunction, Z_Construct_UFunction_AProtagClass_protagHit_Statics::FuncParams);
+		}
+		return ReturnFunction;
 	}
 	UClass* Z_Construct_UClass_AProtagClass_NoRegister()
 	{
@@ -30,6 +112,7 @@ void EmptyLinkFunctionForGeneratedCodeProtagClass() {}
 	struct Z_Construct_UClass_AProtagClass_Statics
 	{
 		static UObject* (*const DependentSingletons[])();
+		static const FClassFunctionLinkInfo FuncInfo[];
 #if WITH_METADATA
 		static const UE4CodeGen_Private::FMetaDataPairParam Class_MetaDataParams[];
 #endif
@@ -48,6 +131,9 @@ void EmptyLinkFunctionForGeneratedCodeProtagClass() {}
 	UObject* (*const Z_Construct_UClass_AProtagClass_Statics::DependentSingletons[])() = {
 		(UObject* (*)())Z_Construct_UClass_ABase2DCharacter,
 		(UObject* (*)())Z_Construct_UPackage__Script_HSPGame,
+	};
+	const FClassFunctionLinkInfo Z_Construct_UClass_AProtagClass_Statics::FuncInfo[] = {
+		{ &Z_Construct_UFunction_AProtagClass_protagHit, "protagHit" }, // 2929544594
 	};
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AProtagClass_Statics::Class_MetaDataParams[] = {
@@ -84,7 +170,7 @@ void EmptyLinkFunctionForGeneratedCodeProtagClass() {}
 		&AProtagClass::StaticClass,
 		DependentSingletons, ARRAY_COUNT(DependentSingletons),
 		0x009000A0u,
-		nullptr, 0,
+		FuncInfo, ARRAY_COUNT(FuncInfo),
 		Z_Construct_UClass_AProtagClass_Statics::PropPointers, ARRAY_COUNT(Z_Construct_UClass_AProtagClass_Statics::PropPointers),
 		nullptr,
 		&StaticCppClassTypeInfo,
@@ -100,7 +186,7 @@ void EmptyLinkFunctionForGeneratedCodeProtagClass() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(AProtagClass, 3641658110);
+	IMPLEMENT_CLASS(AProtagClass, 1431403684);
 	static FCompiledInDefer Z_CompiledInDefer_UClass_AProtagClass(Z_Construct_UClass_AProtagClass, &AProtagClass::StaticClass, TEXT("/Script/HSPGame"), TEXT("AProtagClass"), false, nullptr, nullptr, nullptr);
 	DEFINE_VTABLE_PTR_HELPER_CTOR(AProtagClass);
 PRAGMA_ENABLE_DEPRECATION_WARNINGS

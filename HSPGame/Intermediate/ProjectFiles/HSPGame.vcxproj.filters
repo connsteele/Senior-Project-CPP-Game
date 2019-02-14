@@ -3,7 +3,7 @@
   <ItemGroup>
     <None Include="..\..\HSPGame.uproject" />
     <Filter Include="Source">
-      <UniqueIdentifier>{2FA1106D-1A73-4F9E-86C3-2ADC3D82A61C}</UniqueIdentifier>
+      <UniqueIdentifier>{0CADF393-F0E4-4188-BBEF-11473E2F6BB7}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\HSPGame.Target.cs">
       <Filter>Source</Filter>
@@ -12,7 +12,7 @@
       <Filter>Source</Filter>
     </None>
     <Filter Include="Config">
-      <UniqueIdentifier>{0416033E-CC1F-49BC-B016-54A4D760DA63}</UniqueIdentifier>
+      <UniqueIdentifier>{6E8CC534-B246-47EF-995C-D51B57ABA8C8}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Config\DefaultEditor.ini">
       <Filter>Config</Filter>
@@ -27,7 +27,7 @@
       <Filter>Config</Filter>
     </None>
     <Filter Include="Source\HSPGame">
-      <UniqueIdentifier>{4F519676-75F4-4C1E-971F-A1601E5977FB}</UniqueIdentifier>
+      <UniqueIdentifier>{9E393A72-0E1A-4F4B-BAAB-F19D6F04B786}</UniqueIdentifier>
     </Filter>
     <ClCompile Include="..\..\Source\HSPGame\Base2DCharacter.cpp">
       <Filter>Source\HSPGame</Filter>
@@ -39,6 +39,12 @@
       <Filter>Source\HSPGame</Filter>
     </ClCompile>
     <ClInclude Include="..\..\Source\HSPGame\EnemyClass.h">
+      <Filter>Source\HSPGame</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\HSPGame\EnemySlime.cpp">
+      <Filter>Source\HSPGame</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\HSPGame\EnemySlime.h">
       <Filter>Source\HSPGame</Filter>
     </ClInclude>
     <None Include="..\..\Source\HSPGame\HSPGame.Build.cs">
@@ -62,15 +68,5 @@
     <ClInclude Include="..\..\Source\HSPGame\ProtagClass.h">
       <Filter>Source\HSPGame</Filter>
     </ClInclude>
-  </ItemGroup>
-  <ItemGroup>
-    <ClInclude Include="..\..\Source\HSPGame\EnemySlime.h">
-      <Filter>Source\HSPGame</Filter>
-    </ClInclude>
-  </ItemGroup>
-  <ItemGroup>
-    <ClCompile Include="..\..\Source\HSPGame\EnemySlime.cpp">
-      <Filter>Source\HSPGame</Filter>
-    </ClCompile>
   </ItemGroup>
 </Project>
