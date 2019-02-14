@@ -37,6 +37,8 @@ AProtagClass::AProtagClass()
 
 	//Setup vision hit
 	GetCapsuleComponent()->OnComponentHit.AddDynamic(this, &AProtagClass::charHit);
+	visionSphere->SetGenerateOverlapEvents(true);
+	visionSphere->SetNotifyRigidBodyCollision(true);
 	visionSphere->OnComponentBeginOverlap.AddDynamic(this, &AProtagClass::inSight);
 	
 }
@@ -46,6 +48,10 @@ AProtagClass::AProtagClass()
 void AProtagClass::BeginPlay()
 {
 	Super::BeginPlay();
+	/*GetCapsuleComponent()->OnComponentHit.AddDynamic(this, &AProtagClass::charHit);
+	visionSphere->SetGenerateOverlapEvents(true);
+	visionSphere->SetNotifyRigidBodyCollision(true);
+	visionSphere->OnComponentBeginOverlap.AddDynamic(this, &AProtagClass::inSight);*/
 }
 
 // Called every frame
