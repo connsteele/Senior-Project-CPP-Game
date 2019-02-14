@@ -3,7 +3,7 @@
   <ItemGroup>
     <None Include="..\..\HSPGame.uproject" />
     <Filter Include="Source">
-      <UniqueIdentifier>{3075AE18-DFEC-4D92-91DD-A1F34889FC29}</UniqueIdentifier>
+      <UniqueIdentifier>{2FA1106D-1A73-4F9E-86C3-2ADC3D82A61C}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\HSPGame.Target.cs">
       <Filter>Source</Filter>
@@ -12,7 +12,7 @@
       <Filter>Source</Filter>
     </None>
     <Filter Include="Config">
-      <UniqueIdentifier>{C42C0C0B-D51D-4803-B2FE-F265323ED16F}</UniqueIdentifier>
+      <UniqueIdentifier>{0416033E-CC1F-49BC-B016-54A4D760DA63}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Config\DefaultEditor.ini">
       <Filter>Config</Filter>
@@ -27,7 +27,7 @@
       <Filter>Config</Filter>
     </None>
     <Filter Include="Source\HSPGame">
-      <UniqueIdentifier>{ED2427C9-A734-4CE9-B9DC-9A4787431747}</UniqueIdentifier>
+      <UniqueIdentifier>{4F519676-75F4-4C1E-971F-A1601E5977FB}</UniqueIdentifier>
     </Filter>
     <ClCompile Include="..\..\Source\HSPGame\Base2DCharacter.cpp">
       <Filter>Source\HSPGame</Filter>
@@ -62,5 +62,15 @@
     <ClInclude Include="..\..\Source\HSPGame\ProtagClass.h">
       <Filter>Source\HSPGame</Filter>
     </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\Source\HSPGame\EnemySlime.h">
+      <Filter>Source\HSPGame</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\Source\HSPGame\EnemySlime.cpp">
+      <Filter>Source\HSPGame</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

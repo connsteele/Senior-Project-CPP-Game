@@ -39,8 +39,10 @@ void AProtagClass::BeginPlay()
 {
 	Super::BeginPlay();
 
-	
-	
+	// Test adding self to battle chars array
+	// Get the game mode and cast it
+	AHSPGameGameModeBase* gameModeref = (AHSPGameGameModeBase*)GetWorld()->GetAuthGameMode();
+	gameModeref->addToBattle((ABase2DCharacter *)this);
 }
 
 // Called every frame

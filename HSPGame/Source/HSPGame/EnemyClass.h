@@ -7,6 +7,8 @@
 #include "Base2DCharacter.h"
 #include "EnemyClass.generated.h"
 
+#define enemyHashSize 1
+
 /**
  * 
  */

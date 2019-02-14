@@ -9,6 +9,7 @@
 #include "Camera/CameraComponent.h"
 #include "GameFramework/SpringArmComponent.h"
 #include "PaperFlipbookComponent.h"
+#include "HSPGameGameModeBase.h"
 #include "PaperCharacter.h"
 #include "Base2DCharacter.h"
 #include "Math/Rotator.h"
