@@ -3,7 +3,7 @@
 #include "EnemyClass.h"
 
 // Constructor
-AEnemyClass::AEnemyClass()
+AEnemyClass::AEnemyClass() : ABase2DCharacter()
 {
 
 }

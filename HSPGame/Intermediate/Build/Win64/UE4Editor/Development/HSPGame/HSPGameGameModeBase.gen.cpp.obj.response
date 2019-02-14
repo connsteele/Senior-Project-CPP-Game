@@ -412,9 +412,9 @@
 /I ThirdParty
 /I ThirdParty\libSampleRate\Public
 /I ThirdParty\libSampleRate
-/I "C:\Users\Connor\Documents\CP-School\Senior Project\GitRepos\Senior-Project-CPP-Testground\HSPGame\Intermediate\Build\Win64\UE4Editor\Inc\HSPGame"
-/I "C:\Users\Connor\Documents\CP-School\Senior Project\GitRepos\Senior-Project-CPP-Testground\HSPGame\Source"
-/I "C:\Users\Connor\Documents\CP-School\Senior Project\GitRepos\Senior-Project-CPP-Testground\HSPGame\Source\HSPGame"
+/I C:\Users\gosus\Documents\CP-School\SeniorProject\gitRepos\Senior-Project-CPP-Testground\HSPGame\Intermediate\Build\Win64\UE4Editor\Inc\HSPGame
+/I C:\Users\gosus\Documents\CP-School\SeniorProject\gitRepos\Senior-Project-CPP-Testground\HSPGame\Source
+/I C:\Users\gosus\Documents\CP-School\SeniorProject\gitRepos\Senior-Project-CPP-Testground\HSPGame\Source\HSPGame
 /I ..\Plugins\2D\Paper2D\Intermediate\Build\Win64\UE4Editor\Inc\Paper2D
 /I ..\Plugins\2D\Paper2D\Source
 /I ..\Plugins\2D\Paper2D\Source\Paper2D\Classes
@@ -426,12 +426,12 @@
 /I "C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\shared"
 /I "C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\um"
 /I "C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\winrt"
-/FI"C:\Users\Connor\Documents\CP-School\Senior Project\GitRepos\Senior-Project-CPP-Testground\HSPGame\Intermediate\Build\Win64\HSPGameEditor\Development\Engine\SharedPCH.Engine.h"
-/Yu"C:\Users\Connor\Documents\CP-School\Senior Project\GitRepos\Senior-Project-CPP-Testground\HSPGame\Intermediate\Build\Win64\HSPGameEditor\Development\Engine\SharedPCH.Engine.h"
-/Fp"C:\Users\Connor\Documents\CP-School\Senior Project\GitRepos\Senior-Project-CPP-Testground\HSPGame\Intermediate\Build\Win64\HSPGameEditor\Development\Engine\SharedPCH.Engine.h.pch"
-"C:\Users\Connor\Documents\CP-School\Senior Project\GitRepos\Senior-Project-CPP-Testground\HSPGame\Intermediate\Build\Win64\UE4Editor\Inc\HSPGame\HSPGameGameModeBase.gen.cpp"
-/FI"C:\Users\Connor\Documents\CP-School\Senior Project\GitRepos\Senior-Project-CPP-Testground\HSPGame\Intermediate\Build\Win64\UE4Editor\Development\HSPGame\Definitions.HSPGame.h"
-/Fo"C:\Users\Connor\Documents\CP-School\Senior Project\GitRepos\Senior-Project-CPP-Testground\HSPGame\Intermediate\Build\Win64\UE4Editor\Development\HSPGame\HSPGameGameModeBase.gen.cpp.obj"
+/FI"C:\Users\gosus\Documents\CP-School\SeniorProject\gitRepos\Senior-Project-CPP-Testground\HSPGame\Intermediate\Build\Win64\HSPGameEditor\Development\Engine\SharedPCH.Engine.h"
+/Yu"C:\Users\gosus\Documents\CP-School\SeniorProject\gitRepos\Senior-Project-CPP-Testground\HSPGame\Intermediate\Build\Win64\HSPGameEditor\Development\Engine\SharedPCH.Engine.h"
+/Fp"C:\Users\gosus\Documents\CP-School\SeniorProject\gitRepos\Senior-Project-CPP-Testground\HSPGame\Intermediate\Build\Win64\HSPGameEditor\Development\Engine\SharedPCH.Engine.h.pch"
+"C:\Users\gosus\Documents\CP-School\SeniorProject\gitRepos\Senior-Project-CPP-Testground\HSPGame\Intermediate\Build\Win64\UE4Editor\Inc\HSPGame\HSPGameGameModeBase.gen.cpp"
+/FI"C:\Users\gosus\Documents\CP-School\SeniorProject\gitRepos\Senior-Project-CPP-Testground\HSPGame\Intermediate\Build\Win64\UE4Editor\Development\HSPGame\Definitions.HSPGame.h"
+/Fo"C:\Users\gosus\Documents\CP-School\SeniorProject\gitRepos\Senior-Project-CPP-Testground\HSPGame\Intermediate\Build\Win64\UE4Editor\Development\HSPGame\HSPGameGameModeBase.gen.cpp.obj"
 /TP
 /GR-
 /W4

@@ -1,14 +1,28 @@
-﻿  Using 'git status' to determine working set for adaptive non-unity build (C:\Users\Connor\Documents\CP-School\Senior Project\GitRepos\Senior-Project-CPP-Testground).
+﻿  Using 'git status' to determine working set for adaptive non-unity build (C:\Users\gosus\Documents\CP-School\SeniorProject\gitRepos\Senior-Project-CPP-Testground).
   Creating makefile for HSPGameEditor (no existing makefile)
+  Performing full C++ include scan (no include cache file)
   Using Visual Studio 2017 14.16.27023 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023) and Windows 10.0.17763.0 SDK (C:\Program Files (x86)\Windows Kits\10).
-  Deleting old hot reload file: "C:\Users\Connor\Documents\CP-School\Senior Project\GitRepos\Senior-Project-CPP-Testground\HSPGame\Binaries\Win64\UE4Editor-HSPGame-6223.dll".
-  Deleting old hot reload file: "C:\Users\Connor\Documents\CP-School\Senior Project\GitRepos\Senior-Project-CPP-Testground\HSPGame\Binaries\Win64\UE4Editor-HSPGame-6223.pdb".
-  Building 4 actions with 12 processes...
-    [1/4] Base2DCharacter.cpp
-    [2/4] ProtagClass.cpp
-    [3/4] UE4Editor-HSPGame.lib
-       Creating library C:\Users\Connor\Documents\CP-School\Senior Project\GitRepos\Senior-Project-CPP-Testground\HSPGame\Intermediate\Build\Win64\UE4Editor\Development\HSPGame\UE4Editor-HSPGame.lib and object C:\Users\Connor\Documents\CP-School\Senior Project\GitRepos\Senior-Project-CPP-Testground\HSPGame\Intermediate\Build\Win64\UE4Editor\Development\HSPGame\UE4Editor-HSPGame.exp
-    [4/4] UE4Editor-HSPGame.dll
-       Creating library C:\Users\Connor\Documents\CP-School\Senior Project\GitRepos\Senior-Project-CPP-Testground\HSPGame\Intermediate\Build\Win64\UE4Editor\Development\HSPGame\UE4Editor-HSPGame.suppressed.lib and object C:\Users\Connor\Documents\CP-School\Senior Project\GitRepos\Senior-Project-CPP-Testground\HSPGame\Intermediate\Build\Win64\UE4Editor\Development\HSPGame\UE4Editor-HSPGame.suppressed.exp
+  Parsing headers for HSPGameEditor
+    Running UnrealHeaderTool "C:\Users\gosus\Documents\CP-School\SeniorProject\gitRepos\Senior-Project-CPP-Testground\HSPGame\HSPGame.uproject" "C:\Users\gosus\Documents\CP-School\SeniorProject\gitRepos\Senior-Project-CPP-Testground\HSPGame\Intermediate\Build\Win64\HSPGameEditor\Development\HSPGameEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+  Reflection code generated for HSPGameEditor in 7.3673919 seconds
+  Building 16 actions with 8 processes...
+    [1/16] PCLaunch.rc
+    [2/16] SharedPCH.Engine.cpp
+    [3/16] HSPGame.cpp
+    [4/16] EnemyClass.cpp
+    [5/16] HSPGameGameModeBase.cpp
+    [6/16] HSPGame.init.gen.cpp
+    [7/16] EnemyClass.gen.cpp
+    [8/16] Base2DCharacter.gen.cpp
+    [9/16] EnemySlime.cpp
+    [10/16] EnemySlime.gen.cpp
+    [11/16] ProtagClass.cpp
+    [12/16] Base2DCharacter.cpp
+    [13/16] HSPGameGameModeBase.gen.cpp
+    [14/16] ProtagClass.gen.cpp
+    [15/16] UE4Editor-HSPGame.lib
+       Creating library C:\Users\gosus\Documents\CP-School\SeniorProject\gitRepos\Senior-Project-CPP-Testground\HSPGame\Intermediate\Build\Win64\UE4Editor\Development\HSPGame\UE4Editor-HSPGame.lib and object C:\Users\gosus\Documents\CP-School\SeniorProject\gitRepos\Senior-Project-CPP-Testground\HSPGame\Intermediate\Build\Win64\UE4Editor\Development\HSPGame\UE4Editor-HSPGame.exp
+    [16/16] UE4Editor-HSPGame.dll
+       Creating library C:\Users\gosus\Documents\CP-School\SeniorProject\gitRepos\Senior-Project-CPP-Testground\HSPGame\Intermediate\Build\Win64\UE4Editor\Development\HSPGame\UE4Editor-HSPGame.suppressed.lib and object C:\Users\gosus\Documents\CP-School\SeniorProject\gitRepos\Senior-Project-CPP-Testground\HSPGame\Intermediate\Build\Win64\UE4Editor\Development\HSPGame\UE4Editor-HSPGame.suppressed.exp
   Deploying HSPGameEditor Win64 Development...
-  Total build time: 7.12 seconds (Parallel executor: 1.88 seconds)
+  Total build time: 34.17 seconds (Parallel executor: 22.47 seconds)

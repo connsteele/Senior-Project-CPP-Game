@@ -1,7 +1,7 @@
 // Fill out your copyright notice in the Description page of Project Settings.
 
 #pragma once
-#define D(x) if(GEngine){GEngine->AddOnScreenDebugMessage(-1, 2.0f, FColor::Yellow, TEXT(x));} // Debug macro
+
 #include "CoreMinimal.h"
 #include "GameFramework/Character.h"
 #include "GameFramework/Actor.h"
@@ -14,9 +14,10 @@
 #include "PaperCharacter.h"
 #include "Base2DCharacter.h"
 #include "Math/Rotator.h"
-#include "Components/SphereComponent.h"
 // No includes under this
 #include "ProtagClass.generated.h"
+
+#define D(x) if(GEngine){GEngine->AddOnScreenDebugMessage(-1, 2.0f, FColor::Yellow, TEXT(x));} // Debug macro
 
 UCLASS()
 class HSPGAME_API AProtagClass : public ABase2DCharacter
@@ -27,36 +28,38 @@ public:
 	// Constructor
 	AProtagClass();
 
-	// Called every frame
-	virtual void Tick(float DeltaTime) override;
-
-	// Called to bind functionality to input
-	virtual void SetupPlayerInputComponent(class UInputComponent* PlayerInputComponent) override;
+	
 
 	// Functions 
 	void moveRight(float axisValue);
 	void moveForward(float axisValue);
 	void resetRotation();
 
+	//--- Override Functions
+	//UFUNCTION()
+	//	void protagHit(UPrimitiveComponent* HitComponent, AActor* OtherActor, UPrimitiveComponent* OtherComp, FVector NormalImpulse, const FHitResult& Hit);
 	UFUNCTION()
-		void protagHit(UPrimitiveComponent* HitComponent, AActor* OtherActor, UPrimitiveComponent* OtherComp, FVector NormalImpulse, const FHitResult& Hit);
+		virtual void inSight(UPrimitiveComponent * OverlappedComponent, AActor * OtherActor, UPrimitiveComponent * OtherComp, int32 OtherBodyIndex, bool bFromSweep, const FHitResult & SweepResult);
 	UFUNCTION()
-	void inSight(UPrimitiveComponent * OverlappedComponent, AActor * OtherActor, UPrimitiveComponent * OtherComp, int32 OtherBodyIndex, bool bFromSweep, const FHitResult & SweepResult);
-	
+		virtual void charHit(UPrimitiveComponent* HitComponent, AActor* OtherActor, UPrimitiveComponent* OtherComp, FVector NormalImpulse, const FHitResult& Hit);
 
+	// Called every frame
+	virtual void Tick(float DeltaTime) override;
+	// Called to bind functionality to input
+	virtual void SetupPlayerInputComponent(class UInputComponent* PlayerInputComponent) override;
 	
 	// Class Properties
 	/*UPROPERTY(EditAnywhere)
 		UStaticMeshComponent * MyMesh;*/
-
+	//--- Components
 	UPROPERTY(EditAnywhere)
 		USpringArmComponent * CamBoom;
 
 	UPROPERTY(EditAnywhere)
 		UCameraComponent * Camera;
 
-	UPROPERTY(EditAnywhere)
-		USphereComponent * CircCollider;
+	/*UPROPERTY(EditAnywhere)
+		USphereComponent * CircCollider;*/
 
 
 protected:

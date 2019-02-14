@@ -7,7 +7,7 @@
 #include "Base2DCharacter.h"
 //#include "ProtagClass.h"
 #include "EnemyClass.h"
-#include "EnemySlime.h"
+//#include "EnemySlime.h"
 #include "Containers/Array.h"
 #include "HSPGameGameModeBase.generated.h"
 

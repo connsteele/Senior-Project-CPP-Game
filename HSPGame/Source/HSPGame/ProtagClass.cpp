@@ -5,14 +5,12 @@
 
 // On Class Construction
 AProtagClass::AProtagClass()
+	: ABase2DCharacter() //Call Parent Constructor
 {
 	/*
 	--- Notes ---
 	- Idle animation is set by blueprint so it's visible in the viewport
 	*/
-
- 	// Set this character to call Tick() every frame.  You can turn this off to improve performance if you don't need it.
-	PrimaryActorTick.bCanEverTick = true;
 
 	//---  Set up Variables from Parent Classes ---
 	// Make Pawn Movement Component
@@ -26,27 +24,28 @@ AProtagClass::AProtagClass()
 	Camera = CreateDefaultSubobject<UCameraComponent>("myCamera");
 	Camera->SetupAttachment(CamBoom);
 
-	//Circle collider for protag
-	CircCollider = CreateDefaultSubobject<USphereComponent>("VisionCollider");
-	CircCollider->SetupAttachment(GetCapsuleComponent());
+	visionSphere->SetSphereRadius(250.f);
+
+	
 
 	// Initialize Movement Anim bools
 	isHorzMoving = false;
 	isVertMoving = false;
 
-	// Setup hit
-	GetCapsuleComponent()->OnComponentHit.AddDynamic(this, &AProtagClass::protagHit);
+	//// Setup hit
+	//GetCapsuleComponent()->OnComponentHit.AddDynamic(this, &AProtagClass::protagHit);
 
 	//Setup vision hit
-	CircCollider->OnComponentBeginOverlap.AddDynamic(this, &AProtagClass::inSight);
-
+	GetCapsuleComponent()->OnComponentHit.AddDynamic(this, &AProtagClass::charHit);
+	visionSphere->OnComponentBeginOverlap.AddDynamic(this, &AProtagClass::inSight);
+	
 }
 
+//--- Functions From Parent Classes
 // Called when the game starts or when spawned
 void AProtagClass::BeginPlay()
 {
 	Super::BeginPlay();
-
 }
 
 // Called every frame
@@ -125,31 +124,39 @@ void AProtagClass::resetRotation()
 	GetSprite()->SetWorldRotation(FRotator(0.f, 90.f, 0.f));
 }
 
-// Overlap Events
-
-UFUNCTION()
-void AProtagClass::protagHit(UPrimitiveComponent* HitComponent, AActor* OtherActor, UPrimitiveComponent* OtherComp, FVector NormalImpulse, const FHitResult& Hit)
-{
-	D("Protag Overlap!");
-
-	// Casts return Null if they fail
-	AEnemySlime * slimeRef = Cast<AEnemySlime>(OtherActor);
-	if (slimeRef)
-	{
-		D("Hit Enemy Slime!");
-	}
-}
-
+//--- Overlap Events
+// On Player Capsule Component Hit
+//UFUNCTION()
+//void AProtagClass::protagHit(UPrimitiveComponent* HitComponent, AActor* OtherActor, UPrimitiveComponent* OtherComp, FVector NormalImpulse, const FHitResult& Hit)
+//{
+//	//D("Protag Overlap!");
+//
+//	// Casts return Null if they fail
+//	AEnemySlime * slimeRef = Cast<AEnemySlime>(OtherActor);
+//	if (slimeRef)
+//	{
+//		//D("Hit Enemy Slime!");
+//	}
+//}
+//
 UFUNCTION()
 void AProtagClass::inSight(UPrimitiveComponent* OverlappedComponent, AActor* OtherActor, UPrimitiveComponent* OtherComp, int32 OtherBodyIndex, bool bFromSweep, const FHitResult & SweepResult)
 {
+	D("Player Vision Sphere Hit");
 	// Test adding self to battle chars array
 	// Get the game mode and cast it
-	if (Cast<AEnemyClass>(OtherActor) != NULL)
+	if ((Cast<AEnemyClass>(OtherActor) != NULL) && (Cast<UCapsuleComponent>(OtherComp)) && (isBattling == false))
 	{
+		isBattling = true;
 		AHSPGameGameModeBase* gameModeref = (AHSPGameGameModeBase*)GetWorld()->GetAuthGameMode();
 		gameModeref->addToBattle(this, "Protag"); // maybe cast this to (ABase2DCharacter *)
-		D("Enemy in sight!")
+		D("Player Enters Battle");
 	}
 	
+}
+
+UFUNCTION()
+void AProtagClass::charHit(UPrimitiveComponent * HitComponent, AActor * OtherActor, UPrimitiveComponent * OtherComp, FVector NormalImpulse, const FHitResult & Hit)
+{
+	D("WOWOWOWOWWOWOWOWOWOW");
 }
