@@ -8,6 +8,9 @@ ABase2DCharacter::ABase2DCharacter()
  	// Set this character to call Tick() every frame.  You can turn this off to improve performance if you don't need it.
 	PrimaryActorTick.bCanEverTick = true;
 
+	//Circle collider for characters
+	/*CircCollider = CreateDefaultSubobject<USphereComponent>("VisionCollider");
+	CircCollider->SetupAttachment(GetCapsuleComponent());*/
 }
 
 // Called when the game starts or when spawned

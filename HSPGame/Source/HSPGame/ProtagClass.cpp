@@ -26,12 +26,19 @@ AProtagClass::AProtagClass()
 	Camera = CreateDefaultSubobject<UCameraComponent>("myCamera");
 	Camera->SetupAttachment(CamBoom);
 
+	//Circle collider for protag
+	CircCollider = CreateDefaultSubobject<USphereComponent>("VisionCollider");
+	CircCollider->SetupAttachment(GetCapsuleComponent());
+
 	// Initialize Movement Anim bools
 	isHorzMoving = false;
 	isVertMoving = false;
 
 	// Setup hit
 	GetCapsuleComponent()->OnComponentHit.AddDynamic(this, &AProtagClass::protagHit);
+
+	//Setup vision hit
+	CircCollider->OnComponentBeginOverlap.AddDynamic(this, &AProtagClass::inSight);
 
 }
 
@@ -40,11 +47,6 @@ void AProtagClass::BeginPlay()
 {
 	Super::BeginPlay();
 
-	// Test adding self to battle chars array
-	// Get the game mode and cast it
-	AHSPGameGameModeBase* gameModeref = (AHSPGameGameModeBase*)GetWorld()->GetAuthGameMode();
-	gameModeref->addToBattle(this, "Protag"); // maybe cast this to (ABase2DCharacter *)
-	
 }
 
 // Called every frame
@@ -123,6 +125,8 @@ void AProtagClass::resetRotation()
 	GetSprite()->SetWorldRotation(FRotator(0.f, 90.f, 0.f));
 }
 
+// Overlap Events
+
 UFUNCTION()
 void AProtagClass::protagHit(UPrimitiveComponent* HitComponent, AActor* OtherActor, UPrimitiveComponent* OtherComp, FVector NormalImpulse, const FHitResult& Hit)
 {
@@ -134,4 +138,18 @@ void AProtagClass::protagHit(UPrimitiveComponent* HitComponent, AActor* OtherAct
 	{
 		D("Hit Enemy Slime!");
 	}
+}
+
+UFUNCTION()
+void AProtagClass::inSight(UPrimitiveComponent* OverlappedComponent, AActor* OtherActor, UPrimitiveComponent* OtherComp, int32 OtherBodyIndex, bool bFromSweep, const FHitResult & SweepResult)
+{
+	// Test adding self to battle chars array
+	// Get the game mode and cast it
+	if (Cast<AEnemyClass>(OtherActor) != NULL)
+	{
+		AHSPGameGameModeBase* gameModeref = (AHSPGameGameModeBase*)GetWorld()->GetAuthGameMode();
+		gameModeref->addToBattle(this, "Protag"); // maybe cast this to (ABase2DCharacter *)
+		D("Enemy in sight!")
+	}
+	
 }

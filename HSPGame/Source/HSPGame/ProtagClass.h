@@ -14,6 +14,7 @@
 #include "PaperCharacter.h"
 #include "Base2DCharacter.h"
 #include "Math/Rotator.h"
+#include "Components/SphereComponent.h"
 // No includes under this
 #include "ProtagClass.generated.h"
 
@@ -39,6 +40,9 @@ public:
 
 	UFUNCTION()
 		void protagHit(UPrimitiveComponent* HitComponent, AActor* OtherActor, UPrimitiveComponent* OtherComp, FVector NormalImpulse, const FHitResult& Hit);
+	UFUNCTION()
+	void inSight(UPrimitiveComponent * OverlappedComponent, AActor * OtherActor, UPrimitiveComponent * OtherComp, int32 OtherBodyIndex, bool bFromSweep, const FHitResult & SweepResult);
+	
 
 	
 	// Class Properties
@@ -50,6 +54,9 @@ public:
 
 	UPROPERTY(EditAnywhere)
 		UCameraComponent * Camera;
+
+	UPROPERTY(EditAnywhere)
+		USphereComponent * CircCollider;
 
 
 protected:
