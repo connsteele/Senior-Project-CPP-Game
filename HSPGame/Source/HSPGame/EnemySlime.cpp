@@ -5,11 +5,27 @@
 AEnemySlime::AEnemySlime() : AEnemyClass()
 {
 	// Set the slime's vision radius
-	visionSphere->SetSphereRadius(120.f);
+	visionSphere->SetSphereRadius(200.f);
 	//Setup vision hit
-	visionSphere->OnComponentBeginOverlap.AddDynamic(this, &AEnemySlime::inSight);
+	
 }
 
+void AEnemySlime::BeginPlay()
+{
+	//--- Event Setup
+	GetCapsuleComponent()->OnComponentHit.RemoveDynamic(this, &AEnemySlime::charHit);
+	GetCapsuleComponent()->OnComponentHit.AddDynamic(this, &AEnemySlime::charHit);
+	visionSphere->SetGenerateOverlapEvents(true);
+	visionSphere->SetNotifyRigidBodyCollision(true);
+	visionSphere->OnComponentBeginOverlap.RemoveDynamic(this, &AEnemySlime::inSight);
+	visionSphere->OnComponentBeginOverlap.AddDynamic(this, &AEnemySlime::inSight);
+
+	// Allow actor to move
+	isMoveable = true;
+}
+
+
+//--- Functions Bound Using AddDynamic
 void AEnemySlime::inSight(UPrimitiveComponent * OverlappedComponent, AActor * OtherActor, UPrimitiveComponent * OtherComp, int32 OtherBodyIndex, bool bFromSweep, const FHitResult & SweepResult)
 {
 	D("Slime hit");
@@ -24,5 +40,7 @@ void AEnemySlime::inSight(UPrimitiveComponent * OverlappedComponent, AActor * Ot
 
 void AEnemySlime::charHit(UPrimitiveComponent * HitComponent, AActor * OtherActor, UPrimitiveComponent * OtherComp, FVector NormalImpulse, const FHitResult & Hit) {
 	//die();
+	// GetWorld()->ForceGarbageCollection(true);
+	Destroy();
 }
 

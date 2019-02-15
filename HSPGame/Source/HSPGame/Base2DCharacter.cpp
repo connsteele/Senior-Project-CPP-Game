@@ -66,7 +66,7 @@ void ABase2DCharacter::resetRotation()
 }
 
 void die() {
-	//Destroy();
+	//AActor::Destroy();
 }
 
 

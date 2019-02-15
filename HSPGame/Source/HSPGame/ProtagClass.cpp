@@ -24,7 +24,7 @@ AProtagClass::AProtagClass()
 	Camera = CreateDefaultSubobject<UCameraComponent>("myCamera");
 	Camera->SetupAttachment(CamBoom);
 
-	visionSphere->SetSphereRadius(250.f);
+	visionSphere->SetSphereRadius(300.f);
 
 	
 }
@@ -51,8 +51,12 @@ void AProtagClass::BeginPlay()
 	attackCost = 20.f;
 	distanceToAP = 5.f;
 
+	// Allow actor to move
+	isMoveable = true;
 	isHorzMoving = false;
 	isVertMoving = false;
+
+	
 }
 
 // Called every frame

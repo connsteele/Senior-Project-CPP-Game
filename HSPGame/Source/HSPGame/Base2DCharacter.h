@@ -39,7 +39,10 @@ public:
 	void inSight(UPrimitiveComponent * OverlappedComponent, AActor * OtherActor, UPrimitiveComponent * OtherComp, int32 OtherBodyIndex, bool bFromSweep, const FHitResult & SweepResult);
 	void charHit(UPrimitiveComponent * HitComponent, AActor * OtherActor, UPrimitiveComponent * OtherComp, FVector NormalImpulse, const FHitResult & Hit);
 
-	// Booleans for animation
+	// Movement Booleans
+	bool isMoveable;
+	
+	// uses for animation
 	bool isHorzMoving;
 	bool isVertMoving;
 
@@ -67,7 +70,7 @@ public:
 	void moveRight();
 	void moveForward();
 	void resetRotation();
-	//void die();
+	void die();
 	//friend class ProtagClass; //Let protag class can direcly acces this classes vars
 
 // Accessible by all derivations of this class
