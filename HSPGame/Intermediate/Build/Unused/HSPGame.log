@@ -1,11 +1,12 @@
 ﻿  Using 'git status' to determine working set for adaptive non-unity build (C:\Users\gosus\Documents\CP-School\SeniorProject\gitRepos\Senior-Project-CPP-Testground).
-  Creating makefile for HSPGameEditor (source directory changed)
+  Creating makefile for hot reloading HSPGameEditor (source directory changed)
+  Compiling game modules for hot reload
   Using Visual Studio 2017 14.16.27023 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023) and Windows 10.0.17763.0 SDK (C:\Program Files (x86)\Windows Kits\10).
   Building 3 actions with 8 processes...
-    [1/3] ProtagClass.cpp
-    [2/3] UE4Editor-HSPGame.lib
-       Creating library C:\Users\gosus\Documents\CP-School\SeniorProject\gitRepos\Senior-Project-CPP-Testground\HSPGame\Intermediate\Build\Win64\UE4Editor\Development\HSPGame\UE4Editor-HSPGame.lib and object C:\Users\gosus\Documents\CP-School\SeniorProject\gitRepos\Senior-Project-CPP-Testground\HSPGame\Intermediate\Build\Win64\UE4Editor\Development\HSPGame\UE4Editor-HSPGame.exp
-    [3/3] UE4Editor-HSPGame.dll
-       Creating library C:\Users\gosus\Documents\CP-School\SeniorProject\gitRepos\Senior-Project-CPP-Testground\HSPGame\Intermediate\Build\Win64\UE4Editor\Development\HSPGame\UE4Editor-HSPGame.suppressed.lib and object C:\Users\gosus\Documents\CP-School\SeniorProject\gitRepos\Senior-Project-CPP-Testground\HSPGame\Intermediate\Build\Win64\UE4Editor\Development\HSPGame\UE4Editor-HSPGame.suppressed.exp
+    [1/3] HSPGameGameModeBase.cpp
+    [2/3] UE4Editor-HSPGame-8014.lib
+       Creating library C:\Users\gosus\Documents\CP-School\SeniorProject\gitRepos\Senior-Project-CPP-Testground\HSPGame\Intermediate\Build\Win64\UE4Editor\Development\HSPGame\UE4Editor-HSPGame-8014.lib and object C:\Users\gosus\Documents\CP-School\SeniorProject\gitRepos\Senior-Project-CPP-Testground\HSPGame\Intermediate\Build\Win64\UE4Editor\Development\HSPGame\UE4Editor-HSPGame-8014.exp
+    [3/3] UE4Editor-HSPGame-8014.dll
+       Creating library C:\Users\gosus\Documents\CP-School\SeniorProject\gitRepos\Senior-Project-CPP-Testground\HSPGame\Intermediate\Build\Win64\UE4Editor\Development\HSPGame\UE4Editor-HSPGame-8014.suppressed.lib and object C:\Users\gosus\Documents\CP-School\SeniorProject\gitRepos\Senior-Project-CPP-Testground\HSPGame\Intermediate\Build\Win64\UE4Editor\Development\HSPGame\UE4Editor-HSPGame-8014.suppressed.exp
   Deploying HSPGameEditor Win64 Development...
-  Total build time: 5.05 seconds (Parallel executor: 1.76 seconds)
+  Total build time: 5.24 seconds (Parallel executor: 1.52 seconds)

@@ -27,31 +27,32 @@ AProtagClass::AProtagClass()
 	visionSphere->SetSphereRadius(250.f);
 
 	
-
-	// Initialize Movement Anim bools
-	isHorzMoving = false;
-	isVertMoving = false;
-
-	//// Setup hit
-	//GetCapsuleComponent()->OnComponentHit.AddDynamic(this, &AProtagClass::protagHit);
-
-	//Setup vision hit
-	GetCapsuleComponent()->OnComponentHit.AddDynamic(this, &AProtagClass::charHit);
-	visionSphere->SetGenerateOverlapEvents(true);
-	visionSphere->SetNotifyRigidBodyCollision(true);
-	visionSphere->OnComponentBeginOverlap.AddDynamic(this, &AProtagClass::inSight);
-	
 }
 
 //--- Functions From Parent Classes
 // Called when the game starts or when spawned
 void AProtagClass::BeginPlay()
 {
+	//Super call
 	Super::BeginPlay();
-	/*GetCapsuleComponent()->OnComponentHit.AddDynamic(this, &AProtagClass::charHit);
+
+	//Event setups
+	GetCapsuleComponent()->OnComponentHit.RemoveDynamic(this, &AProtagClass::charHit);
+	GetCapsuleComponent()->OnComponentHit.AddDynamic(this, &AProtagClass::charHit);
 	visionSphere->SetGenerateOverlapEvents(true);
 	visionSphere->SetNotifyRigidBodyCollision(true);
-	visionSphere->OnComponentBeginOverlap.AddDynamic(this, &AProtagClass::inSight);*/
+	visionSphere->OnComponentBeginOverlap.RemoveDynamic(this, &AProtagClass::inSight);
+	visionSphere->OnComponentBeginOverlap.AddDynamic(this, &AProtagClass::inSight);
+
+	//Variable declarations
+	currHealth = 100.f;
+	maxHealth = 100.f;
+	AP = 200.f;
+	attackCost = 20.f;
+	distanceToAP = 5.f;
+
+	isHorzMoving = false;
+	isVertMoving = false;
 }
 
 // Called every frame
@@ -164,5 +165,7 @@ void AProtagClass::inSight(UPrimitiveComponent* OverlappedComponent, AActor* Oth
 UFUNCTION()
 void AProtagClass::charHit(UPrimitiveComponent * HitComponent, AActor * OtherActor, UPrimitiveComponent * OtherComp, FVector NormalImpulse, const FHitResult & Hit)
 {
-	D("WOWOWOWOWWOWOWOWOWOW");
+	
+	D(FString::FromInt(currHealth));
+
 }

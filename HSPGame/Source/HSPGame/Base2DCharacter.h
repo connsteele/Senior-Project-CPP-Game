@@ -43,6 +43,13 @@ public:
 	bool isHorzMoving;
 	bool isVertMoving;
 
+	//Integer values for battle
+	float currHealth;
+	float maxHealth;
+	float AP;
+	float attackCost;
+	float distanceToAP;
+
 	// Animations for the Class
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = Animations)
 		UPaperFlipbook * idleAnim;
@@ -60,6 +67,7 @@ public:
 	void moveRight();
 	void moveForward();
 	void resetRotation();
+	//void die();
 	//friend class ProtagClass; //Let protag class can direcly acces this classes vars
 
 // Accessible by all derivations of this class

@@ -62,6 +62,11 @@ void ABase2DCharacter::moveForward()
 void ABase2DCharacter::resetRotation()
 {
 	GetSprite()->SetWorldRotation(FRotator(0.f, 90.f, 0.f));
+
+}
+
+void die() {
+	//Destroy();
 }
 
 

@@ -10,6 +10,7 @@
 PRAGMA_DISABLE_DEPRECATION_WARNINGS
 class UPrimitiveComponent;
 class AActor;
+struct FVector;
 struct FHitResult;
 #ifdef HSPGAME_EnemySlime_generated_h
 #error "EnemySlime.generated.h already included, missing '#pragma once' in EnemySlime.h"
@@ -17,6 +18,19 @@ struct FHitResult;
 #define HSPGAME_EnemySlime_generated_h
 
 #define HSPGame_Source_HSPGame_EnemySlime_h_22_RPC_WRAPPERS \
+ \
+	DECLARE_FUNCTION(execcharHit) \
+	{ \
+		P_GET_OBJECT(UPrimitiveComponent,Z_Param_HitComponent); \
+		P_GET_OBJECT(AActor,Z_Param_OtherActor); \
+		P_GET_OBJECT(UPrimitiveComponent,Z_Param_OtherComp); \
+		P_GET_STRUCT(FVector,Z_Param_NormalImpulse); \
+		P_GET_STRUCT_REF(FHitResult,Z_Param_Out_Hit); \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		P_THIS->charHit(Z_Param_HitComponent,Z_Param_OtherActor,Z_Param_OtherComp,Z_Param_NormalImpulse,Z_Param_Out_Hit); \
+		P_NATIVE_END; \
+	} \
  \
 	DECLARE_FUNCTION(execinSight) \
 	{ \
@@ -34,6 +48,19 @@ struct FHitResult;
 
 
 #define HSPGame_Source_HSPGame_EnemySlime_h_22_RPC_WRAPPERS_NO_PURE_DECLS \
+ \
+	DECLARE_FUNCTION(execcharHit) \
+	{ \
+		P_GET_OBJECT(UPrimitiveComponent,Z_Param_HitComponent); \
+		P_GET_OBJECT(AActor,Z_Param_OtherActor); \
+		P_GET_OBJECT(UPrimitiveComponent,Z_Param_OtherComp); \
+		P_GET_STRUCT(FVector,Z_Param_NormalImpulse); \
+		P_GET_STRUCT_REF(FHitResult,Z_Param_Out_Hit); \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		P_THIS->charHit(Z_Param_HitComponent,Z_Param_OtherActor,Z_Param_OtherComp,Z_Param_NormalImpulse,Z_Param_Out_Hit); \
+		P_NATIVE_END; \
+	} \
  \
 	DECLARE_FUNCTION(execinSight) \
 	{ \

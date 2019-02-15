@@ -24,6 +24,7 @@ public:
 	{
 		ABase2DCharacter * charRef;
 		FString className;
+		int battleIndex;
 
 	};
 
@@ -32,9 +33,12 @@ public:
 	TArray<battleCharNode> battleChars;
 	void addToBattle(ABase2DCharacter *addChar, FString className);
 
-	int battleChIndex = 0;
+	//index of fighter whose turn it is
+	int activeFighterIndex = 0;
 
 	int get2DcharClassType(FString className);
+
+	void nextFighter();
 
 	
 

@@ -17,7 +17,7 @@
 // No includes under this
 #include "ProtagClass.generated.h"
 
-#define D(x) if(GEngine){GEngine->AddOnScreenDebugMessage(-1, 2.0f, FColor::Yellow, TEXT(x));} // Debug macro
+#define D(x) if(GEngine){GEngine->AddOnScreenDebugMessage(-1, 2.0f, FColor::Yellow, x);} // Debug macro
 
 UCLASS()
 class HSPGAME_API AProtagClass : public ABase2DCharacter
@@ -28,7 +28,6 @@ public:
 	// Constructor
 	AProtagClass();
 
-	
 
 	// Functions 
 	void moveRight(float axisValue);

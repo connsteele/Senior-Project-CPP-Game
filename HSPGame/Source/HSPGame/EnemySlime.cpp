@@ -21,3 +21,8 @@ void AEnemySlime::inSight(UPrimitiveComponent * OverlappedComponent, AActor * Ot
 		D("Slime Enters Battle");
 	}
 }
+
+void AEnemySlime::charHit(UPrimitiveComponent * HitComponent, AActor * OtherActor, UPrimitiveComponent * OtherComp, FVector NormalImpulse, const FHitResult & Hit) {
+	//die();
+}
+

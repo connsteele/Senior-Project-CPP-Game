@@ -9,6 +9,7 @@ void AHSPGameGameModeBase::addToBattle(ABase2DCharacter * addChar, FString class
 	battleCharNode bpNode;
 	bpNode.charRef = addChar;
 	bpNode.className = className;
+	bpNode.battleIndex = battleChars.Num();
 	// Add the new character to the end of the battle array
 	battleChars.Add(bpNode);
 	//battleChars.Find(AProtagClass *, battleChIndex);
@@ -25,4 +26,14 @@ int get2DcharClassType(FString className)
 		return 0;
 	}
 	return -1;
+}
+
+void AHSPGameGameModeBase::nextFighter() {
+	activeFighterIndex++;
+
+	if (activeFighterIndex == battleChars.Num()) {
+		activeFighterIndex = 0;
+	}
+
+	//TODO: Call actors start turn
 }
