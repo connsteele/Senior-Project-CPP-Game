@@ -90,7 +90,12 @@ void AProtagClass::SetupPlayerInputComponent(UInputComponent* PlayerInputCompone
 
 void AProtagClass::cursorClick()
 {
-	D("YA DUN CLICKED");
+	APlayerController* PC = GetWorld()->GetFirstPlayerController();
+	FHitResult HitResult;
+	PC->GetHitResultUnderCursorByChannel(UEngineTypes::ConvertToTraceType(ECC_Visibility), true, HitResult);
+	FVector HitResLoc= HitResult.Location;
+	SetActorLocation(HitResLoc);
+	D(FString::SanitizeFloat(HitResLoc.X));
 }
 
 // Override the Parent Classe's moveRight() function
