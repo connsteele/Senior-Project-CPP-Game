@@ -3,10 +3,12 @@
   Compiling game modules for hot reload
   Using Visual Studio 2017 14.16.27023 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023) and Windows 10.0.17763.0 SDK (C:\Program Files (x86)\Windows Kits\10).
   Building 3 actions with 8 processes...
-    [1/3] HSPGameGameModeBase.cpp
-    [2/3] UE4Editor-HSPGame-8014.lib
-       Creating library C:\Users\gosus\Documents\CP-School\SeniorProject\gitRepos\Senior-Project-CPP-Testground\HSPGame\Intermediate\Build\Win64\UE4Editor\Development\HSPGame\UE4Editor-HSPGame-8014.lib and object C:\Users\gosus\Documents\CP-School\SeniorProject\gitRepos\Senior-Project-CPP-Testground\HSPGame\Intermediate\Build\Win64\UE4Editor\Development\HSPGame\UE4Editor-HSPGame-8014.exp
-    [3/3] UE4Editor-HSPGame-8014.dll
-       Creating library C:\Users\gosus\Documents\CP-School\SeniorProject\gitRepos\Senior-Project-CPP-Testground\HSPGame\Intermediate\Build\Win64\UE4Editor\Development\HSPGame\UE4Editor-HSPGame-8014.suppressed.lib and object C:\Users\gosus\Documents\CP-School\SeniorProject\gitRepos\Senior-Project-CPP-Testground\HSPGame\Intermediate\Build\Win64\UE4Editor\Development\HSPGame\UE4Editor-HSPGame-8014.suppressed.exp
+    [1/3] ProtagClass.cpp
+c:\users\gosus\documents\cp-school\seniorproject\gitrepos\senior-project-cpp-testground\hspgame\source\hspgame\ProtagClass.h(21): warning C4005: 'D': macro redefinition
+    c:\users\gosus\documents\cp-school\seniorproject\gitrepos\senior-project-cpp-testground\hspgame\source\hspgame\Base2DCharacter.h(13): note: see previous definition of 'D'
+    [2/3] UE4Editor-HSPGame-4708.lib
+       Creating library C:\Users\gosus\Documents\CP-School\SeniorProject\gitRepos\Senior-Project-CPP-Testground\HSPGame\Intermediate\Build\Win64\UE4Editor\Development\HSPGame\UE4Editor-HSPGame-4708.lib and object C:\Users\gosus\Documents\CP-School\SeniorProject\gitRepos\Senior-Project-CPP-Testground\HSPGame\Intermediate\Build\Win64\UE4Editor\Development\HSPGame\UE4Editor-HSPGame-4708.exp
+    [3/3] UE4Editor-HSPGame-4708.dll
+       Creating library C:\Users\gosus\Documents\CP-School\SeniorProject\gitRepos\Senior-Project-CPP-Testground\HSPGame\Intermediate\Build\Win64\UE4Editor\Development\HSPGame\UE4Editor-HSPGame-4708.suppressed.lib and object C:\Users\gosus\Documents\CP-School\SeniorProject\gitRepos\Senior-Project-CPP-Testground\HSPGame\Intermediate\Build\Win64\UE4Editor\Development\HSPGame\UE4Editor-HSPGame-4708.suppressed.exp
   Deploying HSPGameEditor Win64 Development...
-  Total build time: 5.24 seconds (Parallel executor: 1.52 seconds)
+  Total build time: 4.83 seconds (Parallel executor: 1.58 seconds)

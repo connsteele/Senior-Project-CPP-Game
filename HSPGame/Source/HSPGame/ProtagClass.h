@@ -13,6 +13,7 @@
 #include "HSPGameGameModeBase.h"
 #include "PaperCharacter.h"
 #include "Base2DCharacter.h"
+//#include "Kismet/GameplayStatics.h" 
 #include "Math/Rotator.h"
 // No includes under this
 #include "ProtagClass.generated.h"

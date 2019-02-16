@@ -36,6 +36,16 @@ void AProtagClass::BeginPlay()
 	//Super call
 	Super::BeginPlay();
 
+	// Show the cursor in the game and enable events
+	APlayerController* PC = GetWorld()->GetFirstPlayerController();
+	if (PC)
+	{
+		PC->bShowMouseCursor = true;
+		PC->bEnableClickEvents = true;
+		PC->bEnableMouseOverEvents = true;
+	}
+
+
 	//Event setups
 	GetCapsuleComponent()->OnComponentHit.RemoveDynamic(this, &AProtagClass::charHit);
 	GetCapsuleComponent()->OnComponentHit.AddDynamic(this, &AProtagClass::charHit);

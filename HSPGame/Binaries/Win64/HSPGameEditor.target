@@ -18,11 +18,11 @@
 	"Launch": "$(EngineDir)/Binaries/Win64/UE4Editor.exe",
 	"BuildProducts": [
 		{
-			"Path": "$(ProjectDir)/Binaries/Win64/UE4Editor-HSPGame-8014.dll",
+			"Path": "$(ProjectDir)/Binaries/Win64/UE4Editor-HSPGame-4708.dll",
 			"Type": "DynamicLibrary"
 		},
 		{
-			"Path": "$(ProjectDir)/Binaries/Win64/UE4Editor-HSPGame-8014.pdb",
+			"Path": "$(ProjectDir)/Binaries/Win64/UE4Editor-HSPGame-4708.pdb",
 			"Type": "SymbolFile"
 		},
 		{

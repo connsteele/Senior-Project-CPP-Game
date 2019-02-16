@@ -17,7 +17,7 @@ struct FHitResult;
 #endif
 #define HSPGAME_ProtagClass_generated_h
 
-#define HSPGame_Source_HSPGame_ProtagClass_h_25_RPC_WRAPPERS \
+#define HSPGame_Source_HSPGame_ProtagClass_h_26_RPC_WRAPPERS \
  \
 	DECLARE_FUNCTION(execcharHit) \
 	{ \
@@ -47,7 +47,7 @@ struct FHitResult;
 	}
 
 
-#define HSPGame_Source_HSPGame_ProtagClass_h_25_RPC_WRAPPERS_NO_PURE_DECLS \
+#define HSPGame_Source_HSPGame_ProtagClass_h_26_RPC_WRAPPERS_NO_PURE_DECLS \
  \
 	DECLARE_FUNCTION(execcharHit) \
 	{ \
@@ -77,7 +77,7 @@ struct FHitResult;
 	}
 
 
-#define HSPGame_Source_HSPGame_ProtagClass_h_25_INCLASS_NO_PURE_DECLS \
+#define HSPGame_Source_HSPGame_ProtagClass_h_26_INCLASS_NO_PURE_DECLS \
 private: \
 	static void StaticRegisterNativesAProtagClass(); \
 	friend struct Z_Construct_UClass_AProtagClass_Statics; \
@@ -86,7 +86,7 @@ public: \
 	DECLARE_SERIALIZER(AProtagClass)
 
 
-#define HSPGame_Source_HSPGame_ProtagClass_h_25_INCLASS \
+#define HSPGame_Source_HSPGame_ProtagClass_h_26_INCLASS \
 private: \
 	static void StaticRegisterNativesAProtagClass(); \
 	friend struct Z_Construct_UClass_AProtagClass_Statics; \
@@ -95,7 +95,7 @@ public: \
 	DECLARE_SERIALIZER(AProtagClass)
 
 
-#define HSPGame_Source_HSPGame_ProtagClass_h_25_STANDARD_CONSTRUCTORS \
+#define HSPGame_Source_HSPGame_ProtagClass_h_26_STANDARD_CONSTRUCTORS \
 	/** Standard constructor, called after all reflected properties have been initialized */ \
 	NO_API AProtagClass(const FObjectInitializer& ObjectInitializer); \
 	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(AProtagClass) \
@@ -108,7 +108,7 @@ private: \
 public:
 
 
-#define HSPGame_Source_HSPGame_ProtagClass_h_25_ENHANCED_CONSTRUCTORS \
+#define HSPGame_Source_HSPGame_ProtagClass_h_26_ENHANCED_CONSTRUCTORS \
 private: \
 	/** Private move- and copy-constructors, should never be used */ \
 	NO_API AProtagClass(AProtagClass&&); \
@@ -119,26 +119,26 @@ DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(AProtagClass); \
 	DEFINE_DEFAULT_CONSTRUCTOR_CALL(AProtagClass)
 
 
-#define HSPGame_Source_HSPGame_ProtagClass_h_25_PRIVATE_PROPERTY_OFFSET
-#define HSPGame_Source_HSPGame_ProtagClass_h_22_PROLOG
-#define HSPGame_Source_HSPGame_ProtagClass_h_25_GENERATED_BODY_LEGACY \
+#define HSPGame_Source_HSPGame_ProtagClass_h_26_PRIVATE_PROPERTY_OFFSET
+#define HSPGame_Source_HSPGame_ProtagClass_h_23_PROLOG
+#define HSPGame_Source_HSPGame_ProtagClass_h_26_GENERATED_BODY_LEGACY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	HSPGame_Source_HSPGame_ProtagClass_h_25_PRIVATE_PROPERTY_OFFSET \
-	HSPGame_Source_HSPGame_ProtagClass_h_25_RPC_WRAPPERS \
-	HSPGame_Source_HSPGame_ProtagClass_h_25_INCLASS \
-	HSPGame_Source_HSPGame_ProtagClass_h_25_STANDARD_CONSTRUCTORS \
+	HSPGame_Source_HSPGame_ProtagClass_h_26_PRIVATE_PROPERTY_OFFSET \
+	HSPGame_Source_HSPGame_ProtagClass_h_26_RPC_WRAPPERS \
+	HSPGame_Source_HSPGame_ProtagClass_h_26_INCLASS \
+	HSPGame_Source_HSPGame_ProtagClass_h_26_STANDARD_CONSTRUCTORS \
 public: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
 
-#define HSPGame_Source_HSPGame_ProtagClass_h_25_GENERATED_BODY \
+#define HSPGame_Source_HSPGame_ProtagClass_h_26_GENERATED_BODY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	HSPGame_Source_HSPGame_ProtagClass_h_25_PRIVATE_PROPERTY_OFFSET \
-	HSPGame_Source_HSPGame_ProtagClass_h_25_RPC_WRAPPERS_NO_PURE_DECLS \
-	HSPGame_Source_HSPGame_ProtagClass_h_25_INCLASS_NO_PURE_DECLS \
-	HSPGame_Source_HSPGame_ProtagClass_h_25_ENHANCED_CONSTRUCTORS \
+	HSPGame_Source_HSPGame_ProtagClass_h_26_PRIVATE_PROPERTY_OFFSET \
+	HSPGame_Source_HSPGame_ProtagClass_h_26_RPC_WRAPPERS_NO_PURE_DECLS \
+	HSPGame_Source_HSPGame_ProtagClass_h_26_INCLASS_NO_PURE_DECLS \
+	HSPGame_Source_HSPGame_ProtagClass_h_26_ENHANCED_CONSTRUCTORS \
 private: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
