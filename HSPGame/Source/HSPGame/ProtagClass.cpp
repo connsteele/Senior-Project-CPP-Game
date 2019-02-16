@@ -43,6 +43,7 @@ void AProtagClass::BeginPlay()
 		PC->bShowMouseCursor = true;
 		PC->bEnableClickEvents = true;
 		PC->bEnableMouseOverEvents = true;
+		
 	}
 
 
@@ -82,7 +83,14 @@ void AProtagClass::SetupPlayerInputComponent(UInputComponent* PlayerInputCompone
 
 	PlayerInputComponent->BindAxis("MoveForward", this, &AProtagClass::moveForward);
 	PlayerInputComponent->BindAxis("MoveRight", this, &AProtagClass::moveRight);
+	// Bind the mouse click to a function
+	PlayerInputComponent->BindAction("CursorClicked", IE_Pressed, this, &AProtagClass::cursorClick);
 
+}
+
+void AProtagClass::cursorClick()
+{
+	D("YA DUN CLICKED");
 }
 
 // Override the Parent Classe's moveRight() function
