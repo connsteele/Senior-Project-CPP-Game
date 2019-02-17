@@ -56,11 +56,6 @@ void ABase2DCharacter::getTurnDistance()
 	turnAP = (distanceTravelled / distanceToAP) + turnAP;
 	lastRecordedLocation = loc;
 
-	if (turnAP >= maxTurnAP) {
-		if (isTurn) {
-			endTurn();
-		}
-	}
 	D(FString::SanitizeFloat(turnAP));
 }
 
@@ -83,7 +78,7 @@ void ABase2DCharacter::resetRotation()
 
 void ABase2DCharacter::endTurn()
 {
-	D("jjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj");
+	D("firing!!!!!!!!!!");
 }
 
 void ABase2DCharacter::startTurn()

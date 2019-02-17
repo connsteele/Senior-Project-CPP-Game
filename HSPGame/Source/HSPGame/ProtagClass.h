@@ -36,6 +36,7 @@ public:
 	void resetRotation();
 	void startTurn();
 	void endTurn();
+	void getTurnDistance();
 
 	//--- Override Functions
 	//UFUNCTION()
