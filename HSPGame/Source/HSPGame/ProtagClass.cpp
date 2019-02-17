@@ -216,13 +216,3 @@ void AProtagClass::endTurn()
 {
 	turnAP = 0;
 }
-
-void AProtagClass::getTurnDistance()
-{
-	Super::getTurnDistance();
-	if (turnAP >= maxTurnAP) {
-		if (isTurn) {
-			endTurn();
-		}
-	}
-}

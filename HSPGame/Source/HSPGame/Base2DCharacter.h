@@ -77,7 +77,7 @@ public:
 	void moveForward();
 	void resetRotation();
 	void die();
-	void endTurn();
+	virtual void endTurn();
 	void startTurn();
 	//friend class ProtagClass; //Let protag class can direcly acces this classes vars
 

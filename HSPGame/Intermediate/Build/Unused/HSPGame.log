@@ -1,10 +1,6 @@
 ﻿  Using 'git status' to determine working set for adaptive non-unity build (C:\Users\gosus\Documents\CP-School\SeniorProject\gitRepos\Senior-Project-CPP-Testground).
   Creating makefile for HSPGameEditor (source directory changed)
   Using Visual Studio 2017 14.16.27023 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023) and Windows 10.0.17763.0 SDK (C:\Program Files (x86)\Windows Kits\10).
-  Deleting old hot reload file: "C:\Users\gosus\Documents\CP-School\SeniorProject\gitRepos\Senior-Project-CPP-Testground\HSPGame\Binaries\Win64\UE4Editor-HSPGame-1654.dll".
-  Deleting old hot reload file: "C:\Users\gosus\Documents\CP-School\SeniorProject\gitRepos\Senior-Project-CPP-Testground\HSPGame\Binaries\Win64\UE4Editor-HSPGame-1654.pdb".
-  Deleting old hot reload file: "C:\Users\gosus\Documents\CP-School\SeniorProject\gitRepos\Senior-Project-CPP-Testground\HSPGame\Binaries\Win64\UE4Editor-HSPGame-8004.dll".
-  Deleting old hot reload file: "C:\Users\gosus\Documents\CP-School\SeniorProject\gitRepos\Senior-Project-CPP-Testground\HSPGame\Binaries\Win64\UE4Editor-HSPGame-8004.pdb".
   Building 4 actions with 8 processes...
     [1/4] Base2DCharacter.cpp
     [2/4] ProtagClass.cpp
@@ -13,4 +9,4 @@
     [4/4] UE4Editor-HSPGame.dll
        Creating library C:\Users\gosus\Documents\CP-School\SeniorProject\gitRepos\Senior-Project-CPP-Testground\HSPGame\Intermediate\Build\Win64\UE4Editor\Development\HSPGame\UE4Editor-HSPGame.suppressed.lib and object C:\Users\gosus\Documents\CP-School\SeniorProject\gitRepos\Senior-Project-CPP-Testground\HSPGame\Intermediate\Build\Win64\UE4Editor\Development\HSPGame\UE4Editor-HSPGame.suppressed.exp
   Deploying HSPGameEditor Win64 Development...
-  Total build time: 4.80 seconds (Parallel executor: 1.65 seconds)
+  Total build time: 4.81 seconds (Parallel executor: 1.70 seconds)

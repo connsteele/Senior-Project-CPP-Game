@@ -57,6 +57,12 @@ void ABase2DCharacter::getTurnDistance()
 	lastRecordedLocation = loc;
 
 	D(FString::SanitizeFloat(turnAP));
+
+	if (turnAP >= maxTurnAP) {
+		if (isTurn) {
+			endTurn();
+		}
+	}
 }
 
 // Base2DCharacter's Function Definitions

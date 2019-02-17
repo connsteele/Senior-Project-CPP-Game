@@ -35,8 +35,7 @@ public:
 	void moveForward(float axisValue);
 	void resetRotation();
 	void startTurn();
-	void endTurn();
-	void getTurnDistance();
+	virtual void endTurn();
 
 	//--- Override Functions
 	//UFUNCTION()
