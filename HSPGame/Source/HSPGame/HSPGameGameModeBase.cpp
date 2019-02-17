@@ -30,14 +30,14 @@ int get2DcharClassType(FString className)
 
 
 void AHSPGameGameModeBase::nextFighter() {
+	//Do out of bounds check before grabbing next fighter
+	if (activeFighterIndex == battleChars.Num()) {
+		activeFighterIndex = 0;
+	}
 
 	ABase2DCharacter * activeFighter = (battleChars[activeFighterIndex].charRef);
 
 	activeFighter->startTurn();
 
 	activeFighterIndex++;
-
-	if (activeFighterIndex == battleChars.Num() + 1) {
-		activeFighterIndex = 0;
-	}
 }
