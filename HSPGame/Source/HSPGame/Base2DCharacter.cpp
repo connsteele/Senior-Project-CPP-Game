@@ -56,7 +56,7 @@ void ABase2DCharacter::getTurnDistance()
 	turnAP = (distanceTravelled / distanceToAP) + turnAP;
 	lastRecordedLocation = loc;
 
-	D(FString::SanitizeFloat(turnAP));
+	//D(FString::SanitizeFloat(turnAP));
 
 	if (turnAP >= maxTurnAP) {
 		if (isTurn) {
@@ -84,7 +84,6 @@ void ABase2DCharacter::resetRotation()
 
 void ABase2DCharacter::endTurn()
 {
-	D("firing!!!!!!!!!!");
 }
 
 void ABase2DCharacter::startTurn()

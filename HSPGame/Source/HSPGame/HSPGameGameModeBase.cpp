@@ -31,18 +31,13 @@ int get2DcharClassType(FString className)
 
 void AHSPGameGameModeBase::nextFighter() {
 
-	//ABase2DCharacter * activeFighter = (battleChars[activeFighterIndex].charRef);
+	ABase2DCharacter * activeFighter = (battleChars[activeFighterIndex].charRef);
 
-	if (battleChars[activeFighterIndex].className == "Protag") {
-
-		AProtagClass * activeFighter = (AProtagClass*)(battleChars[activeFighterIndex].charRef);
-
-		activeFighter->startTurn();
-	}
+	activeFighter->startTurn();
 
 	activeFighterIndex++;
 
-	if (activeFighterIndex == battleChars.Num()) {
+	if (activeFighterIndex == battleChars.Num() + 1) {
 		activeFighterIndex = 0;
 	}
 }

@@ -29,4 +29,8 @@ public:
 	UFUNCTION()
 		void charHit(UPrimitiveComponent * HitComponent, AActor * OtherActor, UPrimitiveComponent * OtherComp, FVector NormalImpulse, const FHitResult & Hit);
 	void BeginPlay();
+
+	//Overriden polymorphic functions
+	virtual void endTurn();
+	virtual void startTurn();
 };

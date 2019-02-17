@@ -24,6 +24,15 @@ void AEnemySlime::BeginPlay()
 	isMoveable = true;
 }
 
+void AEnemySlime::endTurn()
+{
+}
+
+void AEnemySlime::startTurn()
+{
+	D("ENEMY SLIME TURN START!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!");
+}
+
 
 //--- Functions Bound Using AddDynamic
 void AEnemySlime::inSight(UPrimitiveComponent * OverlappedComponent, AActor * OtherActor, UPrimitiveComponent * OtherComp, int32 OtherBodyIndex, bool bFromSweep, const FHitResult & SweepResult)

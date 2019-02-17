@@ -30,11 +30,14 @@ public:
 	AProtagClass();
 
 
+
 	// Functions 
 	void moveRight(float axisValue);
 	void moveForward(float axisValue);
 	void resetRotation();
-	void startTurn();
+
+	//Polymorphic functions. Correct one called 
+	virtual void startTurn();
 	virtual void endTurn();
 
 	//--- Override Functions
