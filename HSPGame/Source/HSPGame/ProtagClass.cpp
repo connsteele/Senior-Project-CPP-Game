@@ -58,7 +58,8 @@ void AProtagClass::BeginPlay()
 	//Variable declarations
 	currHealth = 100.f;
 	maxHealth = 100.f;
-	AP = 200.f;
+	turnAP = 200.f;
+	maxTurnAP = 300.f;
 	attackCost = 20.f;
 	distanceToAP = 5.f;
 
@@ -74,6 +75,9 @@ void AProtagClass::BeginPlay()
 void AProtagClass::Tick(float DeltaTime)
 {
 	Super::Tick(DeltaTime);
+	if (isBattling) {
+		getTurnDistance();
+	}
 }
 
 // Called to bind functionality to input
@@ -185,6 +189,7 @@ void AProtagClass::inSight(UPrimitiveComponent* OverlappedComponent, AActor* Oth
 		AHSPGameGameModeBase* gameModeref = (AHSPGameGameModeBase*)GetWorld()->GetAuthGameMode();
 		gameModeref->addToBattle(this, "Protag"); // maybe cast this to (ABase2DCharacter *)
 		D("Player Enters Battle");
+		gameModeref->nextFighter();
 	}
 	
 }
@@ -195,4 +200,19 @@ void AProtagClass::charHit(UPrimitiveComponent * HitComponent, AActor * OtherAct
 	
 	D(FString::FromInt(currHealth));
 
+}
+
+void AProtagClass::startTurn() {
+	APlayerController* PC = GetWorld()->GetFirstPlayerController();
+	turnAP = 0;
+	//isMoveable = true;
+	//EnableInput(PC);
+	isTurn = true;
+	D("Player turn start");
+	isBattling = true;
+}
+
+void AProtagClass::endTurn()
+{
+	turnAP = 0;
 }

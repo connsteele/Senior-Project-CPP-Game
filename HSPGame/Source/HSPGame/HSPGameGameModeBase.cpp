@@ -28,12 +28,21 @@ int get2DcharClassType(FString className)
 	return -1;
 }
 
+
 void AHSPGameGameModeBase::nextFighter() {
+
+	//ABase2DCharacter * activeFighter = (battleChars[activeFighterIndex].charRef);
+
+	if (battleChars[activeFighterIndex].className == "Protag") {
+
+		AProtagClass * activeFighter = (AProtagClass*)(battleChars[activeFighterIndex].charRef);
+
+		activeFighter->startTurn();
+	}
+
 	activeFighterIndex++;
 
 	if (activeFighterIndex == battleChars.Num()) {
 		activeFighterIndex = 0;
 	}
-
-	//TODO: Call actors start turn
 }

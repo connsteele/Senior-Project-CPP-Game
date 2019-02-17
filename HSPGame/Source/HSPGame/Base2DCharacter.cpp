@@ -48,6 +48,22 @@ void ABase2DCharacter::charHit(UPrimitiveComponent * HitComponent, AActor * Othe
 {
 }
 
+void ABase2DCharacter::getTurnDistance()
+{
+	FVector loc = GetActorLocation();
+	float distanceTravelled = (lastRecordedLocation - loc).Size();
+	//turn the distance to AP
+	turnAP = (distanceTravelled / distanceToAP) + turnAP;
+	lastRecordedLocation = loc;
+
+	if (turnAP >= maxTurnAP) {
+		if (isTurn) {
+			endTurn();
+		}
+	}
+	D(FString::SanitizeFloat(turnAP));
+}
+
 // Base2DCharacter's Function Definitions
 void ABase2DCharacter::moveRight()
 {
@@ -63,6 +79,15 @@ void ABase2DCharacter::resetRotation()
 {
 	GetSprite()->SetWorldRotation(FRotator(0.f, 90.f, 0.f));
 
+}
+
+void ABase2DCharacter::endTurn()
+{
+	D("jjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj");
+}
+
+void ABase2DCharacter::startTurn()
+{
 }
 
 void die() {

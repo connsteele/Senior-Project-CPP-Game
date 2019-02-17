@@ -10,7 +10,7 @@
 #include "Components/SphereComponent.h"
 #include "Base2DCharacter.generated.h"
 
-#define D(x) if(GEngine){GEngine->AddOnScreenDebugMessage(-1, 2.0f, FColor::Yellow, TEXT(x));} // Debug macro
+#define D(x) if(GEngine){GEngine->AddOnScreenDebugMessage(-1, 2.0f, FColor::Yellow, x);} // Debug macro
 
 
 UCLASS()
@@ -38,6 +38,7 @@ public:
 	// Define UFUNCTION in the classes u want to use this
 	void inSight(UPrimitiveComponent * OverlappedComponent, AActor * OtherActor, UPrimitiveComponent * OtherComp, int32 OtherBodyIndex, bool bFromSweep, const FHitResult & SweepResult);
 	void charHit(UPrimitiveComponent * HitComponent, AActor * OtherActor, UPrimitiveComponent * OtherComp, FVector NormalImpulse, const FHitResult & Hit);
+	void getTurnDistance();
 
 	// Movement Booleans
 	bool isMoveable;
@@ -46,12 +47,17 @@ public:
 	bool isHorzMoving;
 	bool isVertMoving;
 
-	//Integer values for battle
+	//Variables values for battle
 	float currHealth;
 	float maxHealth;
-	float AP;
+	float turnAP;
+	float maxTurnAP;
 	float attackCost;
 	float distanceToAP;
+	bool isTurn;
+
+	//Vector for last recorded location
+	FVector lastRecordedLocation;
 
 	// Animations for the Class
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = Animations)
@@ -71,6 +77,8 @@ public:
 	void moveForward();
 	void resetRotation();
 	void die();
+	void endTurn();
+	void startTurn();
 	//friend class ProtagClass; //Let protag class can direcly acces this classes vars
 
 // Accessible by all derivations of this class
