@@ -7,11 +7,15 @@ AEnemySlime::AEnemySlime() : AEnemyClass()
 	// Set the slime's vision radius
 	visionSphere->SetSphereRadius(200.f);
 	//Setup vision hit
+
+
 	
 }
 
 void AEnemySlime::BeginPlay()
 {
+	Super::BeginPlay(); // Need to do this or nothing will work
+
 	//--- Event Setup
 	GetCapsuleComponent()->OnComponentHit.RemoveDynamic(this, &AEnemySlime::charHit);
 	GetCapsuleComponent()->OnComponentHit.AddDynamic(this, &AEnemySlime::charHit);
@@ -24,6 +28,12 @@ void AEnemySlime::BeginPlay()
 	isMoveable = true;
 }
 
+void AEnemySlime::Tick(float DeltaTime)
+{
+	Super::Tick(DeltaTime);
+}
+
+
 void AEnemySlime::endTurn()
 {
 }
@@ -31,6 +41,7 @@ void AEnemySlime::endTurn()
 void AEnemySlime::startTurn()
 {
 	D("ENEMY SLIME TURN START!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!");
+	isTurn = true;
 }
 
 

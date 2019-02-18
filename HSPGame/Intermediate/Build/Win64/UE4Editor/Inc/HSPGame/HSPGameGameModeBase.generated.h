@@ -13,9 +13,9 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 #endif
 #define HSPGAME_HSPGameGameModeBase_generated_h
 
-#define HSPGame_Source_HSPGame_HSPGameGameModeBase_h_20_RPC_WRAPPERS
-#define HSPGame_Source_HSPGame_HSPGameGameModeBase_h_20_RPC_WRAPPERS_NO_PURE_DECLS
-#define HSPGame_Source_HSPGame_HSPGameGameModeBase_h_20_INCLASS_NO_PURE_DECLS \
+#define HSPGame_Source_HSPGame_HSPGameGameModeBase_h_19_RPC_WRAPPERS
+#define HSPGame_Source_HSPGame_HSPGameGameModeBase_h_19_RPC_WRAPPERS_NO_PURE_DECLS
+#define HSPGame_Source_HSPGame_HSPGameGameModeBase_h_19_INCLASS_NO_PURE_DECLS \
 private: \
 	static void StaticRegisterNativesAHSPGameGameModeBase(); \
 	friend struct Z_Construct_UClass_AHSPGameGameModeBase_Statics; \
@@ -24,7 +24,7 @@ public: \
 	DECLARE_SERIALIZER(AHSPGameGameModeBase)
 
 
-#define HSPGame_Source_HSPGame_HSPGameGameModeBase_h_20_INCLASS \
+#define HSPGame_Source_HSPGame_HSPGameGameModeBase_h_19_INCLASS \
 private: \
 	static void StaticRegisterNativesAHSPGameGameModeBase(); \
 	friend struct Z_Construct_UClass_AHSPGameGameModeBase_Statics; \
@@ -33,7 +33,7 @@ public: \
 	DECLARE_SERIALIZER(AHSPGameGameModeBase)
 
 
-#define HSPGame_Source_HSPGame_HSPGameGameModeBase_h_20_STANDARD_CONSTRUCTORS \
+#define HSPGame_Source_HSPGame_HSPGameGameModeBase_h_19_STANDARD_CONSTRUCTORS \
 	/** Standard constructor, called after all reflected properties have been initialized */ \
 	NO_API AHSPGameGameModeBase(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()); \
 	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(AHSPGameGameModeBase) \
@@ -46,7 +46,7 @@ private: \
 public:
 
 
-#define HSPGame_Source_HSPGame_HSPGameGameModeBase_h_20_ENHANCED_CONSTRUCTORS \
+#define HSPGame_Source_HSPGame_HSPGameGameModeBase_h_19_ENHANCED_CONSTRUCTORS \
 	/** Standard constructor, called after all reflected properties have been initialized */ \
 	NO_API AHSPGameGameModeBase(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()) : Super(ObjectInitializer) { }; \
 private: \
@@ -59,26 +59,26 @@ DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(AHSPGameGameModeBase); \
 	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(AHSPGameGameModeBase)
 
 
-#define HSPGame_Source_HSPGame_HSPGameGameModeBase_h_20_PRIVATE_PROPERTY_OFFSET
-#define HSPGame_Source_HSPGame_HSPGameGameModeBase_h_17_PROLOG
-#define HSPGame_Source_HSPGame_HSPGameGameModeBase_h_20_GENERATED_BODY_LEGACY \
+#define HSPGame_Source_HSPGame_HSPGameGameModeBase_h_19_PRIVATE_PROPERTY_OFFSET
+#define HSPGame_Source_HSPGame_HSPGameGameModeBase_h_16_PROLOG
+#define HSPGame_Source_HSPGame_HSPGameGameModeBase_h_19_GENERATED_BODY_LEGACY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	HSPGame_Source_HSPGame_HSPGameGameModeBase_h_20_PRIVATE_PROPERTY_OFFSET \
-	HSPGame_Source_HSPGame_HSPGameGameModeBase_h_20_RPC_WRAPPERS \
-	HSPGame_Source_HSPGame_HSPGameGameModeBase_h_20_INCLASS \
-	HSPGame_Source_HSPGame_HSPGameGameModeBase_h_20_STANDARD_CONSTRUCTORS \
+	HSPGame_Source_HSPGame_HSPGameGameModeBase_h_19_PRIVATE_PROPERTY_OFFSET \
+	HSPGame_Source_HSPGame_HSPGameGameModeBase_h_19_RPC_WRAPPERS \
+	HSPGame_Source_HSPGame_HSPGameGameModeBase_h_19_INCLASS \
+	HSPGame_Source_HSPGame_HSPGameGameModeBase_h_19_STANDARD_CONSTRUCTORS \
 public: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
 
-#define HSPGame_Source_HSPGame_HSPGameGameModeBase_h_20_GENERATED_BODY \
+#define HSPGame_Source_HSPGame_HSPGameGameModeBase_h_19_GENERATED_BODY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	HSPGame_Source_HSPGame_HSPGameGameModeBase_h_20_PRIVATE_PROPERTY_OFFSET \
-	HSPGame_Source_HSPGame_HSPGameGameModeBase_h_20_RPC_WRAPPERS_NO_PURE_DECLS \
-	HSPGame_Source_HSPGame_HSPGameGameModeBase_h_20_INCLASS_NO_PURE_DECLS \
-	HSPGame_Source_HSPGame_HSPGameGameModeBase_h_20_ENHANCED_CONSTRUCTORS \
+	HSPGame_Source_HSPGame_HSPGameGameModeBase_h_19_PRIVATE_PROPERTY_OFFSET \
+	HSPGame_Source_HSPGame_HSPGameGameModeBase_h_19_RPC_WRAPPERS_NO_PURE_DECLS \
+	HSPGame_Source_HSPGame_HSPGameGameModeBase_h_19_INCLASS_NO_PURE_DECLS \
+	HSPGame_Source_HSPGame_HSPGameGameModeBase_h_19_ENHANCED_CONSTRUCTORS \
 private: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 

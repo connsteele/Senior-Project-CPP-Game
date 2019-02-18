@@ -16,7 +16,7 @@
 /**
  * 
  */
-UCLASS()
+UCLASS(Blueprintable)
 class HSPGAME_API AEnemySlime : public AEnemyClass
 {
 	GENERATED_BODY()
@@ -29,6 +29,9 @@ public:
 	UFUNCTION()
 		void charHit(UPrimitiveComponent * HitComponent, AActor * OtherActor, UPrimitiveComponent * OtherComp, FVector NormalImpulse, const FHitResult & Hit);
 	void BeginPlay();
+
+	
+	virtual void Tick(float DeltaTime) override;
 
 	//Overriden polymorphic functions
 	virtual void endTurn();

@@ -58,7 +58,7 @@ void AProtagClass::BeginPlay()
 	//Variable declarations
 	currHealth = 100.f;
 	maxHealth = 100.f;
-	turnAP = 200.f;
+	turnAP = 0;
 	maxTurnAP = 300.f;
 	attackCost = 20.f;
 	distanceToAP = 5.f;
@@ -205,8 +205,9 @@ void AProtagClass::charHit(UPrimitiveComponent * HitComponent, AActor * OtherAct
 void AProtagClass::startTurn() {
 	APlayerController* PC = GetWorld()->GetFirstPlayerController();
 	turnAP = 0;
+	lastRecordedLocation = GetActorLocation();
 	//isMoveable = true;
-	//EnableInput(PC);
+	EnableInput(PC);
 	isTurn = true;
 	D("Player turn start");
 	isBattling = true;
@@ -214,7 +215,7 @@ void AProtagClass::startTurn() {
 
 void AProtagClass::endTurn()
 {
-	turnAP = 0;
+	//turnAP = 0;
 	APlayerController* PC = GetWorld()->GetFirstPlayerController();
 	DisableInput(PC);
 	AHSPGameGameModeBase* gameModeref = (AHSPGameGameModeBase*)GetWorld()->GetAuthGameMode();

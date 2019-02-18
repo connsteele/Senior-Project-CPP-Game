@@ -50,6 +50,11 @@ void EmptyLinkFunctionForGeneratedCodeBase2DCharacter() {}
 #endif
 		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_idleAnim;
 #if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_isTurn_MetaData[];
+#endif
+		static void NewProp_isTurn_SetBit(void* Obj);
+		static const UE4CodeGen_Private::FBoolPropertyParams NewProp_isTurn;
+#if WITH_METADATA
 		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_visionSphere_MetaData[];
 #endif
 		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_visionSphere;
@@ -98,6 +103,17 @@ void EmptyLinkFunctionForGeneratedCodeBase2DCharacter() {}
 #endif
 	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_ABase2DCharacter_Statics::NewProp_idleAnim = { UE4CodeGen_Private::EPropertyClass::Object, "idleAnim", RF_Public|RF_Transient|RF_MarkAsNative, (EPropertyFlags)0x0010000000000005, 1, nullptr, STRUCT_OFFSET(ABase2DCharacter, idleAnim), Z_Construct_UClass_UPaperFlipbook_NoRegister, METADATA_PARAMS(Z_Construct_UClass_ABase2DCharacter_Statics::NewProp_idleAnim_MetaData, ARRAY_COUNT(Z_Construct_UClass_ABase2DCharacter_Statics::NewProp_idleAnim_MetaData)) };
 #if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ABase2DCharacter_Statics::NewProp_isTurn_MetaData[] = {
+		{ "Category", "Base2DCharacter" },
+		{ "ModuleRelativePath", "Base2DCharacter.h" },
+	};
+#endif
+	void Z_Construct_UClass_ABase2DCharacter_Statics::NewProp_isTurn_SetBit(void* Obj)
+	{
+		((ABase2DCharacter*)Obj)->isTurn = 1;
+	}
+	const UE4CodeGen_Private::FBoolPropertyParams Z_Construct_UClass_ABase2DCharacter_Statics::NewProp_isTurn = { UE4CodeGen_Private::EPropertyClass::Bool, "isTurn", RF_Public|RF_Transient|RF_MarkAsNative, (EPropertyFlags)0x0010000000000004, 1, nullptr, sizeof(bool), UE4CodeGen_Private::ENativeBool::Native, sizeof(ABase2DCharacter), &Z_Construct_UClass_ABase2DCharacter_Statics::NewProp_isTurn_SetBit, METADATA_PARAMS(Z_Construct_UClass_ABase2DCharacter_Statics::NewProp_isTurn_MetaData, ARRAY_COUNT(Z_Construct_UClass_ABase2DCharacter_Statics::NewProp_isTurn_MetaData)) };
+#if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ABase2DCharacter_Statics::NewProp_visionSphere_MetaData[] = {
 		{ "Category", "Base2DCharacter" },
 		{ "EditInline", "true" },
@@ -110,6 +126,7 @@ void EmptyLinkFunctionForGeneratedCodeBase2DCharacter() {}
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ABase2DCharacter_Statics::NewProp_walkForwardAnim,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ABase2DCharacter_Statics::NewProp_walkRightAnim,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ABase2DCharacter_Statics::NewProp_idleAnim,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ABase2DCharacter_Statics::NewProp_isTurn,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ABase2DCharacter_Statics::NewProp_visionSphere,
 	};
 	const FCppClassTypeInfoStatic Z_Construct_UClass_ABase2DCharacter_Statics::StaticCppClassTypeInfo = {
@@ -135,7 +152,7 @@ void EmptyLinkFunctionForGeneratedCodeBase2DCharacter() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(ABase2DCharacter, 4078661123);
+	IMPLEMENT_CLASS(ABase2DCharacter, 3111678425);
 	static FCompiledInDefer Z_CompiledInDefer_UClass_ABase2DCharacter(Z_Construct_UClass_ABase2DCharacter, &ABase2DCharacter::StaticClass, TEXT("/Script/HSPGame"), TEXT("ABase2DCharacter"), false, nullptr, nullptr, nullptr);
 	DEFINE_VTABLE_PTR_HELPER_CTOR(ABase2DCharacter);
 PRAGMA_ENABLE_DEPRECATION_WARNINGS

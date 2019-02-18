@@ -54,6 +54,8 @@ public:
 	float maxTurnAP;
 	float attackCost;
 	float distanceToAP;
+
+	UPROPERTY(BlueprintReadWrite)
 	bool isTurn;
 
 	//Vector for last recorded location

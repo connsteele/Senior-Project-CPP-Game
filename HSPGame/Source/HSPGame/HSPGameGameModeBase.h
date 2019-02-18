@@ -5,7 +5,6 @@
 #include "CoreMinimal.h"
 #include "GameFramework/GameModeBase.h"
 #include "Base2DCharacter.h"
-#include "ProtagClass.h"
 #include "EnemyClass.h"
 //#include "EnemySlime.h"
 #include "Containers/Array.h"
