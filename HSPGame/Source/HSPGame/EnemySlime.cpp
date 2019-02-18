@@ -36,12 +36,15 @@ void AEnemySlime::Tick(float DeltaTime)
 
 void AEnemySlime::endTurn()
 {
+	Super::endTurn();
+	isTurn = false;
 }
 
 void AEnemySlime::startTurn()
 {
 	D("ENEMY SLIME TURN START!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!");
 	isTurn = true;
+	isBattling = true;
 }
 
 
@@ -61,6 +64,14 @@ void AEnemySlime::inSight(UPrimitiveComponent * OverlappedComponent, AActor * Ot
 void AEnemySlime::charHit(UPrimitiveComponent * HitComponent, AActor * OtherActor, UPrimitiveComponent * OtherComp, FVector NormalImpulse, const FHitResult & Hit) {
 	//die();
 	// GetWorld()->ForceGarbageCollection(true);
-	Destroy();
+	//Destroy();
+	// If you hit the player's body
+	if ((isTurn == true) && (Cast<AProtagClass>(OtherActor) != NULL) && (Cast<UCapsuleComponent>(OtherComp)))
+	{
+		D("Hit Player");
+		AProtagClass * playerRef = Cast<AProtagClass>(OtherActor);
+		playerRef->currHealth -= 5.0f;
+		endTurn();
+	}
 }
 

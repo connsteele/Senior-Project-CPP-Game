@@ -215,10 +215,8 @@ void AProtagClass::startTurn() {
 
 void AProtagClass::endTurn()
 {
-	//turnAP = 0;
 	APlayerController* PC = GetWorld()->GetFirstPlayerController();
 	DisableInput(PC);
-	AHSPGameGameModeBase* gameModeref = (AHSPGameGameModeBase*)GetWorld()->GetAuthGameMode();
-	gameModeref->nextFighter();
-	isBattling = false;
+	isTurn = false;
+	Super::endTurn();
 }

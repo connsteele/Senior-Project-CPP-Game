@@ -1,6 +1,7 @@
 // Fill out your copyright notice in the Description page of Project Settings.
 
 #include "Base2DCharacter.h"
+#include "HSPGameGameModeBase.h"
 
 // Sets default values
 ABase2DCharacter::ABase2DCharacter()
@@ -84,6 +85,8 @@ void ABase2DCharacter::resetRotation()
 
 void ABase2DCharacter::endTurn()
 {
+	AHSPGameGameModeBase* gameModeref = (AHSPGameGameModeBase*)GetWorld()->GetAuthGameMode();
+	gameModeref->nextFighter();
 }
 
 void ABase2DCharacter::startTurn()
