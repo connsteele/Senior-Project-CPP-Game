@@ -9,6 +9,7 @@ ABase2DCharacter::ABase2DCharacter()
  	// Set this character to call Tick() every frame.  You can turn this off to improve performance if you don't need it.
 	PrimaryActorTick.bCanEverTick = true;
 
+	// Set the root Component
 	RootComponent = GetCapsuleComponent();
 
 	// Attach Vision Collider to Character
@@ -16,22 +17,16 @@ ABase2DCharacter::ABase2DCharacter()
 	visionSphere->SetupAttachment(RootComponent);
 
 
-	// Initialize the Battle Boolean
-	isBattling = false;
+	
 }
 
 // Called when the game starts or when spawned
 void ABase2DCharacter::BeginPlay()
 {
 	Super::BeginPlay();
-	// Set the root Component
-	
-	// Make the sprite face player 0's camera
-	
 
-	/*FVector Target = GetWorld()->GetFirstPlayerController()->PlayerCameraManager->GetCameraLocation() - this->GetActorLocation;
-	float newZAngle = FMath::RadiansToDegrees(atan2f(Target.Y, Target.X));
-	GetSprite()->SetWorldRotation(GetSprite().);*/
+	// Initialize the Battle Boolean
+	isBattling = false;
 }
 
 // Called every frame

@@ -25,17 +25,7 @@ AProtagClass::AProtagClass()
 	Camera->SetupAttachment(CamBoom);
 
 	visionSphere->SetSphereRadius(300.f);
-
-
-	// TESTING FOR CAMERA AND MOVEMENT
-	// Don't rotate when the controller rotates. Let that just affect the camera.
-	bUseControllerRotationPitch = false;
-	bUseControllerRotationYaw = false;
-	bUseControllerRotationRoll = false;
-	//GetCharacterMovement()->bOrientRotationToMovement = true; // Character moves in the direction of input...	
-	CamBoom->bUsePawnControlRotation = false; // Rotate the arm based on the controller
-	Camera->bUsePawnControlRotation = false;
-	D("WHY WHY WHY");
+	
 	
 }
 
@@ -78,6 +68,16 @@ void AProtagClass::BeginPlay()
 	isHorzMoving = false;
 	isVertMoving = false;
 
+
+	//--- Set up Rotation booleans for correct player orientation when rotating camera 
+	// Note: These don't work when placed in the constructor, put here!
+	bUseControllerRotationPitch = false; // Don't rotate on this axis when the controller rotates.
+	bUseControllerRotationYaw = false; // Don't rotate on this axis when the controller rotates.
+	bUseControllerRotationRoll = false; // Don't rotate on this axis when the controller rotates.
+	GetCharacterMovement()->bOrientRotationToMovement = true; // Character moves in the direction of input
+	// Don't let the camera rotate when the cotroller does
+	CamBoom->bUsePawnControlRotation = false; // Dont rotate the camera arm based on the controller
+	Camera->bUsePawnControlRotation = false; // Dont rotate the camera based on the controller
 	
 }
 
@@ -112,13 +112,11 @@ void AProtagClass::RotateCamPlus()
 {
 	D("+ ROT CAM");
 	
-	
-	//CamBoom->AddRelativeRotation(FRotator(0.f, 90.f, 0.f));
+	// Update the cam arm's relative rotation
+	CamBoom->AddRelativeRotation(FRotator(0.f, 90.f, 0.f));
+	// Update what direction input will move player
 	AddControllerYawInput(180.0f);
 	AddControllerPitchInput(180.0f);
-
-	//GetSprite()->AddRelativeRotation(FRotator(0.f, 180.f, 0.f));
-	
 
 }
 
@@ -126,8 +124,11 @@ void AProtagClass::RotateCamMinus()
 {
 	D("- ROT CAM");
 
-	//AddActorLocalRotation(FRotator(0.f, 90.f, 0.f), false, 0, ETeleportType::None);
+	// Update the cam arm's relative rotation
 	CamBoom->AddRelativeRotation(FRotator(0.f, -90.f, 0.f));
+	// Update what direction input will move player
+	AddControllerYawInput(-180.0f);
+	AddControllerPitchInput(-180.0f);
 }
 
 void AProtagClass::cursorClick()
@@ -148,15 +149,14 @@ void AProtagClass::moveRight(float axisValue)
 		isHorzMoving = true;
 		//D("Left");
 		GetSprite()->SetFlipbook(walkRightAnim);
-		// Rotate the Flipbook
-		//GetSprite()->SetWorldRotation(FRotator(0.f, 270.f, 0.f));
+		// Flip the sprite texture
+		
 	}
 	else if (axisValue == -1.0)
 	{
 		isHorzMoving = true;
 		//D("Right");
 		GetSprite()->SetFlipbook(walkRightAnim);
-		//resetRotation();
 	}
 	else if (axisValue == 0.0)
 	{
@@ -166,7 +166,6 @@ void AProtagClass::moveRight(float axisValue)
 		{
 			GetSprite()->SetFlipbook(idleAnim);
 		}
-		//resetRotation();
 	}
 
 	// find out which way is right
@@ -186,14 +185,12 @@ void AProtagClass::moveForward(float axisValue)
 		isVertMoving = true;
 		//D("Backward");
 		GetSprite()->SetFlipbook(walkDownAnim);
-		//Super::resetRotation();
 	}
 	else if (axisValue == -1.0)
 	{
 		isVertMoving = true;
 		//D("Forward");
 		GetSprite()->SetFlipbook(walkForwardAnim);
-		//Super::resetRotation();
 	}
 	else if (axisValue == 0.0)
 	{
@@ -207,30 +204,9 @@ void AProtagClass::moveForward(float axisValue)
 	// get forward vector
 	const FVector Direction = FRotationMatrix(YawRotation).GetUnitAxis(EAxis::X);
 	AddMovementInput(Direction, axisValue);
-
-	//Super::AddMovementInput(GetActorForwardVector(), axisValue);
 }
 
-//void AProtagClass::resetRotation()
-//{
-//	GetSprite()->SetWorldRotation(FRotator(0.f, 90.f, 0.f));
-//}
 
-//--- Overlap Events
-// On Player Capsule Component Hit
-//UFUNCTION()
-//void AProtagClass::protagHit(UPrimitiveComponent* HitComponent, AActor* OtherActor, UPrimitiveComponent* OtherComp, FVector NormalImpulse, const FHitResult& Hit)
-//{
-//	//D("Protag Overlap!");
-//
-//	// Casts return Null if they fail
-//	AEnemySlime * slimeRef = Cast<AEnemySlime>(OtherActor);
-//	if (slimeRef)
-//	{
-//		//D("Hit Enemy Slime!");
-//	}
-//}
-//
 UFUNCTION()
 void AProtagClass::inSight(UPrimitiveComponent* OverlappedComponent, AActor* OtherActor, UPrimitiveComponent* OtherComp, int32 OtherBodyIndex, bool bFromSweep, const FHitResult & SweepResult)
 {
