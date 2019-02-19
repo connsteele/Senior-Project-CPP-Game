@@ -149,7 +149,7 @@ void AProtagClass::moveRight(float axisValue)
 		//D("Left");
 		GetSprite()->SetFlipbook(walkRightAnim);
 		// Flip the sprite texture
-		//GetSprite()->SetMaterial(0, mirrorHMaterial);
+		GetSprite()->SetMaterial(0, mirrorHMaterial);
 	}
 	else if (axisValue == -1.0)
 	{

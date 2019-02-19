@@ -76,11 +76,11 @@ public:
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = Animations)
 		UPaperFlipbook * walkDownAnim;
 
-	UPROPERTY(EditAnywhere, Category = SpriteMaterial)
-		UMaterial* defaultMaterial;
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = SpriteMaterial)
+		UMaterialInstance* defaultMaterial;
 
-	/*UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = SpriteMaterial)
-		UMaterial* mirrorHMaterial;*/
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = SpriteMaterial)
+		UMaterialInstance* mirrorHMaterial;
 
 	// Functions 
 	void moveRight();

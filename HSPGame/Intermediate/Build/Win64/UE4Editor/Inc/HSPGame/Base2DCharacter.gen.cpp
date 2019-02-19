@@ -17,7 +17,7 @@ void EmptyLinkFunctionForGeneratedCodeBase2DCharacter() {}
 	HSPGAME_API UClass* Z_Construct_UClass_ABase2DCharacter();
 	PAPER2D_API UClass* Z_Construct_UClass_APaperCharacter();
 	UPackage* Z_Construct_UPackage__Script_HSPGame();
-	ENGINE_API UClass* Z_Construct_UClass_UMaterial_NoRegister();
+	ENGINE_API UClass* Z_Construct_UClass_UMaterialInstance_NoRegister();
 	PAPER2D_API UClass* Z_Construct_UClass_UPaperFlipbook_NoRegister();
 	ENGINE_API UClass* Z_Construct_UClass_USphereComponent_NoRegister();
 // End Cross Module References
@@ -34,6 +34,10 @@ void EmptyLinkFunctionForGeneratedCodeBase2DCharacter() {}
 #if WITH_METADATA
 		static const UE4CodeGen_Private::FMetaDataPairParam Class_MetaDataParams[];
 #endif
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_mirrorHMaterial_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_mirrorHMaterial;
 #if WITH_METADATA
 		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_defaultMaterial_MetaData[];
 #endif
@@ -79,12 +83,19 @@ void EmptyLinkFunctionForGeneratedCodeBase2DCharacter() {}
 	};
 #endif
 #if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ABase2DCharacter_Statics::NewProp_mirrorHMaterial_MetaData[] = {
+		{ "Category", "SpriteMaterial" },
+		{ "ModuleRelativePath", "Base2DCharacter.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_ABase2DCharacter_Statics::NewProp_mirrorHMaterial = { UE4CodeGen_Private::EPropertyClass::Object, "mirrorHMaterial", RF_Public|RF_Transient|RF_MarkAsNative, (EPropertyFlags)0x0010000000000005, 1, nullptr, STRUCT_OFFSET(ABase2DCharacter, mirrorHMaterial), Z_Construct_UClass_UMaterialInstance_NoRegister, METADATA_PARAMS(Z_Construct_UClass_ABase2DCharacter_Statics::NewProp_mirrorHMaterial_MetaData, ARRAY_COUNT(Z_Construct_UClass_ABase2DCharacter_Statics::NewProp_mirrorHMaterial_MetaData)) };
+#if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ABase2DCharacter_Statics::NewProp_defaultMaterial_MetaData[] = {
 		{ "Category", "SpriteMaterial" },
 		{ "ModuleRelativePath", "Base2DCharacter.h" },
 	};
 #endif
-	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_ABase2DCharacter_Statics::NewProp_defaultMaterial = { UE4CodeGen_Private::EPropertyClass::Object, "defaultMaterial", RF_Public|RF_Transient|RF_MarkAsNative, (EPropertyFlags)0x0010000000000001, 1, nullptr, STRUCT_OFFSET(ABase2DCharacter, defaultMaterial), Z_Construct_UClass_UMaterial_NoRegister, METADATA_PARAMS(Z_Construct_UClass_ABase2DCharacter_Statics::NewProp_defaultMaterial_MetaData, ARRAY_COUNT(Z_Construct_UClass_ABase2DCharacter_Statics::NewProp_defaultMaterial_MetaData)) };
+	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_ABase2DCharacter_Statics::NewProp_defaultMaterial = { UE4CodeGen_Private::EPropertyClass::Object, "defaultMaterial", RF_Public|RF_Transient|RF_MarkAsNative, (EPropertyFlags)0x0010000000000005, 1, nullptr, STRUCT_OFFSET(ABase2DCharacter, defaultMaterial), Z_Construct_UClass_UMaterialInstance_NoRegister, METADATA_PARAMS(Z_Construct_UClass_ABase2DCharacter_Statics::NewProp_defaultMaterial_MetaData, ARRAY_COUNT(Z_Construct_UClass_ABase2DCharacter_Statics::NewProp_defaultMaterial_MetaData)) };
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ABase2DCharacter_Statics::NewProp_walkDownAnim_MetaData[] = {
 		{ "Category", "Animations" },
@@ -134,6 +145,7 @@ void EmptyLinkFunctionForGeneratedCodeBase2DCharacter() {}
 #endif
 	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_ABase2DCharacter_Statics::NewProp_visionSphere = { UE4CodeGen_Private::EPropertyClass::Object, "visionSphere", RF_Public|RF_Transient|RF_MarkAsNative, (EPropertyFlags)0x0010000000080009, 1, nullptr, STRUCT_OFFSET(ABase2DCharacter, visionSphere), Z_Construct_UClass_USphereComponent_NoRegister, METADATA_PARAMS(Z_Construct_UClass_ABase2DCharacter_Statics::NewProp_visionSphere_MetaData, ARRAY_COUNT(Z_Construct_UClass_ABase2DCharacter_Statics::NewProp_visionSphere_MetaData)) };
 	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_ABase2DCharacter_Statics::PropPointers[] = {
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ABase2DCharacter_Statics::NewProp_mirrorHMaterial,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ABase2DCharacter_Statics::NewProp_defaultMaterial,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ABase2DCharacter_Statics::NewProp_walkDownAnim,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ABase2DCharacter_Statics::NewProp_walkForwardAnim,
@@ -165,7 +177,7 @@ void EmptyLinkFunctionForGeneratedCodeBase2DCharacter() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(ABase2DCharacter, 2045532878);
+	IMPLEMENT_CLASS(ABase2DCharacter, 122690459);
 	static FCompiledInDefer Z_CompiledInDefer_UClass_ABase2DCharacter(Z_Construct_UClass_ABase2DCharacter, &ABase2DCharacter::StaticClass, TEXT("/Script/HSPGame"), TEXT("ABase2DCharacter"), false, nullptr, nullptr, nullptr);
 	DEFINE_VTABLE_PTR_HELPER_CTOR(ABase2DCharacter);
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
