@@ -3,7 +3,7 @@
   <ItemGroup>
     <None Include="..\..\HSPGame.uproject" />
     <Filter Include="Source">
-      <UniqueIdentifier>{41037351-F73D-4CCD-90C7-97DB945A3045}</UniqueIdentifier>
+      <UniqueIdentifier>{1684F467-019E-4A65-B7CB-25885C303C44}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\HSPGame.Target.cs">
       <Filter>Source</Filter>
@@ -12,7 +12,7 @@
       <Filter>Source</Filter>
     </None>
     <Filter Include="Config">
-      <UniqueIdentifier>{E53BEB56-2C13-429A-AAFB-457704A21367}</UniqueIdentifier>
+      <UniqueIdentifier>{FF56E9F9-FB96-4647-B750-30CA946D8613}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Config\DefaultEditor.ini">
       <Filter>Config</Filter>
@@ -27,7 +27,7 @@
       <Filter>Config</Filter>
     </None>
     <Filter Include="Source\HSPGame">
-      <UniqueIdentifier>{001C3BCE-5760-419C-9137-FC9D4F5136C4}</UniqueIdentifier>
+      <UniqueIdentifier>{998BB85C-D69A-4CB9-9657-8908C332F38C}</UniqueIdentifier>
     </Filter>
     <ClCompile Include="..\..\Source\HSPGame\Base2DCharacter.cpp">
       <Filter>Source\HSPGame</Filter>

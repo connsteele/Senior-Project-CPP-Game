@@ -34,7 +34,7 @@ public:
 	// Functions 
 	void moveRight(float axisValue);
 	void moveForward(float axisValue);
-	void resetRotation();
+	// void resetRotation();
 
 	//Polymorphic functions. Correct one called 
 	virtual void startTurn();
@@ -57,6 +57,7 @@ public:
 
 	// Function Mapped to Rotate Camera + Action
 	void RotateCamPlus();
+	void RotateCamMinus();
 	
 	// Class Properties
 	/*UPROPERTY(EditAnywhere)

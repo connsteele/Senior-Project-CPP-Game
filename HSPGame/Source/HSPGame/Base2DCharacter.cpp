@@ -44,12 +44,10 @@ void ABase2DCharacter::Tick(float DeltaTime)
 	FVector objectlocation = GetSprite()->GetComponentLocation();
 	FRotator rotYaw = FRotationMatrix::MakeFromY(CameraLocation - objectlocation).Rotator();
 	FRotator relRot = GetSprite()->RelativeRotation;
-
-	//D("OG Yaw: " + FString::SanitizeFloat(oldRot.Yaw));
+	
 	GetSprite()->SetRelativeRotation(FRotator(relRot.Pitch, rotYaw.Yaw, relRot.Roll));
 	GetSprite()->AddRelativeRotation(FRotator(0.f, 90.f, 0.f));
-	//D("New Yaw: " + FString::SanitizeFloat(oldRot.Yaw));
-	//GetSprite()->AddWorldRotation(FRotator(0.f, 90.f, 90.f));
+
 	
 }
 

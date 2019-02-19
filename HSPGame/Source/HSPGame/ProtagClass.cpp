@@ -26,6 +26,16 @@ AProtagClass::AProtagClass()
 
 	visionSphere->SetSphereRadius(300.f);
 
+
+	// TESTING FOR CAMERA AND MOVEMENT
+	// Don't rotate when the controller rotates. Let that just affect the camera.
+	bUseControllerRotationPitch = false;
+	bUseControllerRotationYaw = false;
+	bUseControllerRotationRoll = false;
+	//GetCharacterMovement()->bOrientRotationToMovement = true; // Character moves in the direction of input...	
+	CamBoom->bUsePawnControlRotation = false; // Rotate the arm based on the controller
+	Camera->bUsePawnControlRotation = false;
+
 	
 }
 
@@ -92,14 +102,32 @@ void AProtagClass::SetupPlayerInputComponent(UInputComponent* PlayerInputCompone
 
 	// Bindings to Rotate the Camera
 	PlayerInputComponent->BindAction("RotateCamera+90", IE_Pressed, this, &AProtagClass::RotateCamPlus);
+	PlayerInputComponent->BindAction("RotateCamera-90", IE_Pressed, this, &AProtagClass::RotateCamMinus);
 
 
 }
 
+// Rotate the Camera + 90 degrees
 void AProtagClass::RotateCamPlus()
 {
-	D("ROT CAM");
-	CamBoom->AddRelativeRotation(FRotator(0.f, 90.f, 0.f));
+	D("+ ROT CAM");
+	
+	
+	//CamBoom->AddRelativeRotation(FRotator(0.f, 90.f, 0.f));
+	AddControllerYawInput(180.0f);
+	AddControllerPitchInput(180.0f);
+
+	//GetSprite()->AddRelativeRotation(FRotator(0.f, 180.f, 0.f));
+	
+
+}
+
+void AProtagClass::RotateCamMinus()
+{
+	D("- ROT CAM");
+
+	//AddActorLocalRotation(FRotator(0.f, 90.f, 0.f), false, 0, ETeleportType::None);
+	CamBoom->AddRelativeRotation(FRotator(0.f, -90.f, 0.f));
 }
 
 void AProtagClass::cursorClick()
@@ -164,7 +192,15 @@ void AProtagClass::moveForward(float axisValue)
 		 isVertMoving = false;
 	}
 
-	Super::AddMovementInput(GetActorForwardVector(), axisValue);
+	// find out which way is forward
+	const FRotator Rotation = GetController()->GetControlRotation();
+	const FRotator YawRotation(0, Rotation.Yaw, 0);
+
+	// get forward vector
+	const FVector Direction = FRotationMatrix(YawRotation).GetUnitAxis(EAxis::X);
+	AddMovementInput(Direction, axisValue);
+
+	//Super::AddMovementInput(GetActorForwardVector(), axisValue);
 }
 
 //void AProtagClass::resetRotation()
