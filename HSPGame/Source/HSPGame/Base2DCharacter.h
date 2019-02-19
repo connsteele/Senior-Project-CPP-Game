@@ -77,7 +77,7 @@ public:
 	// Functions 
 	void moveRight();
 	void moveForward();
-	void resetRotation();
+	//void resetRotation();
 	void die();
 	virtual void endTurn();
 	virtual void startTurn();

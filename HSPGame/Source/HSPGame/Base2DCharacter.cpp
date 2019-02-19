@@ -9,9 +9,11 @@ ABase2DCharacter::ABase2DCharacter()
  	// Set this character to call Tick() every frame.  You can turn this off to improve performance if you don't need it.
 	PrimaryActorTick.bCanEverTick = true;
 
+	RootComponent = GetCapsuleComponent();
+
 	// Attach Vision Collider to Character
 	visionSphere = CreateDefaultSubobject<USphereComponent>("VisionCollider");
-	visionSphere->SetupAttachment(GetCapsuleComponent());
+	visionSphere->SetupAttachment(RootComponent);
 
 
 	// Initialize the Battle Boolean
@@ -22,7 +24,14 @@ ABase2DCharacter::ABase2DCharacter()
 void ABase2DCharacter::BeginPlay()
 {
 	Super::BeginPlay();
+	// Set the root Component
 	
+	// Make the sprite face player 0's camera
+	
+
+	/*FVector Target = GetWorld()->GetFirstPlayerController()->PlayerCameraManager->GetCameraLocation() - this->GetActorLocation;
+	float newZAngle = FMath::RadiansToDegrees(atan2f(Target.Y, Target.X));
+	GetSprite()->SetWorldRotation(GetSprite().);*/
 }
 
 // Called every frame
@@ -30,6 +39,12 @@ void ABase2DCharacter::Tick(float DeltaTime)
 {
 	Super::Tick(DeltaTime);
 
+	// Make the sprite face player 0's camera
+	FVector CameraLocation = GEngine->GetFirstLocalPlayerController(GetWorld())->PlayerCameraManager->GetCameraLocation() ; // +FVector(-200.f, 0.f, 20.f)
+	FVector objectlocation = GetSprite()->GetComponentLocation();
+	GetSprite()->SetWorldRotation( FRotationMatrix::MakeFromY(CameraLocation - objectlocation).Rotator() );
+	
+	
 	
 }
 
@@ -77,11 +92,11 @@ void ABase2DCharacter::moveForward()
 	
 }
 
-void ABase2DCharacter::resetRotation()
-{
-	GetSprite()->SetWorldRotation(FRotator(0.f, 90.f, 0.f));
-
-}
+//void ABase2DCharacter::resetRotation()
+//{
+//	GetSprite()->SetWorldRotation(FRotator(0.f, 90.f, 0.f));
+//
+//}
 
 void ABase2DCharacter::endTurn()
 {

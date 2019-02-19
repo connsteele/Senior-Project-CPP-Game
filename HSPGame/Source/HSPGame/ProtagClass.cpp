@@ -18,7 +18,7 @@ AProtagClass::AProtagClass()
 
 	// Make a Spring Arm Attached to the Mesh
 	CamBoom = CreateDefaultSubobject<USpringArmComponent>("cameraBoom");
-	CamBoom->SetupAttachment(GetCapsuleComponent());
+	CamBoom->SetupAttachment(RootComponent);
 
 	// Make a camera component and Attach it to the camera boom
 	Camera = CreateDefaultSubobject<UCameraComponent>("myCamera");
@@ -90,6 +90,16 @@ void AProtagClass::SetupPlayerInputComponent(UInputComponent* PlayerInputCompone
 	// Bind the mouse click to a function
 	PlayerInputComponent->BindAction("CursorClicked", IE_Pressed, this, &AProtagClass::cursorClick);
 
+	// Bindings to Rotate the Camera
+	PlayerInputComponent->BindAction("RotateCamera+90", IE_Pressed, this, &AProtagClass::RotateCamPlus);
+
+
+}
+
+void AProtagClass::RotateCamPlus()
+{
+	D("ROT CAM");
+	CamBoom->AddWorldRotation(FRotator(0.f, 90.f, 0.f));
 }
 
 void AProtagClass::cursorClick()
@@ -111,14 +121,14 @@ void AProtagClass::moveRight(float axisValue)
 		//D("Left");
 		GetSprite()->SetFlipbook(walkRightAnim);
 		// Rotate the Flipbook
-		GetSprite()->SetWorldRotation(FRotator(0.f, 270.f, 0.f));
+		//GetSprite()->SetWorldRotation(FRotator(0.f, 270.f, 0.f));
 	}
 	else if (axisValue == -1.0)
 	{
 		isHorzMoving = true;
 		//D("Right");
 		GetSprite()->SetFlipbook(walkRightAnim);
-		resetRotation();
+		//resetRotation();
 	}
 	else if (axisValue == 0.0)
 	{
@@ -128,7 +138,7 @@ void AProtagClass::moveRight(float axisValue)
 		{
 			GetSprite()->SetFlipbook(idleAnim);
 		}
-		resetRotation();
+		//resetRotation();
 	}
 	Super::AddMovementInput(GetActorRightVector(), axisValue);
 }
@@ -140,14 +150,14 @@ void AProtagClass::moveForward(float axisValue)
 		isVertMoving = true;
 		//D("Backward");
 		GetSprite()->SetFlipbook(walkDownAnim);
-		Super::resetRotation();
+		//Super::resetRotation();
 	}
 	else if (axisValue == -1.0)
 	{
 		isVertMoving = true;
 		//D("Forward");
 		GetSprite()->SetFlipbook(walkForwardAnim);
-		Super::resetRotation();
+		//Super::resetRotation();
 	}
 	else if (axisValue == 0.0)
 	{
@@ -157,10 +167,10 @@ void AProtagClass::moveForward(float axisValue)
 	Super::AddMovementInput(GetActorForwardVector(), axisValue);
 }
 
-void AProtagClass::resetRotation()
-{
-	GetSprite()->SetWorldRotation(FRotator(0.f, 90.f, 0.f));
-}
+//void AProtagClass::resetRotation()
+//{
+//	GetSprite()->SetWorldRotation(FRotator(0.f, 90.f, 0.f));
+//}
 
 //--- Overlap Events
 // On Player Capsule Component Hit

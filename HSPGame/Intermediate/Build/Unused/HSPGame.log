@@ -5,9 +5,9 @@
   Building 4 actions with 8 processes...
     [1/4] Base2DCharacter.cpp
     [2/4] ProtagClass.cpp
-    [3/4] UE4Editor-HSPGame-4950.lib
-       Creating library C:\Users\gosus\Documents\CP-School\SeniorProject\gitRepos\Senior-Project-CPP-Testground\HSPGame\Intermediate\Build\Win64\UE4Editor\Development\HSPGame\UE4Editor-HSPGame-4950.lib and object C:\Users\gosus\Documents\CP-School\SeniorProject\gitRepos\Senior-Project-CPP-Testground\HSPGame\Intermediate\Build\Win64\UE4Editor\Development\HSPGame\UE4Editor-HSPGame-4950.exp
-    [4/4] UE4Editor-HSPGame-4950.dll
-       Creating library C:\Users\gosus\Documents\CP-School\SeniorProject\gitRepos\Senior-Project-CPP-Testground\HSPGame\Intermediate\Build\Win64\UE4Editor\Development\HSPGame\UE4Editor-HSPGame-4950.suppressed.lib and object C:\Users\gosus\Documents\CP-School\SeniorProject\gitRepos\Senior-Project-CPP-Testground\HSPGame\Intermediate\Build\Win64\UE4Editor\Development\HSPGame\UE4Editor-HSPGame-4950.suppressed.exp
+    [3/4] UE4Editor-HSPGame-8536.lib
+       Creating library C:\Users\gosus\Documents\CP-School\SeniorProject\gitRepos\Senior-Project-CPP-Testground\HSPGame\Intermediate\Build\Win64\UE4Editor\Development\HSPGame\UE4Editor-HSPGame-8536.lib and object C:\Users\gosus\Documents\CP-School\SeniorProject\gitRepos\Senior-Project-CPP-Testground\HSPGame\Intermediate\Build\Win64\UE4Editor\Development\HSPGame\UE4Editor-HSPGame-8536.exp
+    [4/4] UE4Editor-HSPGame-8536.dll
+       Creating library C:\Users\gosus\Documents\CP-School\SeniorProject\gitRepos\Senior-Project-CPP-Testground\HSPGame\Intermediate\Build\Win64\UE4Editor\Development\HSPGame\UE4Editor-HSPGame-8536.suppressed.lib and object C:\Users\gosus\Documents\CP-School\SeniorProject\gitRepos\Senior-Project-CPP-Testground\HSPGame\Intermediate\Build\Win64\UE4Editor\Development\HSPGame\UE4Editor-HSPGame-8536.suppressed.exp
   Deploying HSPGameEditor Win64 Development...
-  Total build time: 4.99 seconds (Parallel executor: 1.62 seconds)
+  Total build time: 4.80 seconds (Parallel executor: 1.62 seconds)
