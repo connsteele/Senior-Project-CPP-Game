@@ -240,7 +240,7 @@ void EmptyLinkFunctionForGeneratedCodeEnemySlime() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(AEnemySlime, 1956018171);
+	IMPLEMENT_CLASS(AEnemySlime, 33712088);
 	static FCompiledInDefer Z_CompiledInDefer_UClass_AEnemySlime(Z_Construct_UClass_AEnemySlime, &AEnemySlime::StaticClass, TEXT("/Script/HSPGame"), TEXT("AEnemySlime"), false, nullptr, nullptr, nullptr);
 	DEFINE_VTABLE_PTR_HELPER_CTOR(AEnemySlime);
 PRAGMA_ENABLE_DEPRECATION_WARNINGS

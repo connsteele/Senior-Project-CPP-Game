@@ -16,8 +16,8 @@ ABase2DCharacter::ABase2DCharacter()
 	visionSphere = CreateDefaultSubobject<USphereComponent>("VisionCollider");
 	visionSphere->SetupAttachment(RootComponent);
 
-	defaultMaterial = CreateDefaultSubobject<UMaterialInstance>("DefaultMaterial");
-	mirrorHMaterial = CreateDefaultSubobject<UMaterialInstance>("MirrorHMaterial");
+	/*defaultMaterial = CreateDefaultSubobject<UMaterialInstance>("DefaultMaterial");
+	mirrorHMaterial = CreateDefaultSubobject<UMaterialInstance>("MirrorHMaterial");*/
 
 	
 }
