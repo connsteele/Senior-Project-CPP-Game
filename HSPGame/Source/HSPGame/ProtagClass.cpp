@@ -35,7 +35,7 @@ AProtagClass::AProtagClass()
 	//GetCharacterMovement()->bOrientRotationToMovement = true; // Character moves in the direction of input...	
 	CamBoom->bUsePawnControlRotation = false; // Rotate the arm based on the controller
 	Camera->bUsePawnControlRotation = false;
-
+	D("WHY WHY WHY");
 	
 }
 
@@ -168,7 +168,15 @@ void AProtagClass::moveRight(float axisValue)
 		}
 		//resetRotation();
 	}
-	Super::AddMovementInput(GetActorRightVector(), axisValue);
+
+	// find out which way is right
+	const FRotator Rotation = Controller->GetControlRotation();
+	const FRotator YawRotation(0, Rotation.Yaw, 0);
+
+	// get right vector 
+	const FVector Direction = FRotationMatrix(YawRotation).GetUnitAxis(EAxis::Y);
+	// add movement in that direction
+	AddMovementInput(Direction, axisValue);
 }
 
 void AProtagClass::moveForward(float axisValue)
@@ -193,7 +201,7 @@ void AProtagClass::moveForward(float axisValue)
 	}
 
 	// find out which way is forward
-	const FRotator Rotation = GetController()->GetControlRotation();
+	const FRotator Rotation = Controller->GetControlRotation(); // use GetController()?
 	const FRotator YawRotation(0, Rotation.Yaw, 0);
 
 	// get forward vector
