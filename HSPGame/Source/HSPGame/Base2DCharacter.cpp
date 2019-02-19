@@ -42,9 +42,14 @@ void ABase2DCharacter::Tick(float DeltaTime)
 	// Make the sprite face player 0's camera
 	FVector CameraLocation = GEngine->GetFirstLocalPlayerController(GetWorld())->PlayerCameraManager->GetCameraLocation() ; // +FVector(-200.f, 0.f, 20.f)
 	FVector objectlocation = GetSprite()->GetComponentLocation();
-	GetSprite()->SetWorldRotation( FRotationMatrix::MakeFromY(CameraLocation - objectlocation).Rotator() );
-	
-	
+	FRotator rotYaw = FRotationMatrix::MakeFromY(CameraLocation - objectlocation).Rotator();
+	FRotator relRot = GetSprite()->RelativeRotation;
+
+	//D("OG Yaw: " + FString::SanitizeFloat(oldRot.Yaw));
+	GetSprite()->SetRelativeRotation(FRotator(relRot.Pitch, rotYaw.Yaw, relRot.Roll));
+	GetSprite()->AddRelativeRotation(FRotator(0.f, 90.f, 0.f));
+	//D("New Yaw: " + FString::SanitizeFloat(oldRot.Yaw));
+	//GetSprite()->AddWorldRotation(FRotator(0.f, 90.f, 90.f));
 	
 }
 

@@ -99,7 +99,7 @@ void AProtagClass::SetupPlayerInputComponent(UInputComponent* PlayerInputCompone
 void AProtagClass::RotateCamPlus()
 {
 	D("ROT CAM");
-	CamBoom->AddWorldRotation(FRotator(0.f, 90.f, 0.f));
+	CamBoom->AddRelativeRotation(FRotator(0.f, 90.f, 0.f));
 }
 
 void AProtagClass::cursorClick()
