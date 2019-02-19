@@ -29,39 +29,21 @@ public:
 	// Constructor
 	AProtagClass();
 
-
-
-	// Functions 
-	void moveRight(float axisValue);
-	void moveForward(float axisValue);
-	// void resetRotation();
-
-	//Polymorphic functions. Correct one called 
-	virtual void startTurn();
-	virtual void endTurn();
-
 	//--- Override Functions
-	//UFUNCTION()
-	//	void protagHit(UPrimitiveComponent* HitComponent, AActor* OtherActor, UPrimitiveComponent* OtherComp, FVector NormalImpulse, const FHitResult& Hit);
 	UFUNCTION()
 		virtual void inSight(UPrimitiveComponent * OverlappedComponent, AActor * OtherActor, UPrimitiveComponent * OtherComp, int32 OtherBodyIndex, bool bFromSweep, const FHitResult & SweepResult);
 	UFUNCTION()
 		virtual void charHit(UPrimitiveComponent* HitComponent, AActor* OtherActor, UPrimitiveComponent* OtherComp, FVector NormalImpulse, const FHitResult& Hit);
-	
 	void cursorClick();
-
 	// Called every frame
 	virtual void Tick(float DeltaTime) override;
 	// Called to bind functionality to input
 	virtual void SetupPlayerInputComponent(class UInputComponent* PlayerInputComponent) override;
+	//Polymorphic functions. Correct one called 
+	virtual void startTurn();
+	virtual void endTurn();
 
-	// Function Mapped to Rotate Camera + Action
-	void RotateCamPlus();
-	void RotateCamMinus();
-	
-	// Class Properties
-	/*UPROPERTY(EditAnywhere)
-		UStaticMeshComponent * MyMesh;*/
+
 	//--- Components
 	UPROPERTY(EditAnywhere)
 		USpringArmComponent * CamBoom;
@@ -69,8 +51,15 @@ public:
 	UPROPERTY(EditAnywhere)
 		UCameraComponent * Camera;
 
-	/*UPROPERTY(EditAnywhere)
-		USphereComponent * CircCollider;*/
+
+	//--- Local Functions
+	// Functions that move the player
+	void moveRight(float axisValue);
+	void moveForward(float axisValue);
+	// Function Mapped to Rotate Camera + Action
+	void RotateCamPlus();
+	void RotateCamMinus();
+
 
 
 protected:

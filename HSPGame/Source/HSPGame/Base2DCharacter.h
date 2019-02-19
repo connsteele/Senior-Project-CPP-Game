@@ -8,6 +8,7 @@
 #include "PaperFlipbookComponent.h"
 #include "PaperCharacter.h"
 #include "Math/Rotator.h"
+//#include "Materials/Material.h"
 #include "Components/SphereComponent.h"
 #include "Base2DCharacter.generated.h"
 
@@ -74,6 +75,12 @@ public:
 
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = Animations)
 		UPaperFlipbook * walkDownAnim;
+
+	UPROPERTY(EditAnywhere, Category = SpriteMaterial)
+		UMaterial* defaultMaterial;
+
+	/*UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = SpriteMaterial)
+		UMaterial* mirrorHMaterial;*/
 
 	// Functions 
 	void moveRight();

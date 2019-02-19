@@ -4,8 +4,7 @@
 #include "GameFramework/FloatingPawnMovement.h"
 
 // On Class Construction
-AProtagClass::AProtagClass()
-	: ABase2DCharacter() //Call Parent Constructor
+AProtagClass::AProtagClass() : ABase2DCharacter()
 {
 	/*
 	--- Notes ---
@@ -150,13 +149,14 @@ void AProtagClass::moveRight(float axisValue)
 		//D("Left");
 		GetSprite()->SetFlipbook(walkRightAnim);
 		// Flip the sprite texture
-		
+		//GetSprite()->SetMaterial(0, mirrorHMaterial);
 	}
 	else if (axisValue == -1.0)
 	{
 		isHorzMoving = true;
 		//D("Right");
 		GetSprite()->SetFlipbook(walkRightAnim);
+		GetSprite()->SetMaterial(0, defaultMaterial);
 	}
 	else if (axisValue == 0.0)
 	{
@@ -165,6 +165,7 @@ void AProtagClass::moveRight(float axisValue)
 		if ( isVertMoving == false)
 		{
 			GetSprite()->SetFlipbook(idleAnim);
+			GetSprite()->SetMaterial(0, defaultMaterial);
 		}
 	}
 
@@ -185,12 +186,14 @@ void AProtagClass::moveForward(float axisValue)
 		isVertMoving = true;
 		//D("Backward");
 		GetSprite()->SetFlipbook(walkDownAnim);
+		GetSprite()->SetMaterial(0, defaultMaterial);
 	}
 	else if (axisValue == -1.0)
 	{
 		isVertMoving = true;
 		//D("Forward");
 		GetSprite()->SetFlipbook(walkForwardAnim);
+		GetSprite()->SetMaterial(0, defaultMaterial);
 	}
 	else if (axisValue == 0.0)
 	{

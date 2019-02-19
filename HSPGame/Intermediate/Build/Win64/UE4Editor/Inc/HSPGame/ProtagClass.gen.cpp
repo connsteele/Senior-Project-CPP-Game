@@ -176,7 +176,7 @@ void EmptyLinkFunctionForGeneratedCodeProtagClass() {}
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_AProtagClass_inSight_Statics::Function_MetaDataParams[] = {
 		{ "ModuleRelativePath", "ProtagClass.h" },
-		{ "ToolTip", "--- Override Functions\nUFUNCTION()\n       void protagHit(UPrimitiveComponent* HitComponent, AActor* OtherActor, UPrimitiveComponent* OtherComp, FVector NormalImpulse, const FHitResult& Hit);" },
+		{ "ToolTip", "--- Override Functions" },
 	};
 #endif
 	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_AProtagClass_inSight_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_AProtagClass, "inSight", RF_Public|RF_Transient|RF_MarkAsNative, nullptr, (EFunctionFlags)0x00420400, sizeof(ProtagClass_eventinSight_Parms), Z_Construct_UFunction_AProtagClass_inSight_Statics::PropPointers, ARRAY_COUNT(Z_Construct_UFunction_AProtagClass_inSight_Statics::PropPointers), 0, 0, METADATA_PARAMS(Z_Construct_UFunction_AProtagClass_inSight_Statics::Function_MetaDataParams, ARRAY_COUNT(Z_Construct_UFunction_AProtagClass_inSight_Statics::Function_MetaDataParams)) };
@@ -218,7 +218,7 @@ void EmptyLinkFunctionForGeneratedCodeProtagClass() {}
 	};
 	const FClassFunctionLinkInfo Z_Construct_UClass_AProtagClass_Statics::FuncInfo[] = {
 		{ &Z_Construct_UFunction_AProtagClass_charHit, "charHit" }, // 447504366
-		{ &Z_Construct_UFunction_AProtagClass_inSight, "inSight" }, // 2355324444
+		{ &Z_Construct_UFunction_AProtagClass_inSight, "inSight" }, // 2540666421
 	};
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AProtagClass_Statics::Class_MetaDataParams[] = {
@@ -271,7 +271,7 @@ void EmptyLinkFunctionForGeneratedCodeProtagClass() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(AProtagClass, 2715913044);
+	IMPLEMENT_CLASS(AProtagClass, 348439729);
 	static FCompiledInDefer Z_CompiledInDefer_UClass_AProtagClass(Z_Construct_UClass_AProtagClass, &AProtagClass::StaticClass, TEXT("/Script/HSPGame"), TEXT("AProtagClass"), false, nullptr, nullptr, nullptr);
 	DEFINE_VTABLE_PTR_HELPER_CTOR(AProtagClass);
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
