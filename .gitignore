@@ -1,6 +1,9 @@
 # Visual Studio 2015 user specific files
 .vs/
 
+# Don't include our game's binaries
+HSPGame/Binaries?*
+
 # Compiled Object files
 *.slo
 *.lo
