@@ -271,7 +271,7 @@ void EmptyLinkFunctionForGeneratedCodeProtagClass() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(AProtagClass, 3784027556);
+	IMPLEMENT_CLASS(AProtagClass, 865125239);
 	static FCompiledInDefer Z_CompiledInDefer_UClass_AProtagClass(Z_Construct_UClass_AProtagClass, &AProtagClass::StaticClass, TEXT("/Script/HSPGame"), TEXT("AProtagClass"), false, nullptr, nullptr, nullptr);
 	DEFINE_VTABLE_PTR_HELPER_CTOR(AProtagClass);
 PRAGMA_ENABLE_DEPRECATION_WARNINGS

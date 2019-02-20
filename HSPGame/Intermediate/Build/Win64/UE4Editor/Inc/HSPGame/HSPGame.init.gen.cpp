@@ -19,7 +19,7 @@ void EmptyLinkFunctionForGeneratedCodeHSPGame_init() {}
 			static const UE4CodeGen_Private::FPackageParams PackageParams = {
 				"/Script/HSPGame",
 				PKG_CompiledIn | 0x00000000,
-				0x901BF263,
+				0x54715941,
 				0xF18ECA39,
 				nullptr, 0,
 				METADATA_PARAMS(nullptr, 0)

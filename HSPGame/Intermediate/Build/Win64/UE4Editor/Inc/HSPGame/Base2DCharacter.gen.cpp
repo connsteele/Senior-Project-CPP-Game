@@ -82,6 +82,11 @@ void EmptyLinkFunctionForGeneratedCodeBase2DCharacter() {}
 		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_visionSphere_MetaData[];
 #endif
 		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_visionSphere;
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_isBattling_MetaData[];
+#endif
+		static void NewProp_isBattling_SetBit(void* Obj);
+		static const UE4CodeGen_Private::FBoolPropertyParams NewProp_isBattling;
 		static const UE4CodeGen_Private::FPropertyParamsBase* const PropPointers[];
 		static const FCppClassTypeInfoStatic StaticCppClassTypeInfo;
 		static const UE4CodeGen_Private::FClassParams ClassParams;
@@ -189,6 +194,18 @@ void EmptyLinkFunctionForGeneratedCodeBase2DCharacter() {}
 	};
 #endif
 	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_ABase2DCharacter_Statics::NewProp_visionSphere = { UE4CodeGen_Private::EPropertyClass::Object, "visionSphere", RF_Public|RF_Transient|RF_MarkAsNative, (EPropertyFlags)0x0010000000080009, 1, nullptr, STRUCT_OFFSET(ABase2DCharacter, visionSphere), Z_Construct_UClass_USphereComponent_NoRegister, METADATA_PARAMS(Z_Construct_UClass_ABase2DCharacter_Statics::NewProp_visionSphere_MetaData, ARRAY_COUNT(Z_Construct_UClass_ABase2DCharacter_Statics::NewProp_visionSphere_MetaData)) };
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ABase2DCharacter_Statics::NewProp_isBattling_MetaData[] = {
+		{ "Category", "Base2DCharacter" },
+		{ "ModuleRelativePath", "Base2DCharacter.h" },
+		{ "ToolTip", "--- Combat Components, Functions, and Variables" },
+	};
+#endif
+	void Z_Construct_UClass_ABase2DCharacter_Statics::NewProp_isBattling_SetBit(void* Obj)
+	{
+		((ABase2DCharacter*)Obj)->isBattling = 1;
+	}
+	const UE4CodeGen_Private::FBoolPropertyParams Z_Construct_UClass_ABase2DCharacter_Statics::NewProp_isBattling = { UE4CodeGen_Private::EPropertyClass::Bool, "isBattling", RF_Public|RF_Transient|RF_MarkAsNative, (EPropertyFlags)0x0010000000000014, 1, nullptr, sizeof(bool), UE4CodeGen_Private::ENativeBool::Native, sizeof(ABase2DCharacter), &Z_Construct_UClass_ABase2DCharacter_Statics::NewProp_isBattling_SetBit, METADATA_PARAMS(Z_Construct_UClass_ABase2DCharacter_Statics::NewProp_isBattling_MetaData, ARRAY_COUNT(Z_Construct_UClass_ABase2DCharacter_Statics::NewProp_isBattling_MetaData)) };
 	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_ABase2DCharacter_Statics::PropPointers[] = {
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ABase2DCharacter_Statics::NewProp_walkDownAnim,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ABase2DCharacter_Statics::NewProp_walkForwardAnim,
@@ -202,6 +219,7 @@ void EmptyLinkFunctionForGeneratedCodeBase2DCharacter() {}
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ABase2DCharacter_Statics::NewProp_currHealth,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ABase2DCharacter_Statics::NewProp_isTurn,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ABase2DCharacter_Statics::NewProp_visionSphere,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ABase2DCharacter_Statics::NewProp_isBattling,
 	};
 	const FCppClassTypeInfoStatic Z_Construct_UClass_ABase2DCharacter_Statics::StaticCppClassTypeInfo = {
 		TCppClassTypeTraits<ABase2DCharacter>::IsAbstract,
@@ -226,7 +244,7 @@ void EmptyLinkFunctionForGeneratedCodeBase2DCharacter() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(ABase2DCharacter, 1367960254);
+	IMPLEMENT_CLASS(ABase2DCharacter, 1720331077);
 	static FCompiledInDefer Z_CompiledInDefer_UClass_ABase2DCharacter(Z_Construct_UClass_ABase2DCharacter, &ABase2DCharacter::StaticClass, TEXT("/Script/HSPGame"), TEXT("ABase2DCharacter"), false, nullptr, nullptr, nullptr);
 	DEFINE_VTABLE_PTR_HELPER_CTOR(ABase2DCharacter);
 PRAGMA_ENABLE_DEPRECATION_WARNINGS

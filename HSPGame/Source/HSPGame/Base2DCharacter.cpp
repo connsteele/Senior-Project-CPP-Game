@@ -15,10 +15,6 @@ ABase2DCharacter::ABase2DCharacter()
 	// Attach Vision Collider to Character
 	visionSphere = CreateDefaultSubobject<USphereComponent>("VisionCollider");
 	visionSphere->SetupAttachment(RootComponent);
-
-	/*defaultMaterial = CreateDefaultSubobject<UMaterialInstance>("DefaultMaterial");
-	mirrorHMaterial = CreateDefaultSubobject<UMaterialInstance>("MirrorHMaterial");*/
-
 	
 }
 
@@ -57,12 +53,7 @@ void ABase2DCharacter::Tick(float DeltaTime)
 	
 }
 
-//UFUNCTION()
-//void ABase2DCharacter::onHit(UPrimitiveComponent* HitComponent, AActor* OtherActor, UPrimitiveComponent* OtherComp, FVector NormalImpulse, const FHitResult& Hit)
-//{
-//	D("Overlap with char capsule component!");
-//}
-//
+
 UFUNCTION()
 void ABase2DCharacter::inSight(UPrimitiveComponent* OverlappedComponent, AActor* OtherActor, UPrimitiveComponent* OtherComp, int32 OtherBodyIndex, bool bFromSweep, const FHitResult & SweepResult)
 {
@@ -99,11 +90,6 @@ void ABase2DCharacter::moveForward()
 	
 }
 
-//void ABase2DCharacter::resetRotation()
-//{
-//	GetSprite()->SetWorldRotation(FRotator(0.f, 90.f, 0.f));
-//
-//}
 
 void ABase2DCharacter::endTurn()
 {

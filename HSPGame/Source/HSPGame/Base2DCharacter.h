@@ -29,7 +29,8 @@ public:
 
 	
 	//--- Combat Components, Functions, and Variables
-	bool isBattling;
+	UPROPERTY(BlueprintReadOnly)
+		bool isBattling;
 	UPROPERTY(EditAnywhere)
 		USphereComponent * visionSphere;
 	/*

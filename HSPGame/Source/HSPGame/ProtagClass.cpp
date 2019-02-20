@@ -54,9 +54,9 @@ void AProtagClass::BeginPlay()
 
 	//--- Stat Related Variable Initialization
 	maxHealth = 100.f;
-	currHealth = maxHealth;
+	currHealth = 100.f;
 	maxTurnAP = 300.f;
-	turnAP = maxTurnAP;
+	turnAP = 300.f;
 	attackCost = 20.f;
 	distanceToAP = 6.f; // Used as divisor to turn the length of distance moved into AP
 	isMoveable = true; // Allow actor to move
@@ -81,10 +81,11 @@ void AProtagClass::Tick(float DeltaTime)
 {
 	Super::Tick(DeltaTime);
 
-	// Below is called in super now
-	/*if (isBattling) {
-		getTurnDistance();
-	}*/
+
+	//--- Calculate Percentages for UI
+	//APPercentage = turnAP / maxTurnAP;
+	//healthPercentage = currHealth / maxHealth;
+
 }
 
 // Called to bind functionality to input
@@ -241,7 +242,7 @@ void AProtagClass::startTurn() {
 	EnableInput(PC);
 	isTurn = true;
 	D("Player turn start");
-	isBattling = true;
+	// isBattling = true;
 }
 
 void AProtagClass::endTurn()

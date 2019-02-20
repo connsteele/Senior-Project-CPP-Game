@@ -29,7 +29,7 @@ void AEnemySlime::BeginPlay()
 	currHealth = maxHealth;
 	maxTurnAP = 100.f;
 	turnAP = maxTurnAP;
-	distanceToAP = 6.f; // Used as divisor to turn the length of distance moved into AP
+	distanceToAP = 10.f; // Used as divisor to turn the length of distance moved into AP, higher = more per turn movement
 	isMoveable = true; // Allow actor to move
 }
 
@@ -43,13 +43,14 @@ void AEnemySlime::endTurn()
 {
 	Super::endTurn();
 	isTurn = false;
+	D("Slime Turn End");
 }
 
 void AEnemySlime::startTurn()
 {
-	D("ENEMY SLIME TURN START!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!");
+	D("Slime Turn Start");
 	isTurn = true;
-	isBattling = true;
+	// isBattling = true;
 	turnAP = maxTurnAP; // Reset AP for new turn
 }
 
