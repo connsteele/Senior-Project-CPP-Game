@@ -24,8 +24,13 @@ void AEnemySlime::BeginPlay()
 	visionSphere->OnComponentBeginOverlap.RemoveDynamic(this, &AEnemySlime::inSight);
 	visionSphere->OnComponentBeginOverlap.AddDynamic(this, &AEnemySlime::inSight);
 
-	// Allow actor to move
-	isMoveable = true;
+	//--- Stat Related Variable Initialization
+	maxHealth = 40.f;
+	currHealth = maxHealth;
+	maxTurnAP = 100.f;
+	turnAP = maxTurnAP;
+	distanceToAP = 6.f; // Used as divisor to turn the length of distance moved into AP
+	isMoveable = true; // Allow actor to move
 }
 
 void AEnemySlime::Tick(float DeltaTime)
@@ -45,6 +50,7 @@ void AEnemySlime::startTurn()
 	D("ENEMY SLIME TURN START!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!");
 	isTurn = true;
 	isBattling = true;
+	turnAP = maxTurnAP; // Reset AP for new turn
 }
 
 

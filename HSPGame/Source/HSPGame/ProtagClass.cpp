@@ -32,10 +32,9 @@ AProtagClass::AProtagClass() : ABase2DCharacter()
 // Called when the game starts or when spawned
 void AProtagClass::BeginPlay()
 {
-	//Super call
-	Super::BeginPlay();
+	Super::BeginPlay(); // Super call
 
-	// Show the cursor in the game and enable events
+	//--- Show the cursor in the game and enable events
 	APlayerController* PC = GetWorld()->GetFirstPlayerController();
 	if (PC)
 	{
@@ -45,8 +44,7 @@ void AProtagClass::BeginPlay()
 		
 	}
 
-
-	//Event setups
+	//--- Set Up Dynamic Functions
 	GetCapsuleComponent()->OnComponentHit.RemoveDynamic(this, &AProtagClass::charHit);
 	GetCapsuleComponent()->OnComponentHit.AddDynamic(this, &AProtagClass::charHit);
 	visionSphere->SetGenerateOverlapEvents(true);
@@ -54,18 +52,16 @@ void AProtagClass::BeginPlay()
 	visionSphere->OnComponentBeginOverlap.RemoveDynamic(this, &AProtagClass::inSight);
 	visionSphere->OnComponentBeginOverlap.AddDynamic(this, &AProtagClass::inSight);
 
-	//Variable declarations
-	currHealth = 100.f;
+	//--- Stat Related Variable Initialization
 	maxHealth = 100.f;
-	turnAP = 0;
+	currHealth = maxHealth;
 	maxTurnAP = 300.f;
+	turnAP = maxTurnAP;
 	attackCost = 20.f;
-	distanceToAP = 5.f;
-
-	// Allow actor to move
-	isMoveable = true;
-	isHorzMoving = false;
-	isVertMoving = false;
+	distanceToAP = 6.f; // Used as divisor to turn the length of distance moved into AP
+	isMoveable = true; // Allow actor to move
+	isHorzMoving = false; // Used for horizontal animation
+	isVertMoving = false; // Used for vertical animation
 
 
 	//--- Set up Rotation booleans for correct player orientation when rotating camera 
@@ -84,9 +80,11 @@ void AProtagClass::BeginPlay()
 void AProtagClass::Tick(float DeltaTime)
 {
 	Super::Tick(DeltaTime);
-	if (isBattling) {
+
+	// Below is called in super now
+	/*if (isBattling) {
 		getTurnDistance();
-	}
+	}*/
 }
 
 // Called to bind functionality to input
@@ -237,7 +235,7 @@ void AProtagClass::charHit(UPrimitiveComponent * HitComponent, AActor * OtherAct
 
 void AProtagClass::startTurn() {
 	APlayerController* PC = GetWorld()->GetFirstPlayerController();
-	turnAP = 0;
+	turnAP = maxTurnAP;
 	lastRecordedLocation = GetActorLocation();
 	//isMoveable = true;
 	EnableInput(PC);

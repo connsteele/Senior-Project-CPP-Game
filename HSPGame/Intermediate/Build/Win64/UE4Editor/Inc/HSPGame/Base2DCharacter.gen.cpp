@@ -50,6 +50,30 @@ void EmptyLinkFunctionForGeneratedCodeBase2DCharacter() {}
 #endif
 		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_idleAnim;
 #if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_APPercentage_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FFloatPropertyParams NewProp_APPercentage;
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_healthPercentage_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FFloatPropertyParams NewProp_healthPercentage;
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_maxTurnAP_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FFloatPropertyParams NewProp_maxTurnAP;
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_turnAP_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FFloatPropertyParams NewProp_turnAP;
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_maxHealth_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FFloatPropertyParams NewProp_maxHealth;
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_currHealth_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FFloatPropertyParams NewProp_currHealth;
+#if WITH_METADATA
 		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_isTurn_MetaData[];
 #endif
 		static void NewProp_isTurn_SetBit(void* Obj);
@@ -103,9 +127,53 @@ void EmptyLinkFunctionForGeneratedCodeBase2DCharacter() {}
 #endif
 	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_ABase2DCharacter_Statics::NewProp_idleAnim = { UE4CodeGen_Private::EPropertyClass::Object, "idleAnim", RF_Public|RF_Transient|RF_MarkAsNative, (EPropertyFlags)0x0010000000000005, 1, nullptr, STRUCT_OFFSET(ABase2DCharacter, idleAnim), Z_Construct_UClass_UPaperFlipbook_NoRegister, METADATA_PARAMS(Z_Construct_UClass_ABase2DCharacter_Statics::NewProp_idleAnim_MetaData, ARRAY_COUNT(Z_Construct_UClass_ABase2DCharacter_Statics::NewProp_idleAnim_MetaData)) };
 #if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ABase2DCharacter_Statics::NewProp_APPercentage_MetaData[] = {
+		{ "Category", "Base2DCharacter" },
+		{ "ModuleRelativePath", "Base2DCharacter.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FFloatPropertyParams Z_Construct_UClass_ABase2DCharacter_Statics::NewProp_APPercentage = { UE4CodeGen_Private::EPropertyClass::Float, "APPercentage", RF_Public|RF_Transient|RF_MarkAsNative, (EPropertyFlags)0x0010000000000014, 1, nullptr, STRUCT_OFFSET(ABase2DCharacter, APPercentage), METADATA_PARAMS(Z_Construct_UClass_ABase2DCharacter_Statics::NewProp_APPercentage_MetaData, ARRAY_COUNT(Z_Construct_UClass_ABase2DCharacter_Statics::NewProp_APPercentage_MetaData)) };
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ABase2DCharacter_Statics::NewProp_healthPercentage_MetaData[] = {
+		{ "Category", "Base2DCharacter" },
+		{ "ModuleRelativePath", "Base2DCharacter.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FFloatPropertyParams Z_Construct_UClass_ABase2DCharacter_Statics::NewProp_healthPercentage = { UE4CodeGen_Private::EPropertyClass::Float, "healthPercentage", RF_Public|RF_Transient|RF_MarkAsNative, (EPropertyFlags)0x0010000000000014, 1, nullptr, STRUCT_OFFSET(ABase2DCharacter, healthPercentage), METADATA_PARAMS(Z_Construct_UClass_ABase2DCharacter_Statics::NewProp_healthPercentage_MetaData, ARRAY_COUNT(Z_Construct_UClass_ABase2DCharacter_Statics::NewProp_healthPercentage_MetaData)) };
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ABase2DCharacter_Statics::NewProp_maxTurnAP_MetaData[] = {
+		{ "Category", "Base2DCharacter" },
+		{ "ModuleRelativePath", "Base2DCharacter.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FFloatPropertyParams Z_Construct_UClass_ABase2DCharacter_Statics::NewProp_maxTurnAP = { UE4CodeGen_Private::EPropertyClass::Float, "maxTurnAP", RF_Public|RF_Transient|RF_MarkAsNative, (EPropertyFlags)0x0010000000000014, 1, nullptr, STRUCT_OFFSET(ABase2DCharacter, maxTurnAP), METADATA_PARAMS(Z_Construct_UClass_ABase2DCharacter_Statics::NewProp_maxTurnAP_MetaData, ARRAY_COUNT(Z_Construct_UClass_ABase2DCharacter_Statics::NewProp_maxTurnAP_MetaData)) };
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ABase2DCharacter_Statics::NewProp_turnAP_MetaData[] = {
+		{ "Category", "Base2DCharacter" },
+		{ "ModuleRelativePath", "Base2DCharacter.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FFloatPropertyParams Z_Construct_UClass_ABase2DCharacter_Statics::NewProp_turnAP = { UE4CodeGen_Private::EPropertyClass::Float, "turnAP", RF_Public|RF_Transient|RF_MarkAsNative, (EPropertyFlags)0x0010000000000014, 1, nullptr, STRUCT_OFFSET(ABase2DCharacter, turnAP), METADATA_PARAMS(Z_Construct_UClass_ABase2DCharacter_Statics::NewProp_turnAP_MetaData, ARRAY_COUNT(Z_Construct_UClass_ABase2DCharacter_Statics::NewProp_turnAP_MetaData)) };
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ABase2DCharacter_Statics::NewProp_maxHealth_MetaData[] = {
+		{ "Category", "Base2DCharacter" },
+		{ "ModuleRelativePath", "Base2DCharacter.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FFloatPropertyParams Z_Construct_UClass_ABase2DCharacter_Statics::NewProp_maxHealth = { UE4CodeGen_Private::EPropertyClass::Float, "maxHealth", RF_Public|RF_Transient|RF_MarkAsNative, (EPropertyFlags)0x0010000000000014, 1, nullptr, STRUCT_OFFSET(ABase2DCharacter, maxHealth), METADATA_PARAMS(Z_Construct_UClass_ABase2DCharacter_Statics::NewProp_maxHealth_MetaData, ARRAY_COUNT(Z_Construct_UClass_ABase2DCharacter_Statics::NewProp_maxHealth_MetaData)) };
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ABase2DCharacter_Statics::NewProp_currHealth_MetaData[] = {
+		{ "Category", "Base2DCharacter" },
+		{ "ModuleRelativePath", "Base2DCharacter.h" },
+		{ "ToolTip", "Used as divisor to turn the length of distance moved into AP" },
+	};
+#endif
+	const UE4CodeGen_Private::FFloatPropertyParams Z_Construct_UClass_ABase2DCharacter_Statics::NewProp_currHealth = { UE4CodeGen_Private::EPropertyClass::Float, "currHealth", RF_Public|RF_Transient|RF_MarkAsNative, (EPropertyFlags)0x0010000000000014, 1, nullptr, STRUCT_OFFSET(ABase2DCharacter, currHealth), METADATA_PARAMS(Z_Construct_UClass_ABase2DCharacter_Statics::NewProp_currHealth_MetaData, ARRAY_COUNT(Z_Construct_UClass_ABase2DCharacter_Statics::NewProp_currHealth_MetaData)) };
+#if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ABase2DCharacter_Statics::NewProp_isTurn_MetaData[] = {
 		{ "Category", "Base2DCharacter" },
 		{ "ModuleRelativePath", "Base2DCharacter.h" },
+		{ "ToolTip", "Movement Boolean" },
 	};
 #endif
 	void Z_Construct_UClass_ABase2DCharacter_Statics::NewProp_isTurn_SetBit(void* Obj)
@@ -126,6 +194,12 @@ void EmptyLinkFunctionForGeneratedCodeBase2DCharacter() {}
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ABase2DCharacter_Statics::NewProp_walkForwardAnim,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ABase2DCharacter_Statics::NewProp_walkRightAnim,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ABase2DCharacter_Statics::NewProp_idleAnim,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ABase2DCharacter_Statics::NewProp_APPercentage,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ABase2DCharacter_Statics::NewProp_healthPercentage,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ABase2DCharacter_Statics::NewProp_maxTurnAP,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ABase2DCharacter_Statics::NewProp_turnAP,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ABase2DCharacter_Statics::NewProp_maxHealth,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ABase2DCharacter_Statics::NewProp_currHealth,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ABase2DCharacter_Statics::NewProp_isTurn,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ABase2DCharacter_Statics::NewProp_visionSphere,
 	};
@@ -152,7 +226,7 @@ void EmptyLinkFunctionForGeneratedCodeBase2DCharacter() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(ABase2DCharacter, 3111678425);
+	IMPLEMENT_CLASS(ABase2DCharacter, 1367960254);
 	static FCompiledInDefer Z_CompiledInDefer_UClass_ABase2DCharacter(Z_Construct_UClass_ABase2DCharacter, &ABase2DCharacter::StaticClass, TEXT("/Script/HSPGame"), TEXT("ABase2DCharacter"), false, nullptr, nullptr, nullptr);
 	DEFINE_VTABLE_PTR_HELPER_CTOR(ABase2DCharacter);
 PRAGMA_ENABLE_DEPRECATION_WARNINGS

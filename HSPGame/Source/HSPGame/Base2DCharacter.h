@@ -42,26 +42,27 @@ public:
 	void charHit(UPrimitiveComponent * HitComponent, AActor * OtherActor, UPrimitiveComponent * OtherComp, FVector NormalImpulse, const FHitResult & Hit);
 	void getTurnDistance();
 
-	// Movement Booleans
-	bool isMoveable;
 	
-	// uses for animation
-	bool isHorzMoving;
-	bool isVertMoving;
-
-	//Variables values for battle
-	float currHealth;
-	float maxHealth;
-	float turnAP;
-	float maxTurnAP;
-	float attackCost;
-	float distanceToAP;
-
+	// Combat Stat Related Variables
+	bool isMoveable; // Movement Boolean
 	UPROPERTY(BlueprintReadWrite)
-	bool isTurn;
-
-	//Vector for last recorded location
-	FVector lastRecordedLocation;
+		bool isTurn;
+	float attackCost; // Basic Attack AP cost
+	float distanceToAP; // Used as divisor to turn the length of distance moved into AP
+	UPROPERTY(BlueprintReadOnly)
+		float currHealth;
+	UPROPERTY(BlueprintReadOnly)
+		float maxHealth;
+	UPROPERTY(BlueprintReadOnly)
+		float turnAP;
+	UPROPERTY(BlueprintReadOnly)
+		float maxTurnAP;
+	UPROPERTY(BlueprintReadOnly)
+		float healthPercentage;
+	UPROPERTY(BlueprintReadOnly)
+		float APPercentage;
+	FVector lastRecordedLocation; // Vector of last recorded location
+	
 
 	// Animations for the Class
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = Animations)
@@ -75,17 +76,13 @@ public:
 
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = Animations)
 		UPaperFlipbook * walkDownAnim;
-
-	/*UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = SpriteMaterial)
-		UMaterialInstance* defaultMaterial;
-
-	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = SpriteMaterial)
-		UMaterialInstance* mirrorHMaterial;*/
+	// used for animation
+	bool isHorzMoving;
+	bool isVertMoving;
 
 	// Functions 
 	void moveRight();
 	void moveForward();
-	//void resetRotation();
 	void die();
 	virtual void endTurn();
 	virtual void startTurn();

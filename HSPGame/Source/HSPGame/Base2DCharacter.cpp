@@ -36,14 +36,23 @@ void ABase2DCharacter::Tick(float DeltaTime)
 {
 	Super::Tick(DeltaTime);
 
-	// Make the sprite face player 0's camera
+	//--- If in battle calculate distance to AP
+	if (isBattling) 
+	{
+		getTurnDistance();
+	}
+
+	//--- Make the sprite face player 0's camera
 	FVector CameraLocation = GEngine->GetFirstLocalPlayerController(GetWorld())->PlayerCameraManager->GetCameraLocation() ; // +FVector(-200.f, 0.f, 20.f)
 	FVector objectlocation = GetSprite()->GetComponentLocation();
 	FRotator rotYaw = FRotationMatrix::MakeFromY(CameraLocation - objectlocation).Rotator();
 	FRotator relRot = GetSprite()->RelativeRotation;
-	
 	GetSprite()->SetRelativeRotation(FRotator(relRot.Pitch, rotYaw.Yaw, relRot.Roll));
 	GetSprite()->AddRelativeRotation(FRotator(0.f, 90.f, 0.f));
+
+	//--- Calculate Percentages for UI
+	APPercentage = turnAP / maxTurnAP;
+	healthPercentage = currHealth / maxHealth;
 
 	
 }
@@ -69,12 +78,10 @@ void ABase2DCharacter::getTurnDistance()
 	FVector loc = GetActorLocation();
 	float distanceTravelled = (lastRecordedLocation - loc).Size();
 	//turn the distance to AP
-	turnAP = (distanceTravelled / distanceToAP) + turnAP;
+	turnAP -= (distanceTravelled / distanceToAP);
 	lastRecordedLocation = loc;
 
-	D(FString::SanitizeFloat(turnAP));
-
-	if (turnAP >= maxTurnAP) {
+	if (turnAP <= 0) {
 		if (isTurn) {
 			endTurn();
 		}
