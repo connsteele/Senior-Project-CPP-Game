@@ -1,3 +1,0 @@
-C:\Users\gosus\Documents\CP-School\SeniorProject\gitRepos\Senior-Project-CPP-Testground\HSPGame\Source\HSPGame\HSPGame.Build.cs
-C:\Users\gosus\Documents\CP-School\SeniorProject\gitRepos\Senior-Project-CPP-Testground\HSPGame\Source\HSPGame.Target.cs
-C:\Users\gosus\Documents\CP-School\SeniorProject\gitRepos\Senior-Project-CPP-Testground\HSPGame\Source\HSPGameEditor.Target.cs
