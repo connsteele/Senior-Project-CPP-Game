@@ -70,6 +70,9 @@ public:
 		UPaperFlipbook * idleAnim;
 
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = Animations)
+		UPaperFlipbook * walkLeftAnim;
+
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = Animations)
 		UPaperFlipbook * walkRightAnim;
 
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = Animations)

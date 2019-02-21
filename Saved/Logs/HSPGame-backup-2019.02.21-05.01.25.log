@@ -1,0 +1,1240 @@
+﻿Log file open, 02/20/19 20:48:11
+LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
+LogWindows: File 'aqProf.dll' does not exist
+LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi.dll' does not exist
+LogWindows: Failed to load 'VtuneApi32e.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi32e.dll' does not exist
+LogConsoleResponse: Display: Failed to find resolution value strings in scalability ini. Falling back to default.
+LogInit: Display: Running engine for game: HSPGame
+LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+LogPlatformFile: Not using cached read wrapper
+LogTaskGraph: Started task graph with 5 named threads and 23 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 0.348375
+LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
+LogICUInternationalization: ICU TimeZone Detection - Raw Offset: -8:00, Platform Override: ''
+LogPluginManager: Mounting plugin Paper2D
+LogPluginManager: Mounting plugin AISupport
+LogPluginManager: Mounting plugin LightPropagationVolume
+LogPluginManager: Mounting plugin ActorLayerUtilities
+LogPluginManager: Mounting plugin CLionSourceCodeAccess
+LogPluginManager: Mounting plugin CodeLiteSourceCodeAccess
+LogPluginManager: Mounting plugin GitSourceControl
+LogPluginManager: Mounting plugin KDevelopSourceCodeAccess
+LogPluginManager: Mounting plugin NullSourceCodeAccess
+LogPluginManager: Mounting plugin PerforceSourceControl
+LogPluginManager: Mounting plugin SubversionSourceControl
+LogPluginManager: Mounting plugin UObjectPlugin
+LogPluginManager: Mounting plugin VisualStudioCodeSourceCodeAccess
+LogPluginManager: Mounting plugin VisualStudioSourceCodeAccess
+LogPluginManager: Mounting plugin XCodeSourceCodeAccess
+LogPluginManager: Mounting plugin AssetManagerEditor
+LogPluginManager: Mounting plugin CryptoKeys
+LogPluginManager: Mounting plugin DataValidation
+LogPluginManager: Mounting plugin FacialAnimation
+LogPluginManager: Mounting plugin GameplayTagsEditor
+LogPluginManager: Mounting plugin MacGraphicsSwitching
+LogPluginManager: Mounting plugin MeshEditor
+LogPluginManager: Mounting plugin MobileLauncherProfileWizard
+LogPluginManager: Mounting plugin PluginBrowser
+LogPluginManager: Mounting plugin SpeedTreeImporter
+LogPluginManager: Mounting plugin DatasmithContent
+LogPluginManager: Mounting plugin VariantManagerContent
+LogPluginManager: Mounting plugin AlembicImporter
+LogPluginManager: Mounting plugin AppleImageUtils
+LogPluginManager: Mounting plugin AppleVision
+LogPluginManager: Mounting plugin BackChannel
+LogPluginManager: Mounting plugin CharacterAI
+LogPluginManager: Mounting plugin GeometryCache
+LogPluginManager: Mounting plugin HTML5Networking
+LogPluginManager: Mounting plugin ProxyLODPlugin
+LogPluginManager: Mounting plugin MagicLeap
+LogPluginManager: Mounting plugin MagicLeapMedia
+LogPluginManager: Mounting plugin AndroidMedia
+LogPluginManager: Mounting plugin AvfMedia
+LogPluginManager: Mounting plugin ImgMedia
+LogPluginManager: Mounting plugin LinearTimecode
+LogPluginManager: Mounting plugin MediaCompositing
+LogPluginManager: Mounting plugin MediaPlayerEditor
+LogPluginManager: Mounting plugin WebMMedia
+LogPluginManager: Mounting plugin WmfMedia
+LogPluginManager: Mounting plugin TcpMessaging
+LogPluginManager: Mounting plugin UdpMessaging
+LogPluginManager: Mounting plugin ActorSequence
+LogPluginManager: Mounting plugin LevelSequenceEditor
+LogPluginManager: Mounting plugin MatineeToLevelSequence
+LogPluginManager: Mounting plugin NetcodeUnitTest
+LogPluginManager: Mounting plugin NUTUnrealEngine4
+LogPluginManager: Mounting plugin OnlineSubsystemGooglePlay
+LogPluginManager: Mounting plugin OnlineSubsystemIOS
+LogPluginManager: Mounting plugin OnlineSubsystem
+LogPluginManager: Mounting plugin OnlineSubsystemNull
+LogPluginManager: Mounting plugin OnlineSubsystemUtils
+LogPluginManager: Mounting plugin LauncherChunkInstaller
+LogPluginManager: Mounting plugin AndroidDeviceProfileSelector
+LogPluginManager: Mounting plugin AndroidMoviePlayer
+LogPluginManager: Mounting plugin AndroidPermission
+LogPluginManager: Mounting plugin AppleMoviePlayer
+LogPluginManager: Mounting plugin ArchVisCharacter
+LogPluginManager: Mounting plugin AudioCapture
+LogPluginManager: Mounting plugin CableComponent
+LogPluginManager: Mounting plugin CustomMeshComponent
+LogPluginManager: Mounting plugin EditableMesh
+LogPluginManager: Mounting plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting plugin Firebase
+LogPluginManager: Mounting plugin GoogleCloudMessaging
+LogPluginManager: Mounting plugin IOSDeviceProfileSelector
+LogPluginManager: Mounting plugin LinuxDeviceProfileSelector
+LogPluginManager: Mounting plugin LocationServicesBPLibrary
+LogPluginManager: Mounting plugin MobilePatchingUtils
+LogPluginManager: Mounting plugin OculusVR
+LogPluginManager: Mounting plugin PhysXVehicles
+LogPluginManager: Mounting plugin ProceduralMeshComponent
+LogPluginManager: Mounting plugin RuntimePhysXCooking
+LogPluginManager: Mounting plugin SteamVR
+LogPluginManager: Mounting plugin WebMMoviePlayer
+LogPluginManager: Mounting plugin WindowsMoviePlayer
+LogStreaming: Display: Took  0.083s to configure plugins.
+LogInit: Using libcurl 7.55.1-DEV
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2h
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - MaxHostConnections = 16  - Libcurl will limit the number of connections to a host
+LogInit:  - LocalHostAddr = Default
+LogInit:  - BufferSize = 65536
+LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+LogInit: Build: ++UE4+Release-4.21-CL-4753647
+LogInit: Engine Version: 4.21.2-4753647+++UE4+Release-4.21
+LogInit: Compatible Engine Version: 4.21.0-4541578+++UE4+Release-4.21
+LogInit: Net CL: 4541578
+LogInit: OS: Windows 10 (), CPU: Intel(R) Core(TM) i7-6700K CPU @ 4.00GHz, GPU: NVIDIA GeForce RTX 2080
+LogInit: Compiled (64-bit): Jan 19 2019 02:07:31
+LogInit: Compiled with Visual C++: 19.13.26129.00
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.21
+LogInit: Command Line:  -skipcompile
+LogInit: Base Directory: G:/Games/Epic/Games/UE_4.21/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogDevObjectVersion: Number of dev versions registered: 22
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 26
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 34
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 2
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 27
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 9
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 2
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 3
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 17
+LogDevObjectVersion:   Dev-Anim (AF43A65D-7FD3-4947-9873-3E8ED9C1BB05): 2
+LogDevObjectVersion:   Dev-ReflectionCapture (6B266CEC-1EC7-4B8F-A30B-E4D90942FC07): 1
+LogDevObjectVersion:   Dev-Automation (0DF73D61-A23F-47EA-B727-89E90C41499A): 1
+LogDevObjectVersion:   FortniteMain (601D1886-AC64-4F84-AA16-D3DE0DEAC7D6): 17
+LogDevObjectVersion:   Dev-Enterprise (9DFFBCD6-494F-0158-E221-12823C92A888): 4
+LogDevObjectVersion:   Dev-Niagara (F2AED0AC-9AFE-416F-8664-AA7FFA26D6FC): 1
+LogStreaming: Display: Took  0.004s to delete old logs.
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+LogConfig: Setting CVar [[con.DebugEarlyDefault:1]]
+LogConfig: Setting CVar [[r.setres:1280x720]]
+[2019.02.21-04.48.12:010][  0]LogConfig: Setting CVar [[r.VSync:0]]
+[2019.02.21-04.48.12:010][  0]LogConfig: Setting CVar [[r.RHICmdBypass:0]]
+[2019.02.21-04.48.12:010][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererSettings] File [C:/Users/gosus/Documents/CP-School/SeniorProject/gitRepos/Senior-Project-CPP-Testground/Saved/Config/Windows/Engine.ini]
+[2019.02.21-04.48.12:010][  0]LogConfig: Setting CVar [[r.GPUCrashDebugging:0]]
+[2019.02.21-04.48.12:010][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererOverrideSettings] File [C:/Users/gosus/Documents/CP-School/SeniorProject/gitRepos/Senior-Project-CPP-Testground/Saved/Config/Windows/Engine.ini]
+[2019.02.21-04.48.12:010][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [C:/Users/gosus/Documents/CP-School/SeniorProject/gitRepos/Senior-Project-CPP-Testground/Saved/Config/Windows/Engine.ini]
+[2019.02.21-04.48.12:010][  0]LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
+[2019.02.21-04.48.12:010][  0]LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
+[2019.02.21-04.48.12:010][  0]LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
+[2019.02.21-04.48.12:010][  0]LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
+[2019.02.21-04.48.12:010][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
+[2019.02.21-04.48.12:010][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
+[2019.02.21-04.48.12:010][  0]LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
+[2019.02.21-04.48.12:010][  0]LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
+[2019.02.21-04.48.12:010][  0]LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
+[2019.02.21-04.48.12:010][  0]LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
+[2019.02.21-04.48.12:010][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
+[2019.02.21-04.48.12:010][  0]LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
+[2019.02.21-04.48.12:010][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
+[2019.02.21-04.48.12:010][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.GarbageCollectionSettings] File [C:/Users/gosus/Documents/CP-School/SeniorProject/gitRepos/Senior-Project-CPP-Testground/Saved/Config/Windows/Engine.ini]
+[2019.02.21-04.48.12:011][  0]LogConfig: Setting CVar [[gc.MaxObjectsNotConsideredByGC:1]]
+[2019.02.21-04.48.12:011][  0]LogConfig: Setting CVar [[gc.SizeOfPermanentObjectPool:0]]
+[2019.02.21-04.48.12:011][  0]LogConfig: Setting CVar [[gc.FlushStreamingOnGC:0]]
+[2019.02.21-04.48.12:011][  0]LogConfig: Setting CVar [[gc.NumRetriesBeforeForcingGC:10]]
+[2019.02.21-04.48.12:011][  0]LogConfig: Setting CVar [[gc.AllowParallelGC:1]]
+[2019.02.21-04.48.12:011][  0]LogConfig: Setting CVar [[gc.TimeBetweenPurgingPendingKillObjects:61.1]]
+[2019.02.21-04.48.12:011][  0]LogConfig: Setting CVar [[gc.MaxObjectsInEditor:8388607]]
+[2019.02.21-04.48.12:011][  0]LogConfig: Setting CVar [[gc.IncrementalBeginDestroyEnabled:1]]
+[2019.02.21-04.48.12:011][  0]LogConfig: Setting CVar [[gc.CreateGCClusters:1]]
+[2019.02.21-04.48.12:011][  0]LogConfig: Setting CVar [[gc.MergeGCClusters:0]]
+[2019.02.21-04.48.12:011][  0]LogConfig: Setting CVar [[gc.MinGCClusterSize:5]]
+[2019.02.21-04.48.12:011][  0]LogConfig: Setting CVar [[gc.ActorClusteringEnabled:0]]
+[2019.02.21-04.48.12:011][  0]LogConfig: Setting CVar [[gc.BlueprintClusteringEnabled:0]]
+[2019.02.21-04.48.12:011][  0]LogConfig: Setting CVar [[gc.UseDisregardForGCOnDedicatedServers:0]]
+[2019.02.21-04.48.12:011][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.NetworkSettings] File [C:/Users/gosus/Documents/CP-School/SeniorProject/gitRepos/Senior-Project-CPP-Testground/Saved/Config/Windows/Engine.ini]
+[2019.02.21-04.48.12:011][  0]LogConfig: Applying CVar settings from Section [/Script/UnrealEd.CookerSettings] File [C:/Users/gosus/Documents/CP-School/SeniorProject/gitRepos/Senior-Project-CPP-Testground/Saved/Config/Windows/Engine.ini]
+[2019.02.21-04.48.12:025][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [C:/Users/gosus/Documents/CP-School/SeniorProject/gitRepos/Senior-Project-CPP-Testground/Saved/Config/Windows/Scalability.ini]
+[2019.02.21-04.48.12:025][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2019.02.21-04.48.12:025][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2019.02.21-04.48.12:025][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [C:/Users/gosus/Documents/CP-School/SeniorProject/gitRepos/Senior-Project-CPP-Testground/Saved/Config/Windows/Scalability.ini]
+[2019.02.21-04.48.12:025][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2019.02.21-04.48.12:025][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [C:/Users/gosus/Documents/CP-School/SeniorProject/gitRepos/Senior-Project-CPP-Testground/Saved/Config/Windows/Scalability.ini]
+[2019.02.21-04.48.12:025][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2019.02.21-04.48.12:025][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2019.02.21-04.48.12:026][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2019.02.21-04.48.12:026][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2019.02.21-04.48.12:026][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2019.02.21-04.48.12:026][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2019.02.21-04.48.12:026][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2019.02.21-04.48.12:026][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2019.02.21-04.48.12:026][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2019.02.21-04.48.12:026][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2019.02.21-04.48.12:026][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2019.02.21-04.48.12:026][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2019.02.21-04.48.12:026][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2019.02.21-04.48.12:026][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2019.02.21-04.48.12:026][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2019.02.21-04.48.12:026][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2019.02.21-04.48.12:026][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2019.02.21-04.48.12:027][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2019.02.21-04.48.12:027][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [C:/Users/gosus/Documents/CP-School/SeniorProject/gitRepos/Senior-Project-CPP-Testground/Saved/Config/Windows/Scalability.ini]
+[2019.02.21-04.48.12:027][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2019.02.21-04.48.12:027][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2019.02.21-04.48.12:027][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2019.02.21-04.48.12:027][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2019.02.21-04.48.12:027][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2019.02.21-04.48.12:027][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2019.02.21-04.48.12:027][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2019.02.21-04.48.12:027][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2019.02.21-04.48.12:027][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2019.02.21-04.48.12:027][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2019.02.21-04.48.12:027][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2019.02.21-04.48.12:027][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2019.02.21-04.48.12:027][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2019.02.21-04.48.12:027][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2019.02.21-04.48.12:027][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2019.02.21-04.48.12:028][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2019.02.21-04.48.12:028][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2019.02.21-04.48.12:028][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2019.02.21-04.48.12:028][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2019.02.21-04.48.12:028][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2019.02.21-04.48.12:028][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2019.02.21-04.48.12:028][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2019.02.21-04.48.12:028][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2019.02.21-04.48.12:028][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2019.02.21-04.48.12:028][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2019.02.21-04.48.12:028][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2019.02.21-04.48.12:028][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2019.02.21-04.48.12:028][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2019.02.21-04.48.12:028][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2019.02.21-04.48.12:028][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2019.02.21-04.48.12:028][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [C:/Users/gosus/Documents/CP-School/SeniorProject/gitRepos/Senior-Project-CPP-Testground/Saved/Config/Windows/Scalability.ini]
+[2019.02.21-04.48.12:028][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2019.02.21-04.48.12:028][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2019.02.21-04.48.12:028][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2019.02.21-04.48.12:029][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2019.02.21-04.48.12:029][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2019.02.21-04.48.12:029][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2019.02.21-04.48.12:029][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2019.02.21-04.48.12:029][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2019.02.21-04.48.12:029][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [C:/Users/gosus/Documents/CP-School/SeniorProject/gitRepos/Senior-Project-CPP-Testground/Saved/Config/Windows/Scalability.ini]
+[2019.02.21-04.48.12:029][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2019.02.21-04.48.12:029][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2019.02.21-04.48.12:029][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2019.02.21-04.48.12:029][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2019.02.21-04.48.12:029][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2019.02.21-04.48.12:029][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2019.02.21-04.48.12:029][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2019.02.21-04.48.12:029][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2019.02.21-04.48.12:029][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2019.02.21-04.48.12:029][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2019.02.21-04.48.12:029][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:1]]
+[2019.02.21-04.48.12:029][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2019.02.21-04.48.12:029][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2019.02.21-04.48.12:029][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [C:/Users/gosus/Documents/CP-School/SeniorProject/gitRepos/Senior-Project-CPP-Testground/Saved/Config/Windows/Scalability.ini]
+[2019.02.21-04.48.12:030][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2019.02.21-04.48.12:030][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2019.02.21-04.48.12:030][  0]LogInit: Selected Device Profile: [Windows]
+[2019.02.21-04.48.12:030][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2019.02.21-04.48.12:041][  0]LogHAL: Display: Platform has ~ 32 GB [34313105408 / 34359738368 / 32], which maps to Largest [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2019.02.21-04.48.12:041][  0]LogConfig: Setting CVar [[r.Vulkan.UseRealUBs:1]]
+[2019.02.21-04.48.12:041][  0]LogInit: Going up to parent DeviceProfile []
+[2019.02.21-04.48.12:041][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [C:/Users/gosus/Documents/CP-School/SeniorProject/gitRepos/Senior-Project-CPP-Testground/Saved/Config/Windows/Scalability.ini]
+[2019.02.21-04.48.12:041][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2019.02.21-04.48.12:041][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2019.02.21-04.48.12:041][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [C:/Users/gosus/Documents/CP-School/SeniorProject/gitRepos/Senior-Project-CPP-Testground/Saved/Config/Windows/Scalability.ini]
+[2019.02.21-04.48.12:041][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2019.02.21-04.48.12:041][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [C:/Users/gosus/Documents/CP-School/SeniorProject/gitRepos/Senior-Project-CPP-Testground/Saved/Config/Windows/Scalability.ini]
+[2019.02.21-04.48.12:041][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2019.02.21-04.48.12:041][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2019.02.21-04.48.12:041][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2019.02.21-04.48.12:042][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2019.02.21-04.48.12:042][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2019.02.21-04.48.12:042][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2019.02.21-04.48.12:042][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2019.02.21-04.48.12:042][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2019.02.21-04.48.12:042][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2019.02.21-04.48.12:042][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2019.02.21-04.48.12:042][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2019.02.21-04.48.12:042][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2019.02.21-04.48.12:042][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2019.02.21-04.48.12:042][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2019.02.21-04.48.12:042][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2019.02.21-04.48.12:042][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2019.02.21-04.48.12:042][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2019.02.21-04.48.12:042][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2019.02.21-04.48.12:042][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [C:/Users/gosus/Documents/CP-School/SeniorProject/gitRepos/Senior-Project-CPP-Testground/Saved/Config/Windows/Scalability.ini]
+[2019.02.21-04.48.12:042][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2019.02.21-04.48.12:042][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2019.02.21-04.48.12:042][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2019.02.21-04.48.12:042][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2019.02.21-04.48.12:043][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2019.02.21-04.48.12:043][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2019.02.21-04.48.12:043][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2019.02.21-04.48.12:043][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2019.02.21-04.48.12:043][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2019.02.21-04.48.12:043][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2019.02.21-04.48.12:043][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2019.02.21-04.48.12:043][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2019.02.21-04.48.12:043][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2019.02.21-04.48.12:043][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2019.02.21-04.48.12:043][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2019.02.21-04.48.12:043][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2019.02.21-04.48.12:043][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2019.02.21-04.48.12:043][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2019.02.21-04.48.12:043][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2019.02.21-04.48.12:043][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2019.02.21-04.48.12:043][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2019.02.21-04.48.12:043][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2019.02.21-04.48.12:043][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2019.02.21-04.48.12:044][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2019.02.21-04.48.12:044][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2019.02.21-04.48.12:044][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2019.02.21-04.48.12:044][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2019.02.21-04.48.12:044][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2019.02.21-04.48.12:044][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2019.02.21-04.48.12:044][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2019.02.21-04.48.12:044][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [C:/Users/gosus/Documents/CP-School/SeniorProject/gitRepos/Senior-Project-CPP-Testground/Saved/Config/Windows/Scalability.ini]
+[2019.02.21-04.48.12:044][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2019.02.21-04.48.12:044][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2019.02.21-04.48.12:044][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2019.02.21-04.48.12:044][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2019.02.21-04.48.12:044][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2019.02.21-04.48.12:044][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2019.02.21-04.48.12:044][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2019.02.21-04.48.12:044][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2019.02.21-04.48.12:044][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [C:/Users/gosus/Documents/CP-School/SeniorProject/gitRepos/Senior-Project-CPP-Testground/Saved/Config/Windows/Scalability.ini]
+[2019.02.21-04.48.12:044][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2019.02.21-04.48.12:044][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2019.02.21-04.48.12:045][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2019.02.21-04.48.12:045][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2019.02.21-04.48.12:045][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2019.02.21-04.48.12:045][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2019.02.21-04.48.12:045][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2019.02.21-04.48.12:045][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2019.02.21-04.48.12:045][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2019.02.21-04.48.12:045][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2019.02.21-04.48.12:045][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:1]]
+[2019.02.21-04.48.12:045][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2019.02.21-04.48.12:045][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2019.02.21-04.48.12:045][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [C:/Users/gosus/Documents/CP-School/SeniorProject/gitRepos/Senior-Project-CPP-Testground/Saved/Config/Windows/Scalability.ini]
+[2019.02.21-04.48.12:045][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2019.02.21-04.48.12:045][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2019.02.21-04.48.12:045][  0]LogConfig: Applying CVar settings from Section [Startup] File [../../../Engine/Config/ConsoleVariables.ini]
+[2019.02.21-04.48.12:045][  0]LogConfig: Setting CVar [[net.UseAdaptiveNetUpdateFrequency:0]]
+[2019.02.21-04.48.12:046][  0]LogConfig: Applying CVar settings from Section [ConsoleVariables] File [C:/Users/gosus/Documents/CP-School/SeniorProject/gitRepos/Senior-Project-CPP-Testground/Saved/Config/Windows/Engine.ini]
+[2019.02.21-04.48.12:046][  0]LogInit: Computer: UNIT-01
+[2019.02.21-04.48.12:046][  0]LogInit: User: gosus
+[2019.02.21-04.48.12:046][  0]LogInit: CPU Page size=4096, Cores=4
+[2019.02.21-04.48.12:046][  0]LogInit: High frequency timer resolution =10.000000 MHz
+[2019.02.21-04.48.12:046][  0]LogMemory: Memory total: Physical=32.0GB (32GB approx)
+[2019.02.21-04.48.12:046][  0]LogMemory: Platform Memory Stats for Windows
+[2019.02.21-04.48.12:046][  0]LogMemory: Process Physical Memory: 104.00 MB used, 104.01 MB peak
+[2019.02.21-04.48.12:046][  0]LogMemory: Process Virtual Memory: 94.45 MB used, 94.45 MB peak
+[2019.02.21-04.48.12:046][  0]LogMemory: Physical Memory: 10379.35 MB used,  22344.18 MB free, 32723.53 MB total
+[2019.02.21-04.48.12:046][  0]LogMemory: Virtual Memory: 4652.41 MB used,  134213072.00 MB free, 134217728.00 MB total
+[2019.02.21-04.48.12:135][  0]LogInit: Using OS detected language (en-US).
+[2019.02.21-04.48.12:135][  0]LogInit: Using OS detected locale (en-US).
+[2019.02.21-04.48.12:136][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2019.02.21-04.48.12:425][  0]LogStreaming: Display: Took  0.290s to InitEngineTextLocalization.
+[2019.02.21-04.48.12:425][  0]LogInit: Setting process to per monitor DPI aware
+[2019.02.21-04.48.12:482][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2019.02.21-04.48.12:482][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2019.02.21-04.48.12:668][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2019.02.21-04.48.12:668][  0]LogD3D11RHI: D3D11 adapters:
+[2019.02.21-04.48.12:828][  0]LogD3D11RHI:    0. 'NVIDIA GeForce RTX 2080' (Feature Level 11_0)
+[2019.02.21-04.48.12:828][  0]LogD3D11RHI:       8010/0/16361 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x10de
+[2019.02.21-04.48.12:832][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2019.02.21-04.48.12:833][  0]LogD3D11RHI:       0/0/16361 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2019.02.21-04.48.12:833][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2019.02.21-04.48.12:841][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2019.02.21-04.48.12:841][  0]LogD3D11RHI:     GPU DeviceId: 0x1e87 (for the marketing name, search the web for "GPU Device Id")
+[2019.02.21-04.48.12:841][  0]LogWindows: EnumDisplayDevices:
+[2019.02.21-04.48.12:842][  0]LogWindows:    0. 'NVIDIA GeForce RTX 2080' (P:1 D:1)
+[2019.02.21-04.48.12:842][  0]LogWindows:    1. 'NVIDIA GeForce RTX 2080' (P:0 D:1)
+[2019.02.21-04.48.12:842][  0]LogWindows:    2. 'NVIDIA GeForce RTX 2080' (P:0 D:0)
+[2019.02.21-04.48.12:843][  0]LogWindows:    3. 'NVIDIA GeForce RTX 2080' (P:0 D:0)
+[2019.02.21-04.48.12:843][  0]LogWindows: DebugString: FoundDriverCount:4 
+[2019.02.21-04.48.12:843][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce RTX 2080
+[2019.02.21-04.48.12:843][  0]LogD3D11RHI:   Driver Version: 418.91 (internal:25.21.14.1891, unified:418.91)
+[2019.02.21-04.48.12:843][  0]LogD3D11RHI:      Driver Date: 2-6-2019
+[2019.02.21-04.48.12:843][  0]LogRHI: Texture pool is 5607 MB (70% of 8010 MB)
+[2019.02.21-04.48.12:885][  0]LogD3D11RHI: Async texture creation enabled
+[2019.02.21-04.48.12:912][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2019.02.21-04.48.13:239][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
+[2019.02.21-04.48.13:254][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
+[2019.02.21-04.48.13:267][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
+[2019.02.21-04.48.13:283][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
+[2019.02.21-04.48.13:296][  0]LogTemp: Display: Loaded TP MacTargetPlatform
+[2019.02.21-04.48.13:309][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
+[2019.02.21-04.48.13:322][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
+[2019.02.21-04.48.13:339][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
+[2019.02.21-04.48.13:348][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
+[2019.02.21-04.48.13:409][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.02.21-04.48.13:409][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.02.21-04.48.13:409][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.02.21-04.48.13:409][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.02.21-04.48.13:409][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.02.21-04.48.13:409][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.02.21-04.48.13:409][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.02.21-04.48.13:409][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.02.21-04.48.13:409][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.02.21-04.48.13:410][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.02.21-04.48.13:410][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.02.21-04.48.13:410][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.02.21-04.48.13:410][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.02.21-04.48.13:410][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.02.21-04.48.13:410][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.02.21-04.48.13:410][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.02.21-04.48.13:410][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.02.21-04.48.13:410][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.02.21-04.48.13:415][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
+[2019.02.21-04.48.13:479][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2019.02.21-04.48.13:479][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2019.02.21-04.48.13:503][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2019.02.21-04.48.13:503][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2019.02.21-04.48.13:515][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
+[2019.02.21-04.48.13:526][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
+[2019.02.21-04.48.13:539][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
+[2019.02.21-04.48.13:552][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
+[2019.02.21-04.48.13:590][  0]LogTemp: Display: Loaded TP LuminTargetPlatform
+[2019.02.21-04.48.13:591][  0]LogTemp: Display: Loaded TP LuminTargetPlatform
+[2019.02.21-04.48.13:591][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2019.02.21-04.48.13:718][  0]LogShaderCompilers: Guid format shader working directory is -41 characters bigger than the processId version (C:/Users/gosus/Documents/CP-School/SeniorProject/gitRepos/Senior-Project-CPP-Testground/Intermediate/Shaders/WorkingDirectory/1684/).
+[2019.02.21-04.48.13:718][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/gosus/AppData/Local/Temp/UnrealShaderWorkingDir/35CFD0F9411A36E3B4F06D9A1729EC9F/'.
+[2019.02.21-04.48.13:720][  0]LogXGEController: Cleaning working directory: C:/Users/gosus/AppData/Local/Temp/UnrealXGEWorkingDir/
+[2019.02.21-04.48.13:720][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2019.02.21-04.48.13:720][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2019.02.21-04.48.13:720][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2019.02.21-04.48.14:165][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2019.02.21-04.48.14:208][  0]LogDerivedDataCache: Loaded boot cache 0.04s 71MB C:/Users/gosus/AppData/Local/UnrealEngine/4.21/DerivedDataCache/Boot.ddc.
+[2019.02.21-04.48.14:208][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/gosus/AppData/Local/UnrealEngine/4.21/DerivedDataCache/Boot.ddc
+[2019.02.21-04.48.14:208][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file C:/Users/gosus/Documents/CP-School/SeniorProject/gitRepos/Senior-Project-CPP-Testground/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2019.02.21-04.48.14:208][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2019.02.21-04.48.14:208][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file C:/Users/gosus/Documents/CP-School/SeniorProject/gitRepos/Senior-Project-CPP-Testground/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2019.02.21-04.48.14:208][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2019.02.21-04.48.14:219][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2019.02.21-04.48.14:220][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  EnterprisePak pak cache file ../../../Enterprise/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2019.02.21-04.48.14:220][  0]LogDerivedDataCache: Unable to find inner node EnterprisePak for hierarchical cache Hierarchy.
+[2019.02.21-04.48.14:232][  0]LogDerivedDataCache: Using Local data cache path C:/Users/gosus/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2019.02.21-04.48.14:232][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2019.02.21-04.48.14:232][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2019.02.21-04.48.14:253][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2019.02.21-04.48.14:254][  0]LogSlate: Using FreeType 2.6.0
+[2019.02.21-04.48.14:254][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2019.02.21-04.48.14:326][  0]LogAssetRegistry: FAssetRegistry took 0.0328 seconds to start up
+[2019.02.21-04.48.14:587][  0]LogInit: Selected Device Profile: [Windows]
+[2019.02.21-04.48.14:755][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2019.02.21-04.48.14:770][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
+[2019.02.21-04.48.14:770][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
+[2019.02.21-04.48.14:770][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2019.02.21-04.48.14:770][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
+[2019.02.21-04.48.14:781][  0]LogNetVersion: HSPGame 1.0.0, NetCL: 4541578, EngineNetVer: 5, GameNetVer: 0 (Checksum: 2893343623)
+[2019.02.21-04.48.15:203][  0]LogPackageLocalizationCache: Processed 11 localized package path(s) for 2 prioritized culture(s) in 0.076923 seconds
+[2019.02.21-04.48.15:208][  0]LogUObjectArray: 39775 objects as part of root set at end of initial load.
+[2019.02.21-04.48.15:208][  0]LogUObjectAllocator: 6914656 out of 0 bytes used by permanent object pool.
+[2019.02.21-04.48.15:208][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2019.02.21-04.48.16:076][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2019.02.21-04.48.16:093][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2019.02.21-04.48.16:721][  0]SourceControl: Source control is disabled
+[2019.02.21-04.48.16:721][  0]SourceControl: Source control is disabled
+[2019.02.21-04.48.16:731][  0]SourceControl: Source control is disabled
+[2019.02.21-04.48.16:736][  0]SourceControl: Source control is disabled
+[2019.02.21-04.48.17:057][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2019.02.21-04.48.17:250][  0]LogOcInput: OculusInput pre-init called
+[2019.02.21-04.48.17:400][  0]LogEngine: Initializing Engine...
+[2019.02.21-04.48.17:400][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2019.02.21-04.48.17:402][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
+[2019.02.21-04.48.17:402][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2019.02.21-04.48.17:402][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
+[2019.02.21-04.48.17:402][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2019.02.21-04.48.17:583][  0]LogInit: Initializing FReadOnlyCVARCache
+[2019.02.21-04.48.17:597][  0]LogAIModule: Creating AISystem for world Untitled
+[2019.02.21-04.48.17:702][  0]LogInit: XAudio2 using 'Speakers (Realtek(R) Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.02.21-04.48.17:736][  0]LogInit: FAudioDevice initialized.
+[2019.02.21-04.48.17:737][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2019.02.21-04.48.17:777][  0]LogDerivedDataCache: Saved boot cache 0.04s 71MB C:/Users/gosus/AppData/Local/UnrealEngine/4.21/DerivedDataCache/Boot.ddc.
+[2019.02.21-04.48.17:780][  0]LogInit: Texture streaming: Enabled
+[2019.02.21-04.48.17:808][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2019.02.21-04.48.17:818][  0]LogInit: Transaction tracking system initialized
+[2019.02.21-04.48.17:857][  0]BlueprintLog: New page: Editor Load
+[2019.02.21-04.48.18:004][  0]LocalizationService: Localization service is disabled
+[2019.02.21-04.48.18:495][  0]LogFileCache: Scanning file cache for directory 'C:/Users/gosus/Documents/CP-School/SeniorProject/gitRepos/Senior-Project-CPP-Testground/Content/' took 0.02s
+[2019.02.21-04.48.18:496][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2019.02.21-04.48.18:496][  0]LogCook: Display: Mobile HDR setting 1
+[2019.02.21-04.48.18:496][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
+[2019.02.21-04.48.18:496][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
+[2019.02.21-04.48.18:496][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2019.02.21-04.48.18:496][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
+[2019.02.21-04.48.18:496][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2019.02.21-04.48.18:735][  0]SourceControl: Source control is disabled
+[2019.02.21-04.48.18:735][  0]Cmd: MAP LOAD FILE="C:/Users/gosus/Documents/CP-School/SeniorProject/gitRepos/Senior-Project-CPP-Testground/Content/StarterContent/Maps/Minimal_Default.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2019.02.21-04.48.18:735][  0]LightingResults: New page: Lighting Build
+[2019.02.21-04.48.18:737][  0]MapCheck: New page: Map Check
+[2019.02.21-04.48.18:737][  0]LightingResults: New page: Lighting Build
+[2019.02.21-04.48.19:194][  0]LogAIModule: Creating AISystem for world Minimal_Default
+[2019.02.21-04.48.19:271][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2019.02.21-04.48.19:298][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2019.02.21-04.48.19:299][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.114ms to complete.
+[2019.02.21-04.48.19:299][  0]LogFileHelpers: Loading map 'Minimal_Default' took 0.564
+[2019.02.21-04.48.19:409][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.02.21-04.48.19:414][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.02.21-04.48.19:420][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.02.21-04.48.19:426][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.02.21-04.48.19:435][  0]LogCollectionManager: Loaded 0 collections in 0.000921 seconds
+[2019.02.21-04.48.19:451][  0]LogFileCache: Scanning file cache for directory 'C:/Users/gosus/Documents/CP-School/SeniorProject/gitRepos/Senior-Project-CPP-Testground/Saved/Collections/' took 0.01s
+[2019.02.21-04.48.19:451][  0]LogFileCache: Scanning file cache for directory 'C:/Users/gosus/Documents/CP-School/SeniorProject/gitRepos/Senior-Project-CPP-Testground/Content/Developers/gosus/Collections/' took 0.00s
+[2019.02.21-04.48.19:451][  0]LogFileCache: Scanning file cache for directory 'C:/Users/gosus/Documents/CP-School/SeniorProject/gitRepos/Senior-Project-CPP-Testground/Content/Collections/' took 0.00s
+[2019.02.21-04.48.19:451][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000000 seconds
+[2019.02.21-04.48.19:458][  0]LogContentBrowser: Native class hierarchy populated in 0.0072 seconds. Added 2656 classes and 622 folders.
+[2019.02.21-04.48.19:462][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2019.02.21-04.48.19:463][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.02.21-04.48.19:464][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.02.21-04.48.19:464][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.02.21-04.48.19:465][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.02.21-04.48.19:465][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.02.21-04.48.19:465][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.02.21-04.48.19:466][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.02.21-04.48.19:466][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.02.21-04.48.19:466][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.02.21-04.48.19:467][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.02.21-04.48.19:467][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.02.21-04.48.19:467][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.02.21-04.48.19:468][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.02.21-04.48.19:468][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.02.21-04.48.19:469][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.02.21-04.48.19:469][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.02.21-04.48.19:469][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.02.21-04.48.19:470][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.02.21-04.48.19:470][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.02.21-04.48.19:470][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.02.21-04.48.19:471][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.02.21-04.48.19:471][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.02.21-04.48.19:471][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.02.21-04.48.19:472][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.02.21-04.48.19:472][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.02.21-04.48.19:473][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.02.21-04.48.19:492][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2019.02.21-04.48.19:500][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0003 seconds. Added 1 classes and 2 folders.
+[2019.02.21-04.48.19:512][  0]LogSlate: Took 0.000122 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2019.02.21-04.48.19:514][  0]LogSlate: Took 0.000158 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2019.02.21-04.48.19:520][  0]LogSlate: Took 0.000111 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2019.02.21-04.48.19:583][  0]LogRenderer: Reallocating scene render targets to support 1776x772 Format 10 NumSamples 1 (Frame:1).
+[2019.02.21-04.48.19:739][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0005 seconds. Added 0 classes and 0 folders.
+[2019.02.21-04.48.19:739][  0]LogLoad: (Engine Initialization) Total time: 9.32 seconds
+[2019.02.21-04.48.19:739][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2019.02.21-04.48.19:820][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2019.02.21-04.48.19:862][  1]LogAssetRegistry: Asset discovery search completed in 5.5599 seconds
+[2019.02.21-04.48.19:864][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
+[2019.02.21-04.48.19:864][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000124 seconds (updated 0 objects)
+[2019.02.21-04.48.30:975][295]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.02.21-04.48.43:398][756]LogSlate: Took 0.000111 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2019.02.21-04.48.43:490][756]LogSavePackage: Moving 'C:/Users/gosus/Documents/CP-School/SeniorProject/gitRepos/Senior-Project-CPP-Testground/Saved/whiteHairManC29D9934475B36E73294E1A47EE9E102.tmp' to 'C:/Users/gosus/Documents/CP-School/SeniorProject/gitRepos/Senior-Project-CPP-Testground/Content/Animations/OLD/whiteHairMan.uasset'
+[2019.02.21-04.48.43:510][756]LogSavePackage: Moving 'C:/Users/gosus/Documents/CP-School/SeniorProject/gitRepos/Senior-Project-CPP-Testground/Saved/whiteHairMan_FlipbookF82645544FCCBF05BE3A30BD48AF3EB3.tmp' to 'C:/Users/gosus/Documents/CP-School/SeniorProject/gitRepos/Senior-Project-CPP-Testground/Content/Animations/OLD/whiteHairMan_Flipbook.uasset'
+[2019.02.21-04.48.43:529][756]LogSavePackage: Moving 'C:/Users/gosus/Documents/CP-School/SeniorProject/gitRepos/Senior-Project-CPP-Testground/Saved/whiteHairMan_Flipbook0C84BA904204E20C6480478FD79E4D8D.tmp' to 'C:/Users/gosus/Documents/CP-School/SeniorProject/gitRepos/Senior-Project-CPP-Testground/Content/Animations/whiteHairMan_Flipbook.uasset'
+[2019.02.21-04.48.43:547][756]LogSavePackage: Moving 'C:/Users/gosus/Documents/CP-School/SeniorProject/gitRepos/Senior-Project-CPP-Testground/Saved/whiteHairMan_Sprite86E12F5D4190773A2B69B38D4DA87345.tmp' to 'C:/Users/gosus/Documents/CP-School/SeniorProject/gitRepos/Senior-Project-CPP-Testground/Content/Animations/OLD/whiteHairMan_Sprite.uasset'
+[2019.02.21-04.48.43:565][756]LogSavePackage: Moving 'C:/Users/gosus/Documents/CP-School/SeniorProject/gitRepos/Senior-Project-CPP-Testground/Saved/whiteHairMan_Sprite8EFEED154CF6B2EE9164189123D5BB41.tmp' to 'C:/Users/gosus/Documents/CP-School/SeniorProject/gitRepos/Senior-Project-CPP-Testground/Content/Animations/whiteHairMan_Sprite.uasset'
+[2019.02.21-04.48.43:578][756]LogSavePackage: Moving 'C:/Users/gosus/Documents/CP-School/SeniorProject/gitRepos/Senior-Project-CPP-Testground/Saved/whiteHairManGreenHandsF6793B084991D406DBA6BEA2A6653959.tmp' to 'C:/Users/gosus/Documents/CP-School/SeniorProject/gitRepos/Senior-Project-CPP-Testground/Content/Animations/OLD/whiteHairManGreenHands.uasset'
+[2019.02.21-04.48.45:689][960]LogSavePackage: Moving 'C:/Users/gosus/Documents/CP-School/SeniorProject/gitRepos/Senior-Project-CPP-Testground/Saved/slimeHorizontalWalk870D4E6A459B1F3D45BBA8A05AB4F084.tmp' to 'C:/Users/gosus/Documents/CP-School/SeniorProject/gitRepos/Senior-Project-CPP-Testground/Content/Animations/OLD/slimeHorizontalWalk.uasset'
+[2019.02.21-04.49.01:260][200]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 C:\Users\gosus\Documents\CP-School\SeniorProject\Art\Characters\Protagonist\Animations\Sprite Sheets\horizontalWalk.png)
+[2019.02.21-04.49.01:270][200]LogTexture: Display: Building textures: horizontalWalk (AutoDXT, 240X32)
+[2019.02.21-04.49.03:852][424]LogAssetEditorManager: Opening Asset editor for Texture2D /Game/Animations/horizontalWalk.horizontalWalk
+[2019.02.21-04.49.03:886][424]LogContentBrowser: Native class hierarchy updated for 'TextureEditor' in 0.0004 seconds. Added 1 classes and 2 folders.
+[2019.02.21-04.49.34:440][940]LogTexture: Display: Building textures: horizontalWalk (BGRA8, 240X32)
+[2019.02.21-04.49.47:549][437]LogSavePackage: Moving 'C:/Users/gosus/Documents/CP-School/SeniorProject/gitRepos/Senior-Project-CPP-Testground/Saved/horizontalWalk3B174E244CFD399501AB9990CC1664C0.tmp' to 'C:/Users/gosus/Documents/CP-School/SeniorProject/gitRepos/Senior-Project-CPP-Testground/Content/Animations/horizontalWalk.uasset'
+[2019.02.21-04.49.49:420][654]LogSlate: Window 'horizontalWalk' being destroyed
+[2019.02.21-04.49.49:424][654]LogSlate: Window 'horizontalWalk' being destroyed
+[2019.02.21-04.49.56:740][503]LogSlate: Took 0.009495 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2019.02.21-04.49.59:940][875]LogSlate: Window 'Extract sprites' being destroyed
+[2019.02.21-04.50.19:739][142]LogSlate: Window 'Extract sprites' being destroyed
+[2019.02.21-04.50.23:989][643]LogAssetEditorManager: Opening Asset editor for PaperSprite /Game/Animations/horizontalWalk_Sprite_0.horizontalWalk_Sprite_0
+[2019.02.21-04.50.24:161][643]LogRenderer: Reallocating scene render targets to support 2040x1280 Format 10 NumSamples 1 (Frame:1).
+[2019.02.21-04.50.24:161][643]LogSlate: Took 0.000114 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2019.02.21-04.50.25:845][816]LogSlate: Window 'horizontalWalk_Sprite_0*' being destroyed
+[2019.02.21-04.50.25:849][816]LogSlate: Window 'horizontalWalk_Sprite_0*' being destroyed
+[2019.02.21-04.50.37:960][232]LogAssetEditorManager: Opening Asset editor for PaperFlipbook /Game/Animations/protagHorizontalWalk.protagHorizontalWalk
+[2019.02.21-04.50.48:124][433]LogSlate: Window 'protagHorizontalWalk*' being destroyed
+[2019.02.21-04.50.48:128][433]LogSlate: Window 'protagHorizontalWalk*' being destroyed
+[2019.02.21-04.50.54:922][158]LogSavePackage: Moving 'C:/Users/gosus/Documents/CP-School/SeniorProject/gitRepos/Senior-Project-CPP-Testground/Saved/Minimal_DefaultCF1B27A144935F1F311B21AEFBF93CE8.tmp' to 'C:/Users/gosus/Documents/CP-School/SeniorProject/gitRepos/Senior-Project-CPP-Testground/Content/StarterContent/Maps/Minimal_Default.umap'
+[2019.02.21-04.50.54:953][158]LogFileHelpers: Saving map 'Minimal_Default' took 0.617
+[2019.02.21-04.50.54:981][158]LogSavePackage: Moving 'C:/Users/gosus/Documents/CP-School/SeniorProject/gitRepos/Senior-Project-CPP-Testground/Saved/BP_ProtagClassFF91413E4EB35BB207C98B9104539EA5.tmp' to 'C:/Users/gosus/Documents/CP-School/SeniorProject/gitRepos/Senior-Project-CPP-Testground/Content/Blueprints/BP_ProtagClass.uasset'
+[2019.02.21-04.50.55:002][158]LogSavePackage: Moving 'C:/Users/gosus/Documents/CP-School/SeniorProject/gitRepos/Senior-Project-CPP-Testground/Saved/horizontalWalk_Sprite_0E2BD4A3F47137AD97CE1D8B4088FB81A.tmp' to 'C:/Users/gosus/Documents/CP-School/SeniorProject/gitRepos/Senior-Project-CPP-Testground/Content/Animations/horizontalWalk_Sprite_0.uasset'
+[2019.02.21-04.50.55:023][158]LogSavePackage: Moving 'C:/Users/gosus/Documents/CP-School/SeniorProject/gitRepos/Senior-Project-CPP-Testground/Saved/horizontalWalk_Sprite_1C88440354AD4649DAA8DF386C052AC69.tmp' to 'C:/Users/gosus/Documents/CP-School/SeniorProject/gitRepos/Senior-Project-CPP-Testground/Content/Animations/horizontalWalk_Sprite_1.uasset'
+[2019.02.21-04.50.55:041][158]LogSavePackage: Moving 'C:/Users/gosus/Documents/CP-School/SeniorProject/gitRepos/Senior-Project-CPP-Testground/Saved/horizontalWalk_Sprite_216A5BC0D4EB2D3AD62FC559738150602.tmp' to 'C:/Users/gosus/Documents/CP-School/SeniorProject/gitRepos/Senior-Project-CPP-Testground/Content/Animations/horizontalWalk_Sprite_2.uasset'
+[2019.02.21-04.50.55:058][158]LogSavePackage: Moving 'C:/Users/gosus/Documents/CP-School/SeniorProject/gitRepos/Senior-Project-CPP-Testground/Saved/horizontalWalk_Sprite_33D620B6C4788BC846A7433B239DB520A.tmp' to 'C:/Users/gosus/Documents/CP-School/SeniorProject/gitRepos/Senior-Project-CPP-Testground/Content/Animations/horizontalWalk_Sprite_3.uasset'
+[2019.02.21-04.50.55:076][158]LogSavePackage: Moving 'C:/Users/gosus/Documents/CP-School/SeniorProject/gitRepos/Senior-Project-CPP-Testground/Saved/horizontalWalk_Sprite_449301F39428835E55739F6AE877FD164.tmp' to 'C:/Users/gosus/Documents/CP-School/SeniorProject/gitRepos/Senior-Project-CPP-Testground/Content/Animations/horizontalWalk_Sprite_4.uasset'
+[2019.02.21-04.50.55:094][158]LogSavePackage: Moving 'C:/Users/gosus/Documents/CP-School/SeniorProject/gitRepos/Senior-Project-CPP-Testground/Saved/horizontalWalk_Sprite_5A68115E040FE19BE4E41288803947CDE.tmp' to 'C:/Users/gosus/Documents/CP-School/SeniorProject/gitRepos/Senior-Project-CPP-Testground/Content/Animations/horizontalWalk_Sprite_5.uasset'
+[2019.02.21-04.50.55:113][158]LogSavePackage: Moving 'C:/Users/gosus/Documents/CP-School/SeniorProject/gitRepos/Senior-Project-CPP-Testground/Saved/horizontalWalk_Sprite_6614ED7394D8593A9EF64A9BA39D1FC0E.tmp' to 'C:/Users/gosus/Documents/CP-School/SeniorProject/gitRepos/Senior-Project-CPP-Testground/Content/Animations/horizontalWalk_Sprite_6.uasset'
+[2019.02.21-04.50.55:131][158]LogSavePackage: Moving 'C:/Users/gosus/Documents/CP-School/SeniorProject/gitRepos/Senior-Project-CPP-Testground/Saved/horizontalWalk_Sprite_7ADA751B5499304493C550C81173A705A.tmp' to 'C:/Users/gosus/Documents/CP-School/SeniorProject/gitRepos/Senior-Project-CPP-Testground/Content/Animations/horizontalWalk_Sprite_7.uasset'
+[2019.02.21-04.50.55:150][158]LogSavePackage: Moving 'C:/Users/gosus/Documents/CP-School/SeniorProject/gitRepos/Senior-Project-CPP-Testground/Saved/horizontalWalk_Sprite_8FF8298684456E462A6366AB2E4C2706E.tmp' to 'C:/Users/gosus/Documents/CP-School/SeniorProject/gitRepos/Senior-Project-CPP-Testground/Content/Animations/horizontalWalk_Sprite_8.uasset'
+[2019.02.21-04.50.55:172][158]LogSavePackage: Moving 'C:/Users/gosus/Documents/CP-School/SeniorProject/gitRepos/Senior-Project-CPP-Testground/Saved/horizontalWalk_Sprite_9A3441FC548F71CA06D67C3ACABBBEB1E.tmp' to 'C:/Users/gosus/Documents/CP-School/SeniorProject/gitRepos/Senior-Project-CPP-Testground/Content/Animations/horizontalWalk_Sprite_9.uasset'
+[2019.02.21-04.50.55:189][158]LogSavePackage: Moving 'C:/Users/gosus/Documents/CP-School/SeniorProject/gitRepos/Senior-Project-CPP-Testground/Saved/protagHorizontalWalk050F13294945F939EB3060848C3AF04B.tmp' to 'C:/Users/gosus/Documents/CP-School/SeniorProject/gitRepos/Senior-Project-CPP-Testground/Content/Animations/protagHorizontalWalk.uasset'
+[2019.02.21-04.51.01:111][790]LogSavePackage: Moving 'C:/Users/gosus/Documents/CP-School/SeniorProject/gitRepos/Senior-Project-CPP-Testground/Saved/slimeFDHorizontalWalk_Sprite_16CC742A7E4E1ECF1FF9353A86FF9DBFBC.tmp' to 'C:/Users/gosus/Documents/CP-School/SeniorProject/gitRepos/Senior-Project-CPP-Testground/Content/Animations/OLD/Images/slimeFDHorizontalWalk_Sprite_16.uasset'
+[2019.02.21-04.51.01:132][790]LogSavePackage: Moving 'C:/Users/gosus/Documents/CP-School/SeniorProject/gitRepos/Senior-Project-CPP-Testground/Saved/slimeFDHorizontalWalk_Sprite_15C7C4DB7646B8A2A137EB56B6933E2357.tmp' to 'C:/Users/gosus/Documents/CP-School/SeniorProject/gitRepos/Senior-Project-CPP-Testground/Content/Animations/OLD/Images/slimeFDHorizontalWalk_Sprite_15.uasset'
+[2019.02.21-04.51.01:151][790]LogSavePackage: Moving 'C:/Users/gosus/Documents/CP-School/SeniorProject/gitRepos/Senior-Project-CPP-Testground/Saved/slimeFDHorizontalWalk_Sprite_14DAE09140449A2A8AEEE859A4D91818BD.tmp' to 'C:/Users/gosus/Documents/CP-School/SeniorProject/gitRepos/Senior-Project-CPP-Testground/Content/Animations/OLD/Images/slimeFDHorizontalWalk_Sprite_14.uasset'
+[2019.02.21-04.51.01:170][790]LogSavePackage: Moving 'C:/Users/gosus/Documents/CP-School/SeniorProject/gitRepos/Senior-Project-CPP-Testground/Saved/slimeFDHorizontalWalk_Sprite_138A54C9E34B6CAB689862208C2D88A490.tmp' to 'C:/Users/gosus/Documents/CP-School/SeniorProject/gitRepos/Senior-Project-CPP-Testground/Content/Animations/OLD/Images/slimeFDHorizontalWalk_Sprite_13.uasset'
+[2019.02.21-04.51.01:189][790]LogSavePackage: Moving 'C:/Users/gosus/Documents/CP-School/SeniorProject/gitRepos/Senior-Project-CPP-Testground/Saved/slimeFDHorizontalWalk_Sprite_1298C75819424853D388DE678FB290FBC6.tmp' to 'C:/Users/gosus/Documents/CP-School/SeniorProject/gitRepos/Senior-Project-CPP-Testground/Content/Animations/OLD/Images/slimeFDHorizontalWalk_Sprite_12.uasset'
+[2019.02.21-04.51.01:209][790]LogSavePackage: Moving 'C:/Users/gosus/Documents/CP-School/SeniorProject/gitRepos/Senior-Project-CPP-Testground/Saved/slimeFDHorizontalWalk_Sprite_1120C3FA9642A423837A4FED8746DCA2E5.tmp' to 'C:/Users/gosus/Documents/CP-School/SeniorProject/gitRepos/Senior-Project-CPP-Testground/Content/Animations/OLD/Images/slimeFDHorizontalWalk_Sprite_11.uasset'
+[2019.02.21-04.51.01:229][790]LogSavePackage: Moving 'C:/Users/gosus/Documents/CP-School/SeniorProject/gitRepos/Senior-Project-CPP-Testground/Saved/slimeFDHorizontalWalk_Sprite_1013DEEFAE4F9A256C860E74A3A96D6763.tmp' to 'C:/Users/gosus/Documents/CP-School/SeniorProject/gitRepos/Senior-Project-CPP-Testground/Content/Animations/OLD/Images/slimeFDHorizontalWalk_Sprite_10.uasset'
+[2019.02.21-04.51.01:246][790]LogSavePackage: Moving 'C:/Users/gosus/Documents/CP-School/SeniorProject/gitRepos/Senior-Project-CPP-Testground/Saved/slimeFDHorizontalWalk_Sprite_18099F4D04FEE3F2F507F02958D711799.tmp' to 'C:/Users/gosus/Documents/CP-School/SeniorProject/gitRepos/Senior-Project-CPP-Testground/Content/Animations/OLD/Images/slimeFDHorizontalWalk_Sprite_1.uasset'
+[2019.02.21-04.51.01:262][790]LogSavePackage: Moving 'C:/Users/gosus/Documents/CP-School/SeniorProject/gitRepos/Senior-Project-CPP-Testground/Saved/slimeFDHorizontalWalk_Sprite_0BDF3228B4E446D1F72FA319D39619A3A.tmp' to 'C:/Users/gosus/Documents/CP-School/SeniorProject/gitRepos/Senior-Project-CPP-Testground/Content/Animations/OLD/Images/slimeFDHorizontalWalk_Sprite_0.uasset'
+[2019.02.21-04.51.01:281][790]LogSavePackage: Moving 'C:/Users/gosus/Documents/CP-School/SeniorProject/gitRepos/Senior-Project-CPP-Testground/Saved/slimeFDHorizontalWalk_Sprite_171A0FC28D4DABEE531E893482D3795475.tmp' to 'C:/Users/gosus/Documents/CP-School/SeniorProject/gitRepos/Senior-Project-CPP-Testground/Content/Animations/OLD/Images/slimeFDHorizontalWalk_Sprite_17.uasset'
+[2019.02.21-04.51.01:300][790]LogSavePackage: Moving 'C:/Users/gosus/Documents/CP-School/SeniorProject/gitRepos/Senior-Project-CPP-Testground/Saved/slimeFDHorizontalWalk_Sprite_1846476AA14B1168E8C57965938C7DA565.tmp' to 'C:/Users/gosus/Documents/CP-School/SeniorProject/gitRepos/Senior-Project-CPP-Testground/Content/Animations/OLD/Images/slimeFDHorizontalWalk_Sprite_18.uasset'
+[2019.02.21-04.51.01:320][790]LogSavePackage: Moving 'C:/Users/gosus/Documents/CP-School/SeniorProject/gitRepos/Senior-Project-CPP-Testground/Saved/slimeFDHorizontalWalk_Sprite_1975DA3FE74E4F24CF7BE9D383C558223E.tmp' to 'C:/Users/gosus/Documents/CP-School/SeniorProject/gitRepos/Senior-Project-CPP-Testground/Content/Animations/OLD/Images/slimeFDHorizontalWalk_Sprite_19.uasset'
+[2019.02.21-04.51.01:339][790]LogSavePackage: Moving 'C:/Users/gosus/Documents/CP-School/SeniorProject/gitRepos/Senior-Project-CPP-Testground/Saved/slimeFDHorizontalWalk_Sprite_2AF6370B84A1A8CBB39997C8F3D4AEEB5.tmp' to 'C:/Users/gosus/Documents/CP-School/SeniorProject/gitRepos/Senior-Project-CPP-Testground/Content/Animations/OLD/Images/slimeFDHorizontalWalk_Sprite_2.uasset'
+[2019.02.21-04.51.01:357][790]LogSavePackage: Moving 'C:/Users/gosus/Documents/CP-School/SeniorProject/gitRepos/Senior-Project-CPP-Testground/Saved/slimeFDHorizontalWalk_Sprite_20CA1D77F84C2B4F54B095769D82342CF0.tmp' to 'C:/Users/gosus/Documents/CP-School/SeniorProject/gitRepos/Senior-Project-CPP-Testground/Content/Animations/OLD/Images/slimeFDHorizontalWalk_Sprite_20.uasset'
+[2019.02.21-04.51.01:375][790]LogSavePackage: Moving 'C:/Users/gosus/Documents/CP-School/SeniorProject/gitRepos/Senior-Project-CPP-Testground/Saved/slimeFDHorizontalWalk_Sprite_215FD0C87D4DB9C616A5903FAD7FD1F0E7.tmp' to 'C:/Users/gosus/Documents/CP-School/SeniorProject/gitRepos/Senior-Project-CPP-Testground/Content/Animations/OLD/Images/slimeFDHorizontalWalk_Sprite_21.uasset'
+[2019.02.21-04.51.01:392][790]LogSavePackage: Moving 'C:/Users/gosus/Documents/CP-School/SeniorProject/gitRepos/Senior-Project-CPP-Testground/Saved/slimeFDHorizontalWalk_Sprite_2276C2CCF44E52AB19AEE497B0E0A77A8B.tmp' to 'C:/Users/gosus/Documents/CP-School/SeniorProject/gitRepos/Senior-Project-CPP-Testground/Content/Animations/OLD/Images/slimeFDHorizontalWalk_Sprite_22.uasset'
+[2019.02.21-04.51.01:410][790]LogSavePackage: Moving 'C:/Users/gosus/Documents/CP-School/SeniorProject/gitRepos/Senior-Project-CPP-Testground/Saved/slimeFDHorizontalWalk_Sprite_23CD35FB404A955AD9F51025BE37851B3A.tmp' to 'C:/Users/gosus/Documents/CP-School/SeniorProject/gitRepos/Senior-Project-CPP-Testground/Content/Animations/OLD/Images/slimeFDHorizontalWalk_Sprite_23.uasset'
+[2019.02.21-04.51.01:427][790]LogSavePackage: Moving 'C:/Users/gosus/Documents/CP-School/SeniorProject/gitRepos/Senior-Project-CPP-Testground/Saved/slimeFDHorizontalWalk_Sprite_249AB9744647752283F32F059938AD8975.tmp' to 'C:/Users/gosus/Documents/CP-School/SeniorProject/gitRepos/Senior-Project-CPP-Testground/Content/Animations/OLD/Images/slimeFDHorizontalWalk_Sprite_24.uasset'
+[2019.02.21-04.51.01:444][790]LogSavePackage: Moving 'C:/Users/gosus/Documents/CP-School/SeniorProject/gitRepos/Senior-Project-CPP-Testground/Saved/slimeFDHorizontalWalk_Sprite_2545AD29F647C56E1EE76F7082DB2479A3.tmp' to 'C:/Users/gosus/Documents/CP-School/SeniorProject/gitRepos/Senior-Project-CPP-Testground/Content/Animations/OLD/Images/slimeFDHorizontalWalk_Sprite_25.uasset'
+[2019.02.21-04.51.01:462][790]LogSavePackage: Moving 'C:/Users/gosus/Documents/CP-School/SeniorProject/gitRepos/Senior-Project-CPP-Testground/Saved/slimeFDHorizontalWalk_Sprite_266ADBE3C9477A94E609F186B9181C9680.tmp' to 'C:/Users/gosus/Documents/CP-School/SeniorProject/gitRepos/Senior-Project-CPP-Testground/Content/Animations/OLD/Images/slimeFDHorizontalWalk_Sprite_26.uasset'
+[2019.02.21-04.51.01:479][790]LogSavePackage: Moving 'C:/Users/gosus/Documents/CP-School/SeniorProject/gitRepos/Senior-Project-CPP-Testground/Saved/slimeFDHorizontalWalk_Sprite_27ABC5F9F8466651EAA34FEE81EFE55F28.tmp' to 'C:/Users/gosus/Documents/CP-School/SeniorProject/gitRepos/Senior-Project-CPP-Testground/Content/Animations/OLD/Images/slimeFDHorizontalWalk_Sprite_27.uasset'
+[2019.02.21-04.51.01:498][790]LogSavePackage: Moving 'C:/Users/gosus/Documents/CP-School/SeniorProject/gitRepos/Senior-Project-CPP-Testground/Saved/slimeFDHorizontalWalk_Sprite_283AB46A074973E3C8102F189B3F6D6235.tmp' to 'C:/Users/gosus/Documents/CP-School/SeniorProject/gitRepos/Senior-Project-CPP-Testground/Content/Animations/OLD/Images/slimeFDHorizontalWalk_Sprite_28.uasset'
+[2019.02.21-04.51.01:514][790]LogSavePackage: Moving 'C:/Users/gosus/Documents/CP-School/SeniorProject/gitRepos/Senior-Project-CPP-Testground/Saved/slimeFDHorizontalWalk_Sprite_2987BDA7C64A1D0AF5DAD789A607B1E5D7.tmp' to 'C:/Users/gosus/Documents/CP-School/SeniorProject/gitRepos/Senior-Project-CPP-Testground/Content/Animations/OLD/Images/slimeFDHorizontalWalk_Sprite_29.uasset'
+[2019.02.21-04.51.01:531][790]LogSavePackage: Moving 'C:/Users/gosus/Documents/CP-School/SeniorProject/gitRepos/Senior-Project-CPP-Testground/Saved/slimeFDHorizontalWalk_Sprite_3041E81354EB219C5C91F03B06A292504.tmp' to 'C:/Users/gosus/Documents/CP-School/SeniorProject/gitRepos/Senior-Project-CPP-Testground/Content/Animations/OLD/Images/slimeFDHorizontalWalk_Sprite_3.uasset'
+[2019.02.21-04.51.01:550][790]LogSavePackage: Moving 'C:/Users/gosus/Documents/CP-School/SeniorProject/gitRepos/Senior-Project-CPP-Testground/Saved/slimeFDHorizontalWalk_Sprite_30FFBB606548E3086F697D21A816A79FE1.tmp' to 'C:/Users/gosus/Documents/CP-School/SeniorProject/gitRepos/Senior-Project-CPP-Testground/Content/Animations/OLD/Images/slimeFDHorizontalWalk_Sprite_30.uasset'
+[2019.02.21-04.51.01:568][790]LogSavePackage: Moving 'C:/Users/gosus/Documents/CP-School/SeniorProject/gitRepos/Senior-Project-CPP-Testground/Saved/slimeFDHorizontalWalk_Sprite_3197E4A51448AD3055A161828E27781560.tmp' to 'C:/Users/gosus/Documents/CP-School/SeniorProject/gitRepos/Senior-Project-CPP-Testground/Content/Animations/OLD/Images/slimeFDHorizontalWalk_Sprite_31.uasset'
+[2019.02.21-04.51.01:586][790]LogSavePackage: Moving 'C:/Users/gosus/Documents/CP-School/SeniorProject/gitRepos/Senior-Project-CPP-Testground/Saved/slimeFDHorizontalWalk_Sprite_3218A4A1284AED5378E0B82E9E9709F547.tmp' to 'C:/Users/gosus/Documents/CP-School/SeniorProject/gitRepos/Senior-Project-CPP-Testground/Content/Animations/OLD/Images/slimeFDHorizontalWalk_Sprite_32.uasset'
+[2019.02.21-04.51.01:604][790]LogSavePackage: Moving 'C:/Users/gosus/Documents/CP-School/SeniorProject/gitRepos/Senior-Project-CPP-Testground/Saved/slimeFDHorizontalWalk_Sprite_33935B714D4067E2E4E8E675BEC77DEF8E.tmp' to 'C:/Users/gosus/Documents/CP-School/SeniorProject/gitRepos/Senior-Project-CPP-Testground/Content/Animations/OLD/Images/slimeFDHorizontalWalk_Sprite_33.uasset'
+[2019.02.21-04.51.01:621][790]LogSavePackage: Moving 'C:/Users/gosus/Documents/CP-School/SeniorProject/gitRepos/Senior-Project-CPP-Testground/Saved/slimeFDHorizontalWalk_Sprite_34537DB303467526FB7A9766B03B08CBE5.tmp' to 'C:/Users/gosus/Documents/CP-School/SeniorProject/gitRepos/Senior-Project-CPP-Testground/Content/Animations/OLD/Images/slimeFDHorizontalWalk_Sprite_34.uasset'
+[2019.02.21-04.51.01:638][790]LogSavePackage: Moving 'C:/Users/gosus/Documents/CP-School/SeniorProject/gitRepos/Senior-Project-CPP-Testground/Saved/slimeFDHorizontalWalk_Sprite_42AAD698F4BD818AC5EAD6AA6D21BFC1D.tmp' to 'C:/Users/gosus/Documents/CP-School/SeniorProject/gitRepos/Senior-Project-CPP-Testground/Content/Animations/OLD/Images/slimeFDHorizontalWalk_Sprite_4.uasset'
+[2019.02.21-04.51.01:657][790]LogSavePackage: Moving 'C:/Users/gosus/Documents/CP-School/SeniorProject/gitRepos/Senior-Project-CPP-Testground/Saved/slimeFDHorizontalWalk_Sprite_539D5D7E24DFB4DB1F886B187773E31F0.tmp' to 'C:/Users/gosus/Documents/CP-School/SeniorProject/gitRepos/Senior-Project-CPP-Testground/Content/Animations/OLD/Images/slimeFDHorizontalWalk_Sprite_5.uasset'
+[2019.02.21-04.51.01:676][790]LogSavePackage: Moving 'C:/Users/gosus/Documents/CP-School/SeniorProject/gitRepos/Senior-Project-CPP-Testground/Saved/slimeFDHorizontalWalk_Sprite_69C90A6B44525FB61AD7C7EB1C6AC0199.tmp' to 'C:/Users/gosus/Documents/CP-School/SeniorProject/gitRepos/Senior-Project-CPP-Testground/Content/Animations/OLD/Images/slimeFDHorizontalWalk_Sprite_6.uasset'
+[2019.02.21-04.51.01:694][790]LogSavePackage: Moving 'C:/Users/gosus/Documents/CP-School/SeniorProject/gitRepos/Senior-Project-CPP-Testground/Saved/slimeFDHorizontalWalk_Sprite_7BB0DEE184063D6DEC5835DA362CAF936.tmp' to 'C:/Users/gosus/Documents/CP-School/SeniorProject/gitRepos/Senior-Project-CPP-Testground/Content/Animations/OLD/Images/slimeFDHorizontalWalk_Sprite_7.uasset'
+[2019.02.21-04.51.01:711][790]LogSavePackage: Moving 'C:/Users/gosus/Documents/CP-School/SeniorProject/gitRepos/Senior-Project-CPP-Testground/Saved/slimeFDHorizontalWalk_Sprite_84FD6919949D734C05A3BEF9826039C38.tmp' to 'C:/Users/gosus/Documents/CP-School/SeniorProject/gitRepos/Senior-Project-CPP-Testground/Content/Animations/OLD/Images/slimeFDHorizontalWalk_Sprite_8.uasset'
+[2019.02.21-04.51.01:729][790]LogSavePackage: Moving 'C:/Users/gosus/Documents/CP-School/SeniorProject/gitRepos/Senior-Project-CPP-Testground/Saved/slimeFDHorizontalWalk_Sprite_91FCD5C8046200A8AA33D93A3C445733C.tmp' to 'C:/Users/gosus/Documents/CP-School/SeniorProject/gitRepos/Senior-Project-CPP-Testground/Content/Animations/OLD/Images/slimeFDHorizontalWalk_Sprite_9.uasset'
+[2019.02.21-04.51.01:749][790]LogSavePackage: Moving 'C:/Users/gosus/Documents/CP-School/SeniorProject/gitRepos/Senior-Project-CPP-Testground/Saved/slimeHorizontalWalk_Sprite_944BB0F71403276995911F3B580690AFD.tmp' to 'C:/Users/gosus/Documents/CP-School/SeniorProject/gitRepos/Senior-Project-CPP-Testground/Content/Animations/OLD/Images/slimeHorizontalWalk_Sprite_9.uasset'
+[2019.02.21-04.51.01:767][790]LogSavePackage: Moving 'C:/Users/gosus/Documents/CP-School/SeniorProject/gitRepos/Senior-Project-CPP-Testground/Saved/slimeHorizontalWalk_Sprite_8B27F82504A0673DE79DEC79A75A5A5FE.tmp' to 'C:/Users/gosus/Documents/CP-School/SeniorProject/gitRepos/Senior-Project-CPP-Testground/Content/Animations/OLD/Images/slimeHorizontalWalk_Sprite_8.uasset'
+[2019.02.21-04.51.01:787][790]LogSavePackage: Moving 'C:/Users/gosus/Documents/CP-School/SeniorProject/gitRepos/Senior-Project-CPP-Testground/Saved/slimeHorizontalWalk_Sprite_75E47DBFD44A0DD354C49308EEF65C23E.tmp' to 'C:/Users/gosus/Documents/CP-School/SeniorProject/gitRepos/Senior-Project-CPP-Testground/Content/Animations/OLD/Images/slimeHorizontalWalk_Sprite_7.uasset'
+[2019.02.21-04.51.01:807][790]LogSavePackage: Moving 'C:/Users/gosus/Documents/CP-School/SeniorProject/gitRepos/Senior-Project-CPP-Testground/Saved/slimeHorizontalWalk_Sprite_6A66674B64D50BBB129FA8CAD5508F3C2.tmp' to 'C:/Users/gosus/Documents/CP-School/SeniorProject/gitRepos/Senior-Project-CPP-Testground/Content/Animations/OLD/Images/slimeHorizontalWalk_Sprite_6.uasset'
+[2019.02.21-04.51.01:828][790]LogSavePackage: Moving 'C:/Users/gosus/Documents/CP-School/SeniorProject/gitRepos/Senior-Project-CPP-Testground/Saved/slimeHorizontalWalk_Sprite_513F202664C7899BDC4F21089B662CF21.tmp' to 'C:/Users/gosus/Documents/CP-School/SeniorProject/gitRepos/Senior-Project-CPP-Testground/Content/Animations/OLD/Images/slimeHorizontalWalk_Sprite_5.uasset'
+[2019.02.21-04.51.01:850][790]LogSavePackage: Moving 'C:/Users/gosus/Documents/CP-School/SeniorProject/gitRepos/Senior-Project-CPP-Testground/Saved/slimeHorizontalWalk_Sprite_42A6E5D7745CDD1D2C9FF55A0DBC47B93.tmp' to 'C:/Users/gosus/Documents/CP-School/SeniorProject/gitRepos/Senior-Project-CPP-Testground/Content/Animations/OLD/Images/slimeHorizontalWalk_Sprite_4.uasset'
+[2019.02.21-04.51.01:871][790]LogSavePackage: Moving 'C:/Users/gosus/Documents/CP-School/SeniorProject/gitRepos/Senior-Project-CPP-Testground/Saved/slimeHorizontalWalk_Sprite_34F673ED7C4F4EABBFEB59F59005D45130.tmp' to 'C:/Users/gosus/Documents/CP-School/SeniorProject/gitRepos/Senior-Project-CPP-Testground/Content/Animations/OLD/Images/slimeHorizontalWalk_Sprite_34.uasset'
+[2019.02.21-04.51.01:892][790]LogSavePackage: Moving 'C:/Users/gosus/Documents/CP-School/SeniorProject/gitRepos/Senior-Project-CPP-Testground/Saved/slimeHorizontalWalk_Sprite_33ED8EAA904595691585E4EFA632F6F90C.tmp' to 'C:/Users/gosus/Documents/CP-School/SeniorProject/gitRepos/Senior-Project-CPP-Testground/Content/Animations/OLD/Images/slimeHorizontalWalk_Sprite_33.uasset'
+[2019.02.21-04.51.01:912][790]LogSavePackage: Moving 'C:/Users/gosus/Documents/CP-School/SeniorProject/gitRepos/Senior-Project-CPP-Testground/Saved/slimeHorizontalWalk_Sprite_32AE3BF907422556F9F49BEAAA7084D4F6.tmp' to 'C:/Users/gosus/Documents/CP-School/SeniorProject/gitRepos/Senior-Project-CPP-Testground/Content/Animations/OLD/Images/slimeHorizontalWalk_Sprite_32.uasset'
+[2019.02.21-04.51.01:932][790]LogSavePackage: Moving 'C:/Users/gosus/Documents/CP-School/SeniorProject/gitRepos/Senior-Project-CPP-Testground/Saved/slimeHorizontalWalk_Sprite_315FBDA84D4F361DBB34FC739A9F7B845E.tmp' to 'C:/Users/gosus/Documents/CP-School/SeniorProject/gitRepos/Senior-Project-CPP-Testground/Content/Animations/OLD/Images/slimeHorizontalWalk_Sprite_31.uasset'
+[2019.02.21-04.51.01:950][790]LogSavePackage: Moving 'C:/Users/gosus/Documents/CP-School/SeniorProject/gitRepos/Senior-Project-CPP-Testground/Saved/slimeHorizontalWalk_Sprite_3015459CD84FA37D75F2B87DB8CC21642D.tmp' to 'C:/Users/gosus/Documents/CP-School/SeniorProject/gitRepos/Senior-Project-CPP-Testground/Content/Animations/OLD/Images/slimeHorizontalWalk_Sprite_30.uasset'
+[2019.02.21-04.51.01:970][790]LogSavePackage: Moving 'C:/Users/gosus/Documents/CP-School/SeniorProject/gitRepos/Senior-Project-CPP-Testground/Saved/slimeHorizontalWalk_Sprite_33C7FE3BE4B5D2BD243F6A5A6F3E4CB6E.tmp' to 'C:/Users/gosus/Documents/CP-School/SeniorProject/gitRepos/Senior-Project-CPP-Testground/Content/Animations/OLD/Images/slimeHorizontalWalk_Sprite_3.uasset'
+[2019.02.21-04.51.01:990][790]LogSavePackage: Moving 'C:/Users/gosus/Documents/CP-School/SeniorProject/gitRepos/Senior-Project-CPP-Testground/Saved/slimeHorizontalWalk_Sprite_29F3544A444D333DD4D301A7B3CEB3BC85.tmp' to 'C:/Users/gosus/Documents/CP-School/SeniorProject/gitRepos/Senior-Project-CPP-Testground/Content/Animations/OLD/Images/slimeHorizontalWalk_Sprite_29.uasset'
+[2019.02.21-04.51.02:009][790]LogSavePackage: Moving 'C:/Users/gosus/Documents/CP-School/SeniorProject/gitRepos/Senior-Project-CPP-Testground/Saved/slimeHorizontalWalk_Sprite_28DDBE4D134B27982EE50058A3C6C37966.tmp' to 'C:/Users/gosus/Documents/CP-School/SeniorProject/gitRepos/Senior-Project-CPP-Testground/Content/Animations/OLD/Images/slimeHorizontalWalk_Sprite_28.uasset'
+[2019.02.21-04.51.02:030][790]LogSavePackage: Moving 'C:/Users/gosus/Documents/CP-School/SeniorProject/gitRepos/Senior-Project-CPP-Testground/Saved/slimeHorizontalWalk_Sprite_2756AC3E1A4FE80D0678E07095BD14E4D8.tmp' to 'C:/Users/gosus/Documents/CP-School/SeniorProject/gitRepos/Senior-Project-CPP-Testground/Content/Animations/OLD/Images/slimeHorizontalWalk_Sprite_27.uasset'
+[2019.02.21-04.51.02:050][790]LogSavePackage: Moving 'C:/Users/gosus/Documents/CP-School/SeniorProject/gitRepos/Senior-Project-CPP-Testground/Saved/slimeHorizontalWalk_Sprite_26063665ED40BCDE365B3412BA5B2F26B5.tmp' to 'C:/Users/gosus/Documents/CP-School/SeniorProject/gitRepos/Senior-Project-CPP-Testground/Content/Animations/OLD/Images/slimeHorizontalWalk_Sprite_26.uasset'
+[2019.02.21-04.51.02:067][790]LogSavePackage: Moving 'C:/Users/gosus/Documents/CP-School/SeniorProject/gitRepos/Senior-Project-CPP-Testground/Saved/slimeHorizontalWalk_Sprite_25550FF80247C148A46B490AB5D21F0DB3.tmp' to 'C:/Users/gosus/Documents/CP-School/SeniorProject/gitRepos/Senior-Project-CPP-Testground/Content/Animations/OLD/Images/slimeHorizontalWalk_Sprite_25.uasset'
+[2019.02.21-04.51.02:085][790]LogSavePackage: Moving 'C:/Users/gosus/Documents/CP-School/SeniorProject/gitRepos/Senior-Project-CPP-Testground/Saved/slimeHorizontalWalk_Sprite_246AB8CA6C40D29B6C27831AA05F9F52D6.tmp' to 'C:/Users/gosus/Documents/CP-School/SeniorProject/gitRepos/Senior-Project-CPP-Testground/Content/Animations/OLD/Images/slimeHorizontalWalk_Sprite_24.uasset'
+[2019.02.21-04.51.02:102][790]LogSavePackage: Moving 'C:/Users/gosus/Documents/CP-School/SeniorProject/gitRepos/Senior-Project-CPP-Testground/Saved/slimeHorizontalWalk_Sprite_231E007E4346FF1BD61FE74499706CA432.tmp' to 'C:/Users/gosus/Documents/CP-School/SeniorProject/gitRepos/Senior-Project-CPP-Testground/Content/Animations/OLD/Images/slimeHorizontalWalk_Sprite_23.uasset'
+[2019.02.21-04.51.02:121][790]LogSavePackage: Moving 'C:/Users/gosus/Documents/CP-School/SeniorProject/gitRepos/Senior-Project-CPP-Testground/Saved/slimeHorizontalWalk_Sprite_2265DEB4794389FAC18A1DEAB6DDC37F35.tmp' to 'C:/Users/gosus/Documents/CP-School/SeniorProject/gitRepos/Senior-Project-CPP-Testground/Content/Animations/OLD/Images/slimeHorizontalWalk_Sprite_22.uasset'
+[2019.02.21-04.51.02:141][790]LogSavePackage: Moving 'C:/Users/gosus/Documents/CP-School/SeniorProject/gitRepos/Senior-Project-CPP-Testground/Saved/slimeHorizontalWalk_Sprite_2114F1847E460556DB9273518772ECA9E5.tmp' to 'C:/Users/gosus/Documents/CP-School/SeniorProject/gitRepos/Senior-Project-CPP-Testground/Content/Animations/OLD/Images/slimeHorizontalWalk_Sprite_21.uasset'
+[2019.02.21-04.51.02:162][790]LogSavePackage: Moving 'C:/Users/gosus/Documents/CP-School/SeniorProject/gitRepos/Senior-Project-CPP-Testground/Saved/slimeHorizontalWalk_Sprite_208617F2424014A8DCEF7F6181D919F060.tmp' to 'C:/Users/gosus/Documents/CP-School/SeniorProject/gitRepos/Senior-Project-CPP-Testground/Content/Animations/OLD/Images/slimeHorizontalWalk_Sprite_20.uasset'
+[2019.02.21-04.51.02:183][790]LogSavePackage: Moving 'C:/Users/gosus/Documents/CP-School/SeniorProject/gitRepos/Senior-Project-CPP-Testground/Saved/slimeHorizontalWalk_Sprite_210CB8EFB49F46B93C5E76282AC765685.tmp' to 'C:/Users/gosus/Documents/CP-School/SeniorProject/gitRepos/Senior-Project-CPP-Testground/Content/Animations/OLD/Images/slimeHorizontalWalk_Sprite_2.uasset'
+[2019.02.21-04.51.02:204][790]LogSavePackage: Moving 'C:/Users/gosus/Documents/CP-School/SeniorProject/gitRepos/Senior-Project-CPP-Testground/Saved/slimeHorizontalWalk_Sprite_19A217D5264388C963ABEAFD95DD310C1F.tmp' to 'C:/Users/gosus/Documents/CP-School/SeniorProject/gitRepos/Senior-Project-CPP-Testground/Content/Animations/OLD/Images/slimeHorizontalWalk_Sprite_19.uasset'
+[2019.02.21-04.51.02:223][790]LogSavePackage: Moving 'C:/Users/gosus/Documents/CP-School/SeniorProject/gitRepos/Senior-Project-CPP-Testground/Saved/slimeHorizontalWalk_Sprite_18D1868EFD4D0386961015FEA17C9994D6.tmp' to 'C:/Users/gosus/Documents/CP-School/SeniorProject/gitRepos/Senior-Project-CPP-Testground/Content/Animations/OLD/Images/slimeHorizontalWalk_Sprite_18.uasset'
+[2019.02.21-04.51.02:244][790]LogSavePackage: Moving 'C:/Users/gosus/Documents/CP-School/SeniorProject/gitRepos/Senior-Project-CPP-Testground/Saved/slimeHorizontalWalk_Sprite_1765697110487F43FB367A53A4A99B4028.tmp' to 'C:/Users/gosus/Documents/CP-School/SeniorProject/gitRepos/Senior-Project-CPP-Testground/Content/Animations/OLD/Images/slimeHorizontalWalk_Sprite_17.uasset'
+[2019.02.21-04.51.02:276][790]LogSavePackage: Moving 'C:/Users/gosus/Documents/CP-School/SeniorProject/gitRepos/Senior-Project-CPP-Testground/Saved/slimeHorizontalWalk_Sprite_164635630445FA07E1F70F939A52009C6B.tmp' to 'C:/Users/gosus/Documents/CP-School/SeniorProject/gitRepos/Senior-Project-CPP-Testground/Content/Animations/OLD/Images/slimeHorizontalWalk_Sprite_16.uasset'
+[2019.02.21-04.51.02:317][790]LogSavePackage: Moving 'C:/Users/gosus/Documents/CP-School/SeniorProject/gitRepos/Senior-Project-CPP-Testground/Saved/slimeHorizontalWalk_Sprite_154DC91F18481FF02C972F5AAA46F01EB0.tmp' to 'C:/Users/gosus/Documents/CP-School/SeniorProject/gitRepos/Senior-Project-CPP-Testground/Content/Animations/OLD/Images/slimeHorizontalWalk_Sprite_15.uasset'
+[2019.02.21-04.51.02:354][790]LogSavePackage: Moving 'C:/Users/gosus/Documents/CP-School/SeniorProject/gitRepos/Senior-Project-CPP-Testground/Saved/slimeHorizontalWalk_Sprite_14658038A248BE84CA5AF4F79DEAC4AA74.tmp' to 'C:/Users/gosus/Documents/CP-School/SeniorProject/gitRepos/Senior-Project-CPP-Testground/Content/Animations/OLD/Images/slimeHorizontalWalk_Sprite_14.uasset'
+[2019.02.21-04.51.02:383][790]LogSavePackage: Moving 'C:/Users/gosus/Documents/CP-School/SeniorProject/gitRepos/Senior-Project-CPP-Testground/Saved/slimeHorizontalWalk_Sprite_13123D0EB24ACA1B45D040A5B296E4A964.tmp' to 'C:/Users/gosus/Documents/CP-School/SeniorProject/gitRepos/Senior-Project-CPP-Testground/Content/Animations/OLD/Images/slimeHorizontalWalk_Sprite_13.uasset'
+[2019.02.21-04.51.02:415][790]LogSavePackage: Moving 'C:/Users/gosus/Documents/CP-School/SeniorProject/gitRepos/Senior-Project-CPP-Testground/Saved/slimeHorizontalWalk_Sprite_127C330226401DE74B00144993FD251187.tmp' to 'C:/Users/gosus/Documents/CP-School/SeniorProject/gitRepos/Senior-Project-CPP-Testground/Content/Animations/OLD/Images/slimeHorizontalWalk_Sprite_12.uasset'
+[2019.02.21-04.51.02:447][790]LogSavePackage: Moving 'C:/Users/gosus/Documents/CP-School/SeniorProject/gitRepos/Senior-Project-CPP-Testground/Saved/slimeHorizontalWalk_Sprite_11894CC0F34D43022D6E4297810501141D.tmp' to 'C:/Users/gosus/Documents/CP-School/SeniorProject/gitRepos/Senior-Project-CPP-Testground/Content/Animations/OLD/Images/slimeHorizontalWalk_Sprite_11.uasset'
+[2019.02.21-04.51.02:475][790]LogSavePackage: Moving 'C:/Users/gosus/Documents/CP-School/SeniorProject/gitRepos/Senior-Project-CPP-Testground/Saved/slimeHorizontalWalk_Sprite_10B75DDB1B4FDA77E7AA2B2E9E515050D4.tmp' to 'C:/Users/gosus/Documents/CP-School/SeniorProject/gitRepos/Senior-Project-CPP-Testground/Content/Animations/OLD/Images/slimeHorizontalWalk_Sprite_10.uasset'
+[2019.02.21-04.51.02:503][790]LogSavePackage: Moving 'C:/Users/gosus/Documents/CP-School/SeniorProject/gitRepos/Senior-Project-CPP-Testground/Saved/slimeHorizontalWalk_Sprite_15C78CA134AA1F4C273272CA10610AD4E.tmp' to 'C:/Users/gosus/Documents/CP-School/SeniorProject/gitRepos/Senior-Project-CPP-Testground/Content/Animations/OLD/Images/slimeHorizontalWalk_Sprite_1.uasset'
+[2019.02.21-04.51.02:532][790]LogSavePackage: Moving 'C:/Users/gosus/Documents/CP-School/SeniorProject/gitRepos/Senior-Project-CPP-Testground/Saved/slimeHorizontalWalk_Sprite_03408E18E492F27F9851281859689083E.tmp' to 'C:/Users/gosus/Documents/CP-School/SeniorProject/gitRepos/Senior-Project-CPP-Testground/Content/Animations/OLD/Images/slimeHorizontalWalk_Sprite_0.uasset'
+[2019.02.21-04.51.02:568][790]LogSavePackage: Moving 'C:/Users/gosus/Documents/CP-School/SeniorProject/gitRepos/Senior-Project-CPP-Testground/Saved/slimeHorizontalWalkSheetAD9F31E843BA5EE4BD1C748F67BB7A3A.tmp' to 'C:/Users/gosus/Documents/CP-School/SeniorProject/gitRepos/Senior-Project-CPP-Testground/Content/Animations/OLD/Images/slimeHorizontalWalkSheet.uasset'
+[2019.02.21-04.51.02:586][790]LogSavePackage: Moving 'C:/Users/gosus/Documents/CP-School/SeniorProject/gitRepos/Senior-Project-CPP-Testground/Saved/eyeMonsterF9FFC3F6483A83E903809D9A39F45649.tmp' to 'C:/Users/gosus/Documents/CP-School/SeniorProject/gitRepos/Senior-Project-CPP-Testground/Content/Animations/OLD/Images/eyeMonster.uasset'
+[2019.02.21-04.51.02:611][790]LogSavePackage: Moving 'C:/Users/gosus/Documents/CP-School/SeniorProject/gitRepos/Senior-Project-CPP-Testground/Saved/eyeMonster_Sprite_043CF608240D4F7B254F017ACE54C8CF3.tmp' to 'C:/Users/gosus/Documents/CP-School/SeniorProject/gitRepos/Senior-Project-CPP-Testground/Content/Animations/OLD/Images/eyeMonster_Sprite_0.uasset'
+[2019.02.21-04.51.07:022][790]LogSavePackage: Moving 'C:/Users/gosus/Documents/CP-School/SeniorProject/gitRepos/Senior-Project-CPP-Testground/Saved/slimeFDHorizontalWalk1062A0F914E21C0531FB71B85F43CE1FE.tmp' to 'C:/Users/gosus/Documents/CP-School/SeniorProject/gitRepos/Senior-Project-CPP-Testground/Content/Animations/slimeFDHorizontalWalk1.uasset'
+[2019.02.21-04.51.07:040][790]LogSavePackage: Moving 'C:/Users/gosus/Documents/CP-School/SeniorProject/gitRepos/Senior-Project-CPP-Testground/Saved/slimeHorizontalWalkF3CB212A4F11DE8787A0549438CC8233.tmp' to 'C:/Users/gosus/Documents/CP-School/SeniorProject/gitRepos/Senior-Project-CPP-Testground/Content/Animations/OLD/slimeHorizontalWalk.uasset'
+[2019.02.21-04.51.07:052][790]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Animations/IdleMonster" FILE="C:/Users/gosus/Documents/CP-School/SeniorProject/gitRepos/Senior-Project-CPP-Testground/Content/Animations/IdleMonster.uasset" SILENT=true
+[2019.02.21-04.51.07:068][790]LogSavePackage: Moving 'C:/Users/gosus/Documents/CP-School/SeniorProject/gitRepos/Senior-Project-CPP-Testground/Saved/IdleMonsterC21C68B149719FA541EFA5B4E2047704.tmp' to 'C:/Users/gosus/Documents/CP-School/SeniorProject/gitRepos/Senior-Project-CPP-Testground/Content/Animations/IdleMonster.uasset'
+[2019.02.21-04.51.26:446][ 14]LogSavePackage: Moving 'C:/Users/gosus/Documents/CP-School/SeniorProject/gitRepos/Senior-Project-CPP-Testground/Saved/horizontalWalk_Sprite_00388AAC14D1155BEC5F4AEB47BAC6C3B.tmp' to 'C:/Users/gosus/Documents/CP-School/SeniorProject/gitRepos/Senior-Project-CPP-Testground/Content/Animations/Protagonist/horizontalWalk_Sprite_0.uasset'
+[2019.02.21-04.51.26:463][ 14]LogSavePackage: Moving 'C:/Users/gosus/Documents/CP-School/SeniorProject/gitRepos/Senior-Project-CPP-Testground/Saved/horizontalWalk_Sprite_18AAC92E9472BD8016EB9F4ACA261E2CA.tmp' to 'C:/Users/gosus/Documents/CP-School/SeniorProject/gitRepos/Senior-Project-CPP-Testground/Content/Animations/Protagonist/horizontalWalk_Sprite_1.uasset'
+[2019.02.21-04.51.26:481][ 14]LogSavePackage: Moving 'C:/Users/gosus/Documents/CP-School/SeniorProject/gitRepos/Senior-Project-CPP-Testground/Saved/horizontalWalk_Sprite_2E750D5E34329F69407FB1EB12DCD619B.tmp' to 'C:/Users/gosus/Documents/CP-School/SeniorProject/gitRepos/Senior-Project-CPP-Testground/Content/Animations/Protagonist/horizontalWalk_Sprite_2.uasset'
+[2019.02.21-04.51.26:499][ 14]LogSavePackage: Moving 'C:/Users/gosus/Documents/CP-School/SeniorProject/gitRepos/Senior-Project-CPP-Testground/Saved/horizontalWalk_Sprite_3DD28A53745F35762FAB13393CDD8380C.tmp' to 'C:/Users/gosus/Documents/CP-School/SeniorProject/gitRepos/Senior-Project-CPP-Testground/Content/Animations/Protagonist/horizontalWalk_Sprite_3.uasset'
+[2019.02.21-04.51.26:518][ 14]LogSavePackage: Moving 'C:/Users/gosus/Documents/CP-School/SeniorProject/gitRepos/Senior-Project-CPP-Testground/Saved/horizontalWalk_Sprite_4809AEA5C4BA9673DA0BDFB8BBB9484B5.tmp' to 'C:/Users/gosus/Documents/CP-School/SeniorProject/gitRepos/Senior-Project-CPP-Testground/Content/Animations/Protagonist/horizontalWalk_Sprite_4.uasset'
+[2019.02.21-04.51.26:535][ 14]LogSavePackage: Moving 'C:/Users/gosus/Documents/CP-School/SeniorProject/gitRepos/Senior-Project-CPP-Testground/Saved/horizontalWalk_Sprite_5A36FC67F47C0D377046302B52D7E46FA.tmp' to 'C:/Users/gosus/Documents/CP-School/SeniorProject/gitRepos/Senior-Project-CPP-Testground/Content/Animations/Protagonist/horizontalWalk_Sprite_5.uasset'
+[2019.02.21-04.51.26:553][ 14]LogSavePackage: Moving 'C:/Users/gosus/Documents/CP-School/SeniorProject/gitRepos/Senior-Project-CPP-Testground/Saved/horizontalWalk_Sprite_6918AE0A840701C9ED5B6CAB4852EB5FF.tmp' to 'C:/Users/gosus/Documents/CP-School/SeniorProject/gitRepos/Senior-Project-CPP-Testground/Content/Animations/Protagonist/horizontalWalk_Sprite_6.uasset'
+[2019.02.21-04.51.26:571][ 14]LogSavePackage: Moving 'C:/Users/gosus/Documents/CP-School/SeniorProject/gitRepos/Senior-Project-CPP-Testground/Saved/horizontalWalk_Sprite_7965C61D3444E0A5731322EAB9B1A5A16.tmp' to 'C:/Users/gosus/Documents/CP-School/SeniorProject/gitRepos/Senior-Project-CPP-Testground/Content/Animations/Protagonist/horizontalWalk_Sprite_7.uasset'
+[2019.02.21-04.51.26:591][ 14]LogSavePackage: Moving 'C:/Users/gosus/Documents/CP-School/SeniorProject/gitRepos/Senior-Project-CPP-Testground/Saved/horizontalWalk_Sprite_8BB547D7342391240B381A28356D91D9F.tmp' to 'C:/Users/gosus/Documents/CP-School/SeniorProject/gitRepos/Senior-Project-CPP-Testground/Content/Animations/Protagonist/horizontalWalk_Sprite_8.uasset'
+[2019.02.21-04.51.26:609][ 14]LogSavePackage: Moving 'C:/Users/gosus/Documents/CP-School/SeniorProject/gitRepos/Senior-Project-CPP-Testground/Saved/horizontalWalk_Sprite_984F2EF6046328F96DF2E738F2E8E864F.tmp' to 'C:/Users/gosus/Documents/CP-School/SeniorProject/gitRepos/Senior-Project-CPP-Testground/Content/Animations/Protagonist/horizontalWalk_Sprite_9.uasset'
+[2019.02.21-04.51.26:627][ 14]LogSavePackage: Moving 'C:/Users/gosus/Documents/CP-School/SeniorProject/gitRepos/Senior-Project-CPP-Testground/Saved/protagHorizontalWalk7ABC25A94234E3F4BA94BC81BE76EA80.tmp' to 'C:/Users/gosus/Documents/CP-School/SeniorProject/gitRepos/Senior-Project-CPP-Testground/Content/Animations/Protagonist/protagHorizontalWalk.uasset'
+[2019.02.21-04.51.30:334][364]LogSavePackage: Moving 'C:/Users/gosus/Documents/CP-School/SeniorProject/gitRepos/Senior-Project-CPP-Testground/Saved/horizontalWalk24ABE1DE4F2A51C5F0DAEB8EB951A8EF.tmp' to 'C:/Users/gosus/Documents/CP-School/SeniorProject/gitRepos/Senior-Project-CPP-Testground/Content/Animations/Protagonist/horizontalWalk.uasset'
+[2019.02.21-04.51.30:477][364]LogSavePackage: Moving 'C:/Users/gosus/Documents/CP-School/SeniorProject/gitRepos/Senior-Project-CPP-Testground/Saved/horizontalWalk_Sprite_08C5886124219752C16F08884711004BD.tmp' to 'C:/Users/gosus/Documents/CP-School/SeniorProject/gitRepos/Senior-Project-CPP-Testground/Content/Animations/Protagonist/horizontalWalk_Sprite_0.uasset'
+[2019.02.21-04.51.30:499][364]LogSavePackage: Moving 'C:/Users/gosus/Documents/CP-School/SeniorProject/gitRepos/Senior-Project-CPP-Testground/Saved/horizontalWalk_Sprite_1D59F188B440803405B2F139C349C8122.tmp' to 'C:/Users/gosus/Documents/CP-School/SeniorProject/gitRepos/Senior-Project-CPP-Testground/Content/Animations/Protagonist/horizontalWalk_Sprite_1.uasset'
+[2019.02.21-04.51.30:518][364]LogSavePackage: Moving 'C:/Users/gosus/Documents/CP-School/SeniorProject/gitRepos/Senior-Project-CPP-Testground/Saved/horizontalWalk_Sprite_280893A9348B3CA8AA170D7BCFA105E0E.tmp' to 'C:/Users/gosus/Documents/CP-School/SeniorProject/gitRepos/Senior-Project-CPP-Testground/Content/Animations/Protagonist/horizontalWalk_Sprite_2.uasset'
+[2019.02.21-04.51.30:537][364]LogSavePackage: Moving 'C:/Users/gosus/Documents/CP-School/SeniorProject/gitRepos/Senior-Project-CPP-Testground/Saved/horizontalWalk_Sprite_379DD17AA45F8D78ACF997B8EBF5DFCBB.tmp' to 'C:/Users/gosus/Documents/CP-School/SeniorProject/gitRepos/Senior-Project-CPP-Testground/Content/Animations/Protagonist/horizontalWalk_Sprite_3.uasset'
+[2019.02.21-04.51.30:555][364]LogSavePackage: Moving 'C:/Users/gosus/Documents/CP-School/SeniorProject/gitRepos/Senior-Project-CPP-Testground/Saved/horizontalWalk_Sprite_462B01F1D4A15D3A77C1E4D97B5A59E99.tmp' to 'C:/Users/gosus/Documents/CP-School/SeniorProject/gitRepos/Senior-Project-CPP-Testground/Content/Animations/Protagonist/horizontalWalk_Sprite_4.uasset'
+[2019.02.21-04.51.30:582][364]LogSavePackage: Moving 'C:/Users/gosus/Documents/CP-School/SeniorProject/gitRepos/Senior-Project-CPP-Testground/Saved/horizontalWalk_Sprite_59EC8E85140A3010ED685B4928D05A5A6.tmp' to 'C:/Users/gosus/Documents/CP-School/SeniorProject/gitRepos/Senior-Project-CPP-Testground/Content/Animations/Protagonist/horizontalWalk_Sprite_5.uasset'
+[2019.02.21-04.51.30:599][364]LogSavePackage: Moving 'C:/Users/gosus/Documents/CP-School/SeniorProject/gitRepos/Senior-Project-CPP-Testground/Saved/horizontalWalk_Sprite_6BB7924714DA7C7CD59BC3AB6859CC06B.tmp' to 'C:/Users/gosus/Documents/CP-School/SeniorProject/gitRepos/Senior-Project-CPP-Testground/Content/Animations/Protagonist/horizontalWalk_Sprite_6.uasset'
+[2019.02.21-04.51.30:618][364]LogSavePackage: Moving 'C:/Users/gosus/Documents/CP-School/SeniorProject/gitRepos/Senior-Project-CPP-Testground/Saved/horizontalWalk_Sprite_7EA2ACA1D4E8FBFA9EBDFBAB14A2439EE.tmp' to 'C:/Users/gosus/Documents/CP-School/SeniorProject/gitRepos/Senior-Project-CPP-Testground/Content/Animations/Protagonist/horizontalWalk_Sprite_7.uasset'
+[2019.02.21-04.51.30:636][364]LogSavePackage: Moving 'C:/Users/gosus/Documents/CP-School/SeniorProject/gitRepos/Senior-Project-CPP-Testground/Saved/horizontalWalk_Sprite_89065341440571B6875B937B736E39FB1.tmp' to 'C:/Users/gosus/Documents/CP-School/SeniorProject/gitRepos/Senior-Project-CPP-Testground/Content/Animations/Protagonist/horizontalWalk_Sprite_8.uasset'
+[2019.02.21-04.51.30:654][364]LogSavePackage: Moving 'C:/Users/gosus/Documents/CP-School/SeniorProject/gitRepos/Senior-Project-CPP-Testground/Saved/horizontalWalk_Sprite_9742ECCDE4E467BCE394844A2AA8F9237.tmp' to 'C:/Users/gosus/Documents/CP-School/SeniorProject/gitRepos/Senior-Project-CPP-Testground/Content/Animations/Protagonist/horizontalWalk_Sprite_9.uasset'
+[2019.02.21-04.51.49:092][530]LogSavePackage: Moving 'C:/Users/gosus/Documents/CP-School/SeniorProject/gitRepos/Senior-Project-CPP-Testground/Saved/horizontalWalk_Sprite_92DCB0C3F440ADD5E5FFE30B6D3225F19.tmp' to 'C:/Users/gosus/Documents/CP-School/SeniorProject/gitRepos/Senior-Project-CPP-Testground/Content/Animations/Protagonist/Frames/horizontalWalk_Sprite_9.uasset'
+[2019.02.21-04.51.49:113][530]LogSavePackage: Moving 'C:/Users/gosus/Documents/CP-School/SeniorProject/gitRepos/Senior-Project-CPP-Testground/Saved/horizontalWalk_Sprite_0683C81284432D8C285C6749D15808298.tmp' to 'C:/Users/gosus/Documents/CP-School/SeniorProject/gitRepos/Senior-Project-CPP-Testground/Content/Animations/Protagonist/Frames/horizontalWalk_Sprite_0.uasset'
+[2019.02.21-04.51.49:131][530]LogSavePackage: Moving 'C:/Users/gosus/Documents/CP-School/SeniorProject/gitRepos/Senior-Project-CPP-Testground/Saved/horizontalWalk_Sprite_198B5191C4E4276667FF590A861B9BFDC.tmp' to 'C:/Users/gosus/Documents/CP-School/SeniorProject/gitRepos/Senior-Project-CPP-Testground/Content/Animations/Protagonist/Frames/horizontalWalk_Sprite_1.uasset'
+[2019.02.21-04.51.49:149][530]LogSavePackage: Moving 'C:/Users/gosus/Documents/CP-School/SeniorProject/gitRepos/Senior-Project-CPP-Testground/Saved/horizontalWalk_Sprite_2C23F3DF94383D63C1530519991FF627A.tmp' to 'C:/Users/gosus/Documents/CP-School/SeniorProject/gitRepos/Senior-Project-CPP-Testground/Content/Animations/Protagonist/Frames/horizontalWalk_Sprite_2.uasset'
+[2019.02.21-04.51.49:167][530]LogSavePackage: Moving 'C:/Users/gosus/Documents/CP-School/SeniorProject/gitRepos/Senior-Project-CPP-Testground/Saved/horizontalWalk_Sprite_3D7EC13D8452D99EEA810259838AEA03A.tmp' to 'C:/Users/gosus/Documents/CP-School/SeniorProject/gitRepos/Senior-Project-CPP-Testground/Content/Animations/Protagonist/Frames/horizontalWalk_Sprite_3.uasset'
+[2019.02.21-04.51.49:184][530]LogSavePackage: Moving 'C:/Users/gosus/Documents/CP-School/SeniorProject/gitRepos/Senior-Project-CPP-Testground/Saved/horizontalWalk_Sprite_479A8D499468AFF1EC2B90B911A9E2752.tmp' to 'C:/Users/gosus/Documents/CP-School/SeniorProject/gitRepos/Senior-Project-CPP-Testground/Content/Animations/Protagonist/Frames/horizontalWalk_Sprite_4.uasset'
+[2019.02.21-04.51.49:201][530]LogSavePackage: Moving 'C:/Users/gosus/Documents/CP-School/SeniorProject/gitRepos/Senior-Project-CPP-Testground/Saved/horizontalWalk_Sprite_55A5868954552C2B29152A1B414193DAD.tmp' to 'C:/Users/gosus/Documents/CP-School/SeniorProject/gitRepos/Senior-Project-CPP-Testground/Content/Animations/Protagonist/Frames/horizontalWalk_Sprite_5.uasset'
+[2019.02.21-04.51.49:219][530]LogSavePackage: Moving 'C:/Users/gosus/Documents/CP-School/SeniorProject/gitRepos/Senior-Project-CPP-Testground/Saved/horizontalWalk_Sprite_691B5991A4BD69A86B1969DBB7B8B3C3D.tmp' to 'C:/Users/gosus/Documents/CP-School/SeniorProject/gitRepos/Senior-Project-CPP-Testground/Content/Animations/Protagonist/Frames/horizontalWalk_Sprite_6.uasset'
+[2019.02.21-04.51.49:237][530]LogSavePackage: Moving 'C:/Users/gosus/Documents/CP-School/SeniorProject/gitRepos/Senior-Project-CPP-Testground/Saved/horizontalWalk_Sprite_7F56AC8EB41BB208F0F1AC7A70B780FFE.tmp' to 'C:/Users/gosus/Documents/CP-School/SeniorProject/gitRepos/Senior-Project-CPP-Testground/Content/Animations/Protagonist/Frames/horizontalWalk_Sprite_7.uasset'
+[2019.02.21-04.51.49:254][530]LogSavePackage: Moving 'C:/Users/gosus/Documents/CP-School/SeniorProject/gitRepos/Senior-Project-CPP-Testground/Saved/horizontalWalk_Sprite_8025D493245CD7345A0D8B8B67AF8C2A4.tmp' to 'C:/Users/gosus/Documents/CP-School/SeniorProject/gitRepos/Senior-Project-CPP-Testground/Content/Animations/Protagonist/Frames/horizontalWalk_Sprite_8.uasset'
+[2019.02.21-04.51.49:883][530]LogSavePackage: Moving 'C:/Users/gosus/Documents/CP-School/SeniorProject/gitRepos/Senior-Project-CPP-Testground/Saved/protagHorizontalWalk88C845AE49940AA631B8F8821BA10B73.tmp' to 'C:/Users/gosus/Documents/CP-School/SeniorProject/gitRepos/Senior-Project-CPP-Testground/Content/Animations/Protagonist/protagHorizontalWalk.uasset'
+[2019.02.21-04.51.56:975][354]LogSavePackage: Moving 'C:/Users/gosus/Documents/CP-School/SeniorProject/gitRepos/Senior-Project-CPP-Testground/Saved/horizontalWalkCE3EAB3942ABB40992D7F684F18BFEFB.tmp' to 'C:/Users/gosus/Documents/CP-School/SeniorProject/gitRepos/Senior-Project-CPP-Testground/Content/Animations/Protagonist/Textures/horizontalWalk.uasset'
+[2019.02.21-04.51.57:112][354]LogSavePackage: Moving 'C:/Users/gosus/Documents/CP-School/SeniorProject/gitRepos/Senior-Project-CPP-Testground/Saved/horizontalWalk_Sprite_93A06A7DC4C4862FB4C2780ADC375F048.tmp' to 'C:/Users/gosus/Documents/CP-School/SeniorProject/gitRepos/Senior-Project-CPP-Testground/Content/Animations/Protagonist/Frames/horizontalWalk_Sprite_9.uasset'
+[2019.02.21-04.51.57:128][354]LogSavePackage: Moving 'C:/Users/gosus/Documents/CP-School/SeniorProject/gitRepos/Senior-Project-CPP-Testground/Saved/horizontalWalk_Sprite_0B9FD820049C2F82C5EB4978F50DA0908.tmp' to 'C:/Users/gosus/Documents/CP-School/SeniorProject/gitRepos/Senior-Project-CPP-Testground/Content/Animations/Protagonist/Frames/horizontalWalk_Sprite_0.uasset'
+[2019.02.21-04.51.57:144][354]LogSavePackage: Moving 'C:/Users/gosus/Documents/CP-School/SeniorProject/gitRepos/Senior-Project-CPP-Testground/Saved/horizontalWalk_Sprite_1F719AAB94161161C3BE241B5C2CE9655.tmp' to 'C:/Users/gosus/Documents/CP-School/SeniorProject/gitRepos/Senior-Project-CPP-Testground/Content/Animations/Protagonist/Frames/horizontalWalk_Sprite_1.uasset'
+[2019.02.21-04.51.57:159][354]LogSavePackage: Moving 'C:/Users/gosus/Documents/CP-School/SeniorProject/gitRepos/Senior-Project-CPP-Testground/Saved/horizontalWalk_Sprite_229B7B0104A10D557D9944EAD8545394D.tmp' to 'C:/Users/gosus/Documents/CP-School/SeniorProject/gitRepos/Senior-Project-CPP-Testground/Content/Animations/Protagonist/Frames/horizontalWalk_Sprite_2.uasset'
+[2019.02.21-04.51.57:174][354]LogSavePackage: Moving 'C:/Users/gosus/Documents/CP-School/SeniorProject/gitRepos/Senior-Project-CPP-Testground/Saved/horizontalWalk_Sprite_362A3831E48E174F5A68644B1F05CC74A.tmp' to 'C:/Users/gosus/Documents/CP-School/SeniorProject/gitRepos/Senior-Project-CPP-Testground/Content/Animations/Protagonist/Frames/horizontalWalk_Sprite_3.uasset'
+[2019.02.21-04.51.57:189][354]LogSavePackage: Moving 'C:/Users/gosus/Documents/CP-School/SeniorProject/gitRepos/Senior-Project-CPP-Testground/Saved/horizontalWalk_Sprite_447D55DDF435DC3DD792603A723082427.tmp' to 'C:/Users/gosus/Documents/CP-School/SeniorProject/gitRepos/Senior-Project-CPP-Testground/Content/Animations/Protagonist/Frames/horizontalWalk_Sprite_4.uasset'
+[2019.02.21-04.51.57:205][354]LogSavePackage: Moving 'C:/Users/gosus/Documents/CP-School/SeniorProject/gitRepos/Senior-Project-CPP-Testground/Saved/horizontalWalk_Sprite_5E113EEF1439FF22C609A9F83CCF6BF7A.tmp' to 'C:/Users/gosus/Documents/CP-School/SeniorProject/gitRepos/Senior-Project-CPP-Testground/Content/Animations/Protagonist/Frames/horizontalWalk_Sprite_5.uasset'
+[2019.02.21-04.51.57:220][354]LogSavePackage: Moving 'C:/Users/gosus/Documents/CP-School/SeniorProject/gitRepos/Senior-Project-CPP-Testground/Saved/horizontalWalk_Sprite_6A2C4437C4831E8E527F7A4A10798BC42.tmp' to 'C:/Users/gosus/Documents/CP-School/SeniorProject/gitRepos/Senior-Project-CPP-Testground/Content/Animations/Protagonist/Frames/horizontalWalk_Sprite_6.uasset'
+[2019.02.21-04.51.57:235][354]LogSavePackage: Moving 'C:/Users/gosus/Documents/CP-School/SeniorProject/gitRepos/Senior-Project-CPP-Testground/Saved/horizontalWalk_Sprite_7A841E071449B96E6992710AB1B0797DB.tmp' to 'C:/Users/gosus/Documents/CP-School/SeniorProject/gitRepos/Senior-Project-CPP-Testground/Content/Animations/Protagonist/Frames/horizontalWalk_Sprite_7.uasset'
+[2019.02.21-04.51.57:251][354]LogSavePackage: Moving 'C:/Users/gosus/Documents/CP-School/SeniorProject/gitRepos/Senior-Project-CPP-Testground/Saved/horizontalWalk_Sprite_835B194534CB517E78A52C59448BD2F56.tmp' to 'C:/Users/gosus/Documents/CP-School/SeniorProject/gitRepos/Senior-Project-CPP-Testground/Content/Animations/Protagonist/Frames/horizontalWalk_Sprite_8.uasset'
+[2019.02.21-04.52.00:121][688]LogAssetEditorManager: Opening Asset editor for PaperFlipbook /Game/Animations/Protagonist/protagHorizontalWalk.protagHorizontalWalk
+[2019.02.21-04.52.03:992][123]LogSlate: Window 'protagHorizontalWalk' being destroyed
+[2019.02.21-04.52.03:996][123]LogSlate: Window 'protagHorizontalWalk' being destroyed
+[2019.02.21-04.52.11:001][520]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.02.21-04.52.12:867][735]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/Blueprints/BP_EnemySlime.BP_EnemySlime
+[2019.02.21-04.52.13:199][735]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0005 seconds. Added 117 classes and 0 folders.
+[2019.02.21-04.52.14:042][736]LogSlate: Took 0.004160 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2019.02.21-04.52.16:056][951]LogSlate: Window 'BP_EnemySlime' being destroyed
+[2019.02.21-04.52.17:569][124]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/Blueprints/BP_ProtagClass.BP_ProtagClass
+[2019.02.21-04.52.27:484][231]BlueprintLog: New page: Compile BP_ProtagClass
+[2019.02.21-04.52.27:918][256]LogSavePackage: Moving 'C:/Users/gosus/Documents/CP-School/SeniorProject/gitRepos/Senior-Project-CPP-Testground/Saved/BP_ProtagClass66AC857B4BCD3D544BAC5EB330BD5B50.tmp' to 'C:/Users/gosus/Documents/CP-School/SeniorProject/gitRepos/Senior-Project-CPP-Testground/Content/Blueprints/BP_ProtagClass.uasset'
+[2019.02.21-04.52.29:959][500]LogTemp: Repeating last play command: Selected Viewport
+[2019.02.21-04.52.29:978][500]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2019.02.21-04.52.29:978][500]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.02.21-04.52.29:984][500]PIE: New page: PIE session: Minimal_Default (Feb 20, 2019, 12:52:29 PM)
+[2019.02.21-04.52.29:998][500]LogPlayLevel: Creating play world package: /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default
+[2019.02.21-04.52.30:041][500]LogPlayLevel: PIE: StaticDuplicateObject took: (0.042583s)
+[2019.02.21-04.52.30:042][500]LogAIModule: Creating AISystem for world Minimal_Default
+[2019.02.21-04.52.30:042][500]LogPlayLevel: PIE: World Init took: (0.000865s)
+[2019.02.21-04.52.30:042][500]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/Minimal_Default.Minimal_Default to /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default (0.044002s)
+[2019.02.21-04.52.30:120][500]LogInit: XAudio2 using 'Speakers (Realtek(R) Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.02.21-04.52.30:136][500]LogInit: FAudioDevice initialized.
+[2019.02.21-04.52.30:227][500]LogLoad: Game class is 'BP_HSPGameGameModeBase_C'
+[2019.02.21-04.52.30:257][500]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default up for play (max tick rate 0) at 2019.02.20-20.52.30
+[2019.02.21-04.52.30:263][500]LogWorld: Bringing up level for play took: 0.016675
+[2019.02.21-04.52.30:283][500]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0005 seconds. Added 20 classes and 0 folders.
+[2019.02.21-04.52.30:291][500]PIE: Play in editor start time for /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default 0.314
+[2019.02.21-04.52.30:292][500]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2019.02.21-04.52.46:450][433]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.02.21-04.52.46:511][440]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2019.02.21-04.52.46:512][440]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.02.21-04.52.46:553][440]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.02.21-04.52.46:554][440]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2019.02.21-04.52.46:583][440]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.02.21-04.52.46:615][442]LogPlayLevel: Display: Destroying online subsystem :Context_7
+[2019.02.21-04.53.53:629][548]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 C:\Users\gosus\Documents\CP-School\SeniorProject\Art\Characters\Protagonist\stillIdle.png)
+[2019.02.21-04.53.53:642][548]LogTexture: Display: Building textures: stillIdle (AutoDXT, 24X32)
+[2019.02.21-04.53.54:649][665]LogAssetEditorManager: Opening Asset editor for Texture2D /Game/Animations/Protagonist/stillIdle.stillIdle
+[2019.02.21-04.53.59:485][228]LogTexture: Display: Building textures: stillIdle (BGRA8, 24X32)
+[2019.02.21-04.54.02:797][616]LogSavePackage: Moving 'C:/Users/gosus/Documents/CP-School/SeniorProject/gitRepos/Senior-Project-CPP-Testground/Saved/stillIdle3FF50257400435122435B3B64EDD2208.tmp' to 'C:/Users/gosus/Documents/CP-School/SeniorProject/gitRepos/Senior-Project-CPP-Testground/Content/Animations/Protagonist/stillIdle.uasset'
+[2019.02.21-04.54.10:935][531]LogSlate: Window 'Extract sprites' being destroyed
+[2019.02.21-04.54.22:951][845]LogSavePackage: Moving 'C:/Users/gosus/Documents/CP-School/SeniorProject/gitRepos/Senior-Project-CPP-Testground/Saved/Minimal_DefaultBF9D5FB64CBB791A6533AFAF0977FB97.tmp' to 'C:/Users/gosus/Documents/CP-School/SeniorProject/gitRepos/Senior-Project-CPP-Testground/Content/StarterContent/Maps/Minimal_Default.umap'
+[2019.02.21-04.54.22:985][845]LogFileHelpers: Saving map 'Minimal_Default' took 0.671
+[2019.02.21-04.54.23:003][845]LogSavePackage: Moving 'C:/Users/gosus/Documents/CP-School/SeniorProject/gitRepos/Senior-Project-CPP-Testground/Saved/stillIdle_Sprite_0D5F968C140614A663CBCF49E624E1AA0.tmp' to 'C:/Users/gosus/Documents/CP-School/SeniorProject/gitRepos/Senior-Project-CPP-Testground/Content/Animations/Protagonist/stillIdle_Sprite_0.uasset'
+[2019.02.21-04.54.23:021][845]LogSavePackage: Moving 'C:/Users/gosus/Documents/CP-School/SeniorProject/gitRepos/Senior-Project-CPP-Testground/Saved/protagIdleB7BA431940969BB449F5C2A341749B17.tmp' to 'C:/Users/gosus/Documents/CP-School/SeniorProject/gitRepos/Senior-Project-CPP-Testground/Content/Animations/Protagonist/protagIdle.uasset'
+[2019.02.21-04.54.29:657][613]LogSavePackage: Moving 'C:/Users/gosus/Documents/CP-School/SeniorProject/gitRepos/Senior-Project-CPP-Testground/Saved/stillIdleC327B14D4B8C980A448F9485489BDC54.tmp' to 'C:/Users/gosus/Documents/CP-School/SeniorProject/gitRepos/Senior-Project-CPP-Testground/Content/Animations/Protagonist/Textures/stillIdle.uasset'
+[2019.02.21-04.54.29:846][613]LogSavePackage: Moving 'C:/Users/gosus/Documents/CP-School/SeniorProject/gitRepos/Senior-Project-CPP-Testground/Saved/stillIdle_Sprite_0B3C668D04301FB996C72F898A6C4A613.tmp' to 'C:/Users/gosus/Documents/CP-School/SeniorProject/gitRepos/Senior-Project-CPP-Testground/Content/Animations/Protagonist/stillIdle_Sprite_0.uasset'
+[2019.02.21-04.54.33:562][ 38]LogSavePackage: Moving 'C:/Users/gosus/Documents/CP-School/SeniorProject/gitRepos/Senior-Project-CPP-Testground/Saved/stillIdle_Sprite_07A48EA65466A8A396E3D388C0F0F63E9.tmp' to 'C:/Users/gosus/Documents/CP-School/SeniorProject/gitRepos/Senior-Project-CPP-Testground/Content/Animations/Protagonist/Frames/stillIdle_Sprite_0.uasset'
+[2019.02.21-04.54.33:751][ 38]LogSavePackage: Moving 'C:/Users/gosus/Documents/CP-School/SeniorProject/gitRepos/Senior-Project-CPP-Testground/Saved/protagIdle92070917496E54F1D402088A7399ECD8.tmp' to 'C:/Users/gosus/Documents/CP-School/SeniorProject/gitRepos/Senior-Project-CPP-Testground/Content/Animations/Protagonist/protagIdle.uasset'
+[2019.02.21-04.54.42:643][ 39]LogSavePackage: Moving 'C:/Users/gosus/Documents/CP-School/SeniorProject/gitRepos/Senior-Project-CPP-Testground/Saved/horizontalWalk_Sprite_98E09732C4B41ABCDFC3E588774262B10.tmp' to 'C:/Users/gosus/Documents/CP-School/SeniorProject/gitRepos/Senior-Project-CPP-Testground/Content/Animations/Protagonist/SpriteFrames/horizontalWalk_Sprite_9.uasset'
+[2019.02.21-04.54.42:660][ 39]LogSavePackage: Moving 'C:/Users/gosus/Documents/CP-School/SeniorProject/gitRepos/Senior-Project-CPP-Testground/Saved/horizontalWalk_Sprite_80BE2CCDD46F2D8D13DD2E483760DD539.tmp' to 'C:/Users/gosus/Documents/CP-School/SeniorProject/gitRepos/Senior-Project-CPP-Testground/Content/Animations/Protagonist/SpriteFrames/horizontalWalk_Sprite_8.uasset'
+[2019.02.21-04.54.42:679][ 39]LogSavePackage: Moving 'C:/Users/gosus/Documents/CP-School/SeniorProject/gitRepos/Senior-Project-CPP-Testground/Saved/horizontalWalk_Sprite_7A53934894C1B9EE3EFDF869E367689FB.tmp' to 'C:/Users/gosus/Documents/CP-School/SeniorProject/gitRepos/Senior-Project-CPP-Testground/Content/Animations/Protagonist/SpriteFrames/horizontalWalk_Sprite_7.uasset'
+[2019.02.21-04.54.42:699][ 39]LogSavePackage: Moving 'C:/Users/gosus/Documents/CP-School/SeniorProject/gitRepos/Senior-Project-CPP-Testground/Saved/horizontalWalk_Sprite_67DDE9FA648E41BDFA687C785E8972640.tmp' to 'C:/Users/gosus/Documents/CP-School/SeniorProject/gitRepos/Senior-Project-CPP-Testground/Content/Animations/Protagonist/SpriteFrames/horizontalWalk_Sprite_6.uasset'
+[2019.02.21-04.54.42:717][ 39]LogSavePackage: Moving 'C:/Users/gosus/Documents/CP-School/SeniorProject/gitRepos/Senior-Project-CPP-Testground/Saved/horizontalWalk_Sprite_5BE85A4ED47D2007D80805AA92EFA9894.tmp' to 'C:/Users/gosus/Documents/CP-School/SeniorProject/gitRepos/Senior-Project-CPP-Testground/Content/Animations/Protagonist/SpriteFrames/horizontalWalk_Sprite_5.uasset'
+[2019.02.21-04.54.42:736][ 39]LogSavePackage: Moving 'C:/Users/gosus/Documents/CP-School/SeniorProject/gitRepos/Senior-Project-CPP-Testground/Saved/horizontalWalk_Sprite_4D99B2A59491EA216DF00878EE1282029.tmp' to 'C:/Users/gosus/Documents/CP-School/SeniorProject/gitRepos/Senior-Project-CPP-Testground/Content/Animations/Protagonist/SpriteFrames/horizontalWalk_Sprite_4.uasset'
+[2019.02.21-04.54.42:756][ 39]LogSavePackage: Moving 'C:/Users/gosus/Documents/CP-School/SeniorProject/gitRepos/Senior-Project-CPP-Testground/Saved/horizontalWalk_Sprite_3C5D8F6F44EA004F01A30C0AFBE7C26B1.tmp' to 'C:/Users/gosus/Documents/CP-School/SeniorProject/gitRepos/Senior-Project-CPP-Testground/Content/Animations/Protagonist/SpriteFrames/horizontalWalk_Sprite_3.uasset'
+[2019.02.21-04.54.42:775][ 39]LogSavePackage: Moving 'C:/Users/gosus/Documents/CP-School/SeniorProject/gitRepos/Senior-Project-CPP-Testground/Saved/horizontalWalk_Sprite_2868E267A49820433DF176BA5D2369414.tmp' to 'C:/Users/gosus/Documents/CP-School/SeniorProject/gitRepos/Senior-Project-CPP-Testground/Content/Animations/Protagonist/SpriteFrames/horizontalWalk_Sprite_2.uasset'
+[2019.02.21-04.54.42:793][ 39]LogSavePackage: Moving 'C:/Users/gosus/Documents/CP-School/SeniorProject/gitRepos/Senior-Project-CPP-Testground/Saved/horizontalWalk_Sprite_1D5682A6A4B547F9B1B77589EF84E4A96.tmp' to 'C:/Users/gosus/Documents/CP-School/SeniorProject/gitRepos/Senior-Project-CPP-Testground/Content/Animations/Protagonist/SpriteFrames/horizontalWalk_Sprite_1.uasset'
+[2019.02.21-04.54.42:810][ 39]LogSavePackage: Moving 'C:/Users/gosus/Documents/CP-School/SeniorProject/gitRepos/Senior-Project-CPP-Testground/Saved/horizontalWalk_Sprite_02D16E6504D480DBEC9B88E931C4C3225.tmp' to 'C:/Users/gosus/Documents/CP-School/SeniorProject/gitRepos/Senior-Project-CPP-Testground/Content/Animations/Protagonist/SpriteFrames/horizontalWalk_Sprite_0.uasset'
+[2019.02.21-04.54.42:829][ 39]LogSavePackage: Moving 'C:/Users/gosus/Documents/CP-School/SeniorProject/gitRepos/Senior-Project-CPP-Testground/Saved/stillIdle_Sprite_0D379FF9548F8B8FED46D5AA2E0B19CF8.tmp' to 'C:/Users/gosus/Documents/CP-School/SeniorProject/gitRepos/Senior-Project-CPP-Testground/Content/Animations/Protagonist/SpriteFrames/stillIdle_Sprite_0.uasset'
+[2019.02.21-04.54.43:958][ 39]LogSavePackage: Moving 'C:/Users/gosus/Documents/CP-School/SeniorProject/gitRepos/Senior-Project-CPP-Testground/Saved/protagHorizontalWalk677CC0FE45DEDB4533D918A66561C3F8.tmp' to 'C:/Users/gosus/Documents/CP-School/SeniorProject/gitRepos/Senior-Project-CPP-Testground/Content/Animations/Protagonist/protagHorizontalWalk.uasset'
+[2019.02.21-04.54.43:990][ 39]LogSavePackage: Moving 'C:/Users/gosus/Documents/CP-School/SeniorProject/gitRepos/Senior-Project-CPP-Testground/Saved/protagIdle35DAAB634DC88517FF2FB395777B9E70.tmp' to 'C:/Users/gosus/Documents/CP-School/SeniorProject/gitRepos/Senior-Project-CPP-Testground/Content/Animations/Protagonist/protagIdle.uasset'
+[2019.02.21-04.55.04:753][491]BlueprintLog: New page: Compile BP_ProtagClass
+[2019.02.21-04.55.05:199][517]LogSavePackage: Moving 'C:/Users/gosus/Documents/CP-School/SeniorProject/gitRepos/Senior-Project-CPP-Testground/Saved/BP_ProtagClassBBA0CD68458537B0C0C06B8DD2E121D3.tmp' to 'C:/Users/gosus/Documents/CP-School/SeniorProject/gitRepos/Senior-Project-CPP-Testground/Content/Blueprints/BP_ProtagClass.uasset'
+[2019.02.21-04.55.16:416][850]BlueprintLog: New page: Compile BP_ProtagClass
+[2019.02.21-04.55.16:976][886]LogSavePackage: Moving 'C:/Users/gosus/Documents/CP-School/SeniorProject/gitRepos/Senior-Project-CPP-Testground/Saved/BP_ProtagClassB928972F4FA332668E8F8B982AF84578.tmp' to 'C:/Users/gosus/Documents/CP-School/SeniorProject/gitRepos/Senior-Project-CPP-Testground/Content/Blueprints/BP_ProtagClass.uasset'
+[2019.02.21-04.55.17:130][900]LogSavePackage: Moving 'C:/Users/gosus/Documents/CP-School/SeniorProject/gitRepos/Senior-Project-CPP-Testground/Saved/BP_ProtagClass1F9290C144AFDCD4252BA7A9F31F7F52.tmp' to 'C:/Users/gosus/Documents/CP-School/SeniorProject/gitRepos/Senior-Project-CPP-Testground/Content/Blueprints/BP_ProtagClass.uasset'
+[2019.02.21-04.55.17:271][913]LogSavePackage: Moving 'C:/Users/gosus/Documents/CP-School/SeniorProject/gitRepos/Senior-Project-CPP-Testground/Saved/BP_ProtagClass3303E9D248750CEF790A1D95EBBBB266.tmp' to 'C:/Users/gosus/Documents/CP-School/SeniorProject/gitRepos/Senior-Project-CPP-Testground/Content/Blueprints/BP_ProtagClass.uasset'
+[2019.02.21-04.55.20:251][184]LogSavePackage: Moving 'C:/Users/gosus/Documents/CP-School/SeniorProject/gitRepos/Senior-Project-CPP-Testground/Saved/Minimal_Default56B501B54575C82F1B0BDCBE9644AC9E.tmp' to 'C:/Users/gosus/Documents/CP-School/SeniorProject/gitRepos/Senior-Project-CPP-Testground/Content/StarterContent/Maps/Minimal_Default.umap'
+[2019.02.21-04.55.20:281][184]LogFileHelpers: Saving map 'Minimal_Default' took 0.679
+[2019.02.21-04.55.20:684][232]LogTemp: Repeating last play command: Selected Viewport
+[2019.02.21-04.55.20:705][232]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2019.02.21-04.55.20:705][232]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.02.21-04.55.20:706][232]PIE: New page: PIE session: Minimal_Default (Feb 20, 2019, 12:55:20 PM)
+[2019.02.21-04.55.20:706][232]LogPlayLevel: Creating play world package: /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default
+[2019.02.21-04.55.20:757][232]LogPlayLevel: PIE: StaticDuplicateObject took: (0.051495s)
+[2019.02.21-04.55.20:758][232]LogAIModule: Creating AISystem for world Minimal_Default
+[2019.02.21-04.55.20:758][232]LogPlayLevel: PIE: World Init took: (0.000672s)
+[2019.02.21-04.55.20:758][232]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/Minimal_Default.Minimal_Default to /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default (0.052499s)
+[2019.02.21-04.55.20:828][232]LogInit: XAudio2 using 'Speakers (Realtek(R) Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.02.21-04.55.20:845][232]LogInit: FAudioDevice initialized.
+[2019.02.21-04.55.20:881][232]LogLoad: Game class is 'BP_HSPGameGameModeBase_C'
+[2019.02.21-04.55.20:888][232]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default up for play (max tick rate 0) at 2019.02.20-20.55.20
+[2019.02.21-04.55.20:890][232]LogWorld: Bringing up level for play took: 0.008061
+[2019.02.21-04.55.20:905][232]PIE: Play in editor start time for /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default 0.927
+[2019.02.21-04.55.20:905][232]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2019.02.21-04.55.28:037][ 66]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.02.21-04.55.28:097][ 73]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2019.02.21-04.55.28:097][ 73]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.02.21-04.55.28:135][ 73]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.02.21-04.55.28:135][ 73]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2019.02.21-04.55.28:164][ 73]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.02.21-04.55.28:206][ 75]LogPlayLevel: Display: Destroying online subsystem :Context_8
+[2019.02.21-04.55.29:098][182]LogTemp: Repeating last play command: Selected Viewport
+[2019.02.21-04.55.29:113][182]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2019.02.21-04.55.29:113][182]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.02.21-04.55.29:113][182]PIE: New page: PIE session: Minimal_Default (Feb 20, 2019, 12:55:29 PM)
+[2019.02.21-04.55.29:113][182]LogPlayLevel: Creating play world package: /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default
+[2019.02.21-04.55.29:152][182]LogPlayLevel: PIE: StaticDuplicateObject took: (0.039059s)
+[2019.02.21-04.55.29:153][182]LogAIModule: Creating AISystem for world Minimal_Default
+[2019.02.21-04.55.29:153][182]LogPlayLevel: PIE: World Init took: (0.000728s)
+[2019.02.21-04.55.29:153][182]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/Minimal_Default.Minimal_Default to /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default (0.040101s)
+[2019.02.21-04.55.29:226][182]LogInit: XAudio2 using 'Speakers (Realtek(R) Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.02.21-04.55.29:242][182]LogInit: FAudioDevice initialized.
+[2019.02.21-04.55.29:277][182]LogLoad: Game class is 'BP_HSPGameGameModeBase_C'
+[2019.02.21-04.55.29:301][182]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default up for play (max tick rate 0) at 2019.02.20-20.55.29
+[2019.02.21-04.55.29:303][182]LogWorld: Bringing up level for play took: 0.024518
+[2019.02.21-04.55.29:319][182]PIE: Play in editor start time for /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default -0.659
+[2019.02.21-04.55.29:319][182]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2019.02.21-04.55.49:508][600]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.02.21-04.55.50:367][703]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2019.02.21-04.55.50:368][703]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.02.21-04.55.50:409][703]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.02.21-04.55.50:410][703]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2019.02.21-04.55.50:436][703]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.02.21-04.55.50:472][706]LogPlayLevel: Display: Destroying online subsystem :Context_9
+[2019.02.21-04.55.57:812][569]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.02.21-04.58.04:614][422]Candidate modules for hot reload:
+[2019.02.21-04.58.04:614][422]  HSPGame
+[2019.02.21-04.58.04:614][422]Launching UnrealBuildTool... [G:/Games/Epic/Games/UE_4.21/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=HSPGame,9566 Win64 Development -TargetType=Editor -Project="C:/Users/gosus/Documents/CP-School/SeniorProject/gitRepos/Senior-Project-CPP-Testground/HSPGame.uproject" -canskiplink "C:/Users/gosus/Documents/CP-School/SeniorProject/gitRepos/Senior-Project-CPP-Testground/HSPGame.uproject" ]
+[2019.02.21-04.58.04:615][422]Warning: Starting HotReload took  0.0s.
+[2019.02.21-04.58.08:737][916]CompilerResultsLog: New page: Compilation - Feb 20, 2019, 12:58:08 PM
+[2019.02.21-04.58.08:742][916]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (C:\Users\gosus\Documents\CP-School\SeniorProject\gitRepos\Senior-Project-CPP-Testground).
+[2019.02.21-04.58.08:742][916]CompilerResultsLog: Creating makefile for hot reloading HSPGameEditor (no existing makefile)
+[2019.02.21-04.58.08:742][916]CompilerResultsLog: Compiling game modules for hot reload
+[2019.02.21-04.58.08:742][916]CompilerResultsLog: Using Visual Studio 2017 14.16.27023 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023) and Windows 10.0.17763.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2019.02.21-04.58.08:742][916]CompilerResultsLog: Target is up to date
+[2019.02.21-04.58.08:742][916]CompilerResultsLog: Total build time: 3.91 seconds (NoActionsToExecute executor: 0.00 seconds)
+[2019.02.21-04.58.08:743][916]LogMainFrame: MainFrame: Module compiling took 4.135 seconds
+[2019.02.21-04.58.08:971][916]LogContentBrowser: Native class hierarchy populated in 0.0072 seconds. Added 2658 classes and 626 folders.
+[2019.02.21-04.58.08:977][916]Display: HotReload took  4.4s.
+[2019.02.21-04.58.10:354][ 81]LogTemp: Repeating last play command: Selected Viewport
+[2019.02.21-04.58.10:371][ 81]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2019.02.21-04.58.10:371][ 81]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.02.21-04.58.10:371][ 81]PIE: New page: PIE session: Minimal_Default (Feb 20, 2019, 12:58:10 PM)
+[2019.02.21-04.58.10:371][ 81]LogPlayLevel: Creating play world package: /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default
+[2019.02.21-04.58.10:425][ 81]LogPlayLevel: PIE: StaticDuplicateObject took: (0.053305s)
+[2019.02.21-04.58.10:425][ 81]LogAIModule: Creating AISystem for world Minimal_Default
+[2019.02.21-04.58.10:425][ 81]LogPlayLevel: PIE: World Init took: (0.000671s)
+[2019.02.21-04.58.10:426][ 81]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/Minimal_Default.Minimal_Default to /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default (0.054354s)
+[2019.02.21-04.58.10:510][ 81]LogInit: XAudio2 using 'Speakers (Realtek(R) Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.02.21-04.58.10:527][ 81]LogInit: FAudioDevice initialized.
+[2019.02.21-04.58.10:558][ 81]LogLoad: Game class is 'BP_HSPGameGameModeBase_C'
+[2019.02.21-04.58.10:564][ 81]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default up for play (max tick rate 0) at 2019.02.20-20.58.10
+[2019.02.21-04.58.10:565][ 81]LogWorld: Bringing up level for play took: 0.006331
+[2019.02.21-04.58.10:581][ 81]PIE: Play in editor start time for /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default 0.603
+[2019.02.21-04.58.10:581][ 81]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2019.02.21-04.58.20:647][286]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.02.21-04.58.20:707][293]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2019.02.21-04.58.20:708][293]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.02.21-04.58.20:749][293]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.02.21-04.58.20:750][293]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2019.02.21-04.58.20:777][293]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.02.21-04.58.20:809][295]LogPlayLevel: Display: Destroying online subsystem :Context_10
+[2019.02.21-04.59.46:315][192]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 C:\Users\gosus\Documents\CP-School\SeniorProject\Art\Characters\Protagonist\Animations\Sprite Sheets\protagRightWalkSS.png)
+[2019.02.21-04.59.46:320][192]LogTexture: Display: Building textures: protagRightWalkSS (AutoDXT, 240X32)
+[2019.02.21-04.59.48:876][287]LogAssetEditorManager: Opening Asset editor for Texture2D /Game/Animations/Protagonist/Textures/protagRightWalkSS.protagRightWalkSS
+[2019.02.21-04.59.52:786][739]LogSavePackage: Moving 'C:/Users/gosus/Documents/CP-School/SeniorProject/gitRepos/Senior-Project-CPP-Testground/Saved/protagRightWalkSS8D9793A8469558171E8124918185E3BE.tmp' to 'C:/Users/gosus/Documents/CP-School/SeniorProject/gitRepos/Senior-Project-CPP-Testground/Content/Animations/Protagonist/Textures/protagRightWalkSS.uasset'
+[2019.02.21-04.59.52:940][753]LogSavePackage: Moving 'C:/Users/gosus/Documents/CP-School/SeniorProject/gitRepos/Senior-Project-CPP-Testground/Saved/protagRightWalkSS5E72BD4D480961B4DE2C1C8F531B9D04.tmp' to 'C:/Users/gosus/Documents/CP-School/SeniorProject/gitRepos/Senior-Project-CPP-Testground/Content/Animations/Protagonist/Textures/protagRightWalkSS.uasset'
+[2019.02.21-04.59.53:075][766]LogSavePackage: Moving 'C:/Users/gosus/Documents/CP-School/SeniorProject/gitRepos/Senior-Project-CPP-Testground/Saved/protagRightWalkSSDF61F86B4EF4C2CCE21DD89CCB8733E1.tmp' to 'C:/Users/gosus/Documents/CP-School/SeniorProject/gitRepos/Senior-Project-CPP-Testground/Content/Animations/Protagonist/Textures/protagRightWalkSS.uasset'
+[2019.02.21-04.59.53:235][782]LogSavePackage: Moving 'C:/Users/gosus/Documents/CP-School/SeniorProject/gitRepos/Senior-Project-CPP-Testground/Saved/protagRightWalkSSC2A9B54440B223980F3AD9921556E450.tmp' to 'C:/Users/gosus/Documents/CP-School/SeniorProject/gitRepos/Senior-Project-CPP-Testground/Content/Animations/Protagonist/Textures/protagRightWalkSS.uasset'
+[2019.02.21-05.00.05:714][160]LogSlate: Window 'Extract sprites' being destroyed
+[2019.02.21-05.00.09:406][593]LogTexture: Display: Building textures: protagRightWalkSS (BGRA8, 240X32)
+[2019.02.21-05.00.11:923][891]LogSavePackage: Moving 'C:/Users/gosus/Documents/CP-School/SeniorProject/gitRepos/Senior-Project-CPP-Testground/Saved/protagRightWalkSSF11579A941403C1C57E21E8ED2EFABFA.tmp' to 'C:/Users/gosus/Documents/CP-School/SeniorProject/gitRepos/Senior-Project-CPP-Testground/Content/Animations/Protagonist/Textures/protagRightWalkSS.uasset'
+[2019.02.21-05.00.12:069][905]LogSavePackage: Moving 'C:/Users/gosus/Documents/CP-School/SeniorProject/gitRepos/Senior-Project-CPP-Testground/Saved/protagRightWalkSS7F4E180A4A21CC991B0AF5B93C648649.tmp' to 'C:/Users/gosus/Documents/CP-School/SeniorProject/gitRepos/Senior-Project-CPP-Testground/Content/Animations/Protagonist/Textures/protagRightWalkSS.uasset'
+[2019.02.21-05.00.23:980][266]LogSlate: Window 'Extract sprites' being destroyed
+[2019.02.21-05.00.32:707][270]LogAssetEditorManager: Opening Asset editor for PaperFlipbook /Game/Animations/Protagonist/Textures/protagRightWalkSS1.protagRightWalkSS1
+[2019.02.21-05.00.41:966][336]LogSavePackage: Moving 'C:/Users/gosus/Documents/CP-School/SeniorProject/gitRepos/Senior-Project-CPP-Testground/Saved/protagRightWalkAnim79D0BE0D4DE0966409420984F5A215C1.tmp' to 'C:/Users/gosus/Documents/CP-School/SeniorProject/gitRepos/Senior-Project-CPP-Testground/Content/Animations/Protagonist/Textures/protagRightWalkAnim.uasset'
+[2019.02.21-05.00.53:703][677]LogSavePackage: Moving 'C:/Users/gosus/Documents/CP-School/SeniorProject/gitRepos/Senior-Project-CPP-Testground/Saved/protagRightWalkSS_Sprite_053045DF24821569CE1BA27BB897B986C.tmp' to 'C:/Users/gosus/Documents/CP-School/SeniorProject/gitRepos/Senior-Project-CPP-Testground/Content/Animations/Protagonist/SpriteFrames/protagRightWalkSS_Sprite_0.uasset'
+[2019.02.21-05.00.53:722][677]LogSavePackage: Moving 'C:/Users/gosus/Documents/CP-School/SeniorProject/gitRepos/Senior-Project-CPP-Testground/Saved/protagRightWalkSS_Sprite_1E06CDEC94A16A18291C637A630029439.tmp' to 'C:/Users/gosus/Documents/CP-School/SeniorProject/gitRepos/Senior-Project-CPP-Testground/Content/Animations/Protagonist/SpriteFrames/protagRightWalkSS_Sprite_1.uasset'
+[2019.02.21-05.00.53:739][677]LogSavePackage: Moving 'C:/Users/gosus/Documents/CP-School/SeniorProject/gitRepos/Senior-Project-CPP-Testground/Saved/protagRightWalkSS_Sprite_2A393EAC9498C09084E7506AF2A88C00D.tmp' to 'C:/Users/gosus/Documents/CP-School/SeniorProject/gitRepos/Senior-Project-CPP-Testground/Content/Animations/Protagonist/SpriteFrames/protagRightWalkSS_Sprite_2.uasset'
+[2019.02.21-05.00.53:756][677]LogSavePackage: Moving 'C:/Users/gosus/Documents/CP-School/SeniorProject/gitRepos/Senior-Project-CPP-Testground/Saved/protagRightWalkSS_Sprite_3EA8543924B6244FFD493F198E3A76FD3.tmp' to 'C:/Users/gosus/Documents/CP-School/SeniorProject/gitRepos/Senior-Project-CPP-Testground/Content/Animations/Protagonist/SpriteFrames/protagRightWalkSS_Sprite_3.uasset'
+[2019.02.21-05.00.53:779][677]LogSavePackage: Moving 'C:/Users/gosus/Documents/CP-School/SeniorProject/gitRepos/Senior-Project-CPP-Testground/Saved/protagRightWalkSS_Sprite_4BA63296E47E402BA2123419337AAE849.tmp' to 'C:/Users/gosus/Documents/CP-School/SeniorProject/gitRepos/Senior-Project-CPP-Testground/Content/Animations/Protagonist/SpriteFrames/protagRightWalkSS_Sprite_4.uasset'
+[2019.02.21-05.00.53:796][677]LogSavePackage: Moving 'C:/Users/gosus/Documents/CP-School/SeniorProject/gitRepos/Senior-Project-CPP-Testground/Saved/protagRightWalkSS_Sprite_59900B418454903F01B180DAAB23059CE.tmp' to 'C:/Users/gosus/Documents/CP-School/SeniorProject/gitRepos/Senior-Project-CPP-Testground/Content/Animations/Protagonist/SpriteFrames/protagRightWalkSS_Sprite_5.uasset'
+[2019.02.21-05.00.53:814][677]LogSavePackage: Moving 'C:/Users/gosus/Documents/CP-School/SeniorProject/gitRepos/Senior-Project-CPP-Testground/Saved/protagRightWalkSS_Sprite_6420071CD4C41B0034374748DBF0D069B.tmp' to 'C:/Users/gosus/Documents/CP-School/SeniorProject/gitRepos/Senior-Project-CPP-Testground/Content/Animations/Protagonist/SpriteFrames/protagRightWalkSS_Sprite_6.uasset'
+[2019.02.21-05.00.53:832][677]LogSavePackage: Moving 'C:/Users/gosus/Documents/CP-School/SeniorProject/gitRepos/Senior-Project-CPP-Testground/Saved/protagRightWalkSS_Sprite_75200AC394D8960F06B87E9875247A2F8.tmp' to 'C:/Users/gosus/Documents/CP-School/SeniorProject/gitRepos/Senior-Project-CPP-Testground/Content/Animations/Protagonist/SpriteFrames/protagRightWalkSS_Sprite_7.uasset'
+[2019.02.21-05.00.53:849][677]LogSavePackage: Moving 'C:/Users/gosus/Documents/CP-School/SeniorProject/gitRepos/Senior-Project-CPP-Testground/Saved/protagRightWalkSS_Sprite_8D5F06A4B4CEC6E0F2B9408B93E3B3E5A.tmp' to 'C:/Users/gosus/Documents/CP-School/SeniorProject/gitRepos/Senior-Project-CPP-Testground/Content/Animations/Protagonist/SpriteFrames/protagRightWalkSS_Sprite_8.uasset'
+[2019.02.21-05.00.53:867][677]LogSavePackage: Moving 'C:/Users/gosus/Documents/CP-School/SeniorProject/gitRepos/Senior-Project-CPP-Testground/Saved/protagRightWalkSS_Sprite_93EFCB82B4C33CCB3586531B1BF9F0B6E.tmp' to 'C:/Users/gosus/Documents/CP-School/SeniorProject/gitRepos/Senior-Project-CPP-Testground/Content/Animations/Protagonist/SpriteFrames/protagRightWalkSS_Sprite_9.uasset'
+[2019.02.21-05.00.55:165][677]LogSavePackage: Moving 'C:/Users/gosus/Documents/CP-School/SeniorProject/gitRepos/Senior-Project-CPP-Testground/Saved/protagRightWalkAnim5A93ACBC499798B8EA10F3894547518E.tmp' to 'C:/Users/gosus/Documents/CP-School/SeniorProject/gitRepos/Senior-Project-CPP-Testground/Content/Animations/Protagonist/Textures/protagRightWalkAnim.uasset'
+[2019.02.21-05.00.58:449][ 42]LogSavePackage: Moving 'C:/Users/gosus/Documents/CP-School/SeniorProject/gitRepos/Senior-Project-CPP-Testground/Saved/protagRightWalkAnimFBD493694F7B69264A017A96CD85AAFF.tmp' to 'C:/Users/gosus/Documents/CP-School/SeniorProject/gitRepos/Senior-Project-CPP-Testground/Content/Animations/Protagonist/protagRightWalkAnim.uasset'
+[2019.02.21-05.01.23:752][966]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2019.02.21-05.01.23:837][966]LogSlate: Window 'HSPGame - Unreal Editor' being destroyed
+[2019.02.21-05.01.23:839][966]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2019.02.21-05.01.24:084][967]Cmd: QUIT_EDITOR
+[2019.02.21-05.01.24:380][967]LogExit: Preparing to exit.
+[2019.02.21-05.01.24:643][967]LogExit: Editor shut down
+[2019.02.21-05.01.24:644][967]LogExit: Transaction tracking system shut down
+[2019.02.21-05.01.24:889][967]LogExit: Object subsystem successfully closed.
+[2019.02.21-05.01.24:919][967]LogShaderCompilers: Display: Shaders left to compile 0
+[2019.02.21-05.01.24:922][967]LogD3D11RHI: Shutdown
+[2019.02.21-05.01.24:922][967]LogD3D11RHI: CleanupD3DDevice
+[2019.02.21-05.01.24:924][967]LogD3D11RHI: ~FD3D11DynamicRHI
+[2019.02.21-05.01.24:931][967]LogModuleManager: Shutting down and abandoning module MovieSceneCapture (632)
+[2019.02.21-05.01.24:932][967]LogModuleManager: Shutting down and abandoning module Voice (630)
+[2019.02.21-05.01.24:937][967]LogModuleManager: Shutting down and abandoning module BlueprintGraph (628)
+[2019.02.21-05.01.24:937][967]LogModuleManager: Shutting down and abandoning module TextureEditor (626)
+[2019.02.21-05.01.24:937][967]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (624)
+[2019.02.21-05.01.24:937][967]LogModuleManager: Shutting down and abandoning module SceneOutliner (622)
+[2019.02.21-05.01.24:937][967]LogModuleManager: Shutting down and abandoning module AddContentDialog (620)
+[2019.02.21-05.01.24:937][967]LogModuleManager: Shutting down and abandoning module WidgetCarousel (619)
+[2019.02.21-05.01.24:937][967]LogModuleManager: Shutting down and abandoning module EditorWidgets (616)
+[2019.02.21-05.01.24:937][967]LogModuleManager: Shutting down and abandoning module CollectionManager (614)
+[2019.02.21-05.01.24:938][967]LogModuleManager: Shutting down and abandoning module StatsViewer (612)
+[2019.02.21-05.01.24:938][967]LogModuleManager: Shutting down and abandoning module FoliageEdit (610)
+[2019.02.21-05.01.24:938][967]LogModuleManager: Shutting down and abandoning module LandscapeEditor (608)
+[2019.02.21-05.01.24:938][967]LogModuleManager: Shutting down and abandoning module MeshPaintMode (606)
+[2019.02.21-05.01.24:938][967]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (604)
+[2019.02.21-05.01.24:938][967]LogModuleManager: Shutting down and abandoning module ActorPickerMode (602)
+[2019.02.21-05.01.24:938][967]LogModuleManager: Shutting down and abandoning module GeometryMode (600)
+[2019.02.21-05.01.24:938][967]LogModuleManager: Shutting down and abandoning module TextureAlignMode (598)
+[2019.02.21-05.01.24:938][967]LogModuleManager: Shutting down and abandoning module BspMode (596)
+[2019.02.21-05.01.24:938][967]LogModuleManager: Shutting down and abandoning module PIEPreviewDeviceProfileSelector (594)
+[2019.02.21-05.01.24:938][967]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (592)
+[2019.02.21-05.01.24:938][967]LogModuleManager: Shutting down and abandoning module AutomationWorker (590)
+[2019.02.21-05.01.24:938][967]LogModuleManager: Shutting down and abandoning module AudioCaptureEditor (588)
+[2019.02.21-05.01.24:939][967]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (586)
+[2019.02.21-05.01.24:939][967]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (584)
+[2019.02.21-05.01.24:939][967]LogModuleManager: Shutting down and abandoning module PlacementMode (583)
+[2019.02.21-05.01.24:939][967]LogModuleManager: Shutting down and abandoning module MaterialEditor (582)
+[2019.02.21-05.01.24:939][967]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (578)
+[2019.02.21-05.01.24:939][967]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (576)
+[2019.02.21-05.01.24:939][967]LogModuleManager: Shutting down and abandoning module WebMMediaFactory (574)
+[2019.02.21-05.01.24:939][967]LogModuleManager: Shutting down and abandoning module WebMMediaEditor (572)
+[2019.02.21-05.01.24:939][967]LogModuleManager: Shutting down and abandoning module WebMMedia (570)
+[2019.02.21-05.01.24:939][967]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (568)
+[2019.02.21-05.01.24:939][967]LogModuleManager: Shutting down and abandoning module MediaCompositingEditor (566)
+[2019.02.21-05.01.24:939][967]LogModuleManager: Shutting down and abandoning module SequenceRecorder (565)
+[2019.02.21-05.01.24:939][967]LogModuleManager: Shutting down and abandoning module OpenExrWrapper (562)
+[2019.02.21-05.01.24:939][967]LogModuleManager: Shutting down and abandoning module ImgMediaFactory (560)
+[2019.02.21-05.01.24:939][967]LogModuleManager: Shutting down and abandoning module ImgMediaEditor (558)
+[2019.02.21-05.01.24:940][967]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (556)
+[2019.02.21-05.01.24:940][967]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (554)
+[2019.02.21-05.01.24:940][967]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (552)
+[2019.02.21-05.01.24:940][967]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (550)
+[2019.02.21-05.01.24:940][967]LogModuleManager: Shutting down and abandoning module MagicLeapCameraPreviewFactory (548)
+[2019.02.21-05.01.24:940][967]LogModuleManager: Shutting down and abandoning module MagicLeapMediaFactory (546)
+[2019.02.21-05.01.24:940][967]LogModuleManager: Shutting down and abandoning module MagicLeapMediaEditor (544)
+[2019.02.21-05.01.24:940][967]LogModuleManager: Shutting down and abandoning module CharacterAI (542)
+[2019.02.21-05.01.24:940][967]LogModuleManager: Shutting down and abandoning module SmartSnapping (540)
+[2019.02.21-05.01.24:940][967]LogModuleManager: Shutting down and abandoning module SessionServices (538)
+[2019.02.21-05.01.24:940][967]LogModuleManager: Shutting down and abandoning module ViewportSnapping (536)
+[2019.02.21-05.01.24:940][967]LogModuleManager: Shutting down and abandoning module ViewportInteraction (534)
+[2019.02.21-05.01.24:940][967]LogModuleManager: Shutting down and abandoning module ClothPainter (532)
+[2019.02.21-05.01.24:940][967]LogModuleManager: Shutting down and abandoning module SkeletalMeshEditor (531)
+[2019.02.21-05.01.24:941][967]LogModuleManager: Shutting down and abandoning module LogVisualizer (528)
+[2019.02.21-05.01.24:941][967]LogModuleManager: Shutting down and abandoning module IntroTutorials (526)
+[2019.02.21-05.01.24:941][967]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (525)
+[2019.02.21-05.01.24:941][967]LogModuleManager: Shutting down and abandoning module LuminPlatformEditor (522)
+[2019.02.21-05.01.24:941][967]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (520)
+[2019.02.21-05.01.24:941][967]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (518)
+[2019.02.21-05.01.24:941][967]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (516)
+[2019.02.21-05.01.24:941][967]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (515)
+[2019.02.21-05.01.25:213][967]LogModuleManager: Shutting down and abandoning module WindowsPlatformEditor (512)
+[2019.02.21-05.01.25:214][967]LogModuleManager: Shutting down and abandoning module LuminRuntimeSettings (510)
+[2019.02.21-05.01.25:214][967]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (508)
+[2019.02.21-05.01.25:215][967]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (506)
+[2019.02.21-05.01.25:215][967]LogModuleManager: Shutting down and abandoning module TimeManagementEditor (504)
+[2019.02.21-05.01.25:215][967]LogModuleManager: Shutting down and abandoning module InputBindingEditor (502)
+[2019.02.21-05.01.25:216][967]LogModuleManager: Shutting down and abandoning module MergeActors (500)
+[2019.02.21-05.01.25:216][967]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (498)
+[2019.02.21-05.01.25:216][967]LogModuleManager: Shutting down and abandoning module LocalizationService (497)
+[2019.02.21-05.01.25:216][967]LogModuleManager: Shutting down and abandoning module HardwareTargeting (494)
+[2019.02.21-05.01.25:217][967]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (492)
+[2019.02.21-05.01.25:217][967]LogModuleManager: Shutting down and abandoning module UndoHistory (490)
+[2019.02.21-05.01.25:217][967]LogModuleManager: Shutting down and abandoning module XmlParser (488)
+[2019.02.21-05.01.25:217][967]LogModuleManager: Shutting down and abandoning module Blutility (486)
+[2019.02.21-05.01.25:217][967]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (484)
+[2019.02.21-05.01.25:218][967]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (483)
+[2019.02.21-05.01.25:218][967]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (480)
+[2019.02.21-05.01.25:218][967]LogModuleManager: Shutting down and abandoning module SettingsEditor (478)
+[2019.02.21-05.01.25:218][967]LogModuleManager: Shutting down and abandoning module ProjectLauncher (476)
+[2019.02.21-05.01.25:219][967]LogModuleManager: Shutting down and abandoning module SessionFrontend (474)
+[2019.02.21-05.01.25:219][967]LogModuleManager: Shutting down and abandoning module ProfilerClient (472)
+[2019.02.21-05.01.25:219][967]LogModuleManager: Shutting down and abandoning module DeviceManager (470)
+[2019.02.21-05.01.25:219][967]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (469)
+[2019.02.21-05.01.25:286][967]LogModuleManager: Shutting down and abandoning module AutomationController (466)
+[2019.02.21-05.01.25:286][967]LogModuleManager: Shutting down and abandoning module AutomationWindow (464)
+[2019.02.21-05.01.25:286][967]LogModuleManager: Shutting down and abandoning module Layers (462)
+[2019.02.21-05.01.25:286][967]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (460)
+[2019.02.21-05.01.25:286][967]LogModuleManager: Shutting down and abandoning module DetailCustomizations (458)
+[2019.02.21-05.01.25:286][967]LogModuleManager: Shutting down and abandoning module PackagesDialog (456)
+[2019.02.21-05.01.25:286][967]LogModuleManager: Shutting down and abandoning module Persona (454)
+[2019.02.21-05.01.25:287][967]LogModuleManager: Shutting down and abandoning module AdvancedPreviewScene (453)
+[2019.02.21-05.01.25:287][967]LogModuleManager: Shutting down and abandoning module AnimGraph (451)
+[2019.02.21-05.01.25:287][967]LogModuleManager: Shutting down and abandoning module Kismet (448)
+[2019.02.21-05.01.25:292][967]LogModuleManager: Shutting down and abandoning module GraphEditor (446)
+[2019.02.21-05.01.25:292][967]LogModuleManager: Shutting down and abandoning module ClassViewer (444)
+[2019.02.21-05.01.25:293][967]LogModuleManager: Shutting down and abandoning module Toolbox (442)
+[2019.02.21-05.01.25:293][967]LogModuleManager: Shutting down and abandoning module DesktopPlatform (441)
+[2019.02.21-05.01.25:293][967]LogModuleManager: Shutting down and abandoning module ModuleUI (438)
+[2019.02.21-05.01.25:293][967]LogModuleManager: Shutting down and abandoning module MovieSceneTools (436)
+[2019.02.21-05.01.25:293][967]LogModuleManager: Shutting down and abandoning module OutputLog (434)
+[2019.02.21-05.01.25:293][967]LogModuleManager: Shutting down and abandoning module GammaUI (432)
+[2019.02.21-05.01.25:293][967]LogModuleManager: Shutting down and abandoning module Documentation (430)
+[2019.02.21-05.01.25:293][967]LogModuleManager: Shutting down and abandoning module MovieSceneTracks (428)
+[2019.02.21-05.01.25:294][967]LogModuleManager: Shutting down and abandoning module MovieScene (426)
+[2019.02.21-05.01.25:294][967]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (424)
+[2019.02.21-05.01.25:294][967]LogModuleManager: Shutting down and abandoning module LauncherPlatform (422)
+[2019.02.21-05.01.25:294][967]LogModuleManager: Shutting down and abandoning module AnalyticsET (420)
+[2019.02.21-05.01.25:294][967]LogModuleManager: Shutting down and abandoning module PortalServices (418)
+[2019.02.21-05.01.25:294][967]LogModuleManager: Shutting down and abandoning module PortalRpc (416)
+[2019.02.21-05.01.25:294][967]LogModuleManager: Shutting down and abandoning module MessagingRpc (414)
+[2019.02.21-05.01.25:294][967]LogModuleManager: Shutting down and abandoning module AIModule (412)
+[2019.02.21-05.01.25:294][967]LogModuleManager: Shutting down and abandoning module GameplayDebugger (411)
+[2019.02.21-05.01.25:294][967]LogModuleManager: Shutting down and abandoning module AITestSuite (409)
+[2019.02.21-05.01.25:294][967]LogModuleManager: Shutting down and abandoning module NavigationSystem (407)
+[2019.02.21-05.01.25:294][967]LogModuleManager: Shutting down and abandoning module ImageWriteQueue (404)
+[2019.02.21-05.01.25:302][967]LogModuleManager: Shutting down and abandoning module ProfilerService (402)
+[2019.02.21-05.01.25:315][967]LogModuleManager: Shutting down and abandoning module TaskGraph (400)
+[2019.02.21-05.01.25:315][967]LogModuleManager: Shutting down and abandoning module SteamVRController (398)
+[2019.02.21-05.01.25:316][967]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (396)
+[2019.02.21-05.01.25:316][967]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (394)
+[2019.02.21-05.01.25:316][967]LogModuleManager: Shutting down and abandoning module OculusInput (392)
+[2019.02.21-05.01.25:316][967]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (390)
+[2019.02.21-05.01.25:316][967]LogModuleManager: Shutting down and abandoning module EditableMesh (388)
+[2019.02.21-05.01.25:316][967]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (386)
+[2019.02.21-05.01.25:316][967]LogModuleManager: Shutting down and abandoning module CableComponent (384)
+[2019.02.21-05.01.25:316][967]LogModuleManager: Shutting down and abandoning module AudioCapture (382)
+[2019.02.21-05.01.25:316][967]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (380)
+[2019.02.21-05.01.25:316][967]LogModuleManager: Shutting down and abandoning module AndroidPermission (378)
+[2019.02.21-05.01.25:316][967]LogModuleManager: Shutting down and abandoning module NUTUnrealEngine4 (376)
+[2019.02.21-05.01.25:316][967]LogModuleManager: Shutting down and abandoning module NetcodeUnitTest (374)
+[2019.02.21-05.01.25:316][967]LogModuleManager: Shutting down and abandoning module MediaCompositing (372)
+[2019.02.21-05.01.25:316][967]LogModuleManager: Shutting down and abandoning module LinearTimecode (370)
+[2019.02.21-05.01.25:316][967]LogModuleManager: Shutting down and abandoning module ImgMedia (368)
+[2019.02.21-05.01.25:336][967]LogModuleManager: Shutting down and abandoning module HTML5Networking (366)
+[2019.02.21-05.01.25:336][967]LogModuleManager: Shutting down and abandoning module GeometryCacheTracks (364)
+[2019.02.21-05.01.25:337][967]LogModuleManager: Shutting down and abandoning module GeometryCacheSequencer (362)
+[2019.02.21-05.01.25:337][967]LogModuleManager: Shutting down and abandoning module BackChannel (360)
+[2019.02.21-05.01.25:337][967]LogModuleManager: Shutting down and abandoning module AppleVision (358)
+[2019.02.21-05.01.25:337][967]LogModuleManager: Shutting down and abandoning module AppleImageUtilsBlueprintSupport (356)
+[2019.02.21-05.01.25:337][967]LogModuleManager: Shutting down and abandoning module AppleImageUtils (354)
+[2019.02.21-05.01.25:337][967]LogModuleManager: Shutting down and abandoning module AlembicImporter (352)
+[2019.02.21-05.01.25:337][967]LogModuleManager: Shutting down and abandoning module AlembicLibrary (351)
+[2019.02.21-05.01.25:337][967]LogModuleManager: Shutting down and abandoning module GeometryCache (350)
+[2019.02.21-05.01.25:337][967]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (349)
+[2019.02.21-05.01.25:337][967]LogModuleManager: Shutting down and abandoning module VariantManagerContent (344)
+[2019.02.21-05.01.25:337][967]LogModuleManager: Shutting down and abandoning module DatasmithContentEditor (342)
+[2019.02.21-05.01.25:337][967]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (340)
+[2019.02.21-05.01.25:337][967]LogModuleManager: Shutting down and abandoning module PluginBrowser (338)
+[2019.02.21-05.01.25:337][967]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (336)
+[2019.02.21-05.01.25:338][967]LogModuleManager: Shutting down and abandoning module PolygonModeling (334)
+[2019.02.21-05.01.25:338][967]LogModuleManager: Shutting down and abandoning module MeshEditor (332)
+[2019.02.21-05.01.25:338][967]LogModuleManager: Shutting down and abandoning module CryptoKeysOpenSSL (330)
+[2019.02.21-05.01.25:338][967]LogModuleManager: Shutting down and abandoning module CryptoKeys (328)
+[2019.02.21-05.01.25:338][967]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (326)
+[2019.02.21-05.01.25:338][967]LogModuleManager: Shutting down and abandoning module VisualStudioCodeSourceCodeAccess (324)
+[2019.02.21-05.01.25:338][967]LogModuleManager: Shutting down and abandoning module UObjectPlugin (322)
+[2019.02.21-05.01.25:338][967]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (320)
+[2019.02.21-05.01.25:338][967]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (318)
+[2019.02.21-05.01.25:338][967]LogModuleManager: Shutting down and abandoning module GitSourceControl (316)
+[2019.02.21-05.01.25:338][967]LogModuleManager: Shutting down and abandoning module SourceControl (315)
+[2019.02.21-05.01.25:338][967]LogModuleManager: Shutting down and abandoning module CLionSourceCodeAccess (312)
+[2019.02.21-05.01.25:338][967]LogModuleManager: Shutting down and abandoning module ActorLayerUtilitiesEditor (310)
+[2019.02.21-05.01.25:338][967]LogModuleManager: Shutting down and abandoning module ActorLayerUtilities (308)
+[2019.02.21-05.01.25:339][967]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (306)
+[2019.02.21-05.01.25:339][967]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (304)
+[2019.02.21-05.01.25:339][967]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (302)
+[2019.02.21-05.01.25:339][967]LogModuleManager: Shutting down and abandoning module Paper2DEditor (300)
+[2019.02.21-05.01.25:339][967]LogModuleManager: Shutting down and abandoning module MeshPaint (299)
+[2019.02.21-05.01.25:339][967]LogModuleManager: Shutting down and abandoning module HSPGame (296)
+[2019.02.21-05.01.25:339][967]LogModuleManager: Shutting down and abandoning module RuntimePhysXCooking (294)
+[2019.02.21-05.01.25:339][967]LogModuleManager: Shutting down and abandoning module PhysXVehiclesEditor (292)
+[2019.02.21-05.01.25:339][967]LogModuleManager: Shutting down and abandoning module PhysXVehicles (290)
+[2019.02.21-05.01.25:339][967]LogModuleManager: Shutting down and abandoning module OculusEditor (288)
+[2019.02.21-05.01.25:339][967]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (286)
+[2019.02.21-05.01.25:339][967]LogModuleManager: Shutting down and abandoning module ActorSequence (284)
+[2019.02.21-05.01.25:339][967]LogModuleManager: Shutting down and abandoning module UdpMessaging (282)
+[2019.02.21-05.01.25:441][967]LogModuleManager: Shutting down and abandoning module TcpMessaging (280)
+[2019.02.21-05.01.25:541][967]LogModuleManager: Shutting down and abandoning module MagicLeapAudio (278)
+[2019.02.21-05.01.25:541][967]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (276)
+[2019.02.21-05.01.25:541][967]LogModuleManager: Shutting down and abandoning module FacialAnimationEditor (274)
+[2019.02.21-05.01.25:541][967]LogModuleManager: Shutting down and abandoning module FacialAnimation (272)
+[2019.02.21-05.01.25:541][967]LogModuleManager: Shutting down and abandoning module DataValidation (270)
+[2019.02.21-05.01.25:542][967]LogModuleManager: Shutting down and abandoning module AssetManagerEditor (268)
+[2019.02.21-05.01.25:542][967]LogModuleManager: Shutting down and abandoning module LevelEditor (267)
+[2019.02.21-05.01.25:543][967]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (266)
+[2019.02.21-05.01.25:544][967]LogModuleManager: Shutting down and abandoning module CommonMenuExtensions (264)
+[2019.02.21-05.01.25:544][967]LogModuleManager: Shutting down and abandoning module MainFrame (262)
+[2019.02.21-05.01.25:544][967]LogModuleManager: Shutting down and abandoning module HotReload (261)
+[2019.02.21-05.01.25:545][967]LogModuleManager: Shutting down and abandoning module ContentBrowser (257)
+[2019.02.21-05.01.25:547][967]LogModuleManager: Shutting down and abandoning module TreeMap (255)
+[2019.02.21-05.01.25:547][967]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (252)
+[2019.02.21-05.01.25:547][967]LogModuleManager: Shutting down and abandoning module AISupportModule (250)
+[2019.02.21-05.01.25:547][967]LogModuleManager: Shutting down and abandoning module Paper2D (248)
+[2019.02.21-05.01.25:548][967]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (246)
+[2019.02.21-05.01.25:548][967]LogModuleManager: Shutting down and abandoning module WebMMoviePlayer (244)
+[2019.02.21-05.01.25:548][967]LogModuleManager: Shutting down and abandoning module WmfMedia (242)
+[2019.02.21-05.01.25:555][967]LogModuleManager: Shutting down and abandoning module Media (241)
+[2019.02.21-05.01.25:564][967]LogModuleManager: Shutting down and abandoning module PacketHandler (238)
+[2019.02.21-05.01.25:564][967]LogModuleManager: Shutting down and abandoning module ClothingSystemEditor (236)
+[2019.02.21-05.01.25:564][967]LogModuleManager: Shutting down and abandoning module ClothingSystemRuntime (234)
+[2019.02.21-05.01.25:564][967]LogModuleManager: Shutting down and abandoning module MediaAssets (232)
+[2019.02.21-05.01.25:564][967]LogModuleManager: Shutting down and abandoning module Overlay (230)
+[2019.02.21-05.01.25:565][967]LogModuleManager: Shutting down and abandoning module OverlayEditor (229)
+[2019.02.21-05.01.25:565][967]LogModuleManager: Shutting down and abandoning module VREditor (226)
+[2019.02.21-05.01.25:565][967]LogModuleManager: Shutting down and abandoning module StringTableEditor (224)
+[2019.02.21-05.01.25:565][967]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (222)
+[2019.02.21-05.01.25:565][967]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (220)
+[2019.02.21-05.01.25:566][967]LogModuleManager: Shutting down and abandoning module FunctionalTesting (218)
+[2019.02.21-05.01.25:566][967]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (216)
+[2019.02.21-05.01.25:566][967]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (215)
+[2019.02.21-05.01.25:566][967]LogModuleManager: Shutting down and abandoning module UMG (212)
+[2019.02.21-05.01.25:566][967]LogModuleManager: Shutting down and abandoning module UMGEditor (211)
+[2019.02.21-05.01.25:567][967]LogModuleManager: Shutting down and abandoning module Sequencer (210)
+[2019.02.21-05.01.25:567][967]LogModuleManager: Shutting down and abandoning module MessageLog (207)
+[2019.02.21-05.01.25:567][967]LogModuleManager: Shutting down and abandoning module SlateReflector (202)
+[2019.02.21-05.01.25:567][967]LogModuleManager: Shutting down and abandoning module Slate (200)
+[2019.02.21-05.01.25:568][967]LogModuleManager: Shutting down and abandoning module EditorStyle (198)
+[2019.02.21-05.01.25:571][967]LogModuleManager: Shutting down and abandoning module MRMesh (196)
+[2019.02.21-05.01.25:571][967]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (194)
+[2019.02.21-05.01.25:572][967]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (192)
+[2019.02.21-05.01.25:572][967]LogModuleManager: Shutting down and abandoning module XAudio2 (190)
+[2019.02.21-05.01.25:572][967]LogModuleManager: Shutting down and abandoning module Networking (188)
+[2019.02.21-05.01.25:572][967]LogModuleManager: Shutting down and abandoning module Core (186)
+[2019.02.21-05.01.25:572][967]LogModuleManager: Shutting down and abandoning module LevelSequence (184)
+[2019.02.21-05.01.25:573][967]LogModuleManager: Shutting down and abandoning module KismetCompiler (182)
+[2019.02.21-05.01.25:573][967]LogModuleManager: Shutting down and abandoning module MeshUtilities (180)
+[2019.02.21-05.01.25:573][967]LogModuleManager: Shutting down and abandoning module MeshMergeUtilities (179)
+[2019.02.21-05.01.25:573][967]LogModuleManager: Shutting down and abandoning module MeshReductionInterface (178)
+[2019.02.21-05.01.25:573][967]LogModuleManager: Shutting down and abandoning module SimplygonSwarm (177)
+[2019.02.21-05.01.25:574][967]LogModuleManager: Shutting down and abandoning module ProxyLODMeshReduction (175)
+[2019.02.21-05.01.25:574][967]LogModuleManager: Shutting down and abandoning module SimplygonMeshReduction (173)
+[2019.02.21-05.01.25:574][967]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (171)
+[2019.02.21-05.01.25:574][967]LogModuleManager: Shutting down and abandoning module MaterialBaking (167)
+[2019.02.21-05.01.25:574][967]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (163)
+[2019.02.21-05.01.25:575][967]LogModuleManager: Shutting down and abandoning module DerivedDataCache (160)
+[2019.02.21-05.01.25:663][967]LogDerivedDataCache: Shutdown
+[2019.02.21-05.01.25:664][967]LogModuleManager: Shutting down and abandoning module XGEController (158)
+[2019.02.21-05.01.25:664][967]LogXGEController: Cleaning working directory: C:/Users/gosus/AppData/Local/Temp/UnrealXGEWorkingDir/
+[2019.02.21-05.01.25:664][967]LogModuleManager: Shutting down and abandoning module TargetPlatform (156)
+[2019.02.21-05.01.25:664][967]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (155)
+[2019.02.21-05.01.25:664][967]LogModuleManager: Shutting down and abandoning module ShaderFormatVectorVM (153)
+[2019.02.21-05.01.25:664][967]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (151)
+[2019.02.21-05.01.25:664][967]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (149)
+[2019.02.21-05.01.25:664][967]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (147)
+[2019.02.21-05.01.25:665][967]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (145)
+[2019.02.21-05.01.25:665][967]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (143)
+[2019.02.21-05.01.25:665][967]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (141)
+[2019.02.21-05.01.25:665][967]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (139)
+[2019.02.21-05.01.25:668][967]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (137)
+[2019.02.21-05.01.25:668][967]LogModuleManager: Shutting down and abandoning module ImageWrapper (136)
+[2019.02.21-05.01.25:668][967]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (133)
+[2019.02.21-05.01.25:668][967]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (131)
+[2019.02.21-05.01.25:668][967]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (129)
+[2019.02.21-05.01.25:668][967]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (127)
+[2019.02.21-05.01.25:668][967]LogModuleManager: Shutting down and abandoning module LuminTargetPlatform (125)
+[2019.02.21-05.01.25:669][967]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (123)
+[2019.02.21-05.01.25:669][967]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (121)
+[2019.02.21-05.01.25:669][967]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (119)
+[2019.02.21-05.01.25:670][967]LogModuleManager: Shutting down and abandoning module LinuxClientTargetPlatform (117)
+[2019.02.21-05.01.25:670][967]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (115)
+[2019.02.21-05.01.25:671][967]LogModuleManager: Shutting down and abandoning module Messaging (113)
+[2019.02.21-05.01.25:671][967]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (111)
+[2019.02.21-05.01.25:671][967]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (109)
+[2019.02.21-05.01.25:671][967]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (107)
+[2019.02.21-05.01.25:677][967]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (105)
+[2019.02.21-05.01.25:677][967]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (103)
+[2019.02.21-05.01.25:678][967]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (101)
+[2019.02.21-05.01.25:678][967]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (99)
+[2019.02.21-05.01.25:678][967]LogModuleManager: Shutting down and abandoning module MacTargetPlatform (97)
+[2019.02.21-05.01.25:678][967]LogModuleManager: Shutting down and abandoning module MacServerTargetPlatform (95)
+[2019.02.21-05.01.25:678][967]LogModuleManager: Shutting down and abandoning module MacNoEditorTargetPlatform (93)
+[2019.02.21-05.01.25:678][967]LogModuleManager: Shutting down and abandoning module MacClientTargetPlatform (91)
+[2019.02.21-05.01.25:678][967]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (89)
+[2019.02.21-05.01.25:678][967]LogModuleManager: Shutting down and abandoning module InputCore (86)
+[2019.02.21-05.01.25:678][967]LogModuleManager: Shutting down and abandoning module Settings (84)
+[2019.02.21-05.01.25:678][967]LogModuleManager: Shutting down and abandoning module PhysXCooking (82)
+[2019.02.21-05.01.25:678][967]LogModuleManager: Shutting down and abandoning module SteamVR (80)
+[2019.02.21-05.01.25:679][967]LogHMD: Freeing OpenVRDLLHandle.
+[2019.02.21-05.01.25:679][967]LogModuleManager: Shutting down and abandoning module OculusHMD (78)
+[2019.02.21-05.01.25:679][967]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (76)
+[2019.02.21-05.01.25:679][967]LogModuleManager: Shutting down and abandoning module LauncherChunkInstaller (74)
+[2019.02.21-05.01.25:679][967]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (72)
+[2019.02.21-05.01.25:679][967]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (68)
+[2019.02.21-05.01.25:681][967]LogModuleManager: Shutting down and abandoning module XMPP (63)
+[2019.02.21-05.01.25:681][967]LogModuleManager: Shutting down and abandoning module WebSockets (62)
+[2019.02.21-05.01.25:694][967]LogModuleManager: Shutting down and abandoning module HTTP (59)
+[2019.02.21-05.01.25:694][967]LogHttp: Display: Http module shutting down, but needs to wait on 1 outstanding Http requests:
+[2019.02.21-05.01.25:694][967]LogHttp: Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B9ADEC9F1-4067-3C9F-E1DC-0680DBE5D721%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.21.2-4753647%2B%2B%2BUE4%2BRelease-4.21&UserID=9e4170084badf87e8c36de96253b7ba6%7Cab42ae2a85794cd9ae0bb9c5fc3e9425%7Cb942975b-bfa1-46d0-8a9e-a54cbac2e886&AppEnvironment=datacollector-binary&UploadType=eteventstream] status=Processing
+[2019.02.21-05.01.25:722][967]LogModuleManager: Shutting down and abandoning module SSL (58)
+[2019.02.21-05.01.25:723][967]LogModuleManager: Shutting down and abandoning module MagicLeapIdentity (54)
+[2019.02.21-05.01.25:723][967]LogModuleManager: Shutting down and abandoning module MagicLeapHelperVulkan (52)
+[2019.02.21-05.01.25:723][967]LogModuleManager: Shutting down and abandoning module MagicLeapHelperOpenGL (50)
+[2019.02.21-05.01.25:724][967]LogModuleManager: Shutting down and abandoning module MagicLeapSecureStorage (48)
+[2019.02.21-05.01.25:724][967]LogModuleManager: Shutting down and abandoning module MagicLeapHandTracking (46)
+[2019.02.21-05.01.25:724][967]LogModuleManager: Shutting down and abandoning module MagicLeapEyeTracker (44)
+[2019.02.21-05.01.25:724][967]LogModuleManager: Shutting down and abandoning module MagicLeapController (42)
+[2019.02.21-05.01.25:724][967]LogSlate: Slate User Destroyed.  User Index 0, Is Virtual User: 0
+[2019.02.21-05.01.25:724][967]LogModuleManager: Shutting down and abandoning module MagicLeap (40)
+[2019.02.21-05.01.25:724][967]LogModuleManager: Shutting down and abandoning module DatasmithContent (38)
+[2019.02.21-05.01.25:725][967]LogModuleManager: Shutting down and abandoning module AnimationModifiers (36)
+[2019.02.21-05.01.25:725][967]LogModuleManager: Shutting down and abandoning module PropertyEditor (35)
+[2019.02.21-05.01.25:725][967]LogModuleManager: Shutting down and abandoning module AudioEditor (32)
+[2019.02.21-05.01.25:725][967]LogModuleManager: Shutting down and abandoning module TextureCompressor (30)
+[2019.02.21-05.01.25:725][967]LogModuleManager: Shutting down and abandoning module ShaderCore (28)
+[2019.02.21-05.01.25:725][967]LogModuleManager: Shutting down and abandoning module Landscape (26)
+[2019.02.21-05.01.25:725][967]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (24)
+[2019.02.21-05.01.25:726][967]LogModuleManager: Shutting down and abandoning module OpenGLDrv (22)
+[2019.02.21-05.01.25:726][967]LogModuleManager: Shutting down and abandoning module D3D11RHI (20)
+[2019.02.21-05.01.25:726][967]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (18)
+[2019.02.21-05.01.25:726][967]LogModuleManager: Shutting down and abandoning module Renderer (16)
+[2019.02.21-05.01.25:726][967]LogModuleManager: Shutting down and abandoning module Engine (14)
+[2019.02.21-05.01.25:726][967]LogModuleManager: Shutting down and abandoning module CoreUObject (12)
+[2019.02.21-05.01.25:726][967]LogModuleManager: Shutting down and abandoning module NetworkFile (10)
+[2019.02.21-05.01.25:726][967]LogModuleManager: Shutting down and abandoning module CookedIterativeFile (8)
+[2019.02.21-05.01.25:726][967]LogModuleManager: Shutting down and abandoning module StreamingFile (6)
+[2019.02.21-05.01.25:727][967]LogModuleManager: Shutting down and abandoning module SandboxFile (4)
+[2019.02.21-05.01.25:727][967]LogModuleManager: Shutting down and abandoning module PakFile (2)
+[2019.02.21-05.01.25:750][967]LogExit: Exiting.
+[2019.02.21-05.01.25:775][967]Log file closed, 02/20/19 21:01:25

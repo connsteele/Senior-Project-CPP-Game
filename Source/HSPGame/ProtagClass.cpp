@@ -146,7 +146,7 @@ void AProtagClass::moveRight(float axisValue)
 	{
 		isHorzMoving = true;
 		//D("Left");
-		GetSprite()->SetFlipbook(walkRightAnim);
+		GetSprite()->SetFlipbook(walkLeftAnim);
 		// Flip the sprite texture
 		//GetSprite()->SetMaterial(0, mirrorHMaterial);
 	}
