@@ -180,21 +180,27 @@ void AProtagClass::moveRight(float axisValue)
 
 void AProtagClass::moveForward(float axisValue)
 {
-	if (axisValue == 1.0)
+	if (!isHorzMoving) // Let horizontal animations handle diagnol movement
 	{
-		isVertMoving = true;
-		//D("Backward");
-		GetSprite()->SetFlipbook(walkDownAnim);
-		//GetSprite()->SetMaterial(0, defaultMaterial);
+		if (axisValue == 1.0)
+		{
+			isVertMoving = true;
+		
+			//D("Down");
+			GetSprite()->SetFlipbook(walkDownAnim);
+			//GetSprite()->SetMaterial(0, defaultMaterial);
+		
+		
+		}
+		else if (axisValue == -1.0)
+		{
+			isVertMoving = true;
+			//D("Forward");
+			GetSprite()->SetFlipbook(walkForwardAnim);
+			//GetSprite()->SetMaterial(0, defaultMaterial);
+		}
 	}
-	else if (axisValue == -1.0)
-	{
-		isVertMoving = true;
-		//D("Forward");
-		GetSprite()->SetFlipbook(walkForwardAnim);
-		//GetSprite()->SetMaterial(0, defaultMaterial);
-	}
-	else if (axisValue == 0.0)
+	if (axisValue == 0.0)
 	{
 		 isVertMoving = false;
 	}
