@@ -13,6 +13,7 @@
 #include "HSPGameGameModeBase.h"
 #include "PaperCharacter.h"
 #include "Base2DCharacter.h"
+#include "Attacks.h"
 //#include "Kismet/GameplayStatics.h" 
 #include "Math/Rotator.h"
 // No includes under this
@@ -34,7 +35,13 @@ public:
 		virtual void inSight(UPrimitiveComponent * OverlappedComponent, AActor * OtherActor, UPrimitiveComponent * OtherComp, int32 OtherBodyIndex, bool bFromSweep, const FHitResult & SweepResult);
 	UFUNCTION()
 		virtual void charHit(UPrimitiveComponent* HitComponent, AActor* OtherActor, UPrimitiveComponent* OtherComp, FVector NormalImpulse, const FHitResult& Hit);
-	void cursorClick();
+	
+	
+	UPROPERTY(EditAnywhere)
+		TSubclassOf<class AAttacks> magicAttack;
+	UFUNCTION(BlueprintCallable) // Allow function below to be called by blueprint of this class
+		void cursorClick();
+
 	// Called every frame
 	virtual void Tick(float DeltaTime) override;
 	// Called to bind functionality to input

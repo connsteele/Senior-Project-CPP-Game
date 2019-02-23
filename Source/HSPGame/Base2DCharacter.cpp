@@ -33,7 +33,7 @@ void ABase2DCharacter::Tick(float DeltaTime)
 	Super::Tick(DeltaTime);
 
 	//--- If in battle calculate distance to AP
-	if (isBattling) 
+	if (isBattling && isTurn) 
 	{
 		getTurnDistance();
 	}
@@ -49,6 +49,10 @@ void ABase2DCharacter::Tick(float DeltaTime)
 	//--- Calculate Percentages for UI
 	APPercentage = turnAP / maxTurnAP;
 	healthPercentage = currHealth / maxHealth;
+
+	if (currHealth <= 0) {
+		die();
+	}
 
 	
 }
@@ -101,8 +105,8 @@ void ABase2DCharacter::startTurn()
 {
 }
 
-void die() {
-	//AActor::Destroy();
+void ABase2DCharacter::die() {
+	Super::Destroy();
 }
 
 

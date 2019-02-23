@@ -52,6 +52,7 @@ void AEnemySlime::startTurn()
 	isTurn = true;
 	// isBattling = true;
 	turnAP = maxTurnAP; // Reset AP for new turn
+	lastRecordedLocation = GetActorLocation();
 }
 
 
@@ -77,7 +78,7 @@ void AEnemySlime::charHit(UPrimitiveComponent * HitComponent, AActor * OtherActo
 	{
 		D("Hit Player");
 		AProtagClass * playerRef = Cast<AProtagClass>(OtherActor);
-		playerRef->currHealth -= 5.0f;
+		playerRef->currHealth -= 50.0f;
 		endTurn();
 	}
 }

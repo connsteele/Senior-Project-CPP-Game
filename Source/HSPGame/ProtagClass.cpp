@@ -81,11 +81,6 @@ void AProtagClass::Tick(float DeltaTime)
 {
 	Super::Tick(DeltaTime);
 
-
-	//--- Calculate Percentages for UI
-	//APPercentage = turnAP / maxTurnAP;
-	//healthPercentage = currHealth / maxHealth;
-
 }
 
 // Called to bind functionality to input
@@ -134,9 +129,27 @@ void AProtagClass::cursorClick()
 	APlayerController* PC = GetWorld()->GetFirstPlayerController();
 	FHitResult HitResult;
 	PC->GetHitResultUnderCursorByChannel(UEngineTypes::ConvertToTraceType(ECC_Visibility), true, HitResult);
-	FVector HitResLoc= HitResult.Location;
-	SetActorLocation(HitResLoc);
-	D(FString::SanitizeFloat(HitResLoc.X));
+	FVector CursorClickLoc = HitResult.Location; // Get the vector where the trace hit in the world
+	
+	// D(FString::SanitizeFloat(CursorClickLoc.X));
+
+	if (magicAttack)
+	{
+		UWorld * world = GetWorld();
+		if (world)
+		{
+			FActorSpawnParameters spawnParams;
+			spawnParams.Owner = this;
+
+			FRotator protagRot = GetActorRotation();
+			// Move the attack location slightly off the ground
+			FVector atkSpawnLoc = FVector(CursorClickLoc.X, CursorClickLoc.Y, CursorClickLoc.Z + 15.f);
+
+			// Spawn a magic attack at the cursor's location
+			world->SpawnActor(magicAttack, &atkSpawnLoc, &protagRot, spawnParams);
+			turnAP -= magicAttack->GetDefaultObject<AAttacks>()->apCost;
+		}
+	}
 }
 
 // Override the Parent Classe's moveRight() function
