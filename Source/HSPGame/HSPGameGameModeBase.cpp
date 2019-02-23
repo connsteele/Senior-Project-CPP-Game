@@ -9,7 +9,7 @@ void AHSPGameGameModeBase::addToBattle(ABase2DCharacter * addChar, FString class
 	battleCharNode bpNode;
 	bpNode.charRef = addChar;
 	bpNode.className = className;
-	bpNode.battleIndex = battleChars.Num();
+	bpNode.isDead = false;
 	// Add the new character to the end of the battle array
 	battleChars.Add(bpNode);
 	//battleChars.Find(AProtagClass *, battleChIndex);
@@ -33,11 +33,34 @@ void AHSPGameGameModeBase::nextFighter() {
 	//Do out of bounds check before grabbing next fighter
 	if (activeFighterIndex == battleChars.Num()) {
 		activeFighterIndex = 0;
+
+		//Walk through array to clean dead characters
+
+		int i = 0;
+
+		while (i < battleChars.Num()) {
+			if (battleChars[i].isDead) {
+				D("BOOM DEAD");
+				battleChars.RemoveAt(i);
+			}
+			else {
+				i++;
+			}
+		}
 	}
 
 	ABase2DCharacter * activeFighter = (battleChars[activeFighterIndex].charRef);
 
-	activeFighter->startTurn();
 
-	activeFighterIndex++;
+	//Check if actor is dead. If they are skip their turn
+	if (activeFighter->currHealth <= 0) {
+		battleChars[activeFighterIndex].isDead = true;
+		activeFighterIndex++;
+		nextFighter();
+	}
+	else {
+		activeFighter->startTurn();
+
+		activeFighterIndex++;
+	}
 }

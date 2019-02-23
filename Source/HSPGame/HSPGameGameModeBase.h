@@ -23,7 +23,7 @@ public:
 	{
 		ABase2DCharacter * charRef;
 		FString className;
-		int battleIndex;
+		bool isDead;
 
 	};
 

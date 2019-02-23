@@ -106,7 +106,8 @@ void ABase2DCharacter::startTurn()
 }
 
 void ABase2DCharacter::die() {
-	Super::Destroy();
+	//D("Actor is dead");
+	//Super::Destroy();
 }
 
 

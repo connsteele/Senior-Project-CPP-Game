@@ -78,7 +78,7 @@ void AEnemySlime::charHit(UPrimitiveComponent * HitComponent, AActor * OtherActo
 	{
 		D("Hit Player");
 		AProtagClass * playerRef = Cast<AProtagClass>(OtherActor);
-		playerRef->currHealth -= 50.0f;
+		playerRef->currHealth -= 10.0f;
 		endTurn();
 	}
 }
