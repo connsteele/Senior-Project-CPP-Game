@@ -8,6 +8,7 @@
 #include "PaperFlipbookComponent.h"
 #include "PaperCharacter.h"
 #include "Math/Rotator.h"
+//#include "Blueprint/WidgetLayoutLibrary.h"
 //#include "Materials/Material.h"
 #include "Components/SphereComponent.h"
 #include "Base2DCharacter.generated.h"
@@ -68,6 +69,9 @@ public:
 	// Animations for the Class
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = Animations)
 		UPaperFlipbook * idleAnim;
+
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = Animations)
+		UPaperFlipbook * deathAnim;
 
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = Animations)
 		UPaperFlipbook * walkLeftAnim;

@@ -106,6 +106,8 @@ void ABase2DCharacter::startTurn()
 }
 
 void ABase2DCharacter::die() {
+	GetSprite()->SetFlipbook(deathAnim);
+	//UWidgetLayoutLibrary::RemoveAllWidgets(this);
 	//D("Actor is dead");
 	//Super::Destroy();
 }
