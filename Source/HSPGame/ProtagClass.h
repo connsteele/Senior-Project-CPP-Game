@@ -55,7 +55,7 @@ public:
 	UPROPERTY(EditAnywhere)
 		USpringArmComponent * CamBoom;
 
-	UPROPERTY(EditAnywhere)
+	UPROPERTY(BlueprintReadOnly, EditAnywhere)
 		UCameraComponent * Camera;
 
 
