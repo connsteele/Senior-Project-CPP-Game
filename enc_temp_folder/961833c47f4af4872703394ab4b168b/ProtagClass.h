@@ -67,10 +67,6 @@ public:
 	void RotateCamPlus();
 	void RotateCamMinus();
 
-	//--- Local Variables
-	UPROPERTY(BlueprintReadWrite)
-	bool canAttack;
-
 
 
 protected:

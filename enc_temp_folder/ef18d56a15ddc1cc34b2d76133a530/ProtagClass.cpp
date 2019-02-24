@@ -34,8 +34,6 @@ void AProtagClass::BeginPlay()
 {
 	Super::BeginPlay(); // Super call
 
-	canAttack = false;
-
 	//--- Show the cursor in the game and enable events
 	APlayerController* PC = GetWorld()->GetFirstPlayerController();
 	if (PC)
@@ -135,24 +133,21 @@ void AProtagClass::cursorClick()
 	
 	// D(FString::SanitizeFloat(CursorClickLoc.X));
 
-	if (canAttack) {
-
-		if (magicAttack)
+	if (magicAttack)
+	{
+		UWorld * world = GetWorld();
+		if (world)
 		{
-			UWorld * world = GetWorld();
-			if (world)
-			{
-				FActorSpawnParameters spawnParams;
-				spawnParams.Owner = this;
+			FActorSpawnParameters spawnParams;
+			spawnParams.Owner = this;
 
-				FRotator protagRot = GetActorRotation();
-				// Move the attack location slightly off the ground
-				FVector atkSpawnLoc = FVector(CursorClickLoc.X, CursorClickLoc.Y, CursorClickLoc.Z + 15.f);
+			FRotator protagRot = GetActorRotation();
+			// Move the attack location slightly off the ground
+			FVector atkSpawnLoc = FVector(CursorClickLoc.X, CursorClickLoc.Y, CursorClickLoc.Z + 15.f);
 
-				// Spawn a magic attack at the cursor's location
-				world->SpawnActor(magicAttack, &atkSpawnLoc, &protagRot, spawnParams);
-				turnAP -= magicAttack->GetDefaultObject<AAttacks>()->apCost;
-			}
+			// Spawn a magic attack at the cursor's location
+			world->SpawnActor(magicAttack, &atkSpawnLoc, &protagRot, spawnParams);
+			turnAP -= magicAttack->GetDefaultObject<AAttacks>()->apCost;
 		}
 	}
 }
