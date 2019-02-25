@@ -69,21 +69,22 @@ public:
 	// Animations for the Class
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = Animations)
 		UPaperFlipbook * idleAnim;
-
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = Animations)
 		UPaperFlipbook * deathAnim;
-
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = Animations)
 		UPaperFlipbook * walkLeftAnim;
-
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = Animations)
 		UPaperFlipbook * walkRightAnim;
-
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = Animations)
 		UPaperFlipbook * walkForwardAnim;
-
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = Animations)
 		UPaperFlipbook * walkDownAnim;
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = Animations)
+		UPaperFlipbook * FBjump;
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = Animations)
+		UPaperFlipbook * FBjumpIdle;
+
+
 	// used for animation
 	bool isHorzMoving;
 	bool isVertMoving;

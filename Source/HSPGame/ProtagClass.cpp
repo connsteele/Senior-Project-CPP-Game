@@ -106,6 +106,7 @@ void AProtagClass::SetupPlayerInputComponent(UInputComponent* PlayerInputCompone
 
 void AProtagClass::Jump()
 {
+	//GetSprite()->
 	Super::Jump();
 }
 
