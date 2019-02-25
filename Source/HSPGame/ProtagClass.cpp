@@ -100,8 +100,15 @@ void AProtagClass::SetupPlayerInputComponent(UInputComponent* PlayerInputCompone
 	PlayerInputComponent->BindAction("RotateCamera+90", IE_Pressed, this, &AProtagClass::RotateCamPlus);
 	PlayerInputComponent->BindAction("RotateCamera-90", IE_Pressed, this, &AProtagClass::RotateCamMinus);
 
-
+	// Binding to Jump
+	PlayerInputComponent->BindAction("JumpAction", IE_Pressed, this, &AProtagClass::Jump);
 }
+
+void AProtagClass::Jump()
+{
+	Super::Jump();
+}
+
 
 // Rotate the Camera + 90 degrees
 void AProtagClass::RotateCamPlus()
