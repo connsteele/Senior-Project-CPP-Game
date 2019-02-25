@@ -78,6 +78,8 @@ public:
 		bool canAttack;
 	UPROPERTY(BlueprintReadWrite, EditAnywhere)
 		bool isInside;
+	UPROPERTY(BlueprintReadWrite, EditAnywhere)
+		bool isInsideHorizontal;
 
 
 protected:

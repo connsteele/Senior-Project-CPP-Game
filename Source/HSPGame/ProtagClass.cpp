@@ -36,6 +36,8 @@ void AProtagClass::BeginPlay()
 
 	canAttack = false;
 	isInside = false;
+	//Houses with side doors
+	isInsideHorizontal = false;
 
 	//--- Show the cursor in the game and enable events
 	APlayerController* PC = GetWorld()->GetFirstPlayerController();
