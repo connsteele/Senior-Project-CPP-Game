@@ -69,8 +69,9 @@ public:
 
 	//--- Local Variables
 	UPROPERTY(BlueprintReadWrite)
-	bool canAttack;
-
+		bool canAttack;
+	UPROPERTY(BlueprintReadWrite, EditAnywhere)
+		bool isInside;
 
 
 protected:

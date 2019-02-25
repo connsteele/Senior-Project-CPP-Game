@@ -35,6 +35,7 @@ void AProtagClass::BeginPlay()
 	Super::BeginPlay(); // Super call
 
 	canAttack = false;
+	isInside = false;
 
 	//--- Show the cursor in the game and enable events
 	APlayerController* PC = GetWorld()->GetFirstPlayerController();
