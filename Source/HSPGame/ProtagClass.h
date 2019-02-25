@@ -37,6 +37,11 @@ public:
 		virtual void charHit(UPrimitiveComponent* HitComponent, AActor* OtherActor, UPrimitiveComponent* OtherComp, FVector NormalImpulse, const FHitResult& Hit);
 	//UFUNCTION()
 	virtual void Jump();
+
+	UFUNCTION()
+		void ReverseAnim();
+	UFUNCTION()
+		void turnOffJumping();
 	
 	UPROPERTY(EditAnywhere)
 		TSubclassOf<class AAttacks> magicAttack;

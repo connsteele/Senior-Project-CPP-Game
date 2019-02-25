@@ -106,8 +106,29 @@ void AProtagClass::SetupPlayerInputComponent(UInputComponent* PlayerInputCompone
 
 void AProtagClass::Jump()
 {
-	//GetSprite()->
+	isJumping = true;
+	GetSprite()->SetFlipbook(FBjump);
+	GetSprite()->PlayFromStart(); // Restart the flipbook
+	GetWorld()->GetTimerManager().SetTimer(JumpTimerHandle, this, &AProtagClass::ReverseAnim, GetSprite()->GetFlipbookLength() * 2.f, false);
+	GetSprite()->SetLooping(false);
 	Super::Jump();
+}
+
+void AProtagClass::ReverseAnim()
+{
+	// Clear the timer
+	GetWorld()->GetTimerManager().ClearTimer(JumpTimerHandle);
+	D("Timer went off");
+	GetSprite()->ReverseFromEnd(); // Reverse the flipbook
+	GetWorld()->GetTimerManager().SetTimer(FallingTimerHandle, this, &AProtagClass::turnOffJumping, 0.3f, false);
+	
+}
+
+void AProtagClass::turnOffJumping()
+{
+	D("HITTTT");
+	isJumping = false;
+	GetWorld()->GetTimerManager().ClearTimer(FallingTimerHandle);
 }
 
 
@@ -169,29 +190,32 @@ void AProtagClass::cursorClick()
 // Override the Parent Classe's moveRight() function
 void AProtagClass::moveRight(float axisValue)
 {
-	if (axisValue == 1.0)
-	{
-		isHorzMoving = true;
-		//D("Left");
-		GetSprite()->SetFlipbook(walkLeftAnim);
-		// Flip the sprite texture
-		//GetSprite()->SetMaterial(0, mirrorHMaterial);
-	}
-	else if (axisValue == -1.0)
-	{
-		isHorzMoving = true;
-		//D("Right");
-		GetSprite()->SetFlipbook(walkRightAnim);
-		//GetSprite()->SetMaterial(0, defaultMaterial);
-	}
-	else if (axisValue == 0.0)
-	{
-		isHorzMoving = false;
-		//D("No Horizontal Input");
-		if ( isVertMoving == false)
+	if (!isJumping)
+	{ 
+		if (axisValue == 1.0)
 		{
-			GetSprite()->SetFlipbook(idleAnim);
-			//GetSprite()->SetMaterial(0, defaultMaterial);
+			isHorzMoving = true;
+			//D("Left");
+			GetSprite()->SetFlipbook(walkLeftAnim);
+			GetSprite()->SetLooping(true);
+			GetSprite()->Play();
+		}
+		else if (axisValue == -1.0)
+		{
+			isHorzMoving = true;
+			//D("Right");
+			GetSprite()->SetFlipbook(walkRightAnim);
+			GetSprite()->SetLooping(true);
+			GetSprite()->Play();
+		}
+		else if (axisValue == 0.0)
+		{
+			isHorzMoving = false;
+			//D("No Horizontal Input");
+			if ( isVertMoving == false)
+			{
+				GetSprite()->SetFlipbook(idleAnim);
+			}
 		}
 	}
 
@@ -207,24 +231,29 @@ void AProtagClass::moveRight(float axisValue)
 
 void AProtagClass::moveForward(float axisValue)
 {
-	if (!isHorzMoving) // Let horizontal animations handle diagnol movement
+	if (!isJumping)
 	{
-		if (axisValue == 1.0)
+		if (!isHorzMoving) // Let horizontal animations handle diagnol movement
 		{
-			isVertMoving = true;
-		
-			//D("Down");
-			GetSprite()->SetFlipbook(walkDownAnim);
-			//GetSprite()->SetMaterial(0, defaultMaterial);
-		
-		
-		}
-		else if (axisValue == -1.0)
-		{
-			isVertMoving = true;
-			//D("Forward");
-			GetSprite()->SetFlipbook(walkForwardAnim);
-			//GetSprite()->SetMaterial(0, defaultMaterial);
+			if (axisValue == 1.0)
+			{
+				isVertMoving = true;
+
+				//D("Down");
+				GetSprite()->SetFlipbook(walkDownAnim);
+				GetSprite()->SetLooping(true);
+				GetSprite()->Play();
+
+
+			}
+			else if (axisValue == -1.0)
+			{
+				isVertMoving = true;
+				//D("Forward");
+				GetSprite()->SetFlipbook(walkForwardAnim);
+				GetSprite()->SetLooping(true);
+				GetSprite()->Play();
+			}
 		}
 	}
 	if (axisValue == 0.0)

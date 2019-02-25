@@ -25,6 +25,7 @@ void ABase2DCharacter::BeginPlay()
 
 	// Initialize the Battle Boolean
 	isBattling = false;
+	isJumping = false;
 }
 
 // Called every frame

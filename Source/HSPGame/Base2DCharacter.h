@@ -10,6 +10,7 @@
 #include "Math/Rotator.h"
 //#include "Blueprint/WidgetLayoutLibrary.h"
 //#include "Materials/Material.h"
+#include "TimerManager.h"
 #include "Components/SphereComponent.h"
 #include "Base2DCharacter.generated.h"
 
@@ -65,6 +66,8 @@ public:
 		float APPercentage;
 	FVector lastRecordedLocation; // Vector of last recorded location
 	
+	FTimerHandle JumpTimerHandle;
+	FTimerHandle FallingTimerHandle;
 
 	// Animations for the Class
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = Animations)
@@ -88,6 +91,7 @@ public:
 	// used for animation
 	bool isHorzMoving;
 	bool isVertMoving;
+	bool isJumping;
 
 	// Functions 
 	void moveRight();
