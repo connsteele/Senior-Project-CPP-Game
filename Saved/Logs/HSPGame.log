@@ -1504,3 +1504,176 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2019.02.26-04.27.40:981][967]LogSavePackage: Moving 'C:/Users/gosus/Documents/CP-School/SeniorProject/gitRepos/Senior-Project-CPP-Game/Saved/DemoBattlefield20C2B79D4622DE4AE783C18ED9DE9451.tmp' to 'C:/Users/gosus/Documents/CP-School/SeniorProject/gitRepos/Senior-Project-CPP-Game/Content/Levels/DemoBattlefield.umap'
 [2019.02.26-04.27.41:014][967]LogFileHelpers: Saving map 'DemoBattlefield' took 0.323
 [2019.02.26-04.27.41:057][967]LogSavePackage: Moving 'C:/Users/gosus/Documents/CP-School/SeniorProject/gitRepos/Senior-Project-CPP-Game/Saved/DemoBattlefield_BuiltData388CCA294733B4448D288FBE819BFC45.tmp' to 'C:/Users/gosus/Documents/CP-School/SeniorProject/gitRepos/Senior-Project-CPP-Game/Content/Levels/DemoBattlefield_BuiltData.uasset'
+[2019.02.26-04.32.41:841][241]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.02.26-04.32.55:064][551]LogAIModule: Creating AISystem for world DemoTown
+[2019.02.26-04.32.55:072][551]LogAssetEditorManager: Opening Asset editor for World /Game/Levels/DemoTown.DemoTown
+[2019.02.26-04.32.55:094][551]Cmd: MAP LOAD FILE="C:/Users/gosus/Documents/CP-School/SeniorProject/gitRepos/Senior-Project-CPP-Game/Content/Levels/DemoTown.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2019.02.26-04.32.55:094][551]LightingResults: New page: Lighting Build
+[2019.02.26-04.32.55:095][551]LoadErrors: New page: Loading map: DemoTown.umap
+[2019.02.26-04.32.55:096][551]MapCheck: New page: Map Check
+[2019.02.26-04.32.55:096][551]LightingResults: New page: Lighting Build
+[2019.02.26-04.32.55:195][551]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2019.02.26-04.32.55:246][551]Cmd: MAP CHECKDEP NOCLEARLOG
+[2019.02.26-04.32.55:246][551]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.128ms to complete.
+[2019.02.26-04.32.55:246][551]LogFileHelpers: Loading map 'DemoTown' took 0.153
+[2019.02.26-04.33.04:583][649]LogMetaData: Removing '/Game/Blueprints/BP_LoadBattlefield.SKEL_BP_LoadBattlefield_C' ref from Metadata '/Game/Blueprints/BP_LoadTown_2.PackageMetaData'
+[2019.02.26-04.33.04:583][649]LogMetaData: Removing '/Game/Blueprints/BP_LoadBattlefield.BP_LoadBattlefield_C' ref from Metadata '/Game/Blueprints/BP_LoadTown_2.PackageMetaData'
+[2019.02.26-04.33.04:613][649]LogSavePackage: Moving 'C:/Users/gosus/Documents/CP-School/SeniorProject/gitRepos/Senior-Project-CPP-Game/Saved/BP_LoadBattlefield497045754B34EC937BA6518E02A7431A.tmp' to 'C:/Users/gosus/Documents/CP-School/SeniorProject/gitRepos/Senior-Project-CPP-Game/Content/Blueprints/BP_LoadBattlefield.uasset'
+[2019.02.26-04.33.06:013][795]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/Blueprints/BP_LoadBattlefield.BP_LoadBattlefield
+[2019.02.26-04.33.18:196][168]BlueprintLog: New page: Compile BP_LoadBattlefield
+[2019.02.26-04.33.18:948][231]LogSavePackage: Moving 'C:/Users/gosus/Documents/CP-School/SeniorProject/gitRepos/Senior-Project-CPP-Game/Saved/BP_LoadBattlefield79B13D494556CB4F0C36DCB303707CD1.tmp' to 'C:/Users/gosus/Documents/CP-School/SeniorProject/gitRepos/Senior-Project-CPP-Game/Content/Blueprints/BP_LoadBattlefield.uasset'
+[2019.02.26-04.33.19:452][285]LogSlate: Window 'BP_LoadBattlefield' being destroyed
+[2019.02.26-04.33.19:455][285]LogSlate: Window 'BP_LoadBattlefield' being destroyed
+[2019.02.26-04.33.36:231][276]LogMetaData: Removing '/Game/Blueprints/Triggers/BP_EnterBuilding.BP_EnterBuilding:UserConstructionScript.K2Node_FunctionEntry_0' ref from Metadata '/Game/Blueprints/BP_EnterBuilding.PackageMetaData'
+[2019.02.26-04.33.36:231][276]LogMetaData: Removing '/Game/Blueprints/Triggers/BP_EnterBuilding.BP_EnterBuilding_C' ref from Metadata '/Game/Blueprints/BP_EnterBuilding.PackageMetaData'
+[2019.02.26-04.33.36:231][276]LogMetaData: Removing '/Game/Blueprints/Triggers/BP_EnterBuilding.BP_EnterBuilding:EventGraph.K2Node_Event_0' ref from Metadata '/Game/Blueprints/BP_EnterBuilding.PackageMetaData'
+[2019.02.26-04.33.36:231][276]LogMetaData: Removing '/Game/Blueprints/Triggers/BP_EnterBuilding.BP_EnterBuilding:EventGraph.K2Node_Event_2' ref from Metadata '/Game/Blueprints/BP_EnterBuilding.PackageMetaData'
+[2019.02.26-04.33.36:231][276]LogMetaData: Removing '/Game/Blueprints/Triggers/BP_EnterBuilding.SKEL_BP_EnterBuilding_C:ReceiveBeginPlay' ref from Metadata '/Game/Blueprints/BP_EnterBuilding.PackageMetaData'
+[2019.02.26-04.33.36:231][276]LogMetaData: Removing '/Game/Blueprints/Triggers/BP_EnterBuilding.SKEL_BP_EnterBuilding_C:ReceiveTick' ref from Metadata '/Game/Blueprints/BP_EnterBuilding.PackageMetaData'
+[2019.02.26-04.33.36:231][276]LogMetaData: Removing '/Game/Blueprints/Triggers/BP_EnterBuilding.SKEL_BP_EnterBuilding_C:BndEvt__CollisionComponent_K2Node_ComponentBoundEvent_0_ComponentBeginOverlapSignature__DelegateSignature' ref from Metadata '/Game/Blueprints/BP_EnterBuilding.PackageMetaData'
+[2019.02.26-04.33.36:231][276]LogMetaData: Removing '/Game/Blueprints/Triggers/BP_EnterBuilding.SKEL_BP_EnterBuilding_C:BndEvt__CollisionComponent_K2Node_ComponentBoundEvent_1_ComponentEndOverlapSignature__DelegateSignature' ref from Metadata '/Game/Blueprints/BP_EnterBuilding.PackageMetaData'
+[2019.02.26-04.33.36:231][276]LogMetaData: Removing '/Game/Blueprints/Triggers/BP_EnterBuilding.SKEL_BP_EnterBuilding_C:UserConstructionScript' ref from Metadata '/Game/Blueprints/BP_EnterBuilding.PackageMetaData'
+[2019.02.26-04.33.36:231][276]LogMetaData: Removing '/Game/Blueprints/Triggers/BP_EnterBuilding.SKEL_BP_EnterBuilding_C' ref from Metadata '/Game/Blueprints/BP_EnterBuilding.PackageMetaData'
+[2019.02.26-04.33.36:231][276]LogMetaData: Removing '/Game/Blueprints/Triggers/BP_EnterBuilding.BP_EnterBuilding_C:UserConstructionScript' ref from Metadata '/Game/Blueprints/BP_EnterBuilding.PackageMetaData'
+[2019.02.26-04.33.36:250][276]LogMetaData: Removing '/Game/Blueprints/Triggers/BP_EnterBuildingHorizontal.BP_EnterBuildingHorizontal_C' ref from Metadata '/Game/Blueprints/BP_EnterBuildingHorizontal.PackageMetaData'
+[2019.02.26-04.33.36:250][276]LogMetaData: Removing '/Game/Blueprints/Triggers/BP_EnterBuildingHorizontal.SKEL_BP_EnterBuildingHorizontal_C:ReceiveBeginPlay' ref from Metadata '/Game/Blueprints/BP_EnterBuildingHorizontal.PackageMetaData'
+[2019.02.26-04.33.36:250][276]LogMetaData: Removing '/Game/Blueprints/Triggers/BP_EnterBuildingHorizontal.SKEL_BP_EnterBuildingHorizontal_C:ReceiveTick' ref from Metadata '/Game/Blueprints/BP_EnterBuildingHorizontal.PackageMetaData'
+[2019.02.26-04.33.36:251][276]LogMetaData: Removing '/Game/Blueprints/Triggers/BP_EnterBuildingHorizontal.SKEL_BP_EnterBuildingHorizontal_C:BndEvt__CollisionComponent_K2Node_ComponentBoundEvent_0_ComponentBeginOverlapSignature__DelegateSignature' ref from Metadata '/Game/Blueprints/BP_EnterBuildingHorizontal.PackageMetaData'
+[2019.02.26-04.33.36:251][276]LogMetaData: Removing '/Game/Blueprints/Triggers/BP_EnterBuildingHorizontal.SKEL_BP_EnterBuildingHorizontal_C:BndEvt__CollisionComponent_K2Node_ComponentBoundEvent_1_ComponentEndOverlapSignature__DelegateSignature' ref from Metadata '/Game/Blueprints/BP_EnterBuildingHorizontal.PackageMetaData'
+[2019.02.26-04.33.36:251][276]LogMetaData: Removing '/Game/Blueprints/Triggers/BP_EnterBuildingHorizontal.SKEL_BP_EnterBuildingHorizontal_C:UserConstructionScript' ref from Metadata '/Game/Blueprints/BP_EnterBuildingHorizontal.PackageMetaData'
+[2019.02.26-04.33.36:251][276]LogMetaData: Removing '/Game/Blueprints/Triggers/BP_EnterBuildingHorizontal.SKEL_BP_EnterBuildingHorizontal_C' ref from Metadata '/Game/Blueprints/BP_EnterBuildingHorizontal.PackageMetaData'
+[2019.02.26-04.33.36:251][276]LogMetaData: Removing '/Game/Blueprints/Triggers/BP_EnterBuildingHorizontal.BP_EnterBuildingHorizontal_C:UserConstructionScript' ref from Metadata '/Game/Blueprints/BP_EnterBuildingHorizontal.PackageMetaData'
+[2019.02.26-04.33.36:267][276]LogMetaData: Removing '/Game/Blueprints/Triggers/BP_LoadBattlefield.BP_LoadBattlefield_C' ref from Metadata '/Game/Blueprints/BP_LoadBattlefield.PackageMetaData'
+[2019.02.26-04.33.36:267][276]LogMetaData: Removing '/Game/Blueprints/Triggers/BP_LoadBattlefield.BP_LoadBattlefield_C:UserConstructionScript' ref from Metadata '/Game/Blueprints/BP_LoadBattlefield.PackageMetaData'
+[2019.02.26-04.33.36:267][276]LogMetaData: Removing '/Game/Blueprints/Triggers/BP_LoadBattlefield.SKEL_BP_LoadBattlefield_C' ref from Metadata '/Game/Blueprints/BP_LoadBattlefield.PackageMetaData'
+[2019.02.26-04.33.36:267][276]LogMetaData: Removing '/Game/Blueprints/Triggers/BP_LoadBattlefield.SKEL_BP_LoadBattlefield_C:UserConstructionScript' ref from Metadata '/Game/Blueprints/BP_LoadBattlefield.PackageMetaData'
+[2019.02.26-04.33.36:267][276]LogMetaData: Removing '/Game/Blueprints/Triggers/BP_LoadBattlefield.SKEL_BP_LoadBattlefield_C:BndEvt__CollisionComponent_K2Node_ComponentBoundEvent_0_ComponentBeginOverlapSignature__DelegateSignature' ref from Metadata '/Game/Blueprints/BP_LoadBattlefield.PackageMetaData'
+[2019.02.26-04.33.36:267][276]LogMetaData: Removing '/Game/Blueprints/Triggers/BP_LoadBattlefield.SKEL_BP_LoadBattlefield_C:ReceiveTick' ref from Metadata '/Game/Blueprints/BP_LoadBattlefield.PackageMetaData'
+[2019.02.26-04.33.36:267][276]LogMetaData: Removing '/Game/Blueprints/Triggers/BP_LoadBattlefield.SKEL_BP_LoadBattlefield_C:ReceiveActorBeginOverlap' ref from Metadata '/Game/Blueprints/BP_LoadBattlefield.PackageMetaData'
+[2019.02.26-04.33.36:267][276]LogMetaData: Removing '/Game/Blueprints/Triggers/BP_LoadBattlefield.SKEL_BP_LoadBattlefield_C:ReceiveBeginPlay' ref from Metadata '/Game/Blueprints/BP_LoadBattlefield.PackageMetaData'
+[2019.02.26-04.33.36:272][276]LogMetaData: Removing '/Game/Blueprints/Triggers/BP_LoadTown.BP_LoadTown_C' ref from Metadata '/Game/Blueprints/BP_LoadTown.PackageMetaData'
+[2019.02.26-04.33.36:272][276]LogMetaData: Removing '/Game/Blueprints/Triggers/BP_LoadTown.SKEL_BP_LoadTown_C' ref from Metadata '/Game/Blueprints/BP_LoadTown.PackageMetaData'
+[2019.02.26-04.33.36:272][276]LogMetaData: Removing '/Game/Blueprints/Triggers/BP_LoadTown.BP_LoadTown:EventGraph.K2Node_Event_0' ref from Metadata '/Game/Blueprints/BP_LoadTown.PackageMetaData'
+[2019.02.26-04.33.36:272][276]LogMetaData: Removing '/Game/Blueprints/Triggers/BP_LoadTown.BP_LoadTown:EventGraph.K2Node_Event_1' ref from Metadata '/Game/Blueprints/BP_LoadTown.PackageMetaData'
+[2019.02.26-04.33.36:272][276]LogMetaData: Removing '/Game/Blueprints/Triggers/BP_LoadTown.BP_LoadTown:EventGraph.K2Node_Event_2' ref from Metadata '/Game/Blueprints/BP_LoadTown.PackageMetaData'
+[2019.02.26-04.33.36:273][276]LogMetaData: Removing '/Game/Blueprints/Triggers/BP_LoadTown.BP_LoadTown:UserConstructionScript.K2Node_FunctionEntry_0' ref from Metadata '/Game/Blueprints/BP_LoadTown.PackageMetaData'
+[2019.02.26-04.33.36:273][276]LogMetaData: Removing '/Game/Blueprints/Triggers/BP_LoadTown.SKEL_BP_LoadTown_C:ReceiveBeginPlay' ref from Metadata '/Game/Blueprints/BP_LoadTown.PackageMetaData'
+[2019.02.26-04.33.36:273][276]LogMetaData: Removing '/Game/Blueprints/Triggers/BP_LoadTown.SKEL_BP_LoadTown_C:ReceiveActorBeginOverlap' ref from Metadata '/Game/Blueprints/BP_LoadTown.PackageMetaData'
+[2019.02.26-04.33.36:273][276]LogMetaData: Removing '/Game/Blueprints/Triggers/BP_LoadTown.SKEL_BP_LoadTown_C:ReceiveTick' ref from Metadata '/Game/Blueprints/BP_LoadTown.PackageMetaData'
+[2019.02.26-04.33.36:273][276]LogMetaData: Removing '/Game/Blueprints/Triggers/BP_LoadTown.SKEL_BP_LoadTown_C:BndEvt__CollisionComponent_K2Node_ComponentBoundEvent_0_ComponentBeginOverlapSignature__DelegateSignature' ref from Metadata '/Game/Blueprints/BP_LoadTown.PackageMetaData'
+[2019.02.26-04.33.36:273][276]LogMetaData: Removing '/Game/Blueprints/Triggers/BP_LoadTown.SKEL_BP_LoadTown_C:UserConstructionScript' ref from Metadata '/Game/Blueprints/BP_LoadTown.PackageMetaData'
+[2019.02.26-04.33.36:273][276]LogMetaData: Removing '/Game/Blueprints/Triggers/BP_LoadTown.BP_LoadTown_C:UserConstructionScript' ref from Metadata '/Game/Blueprints/BP_LoadTown.PackageMetaData'
+[2019.02.26-04.33.36:301][276]LogSavePackage: Moving 'C:/Users/gosus/Documents/CP-School/SeniorProject/gitRepos/Senior-Project-CPP-Game/Saved/BP_EnterBuilding4D49438B4AEE82AB88C250BA4CE56AAF.tmp' to 'C:/Users/gosus/Documents/CP-School/SeniorProject/gitRepos/Senior-Project-CPP-Game/Content/Blueprints/Triggers/BP_EnterBuilding.uasset'
+[2019.02.26-04.33.36:322][276]LogSavePackage: Moving 'C:/Users/gosus/Documents/CP-School/SeniorProject/gitRepos/Senior-Project-CPP-Game/Saved/BP_EnterBuilding7913B6494AD7360B6EE94A990A3C846B.tmp' to 'C:/Users/gosus/Documents/CP-School/SeniorProject/gitRepos/Senior-Project-CPP-Game/Content/Blueprints/BP_EnterBuilding.uasset'
+[2019.02.26-04.33.36:343][276]LogSavePackage: Moving 'C:/Users/gosus/Documents/CP-School/SeniorProject/gitRepos/Senior-Project-CPP-Game/Saved/BP_EnterBuildingHorizontal725A549441BDCEED188392897CFC4C3C.tmp' to 'C:/Users/gosus/Documents/CP-School/SeniorProject/gitRepos/Senior-Project-CPP-Game/Content/Blueprints/Triggers/BP_EnterBuildingHorizontal.uasset'
+[2019.02.26-04.33.36:363][276]LogSavePackage: Moving 'C:/Users/gosus/Documents/CP-School/SeniorProject/gitRepos/Senior-Project-CPP-Game/Saved/BP_EnterBuildingHorizontalF121B3884AD25BB181014D96527369F8.tmp' to 'C:/Users/gosus/Documents/CP-School/SeniorProject/gitRepos/Senior-Project-CPP-Game/Content/Blueprints/BP_EnterBuildingHorizontal.uasset'
+[2019.02.26-04.33.36:389][276]LogSavePackage: Moving 'C:/Users/gosus/Documents/CP-School/SeniorProject/gitRepos/Senior-Project-CPP-Game/Saved/BP_LoadBattlefieldC54127D548CDE1B67500CC96E1444AC0.tmp' to 'C:/Users/gosus/Documents/CP-School/SeniorProject/gitRepos/Senior-Project-CPP-Game/Content/Blueprints/Triggers/BP_LoadBattlefield.uasset'
+[2019.02.26-04.33.36:405][276]LogSavePackage: Moving 'C:/Users/gosus/Documents/CP-School/SeniorProject/gitRepos/Senior-Project-CPP-Game/Saved/BP_LoadTownC1891E45429E430DC829B1B12E94CEE6.tmp' to 'C:/Users/gosus/Documents/CP-School/SeniorProject/gitRepos/Senior-Project-CPP-Game/Content/Blueprints/Triggers/BP_LoadTown.uasset'
+[2019.02.26-04.33.36:409][276]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_LoadTown" FILE="C:/Users/gosus/Documents/CP-School/SeniorProject/gitRepos/Senior-Project-CPP-Game/Content/Blueprints/BP_LoadTown.uasset" SILENT=true
+[2019.02.26-04.33.36:424][276]LogSavePackage: Moving 'C:/Users/gosus/Documents/CP-School/SeniorProject/gitRepos/Senior-Project-CPP-Game/Saved/BP_LoadTown8773ED474254BAD0A8D670AA24D4C325.tmp' to 'C:/Users/gosus/Documents/CP-School/SeniorProject/gitRepos/Senior-Project-CPP-Game/Content/Blueprints/BP_LoadTown.uasset'
+[2019.02.26-04.33.49:637][818]LogMetaData: Removing '/Game/Blueprints/Characters/BP_ProtagClass.BP_ProtagClass_C' ref from Metadata '/Game/Blueprints/BP_ProtagClass.PackageMetaData'
+[2019.02.26-04.33.49:637][818]LogMetaData: Removing '/Game/Blueprints/Characters/BP_ProtagClass.BP_ProtagClass:UserConstructionScript.K2Node_FunctionEntry_0' ref from Metadata '/Game/Blueprints/BP_ProtagClass.PackageMetaData'
+[2019.02.26-04.33.49:638][818]LogMetaData: Removing '/Game/Blueprints/Characters/BP_ProtagClass.BP_ProtagClass:EventGraph.K2Node_Event_0' ref from Metadata '/Game/Blueprints/BP_ProtagClass.PackageMetaData'
+[2019.02.26-04.33.49:638][818]LogMetaData: Removing '/Game/Blueprints/Characters/BP_ProtagClass.BP_ProtagClass:EventGraph.K2Node_Event_1' ref from Metadata '/Game/Blueprints/BP_ProtagClass.PackageMetaData'
+[2019.02.26-04.33.49:638][818]LogMetaData: Removing '/Game/Blueprints/Characters/BP_ProtagClass.BP_ProtagClass:EventGraph.K2Node_Event_2' ref from Metadata '/Game/Blueprints/BP_ProtagClass.PackageMetaData'
+[2019.02.26-04.33.49:638][818]LogMetaData: Removing '/Game/Blueprints/Characters/BP_ProtagClass.BP_ProtagClass:UpdateFadeActors.K2Node_FunctionEntry_0' ref from Metadata '/Game/Blueprints/BP_ProtagClass.PackageMetaData'
+[2019.02.26-04.33.49:638][818]LogMetaData: Removing '/Game/Blueprints/Characters/BP_ProtagClass.BP_ProtagClass:SetHiddenMeshes.K2Node_FunctionEntry_0' ref from Metadata '/Game/Blueprints/BP_ProtagClass.PackageMetaData'
+[2019.02.26-04.33.49:638][818]LogMetaData: Removing '/Game/Blueprints/Characters/BP_ProtagClass.BP_ProtagClass:SetShownMeshes.K2Node_FunctionEntry_0' ref from Metadata '/Game/Blueprints/BP_ProtagClass.PackageMetaData'
+[2019.02.26-04.33.49:638][818]LogMetaData: Removing '/Game/Blueprints/Characters/BP_ProtagClass.SKEL_BP_ProtagClass_C:ReceiveBeginPlay' ref from Metadata '/Game/Blueprints/BP_ProtagClass.PackageMetaData'
+[2019.02.26-04.33.49:638][818]LogMetaData: Removing '/Game/Blueprints/Characters/BP_ProtagClass.SKEL_BP_ProtagClass_C:ReceiveActorBeginOverlap' ref from Metadata '/Game/Blueprints/BP_ProtagClass.PackageMetaData'
+[2019.02.26-04.33.49:638][818]LogMetaData: Removing '/Game/Blueprints/Characters/BP_ProtagClass.SKEL_BP_ProtagClass_C:ReceiveTick' ref from Metadata '/Game/Blueprints/BP_ProtagClass.PackageMetaData'
+[2019.02.26-04.33.49:638][818]LogMetaData: Removing '/Game/Blueprints/Characters/BP_ProtagClass.SKEL_BP_ProtagClass_C:HitMeshes' ref from Metadata '/Game/Blueprints/BP_ProtagClass.PackageMetaData'
+[2019.02.26-04.33.49:638][818]LogMetaData: Removing '/Game/Blueprints/Characters/BP_ProtagClass.SKEL_BP_ProtagClass_C:HiddenMeshes' ref from Metadata '/Game/Blueprints/BP_ProtagClass.PackageMetaData'
+[2019.02.26-04.33.49:638][818]LogMetaData: Removing '/Game/Blueprints/Characters/BP_ProtagClass.SKEL_BP_ProtagClass_C:UserConstructionScript' ref from Metadata '/Game/Blueprints/BP_ProtagClass.PackageMetaData'
+[2019.02.26-04.33.49:638][818]LogMetaData: Removing '/Game/Blueprints/Characters/BP_ProtagClass.SKEL_BP_ProtagClass_C' ref from Metadata '/Game/Blueprints/BP_ProtagClass.PackageMetaData'
+[2019.02.26-04.33.49:639][818]LogMetaData: Removing '/Game/Blueprints/Characters/BP_ProtagClass.BP_ProtagClass_C:HitMeshes' ref from Metadata '/Game/Blueprints/BP_ProtagClass.PackageMetaData'
+[2019.02.26-04.33.49:639][818]LogMetaData: Removing '/Game/Blueprints/Characters/BP_ProtagClass.BP_ProtagClass_C:HiddenMeshes' ref from Metadata '/Game/Blueprints/BP_ProtagClass.PackageMetaData'
+[2019.02.26-04.33.49:639][818]LogMetaData: Removing '/Game/Blueprints/Characters/BP_ProtagClass.BP_ProtagClass_C:ReceiveBeginPlay' ref from Metadata '/Game/Blueprints/BP_ProtagClass.PackageMetaData'
+[2019.02.26-04.33.49:639][818]LogMetaData: Removing '/Game/Blueprints/Characters/BP_ProtagClass.BP_ProtagClass_C:UserConstructionScript' ref from Metadata '/Game/Blueprints/BP_ProtagClass.PackageMetaData'
+[2019.02.26-04.33.49:717][818]LogSavePackage: Moving 'C:/Users/gosus/Documents/CP-School/SeniorProject/gitRepos/Senior-Project-CPP-Game/Saved/BP_ProtagClassE6CF1C4C459056F365B77195FB9A439E.tmp' to 'C:/Users/gosus/Documents/CP-School/SeniorProject/gitRepos/Senior-Project-CPP-Game/Content/Blueprints/Characters/BP_ProtagClass.uasset'
+[2019.02.26-04.33.49:723][818]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_ProtagClass" FILE="C:/Users/gosus/Documents/CP-School/SeniorProject/gitRepos/Senior-Project-CPP-Game/Content/Blueprints/BP_ProtagClass.uasset" SILENT=true
+[2019.02.26-04.33.49:741][818]LogSavePackage: Moving 'C:/Users/gosus/Documents/CP-School/SeniorProject/gitRepos/Senior-Project-CPP-Game/Saved/BP_ProtagClass96D0213345666FB5547C0D9C699AF609.tmp' to 'C:/Users/gosus/Documents/CP-School/SeniorProject/gitRepos/Senior-Project-CPP-Game/Content/Blueprints/BP_ProtagClass.uasset'
+[2019.02.26-04.34.20:005][235]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.02.26-04.34.32:902][740]LogActorFactory: Actor Factory created SM_PrefabHouse
+[2019.02.26-04.34.34:196][882]LogActorFactory: Actor Factory created SM_PrefabHouse
+[2019.02.26-04.34.49:674][696]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_PrefabHouse2)
+[2019.02.26-04.34.50:066][741]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_PrefabHouse2)
+[2019.02.26-04.34.50:439][784]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_PrefabHouse2)
+[2019.02.26-04.34.50:828][829]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_PrefabHouse2)
+[2019.02.26-04.34.51:226][875]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_PrefabHouse2)
+[2019.02.26-04.34.51:692][929]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_PrefabHouse2)
+[2019.02.26-04.34.54:601][276]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_PrefabHouse2)
+[2019.02.26-04.34.54:914][312]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_PrefabHouse2)
+[2019.02.26-04.34.55:305][357]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_PrefabHouse2)
+[2019.02.26-04.34.55:645][396]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
+[2019.02.26-04.34.56:565][503]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
+[2019.02.26-04.34.56:912][543]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
+[2019.02.26-04.34.57:542][617]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
+[2019.02.26-04.34.57:939][663]LogEditorViewport: Clicking on Actor (LMB): BP_LoadBattlefield_C (BP_LoadBattlefield)
+[2019.02.26-04.35.21:903][456]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.02.26-04.35.21:986][466]LogTemp: Repeating last play command: Selected Viewport
+[2019.02.26-04.35.22:004][466]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Levels/DemoTown.DemoTown:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/DemoTown.DemoTown:PersistentLevel.DemoTown' with GeneratedClass '/Game/Levels/DemoTown.DemoTown_C' with ClassGeneratedBy '/Game/Levels/DemoTown.DemoTown:PersistentLevel.DemoTown'
+[2019.02.26-04.35.22:004][466]BlueprintLog: New page: Pre-Play auto-recompile
+[2019.02.26-04.35.22:006][466]LogPlayLevel: [PlayLevel] Compiling BP_LoadTown before play...
+[2019.02.26-04.35.22:014][466]LogPlayLevel: [PlayLevel] Compiling BP_EnterBuilding before play...
+[2019.02.26-04.35.22:121][466]LogPlayLevel: [PlayLevel] Compiling BP_EnterBuildingHorizontal before play...
+[2019.02.26-04.35.22:242][466]LogPlayLevel: PlayLevel: Blueprint regeneration took 238 ms (3 blueprints)
+[2019.02.26-04.35.22:242][466]PIE: New page: PIE session: DemoTown (Feb 25, 2019, 12:35:22 PM)
+[2019.02.26-04.35.22:242][466]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_DemoTown
+[2019.02.26-04.35.22:267][466]LogPlayLevel: PIE: StaticDuplicateObject took: (0.024937s)
+[2019.02.26-04.35.22:268][466]LogAIModule: Creating AISystem for world DemoTown
+[2019.02.26-04.35.22:268][466]LogPlayLevel: PIE: World Init took: (0.000603s)
+[2019.02.26-04.35.22:268][466]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/DemoTown.DemoTown to /Game/Levels/UEDPIE_0_DemoTown.DemoTown (0.026004s)
+[2019.02.26-04.35.22:345][466]LogInit: XAudio2 using 'Speakers (Realtek(R) Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.02.26-04.35.22:361][466]LogInit: FAudioDevice initialized.
+[2019.02.26-04.35.22:398][466]LogLoad: Game class is 'BP_HSPGameGameModeBase_C'
+[2019.02.26-04.35.22:408][466]LogWorld: Bringing World /Game/Levels/UEDPIE_0_DemoTown.DemoTown up for play (max tick rate 0) at 2019.02.25-20.35.22
+[2019.02.26-04.35.22:409][466]LogWorld: Bringing up level for play took: 0.009422
+[2019.02.26-04.35.22:429][466]PIE: Play in editor start time for /Game/Levels/UEDPIE_0_DemoTown -0.279
+[2019.02.26-04.35.22:429][466]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Levels/DemoTown.DemoTown:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/DemoTown.DemoTown:PersistentLevel.DemoTown' with GeneratedClass '/Game/Levels/DemoTown.DemoTown_C' with ClassGeneratedBy '/Game/Levels/DemoTown.DemoTown:PersistentLevel.DemoTown'
+[2019.02.26-04.35.28:770][223]LogNet: Browse: /Game/Levels/DemoBattlefield
+[2019.02.26-04.35.28:770][223]LogLoad: LoadMap: /Game/Levels/DemoBattlefield
+[2019.02.26-04.35.28:855][223]LogAIModule: Creating AISystem for world DemoBattlefield
+[2019.02.26-04.35.28:855][223]LogLoad: Game class is 'BP_HSPGameGameModeBase_C'
+[2019.02.26-04.35.28:860][223]LogWorld: Bringing World /Game/Levels/UEDPIE_0_DemoBattlefield.DemoBattlefield up for play (max tick rate 0) at 2019.02.25-20.35.28
+[2019.02.26-04.35.28:861][223]LogWorld: Bringing up level for play took: 0.004937
+[2019.02.26-04.35.28:864][223]LogLoad: Took 0.093901 seconds to LoadMap(/Game/Levels/DemoBattlefield)
+[2019.02.26-04.35.33:480][776]LogNet: Browse: /Game/Levels/DemoTown
+[2019.02.26-04.35.33:480][776]LogLoad: LoadMap: /Game/Levels/DemoTown
+[2019.02.26-04.35.33:506][776]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_DemoTown
+[2019.02.26-04.35.33:535][776]LogPlayLevel: PIE: StaticDuplicateObject took: (0.027870s)
+[2019.02.26-04.35.33:535][776]LogAIModule: Creating AISystem for world DemoTown
+[2019.02.26-04.35.33:535][776]LogPlayLevel: PIE: World Init took: (0.000542s)
+[2019.02.26-04.35.33:535][776]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/DemoTown.DemoTown to /Game/Levels/UEDPIE_0_DemoTown.DemoTown (0.028810s)
+[2019.02.26-04.35.33:535][776]LogLoad: Game class is 'BP_HSPGameGameModeBase_C'
+[2019.02.26-04.35.33:539][776]LogWorld: Bringing World /Game/Levels/UEDPIE_0_DemoTown.DemoTown up for play (max tick rate 0) at 2019.02.25-20.35.33
+[2019.02.26-04.35.33:539][776]LogWorld: Bringing up level for play took: 0.003211
+[2019.02.26-04.35.33:541][776]LogLoad: Took 0.061053 seconds to LoadMap(/Game/Levels/UEDPIE_0_DemoTown)
+[2019.02.26-04.35.39:365][474]LogNet: Browse: /Game/Levels/DemoBattlefield
+[2019.02.26-04.35.39:365][474]LogLoad: LoadMap: /Game/Levels/DemoBattlefield
+[2019.02.26-04.35.39:447][474]LogAIModule: Creating AISystem for world DemoBattlefield
+[2019.02.26-04.35.39:447][474]LogLoad: Game class is 'BP_HSPGameGameModeBase_C'
+[2019.02.26-04.35.39:453][474]LogWorld: Bringing World /Game/Levels/UEDPIE_0_DemoBattlefield.DemoBattlefield up for play (max tick rate 0) at 2019.02.25-20.35.39
+[2019.02.26-04.35.39:453][474]LogWorld: Bringing up level for play took: 0.004912
+[2019.02.26-04.35.39:456][474]LogLoad: Took 0.090810 seconds to LoadMap(/Game/Levels/DemoBattlefield)
+[2019.02.26-04.35.43:115][912]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.02.26-04.35.47:708][461]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.02.26-04.36.08:096][906]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.02.26-04.36.09:639][ 91]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.02.26-04.36.10:105][147]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.02.26-04.36.10:752][208]LogEditorViewport: Clicking on Actor (LMB): BP_EnemySlime_C (BP_EnemySlime7)
+[2019.02.26-04.36.17:887][779]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.02.26-04.36.47:063][276]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.02.26-04.36.47:122][283]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Levels/DemoTown.DemoTown:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/DemoTown.DemoTown:PersistentLevel.DemoTown' with GeneratedClass '/Game/Levels/DemoTown.DemoTown_C' with ClassGeneratedBy '/Game/Levels/DemoTown.DemoTown:PersistentLevel.DemoTown'
+[2019.02.26-04.36.47:122][283]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.02.26-04.36.47:160][283]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.02.26-04.36.47:160][283]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Levels/DemoTown.DemoTown:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/DemoTown.DemoTown:PersistentLevel.DemoTown' with GeneratedClass '/Game/Levels/DemoTown.DemoTown_C' with ClassGeneratedBy '/Game/Levels/DemoTown.DemoTown:PersistentLevel.DemoTown'
+[2019.02.26-04.36.47:184][283]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.02.26-04.36.47:227][287]LogPlayLevel: Display: Destroying online subsystem :Context_28
+[2019.02.26-04.36.50:800][667]LogSavePackage: Moving 'C:/Users/gosus/Documents/CP-School/SeniorProject/gitRepos/Senior-Project-CPP-Game/Saved/DemoTown13C6970B457E95338042EEB63D8C021C.tmp' to 'C:/Users/gosus/Documents/CP-School/SeniorProject/gitRepos/Senior-Project-CPP-Game/Content/Levels/DemoTown.umap'
+[2019.02.26-04.36.50:836][667]LogFileHelpers: Saving map 'DemoTown' took 0.395
+[2019.02.26-04.36.50:857][667]LogSavePackage: Moving 'C:/Users/gosus/Documents/CP-School/SeniorProject/gitRepos/Senior-Project-CPP-Game/Saved/BP_HSPGameGameModeBaseEDFE1EE0416D2D2517CB5ABF173ABAFE.tmp' to 'C:/Users/gosus/Documents/CP-School/SeniorProject/gitRepos/Senior-Project-CPP-Game/Content/Blueprints/BP_HSPGameGameModeBase.uasset'
+[2019.02.26-04.36.50:882][667]LogSavePackage: Moving 'C:/Users/gosus/Documents/CP-School/SeniorProject/gitRepos/Senior-Project-CPP-Game/Saved/BP_EnterBuilding11FE36B44A56C8C3E3FB4894453337DF.tmp' to 'C:/Users/gosus/Documents/CP-School/SeniorProject/gitRepos/Senior-Project-CPP-Game/Content/Blueprints/Triggers/BP_EnterBuilding.uasset'
+[2019.02.26-04.36.50:930][667]LogSavePackage: Moving 'C:/Users/gosus/Documents/CP-School/SeniorProject/gitRepos/Senior-Project-CPP-Game/Saved/BP_ProtagClassDF1F6E5645C77AAADE32BC90D8CD1291.tmp' to 'C:/Users/gosus/Documents/CP-School/SeniorProject/gitRepos/Senior-Project-CPP-Game/Content/Blueprints/Characters/BP_ProtagClass.uasset'
+[2019.02.26-04.36.50:957][667]LogSavePackage: Moving 'C:/Users/gosus/Documents/CP-School/SeniorProject/gitRepos/Senior-Project-CPP-Game/Saved/BP_EnterBuildingHorizontalF0E0976A4180C293F6590E8F692A0F26.tmp' to 'C:/Users/gosus/Documents/CP-School/SeniorProject/gitRepos/Senior-Project-CPP-Game/Content/Blueprints/Triggers/BP_EnterBuildingHorizontal.uasset'
+[2019.02.26-04.36.50:979][667]LogSavePackage: Moving 'C:/Users/gosus/Documents/CP-School/SeniorProject/gitRepos/Senior-Project-CPP-Game/Saved/BP_LoadTownFF90830B4140C14F440AAFA37C0605F6.tmp' to 'C:/Users/gosus/Documents/CP-School/SeniorProject/gitRepos/Senior-Project-CPP-Game/Content/Blueprints/Triggers/BP_LoadTown.uasset'
