@@ -83,7 +83,16 @@ void AProtagClass::BeginPlay()
 void AProtagClass::Tick(float DeltaTime)
 {
 	Super::Tick(DeltaTime);
-
+	FVector charVel = GetVelocity();
+	D(FString::SanitizeFloat(charVel.X));
+	if (charVel.X < 0 && !isJumping)
+	{
+		GetSprite()->SetFlipbook(walkLeftAnim);
+	}
+	else if (charVel.X > 0 && !isJumping)
+	{
+		GetSprite()->SetFlipbook(walkRightAnim);
+	}
 }
 
 // Called to bind functionality to input
@@ -196,17 +205,17 @@ void AProtagClass::moveRight(float axisValue)
 		{
 			isHorzMoving = true;
 			//D("Left");
-			GetSprite()->SetFlipbook(walkLeftAnim);
-			GetSprite()->SetLooping(true);
-			GetSprite()->Play();
+			//GetSprite()->SetFlipbook(walkLeftAnim);
+			//GetSprite()->SetLooping(true);
+			//GetSprite()->Play();
 		}
 		else if (axisValue == -1.0)
 		{
 			isHorzMoving = true;
 			//D("Right");
-			GetSprite()->SetFlipbook(walkRightAnim);
-			GetSprite()->SetLooping(true);
-			GetSprite()->Play();
+			//GetSprite()->SetFlipbook(walkRightAnim);
+			//GetSprite()->SetLooping(true);
+			//GetSprite()->Play();
 		}
 		else if (axisValue == 0.0)
 		{
