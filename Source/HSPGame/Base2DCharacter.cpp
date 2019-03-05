@@ -3,7 +3,7 @@
 #include "Base2DCharacter.h"
 #include "HSPGameGameModeBase.h"
 
-// Sets default values
+// Constructor
 ABase2DCharacter::ABase2DCharacter()
 {
  	// Set this character to call Tick() every frame.  You can turn this off to improve performance if you don't need it.
@@ -18,6 +18,7 @@ ABase2DCharacter::ABase2DCharacter()
 	
 }
 
+//----- Override Functions from Parent Class
 // Called when the game starts or when spawned
 void ABase2DCharacter::BeginPlay()
 {
@@ -59,7 +60,7 @@ void ABase2DCharacter::Tick(float DeltaTime)
 }
 
 
-UFUNCTION()
+//----- Functions Bound For Collisions
 void ABase2DCharacter::inSight(UPrimitiveComponent* OverlappedComponent, AActor* OtherActor, UPrimitiveComponent* OtherComp, int32 OtherBodyIndex, bool bFromSweep, const FHitResult & SweepResult)
 {
 	D("base char collide");
@@ -69,6 +70,19 @@ void ABase2DCharacter::charHit(UPrimitiveComponent * HitComponent, AActor * Othe
 {
 }
 
+//----- Turn Related Functions
+// Called when turn is started
+void ABase2DCharacter::startTurn()
+{
+
+}
+// Called when turn is ended
+void ABase2DCharacter::endTurn()
+{
+	AHSPGameGameModeBase* gameModeref = (AHSPGameGameModeBase*)GetWorld()->GetAuthGameMode();
+	gameModeref->nextFighter();
+}
+// Turn distance moved into AP
 void ABase2DCharacter::getTurnDistance()
 {
 	FVector loc = GetActorLocation();
@@ -84,7 +98,7 @@ void ABase2DCharacter::getTurnDistance()
 	}
 }
 
-// Base2DCharacter's Function Definitions
+//----- Movement Functions
 void ABase2DCharacter::moveRight()
 {
 	
@@ -96,17 +110,10 @@ void ABase2DCharacter::moveForward()
 }
 
 
-void ABase2DCharacter::endTurn()
-{
-	AHSPGameGameModeBase* gameModeref = (AHSPGameGameModeBase*)GetWorld()->GetAuthGameMode();
-	gameModeref->nextFighter();
-}
 
-void ABase2DCharacter::startTurn()
+// Called when the character dies
+void ABase2DCharacter::die() 
 {
-}
-
-void ABase2DCharacter::die() {
 	GetSprite()->SetFlipbook(deathAnim);
 	//UWidgetLayoutLibrary::RemoveAllWidgets(this);
 	//D("Actor is dead");

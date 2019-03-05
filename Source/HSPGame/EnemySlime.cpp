@@ -2,16 +2,15 @@
 
 #include "EnemySlime.h"
 
+// Constructor
 AEnemySlime::AEnemySlime() : AEnemyClass()
 {
 	// Set the slime's vision radius
 	visionSphere->SetSphereRadius(200.f);
-	//Setup vision hit
-
-
 	
 }
 
+//----- Override Functions from Parent Class
 void AEnemySlime::BeginPlay()
 {
 	Super::BeginPlay(); // Need to do this or nothing will work
@@ -38,7 +37,7 @@ void AEnemySlime::Tick(float DeltaTime)
 	Super::Tick(DeltaTime);
 }
 
-
+//----- Turn Related Functions
 void AEnemySlime::endTurn()
 {
 	Super::endTurn();
@@ -56,7 +55,8 @@ void AEnemySlime::startTurn()
 }
 
 
-//--- Functions Bound Using AddDynamic
+//----- Functions Bound For Collisions
+// Called when the enemy slime's vision collider overlaps with a component
 void AEnemySlime::inSight(UPrimitiveComponent * OverlappedComponent, AActor * OtherActor, UPrimitiveComponent * OtherComp, int32 OtherBodyIndex, bool bFromSweep, const FHitResult & SweepResult)
 {
 	D("Slime hit");
@@ -68,7 +68,7 @@ void AEnemySlime::inSight(UPrimitiveComponent * OverlappedComponent, AActor * Ot
 		D("Slime Enters Battle");
 	}
 }
-
+// Called when the enemy slime's root component (capsule component) is hit
 void AEnemySlime::charHit(UPrimitiveComponent * HitComponent, AActor * OtherActor, UPrimitiveComponent * OtherComp, FVector NormalImpulse, const FHitResult & Hit) {
 	//die();
 	// GetWorld()->ForceGarbageCollection(true);

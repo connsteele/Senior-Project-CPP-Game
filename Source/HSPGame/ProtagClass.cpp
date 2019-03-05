@@ -11,24 +11,22 @@ AProtagClass::AProtagClass() : ABase2DCharacter()
 	- Idle animation is set by blueprint so it's visible in the viewport
 	*/
 
-	//---  Set up Variables from Parent Classes ---
+	//--- Set up Variables from Parent Classes
 	// Make Pawn Movement Component
 	CreateDefaultSubobject<UFloatingPawnMovement>("PawnMovement");
-
 	// Make a Spring Arm Attached to the Mesh
 	CamBoom = CreateDefaultSubobject<USpringArmComponent>("cameraBoom");
 	CamBoom->SetupAttachment(RootComponent);
-
 	// Make a camera component and Attach it to the camera boom
 	Camera = CreateDefaultSubobject<UCameraComponent>("myCamera");
 	Camera->SetupAttachment(CamBoom);
-
+	// Set the player's vision radius
 	visionSphere->SetSphereRadius(300.f);
 	
 	
 }
 
-//--- Functions From Parent Classes
+//----- Functions From Parent Classes
 // Called when the game starts or when spawned
 void AProtagClass::BeginPlay()
 {
@@ -46,7 +44,6 @@ void AProtagClass::BeginPlay()
 		PC->bShowMouseCursor = true;
 		PC->bEnableClickEvents = true;
 		PC->bEnableMouseOverEvents = true;
-		
 	}
 
 	//--- Set Up Dynamic Functions
@@ -106,58 +103,10 @@ void AProtagClass::SetupPlayerInputComponent(UInputComponent* PlayerInputCompone
 	PlayerInputComponent->BindAction("JumpAction", IE_Pressed, this, &AProtagClass::Jump);
 }
 
-void AProtagClass::Jump()
-{
-	isJumping = true;
-	GetSprite()->SetFlipbook(FBjump);
-	GetSprite()->PlayFromStart(); // Restart the flipbook
-	GetWorld()->GetTimerManager().SetTimer(JumpTimerHandle, this, &AProtagClass::ReverseAnim, GetSprite()->GetFlipbookLength() * 2.f, false);
-	GetSprite()->SetLooping(false);
-	Super::Jump();
-}
-
-void AProtagClass::ReverseAnim()
-{
-	// Clear the timer
-	GetWorld()->GetTimerManager().ClearTimer(JumpTimerHandle);
-	D("Timer went off");
-	GetSprite()->ReverseFromEnd(); // Reverse the flipbook
-	GetWorld()->GetTimerManager().SetTimer(FallingTimerHandle, this, &AProtagClass::turnOffJumping, 0.3f, false);
-	
-}
-
-void AProtagClass::turnOffJumping()
-{
-	D("HITTTT");
-	isJumping = false;
-	GetWorld()->GetTimerManager().ClearTimer(FallingTimerHandle);
-}
 
 
-// Rotate the Camera + 90 degrees
-void AProtagClass::RotateCamPlus()
-{
-	D("+ ROT CAM");
-	
-	// Update the cam arm's relative rotation
-	CamBoom->AddRelativeRotation(FRotator(0.f, 90.f, 0.f));
-	// Update what direction input will move player
-	AddControllerYawInput(180.0f);
-	AddControllerPitchInput(180.0f);
-
-}
-
-void AProtagClass::RotateCamMinus()
-{
-	D("- ROT CAM");
-
-	// Update the cam arm's relative rotation
-	CamBoom->AddRelativeRotation(FRotator(0.f, -90.f, 0.f));
-	// Update what direction input will move player
-	AddControllerYawInput(-180.0f);
-	AddControllerPitchInput(-180.0f);
-}
-
+//----- Bound Functions for Actions
+// When the left mouse button is clicked call this method
 void AProtagClass::cursorClick()
 {
 	APlayerController* PC = GetWorld()->GetFirstPlayerController();
@@ -189,6 +138,35 @@ void AProtagClass::cursorClick()
 	}
 }
 
+// Called when the player uses the jump action
+void AProtagClass::Jump()
+{
+	isJumping = true;
+	GetSprite()->SetFlipbook(FBjump);
+	GetSprite()->PlayFromStart(); // Restart the flipbook
+	GetWorld()->GetTimerManager().SetTimer(JumpTimerHandle, this, &AProtagClass::ReverseAnim, GetSprite()->GetFlipbookLength() * 2.f, false);
+	GetSprite()->SetLooping(false);
+	Super::Jump();
+}
+// Used with Jumping, reverse the animation
+void AProtagClass::ReverseAnim()
+{
+	// Clear the timer
+	GetWorld()->GetTimerManager().ClearTimer(JumpTimerHandle);
+	D("Timer went off");
+	GetSprite()->ReverseFromEnd(); // Reverse the flipbook
+	GetWorld()->GetTimerManager().SetTimer(FallingTimerHandle, this, &AProtagClass::turnOffJumping, 0.3f, false);
+
+}
+// Used with Jumping, Turn off the isJumping Boolean
+void AProtagClass::turnOffJumping()
+{
+	D("HITTTT");
+	isJumping = false;
+	GetWorld()->GetTimerManager().ClearTimer(FallingTimerHandle);
+}
+
+//----- Movement Functions
 // Override the Parent Classe's moveRight() function
 void AProtagClass::moveRight(float axisValue)
 {
@@ -230,7 +208,7 @@ void AProtagClass::moveRight(float axisValue)
 	// add movement in that direction
 	AddMovementInput(Direction, axisValue);
 }
-
+// Override the Parent Classe's moveForward() function
 void AProtagClass::moveForward(float axisValue)
 {
 	if (!isJumping)
@@ -272,8 +250,8 @@ void AProtagClass::moveForward(float axisValue)
 	AddMovementInput(Direction, axisValue);
 }
 
-
-UFUNCTION()
+//----- Collision Related Functions
+// When the Sight Collider Overlaps another component this function is called
 void AProtagClass::inSight(UPrimitiveComponent* OverlappedComponent, AActor* OtherActor, UPrimitiveComponent* OtherComp, int32 OtherBodyIndex, bool bFromSweep, const FHitResult & SweepResult)
 {
 	D("Player Vision Sphere Hit");
@@ -290,7 +268,7 @@ void AProtagClass::inSight(UPrimitiveComponent* OverlappedComponent, AActor* Oth
 	
 }
 
-UFUNCTION()
+// When the character's root component (capsule component) is hit call this function
 void AProtagClass::charHit(UPrimitiveComponent * HitComponent, AActor * OtherActor, UPrimitiveComponent * OtherComp, FVector NormalImpulse, const FHitResult & Hit)
 {
 	
@@ -298,7 +276,10 @@ void AProtagClass::charHit(UPrimitiveComponent * HitComponent, AActor * OtherAct
 
 }
 
-void AProtagClass::startTurn() {
+//----- Turn Functions
+// Called when turn is started
+void AProtagClass::startTurn() 
+{
 	APlayerController* PC = GetWorld()->GetFirstPlayerController();
 	turnAP = maxTurnAP;
 	lastRecordedLocation = GetActorLocation();
@@ -315,4 +296,30 @@ void AProtagClass::endTurn()
 	DisableInput(PC);
 	isTurn = false;
 	Super::endTurn();
+}
+
+//----- Camera Functions
+// Rotate the Camera + 90 degrees
+void AProtagClass::RotateCamPlus()
+{
+	D("+ ROT CAM");
+
+	// Update the cam arm's relative rotation
+	CamBoom->AddRelativeRotation(FRotator(0.f, 90.f, 0.f));
+	// Update what direction input will move player
+	AddControllerYawInput(180.0f);
+	AddControllerPitchInput(180.0f);
+
+}
+
+// Rotate the Camera - 90 degrees
+void AProtagClass::RotateCamMinus()
+{
+	D("- ROT CAM");
+
+	// Update the cam arm's relative rotation
+	CamBoom->AddRelativeRotation(FRotator(0.f, -90.f, 0.f));
+	// Update what direction input will move player
+	AddControllerYawInput(-180.0f);
+	AddControllerPitchInput(-180.0f);
 }
