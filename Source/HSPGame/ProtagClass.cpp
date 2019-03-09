@@ -33,6 +33,7 @@ void AProtagClass::BeginPlay()
 	Super::BeginPlay(); // Super call
 
 	canAttack = false;
+	currentAttack = "";
 	isInside = false;
 	//Houses with side doors
 	isInsideHorizontal = false;
@@ -116,23 +117,42 @@ void AProtagClass::cursorClick()
 	
 	// D(FString::SanitizeFloat(CursorClickLoc.X));
 
-	if (canAttack) {
+	// Attack if the player can
+	if (canAttack) 
+	{
+		TSubclassOf<class AAttacks> atkToSpawn;
+		FVector atkSpawnLoc;
+		FRotator atkSpawnRot;
 
-		if (magicAttack)
+		// Set the attack to spawn
+		if ( currentAttack == FString(TEXT("Darkwhirl")) && magicAttack)
 		{
+			atkToSpawn = magicAttack;
+			// Move the attack location slightly off the ground
+			atkSpawnLoc = FVector(CursorClickLoc.X, CursorClickLoc.Y, CursorClickLoc.Z + 15.f);
+			atkSpawnRot = GetActorRotation();
+			
+		}
+		else if (currentAttack == FString(TEXT("Fireball")) && atk_fireball)
+		{
+			atkToSpawn = atk_fireball;
+			atkSpawnLoc = GetActorLocation();
+			atkSpawnRot = (CursorClickLoc - atkSpawnLoc).Rotation();
+		}
+		
+		// If an attack is selected and the player has enough ap spawn it
+		if (atkToSpawn && (turnAP >= atkToSpawn->GetDefaultObject<AAttacks>()->apCost))
+		{ 
 			UWorld * world = GetWorld();
 			if (world)
 			{
 				FActorSpawnParameters spawnParams;
-				spawnParams.Owner = this;
+				spawnParams.Owner = this;			
 
-				FRotator protagRot = GetActorRotation();
-				// Move the attack location slightly off the ground
-				FVector atkSpawnLoc = FVector(CursorClickLoc.X, CursorClickLoc.Y, CursorClickLoc.Z + 15.f);
-
-				// Spawn a magic attack at the cursor's location
-				world->SpawnActor(magicAttack, &atkSpawnLoc, &protagRot, spawnParams);
-				turnAP -= magicAttack->GetDefaultObject<AAttacks>()->apCost;
+				// Spawn a attack using the previously defined settings
+				world->SpawnActor(atkToSpawn, &atkSpawnLoc, &atkSpawnRot, spawnParams);
+				// Subtract the attacks Ap from the player
+				turnAP -= atkToSpawn->GetDefaultObject<AAttacks>()->apCost;
 			}
 		}
 	}

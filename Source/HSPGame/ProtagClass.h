@@ -45,6 +45,9 @@ public:
 	
 	UPROPERTY(EditAnywhere)
 		TSubclassOf<class AAttacks> magicAttack;
+	UPROPERTY(EditAnywhere)
+		TSubclassOf<class AAttacks> atk_fireball;
+
 	UFUNCTION(BlueprintCallable) // Allow function below to be called by blueprint of this class
 		void cursorClick();
 
@@ -76,6 +79,8 @@ public:
 	//--- Local Variables
 	UPROPERTY(BlueprintReadWrite)
 		bool canAttack;
+	UPROPERTY(BlueprintReadWrite)
+		FString currentAttack;
 	UPROPERTY(BlueprintReadWrite, EditAnywhere)
 		bool isInside;
 	UPROPERTY(BlueprintReadWrite, EditAnywhere)
