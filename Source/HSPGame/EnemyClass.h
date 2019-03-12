@@ -5,6 +5,8 @@
 #include "CoreMinimal.h"
 //#include "GameFramework/Character.h"
 #include "Base2DCharacter.h"
+#include "Kismet/GameplayStatics.h"
+#include "ProtagClass.h"
 #include "EnemyClass.generated.h"
 
 
@@ -23,8 +25,9 @@ public:
 
 	// Called every frame
 	virtual void Tick(float DeltaTime) override;
-
-	
+	float rewardExp; // Exp given for killing this character
+	virtual void die(); // override the parent function
+	virtual void takeDmg(float hitDmg); //ovveride parent function
 	
 
 

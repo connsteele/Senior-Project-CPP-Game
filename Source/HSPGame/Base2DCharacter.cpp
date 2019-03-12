@@ -52,9 +52,9 @@ void ABase2DCharacter::Tick(float DeltaTime)
 	APPercentage = turnAP / maxTurnAP;
 	healthPercentage = currHealth / maxHealth;
 
-	if (currHealth <= 0) {
+	/*if (currHealth <= 0) {
 		die();
-	}
+	}*/
 
 	
 }
@@ -114,7 +114,12 @@ void ABase2DCharacter::moveForward()
 // Called when the character dies
 void ABase2DCharacter::die() 
 {
+	// Give XP to the player
+
+	// Change the sprite to the death 
 	GetSprite()->SetFlipbook(deathAnim);
+
+
 	//UWidgetLayoutLibrary::RemoveAllWidgets(this);
 	//D("Actor is dead");
 	//Super::Destroy();

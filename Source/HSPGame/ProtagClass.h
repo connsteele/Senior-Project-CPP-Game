@@ -60,6 +60,9 @@ public:
 	virtual void endTurn();
 
 
+	void killEnemy(float gainedEXP);
+
+
 	//--- Components
 	UPROPERTY(EditAnywhere)
 		USpringArmComponent * CamBoom;
@@ -86,6 +89,8 @@ public:
 	UPROPERTY(BlueprintReadWrite, EditAnywhere)
 		bool isInsideHorizontal;
 
+	UPROPERTY(BlueprintReadOnly)
+		float playerExp;
 
 protected:
 	// Called when the game starts or when spawned

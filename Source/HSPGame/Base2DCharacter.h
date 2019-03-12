@@ -67,6 +67,7 @@ public:
 		float APPercentage;
 	FVector lastRecordedLocation; // Vector of last recorded location
 	
+	
 	FTimerHandle JumpTimerHandle;
 	FTimerHandle FallingTimerHandle;
 
@@ -97,7 +98,7 @@ public:
 	// Functions 
 	void moveRight();
 	void moveForward();
-	void die();
+	virtual void die();
 	virtual void endTurn();
 	virtual void startTurn();
 	//friend class ProtagClass; //Let protag class can direcly acces this classes vars

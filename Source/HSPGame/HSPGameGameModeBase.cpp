@@ -31,7 +31,7 @@ int get2DcharClassType(FString className)
 
 void AHSPGameGameModeBase::nextFighter() {
 	//Do out of bounds check before grabbing next fighter
-	if (activeFighterIndex == battleChars.Num()) {
+	if (activeFighterIndex >= battleChars.Num()) {
 		activeFighterIndex = 0;
 
 		//Walk through array to clean dead characters

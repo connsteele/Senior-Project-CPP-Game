@@ -77,6 +77,9 @@ void AProtagClass::BeginPlay()
 	CamBoom->bUsePawnControlRotation = false; // Dont rotate the camera arm based on the controller
 	Camera->bUsePawnControlRotation = false; // Dont rotate the camera based on the controller
 	
+
+	// Setup Exp
+	playerExp = 0;
 }
 
 // Called every frame
@@ -316,6 +319,12 @@ void AProtagClass::endTurn()
 	DisableInput(PC);
 	isTurn = false;
 	Super::endTurn();
+}
+
+void AProtagClass::killEnemy(float gainedEXP)
+{
+	playerExp += gainedEXP;
+	D("Player has" + FString::SanitizeFloat(playerExp));
 }
 
 //----- Camera Functions

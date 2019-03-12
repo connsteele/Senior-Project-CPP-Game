@@ -37,7 +37,8 @@ public:
 
 	int get2DcharClassType(FString className);
 
-	void nextFighter();
+	UFUNCTION(BlueprintCallable)
+		void nextFighter();
 
 	
 

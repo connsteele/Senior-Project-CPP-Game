@@ -15,6 +15,25 @@ void AEnemyClass::Tick(float DeltaTime)
 
 }
 
+void AEnemyClass::die()
+{
+	Super::die();
+	AProtagClass* player =  (AProtagClass*)UGameplayStatics::GetPlayerCharacter(GetWorld(), 0);
+	player->killEnemy(rewardExp);
+
+}
+
+// Called by when an attack hits an enemy
+void AEnemyClass::takeDmg(float hitDmg)
+{
+	currHealth -= hitDmg;
+
+	if (currHealth <= 0)
+	{
+		die();
+	}
+}
+
 void AEnemyClass::BeginPlay()
 {
 	Super::BeginPlay();

@@ -36,7 +36,7 @@ void AAttacks::hitCharacter(UPrimitiveComponent * OverlappedComponent, AActor * 
 	{
 		D("Attack hit an enemy");
 		AEnemyClass * enemRef = Cast<AEnemyClass>(OtherActor);
-		enemRef->currHealth -= atkDamage;
+		enemRef->takeDmg(atkDamage);
 	}
 }
 
