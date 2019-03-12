@@ -1,7 +1,6 @@
 // Fill out your copyright notice in the Description page of Project Settings.
 
 #include "HSPGameGameModeBase.h"
-#define D(x) if(GEngine){GEngine->AddOnScreenDebugMessage(-1, 2.0f, FColor::Yellow, TEXT(x));} // Debug macro
 
 
 void AHSPGameGameModeBase::addToBattle(ABase2DCharacter * addChar, FString className)

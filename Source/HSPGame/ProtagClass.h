@@ -78,6 +78,7 @@ public:
 	// Function Mapped to Rotate Camera + Action
 	void RotateCamPlus();
 	void RotateCamMinus();
+	void Talk();
 
 	//--- Local Variables
 	UPROPERTY(BlueprintReadWrite)

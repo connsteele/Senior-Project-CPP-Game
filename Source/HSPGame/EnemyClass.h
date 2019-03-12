@@ -6,7 +6,6 @@
 //#include "GameFramework/Character.h"
 #include "Base2DCharacter.h"
 #include "Kismet/GameplayStatics.h"
-#include "ProtagClass.h"
 #include "EnemyClass.generated.h"
 
 

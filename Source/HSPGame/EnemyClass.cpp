@@ -1,6 +1,7 @@
 // Fill out your copyright notice in the Description page of Project Settings.
 
 #include "EnemyClass.h"
+#include "ProtagClass.h"
 
 // Constructor
 AEnemyClass::AEnemyClass() : ABase2DCharacter()

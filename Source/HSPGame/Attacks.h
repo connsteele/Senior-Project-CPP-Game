@@ -6,7 +6,6 @@
 #include "GameFramework/Actor.h"
 #include "Components/SphereComponent.h"
 #include "Components/CapsuleComponent.h"
-#include "EnemyClass.h"
 // No Includes beneath here
 #include "Attacks.generated.h"
 

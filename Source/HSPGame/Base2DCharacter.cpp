@@ -98,6 +98,12 @@ void ABase2DCharacter::getTurnDistance()
 	}
 }
 
+void ABase2DCharacter::outOfSight(UPrimitiveComponent * OverlappedComponent, AActor * OtherActor, UPrimitiveComponent * OtherComp, int32 OtherBodyIndex)
+{
+}
+
+
+
 //----- Movement Functions
 void ABase2DCharacter::moveRight()
 {

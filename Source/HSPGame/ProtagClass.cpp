@@ -1,6 +1,7 @@
 // Fill out your copyright notice in the Description page of Project Settings.
 
 #include "ProtagClass.h"
+#include "ArmsDealerClass.h"
 #include "GameFramework/FloatingPawnMovement.h"
 
 // On Class Construction
@@ -80,6 +81,8 @@ void AProtagClass::BeginPlay()
 
 	// Setup Exp
 	playerExp = 0;
+
+	//Talk(); // temp
 }
 
 // Called every frame
@@ -105,6 +108,9 @@ void AProtagClass::SetupPlayerInputComponent(UInputComponent* PlayerInputCompone
 
 	// Binding to Jump
 	PlayerInputComponent->BindAction("JumpAction", IE_Pressed, this, &AProtagClass::Jump);
+
+	// Binding to Talk
+	PlayerInputComponent->BindAction("TalkAction", IE_Pressed, this, &AProtagClass::Talk);
 }
 
 
@@ -288,7 +294,39 @@ void AProtagClass::inSight(UPrimitiveComponent* OverlappedComponent, AActor* Oth
 		D("Player Enters Battle");
 		gameModeref->nextFighter();
 	}
+	// If arms dealer is in sight and char is not in battle
+	/*else if ((Cast<AArmsDealerClass>(OtherActor) != NULL) && (Cast<UCapsuleComponent>(OtherComp)) && (isBattling == false))
+	{
+		AArmsDealerClass * dealer = (Cast<AArmsDealerClass>(OtherActor));
+		if (dealer->canTalk == true)
+		{
+			D("Player Can talk to merchant");
+		}
+		
+	}*/
 	
+}
+
+void AProtagClass::Talk()
+{
+	TArray<AActor *> foundMerchants;
+	UGameplayStatics::GetAllActorsOfClass(GetWorld(), AArmsDealerClass::StaticClass() , foundMerchants);
+
+	for (AActor* TActor : foundMerchants)
+	{
+		
+		AArmsDealerClass * dealer = (Cast<AArmsDealerClass>(TActor));
+		if (dealer != NULL)
+		{
+			if (dealer->canTalk == true)
+			{
+				D("Talked with Merchant");
+			}
+			D("Found a Merch");
+		}
+	}
+	
+
 }
 
 // When the character's root component (capsule component) is hit call this function
