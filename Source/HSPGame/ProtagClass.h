@@ -14,6 +14,7 @@
 #include "PaperCharacter.h"
 #include "Base2DCharacter.h"
 #include "Attacks.h"
+#include "HSPGameInstance.h"
 //#include "Kismet/GameplayStatics.h" 
 #include "Math/Rotator.h"
 // No includes under this
