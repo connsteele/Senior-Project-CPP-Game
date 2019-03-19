@@ -79,8 +79,6 @@ void AProtagClass::BeginPlay()
 	Camera->bUsePawnControlRotation = false; // Dont rotate the camera based on the controller
 	
 
-	// Setup Exp
-	//playerExp = 0;
 
 	//Talk(); // temp
 }
@@ -362,9 +360,7 @@ void AProtagClass::endTurn()
 void AProtagClass::killEnemy(float gainedEXP)
 {
 	UHSPGameInstance* HGI = Cast<UHSPGameInstance>(GetGameInstance());
-	HGI->playerEXP += gainedEXP;
-	//playerExp += gainedEXP;
-	//D("Player has" + FString::SanitizeFloat(playerExp));
+	HGI->playerEXP += gainedEXP; // Get a reference to the instance and add exp
 }
 
 //----- Camera Functions

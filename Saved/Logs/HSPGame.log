@@ -898,3 +898,608 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2019.03.19-22.19.10:881][413]BlueprintLog: New page: Compile playerHud
 [2019.03.19-22.19.11:864][522]LogSlate: Window 'playerHud' being destroyed
 [2019.03.19-22.19.11:867][522]LogSlate: Window 'playerHud' being destroyed
+[2019.03.19-22.22.40:827][917]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.03.19-22.22.40:980][919]LogAssetEditorManager: Opening Asset editor for WidgetBlueprint /Game/UI/armsDealerHUD.armsDealerHUD
+[2019.03.19-22.23.00:666][607]LogSlate: Window 'armsDealerHUD' being destroyed
+[2019.03.19-22.23.00:668][607]LogSlate: Window 'armsDealerHUD' being destroyed
+[2019.03.19-22.23.25:366][470]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/Blueprints/Characters/BP_ArmsDealerClass.BP_ArmsDealerClass
+[2019.03.19-22.24.24:325][172]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UI/ShopScreen" FILE="C:/Users/gosus/Documents/CP-School/SeniorProject/gitRepos/Senior-Project-CPP-Game/Content/UI/ShopScreen.uasset" SILENT=true
+[2019.03.19-22.24.24:326][172]LogOutputDevice: Warning: 
+
+Script Stack (0 frames):
+
+[2019.03.19-22.24.38:445][172]LogStats: FPlatformStackWalk::StackWalkAndDump - 14.118 s
+[2019.03.19-22.24.38:445][172]LogOutputDevice: Error: === Handled ensure: ===
+[2019.03.19-22.24.38:445][172]LogOutputDevice: Error: 
+[2019.03.19-22.24.38:445][172]LogOutputDevice: Error: Ensure condition failed: !SeenPaths.Contains(NewPath) [File:D:\Build\++UE4\Sync\Engine\Source\Runtime\CoreUObject\Private\Misc\RedirectCollector.cpp] [Line: 219]
+[2019.03.19-22.24.38:445][172]LogOutputDevice: Error: Found circular redirect from /Game/UI/shopScreen.shopScreen to /Game/UI/shopScreen.shopScreen! Returning None instead
+[2019.03.19-22.24.38:445][172]LogOutputDevice: Error: Stack: 
+[2019.03.19-22.24.38:445][172]LogOutputDevice: Error: [Callstack] 0x00007ffd7bd4cb14 UE4Editor-CoreUObject.dll!FRedirectCollector::GetAssetPathRedirection() [d:\build\++ue4\sync\engine\source\runtime\coreuobject\private\misc\redirectcollector.cpp:219]
+[2019.03.19-22.24.38:445][172]LogOutputDevice: Error: [Callstack] 0x00007ffd7c074acf UE4Editor-CoreUObject.dll!FSoftObjectPath::PreSavePath() [d:\build\++ue4\sync\engine\source\runtime\coreuobject\private\uobject\softobjectpath.cpp:86]
+[2019.03.19-22.24.38:445][172]LogOutputDevice: Error: [Callstack] 0x00007ffd7c084d09 UE4Editor-CoreUObject.dll!FSoftObjectPath::SerializePath() [d:\build\++ue4\sync\engine\source\runtime\coreuobject\private\uobject\softobjectpath.cpp:139]
+[2019.03.19-22.24.38:445][172]LogOutputDevice: Error: [Callstack] 0x00007ffd7bd938a7 UE4Editor-CoreUObject.dll!FArchiveUObject::SerializeSoftObjectPath() [d:\build\++ue4\sync\engine\source\runtime\coreuobject\private\serialization\archiveuobject.cpp:91]
+[2019.03.19-22.24.38:445][172]LogOutputDevice: Error: [Callstack] 0x00007ffd7bd0731f UE4Editor-CoreUObject.dll!FArchiveUObjectFromStructuredArchive::operator<<() [d:\build\++ue4\sync\engine\source\runtime\coreuobject\private\serialization\archiveuobjectfromstructuredarchive.cpp:120]
+[2019.03.19-22.24.38:445][172]LogOutputDevice: Error: [Callstack] 0x00007ffd7c0849a3 UE4Editor-CoreUObject.dll!FSoftObjectPath::Serialize() [d:\build\++ue4\sync\engine\source\runtime\coreuobject\private\uobject\softobjectpath.cpp:116]
+[2019.03.19-22.24.38:445][172]LogOutputDevice: Error: [Callstack] 0x00007ffd7beb1811 UE4Editor-CoreUObject.dll!UScriptStruct::SerializeItem() [d:\build\++ue4\sync\engine\source\runtime\coreuobject\private\uobject\class.cpp:2115]
+[2019.03.19-22.24.38:445][172]LogOutputDevice: Error: [Callstack] 0x00007ffd7c02c731 UE4Editor-CoreUObject.dll!UStructProperty::SerializeItem() [d:\build\++ue4\sync\engine\source\runtime\coreuobject\private\uobject\propertystruct.cpp:130]
+[2019.03.19-22.24.38:445][172]LogOutputDevice: Error: [Callstack] 0x00007ffd7c02ca87 UE4Editor-CoreUObject.dll!FPropertyTag::SerializeTaggedProperty() [d:\build\++ue4\sync\engine\source\runtime\coreuobject\private\uobject\propertytag.cpp:224]
+[2019.03.19-22.24.38:445][172]LogOutputDevice: Error: [Callstack] 0x00007ffd7beb44ec UE4Editor-CoreUObject.dll!UStruct::SerializeTaggedProperties() [d:\build\++ue4\sync\engine\source\runtime\coreuobject\private\uobject\class.cpp:1206]
+[2019.03.19-22.24.38:445][172]LogOutputDevice: Error: [Callstack] 0x00007ffd7beb14b2 UE4Editor-CoreUObject.dll!UScriptStruct::SerializeItem() [d:\build\++ue4\sync\engine\source\runtime\coreuobject\private\uobject\class.cpp:2144]
+[2019.03.19-22.24.38:445][172]LogOutputDevice: Error: [Callstack] 0x00007ffd7c02c731 UE4Editor-CoreUObject.dll!UStructProperty::SerializeItem() [d:\build\++ue4\sync\engine\source\runtime\coreuobject\private\uobject\propertystruct.cpp:130]
+[2019.03.19-22.24.38:445][172]LogOutputDevice: Error: [Callstack] 0x00007ffd7bfba0b9 UE4Editor-CoreUObject.dll!UArrayProperty::SerializeItem() [d:\build\++ue4\sync\engine\source\runtime\coreuobject\private\uobject\propertyarray.cpp:218]
+[2019.03.19-22.24.38:445][172]LogOutputDevice: Error: [Callstack] 0x00007ffd7c02ca87 UE4Editor-CoreUObject.dll!FPropertyTag::SerializeTaggedProperty() [d:\build\++ue4\sync\engine\source\runtime\coreuobject\private\uobject\propertytag.cpp:224]
+[2019.03.19-22.24.38:445][172]LogOutputDevice: Error: [Callstack] 0x00007ffd7beb44ec UE4Editor-CoreUObject.dll!UStruct::SerializeTaggedProperties() [d:\build\++ue4\sync\engine\source\runtime\coreuobject\private\uobject\class.cpp:1206]
+[2019.03.19-22.24.38:445][172]LogOutputDevice: Error: [Callstack] 0x00007ffd7bfba8b3 UE4Editor-CoreUObject.dll!UObject::SerializeScriptProperties() [d:\build\++ue4\sync\engine\source\runtime\coreuobject\private\uobject\obj.cpp:1368]
+[2019.03.19-22.24.38:445][172]LogOutputDevice: Error: [Callstack] 0x00007ffd7bfb85cc UE4Editor-CoreUObject.dll!UObject::Serialize() [d:\build\++ue4\sync\engine\source\runtime\coreuobject\private\uobject\obj.cpp:1288]
+[2019.03.19-22.24.38:445][172]LogOutputDevice: Error: [Callstack] 0x00007ffd7bfb82c4 UE4Editor-CoreUObject.dll!UObject::Serialize() [d:\build\++ue4\sync\engine\source\runtime\coreuobject\private\uobject\obj.cpp:1201]
+[2019.03.19-22.24.38:445][172]LogOutputDevice: Error: [Callstack] 0x00007ffd586a77ba UE4Editor-Engine.dll!UBlueprintCore::Serialize() [d:\build\++ue4\sync\engine\source\runtime\engine\private\blueprint.cpp:297]
+[2019.03.19-22.24.38:445][172]LogOutputDevice: Error: [Callstack] 0x00007ffd586a7102 UE4Editor-Engine.dll!UBlueprint::Serialize() [d:\build\++ue4\sync\engine\source\runtime\engine\private\blueprint.cpp:405]
+[2019.03.19-22.24.38:445][172]LogOutputDevice: Error: [Callstack] 0x00007ffd535b3caf UE4Editor-UMGEditor.dll!UWidgetBlueprint::Serialize() [d:\build\++ue4\sync\engine\source\editor\umgeditor\private\widgetblueprint.cpp:580]
+[2019.03.19-22.24.38:445][172]LogOutputDevice: Error: [Callstack] 0x00007ffd7c00929b UE4Editor-CoreUObject.dll!FArchiveSaveTagExports::ProcessTaggedObjects() [d:\build\++ue4\sync\engine\source\runtime\coreuobject\private\uobject\savepackage.cpp:1155]
+[2019.03.19-22.24.38:445][172]LogOutputDevice: Error: [Callstack] 0x00007ffd7c0304f7 UE4Editor-CoreUObject.dll!FPackageExportTagger::TagPackageExports() [d:\build\++ue4\sync\engine\source\runtime\coreuobject\private\uobject\savepackage.cpp:2886]
+[2019.03.19-22.24.38:445][172]LogOutputDevice: Error: [Callstack] 0x00007ffd7c013fec UE4Editor-CoreUObject.dll!UPackage::Save() [d:\build\++ue4\sync\engine\source\runtime\coreuobject\private\uobject\savepackage.cpp:3776]
+[2019.03.19-22.24.38:445][172]LogOutputDevice: Error: [Callstack] 0x00007ffd56e092e6 UE4Editor-UnrealEd.dll!UEditorEngine::Save() [d:\build\++ue4\sync\engine\source\editor\unrealed\private\editorengine.cpp:4441]
+[2019.03.19-22.24.38:445][172]LogOutputDevice: Error: [Callstack] 0x00007ffd56e09d07 UE4Editor-UnrealEd.dll!UEditorEngine::SavePackage() [d:\build\++ue4\sync\engine\source\editor\unrealed\private\editorengine.cpp:4496]
+[2019.03.19-22.24.38:445][172]LogOutputDevice: Error: [Callstack] 0x00007ffd56e4dfd4 UE4Editor-UnrealEd.dll!UEditorEngine::Exec_Obj() [d:\build\++ue4\sync\engine\source\editor\unrealed\private\editorserver.cpp:4477]
+[2019.03.19-22.24.38:445][172]LogOutputDevice: Error: [Callstack] 0x00007ffd56e4a7c5 UE4Editor-UnrealEd.dll!UEditorEngine::Exec() [d:\build\++ue4\sync\engine\source\editor\unrealed\private\editorserver.cpp:5558]
+[2019.03.19-22.24.38:445][172]LogOutputDevice: Error: [Callstack] 0x00007ffd57750b33 UE4Editor-UnrealEd.dll!UUnrealEdEngine::Exec() [d:\build\++ue4\sync\engine\source\editor\unrealed\private\unrealedsrv.cpp:691]
+[2019.03.19-22.24.38:446][172]LogOutputDevice: Error: [Callstack] 0x00007ffd5721d6e4 UE4Editor-UnrealEd.dll!InternalSavePackage() [d:\build\++ue4\sync\engine\source\editor\unrealed\private\filehelpers.cpp:2911]
+[2019.03.19-22.24.38:446][172]LogOutputDevice: Error: [Callstack] 0x00007ffd5721bfe1 UE4Editor-UnrealEd.dll!InternalPromptForCheckoutAndSave() [d:\build\++ue4\sync\engine\source\editor\unrealed\private\filehelpers.cpp:3417]
+[2019.03.19-22.24.38:446][172]LogOutputDevice: Error: [Callstack] 0x00007ffd57233878 UE4Editor-UnrealEd.dll!FEditorFileUtils::PromptForCheckoutAndSave() [d:\build\++ue4\sync\engine\source\editor\unrealed\private\filehelpers.cpp:3682]
+[2019.03.19-22.24.38:446][172]LogOutputDevice: Error: [Callstack] 0x00007ffd4a84fa41 UE4Editor-AssetTools.dll!FAssetRenameManager::PerformAssetRename() [d:\build\++ue4\sync\engine\source\developer\assettools\private\assetrenamemanager.cpp:1164]
+[2019.03.19-22.24.38:446][172]LogOutputDevice: Error: [Callstack] 0x00007ffd4a816655 UE4Editor-AssetTools.dll!FAssetRenameManager::FixReferencesAndRename() [d:\build\++ue4\sync\engine\source\developer\assettools\private\assetrenamemanager.cpp:393]
+[2019.03.19-22.24.38:446][172]LogOutputDevice: Error: [Callstack] 0x00007ffd4a85dd77 UE4Editor-AssetTools.dll!FAssetRenameManager::RenameAssetsWithDialog() [d:\build\++ue4\sync\engine\source\developer\assettools\private\assetrenamemanager.cpp:236]
+[2019.03.19-22.24.38:446][172]LogOutputDevice: Error: [Callstack] 0x00007ffd49572ea5 UE4Editor-ContentBrowser.dll!ContentBrowserUtils::RenameAsset() [d:\build\++ue4\sync\engine\source\editor\contentbrowser\private\contentbrowserutils.cpp:468]
+[2019.03.19-22.24.38:446][172]LogOutputDevice: Error: [Callstack] 0x00007ffd495deb7d UE4Editor-ContentBrowser.dll!SAssetView::AssetRenameCommit() [d:\build\++ue4\sync\engine\source\editor\contentbrowser\private\sassetview.cpp:4192]
+[2019.03.19-22.24.38:446][172]LogOutputDevice: Error: [Callstack] 0x00007ffd4962fda4 UE4Editor-ContentBrowser.dll!TBaseSPMethodDelegateInstance<0,SAssetView,0,void __cdecl(TSharedPtr<FAssetViewItem,0> const & __ptr64,FString const & __ptr64,FSlateRect const & __ptr64,enum ETextCommit::Type)>::ExecuteIfSafe() [d:\build\++ue4\sync\engine\source\runtime\core\public\delegates\delegateinstancesimpl.h:355]
+[2019.03.19-22.24.38:446][172]LogOutputDevice: Error: [Callstack] 0x00007ffd4954cc8d UE4Editor-ContentBrowser.dll!SAssetViewItem::HandleNameCommitted() [d:\build\++ue4\sync\engine\source\editor\contentbrowser\private\assetviewwidgets.cpp:559]
+[2019.03.19-22.24.38:446][172]LogOutputDevice: Error: [Callstack] 0x00007ffd4952de19 UE4Editor-ContentBrowser.dll!TBaseSPMethodDelegateInstance<0,SAssetTileItem,0,void __cdecl(FText const & __ptr64,enum ETextCommit::Type)>::ExecuteIfSafe() [d:\build\++ue4\sync\engine\source\runtime\core\public\delegates\delegateinstancesimpl.h:355]
+[2019.03.19-22.24.38:446][172]LogOutputDevice: Error: [Callstack] 0x00007ffd7ffabda2 UE4Editor-Slate.dll!SInlineEditableTextBlock::OnTextBoxCommitted() [d:\build\++ue4\sync\engine\source\runtime\slate\private\widgets\text\sinlineeditabletextblock.cpp:312]
+[2019.03.19-22.24.38:446][172]LogOutputDevice: Error: [Callstack] 0x00007ffd7ff7da29 UE4Editor-Slate.dll!TBaseSPMethodDelegateInstance<0,SInlineEditableTextBlock,0,void __cdecl(FText const & __ptr64,enum ETextCommit::Type)>::ExecuteIfSafe() [d:\build\++ue4\sync\engine\source\runtime\core\public\delegates\delegateinstancesimpl.h:355]
+[2019.03.19-22.24.38:446][172]LogOutputDevice: Error: [Callstack] 0x00007ffd7ff8ba61 UE4Editor-Slate.dll!FSlateEditableTextLayout::HandleCarriageReturn() [d:\build\++ue4\sync\engine\source\runtime\slate\private\widgets\text\slateeditabletextlayout.cpp:1455]
+[2019.03.19-22.24.38:446][172]LogOutputDevice: Error: [Callstack] 0x00007ffd7ff8d23b UE4Editor-Slate.dll!FSlateEditableTextLayout::HandleKeyDown() [d:\build\++ue4\sync\engine\source\runtime\slate\private\widgets\text\slateeditabletextlayout.cpp:928]
+[2019.03.19-22.24.38:446][172]LogOutputDevice: Error: [Callstack] 0x00007ffd7ff0780d UE4Editor-Slate.dll!SEditableText::OnKeyDown() [d:\build\++ue4\sync\engine\source\runtime\slate\private\widgets\input\seditabletext.cpp:204]
+[2019.03.19-22.24.38:446][172]LogOutputDevice: Error: [Callstack] 0x00007ffd7fcf694c UE4Editor-Slate.dll!FEventRouter::Route<FReply,FEventRouter::FBubblePolicy,FKeyEvent,<lambda_2afcd964c763e269e2d1a63f3a72f846> >() [d:\build\++ue4\sync\engine\source\runtime\slate\private\framework\application\slateapplication.cpp:270]
+[2019.03.19-22.24.38:446][172]LogOutputDevice: Error: [Callstack] 0x00007ffd7fd7697c UE4Editor-Slate.dll!FSlateApplication::ProcessKeyDownEvent() [d:\build\++ue4\sync\engine\source\runtime\slate\private\framework\application\slateapplication.cpp:5097]
+[2019.03.19-22.24.38:446][172]LogOutputDevice: Error: [Callstack] 0x00007ffd7fd69a36 UE4Editor-Slate.dll!FSlateApplication::OnKeyDown() [d:\build\++ue4\sync\engine\source\runtime\slate\private\framework\application\slateapplication.cpp:5009]
+[2019.03.19-22.24.38:446][172]LogOutputDevice: Error: [Callstack] 0x00007ffd8f82daa4 UE4Editor-ApplicationCore.dll!FWindowsApplication::ProcessDeferredMessage() [d:\build\++ue4\sync\engine\source\runtime\applicationcore\private\windows\windowsapplication.cpp:1666]
+[2019.03.19-22.24.38:446][172]LogOutputDevice: Error: [Callstack] 0x00007ffd8f820de0 UE4Editor-ApplicationCore.dll!FWindowsApplication::DeferMessage() [d:\build\++ue4\sync\engine\source\runtime\applicationcore\private\windows\windowsapplication.cpp:2281]
+[2019.03.19-22.24.38:446][172]LogOutputDevice: Error: [Callstack] 0x00007ffd8f8301eb UE4Editor-ApplicationCore.dll!FWindowsApplication::ProcessMessage() [d:\build\++ue4\sync\engine\source\runtime\applicationcore\private\windows\windowsapplication.cpp:929]
+[2019.03.19-22.24.38:446][172]LogOutputDevice: Error: [Callstack] 0x00007ffd8f81ca19 UE4Editor-ApplicationCore.dll!FWindowsApplication::AppWndProc() [d:\build\++ue4\sync\engine\source\runtime\applicationcore\private\windows\windowsapplication.cpp:766]
+[2019.03.19-22.24.38:446][172]LogOutputDevice: Error: [Callstack] 0x00007ffdc2e1ca66 USER32.dll!UnknownFunction []
+[2019.03.19-22.24.38:446][172]LogOutputDevice: Error: [Callstack] 0x00007ffdc2e1c582 USER32.dll!UnknownFunction []
+[2019.03.19-22.24.38:446][172]LogOutputDevice: Error: [Callstack] 0x00007ffd8f831746 UE4Editor-ApplicationCore.dll!FWindowsPlatformApplicationMisc::PumpMessages() [d:\build\++ue4\sync\engine\source\runtime\applicationcore\private\windows\windowsplatformapplicationmisc.cpp:130]
+[2019.03.19-22.24.38:446][172]LogOutputDevice: Error: [Callstack] 0x00007ff713eb5546 UE4Editor.exe!FEngineLoop::Tick() [d:\build\++ue4\sync\engine\source\runtime\launch\private\launchengineloop.cpp:3615]
+[2019.03.19-22.24.38:446][172]LogOutputDevice: Error: [Callstack] 0x00007ff713ec596c UE4Editor.exe!GuardedMain() [d:\build\++ue4\sync\engine\source\runtime\launch\private\launch.cpp:174]
+[2019.03.19-22.24.38:446][172]LogOutputDevice: Error: [Callstack] 0x00007ff713ec59ea UE4Editor.exe!GuardedMainWrapper() [d:\build\++ue4\sync\engine\source\runtime\launch\private\windows\launchwindows.cpp:145]
+[2019.03.19-22.24.38:446][172]LogOutputDevice: Error: [Callstack] 0x00007ff713ed48da UE4Editor.exe!WinMain() [d:\build\++ue4\sync\engine\source\runtime\launch\private\windows\launchwindows.cpp:276]
+[2019.03.19-22.24.38:446][172]LogOutputDevice: Error: [Callstack] 0x00007ff713ed659a UE4Editor.exe!__scrt_common_main_seh() [f:\dd\vctools\crt\vcstartup\src\startup\exe_common.inl:283]
+[2019.03.19-22.24.38:446][172]LogOutputDevice: Error: [Callstack] 0x00007ffdc25481f4 KERNEL32.DLL!UnknownFunction []
+[2019.03.19-22.24.38:446][172]LogOutputDevice: Error: [Callstack] 0x00007ffdc304a251 ntdll.dll!UnknownFunction []
+[2019.03.19-22.24.38:446][172]LogOutputDevice: Error: 
+[2019.03.19-22.24.38:448][172]LogStats:                SubmitErrorReport -  0.000 s
+[2019.03.19-22.24.39:299][172]LogStats:                    SendNewReport -  0.852 s
+[2019.03.19-22.24.39:299][172]LogStats:             FDebug::EnsureFailed - 14.973 s
+[2019.03.19-22.24.39:310][172]LogSavePackage: Moving 'C:/Users/gosus/Documents/CP-School/SeniorProject/gitRepos/Senior-Project-CPP-Game/Saved/ShopScreen9834090F4AF42B6CD8524BA8C10E2805.tmp' to 'C:/Users/gosus/Documents/CP-School/SeniorProject/gitRepos/Senior-Project-CPP-Game/Content/UI/ShopScreen.uasset'
+[2019.03.19-22.24.42:622][527]LogAssetEditorManager: Opening Asset editor for WidgetBlueprint /Game/UI/ShopScreen.shopScreen
+[2019.03.19-22.26.40:522][295]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Levels/DemoTown' took 0.031
+[2019.03.19-22.26.40:523][295]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/UI/ShopScreen] ([1] browsable assets)...
+[2019.03.19-22.26.40:523][295]OBJ SavePackage: Finished generating thumbnails for package [/Game/UI/ShopScreen]
+[2019.03.19-22.26.40:553][295]LogSavePackage: Moving 'C:/Users/gosus/Documents/CP-School/SeniorProject/gitRepos/Senior-Project-CPP-Game/Saved/ShopScreen_Auto2F4DA986A4B210B00A1F91E89ACD176F5.tmp' to 'C:/Users/gosus/Documents/CP-School/SeniorProject/gitRepos/Senior-Project-CPP-Game/Saved/Autosaves/Game/UI/ShopScreen_Auto2.uasset'
+[2019.03.19-22.26.40:554][295]LogFileHelpers: Auto-saving content packages took 0.031
+[2019.03.19-22.29.04:961][712]Candidate modules for hot reload:
+[2019.03.19-22.29.04:961][712]  HSPGame
+[2019.03.19-22.29.04:961][712]Launching UnrealBuildTool... [G:/Games/Epic/Games/UE_4.21/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=HSPGame,3144 Win64 Development -TargetType=Editor -Project="C:/Users/gosus/Documents/CP-School/SeniorProject/gitRepos/Senior-Project-CPP-Game/HSPGame.uproject" -canskiplink "C:/Users/gosus/Documents/CP-School/SeniorProject/gitRepos/Senior-Project-CPP-Game/HSPGame.uproject" ]
+[2019.03.19-22.29.04:965][712]Warning: Starting HotReload took  0.0s.
+[2019.03.19-22.29.25:232][340]CompilerResultsLog: New page: Compilation - Mar 19, 2019, 8:29:25 AM
+[2019.03.19-22.29.25:232][340]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (C:\Users\gosus\Documents\CP-School\SeniorProject\gitRepos\Senior-Project-CPP-Game).
+[2019.03.19-22.29.25:232][340]CompilerResultsLog: Creating makefile for hot reloading HSPGameEditor (source directory changed)
+[2019.03.19-22.29.25:232][340]CompilerResultsLog: Compiling game modules for hot reload
+[2019.03.19-22.29.25:232][340]CompilerResultsLog: Using Visual Studio 2017 14.16.27023 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023) and Windows 10.0.17763.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2019.03.19-22.29.25:233][340]CompilerResultsLog: Parsing headers for HSPGameEditor
+[2019.03.19-22.29.25:233][340]CompilerResultsLog:   Running UnrealHeaderTool "C:\Users\gosus\Documents\CP-School\SeniorProject\gitRepos\Senior-Project-CPP-Game\HSPGame.uproject" "C:\Users\gosus\Documents\CP-School\SeniorProject\gitRepos\Senior-Project-CPP-Game\Intermediate\Build\Win64\HSPGameEditor\Development\HSPGameEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2019.03.19-22.29.25:233][340]CompilerResultsLog: Reflection code generated for HSPGameEditor in 12.3871807 seconds
+[2019.03.19-22.29.25:233][340]CompilerResultsLog: Building 9 actions with 8 processes...
+[2019.03.19-22.29.25:233][340]CompilerResultsLog:   [1/9] HSPGameInstance.gen.cpp
+[2019.03.19-22.29.25:233][340]CompilerResultsLog:   [2/9] HSPGameInstance.cpp
+[2019.03.19-22.29.25:233][340]CompilerResultsLog:   [3/9] EnemyClass.cpp
+[2019.03.19-22.29.25:233][340]CompilerResultsLog:   [4/9] EnemySlime.cpp
+[2019.03.19-22.29.25:233][340]CompilerResultsLog:   [5/9] ProtagClass.gen.cpp
+[2019.03.19-22.29.25:234][340]CompilerResultsLog:   [6/9] EnemySlime.gen.cpp
+[2019.03.19-22.29.25:234][340]CompilerResultsLog:   [7/9] ProtagClass.cpp
+[2019.03.19-22.29.25:234][340]CompilerResultsLog:   [8/9] UE4Editor-HSPGame-3144.lib
+[2019.03.19-22.29.25:234][340]CompilerResultsLog:      Creating library C:\Users\gosus\Documents\CP-School\SeniorProject\gitRepos\Senior-Project-CPP-Game\Intermediate\Build\Win64\UE4Editor\Development\HSPGame\UE4Editor-HSPGame-3144.lib and object C:\Users\gosus\Documents\CP-School\SeniorProject\gitRepos\Senior-Project-CPP-Game\Intermediate\Build\Win64\UE4Editor\Development\HSPGame\UE4Editor-HSPGame-3144.exp
+[2019.03.19-22.29.25:234][340]CompilerResultsLog:   [9/9] UE4Editor-HSPGame-3144.dll
+[2019.03.19-22.29.25:235][340]CompilerResultsLog:      Creating library C:\Users\gosus\Documents\CP-School\SeniorProject\gitRepos\Senior-Project-CPP-Game\Intermediate\Build\Win64\UE4Editor\Development\HSPGame\UE4Editor-HSPGame-3144.suppressed.lib and object C:\Users\gosus\Documents\CP-School\SeniorProject\gitRepos\Senior-Project-CPP-Game\Intermediate\Build\Win64\UE4Editor\Development\HSPGame\UE4Editor-HSPGame-3144.suppressed.exp
+[2019.03.19-22.29.25:235][340]CompilerResultsLog: Total build time: 19.85 seconds (Parallel executor: 3.11 seconds)
+[2019.03.19-22.29.25:235][340]LogMainFrame: MainFrame: Module compiling took 20.276 seconds
+[2019.03.19-22.29.25:349][340]LogContentBrowser: Native class hierarchy updated for 'HSPGame' in 0.0006 seconds. Added 8 classes and 2 folders.
+[2019.03.19-22.29.25:353][340]Display: HotReload successful (11 functions remapped  0 scriptstructs remapped)
+[2019.03.19-22.29.25:621][340]LogContentBrowser: Native class hierarchy populated in 0.0074 seconds. Added 2660 classes and 624 folders.
+[2019.03.19-22.29.25:626][340]Display: HotReload took 20.7s.
+[2019.03.19-22.34.31:457][905]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 D:\Libraries\Pictures\Photography\2017\PixelXL\SanLuisObispo\LagunaLakePano.jpg)
+[2019.03.19-22.34.31:692][905]LogTexture: Display: Building textures: LagunaLakePano (BGRA8, 5595X1999)
+[2019.03.19-22.34.33:258][964]LogAssetEditorManager: Opening Asset editor for Texture2D /Game/Art/Backgrounds/LagunaLakePano.LagunaLakePano
+[2019.03.19-22.34.33:300][964]LogContentBrowser: Native class hierarchy updated for 'TextureEditor' in 0.0004 seconds. Added 1 classes and 2 folders.
+[2019.03.19-22.34.38:156][353]LogSavePackage: Moving 'C:/Users/gosus/Documents/CP-School/SeniorProject/gitRepos/Senior-Project-CPP-Game/Saved/LagunaLakePano7429DC5C4887C0208C04199617094A66.tmp' to 'C:/Users/gosus/Documents/CP-School/SeniorProject/gitRepos/Senior-Project-CPP-Game/Content/Art/Backgrounds/LagunaLakePano.uasset'
+[2019.03.19-22.34.43:661][979]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.03.19-22.34.47:974][469]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.03.19-22.34.50:242][702]LogSavePackage: Moving 'C:/Users/gosus/Documents/CP-School/SeniorProject/gitRepos/Senior-Project-CPP-Game/Saved/LagunaLakePanoCE2EEE4142A4AF2F6CA15E84D855B495.tmp' to 'C:/Users/gosus/Documents/CP-School/SeniorProject/gitRepos/Senior-Project-CPP-Game/Content/Art/Backgrounds/LagunaLakePano.uasset'
+[2019.03.19-22.35.14:842][292]LogEditorTransaction: Undo Animatable Property Changed
+[2019.03.19-22.35.16:034][385]LogEditorTransaction: Undo Animatable Property Changed
+[2019.03.19-22.37.13:624][581]LogBlueprint: Warning: [Compiler ] Leak Detected!  ShopBG ( Image ) still has living Slate widgets, it or the parent CanvasPanel_0 ( Canvas Panel ) is keeping them in memory.  Release all Slate resources in ReleaseSlateResources().
+[2019.03.19-22.38.44:675][937]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Levels/DemoTown' took 0.055
+[2019.03.19-22.38.44:676][937]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/UI/ShopScreen] ([1] browsable assets)...
+[2019.03.19-22.38.44:676][937]OBJ SavePackage: Finished generating thumbnails for package [/Game/UI/ShopScreen]
+[2019.03.19-22.38.44:706][937]LogSavePackage: Moving 'C:/Users/gosus/Documents/CP-School/SeniorProject/gitRepos/Senior-Project-CPP-Game/Saved/ShopScreen_Auto374A5E4CD486E3364F45470BF7A7BCE8C.tmp' to 'C:/Users/gosus/Documents/CP-School/SeniorProject/gitRepos/Senior-Project-CPP-Game/Saved/Autosaves/Game/UI/ShopScreen_Auto3.uasset'
+[2019.03.19-22.38.44:707][937]LogFileHelpers: Auto-saving content packages took 0.031
+[2019.03.19-22.40.37:099][552]LogSlate: Window 'Color Picker' being destroyed
+[2019.03.19-22.41.58:577][916]LogSlate: Window 'Color Picker' being destroyed
+[2019.03.19-22.42.04:025][384]LogSlate: Window 'Color Picker' being destroyed
+[2019.03.19-22.42.09:331][829]BlueprintLog: New page: Compile shopScreen
+[2019.03.19-22.44.19:290][750]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UI/ShopScreen" FILE="C:/Users/gosus/Documents/CP-School/SeniorProject/gitRepos/Senior-Project-CPP-Game/Content/UI/ShopScreen.uasset" SILENT=true
+[2019.03.19-22.44.19:320][750]LogSavePackage: Moving 'C:/Users/gosus/Documents/CP-School/SeniorProject/gitRepos/Senior-Project-CPP-Game/Saved/ShopScreen2ADDE9664DB744971F4A7DBC18822B5E.tmp' to 'C:/Users/gosus/Documents/CP-School/SeniorProject/gitRepos/Senior-Project-CPP-Game/Content/UI/ShopScreen.uasset'
+[2019.03.19-22.44.33:485][289]LogEditorTransaction: Undo Add Widget
+[2019.03.19-22.45.38:011][219]LogEditorTransaction: Undo Add Widget
+[2019.03.19-22.48.36:378][547]BlueprintLog: New page: Compile shopScreen
+[2019.03.19-22.48.37:242][635]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UI/ShopScreen" FILE="C:/Users/gosus/Documents/CP-School/SeniorProject/gitRepos/Senior-Project-CPP-Game/Content/UI/ShopScreen.uasset" SILENT=true
+[2019.03.19-22.48.37:271][635]LogSavePackage: Moving 'C:/Users/gosus/Documents/CP-School/SeniorProject/gitRepos/Senior-Project-CPP-Game/Saved/ShopScreen269515B84DE824BD06E255B26A22D6AC.tmp' to 'C:/Users/gosus/Documents/CP-School/SeniorProject/gitRepos/Senior-Project-CPP-Game/Content/UI/ShopScreen.uasset'
+[2019.03.19-22.48.49:226][830]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 C:\Users\gosus\Documents\CP-School\SeniorProject\Art\Backgrounds\ShopBackground.png)
+[2019.03.19-22.48.49:284][830]LogTexture: Display: Building textures: ShopBackground (AutoDXT, 3840X2160)
+[2019.03.19-22.48.51:106][885]LogAssetEditorManager: Opening Asset editor for Texture2D /Game/Art/Icons/ShopBackground.ShopBackground
+[2019.03.19-22.49.22:260][635]LogSlate: Window 'Color Picker' being destroyed
+[2019.03.19-22.49.24:438][813]LogEditorTransaction: Undo Edit Image
+[2019.03.19-22.49.24:440][813]LogOutputDevice: Warning: 
+
+Script Stack (0 frames):
+
+[2019.03.19-22.49.25:376][813]LogStats: FPlatformStackWalk::StackWalkAndDump -  0.936 s
+[2019.03.19-22.49.25:376][813]LogOutputDevice: Error: === Handled ensure: ===
+[2019.03.19-22.49.25:376][813]LogOutputDevice: Error: 
+[2019.03.19-22.49.25:376][813]LogOutputDevice: Error: Ensure condition failed: !GIsTransacting [File:D:\Build\++UE4\Sync\Engine\Source\Editor\UnrealEd\Classes\Editor/TransBuffer.h] [Line: 72]
+[2019.03.19-22.49.25:376][813]LogOutputDevice: Error: 
+[2019.03.19-22.49.25:376][813]LogOutputDevice: Error: Stack: 
+[2019.03.19-22.49.25:376][813]LogOutputDevice: Error: [Callstack] 0x00007ffd56e99a86 UE4Editor-UnrealEd.dll!UTransBuffer::BeginInternal<FTransaction>() [d:\build\++ue4\sync\engine\source\editor\unrealed\classes\editor\transbuffer.h:72]
+[2019.03.19-22.49.25:376][813]LogOutputDevice: Error: [Callstack] 0x00007ffd56e3f9aa UE4Editor-UnrealEd.dll!UEditorEngine::BeginTransaction() [d:\build\++ue4\sync\engine\source\editor\unrealed\private\editorserver.cpp:1096]
+[2019.03.19-22.49.25:376][813]LogOutputDevice: Error: [Callstack] 0x00007ffd55d0616e UE4Editor-PropertyEditor.dll!FPropertyValueImpl::ImportText() [d:\build\++ue4\sync\engine\source\editor\propertyeditor\private\propertyhandleimpl.cpp:482]
+[2019.03.19-22.49.25:376][813]LogOutputDevice: Error: [Callstack] 0x00007ffd55d06efd UE4Editor-PropertyEditor.dll!FPropertyValueImpl::ImportText() [d:\build\++ue4\sync\engine\source\editor\propertyeditor\private\propertyhandleimpl.cpp:333]
+[2019.03.19-22.49.25:376][813]LogOutputDevice: Error: [Callstack] 0x00007ffd55d06b9e UE4Editor-PropertyEditor.dll!FPropertyValueImpl::ImportText() [d:\build\++ue4\sync\engine\source\editor\propertyeditor\private\propertyhandleimpl.cpp:242]
+[2019.03.19-22.49.25:376][813]LogOutputDevice: Error: [Callstack] 0x00007ffd55d50621 UE4Editor-PropertyEditor.dll!FPropertyHandleFloat::SetValue() [d:\build\++ue4\sync\engine\source\editor\propertyeditor\private\propertyhandleimpl.cpp:3348]
+[2019.03.19-22.49.25:376][813]LogOutputDevice: Error: [Callstack] 0x00007ffd51f50f73 UE4Editor-DetailCustomizations.dll!FMathStructCustomization::SetValue<float>() [d:\build\++ue4\sync\engine\source\editor\detailcustomizations\private\mathstructcustomizations.cpp:472]
+[2019.03.19-22.49.25:376][813]LogOutputDevice: Error: [Callstack] 0x00007ffd51f4e58c UE4Editor-DetailCustomizations.dll!FMathStructCustomization::OnValueCommitted<float>() [d:\build\++ue4\sync\engine\source\editor\detailcustomizations\private\mathstructcustomizations.cpp:406]
+[2019.03.19-22.49.25:376][813]LogOutputDevice: Error: [Callstack] 0x00007ffd5200d031 UE4Editor-DetailCustomizations.dll!TBaseSPMethodDelegateInstance<0,FMathStructCustomization,0,void __cdecl(float,enum ETextCommit::Type),TWeakPtr<IPropertyHandle,0> >::ExecuteIfSafe() [d:\build\++ue4\sync\engine\source\runtime\core\public\delegates\delegateinstancesimpl.h:355]
+[2019.03.19-22.49.25:376][813]LogOutputDevice: Error: [Callstack] 0x00007ffd51ce977a UE4Editor-DetailCustomizations.dll!SSpinBox<float>::CommitValue() [d:\build\++ue4\sync\engine\source\runtime\slate\public\widgets\input\sspinbox.h:876]
+[2019.03.19-22.49.25:376][813]LogOutputDevice: Error: [Callstack] 0x00007ffd51dee789 UE4Editor-DetailCustomizations.dll!SSpinBox<float>::TextField_OnTextCommitted() [d:\build\++ue4\sync\engine\source\runtime\slate\public\widgets\input\sspinbox.h:802]
+[2019.03.19-22.49.25:376][813]LogOutputDevice: Error: [Callstack] 0x00007ffd51d64c39 UE4Editor-DetailCustomizations.dll!TBaseSPMethodDelegateInstance<0,SSpinBox<float>,0,void __cdecl(FText const & __ptr64,enum ETextCommit::Type)>::ExecuteIfSafe() [d:\build\++ue4\sync\engine\source\runtime\core\public\delegates\delegateinstancesimpl.h:355]
+[2019.03.19-22.49.25:376][813]LogOutputDevice: Error: [Callstack] 0x00007ffd7ff8c40e UE4Editor-Slate.dll!FSlateEditableTextLayout::HandleFocusLost() [d:\build\++ue4\sync\engine\source\runtime\slate\private\widgets\text\slateeditabletextlayout.cpp:788]
+[2019.03.19-22.49.25:376][813]LogOutputDevice: Error: [Callstack] 0x00007ffd7fd99ca1 UE4Editor-Slate.dll!FSlateApplication::SetUserFocus() [d:\build\++ue4\sync\engine\source\runtime\slate\private\framework\application\slateapplication.cpp:2941]
+[2019.03.19-22.49.25:376][813]LogOutputDevice: Error: [Callstack] 0x00007ffd7fd30fd4 UE4Editor-Slate.dll!FSlateApplication::ClearKeyboardFocus() [d:\build\++ue4\sync\engine\source\runtime\slate\private\framework\application\slateapplication.cpp:2687]
+[2019.03.19-22.49.25:377][813]LogOutputDevice: Error: [Callstack] 0x00007ffd53493f5c UE4Editor-UMGEditor.dll!SWidgetDetailsView::ClearFocusIfOwned() [d:\build\++ue4\sync\engine\source\editor\umgeditor\private\details\swidgetdetailsview.cpp:295]
+[2019.03.19-22.49.25:377][813]LogOutputDevice: Error: [Callstack] 0x00007ffd535625d2 UE4Editor-UMGEditor.dll!SWidgetDetailsView::OnEditorSelectionChanging() [d:\build\++ue4\sync\engine\source\editor\umgeditor\private\details\swidgetdetailsview.cpp:215]
+[2019.03.19-22.49.25:377][813]LogOutputDevice: Error: [Callstack] 0x00007ffd534f9276 UE4Editor-UMGEditor.dll!TBaseRawMethodDelegateInstance<0,SWidgetDetailsView,void __cdecl(void)>::ExecuteIfSafe() [d:\build\++ue4\sync\engine\source\runtime\core\public\delegates\delegateinstancesimpl.h:518]
+[2019.03.19-22.49.25:377][813]LogOutputDevice: Error: [Callstack] 0x00007ffd534892b4 UE4Editor-UMGEditor.dll!TBaseMulticastDelegate<void>::Broadcast() [d:\build\++ue4\sync\engine\source\runtime\core\public\delegates\delegatesignatureimpl.inl:974]
+[2019.03.19-22.49.25:377][813]LogOutputDevice: Error: [Callstack] 0x00007ffd53595d29 UE4Editor-UMGEditor.dll!FWidgetBlueprintEditor::RefreshPreview() [d:\build\++ue4\sync\engine\source\editor\umgeditor\private\widgetblueprinteditor.cpp:840]
+[2019.03.19-22.49.25:377][813]LogOutputDevice: Error: [Callstack] 0x00007ffd5355a4ab UE4Editor-UMGEditor.dll!FWidgetBlueprintEditor::OnBlueprintChangedImpl() [d:\build\++ue4\sync\engine\source\editor\umgeditor\private\widgetblueprinteditor.cpp:370]
+[2019.03.19-22.49.25:377][813]LogOutputDevice: Error: [Callstack] 0x00007ffd56200899 UE4Editor-Kismet.dll!TBaseSPMethodDelegateInstance<0,FBlueprintEditor,0,void __cdecl(UBlueprint * __ptr64)>::ExecuteIfSafe() [d:\build\++ue4\sync\engine\source\runtime\core\public\delegates\delegateinstancesimpl.h:355]
+[2019.03.19-22.49.25:377][813]LogOutputDevice: Error: [Callstack] 0x00007ffd58261e33 UE4Editor-Engine.dll!TBaseMulticastDelegate<void,UBlueprint * __ptr64>::Broadcast() [d:\build\++ue4\sync\engine\source\runtime\core\public\delegates\delegatesignatureimpl.inl:974]
+[2019.03.19-22.49.25:377][813]LogOutputDevice: Error: [Callstack] 0x00007ffd57227892 UE4Editor-UnrealEd.dll!FBlueprintEditorUtils::MarkBlueprintAsStructurallyModified() [d:\build\++ue4\sync\engine\source\editor\unrealed\private\kismet2\blueprinteditorutils.cpp:2178]
+[2019.03.19-22.49.25:377][813]LogOutputDevice: Error: [Callstack] 0x00007ffd562061cd UE4Editor-Kismet.dll!FixSubObjectReferencesPostUndoRedo() [d:\build\++ue4\sync\engine\source\editor\kismet\private\blueprinteditormodule.cpp:139]
+[2019.03.19-22.49.25:377][813]LogOutputDevice: Error: [Callstack] 0x00007ffd56e3ffdd UE4Editor-UnrealEd.dll!UEditorEngine::BroadcastPostUndoRedo() [d:\build\++ue4\sync\engine\source\editor\unrealed\private\editorserver.cpp:5120]
+[2019.03.19-22.49.25:377][813]LogOutputDevice: Error: [Callstack] 0x00007ffd56e6acf6 UE4Editor-UnrealEd.dll!UEditorEngine::HandleTransactorRedoUndo() [d:\build\++ue4\sync\engine\source\editor\unrealed\private\editorserver.cpp:1195]
+[2019.03.19-22.49.25:377][813]LogOutputDevice: Error: [Callstack] 0x00007ffd56e5140c UE4Editor-UnrealEd.dll!TBaseUObjectMethodDelegateInstance<0,UEditorEngine,void __cdecl(FTransactionContext const & __ptr64,bool)>::ExecuteIfSafe() [d:\build\++ue4\sync\engine\source\runtime\core\public\delegates\delegateinstancesimpl.h:679]
+[2019.03.19-22.49.25:377][813]LogOutputDevice: Error: [Callstack] 0x00007ffd56ebb427 UE4Editor-UnrealEd.dll!TBaseMulticastDelegate<void,FTransactionContext const & __ptr64,bool>::Broadcast() [d:\build\++ue4\sync\engine\source\runtime\core\public\delegates\delegatesignatureimpl.inl:974]
+[2019.03.19-22.49.25:377][813]LogOutputDevice: Error: [Callstack] 0x00007ffd56eff72f UE4Editor-UnrealEd.dll!UTransBuffer::Undo() [d:\build\++ue4\sync\engine\source\editor\unrealed\private\editortransaction.cpp:1341]
+[2019.03.19-22.49.25:377][813]LogOutputDevice: Error: [Callstack] 0x00007ffd56e9726f UE4Editor-UnrealEd.dll!UEditorEngine::UndoTransaction() [d:\build\++ue4\sync\engine\source\editor\unrealed\private\editorserver.cpp:1410]
+[2019.03.19-22.49.25:377][813]LogOutputDevice: Error: [Callstack] 0x00007ffd56201168 UE4Editor-Kismet.dll!TBaseSPMethodDelegateInstance<0,FBlueprintEditor,0,void __cdecl(void)>::ExecuteIfSafe() [d:\build\++ue4\sync\engine\source\runtime\core\public\delegates\delegateinstancesimpl.h:355]
+[2019.03.19-22.49.25:377][813]LogOutputDevice: Error: [Callstack] 0x00007ffd7fd3206f UE4Editor-Slate.dll!FUICommandList::ConditionalProcessCommandBindings() [d:\build\++ue4\sync\engine\source\runtime\slate\private\framework\commands\uicommandlist.cpp:216]
+[2019.03.19-22.49.25:377][813]LogOutputDevice: Error: [Callstack] 0x00007ffd7fd74c8e UE4Editor-Slate.dll!FUICommandList::ProcessCommandBindings() [d:\build\++ue4\sync\engine\source\runtime\slate\private\framework\commands\uicommandlist.cpp:160]
+[2019.03.19-22.49.25:377][813]LogOutputDevice: Error: [Callstack] 0x00007ffd57716d1e UE4Editor-UnrealEd.dll!FBaseToolkit::ProcessCommandBindings() [d:\build\++ue4\sync\engine\source\editor\unrealed\private\toolkits\basetoolkit.cpp:74]
+[2019.03.19-22.49.25:377][813]LogOutputDevice: Error: [Callstack] 0x00007ffd57704cb8 UE4Editor-UnrealEd.dll!SStandaloneAssetEditorToolkitHost::OnKeyDown() [d:\build\++ue4\sync\engine\source\editor\unrealed\private\toolkits\sstandaloneasseteditortoolkithost.cpp:324]
+[2019.03.19-22.49.25:377][813]LogOutputDevice: Error: [Callstack] 0x00007ffd7fcf694c UE4Editor-Slate.dll!FEventRouter::Route<FReply,FEventRouter::FBubblePolicy,FKeyEvent,<lambda_2afcd964c763e269e2d1a63f3a72f846> >() [d:\build\++ue4\sync\engine\source\runtime\slate\private\framework\application\slateapplication.cpp:270]
+[2019.03.19-22.49.25:377][813]LogOutputDevice: Error: [Callstack] 0x00007ffd7fd7697c UE4Editor-Slate.dll!FSlateApplication::ProcessKeyDownEvent() [d:\build\++ue4\sync\engine\source\runtime\slate\private\framework\application\slateapplication.cpp:5097]
+[2019.03.19-22.49.25:377][813]LogOutputDevice: Error: [Callstack] 0x00007ffd7fd69a36 UE4Editor-Slate.dll!FSlateApplication::OnKeyDown() [d:\build\++ue4\sync\engine\source\runtime\slate\private\framework\application\slateapplication.cpp:5009]
+[2019.03.19-22.49.25:377][813]LogOutputDevice: Error: [Callstack] 0x00007ffd8f82daa4 UE4Editor-ApplicationCore.dll!FWindowsApplication::ProcessDeferredMessage() [d:\build\++ue4\sync\engine\source\runtime\applicationcore\private\windows\windowsapplication.cpp:1666]
+[2019.03.19-22.49.25:377][813]LogOutputDevice: Error: [Callstack] 0x00007ffd8f820de0 UE4Editor-ApplicationCore.dll!FWindowsApplication::DeferMessage() [d:\build\++ue4\sync\engine\source\runtime\applicationcore\private\windows\windowsapplication.cpp:2281]
+[2019.03.19-22.49.25:377][813]LogOutputDevice: Error: [Callstack] 0x00007ffd8f8301eb UE4Editor-ApplicationCore.dll!FWindowsApplication::ProcessMessage() [d:\build\++ue4\sync\engine\source\runtime\applicationcore\private\windows\windowsapplication.cpp:929]
+[2019.03.19-22.49.25:377][813]LogOutputDevice: Error: [Callstack] 0x00007ffd8f81ca19 UE4Editor-ApplicationCore.dll!FWindowsApplication::AppWndProc() [d:\build\++ue4\sync\engine\source\runtime\applicationcore\private\windows\windowsapplication.cpp:766]
+[2019.03.19-22.49.25:377][813]LogOutputDevice: Error: [Callstack] 0x00007ffdc2e1ca66 USER32.dll!UnknownFunction []
+[2019.03.19-22.49.25:377][813]LogOutputDevice: Error: [Callstack] 0x00007ffdc2e1c582 USER32.dll!UnknownFunction []
+[2019.03.19-22.49.25:377][813]LogOutputDevice: Error: [Callstack] 0x00007ffd8f831746 UE4Editor-ApplicationCore.dll!FWindowsPlatformApplicationMisc::PumpMessages() [d:\build\++ue4\sync\engine\source\runtime\applicationcore\private\windows\windowsplatformapplicationmisc.cpp:130]
+[2019.03.19-22.49.25:377][813]LogOutputDevice: Error: [Callstack] 0x00007ff713eb5546 UE4Editor.exe!FEngineLoop::Tick() [d:\build\++ue4\sync\engine\source\runtime\launch\private\launchengineloop.cpp:3615]
+[2019.03.19-22.49.25:377][813]LogOutputDevice: Error: [Callstack] 0x00007ff713ec596c UE4Editor.exe!GuardedMain() [d:\build\++ue4\sync\engine\source\runtime\launch\private\launch.cpp:174]
+[2019.03.19-22.49.25:377][813]LogOutputDevice: Error: [Callstack] 0x00007ff713ec59ea UE4Editor.exe!GuardedMainWrapper() [d:\build\++ue4\sync\engine\source\runtime\launch\private\windows\launchwindows.cpp:145]
+[2019.03.19-22.49.25:377][813]LogOutputDevice: Error: [Callstack] 0x00007ff713ed48da UE4Editor.exe!WinMain() [d:\build\++ue4\sync\engine\source\runtime\launch\private\windows\launchwindows.cpp:276]
+[2019.03.19-22.49.25:377][813]LogOutputDevice: Error: [Callstack] 0x00007ff713ed659a UE4Editor.exe!__scrt_common_main_seh() [f:\dd\vctools\crt\vcstartup\src\startup\exe_common.inl:283]
+[2019.03.19-22.49.25:377][813]LogOutputDevice: Error: [Callstack] 0x00007ffdc25481f4 KERNEL32.DLL!UnknownFunction []
+[2019.03.19-22.49.25:377][813]LogOutputDevice: Error: [Callstack] 0x00007ffdc304a251 ntdll.dll!UnknownFunction []
+[2019.03.19-22.49.25:377][813]LogOutputDevice: Error: 
+[2019.03.19-22.49.25:381][813]LogStats:                SubmitErrorReport -  0.000 s
+[2019.03.19-22.49.26:185][813]LogStats:                    SendNewReport -  0.804 s
+[2019.03.19-22.49.26:185][813]LogStats:             FDebug::EnsureFailed -  1.744 s
+[2019.03.19-22.49.26:229][813]LogEditorTransaction: Undo Add Widget
+[2019.03.19-22.50.24:606][321]LogEditorTransaction: Undo Animatable Property Changed
+[2019.03.19-22.52.43:538][907]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Levels/DemoTown' took 0.035
+[2019.03.19-22.52.43:538][907]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/UI/ShopScreen] ([1] browsable assets)...
+[2019.03.19-22.52.43:539][907]OBJ SavePackage: Finished generating thumbnails for package [/Game/UI/ShopScreen]
+[2019.03.19-22.52.43:577][907]LogSavePackage: Moving 'C:/Users/gosus/Documents/CP-School/SeniorProject/gitRepos/Senior-Project-CPP-Game/Saved/ShopScreen_Auto4E31CEF984BF3EDFE537EB7A4B00817C6.tmp' to 'C:/Users/gosus/Documents/CP-School/SeniorProject/gitRepos/Senior-Project-CPP-Game/Saved/Autosaves/Game/UI/ShopScreen_Auto4.uasset'
+[2019.03.19-22.52.43:579][907]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Art/Icons/ShopBackground] ([1] browsable assets)...
+[2019.03.19-22.52.43:582][907]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/Art/Icons/ShopBackground.ShopBackground]
+[2019.03.19-22.52.43:582][907]OBJ SavePackage: Finished generating thumbnails for package [/Game/Art/Icons/ShopBackground]
+[2019.03.19-22.52.43:608][907]LogSavePackage: Moving 'C:/Users/gosus/Documents/CP-School/SeniorProject/gitRepos/Senior-Project-CPP-Game/Saved/ShopBackground_Auto4B8B2A1E4431CC9FA4408CC91F9663F7D.tmp' to 'C:/Users/gosus/Documents/CP-School/SeniorProject/gitRepos/Senior-Project-CPP-Game/Saved/Autosaves/Game/Art/Icons/ShopBackground_Auto4.uasset'
+[2019.03.19-22.52.43:609][907]LogFileHelpers: Auto-saving content packages took 0.072
+[2019.03.19-22.53.30:945][569]LogSavePackage: Moving 'C:/Users/gosus/Documents/CP-School/SeniorProject/gitRepos/Senior-Project-CPP-Game/Saved/ShopBackgroundF59B5A3A4F22920416149FB467C86445.tmp' to 'C:/Users/gosus/Documents/CP-School/SeniorProject/gitRepos/Senior-Project-CPP-Game/Content/Art/Backgrounds/ShopBackground.uasset'
+[2019.03.19-22.53.36:483][927]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 C:\Users\gosus\Documents\CP-School\SeniorProject\Art\Backgrounds\ShopSkillBg.jpg)
+[2019.03.19-22.53.36:487][927]LogTexture: Display: Building textures: ShopSkillBg (AutoDXT, 400X300)
+[2019.03.19-22.55.00:471][939]LogSlate: Window 'Delete Assets' being destroyed
+[2019.03.19-22.55.02:167][975]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 C:\Users\gosus\Documents\CP-School\SeniorProject\Art\Backgrounds\ShopSkillBg.jpg)
+[2019.03.19-22.55.02:178][975]LogTexture: Display: Building textures: ShopSkillBg (AutoDXT, 400X300)
+[2019.03.19-22.55.03:207][ 21]LogAssetEditorManager: Opening Asset editor for Texture2D /Game/Art/Backgrounds/ShopSkillBg.ShopSkillBg
+[2019.03.19-22.55.09:775][531]LogSavePackage: Moving 'C:/Users/gosus/Documents/CP-School/SeniorProject/gitRepos/Senior-Project-CPP-Game/Saved/ShopSkillBg2DA7E39E4299B28715438C836D2A0B4E.tmp' to 'C:/Users/gosus/Documents/CP-School/SeniorProject/gitRepos/Senior-Project-CPP-Game/Content/Art/Backgrounds/ShopSkillBg.uasset'
+[2019.03.19-22.56.17:379][580]LogEditorTransaction: Undo Move Widget
+[2019.03.19-22.56.51:401][211]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Game/UI/armsDealerHUD.armsDealerHUD:WidgetTree.CanvasPanel_0 or CanvasPanel /Game/UI/armsDealerHUD.armsDealerHUD_C:WidgetTree.CanvasPanel_0
+[2019.03.19-22.56.51:401][211]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Game/UI/armsDealerHUD.armsDealerHUD:WidgetTree.CanvasPanel_0 or CanvasPanel /Game/UI/playerHud.playerHud:WidgetTree.CanvasPanel_0
+[2019.03.19-22.56.51:401][211]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Game/UI/armsDealerHUD.armsDealerHUD:WidgetTree.CanvasPanel_0 or CanvasPanel /Game/Levels/DemoTown.DemoTown:armsDealerHUD_C_1.WidgetTree_0.CanvasPanel_0
+[2019.03.19-22.56.51:401][211]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Game/UI/armsDealerHUD.armsDealerHUD:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_24:shopScreen_C_67.WidgetTree_0.CanvasPanel_0
+[2019.03.19-22.56.51:401][211]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Game/UI/armsDealerHUD.armsDealerHUD:WidgetTree.CanvasPanel_0 or CanvasPanel /Game/UI/slimeHud.slimeHud:WidgetTree.CanvasPanel_0
+[2019.03.19-22.56.51:401][211]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Game/UI/armsDealerHUD.armsDealerHUD:WidgetTree.CanvasPanel_0 or CanvasPanel /Game/UI/slimeHud.slimeHud_C:WidgetTree.CanvasPanel_0
+[2019.03.19-22.56.51:401][211]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Game/UI/armsDealerHUD.armsDealerHUD:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_24:shopScreen_C_68.WidgetTree_0.CanvasPanel_0
+[2019.03.19-22.56.51:401][211]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Game/UI/armsDealerHUD.armsDealerHUD:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_22:armsDealerHUD_C_0.WidgetTree_0.CanvasPanel_0
+[2019.03.19-22.56.51:401][211]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Game/UI/armsDealerHUD.armsDealerHUD:WidgetTree.CanvasPanel_0 or CanvasPanel /Game/UI/ShopScreen.shopScreen:WidgetTree.CanvasPanel_0
+[2019.03.19-22.56.51:401][211]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Game/UI/armsDealerHUD.armsDealerHUD:WidgetTree.CanvasPanel_0 or CanvasPanel /Game/UI/playerHud.playerHud_C:WidgetTree.CanvasPanel_0
+[2019.03.19-22.56.51:401][211]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Game/UI/armsDealerHUD.armsDealerHUD:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_24:shopScreen_C_69.WidgetTree_0.CanvasPanel_0
+[2019.03.19-22.56.51:401][211]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Game/UI/armsDealerHUD.armsDealerHUD:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_24:shopScreen_C_70.WidgetTree_0.CanvasPanel_0
+[2019.03.19-22.56.51:401][211]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Game/UI/armsDealerHUD.armsDealerHUD:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_24:shopScreen_C_71.WidgetTree_0.CanvasPanel_0
+[2019.03.19-22.56.51:401][211]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Game/UI/armsDealerHUD.armsDealerHUD:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_24:shopScreen_C_72.WidgetTree_0.CanvasPanel_0
+[2019.03.19-22.56.51:401][211]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Game/UI/armsDealerHUD.armsDealerHUD:WidgetTree.CanvasPanel_0 or CanvasPanel /Game/UI/ShopScreen.shopScreen_C:WidgetTree.CanvasPanel_0
+[2019.03.19-22.56.51:401][211]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Game/UI/armsDealerHUD.armsDealerHUD:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_24:shopScreen_C_73.WidgetTree_0.CanvasPanel_0
+[2019.03.19-22.56.51:401][211]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Game/UI/armsDealerHUD.armsDealerHUD:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_24:shopScreen_C_74.WidgetTree_0.CanvasPanel_0
+[2019.03.19-22.56.51:401][211]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Game/UI/armsDealerHUD.armsDealerHUD:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_24:shopScreen_C_75.WidgetTree_0.CanvasPanel_0
+[2019.03.19-22.56.51:401][211]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Game/UI/armsDealerHUD.armsDealerHUD:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_24:shopScreen_C_66.WidgetTree_0.CanvasPanel_0
+[2019.03.19-22.56.51:401][211]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanelSlot /Engine/Transient.World_24:shopScreen_C_71.WidgetTree_0.CanvasPanel_0.CanvasPanelSlot_40 or CanvasPanelSlot /Engine/Transient.World_24:shopScreen_C_72.WidgetTree_0.CanvasPanel_0.CanvasPanelSlot_40
+[2019.03.19-22.56.51:401][211]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanelSlot /Engine/Transient.World_24:shopScreen_C_71.WidgetTree_0.CanvasPanel_0.CanvasPanelSlot_40 or CanvasPanelSlot /Engine/Transient.World_24:shopScreen_C_66.WidgetTree_0.CanvasPanel_0.CanvasPanelSlot_40
+[2019.03.19-22.56.51:401][211]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanelSlot /Engine/Transient.World_24:shopScreen_C_71.WidgetTree_0.CanvasPanel_0.CanvasPanelSlot_40 or CanvasPanelSlot /Engine/Transient.World_24:shopScreen_C_74.WidgetTree_0.CanvasPanel_0.CanvasPanelSlot_40
+[2019.03.19-22.56.51:401][211]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanelSlot /Engine/Transient.World_24:shopScreen_C_71.WidgetTree_0.CanvasPanel_0.CanvasPanelSlot_40 or CanvasPanelSlot /Engine/Transient.World_24:shopScreen_C_75.WidgetTree_0.CanvasPanel_0.CanvasPanelSlot_40
+[2019.03.19-22.56.51:401][211]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanelSlot /Engine/Transient.World_24:shopScreen_C_71.WidgetTree_0.CanvasPanel_0.CanvasPanelSlot_40 or CanvasPanelSlot /Engine/Transient.World_24:shopScreen_C_67.WidgetTree_0.CanvasPanel_0.CanvasPanelSlot_40
+[2019.03.19-22.56.51:401][211]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanelSlot /Engine/Transient.World_24:shopScreen_C_71.WidgetTree_0.CanvasPanel_0.CanvasPanelSlot_40 or CanvasPanelSlot /Engine/Transient.World_24:shopScreen_C_68.WidgetTree_0.CanvasPanel_0.CanvasPanelSlot_40
+[2019.03.19-22.56.51:401][211]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanelSlot /Engine/Transient.World_24:shopScreen_C_71.WidgetTree_0.CanvasPanel_0.CanvasPanelSlot_40 or CanvasPanelSlot /Engine/Transient.World_24:shopScreen_C_69.WidgetTree_0.CanvasPanel_0.CanvasPanelSlot_40
+[2019.03.19-22.56.51:401][211]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanelSlot /Engine/Transient.World_24:shopScreen_C_71.WidgetTree_0.CanvasPanel_0.CanvasPanelSlot_40 or CanvasPanelSlot /Engine/Transient.World_24:shopScreen_C_70.WidgetTree_0.CanvasPanel_0.CanvasPanelSlot_40
+[2019.03.19-22.56.51:401][211]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanelSlot /Engine/Transient.World_24:shopScreen_C_71.WidgetTree_0.CanvasPanel_0.CanvasPanelSlot_40 or CanvasPanelSlot /Game/UI/ShopScreen.shopScreen:WidgetTree.CanvasPanel_0.CanvasPanelSlot_40
+[2019.03.19-22.56.51:401][211]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanelSlot /Engine/Transient.World_24:shopScreen_C_71.WidgetTree_0.CanvasPanel_0.CanvasPanelSlot_40 or CanvasPanelSlot /Engine/Transient.World_24:shopScreen_C_73.WidgetTree_0.CanvasPanel_0.CanvasPanelSlot_40
+[2019.03.19-22.56.51:401][211]LogProperty: Warning: Illegal TEXT reference to a private object in external package (CanvasPanelSlot /Engine/Transient.World_24:shopScreen_C_71.WidgetTree_0.CanvasPanel_0.CanvasPanelSlot_40) from referencer (TextBlock /Engine/UMG/Editor/Transient.TextBlock_178).  Import failed...
+[2019.03.19-22.56.51:401][211]LogProperty: Warning: ObjectProperty /Script/UMG.Widget:Slot: unresolved reference to 'CanvasPanelSlot'"CanvasPanel_0.CanvasPanelSlot_40"''
+[2019.03.19-22.58.09:976][ 13]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Game/UI/armsDealerHUD.armsDealerHUD:WidgetTree.CanvasPanel_0 or CanvasPanel /Game/UI/armsDealerHUD.armsDealerHUD_C:WidgetTree.CanvasPanel_0
+[2019.03.19-22.58.09:976][ 13]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Game/UI/armsDealerHUD.armsDealerHUD:WidgetTree.CanvasPanel_0 or CanvasPanel /Game/UI/playerHud.playerHud:WidgetTree.CanvasPanel_0
+[2019.03.19-22.58.09:976][ 13]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Game/UI/armsDealerHUD.armsDealerHUD:WidgetTree.CanvasPanel_0 or CanvasPanel /Game/Levels/DemoTown.DemoTown:armsDealerHUD_C_1.WidgetTree_0.CanvasPanel_0
+[2019.03.19-22.58.09:976][ 13]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Game/UI/armsDealerHUD.armsDealerHUD:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_24:shopScreen_C_67.WidgetTree_0.CanvasPanel_0
+[2019.03.19-22.58.09:976][ 13]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Game/UI/armsDealerHUD.armsDealerHUD:WidgetTree.CanvasPanel_0 or CanvasPanel /Game/UI/slimeHud.slimeHud:WidgetTree.CanvasPanel_0
+[2019.03.19-22.58.09:976][ 13]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Game/UI/armsDealerHUD.armsDealerHUD:WidgetTree.CanvasPanel_0 or CanvasPanel /Game/UI/slimeHud.slimeHud_C:WidgetTree.CanvasPanel_0
+[2019.03.19-22.58.09:976][ 13]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Game/UI/armsDealerHUD.armsDealerHUD:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_24:shopScreen_C_68.WidgetTree_0.CanvasPanel_0
+[2019.03.19-22.58.09:976][ 13]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Game/UI/armsDealerHUD.armsDealerHUD:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_22:armsDealerHUD_C_0.WidgetTree_0.CanvasPanel_0
+[2019.03.19-22.58.09:976][ 13]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Game/UI/armsDealerHUD.armsDealerHUD:WidgetTree.CanvasPanel_0 or CanvasPanel /Game/UI/ShopScreen.shopScreen:WidgetTree.CanvasPanel_0
+[2019.03.19-22.58.09:976][ 13]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Game/UI/armsDealerHUD.armsDealerHUD:WidgetTree.CanvasPanel_0 or CanvasPanel /Game/UI/playerHud.playerHud_C:WidgetTree.CanvasPanel_0
+[2019.03.19-22.58.09:976][ 13]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Game/UI/armsDealerHUD.armsDealerHUD:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_24:shopScreen_C_69.WidgetTree_0.CanvasPanel_0
+[2019.03.19-22.58.09:976][ 13]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Game/UI/armsDealerHUD.armsDealerHUD:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_24:shopScreen_C_70.WidgetTree_0.CanvasPanel_0
+[2019.03.19-22.58.09:976][ 13]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Game/UI/armsDealerHUD.armsDealerHUD:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_24:shopScreen_C_71.WidgetTree_0.CanvasPanel_0
+[2019.03.19-22.58.09:976][ 13]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Game/UI/armsDealerHUD.armsDealerHUD:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_24:shopScreen_C_72.WidgetTree_0.CanvasPanel_0
+[2019.03.19-22.58.09:976][ 13]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Game/UI/armsDealerHUD.armsDealerHUD:WidgetTree.CanvasPanel_0 or CanvasPanel /Game/UI/ShopScreen.shopScreen_C:WidgetTree.CanvasPanel_0
+[2019.03.19-22.58.09:976][ 13]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Game/UI/armsDealerHUD.armsDealerHUD:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_24:shopScreen_C_73.WidgetTree_0.CanvasPanel_0
+[2019.03.19-22.58.09:976][ 13]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Game/UI/armsDealerHUD.armsDealerHUD:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_24:shopScreen_C_74.WidgetTree_0.CanvasPanel_0
+[2019.03.19-22.58.09:976][ 13]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Game/UI/armsDealerHUD.armsDealerHUD:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_24:shopScreen_C_75.WidgetTree_0.CanvasPanel_0
+[2019.03.19-22.58.09:976][ 13]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Game/UI/armsDealerHUD.armsDealerHUD:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_24:shopScreen_C_76.WidgetTree_0.CanvasPanel_0
+[2019.03.19-22.58.09:976][ 13]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Game/UI/armsDealerHUD.armsDealerHUD:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_24:shopScreen_C_77.WidgetTree_0.CanvasPanel_0
+[2019.03.19-22.58.09:976][ 13]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Game/UI/armsDealerHUD.armsDealerHUD:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_24:shopScreen_C_78.WidgetTree_0.CanvasPanel_0
+[2019.03.19-22.58.09:976][ 13]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Game/UI/armsDealerHUD.armsDealerHUD:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_24:shopScreen_C_66.WidgetTree_0.CanvasPanel_0
+[2019.03.19-22.58.09:976][ 13]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanelSlot /Engine/Transient.World_24:shopScreen_C_71.WidgetTree_0.CanvasPanel_0.CanvasPanelSlot_40 or CanvasPanelSlot /Engine/Transient.World_24:shopScreen_C_72.WidgetTree_0.CanvasPanel_0.CanvasPanelSlot_40
+[2019.03.19-22.58.09:976][ 13]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanelSlot /Engine/Transient.World_24:shopScreen_C_71.WidgetTree_0.CanvasPanel_0.CanvasPanelSlot_40 or CanvasPanelSlot /Engine/Transient.World_24:shopScreen_C_66.WidgetTree_0.CanvasPanel_0.CanvasPanelSlot_40
+[2019.03.19-22.58.09:976][ 13]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanelSlot /Engine/Transient.World_24:shopScreen_C_71.WidgetTree_0.CanvasPanel_0.CanvasPanelSlot_40 or CanvasPanelSlot /Engine/Transient.World_24:shopScreen_C_74.WidgetTree_0.CanvasPanel_0.CanvasPanelSlot_40
+[2019.03.19-22.58.09:976][ 13]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanelSlot /Engine/Transient.World_24:shopScreen_C_71.WidgetTree_0.CanvasPanel_0.CanvasPanelSlot_40 or CanvasPanelSlot /Engine/Transient.World_24:shopScreen_C_75.WidgetTree_0.CanvasPanel_0.CanvasPanelSlot_40
+[2019.03.19-22.58.09:976][ 13]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanelSlot /Engine/Transient.World_24:shopScreen_C_71.WidgetTree_0.CanvasPanel_0.CanvasPanelSlot_40 or CanvasPanelSlot /Engine/Transient.World_24:shopScreen_C_76.WidgetTree_0.CanvasPanel_0.CanvasPanelSlot_40
+[2019.03.19-22.58.09:976][ 13]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanelSlot /Engine/Transient.World_24:shopScreen_C_71.WidgetTree_0.CanvasPanel_0.CanvasPanelSlot_40 or CanvasPanelSlot /Engine/Transient.World_24:shopScreen_C_77.WidgetTree_0.CanvasPanel_0.CanvasPanelSlot_40
+[2019.03.19-22.58.09:976][ 13]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanelSlot /Engine/Transient.World_24:shopScreen_C_71.WidgetTree_0.CanvasPanel_0.CanvasPanelSlot_40 or CanvasPanelSlot /Engine/Transient.World_24:shopScreen_C_78.WidgetTree_0.CanvasPanel_0.CanvasPanelSlot_40
+[2019.03.19-22.58.09:976][ 13]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanelSlot /Engine/Transient.World_24:shopScreen_C_71.WidgetTree_0.CanvasPanel_0.CanvasPanelSlot_40 or CanvasPanelSlot /Engine/Transient.World_24:shopScreen_C_67.WidgetTree_0.CanvasPanel_0.CanvasPanelSlot_40
+[2019.03.19-22.58.09:976][ 13]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanelSlot /Engine/Transient.World_24:shopScreen_C_71.WidgetTree_0.CanvasPanel_0.CanvasPanelSlot_40 or CanvasPanelSlot /Engine/Transient.World_24:shopScreen_C_68.WidgetTree_0.CanvasPanel_0.CanvasPanelSlot_40
+[2019.03.19-22.58.09:976][ 13]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanelSlot /Engine/Transient.World_24:shopScreen_C_71.WidgetTree_0.CanvasPanel_0.CanvasPanelSlot_40 or CanvasPanelSlot /Engine/Transient.World_24:shopScreen_C_69.WidgetTree_0.CanvasPanel_0.CanvasPanelSlot_40
+[2019.03.19-22.58.09:976][ 13]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanelSlot /Engine/Transient.World_24:shopScreen_C_71.WidgetTree_0.CanvasPanel_0.CanvasPanelSlot_40 or CanvasPanelSlot /Engine/Transient.World_24:shopScreen_C_70.WidgetTree_0.CanvasPanel_0.CanvasPanelSlot_40
+[2019.03.19-22.58.09:976][ 13]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanelSlot /Engine/Transient.World_24:shopScreen_C_71.WidgetTree_0.CanvasPanel_0.CanvasPanelSlot_40 or CanvasPanelSlot /Game/UI/ShopScreen.shopScreen:WidgetTree.CanvasPanel_0.CanvasPanelSlot_40
+[2019.03.19-22.58.09:976][ 13]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanelSlot /Engine/Transient.World_24:shopScreen_C_71.WidgetTree_0.CanvasPanel_0.CanvasPanelSlot_40 or CanvasPanelSlot /Engine/Transient.World_24:shopScreen_C_73.WidgetTree_0.CanvasPanel_0.CanvasPanelSlot_40
+[2019.03.19-22.58.09:976][ 13]LogProperty: Warning: Illegal TEXT reference to a private object in external package (CanvasPanelSlot /Engine/Transient.World_24:shopScreen_C_71.WidgetTree_0.CanvasPanel_0.CanvasPanelSlot_40) from referencer (TextBlock /Engine/UMG/Editor/Transient.TextBlock_178).  Import failed...
+[2019.03.19-22.58.09:976][ 13]LogProperty: Warning: ObjectProperty /Script/UMG.Widget:Slot: unresolved reference to 'CanvasPanelSlot'"CanvasPanel_0.CanvasPanelSlot_40"''
+[2019.03.19-22.58.40:551][131]LogEditorTransaction: Undo Animatable Property Changed
+[2019.03.19-22.58.41:189][165]LogEditorTransaction: Undo Animatable Property Changed
+[2019.03.19-22.59.36:118][770]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Game/UI/armsDealerHUD.armsDealerHUD:WidgetTree.CanvasPanel_0 or CanvasPanel /Game/UI/armsDealerHUD.armsDealerHUD_C:WidgetTree.CanvasPanel_0
+[2019.03.19-22.59.36:118][770]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Game/UI/armsDealerHUD.armsDealerHUD:WidgetTree.CanvasPanel_0 or CanvasPanel /Game/UI/playerHud.playerHud:WidgetTree.CanvasPanel_0
+[2019.03.19-22.59.36:118][770]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Game/UI/armsDealerHUD.armsDealerHUD:WidgetTree.CanvasPanel_0 or CanvasPanel /Game/Levels/DemoTown.DemoTown:armsDealerHUD_C_1.WidgetTree_0.CanvasPanel_0
+[2019.03.19-22.59.36:118][770]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Game/UI/armsDealerHUD.armsDealerHUD:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_24:shopScreen_C_86.WidgetTree_0.CanvasPanel_0
+[2019.03.19-22.59.36:118][770]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Game/UI/armsDealerHUD.armsDealerHUD:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_24:shopScreen_C_67.WidgetTree_0.CanvasPanel_0
+[2019.03.19-22.59.36:118][770]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Game/UI/armsDealerHUD.armsDealerHUD:WidgetTree.CanvasPanel_0 or CanvasPanel /Game/UI/slimeHud.slimeHud:WidgetTree.CanvasPanel_0
+[2019.03.19-22.59.36:118][770]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Game/UI/armsDealerHUD.armsDealerHUD:WidgetTree.CanvasPanel_0 or CanvasPanel /Game/UI/slimeHud.slimeHud_C:WidgetTree.CanvasPanel_0
+[2019.03.19-22.59.36:118][770]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Game/UI/armsDealerHUD.armsDealerHUD:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_24:shopScreen_C_80.WidgetTree_0.CanvasPanel_0
+[2019.03.19-22.59.36:118][770]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Game/UI/armsDealerHUD.armsDealerHUD:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_24:shopScreen_C_68.WidgetTree_0.CanvasPanel_0
+[2019.03.19-22.59.36:118][770]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Game/UI/armsDealerHUD.armsDealerHUD:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_24:shopScreen_C_82.WidgetTree_0.CanvasPanel_0
+[2019.03.19-22.59.36:118][770]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Game/UI/armsDealerHUD.armsDealerHUD:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_24:shopScreen_C_81.WidgetTree_0.CanvasPanel_0
+[2019.03.19-22.59.36:118][770]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Game/UI/armsDealerHUD.armsDealerHUD:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_22:armsDealerHUD_C_0.WidgetTree_0.CanvasPanel_0
+[2019.03.19-22.59.36:118][770]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Game/UI/armsDealerHUD.armsDealerHUD:WidgetTree.CanvasPanel_0 or CanvasPanel /Game/UI/ShopScreen.shopScreen:WidgetTree.CanvasPanel_0
+[2019.03.19-22.59.36:118][770]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Game/UI/armsDealerHUD.armsDealerHUD:WidgetTree.CanvasPanel_0 or CanvasPanel /Game/UI/playerHud.playerHud_C:WidgetTree.CanvasPanel_0
+[2019.03.19-22.59.36:118][770]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Game/UI/armsDealerHUD.armsDealerHUD:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_24:shopScreen_C_69.WidgetTree_0.CanvasPanel_0
+[2019.03.19-22.59.36:118][770]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Game/UI/armsDealerHUD.armsDealerHUD:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_24:shopScreen_C_70.WidgetTree_0.CanvasPanel_0
+[2019.03.19-22.59.36:118][770]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Game/UI/armsDealerHUD.armsDealerHUD:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_24:shopScreen_C_71.WidgetTree_0.CanvasPanel_0
+[2019.03.19-22.59.36:118][770]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Game/UI/armsDealerHUD.armsDealerHUD:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_24:shopScreen_C_72.WidgetTree_0.CanvasPanel_0
+[2019.03.19-22.59.36:118][770]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Game/UI/armsDealerHUD.armsDealerHUD:WidgetTree.CanvasPanel_0 or CanvasPanel /Game/UI/ShopScreen.shopScreen_C:WidgetTree.CanvasPanel_0
+[2019.03.19-22.59.36:118][770]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Game/UI/armsDealerHUD.armsDealerHUD:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_24:shopScreen_C_73.WidgetTree_0.CanvasPanel_0
+[2019.03.19-22.59.36:118][770]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Game/UI/armsDealerHUD.armsDealerHUD:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_24:shopScreen_C_74.WidgetTree_0.CanvasPanel_0
+[2019.03.19-22.59.36:118][770]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Game/UI/armsDealerHUD.armsDealerHUD:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_24:shopScreen_C_83.WidgetTree_0.CanvasPanel_0
+[2019.03.19-22.59.36:118][770]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Game/UI/armsDealerHUD.armsDealerHUD:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_24:shopScreen_C_75.WidgetTree_0.CanvasPanel_0
+[2019.03.19-22.59.36:118][770]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Game/UI/armsDealerHUD.armsDealerHUD:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_24:shopScreen_C_76.WidgetTree_0.CanvasPanel_0
+[2019.03.19-22.59.36:118][770]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Game/UI/armsDealerHUD.armsDealerHUD:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_24:shopScreen_C_84.WidgetTree_0.CanvasPanel_0
+[2019.03.19-22.59.36:118][770]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Game/UI/armsDealerHUD.armsDealerHUD:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_24:shopScreen_C_85.WidgetTree_0.CanvasPanel_0
+[2019.03.19-22.59.36:119][770]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Game/UI/armsDealerHUD.armsDealerHUD:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_24:shopScreen_C_87.WidgetTree_0.CanvasPanel_0
+[2019.03.19-22.59.36:119][770]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Game/UI/armsDealerHUD.armsDealerHUD:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_24:shopScreen_C_77.WidgetTree_0.CanvasPanel_0
+[2019.03.19-22.59.36:119][770]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Game/UI/armsDealerHUD.armsDealerHUD:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_24:shopScreen_C_78.WidgetTree_0.CanvasPanel_0
+[2019.03.19-22.59.36:119][770]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Game/UI/armsDealerHUD.armsDealerHUD:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_24:shopScreen_C_79.WidgetTree_0.CanvasPanel_0
+[2019.03.19-22.59.36:119][770]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Game/UI/armsDealerHUD.armsDealerHUD:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_24:shopScreen_C_66.WidgetTree_0.CanvasPanel_0
+[2019.03.19-22.59.36:119][770]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanelSlot /Engine/Transient.World_24:shopScreen_C_76.WidgetTree_0.CanvasPanel_0.CanvasPanelSlot_62 or CanvasPanelSlot /Engine/Transient.World_24:shopScreen_C_77.WidgetTree_0.CanvasPanel_0.CanvasPanelSlot_62
+[2019.03.19-22.59.36:119][770]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanelSlot /Engine/Transient.World_24:shopScreen_C_76.WidgetTree_0.CanvasPanel_0.CanvasPanelSlot_62 or CanvasPanelSlot /Engine/Transient.World_24:shopScreen_C_82.WidgetTree_0.CanvasPanel_0.CanvasPanelSlot_62
+[2019.03.19-22.59.36:119][770]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanelSlot /Engine/Transient.World_24:shopScreen_C_76.WidgetTree_0.CanvasPanel_0.CanvasPanelSlot_62 or CanvasPanelSlot /Engine/Transient.World_24:shopScreen_C_79.WidgetTree_0.CanvasPanel_0.CanvasPanelSlot_62
+[2019.03.19-22.59.36:119][770]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanelSlot /Engine/Transient.World_24:shopScreen_C_76.WidgetTree_0.CanvasPanel_0.CanvasPanelSlot_62 or CanvasPanelSlot /Engine/Transient.World_24:shopScreen_C_81.WidgetTree_0.CanvasPanel_0.CanvasPanelSlot_62
+[2019.03.19-22.59.36:119][770]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanelSlot /Engine/Transient.World_24:shopScreen_C_76.WidgetTree_0.CanvasPanel_0.CanvasPanelSlot_62 or CanvasPanelSlot /Engine/Transient.World_24:shopScreen_C_83.WidgetTree_0.CanvasPanel_0.CanvasPanelSlot_62
+[2019.03.19-22.59.36:119][770]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanelSlot /Engine/Transient.World_24:shopScreen_C_76.WidgetTree_0.CanvasPanel_0.CanvasPanelSlot_62 or CanvasPanelSlot /Engine/Transient.World_24:shopScreen_C_84.WidgetTree_0.CanvasPanel_0.CanvasPanelSlot_62
+[2019.03.19-22.59.36:119][770]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanelSlot /Engine/Transient.World_24:shopScreen_C_76.WidgetTree_0.CanvasPanel_0.CanvasPanelSlot_62 or CanvasPanelSlot /Engine/Transient.World_24:shopScreen_C_85.WidgetTree_0.CanvasPanel_0.CanvasPanelSlot_62
+[2019.03.19-22.59.36:119][770]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanelSlot /Engine/Transient.World_24:shopScreen_C_76.WidgetTree_0.CanvasPanel_0.CanvasPanelSlot_62 or CanvasPanelSlot /Game/UI/ShopScreen.shopScreen:WidgetTree.CanvasPanel_0.CanvasPanelSlot_62
+[2019.03.19-22.59.36:119][770]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanelSlot /Engine/Transient.World_24:shopScreen_C_76.WidgetTree_0.CanvasPanel_0.CanvasPanelSlot_62 or CanvasPanelSlot /Engine/Transient.World_24:shopScreen_C_66.WidgetTree_0.CanvasPanel_0.CanvasPanelSlot_62
+[2019.03.19-22.59.36:119][770]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanelSlot /Engine/Transient.World_24:shopScreen_C_76.WidgetTree_0.CanvasPanel_0.CanvasPanelSlot_62 or CanvasPanelSlot /Engine/Transient.World_24:shopScreen_C_67.WidgetTree_0.CanvasPanel_0.CanvasPanelSlot_62
+[2019.03.19-22.59.36:119][770]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanelSlot /Engine/Transient.World_24:shopScreen_C_76.WidgetTree_0.CanvasPanel_0.CanvasPanelSlot_62 or CanvasPanelSlot /Engine/Transient.World_24:shopScreen_C_70.WidgetTree_0.CanvasPanel_0.CanvasPanelSlot_62
+[2019.03.19-22.59.36:119][770]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanelSlot /Engine/Transient.World_24:shopScreen_C_76.WidgetTree_0.CanvasPanel_0.CanvasPanelSlot_62 or CanvasPanelSlot /Engine/Transient.World_24:shopScreen_C_87.WidgetTree_0.CanvasPanel_0.CanvasPanelSlot_62
+[2019.03.19-22.59.36:119][770]LogProperty: Warning: Illegal TEXT reference to a private object in external package (CanvasPanelSlot /Engine/Transient.World_24:shopScreen_C_76.WidgetTree_0.CanvasPanel_0.CanvasPanelSlot_62) from referencer (TextBlock /Engine/UMG/Editor/Transient.TextBlock_178).  Import failed...
+[2019.03.19-22.59.36:119][770]LogProperty: Warning: ObjectProperty /Script/UMG.Widget:Slot: unresolved reference to 'CanvasPanelSlot'"CanvasPanel_0.CanvasPanelSlot_62"''
+[2019.03.19-23.02.02:727][464]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UI/ShopScreen" FILE="C:/Users/gosus/Documents/CP-School/SeniorProject/gitRepos/Senior-Project-CPP-Game/Content/UI/ShopScreen.uasset" SILENT=true
+[2019.03.19-23.02.02:760][464]LogSavePackage: Moving 'C:/Users/gosus/Documents/CP-School/SeniorProject/gitRepos/Senior-Project-CPP-Game/Saved/ShopScreen24262DEC4FAB0D9824BD29BC2EA48C21.tmp' to 'C:/Users/gosus/Documents/CP-School/SeniorProject/gitRepos/Senior-Project-CPP-Game/Content/UI/ShopScreen.uasset'
+[2019.03.19-23.02.03:179][493]BlueprintLog: New page: Compile shopScreen
+[2019.03.19-23.02.39:679][881]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/Blueprints/Characters/BP_ProtagClass.BP_ProtagClass
+[2019.03.19-23.04.03:547][129]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Levels/DemoTown' took 0.032
+[2019.03.19-23.04.03:549][129]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/Characters/BP_ProtagClass] ([1] browsable assets)...
+[2019.03.19-23.04.03:549][129]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/Characters/BP_ProtagClass]
+[2019.03.19-23.04.03:645][129]LogSavePackage: Moving 'C:/Users/gosus/Documents/CP-School/SeniorProject/gitRepos/Senior-Project-CPP-Game/Saved/BP_ProtagClass_Auto5FDB198E8477049CF5CA693A45B38EC0E.tmp' to 'C:/Users/gosus/Documents/CP-School/SeniorProject/gitRepos/Senior-Project-CPP-Game/Saved/Autosaves/Game/Blueprints/Characters/BP_ProtagClass_Auto5.uasset'
+[2019.03.19-23.04.03:646][129]LogFileHelpers: Auto-saving content packages took 0.098
+[2019.03.19-23.05.03:677][180]LogEditorTransaction: Undo Move Node
+[2019.03.19-23.05.04:070][210]LogEditorTransaction: Undo Move Node
+[2019.03.19-23.05.04:497][252]LogEditorTransaction: Undo Add Node
+[2019.03.19-23.05.04:955][300]LogEditorTransaction: Undo Move Node
+[2019.03.19-23.05.05:565][365]LogEditorTransaction: Undo Add Node
+[2019.03.19-23.05.06:542][458]LogSavePackage: Moving 'C:/Users/gosus/Documents/CP-School/SeniorProject/gitRepos/Senior-Project-CPP-Game/Saved/BP_ProtagClass8EF449C94B3D1429FB3616957058897E.tmp' to 'C:/Users/gosus/Documents/CP-School/SeniorProject/gitRepos/Senior-Project-CPP-Game/Content/Blueprints/Characters/BP_ProtagClass.uasset'
+[2019.03.19-23.05.09:194][732]BlueprintLog: New page: Compile BP_ProtagClass
+[2019.03.19-23.05.10:520][839]Candidate modules for hot reload:
+[2019.03.19-23.05.10:520][839]  HSPGame
+[2019.03.19-23.05.10:520][839]Launching UnrealBuildTool... [G:/Games/Epic/Games/UE_4.21/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=HSPGame,2723 Win64 Development -TargetType=Editor -Project="C:/Users/gosus/Documents/CP-School/SeniorProject/gitRepos/Senior-Project-CPP-Game/HSPGame.uproject" -canskiplink "C:/Users/gosus/Documents/CP-School/SeniorProject/gitRepos/Senior-Project-CPP-Game/HSPGame.uproject" ]
+[2019.03.19-23.05.10:524][839]Warning: Starting HotReload took  0.0s.
+[2019.03.19-23.05.28:181][584]CompilerResultsLog: New page: Compilation - Mar 19, 2019, 9:05:28 AM
+[2019.03.19-23.05.28:181][584]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (C:\Users\gosus\Documents\CP-School\SeniorProject\gitRepos\Senior-Project-CPP-Game).
+[2019.03.19-23.05.28:181][584]CompilerResultsLog: Creating makefile for hot reloading HSPGameEditor (source directory changed)
+[2019.03.19-23.05.28:181][584]CompilerResultsLog: Compiling game modules for hot reload
+[2019.03.19-23.05.28:181][584]CompilerResultsLog: Using Visual Studio 2017 14.16.27023 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023) and Windows 10.0.17763.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2019.03.19-23.05.28:181][584]CompilerResultsLog: Parsing headers for HSPGameEditor
+[2019.03.19-23.05.28:181][584]CompilerResultsLog:   Running UnrealHeaderTool "C:\Users\gosus\Documents\CP-School\SeniorProject\gitRepos\Senior-Project-CPP-Game\HSPGame.uproject" "C:\Users\gosus\Documents\CP-School\SeniorProject\gitRepos\Senior-Project-CPP-Game\Intermediate\Build\Win64\HSPGameEditor\Development\HSPGameEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2019.03.19-23.05.28:181][584]CompilerResultsLog: Reflection code generated for HSPGameEditor in 9.7745154 seconds
+[2019.03.19-23.05.28:181][584]CompilerResultsLog: Building 8 actions with 8 processes...
+[2019.03.19-23.05.28:181][584]CompilerResultsLog:   [1/8] HSPGame.init.gen.cpp
+[2019.03.19-23.05.28:181][584]CompilerResultsLog:   [2/8] EnemyClass.cpp
+[2019.03.19-23.05.28:181][584]CompilerResultsLog:   [3/8] EnemySlime.cpp
+[2019.03.19-23.05.28:181][584]CompilerResultsLog:   [4/8] EnemySlime.gen.cpp
+[2019.03.19-23.05.28:181][584]CompilerResultsLog:   [5/8] ProtagClass.gen.cpp
+[2019.03.19-23.05.28:181][584]CompilerResultsLog:   [6/8] ProtagClass.cpp
+[2019.03.19-23.05.28:181][584]CompilerResultsLog:   [7/8] UE4Editor-HSPGame-2723.lib
+[2019.03.19-23.05.28:181][584]CompilerResultsLog:      Creating library C:\Users\gosus\Documents\CP-School\SeniorProject\gitRepos\Senior-Project-CPP-Game\Intermediate\Build\Win64\UE4Editor\Development\HSPGame\UE4Editor-HSPGame-2723.lib and object C:\Users\gosus\Documents\CP-School\SeniorProject\gitRepos\Senior-Project-CPP-Game\Intermediate\Build\Win64\UE4Editor\Development\HSPGame\UE4Editor-HSPGame-2723.exp
+[2019.03.19-23.05.28:181][584]CompilerResultsLog:   [8/8] UE4Editor-HSPGame-2723.dll
+[2019.03.19-23.05.28:181][584]CompilerResultsLog:      Creating library C:\Users\gosus\Documents\CP-School\SeniorProject\gitRepos\Senior-Project-CPP-Game\Intermediate\Build\Win64\UE4Editor\Development\HSPGame\UE4Editor-HSPGame-2723.suppressed.lib and object C:\Users\gosus\Documents\CP-School\SeniorProject\gitRepos\Senior-Project-CPP-Game\Intermediate\Build\Win64\UE4Editor\Development\HSPGame\UE4Editor-HSPGame-2723.suppressed.exp
+[2019.03.19-23.05.28:181][584]CompilerResultsLog: Total build time: 17.42 seconds (Parallel executor: 3.58 seconds)
+[2019.03.19-23.05.28:181][584]LogMainFrame: MainFrame: Module compiling took 17.665 seconds
+[2019.03.19-23.05.28:240][584]LogClass: Could not find existing class ProtagClass in package /Script/HSPGame for HotReload, assuming new class
+[2019.03.19-23.05.28:240][584]LogClass: Function charHit is new.
+[2019.03.19-23.05.28:240][584]LogClass: Function cursorClick is new.
+[2019.03.19-23.05.28:240][584]LogClass: Function inSight is new.
+[2019.03.19-23.05.28:240][584]LogClass: Function ReverseAnim is new.
+[2019.03.19-23.05.28:240][584]LogClass: Function Talk is new.
+[2019.03.19-23.05.28:240][584]LogClass: Function turnOffJumping is new.
+[2019.03.19-23.05.28:255][584]LogHotReload: Re-instancing ProtagClass after hot-reload.
+[2019.03.19-23.05.28:589][584]LogContentBrowser: Native class hierarchy updated for 'HSPGame' in 0.0003 seconds. Added 8 classes and 2 folders.
+[2019.03.19-23.05.28:593][584]Display: HotReload successful (6 functions remapped  0 scriptstructs remapped)
+[2019.03.19-23.05.28:905][584]LogContentBrowser: Native class hierarchy populated in 0.0069 seconds. Added 2661 classes and 626 folders.
+[2019.03.19-23.05.28:910][584]Display: HotReload took 18.4s.
+[2019.03.19-23.06.31:399][151]BlueprintLog: New page: Compile BP_ProtagClass
+[2019.03.19-23.06.32:102][187]LogSavePackage: Moving 'C:/Users/gosus/Documents/CP-School/SeniorProject/gitRepos/Senior-Project-CPP-Game/Saved/BP_ProtagClass0485D2BC4EE3AE6F203E5AA72786B0E2.tmp' to 'C:/Users/gosus/Documents/CP-School/SeniorProject/gitRepos/Senior-Project-CPP-Game/Content/Blueprints/Characters/BP_ProtagClass.uasset'
+[2019.03.19-23.08.55:802][838]BlueprintLog: New page: Compile BP_ProtagClass
+[2019.03.19-23.08.56:337][857]LogSavePackage: Moving 'C:/Users/gosus/Documents/CP-School/SeniorProject/gitRepos/Senior-Project-CPP-Game/Saved/BP_ProtagClass4A6DC3334275FF4568188F89CA63B5C6.tmp' to 'C:/Users/gosus/Documents/CP-School/SeniorProject/gitRepos/Senior-Project-CPP-Game/Content/Blueprints/Characters/BP_ProtagClass.uasset'
+[2019.03.19-23.08.57:334][959]LogTemp: Repeating last play command: Selected Viewport
+[2019.03.19-23.08.57:360][959]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Levels/DemoTown.DemoTown:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/DemoTown.DemoTown:PersistentLevel.DemoTown' with GeneratedClass '/Game/Levels/DemoTown.DemoTown_C' with ClassGeneratedBy '/Game/Levels/DemoTown.DemoTown:PersistentLevel.DemoTown'
+[2019.03.19-23.08.57:360][959]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.03.19-23.08.57:360][959]PIE: New page: PIE session: DemoTown (Mar 19, 2019, 9:08:57 AM)
+[2019.03.19-23.08.57:360][959]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_DemoTown
+[2019.03.19-23.08.57:386][959]LogPlayLevel: PIE: StaticDuplicateObject took: (0.025945s)
+[2019.03.19-23.08.57:386][959]LogAIModule: Creating AISystem for world DemoTown
+[2019.03.19-23.08.57:387][959]LogPlayLevel: PIE: World Init took: (0.000521s)
+[2019.03.19-23.08.57:387][959]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/DemoTown.DemoTown to /Game/Levels/UEDPIE_0_DemoTown.DemoTown (0.026597s)
+[2019.03.19-23.08.57:484][959]LogInit: XAudio2 using 'Speakers (Realtek(R) Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.03.19-23.08.57:500][959]LogInit: FAudioDevice initialized.
+[2019.03.19-23.08.57:527][959]LogLoad: Game class is 'BP_HSPGameGameModeBase_C'
+[2019.03.19-23.08.57:530][959]LogWorld: Bringing World /Game/Levels/UEDPIE_0_DemoTown.DemoTown up for play (max tick rate 0) at 2019.03.19-16.08.57
+[2019.03.19-23.08.57:530][959]LogWorld: Bringing up level for play took: 0.003540
+[2019.03.19-23.08.57:545][959]PIE: Play in editor start time for /Game/Levels/UEDPIE_0_DemoTown -0.081
+[2019.03.19-23.08.57:545][959]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Levels/DemoTown.DemoTown:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/DemoTown.DemoTown:PersistentLevel.DemoTown' with GeneratedClass '/Game/Levels/DemoTown.DemoTown_C' with ClassGeneratedBy '/Game/Levels/DemoTown.DemoTown:PersistentLevel.DemoTown'
+[2019.03.19-23.09.04:722][792]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.03.19-23.09.04:781][799]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Levels/DemoTown.DemoTown:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/DemoTown.DemoTown:PersistentLevel.DemoTown' with GeneratedClass '/Game/Levels/DemoTown.DemoTown_C' with ClassGeneratedBy '/Game/Levels/DemoTown.DemoTown:PersistentLevel.DemoTown'
+[2019.03.19-23.09.04:782][799]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.03.19-23.09.04:819][799]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.03.19-23.09.04:820][799]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Levels/DemoTown.DemoTown:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/DemoTown.DemoTown:PersistentLevel.DemoTown' with GeneratedClass '/Game/Levels/DemoTown.DemoTown_C' with ClassGeneratedBy '/Game/Levels/DemoTown.DemoTown:PersistentLevel.DemoTown'
+[2019.03.19-23.09.04:855][799]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.03.19-23.09.04:883][800]LogPlayLevel: Display: Destroying online subsystem :Context_31
+[2019.03.19-23.09.26:444][156]BlueprintLog: New page: Compile BP_ProtagClass
+[2019.03.19-23.09.27:017][177]LogSavePackage: Moving 'C:/Users/gosus/Documents/CP-School/SeniorProject/gitRepos/Senior-Project-CPP-Game/Saved/BP_ProtagClassC13C544E44451CBFD78CF4B1502611B0.tmp' to 'C:/Users/gosus/Documents/CP-School/SeniorProject/gitRepos/Senior-Project-CPP-Game/Content/Blueprints/Characters/BP_ProtagClass.uasset'
+[2019.03.19-23.09.28:523][336]LogTemp: Repeating last play command: Selected Viewport
+[2019.03.19-23.09.28:549][336]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Levels/DemoTown.DemoTown:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/DemoTown.DemoTown:PersistentLevel.DemoTown' with GeneratedClass '/Game/Levels/DemoTown.DemoTown_C' with ClassGeneratedBy '/Game/Levels/DemoTown.DemoTown:PersistentLevel.DemoTown'
+[2019.03.19-23.09.28:549][336]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.03.19-23.09.28:549][336]PIE: New page: PIE session: DemoTown (Mar 19, 2019, 9:09:28 AM)
+[2019.03.19-23.09.28:550][336]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_DemoTown
+[2019.03.19-23.09.28:575][336]LogPlayLevel: PIE: StaticDuplicateObject took: (0.025845s)
+[2019.03.19-23.09.28:576][336]LogAIModule: Creating AISystem for world DemoTown
+[2019.03.19-23.09.28:576][336]LogPlayLevel: PIE: World Init took: (0.000486s)
+[2019.03.19-23.09.28:576][336]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/DemoTown.DemoTown to /Game/Levels/UEDPIE_0_DemoTown.DemoTown (0.026446s)
+[2019.03.19-23.09.28:663][336]LogInit: XAudio2 using 'Speakers (Realtek(R) Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.03.19-23.09.28:694][336]LogInit: FAudioDevice initialized.
+[2019.03.19-23.09.28:730][336]LogLoad: Game class is 'BP_HSPGameGameModeBase_C'
+[2019.03.19-23.09.28:738][336]LogWorld: Bringing World /Game/Levels/UEDPIE_0_DemoTown.DemoTown up for play (max tick rate 0) at 2019.03.19-16.09.28
+[2019.03.19-23.09.28:739][336]LogWorld: Bringing up level for play took: 0.007759
+[2019.03.19-23.09.28:756][336]PIE: Play in editor start time for /Game/Levels/UEDPIE_0_DemoTown 1.13
+[2019.03.19-23.09.28:756][336]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Levels/DemoTown.DemoTown:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/DemoTown.DemoTown:PersistentLevel.DemoTown' with GeneratedClass '/Game/Levels/DemoTown.DemoTown_C' with ClassGeneratedBy '/Game/Levels/DemoTown.DemoTown:PersistentLevel.DemoTown'
+[2019.03.19-23.09.34:489][988]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.03.19-23.09.34:567][997]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Levels/DemoTown.DemoTown:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/DemoTown.DemoTown:PersistentLevel.DemoTown' with GeneratedClass '/Game/Levels/DemoTown.DemoTown_C' with ClassGeneratedBy '/Game/Levels/DemoTown.DemoTown:PersistentLevel.DemoTown'
+[2019.03.19-23.09.34:568][997]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.03.19-23.09.34:605][997]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.03.19-23.09.34:605][997]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Levels/DemoTown.DemoTown:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/DemoTown.DemoTown:PersistentLevel.DemoTown' with GeneratedClass '/Game/Levels/DemoTown.DemoTown_C' with ClassGeneratedBy '/Game/Levels/DemoTown.DemoTown:PersistentLevel.DemoTown'
+[2019.03.19-23.09.34:639][997]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.03.19-23.09.34:715][999]LogPlayLevel: Display: Destroying online subsystem :Context_32
+[2019.03.19-23.10.10:152][504]BlueprintLog: New page: Compile shopScreen
+[2019.03.19-23.10.10:752][540]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UI/ShopScreen" FILE="C:/Users/gosus/Documents/CP-School/SeniorProject/gitRepos/Senior-Project-CPP-Game/Content/UI/ShopScreen.uasset" SILENT=true
+[2019.03.19-23.10.10:782][540]LogSavePackage: Moving 'C:/Users/gosus/Documents/CP-School/SeniorProject/gitRepos/Senior-Project-CPP-Game/Saved/ShopScreenC59BABF446F46C4CCE3B2C939DCCEA6F.tmp' to 'C:/Users/gosus/Documents/CP-School/SeniorProject/gitRepos/Senior-Project-CPP-Game/Content/UI/ShopScreen.uasset'
+[2019.03.19-23.10.11:998][629]LogTemp: Repeating last play command: Selected Viewport
+[2019.03.19-23.10.12:027][629]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Levels/DemoTown.DemoTown:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/DemoTown.DemoTown:PersistentLevel.DemoTown' with GeneratedClass '/Game/Levels/DemoTown.DemoTown_C' with ClassGeneratedBy '/Game/Levels/DemoTown.DemoTown:PersistentLevel.DemoTown'
+[2019.03.19-23.10.12:027][629]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.03.19-23.10.12:027][629]PIE: New page: PIE session: DemoTown (Mar 19, 2019, 9:10:12 AM)
+[2019.03.19-23.10.12:027][629]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_DemoTown
+[2019.03.19-23.10.12:053][629]LogPlayLevel: PIE: StaticDuplicateObject took: (0.026235s)
+[2019.03.19-23.10.12:054][629]LogAIModule: Creating AISystem for world DemoTown
+[2019.03.19-23.10.12:054][629]LogPlayLevel: PIE: World Init took: (0.000445s)
+[2019.03.19-23.10.12:054][629]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/DemoTown.DemoTown to /Game/Levels/UEDPIE_0_DemoTown.DemoTown (0.026800s)
+[2019.03.19-23.10.12:150][629]LogInit: XAudio2 using 'Speakers (Realtek(R) Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.03.19-23.10.12:169][629]LogInit: FAudioDevice initialized.
+[2019.03.19-23.10.12:206][629]LogLoad: Game class is 'BP_HSPGameGameModeBase_C'
+[2019.03.19-23.10.12:213][629]LogWorld: Bringing World /Game/Levels/UEDPIE_0_DemoTown.DemoTown up for play (max tick rate 0) at 2019.03.19-16.10.12
+[2019.03.19-23.10.12:214][629]LogWorld: Bringing up level for play took: 0.007279
+[2019.03.19-23.10.12:231][629]PIE: Play in editor start time for /Game/Levels/UEDPIE_0_DemoTown 0.605
+[2019.03.19-23.10.12:231][629]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Levels/DemoTown.DemoTown:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/DemoTown.DemoTown:PersistentLevel.DemoTown' with GeneratedClass '/Game/Levels/DemoTown.DemoTown_C' with ClassGeneratedBy '/Game/Levels/DemoTown.DemoTown:PersistentLevel.DemoTown'
+[2019.03.19-23.10.15:433][878]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.03.19-23.10.17:889][ 26]LogRenderer: Reallocating scene render targets to support 1748x900 Format 10 NumSamples 1 (Frame:376).
+[2019.03.19-23.10.17:934][ 27]LogRenderer: Reallocating scene render targets to support 1824x900 Format 10 NumSamples 1 (Frame:377).
+[2019.03.19-23.10.17:976][ 28]LogRenderer: Reallocating scene render targets to support 1860x900 Format 10 NumSamples 1 (Frame:378).
+[2019.03.19-23.10.18:019][ 29]LogRenderer: Reallocating scene render targets to support 1876x900 Format 10 NumSamples 1 (Frame:379).
+[2019.03.19-23.10.18:060][ 30]LogRenderer: Reallocating scene render targets to support 1888x900 Format 10 NumSamples 1 (Frame:380).
+[2019.03.19-23.10.18:102][ 31]LogRenderer: Reallocating scene render targets to support 1900x900 Format 10 NumSamples 1 (Frame:381).
+[2019.03.19-23.10.18:144][ 32]LogRenderer: Reallocating scene render targets to support 1924x900 Format 10 NumSamples 1 (Frame:382).
+[2019.03.19-23.10.18:194][ 33]LogRenderer: Reallocating scene render targets to support 1948x900 Format 10 NumSamples 1 (Frame:383).
+[2019.03.19-23.10.18:246][ 34]LogRenderer: Reallocating scene render targets to support 1976x900 Format 10 NumSamples 1 (Frame:384).
+[2019.03.19-23.10.18:298][ 35]LogRenderer: Reallocating scene render targets to support 2004x900 Format 10 NumSamples 1 (Frame:385).
+[2019.03.19-23.10.18:343][ 36]LogRenderer: Reallocating scene render targets to support 2028x900 Format 10 NumSamples 1 (Frame:386).
+[2019.03.19-23.10.18:392][ 37]LogRenderer: Reallocating scene render targets to support 2052x900 Format 10 NumSamples 1 (Frame:387).
+[2019.03.19-23.10.18:451][ 38]LogRenderer: Reallocating scene render targets to support 2060x900 Format 10 NumSamples 1 (Frame:388).
+[2019.03.19-23.10.18:498][ 39]LogRenderer: Reallocating scene render targets to support 2064x900 Format 10 NumSamples 1 (Frame:389).
+[2019.03.19-23.10.29:621][616]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.03.19-23.10.41:693][534]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Levels/DemoTown.DemoTown:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/DemoTown.DemoTown:PersistentLevel.DemoTown' with GeneratedClass '/Game/Levels/DemoTown.DemoTown_C' with ClassGeneratedBy '/Game/Levels/DemoTown.DemoTown:PersistentLevel.DemoTown'
+[2019.03.19-23.10.41:694][534]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.03.19-23.10.41:754][534]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.03.19-23.10.41:755][534]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Levels/DemoTown.DemoTown:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/DemoTown.DemoTown:PersistentLevel.DemoTown' with GeneratedClass '/Game/Levels/DemoTown.DemoTown_C' with ClassGeneratedBy '/Game/Levels/DemoTown.DemoTown:PersistentLevel.DemoTown'
+[2019.03.19-23.10.41:808][534]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.03.19-23.10.41:846][535]LogPlayLevel: Display: Destroying online subsystem :Context_33
+[2019.03.19-23.10.50:616][181]LogSlate: Window 'Color Picker' being destroyed
+[2019.03.19-23.11.05:874][272]LogSavePackage: Moving 'C:/Users/gosus/Documents/CP-School/SeniorProject/gitRepos/Senior-Project-CPP-Game/Saved/DemoTown2989DCD1460A516E3346DC864E8A18F6.tmp' to 'C:/Users/gosus/Documents/CP-School/SeniorProject/gitRepos/Senior-Project-CPP-Game/Content/Levels/DemoTown.umap'
+[2019.03.19-23.11.05:919][272]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/DemoTown_BuiltData" FILE="C:/Users/gosus/Documents/CP-School/SeniorProject/gitRepos/Senior-Project-CPP-Game/Content/Levels/DemoTown_BuiltData.uasset" SILENT=true
+[2019.03.19-23.11.06:150][272]LogSavePackage: Moving 'C:/Users/gosus/Documents/CP-School/SeniorProject/gitRepos/Senior-Project-CPP-Game/Saved/DemoTown_BuiltData0EF949614C908751E08FD2B8BD1CBD9F.tmp' to 'C:/Users/gosus/Documents/CP-School/SeniorProject/gitRepos/Senior-Project-CPP-Game/Content/Levels/DemoTown_BuiltData.uasset'
+[2019.03.19-23.11.06:955][329]LogTemp: Repeating last play command: Selected Viewport
+[2019.03.19-23.11.06:981][329]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Levels/DemoTown.DemoTown:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/DemoTown.DemoTown:PersistentLevel.DemoTown' with GeneratedClass '/Game/Levels/DemoTown.DemoTown_C' with ClassGeneratedBy '/Game/Levels/DemoTown.DemoTown:PersistentLevel.DemoTown'
+[2019.03.19-23.11.06:981][329]BlueprintLog: New page: Pre-Play auto-recompile
+[2019.03.19-23.11.06:984][329]LogPlayLevel: [PlayLevel] Compiling shopScreen before play...
+[2019.03.19-23.11.07:371][329]LogPlayLevel: PlayLevel: Blueprint regeneration took 390 ms (1 blueprints)
+[2019.03.19-23.11.07:371][329]PIE: New page: PIE session: DemoTown (Mar 19, 2019, 9:11:07 AM)
+[2019.03.19-23.11.07:371][329]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_DemoTown
+[2019.03.19-23.11.07:398][329]LogPlayLevel: PIE: StaticDuplicateObject took: (0.026297s)
+[2019.03.19-23.11.07:399][329]LogAIModule: Creating AISystem for world DemoTown
+[2019.03.19-23.11.07:399][329]LogPlayLevel: PIE: World Init took: (0.000432s)
+[2019.03.19-23.11.07:399][329]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/DemoTown.DemoTown to /Game/Levels/UEDPIE_0_DemoTown.DemoTown (0.026844s)
+[2019.03.19-23.11.07:479][329]LogInit: XAudio2 using 'Speakers (Realtek(R) Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.03.19-23.11.07:495][329]LogInit: FAudioDevice initialized.
+[2019.03.19-23.11.07:528][329]LogLoad: Game class is 'BP_HSPGameGameModeBase_C'
+[2019.03.19-23.11.07:536][329]LogWorld: Bringing World /Game/Levels/UEDPIE_0_DemoTown.DemoTown up for play (max tick rate 0) at 2019.03.19-16.11.07
+[2019.03.19-23.11.07:537][329]LogWorld: Bringing up level for play took: 0.007422
+[2019.03.19-23.11.07:555][329]PIE: Play in editor start time for /Game/Levels/UEDPIE_0_DemoTown -0.07
+[2019.03.19-23.11.07:556][329]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Levels/DemoTown.DemoTown:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/DemoTown.DemoTown:PersistentLevel.DemoTown' with GeneratedClass '/Game/Levels/DemoTown.DemoTown_C' with ClassGeneratedBy '/Game/Levels/DemoTown.DemoTown:PersistentLevel.DemoTown'
+[2019.03.19-23.11.08:984][432]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.03.19-23.11.24:727][707]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.03.19-23.11.34:953][533]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Levels/DemoTown.DemoTown:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/DemoTown.DemoTown:PersistentLevel.DemoTown' with GeneratedClass '/Game/Levels/DemoTown.DemoTown_C' with ClassGeneratedBy '/Game/Levels/DemoTown.DemoTown:PersistentLevel.DemoTown'
+[2019.03.19-23.11.34:954][533]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.03.19-23.11.34:989][533]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.03.19-23.11.34:989][533]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Levels/DemoTown.DemoTown:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/DemoTown.DemoTown:PersistentLevel.DemoTown' with GeneratedClass '/Game/Levels/DemoTown.DemoTown_C' with ClassGeneratedBy '/Game/Levels/DemoTown.DemoTown:PersistentLevel.DemoTown'
+[2019.03.19-23.11.35:022][533]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.03.19-23.11.35:053][534]LogPlayLevel: Display: Destroying online subsystem :Context_34
+[2019.03.19-23.15.14:113][473]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
+[2019.03.19-23.16.45:019][963]BlueprintLog: New page: Compile BP_ProtagClass
+[2019.03.19-23.16.45:517][973]LogSavePackage: Moving 'C:/Users/gosus/Documents/CP-School/SeniorProject/gitRepos/Senior-Project-CPP-Game/Saved/BP_ProtagClass98D73A994C9A43D9881FFAA33F6659A0.tmp' to 'C:/Users/gosus/Documents/CP-School/SeniorProject/gitRepos/Senior-Project-CPP-Game/Content/Blueprints/Characters/BP_ProtagClass.uasset'
+[2019.03.19-23.16.48:644][244]LogTemp: Repeating last play command: Selected Viewport
+[2019.03.19-23.16.48:671][244]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Levels/DemoTown.DemoTown:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/DemoTown.DemoTown:PersistentLevel.DemoTown' with GeneratedClass '/Game/Levels/DemoTown.DemoTown_C' with ClassGeneratedBy '/Game/Levels/DemoTown.DemoTown:PersistentLevel.DemoTown'
+[2019.03.19-23.16.48:671][244]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.03.19-23.16.48:671][244]PIE: New page: PIE session: DemoTown (Mar 19, 2019, 9:16:48 AM)
+[2019.03.19-23.16.48:671][244]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_DemoTown
+[2019.03.19-23.16.48:700][244]LogPlayLevel: PIE: StaticDuplicateObject took: (0.028873s)
+[2019.03.19-23.16.48:701][244]LogAIModule: Creating AISystem for world DemoTown
+[2019.03.19-23.16.48:701][244]LogPlayLevel: PIE: World Init took: (0.000686s)
+[2019.03.19-23.16.48:701][244]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/DemoTown.DemoTown to /Game/Levels/UEDPIE_0_DemoTown.DemoTown (0.029712s)
+[2019.03.19-23.16.48:793][244]LogInit: XAudio2 using 'Speakers (Realtek(R) Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.03.19-23.16.48:809][244]LogInit: FAudioDevice initialized.
+[2019.03.19-23.16.48:842][244]LogLoad: Game class is 'BP_HSPGameGameModeBase_C'
+[2019.03.19-23.16.48:846][244]LogWorld: Bringing World /Game/Levels/UEDPIE_0_DemoTown.DemoTown up for play (max tick rate 0) at 2019.03.19-16.16.48
+[2019.03.19-23.16.48:847][244]LogWorld: Bringing up level for play took: 0.003627
+[2019.03.19-23.16.48:867][244]PIE: Play in editor start time for /Game/Levels/UEDPIE_0_DemoTown -0.759
+[2019.03.19-23.16.48:868][244]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Levels/DemoTown.DemoTown:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/DemoTown.DemoTown:PersistentLevel.DemoTown' with GeneratedClass '/Game/Levels/DemoTown.DemoTown_C' with ClassGeneratedBy '/Game/Levels/DemoTown.DemoTown:PersistentLevel.DemoTown'
+[2019.03.19-23.16.52:470][582]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.03.19-23.16.53:387][670]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Levels/DemoTown.DemoTown:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/DemoTown.DemoTown:PersistentLevel.DemoTown' with GeneratedClass '/Game/Levels/DemoTown.DemoTown_C' with ClassGeneratedBy '/Game/Levels/DemoTown.DemoTown:PersistentLevel.DemoTown'
+[2019.03.19-23.16.53:388][670]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.03.19-23.16.53:423][670]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.03.19-23.16.53:423][670]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Levels/DemoTown.DemoTown:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/DemoTown.DemoTown:PersistentLevel.DemoTown' with GeneratedClass '/Game/Levels/DemoTown.DemoTown_C' with ClassGeneratedBy '/Game/Levels/DemoTown.DemoTown:PersistentLevel.DemoTown'
+[2019.03.19-23.16.53:459][670]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.03.19-23.16.53:491][671]LogPlayLevel: Display: Destroying online subsystem :Context_35
+[2019.03.19-23.18.03:468][764]BlueprintLog: New page: Compile BP_ProtagClass
+[2019.03.19-23.18.03:998][779]LogSavePackage: Moving 'C:/Users/gosus/Documents/CP-School/SeniorProject/gitRepos/Senior-Project-CPP-Game/Saved/BP_ProtagClassA1E631314B6A10319CBFD28DA81BB42E.tmp' to 'C:/Users/gosus/Documents/CP-School/SeniorProject/gitRepos/Senior-Project-CPP-Game/Content/Blueprints/Characters/BP_ProtagClass.uasset'
+[2019.03.19-23.18.06:625][  5]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UI/ShopScreen" FILE="C:/Users/gosus/Documents/CP-School/SeniorProject/gitRepos/Senior-Project-CPP-Game/Content/UI/ShopScreen.uasset" SILENT=true
+[2019.03.19-23.18.06:656][  5]LogSavePackage: Moving 'C:/Users/gosus/Documents/CP-School/SeniorProject/gitRepos/Senior-Project-CPP-Game/Saved/ShopScreenEE9DCA0748CCDCDC1B16EEB53EB9543B.tmp' to 'C:/Users/gosus/Documents/CP-School/SeniorProject/gitRepos/Senior-Project-CPP-Game/Content/UI/ShopScreen.uasset'
+[2019.03.19-23.19.17:438][ 71]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UI/ShopScreen" FILE="C:/Users/gosus/Documents/CP-School/SeniorProject/gitRepos/Senior-Project-CPP-Game/Content/UI/ShopScreen.uasset" SILENT=true
+[2019.03.19-23.19.17:467][ 71]LogSavePackage: Moving 'C:/Users/gosus/Documents/CP-School/SeniorProject/gitRepos/Senior-Project-CPP-Game/Saved/ShopScreen6284F4014BD555E5A5ED8EB6BDED4B6D.tmp' to 'C:/Users/gosus/Documents/CP-School/SeniorProject/gitRepos/Senior-Project-CPP-Game/Content/UI/ShopScreen.uasset'
+[2019.03.19-23.19.17:787][105]BlueprintLog: New page: Compile shopScreen
+[2019.03.19-23.20.44:720][286]BlueprintLog: New page: Compile shopScreen
+[2019.03.19-23.20.45:347][348]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UI/ShopScreen" FILE="C:/Users/gosus/Documents/CP-School/SeniorProject/gitRepos/Senior-Project-CPP-Game/Content/UI/ShopScreen.uasset" SILENT=true
+[2019.03.19-23.20.45:375][348]LogSavePackage: Moving 'C:/Users/gosus/Documents/CP-School/SeniorProject/gitRepos/Senior-Project-CPP-Game/Saved/ShopScreen5E236665431B6BE6C1E73A94A35593B5.tmp' to 'C:/Users/gosus/Documents/CP-School/SeniorProject/gitRepos/Senior-Project-CPP-Game/Content/UI/ShopScreen.uasset'
+[2019.03.19-23.21.38:731][ 16]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Levels/DemoTown' took 0.067
+[2019.03.19-23.21.38:732][ 16]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/Characters/BP_ProtagClass] ([1] browsable assets)...
+[2019.03.19-23.21.38:732][ 16]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/Characters/BP_ProtagClass]
+[2019.03.19-23.21.38:804][ 16]LogSavePackage: Moving 'C:/Users/gosus/Documents/CP-School/SeniorProject/gitRepos/Senior-Project-CPP-Game/Saved/BP_ProtagClass_Auto6DA12318947AD3174B86186868DD8C90E.tmp' to 'C:/Users/gosus/Documents/CP-School/SeniorProject/gitRepos/Senior-Project-CPP-Game/Saved/Autosaves/Game/Blueprints/Characters/BP_ProtagClass_Auto6.uasset'
+[2019.03.19-23.21.38:805][ 16]LogFileHelpers: Auto-saving content packages took 0.074
+[2019.03.19-23.21.48:657][ 47]BlueprintLog: New page: Compile BP_ProtagClass
+[2019.03.19-23.21.49:461][ 69]LogSavePackage: Moving 'C:/Users/gosus/Documents/CP-School/SeniorProject/gitRepos/Senior-Project-CPP-Game/Saved/BP_ProtagClassFFECEA404F24A1ED6C3EE890DE4FA6D7.tmp' to 'C:/Users/gosus/Documents/CP-School/SeniorProject/gitRepos/Senior-Project-CPP-Game/Content/Blueprints/Characters/BP_ProtagClass.uasset'
+[2019.03.19-23.22.52:576][350]BlueprintLog: New page: Compile shopScreen
+[2019.03.19-23.22.53:074][396]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UI/ShopScreen" FILE="C:/Users/gosus/Documents/CP-School/SeniorProject/gitRepos/Senior-Project-CPP-Game/Content/UI/ShopScreen.uasset" SILENT=true
+[2019.03.19-23.22.53:103][396]LogSavePackage: Moving 'C:/Users/gosus/Documents/CP-School/SeniorProject/gitRepos/Senior-Project-CPP-Game/Saved/ShopScreenDAA04AB34BDAEBE087D196A7084A3011.tmp' to 'C:/Users/gosus/Documents/CP-School/SeniorProject/gitRepos/Senior-Project-CPP-Game/Content/UI/ShopScreen.uasset'
+[2019.03.19-23.23.12:319][522]BlueprintLog: New page: Compile shopScreen
+[2019.03.19-23.23.12:661][550]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UI/ShopScreen" FILE="C:/Users/gosus/Documents/CP-School/SeniorProject/gitRepos/Senior-Project-CPP-Game/Content/UI/ShopScreen.uasset" SILENT=true
+[2019.03.19-23.23.12:693][550]LogSavePackage: Moving 'C:/Users/gosus/Documents/CP-School/SeniorProject/gitRepos/Senior-Project-CPP-Game/Saved/ShopScreen8392A99440A9DA7A32DC1CAD3484CF5C.tmp' to 'C:/Users/gosus/Documents/CP-School/SeniorProject/gitRepos/Senior-Project-CPP-Game/Content/UI/ShopScreen.uasset'
+[2019.03.19-23.23.41:382][463]LogEditorTransaction: Undo Add Node
+[2019.03.19-23.24.20:240][447]BlueprintLog: New page: Compile BP_ProtagClass
+[2019.03.19-23.24.20:661][452]LogSavePackage: Moving 'C:/Users/gosus/Documents/CP-School/SeniorProject/gitRepos/Senior-Project-CPP-Game/Saved/BP_ProtagClassBF88E7BC462F60937794FC9CC4E9D2B4.tmp' to 'C:/Users/gosus/Documents/CP-School/SeniorProject/gitRepos/Senior-Project-CPP-Game/Content/Blueprints/Characters/BP_ProtagClass.uasset'
+[2019.03.19-23.24.32:873][801]LogSavePackage: Moving 'C:/Users/gosus/Documents/CP-School/SeniorProject/gitRepos/Senior-Project-CPP-Game/Saved/BP_ProtagClassD71E139542D5F523E983E4B11EFC04E4.tmp' to 'C:/Users/gosus/Documents/CP-School/SeniorProject/gitRepos/Senior-Project-CPP-Game/Content/Blueprints/Characters/BP_ProtagClass.uasset'
+[2019.03.19-23.24.35:340][ 79]LogTemp: Repeating last play command: Selected Viewport
+[2019.03.19-23.24.35:365][ 79]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Levels/DemoTown.DemoTown:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/DemoTown.DemoTown:PersistentLevel.DemoTown' with GeneratedClass '/Game/Levels/DemoTown.DemoTown_C' with ClassGeneratedBy '/Game/Levels/DemoTown.DemoTown:PersistentLevel.DemoTown'
+[2019.03.19-23.24.35:365][ 79]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.03.19-23.24.35:365][ 79]PIE: New page: PIE session: DemoTown (Mar 19, 2019, 9:24:35 AM)
+[2019.03.19-23.24.35:365][ 79]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_DemoTown
+[2019.03.19-23.24.35:391][ 79]LogPlayLevel: PIE: StaticDuplicateObject took: (0.025513s)
+[2019.03.19-23.24.35:391][ 79]LogAIModule: Creating AISystem for world DemoTown
+[2019.03.19-23.24.35:392][ 79]LogPlayLevel: PIE: World Init took: (0.000508s)
+[2019.03.19-23.24.35:392][ 79]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/DemoTown.DemoTown to /Game/Levels/UEDPIE_0_DemoTown.DemoTown (0.026176s)
+[2019.03.19-23.24.35:470][ 79]LogInit: XAudio2 using 'Speakers (Realtek(R) Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.03.19-23.24.35:486][ 79]LogInit: FAudioDevice initialized.
+[2019.03.19-23.24.35:521][ 79]LogLoad: Game class is 'BP_HSPGameGameModeBase_C'
+[2019.03.19-23.24.35:530][ 79]LogWorld: Bringing World /Game/Levels/UEDPIE_0_DemoTown.DemoTown up for play (max tick rate 0) at 2019.03.19-16.24.35
+[2019.03.19-23.24.35:531][ 79]LogWorld: Bringing up level for play took: 0.008320
+[2019.03.19-23.24.35:548][ 79]PIE: Play in editor start time for /Game/Levels/UEDPIE_0_DemoTown -0.077
+[2019.03.19-23.24.35:549][ 79]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Levels/DemoTown.DemoTown:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/DemoTown.DemoTown:PersistentLevel.DemoTown' with GeneratedClass '/Game/Levels/DemoTown.DemoTown_C' with ClassGeneratedBy '/Game/Levels/DemoTown.DemoTown:PersistentLevel.DemoTown'
+[2019.03.19-23.24.39:462][544]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.03.19-23.24.43:603][ 34]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Levels/DemoTown.DemoTown:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/DemoTown.DemoTown:PersistentLevel.DemoTown' with GeneratedClass '/Game/Levels/DemoTown.DemoTown_C' with ClassGeneratedBy '/Game/Levels/DemoTown.DemoTown:PersistentLevel.DemoTown'
+[2019.03.19-23.24.43:603][ 34]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.03.19-23.24.43:640][ 34]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.03.19-23.24.43:640][ 34]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Levels/DemoTown.DemoTown:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/DemoTown.DemoTown:PersistentLevel.DemoTown' with GeneratedClass '/Game/Levels/DemoTown.DemoTown_C' with ClassGeneratedBy '/Game/Levels/DemoTown.DemoTown:PersistentLevel.DemoTown'
+[2019.03.19-23.24.43:675][ 34]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.03.19-23.24.43:720][ 36]LogPlayLevel: Display: Destroying online subsystem :Context_36
