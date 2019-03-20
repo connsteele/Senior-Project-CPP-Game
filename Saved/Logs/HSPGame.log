@@ -716,3 +716,845 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2019.03.20-06.34.06:008][151]LogPlayLevel: Display: Destroying online subsystem :Context_9
 [2019.03.20-06.36.51:578][767]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UI/playerHud" FILE="C:/Users/gosus/Documents/CP-School/SeniorProject/gitRepos/Senior-Project-CPP-Game/Content/UI/playerHud.uasset" SILENT=true
 [2019.03.20-06.36.51:657][767]LogSavePackage: Moving 'C:/Users/gosus/Documents/CP-School/SeniorProject/gitRepos/Senior-Project-CPP-Game/Saved/playerHudBBC2CD4B48EE2735D4EFBF9880D2956A.tmp' to 'C:/Users/gosus/Documents/CP-School/SeniorProject/gitRepos/Senior-Project-CPP-Game/Content/UI/playerHud.uasset'
+[2019.03.20-06.37.46:079][245]LogAudio: Warning: Current Audio Device with ID {0.0.0.00000000}.{17ad3e94-9b9a-42db-a97c-042caa8fc955} was removed. Shutting down audio device.
+[2019.03.20-06.37.46:079][245]LogInit: XAudio2 using 'Speakers (Realtek(R) Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.03.20-06.37.48:585][253]LogInit: XAudio2 using 'Speakers (Realtek(R) Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.03.20-06.41.15:639][ 50]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Levels/DemoTown' took 0.024
+[2019.03.20-06.41.15:640][ 50]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Art/Backgrounds/skillBarBG] ([1] browsable assets)...
+[2019.03.20-06.41.15:642][ 50]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/Art/Backgrounds/skillBarBG.skillBarBG]
+[2019.03.20-06.41.15:642][ 50]OBJ SavePackage: Finished generating thumbnails for package [/Game/Art/Backgrounds/skillBarBG]
+[2019.03.20-06.41.15:649][ 50]LogSavePackage: Moving 'C:/Users/gosus/Documents/CP-School/SeniorProject/gitRepos/Senior-Project-CPP-Game/Saved/skillBarBG_Auto2825222FE4D644E42F0A0D8A5B731C493.tmp' to 'C:/Users/gosus/Documents/CP-School/SeniorProject/gitRepos/Senior-Project-CPP-Game/Saved/Autosaves/Game/Art/Backgrounds/skillBarBG_Auto2.uasset'
+[2019.03.20-06.41.15:650][ 50]LogFileHelpers: Auto-saving content packages took 0.011
+[2019.03.20-06.45.25:478][951]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 C:\Users\gosus\Documents\CP-School\SeniorProject\Art\Icons\AttackIcons\LightningBolt.png)
+[2019.03.20-06.45.25:481][951]LogTexture: Display: Building textures: LightningBolt (AutoDXT, 20X20)
+[2019.03.20-06.45.26:744][999]LogAssetEditorManager: Opening Asset editor for Texture2D /Game/Art/Icons/LightningBolt.LightningBolt
+[2019.03.20-06.45.39:596][501]LogTexture: Display: Building textures: LightningBolt (BGRA8, 20X20)
+[2019.03.20-06.45.41:687][744]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Art/Icons/LightningBolt" FILE="C:/Users/gosus/Documents/CP-School/SeniorProject/gitRepos/Senior-Project-CPP-Game/Content/Art/Icons/LightningBolt.uasset" SILENT=true
+[2019.03.20-06.45.41:695][744]LogSavePackage: Moving 'C:/Users/gosus/Documents/CP-School/SeniorProject/gitRepos/Senior-Project-CPP-Game/Saved/LightningBolt59F2894149BBF2BB2D582BA31DF77902.tmp' to 'C:/Users/gosus/Documents/CP-School/SeniorProject/gitRepos/Senior-Project-CPP-Game/Content/Art/Icons/LightningBolt.uasset'
+[2019.03.20-06.45.42:833][865]LogAssetEditorManager: Opening Asset editor for Texture2D /Game/Art/Icons/Fireball.Fireball
+[2019.03.20-06.45.47:506][118]LogSlate: Window 'Save Content' being destroyed
+[2019.03.20-06.45.50:404][453]LogSavePackage: Moving 'C:/Users/gosus/Documents/CP-School/SeniorProject/gitRepos/Senior-Project-CPP-Game/Saved/playerSkillsBg3ECAC14C48BB773B959E68AFAD78254C.tmp' to 'C:/Users/gosus/Documents/CP-School/SeniorProject/gitRepos/Senior-Project-CPP-Game/Content/Art/Backgrounds/playerSkillsBg.uasset'
+[2019.03.20-06.45.50:416][453]LogSavePackage: Moving 'C:/Users/gosus/Documents/CP-School/SeniorProject/gitRepos/Senior-Project-CPP-Game/Saved/skillBarBGF3CA831E440E9D346290919A8E0B727A.tmp' to 'C:/Users/gosus/Documents/CP-School/SeniorProject/gitRepos/Senior-Project-CPP-Game/Content/Art/Backgrounds/skillBarBG.uasset'
+[2019.03.20-06.45.54:506][886]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Art/Icons/LightningBolt" FILE="C:/Users/gosus/Documents/CP-School/SeniorProject/gitRepos/Senior-Project-CPP-Game/Content/Art/Icons/LightningBolt.uasset" SILENT=true
+[2019.03.20-06.45.54:529][886]LogSavePackage: Moving 'C:/Users/gosus/Documents/CP-School/SeniorProject/gitRepos/Senior-Project-CPP-Game/Saved/LightningBolt093D12FF423EFB0DB4E785A59AC27F3F.tmp' to 'C:/Users/gosus/Documents/CP-School/SeniorProject/gitRepos/Senior-Project-CPP-Game/Content/Art/Icons/LightningBolt.uasset'
+[2019.03.20-06.46.52:849][671]LogSlate: Window 'Color Picker' being destroyed
+[2019.03.20-06.46.56:284][931]LogSlate: Window 'Color Picker' being destroyed
+[2019.03.20-06.47.11:280][120]BlueprintLog: New page: Compile playerHud
+[2019.03.20-06.47.11:739][140]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UI/playerHud" FILE="C:/Users/gosus/Documents/CP-School/SeniorProject/gitRepos/Senior-Project-CPP-Game/Content/UI/playerHud.uasset" SILENT=true
+[2019.03.20-06.47.11:801][140]LogSavePackage: Moving 'C:/Users/gosus/Documents/CP-School/SeniorProject/gitRepos/Senior-Project-CPP-Game/Saved/playerHud5E5FC1DF4B8C1D74F7813FA992829668.tmp' to 'C:/Users/gosus/Documents/CP-School/SeniorProject/gitRepos/Senior-Project-CPP-Game/Content/UI/playerHud.uasset'
+[2019.03.20-06.47.13:278][253]LogTemp: Repeating last play command: Selected Viewport
+[2019.03.20-06.47.13:299][253]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Levels/DemoTown.DemoTown:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/DemoTown.DemoTown:PersistentLevel.DemoTown' with GeneratedClass '/Game/Levels/DemoTown.DemoTown_C' with ClassGeneratedBy '/Game/Levels/DemoTown.DemoTown:PersistentLevel.DemoTown'
+[2019.03.20-06.47.13:299][253]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.03.20-06.47.13:299][253]PIE: New page: PIE session: DemoTown (Mar 19, 2019, 4:47:13 PM)
+[2019.03.20-06.47.13:299][253]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_DemoTown
+[2019.03.20-06.47.13:325][253]LogPlayLevel: PIE: StaticDuplicateObject took: (0.025529s)
+[2019.03.20-06.47.13:326][253]LogAIModule: Creating AISystem for world DemoTown
+[2019.03.20-06.47.13:326][253]LogPlayLevel: PIE: World Init took: (0.000616s)
+[2019.03.20-06.47.13:326][253]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/DemoTown.DemoTown to /Game/Levels/UEDPIE_0_DemoTown.DemoTown (0.026437s)
+[2019.03.20-06.47.13:392][253]LogInit: XAudio2 using 'Speakers (Realtek(R) Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.03.20-06.47.13:409][253]LogInit: FAudioDevice initialized.
+[2019.03.20-06.47.13:442][253]LogLoad: Game class is 'BP_HSPGameGameModeBase_C'
+[2019.03.20-06.47.13:446][253]LogWorld: Bringing World /Game/Levels/UEDPIE_0_DemoTown.DemoTown up for play (max tick rate 0) at 2019.03.19-23.47.13
+[2019.03.20-06.47.13:446][253]LogWorld: Bringing up level for play took: 0.003745
+[2019.03.20-06.47.13:460][253]PIE: Play in editor start time for /Game/Levels/UEDPIE_0_DemoTown -0.685
+[2019.03.20-06.47.13:461][253]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Levels/DemoTown.DemoTown:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/DemoTown.DemoTown:PersistentLevel.DemoTown' with GeneratedClass '/Game/Levels/DemoTown.DemoTown_C' with ClassGeneratedBy '/Game/Levels/DemoTown.DemoTown:PersistentLevel.DemoTown'
+[2019.03.20-06.47.16:574][502]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Levels/DemoTown.DemoTown:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/DemoTown.DemoTown:PersistentLevel.DemoTown' with GeneratedClass '/Game/Levels/DemoTown.DemoTown_C' with ClassGeneratedBy '/Game/Levels/DemoTown.DemoTown:PersistentLevel.DemoTown'
+[2019.03.20-06.47.16:574][502]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.03.20-06.47.16:614][502]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.03.20-06.47.16:615][502]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Levels/DemoTown.DemoTown:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/DemoTown.DemoTown:PersistentLevel.DemoTown' with GeneratedClass '/Game/Levels/DemoTown.DemoTown_C' with ClassGeneratedBy '/Game/Levels/DemoTown.DemoTown:PersistentLevel.DemoTown'
+[2019.03.20-06.47.16:642][502]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.03.20-06.47.16:684][503]LogPlayLevel: Display: Destroying online subsystem :Context_10
+[2019.03.20-06.47.19:034][679]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.03.20-06.47.22:943][975]LogAssetEditorManager: Opening Asset editor for WidgetBlueprint /Game/UI/ShopScreen.shopScreen
+[2019.03.20-06.47.35:294][902]BlueprintLog: New page: Compile shopScreen
+[2019.03.20-06.47.35:833][924]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UI/ShopScreen" FILE="C:/Users/gosus/Documents/CP-School/SeniorProject/gitRepos/Senior-Project-CPP-Game/Content/UI/ShopScreen.uasset" SILENT=true
+[2019.03.20-06.47.35:886][924]LogSavePackage: Moving 'C:/Users/gosus/Documents/CP-School/SeniorProject/gitRepos/Senior-Project-CPP-Game/Saved/ShopScreen21E688D144CECDC1F488A184CEA5FC4B.tmp' to 'C:/Users/gosus/Documents/CP-School/SeniorProject/gitRepos/Senior-Project-CPP-Game/Content/UI/ShopScreen.uasset'
+[2019.03.20-06.49.02:411][484]BlueprintLog: New page: Compile shopScreen
+[2019.03.20-06.49.05:284][780]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UI/ShopScreen" FILE="C:/Users/gosus/Documents/CP-School/SeniorProject/gitRepos/Senior-Project-CPP-Game/Content/UI/ShopScreen.uasset" SILENT=true
+[2019.03.20-06.49.05:342][780]LogSavePackage: Moving 'C:/Users/gosus/Documents/CP-School/SeniorProject/gitRepos/Senior-Project-CPP-Game/Saved/ShopScreen4358764C43D82729B8B167B873D02786.tmp' to 'C:/Users/gosus/Documents/CP-School/SeniorProject/gitRepos/Senior-Project-CPP-Game/Content/UI/ShopScreen.uasset'
+[2019.03.20-06.49.09:896][179]LogTemp: Repeating last play command: Selected Viewport
+[2019.03.20-06.49.09:918][179]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Levels/DemoTown.DemoTown:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/DemoTown.DemoTown:PersistentLevel.DemoTown' with GeneratedClass '/Game/Levels/DemoTown.DemoTown_C' with ClassGeneratedBy '/Game/Levels/DemoTown.DemoTown:PersistentLevel.DemoTown'
+[2019.03.20-06.49.09:919][179]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.03.20-06.49.09:919][179]PIE: New page: PIE session: DemoTown (Mar 19, 2019, 4:49:09 PM)
+[2019.03.20-06.49.09:919][179]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_DemoTown
+[2019.03.20-06.49.09:945][179]LogPlayLevel: PIE: StaticDuplicateObject took: (0.026061s)
+[2019.03.20-06.49.09:946][179]LogAIModule: Creating AISystem for world DemoTown
+[2019.03.20-06.49.09:946][179]LogPlayLevel: PIE: World Init took: (0.000608s)
+[2019.03.20-06.49.09:946][179]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/DemoTown.DemoTown to /Game/Levels/UEDPIE_0_DemoTown.DemoTown (0.026994s)
+[2019.03.20-06.49.10:025][179]LogInit: XAudio2 using 'Speakers (Realtek(R) Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.03.20-06.49.10:041][179]LogInit: FAudioDevice initialized.
+[2019.03.20-06.49.10:073][179]LogLoad: Game class is 'BP_HSPGameGameModeBase_C'
+[2019.03.20-06.49.10:077][179]LogWorld: Bringing World /Game/Levels/UEDPIE_0_DemoTown.DemoTown up for play (max tick rate 0) at 2019.03.19-23.49.10
+[2019.03.20-06.49.10:077][179]LogWorld: Bringing up level for play took: 0.003840
+[2019.03.20-06.49.10:092][179]PIE: Play in editor start time for /Game/Levels/UEDPIE_0_DemoTown -0.053
+[2019.03.20-06.49.10:093][179]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Levels/DemoTown.DemoTown:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/DemoTown.DemoTown:PersistentLevel.DemoTown' with GeneratedClass '/Game/Levels/DemoTown.DemoTown_C' with ClassGeneratedBy '/Game/Levels/DemoTown.DemoTown:PersistentLevel.DemoTown'
+[2019.03.20-06.49.14:000][601]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.03.20-06.49.14:806][690]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.03.20-06.49.24:324][744]LogNet: Browse: /Game/Levels/DemoBattlefield
+[2019.03.20-06.49.24:324][744]LogLoad: LoadMap: /Game/Levels/DemoBattlefield
+[2019.03.20-06.49.24:409][744]LogAIModule: Creating AISystem for world DemoBattlefield
+[2019.03.20-06.49.24:409][744]LogLoad: Game class is 'BP_HSPGameGameModeBase_C'
+[2019.03.20-06.49.24:414][744]LogWorld: Bringing World /Game/Levels/UEDPIE_0_DemoBattlefield.DemoBattlefield up for play (max tick rate 0) at 2019.03.19-23.49.24
+[2019.03.20-06.49.24:415][744]LogWorld: Bringing up level for play took: 0.005406
+[2019.03.20-06.49.24:419][744]LogLoad: Took 0.094600 seconds to LoadMap(/Game/Levels/DemoBattlefield)
+[2019.03.20-06.49.30:283][374]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.03.20-06.49.41:789][606]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.03.20-06.49.44:325][884]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.03.20-06.49.48:743][353]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.03.20-06.49.49:530][431]LogNet: Browse: /Game/Levels/DemoTown
+[2019.03.20-06.49.49:531][431]LogLoad: LoadMap: /Game/Levels/DemoTown
+[2019.03.20-06.49.49:556][431]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_DemoTown
+[2019.03.20-06.49.49:582][431]LogPlayLevel: PIE: StaticDuplicateObject took: (0.025095s)
+[2019.03.20-06.49.49:582][431]LogAIModule: Creating AISystem for world DemoTown
+[2019.03.20-06.49.49:582][431]LogPlayLevel: PIE: World Init took: (0.000541s)
+[2019.03.20-06.49.49:582][431]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/DemoTown.DemoTown to /Game/Levels/UEDPIE_0_DemoTown.DemoTown (0.025966s)
+[2019.03.20-06.49.49:582][431]LogLoad: Game class is 'BP_HSPGameGameModeBase_C'
+[2019.03.20-06.49.49:586][431]LogWorld: Bringing World /Game/Levels/UEDPIE_0_DemoTown.DemoTown up for play (max tick rate 0) at 2019.03.19-23.49.49
+[2019.03.20-06.49.49:587][431]LogWorld: Bringing up level for play took: 0.003577
+[2019.03.20-06.49.49:589][431]LogLoad: Took 0.058148 seconds to LoadMap(/Game/Levels/UEDPIE_0_DemoTown)
+[2019.03.20-06.49.55:271][ 41]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.03.20-06.50.16:310][312]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.03.20-06.50.16:422][325]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Levels/DemoTown.DemoTown:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/DemoTown.DemoTown:PersistentLevel.DemoTown' with GeneratedClass '/Game/Levels/DemoTown.DemoTown_C' with ClassGeneratedBy '/Game/Levels/DemoTown.DemoTown:PersistentLevel.DemoTown'
+[2019.03.20-06.50.16:422][325]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.03.20-06.50.16:459][325]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.03.20-06.50.16:460][325]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Levels/DemoTown.DemoTown:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/DemoTown.DemoTown:PersistentLevel.DemoTown' with GeneratedClass '/Game/Levels/DemoTown.DemoTown_C' with ClassGeneratedBy '/Game/Levels/DemoTown.DemoTown:PersistentLevel.DemoTown'
+[2019.03.20-06.50.16:489][325]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.03.20-06.50.16:564][327]LogPlayLevel: Display: Destroying online subsystem :Context_13
+[2019.03.20-06.52.26:059][914]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Levels/DemoTown' took 0.033
+[2019.03.20-06.55.32:580][546]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 C:\Users\gosus\Documents\CP-School\SeniorProject\Art\Icons\AttackIcons\SkipTurn.png)
+[2019.03.20-06.55.32:583][546]LogTexture: Display: Building textures: SkipTurn (AutoDXT, 20X20)
+[2019.03.20-06.55.33:610][584]LogAssetEditorManager: Opening Asset editor for Texture2D /Game/Art/Icons/SkipTurn.SkipTurn
+[2019.03.20-06.55.40:979][439]LogTexture: Display: Building textures: SkipTurn (BGRA8, 20X20)
+[2019.03.20-06.55.44:847][887]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Art/Icons/SkipTurn" FILE="C:/Users/gosus/Documents/CP-School/SeniorProject/gitRepos/Senior-Project-CPP-Game/Content/Art/Icons/SkipTurn.uasset" SILENT=true
+[2019.03.20-06.55.44:853][887]LogSavePackage: Moving 'C:/Users/gosus/Documents/CP-School/SeniorProject/gitRepos/Senior-Project-CPP-Game/Saved/SkipTurnC61A093F414BD3BE1F5ADF9E5B2D8527.tmp' to 'C:/Users/gosus/Documents/CP-School/SeniorProject/gitRepos/Senior-Project-CPP-Game/Content/Art/Icons/SkipTurn.uasset'
+[2019.03.20-06.55.46:864][118]LogSlate: Window 'SkipTurn' being destroyed
+[2019.03.20-06.55.46:867][118]LogSlate: Window 'SkipTurn' being destroyed
+[2019.03.20-06.56.54:037][ 55]LogAssetEditorManager: Opening Asset editor for WidgetBlueprint /Game/UI/playerHud.playerHud
+[2019.03.20-06.57.28:889][821]LogSlate: Window 'Color Picker' being destroyed
+[2019.03.20-06.57.33:683][185]LogSlate: Window 'Color Picker' being destroyed
+[2019.03.20-06.57.35:134][294]BlueprintLog: New page: Compile playerHud
+[2019.03.20-06.57.35:622][310]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UI/playerHud" FILE="C:/Users/gosus/Documents/CP-School/SeniorProject/gitRepos/Senior-Project-CPP-Game/Content/UI/playerHud.uasset" SILENT=true
+[2019.03.20-06.57.35:687][310]LogSavePackage: Moving 'C:/Users/gosus/Documents/CP-School/SeniorProject/gitRepos/Senior-Project-CPP-Game/Saved/playerHud6360B0074F8E94B2C3C30A893FBBB443.tmp' to 'C:/Users/gosus/Documents/CP-School/SeniorProject/gitRepos/Senior-Project-CPP-Game/Content/UI/playerHud.uasset'
+[2019.03.20-06.57.36:810][388]LogTemp: Repeating last play command: Selected Viewport
+[2019.03.20-06.57.36:831][388]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Levels/DemoTown.DemoTown:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/DemoTown.DemoTown:PersistentLevel.DemoTown' with GeneratedClass '/Game/Levels/DemoTown.DemoTown_C' with ClassGeneratedBy '/Game/Levels/DemoTown.DemoTown:PersistentLevel.DemoTown'
+[2019.03.20-06.57.36:831][388]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.03.20-06.57.36:832][388]PIE: New page: PIE session: DemoTown (Mar 19, 2019, 4:57:36 PM)
+[2019.03.20-06.57.36:832][388]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_DemoTown
+[2019.03.20-06.57.36:858][388]LogPlayLevel: PIE: StaticDuplicateObject took: (0.026097s)
+[2019.03.20-06.57.36:858][388]LogAIModule: Creating AISystem for world DemoTown
+[2019.03.20-06.57.36:859][388]LogPlayLevel: PIE: World Init took: (0.000582s)
+[2019.03.20-06.57.36:859][388]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/DemoTown.DemoTown to /Game/Levels/UEDPIE_0_DemoTown.DemoTown (0.027048s)
+[2019.03.20-06.57.36:923][388]LogInit: XAudio2 using 'Speakers (Realtek(R) Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.03.20-06.57.36:939][388]LogInit: FAudioDevice initialized.
+[2019.03.20-06.57.36:973][388]LogLoad: Game class is 'BP_HSPGameGameModeBase_C'
+[2019.03.20-06.57.36:976][388]LogWorld: Bringing World /Game/Levels/UEDPIE_0_DemoTown.DemoTown up for play (max tick rate 0) at 2019.03.19-23.57.36
+[2019.03.20-06.57.36:977][388]LogWorld: Bringing up level for play took: 0.003721
+[2019.03.20-06.57.36:996][388]PIE: Play in editor start time for /Game/Levels/UEDPIE_0_DemoTown 0.85
+[2019.03.20-06.57.36:996][388]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Levels/DemoTown.DemoTown:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/DemoTown.DemoTown:PersistentLevel.DemoTown' with GeneratedClass '/Game/Levels/DemoTown.DemoTown_C' with ClassGeneratedBy '/Game/Levels/DemoTown.DemoTown:PersistentLevel.DemoTown'
+[2019.03.20-06.57.39:499][587]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.03.20-06.57.44:880][ 32]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Levels/DemoTown.DemoTown:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/DemoTown.DemoTown:PersistentLevel.DemoTown' with GeneratedClass '/Game/Levels/DemoTown.DemoTown_C' with ClassGeneratedBy '/Game/Levels/DemoTown.DemoTown:PersistentLevel.DemoTown'
+[2019.03.20-06.57.44:880][ 32]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.03.20-06.57.44:915][ 32]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.03.20-06.57.44:916][ 32]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Levels/DemoTown.DemoTown:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/DemoTown.DemoTown:PersistentLevel.DemoTown' with GeneratedClass '/Game/Levels/DemoTown.DemoTown_C' with ClassGeneratedBy '/Game/Levels/DemoTown.DemoTown:PersistentLevel.DemoTown'
+[2019.03.20-06.57.44:940][ 32]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.03.20-06.57.44:985][ 34]LogPlayLevel: Display: Destroying online subsystem :Context_16
+[2019.03.20-06.57.52:309][596]LogSlate: Window 'Color Picker' being destroyed
+[2019.03.20-06.57.58:239][ 53]LogSlate: Window 'Color Picker' being destroyed
+[2019.03.20-06.58.02:320][366]LogSlate: Window 'Color Picker' being destroyed
+[2019.03.20-06.58.08:613][860]LogTemp: Repeating last play command: Selected Viewport
+[2019.03.20-06.58.08:636][860]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Levels/DemoTown.DemoTown:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/DemoTown.DemoTown:PersistentLevel.DemoTown' with GeneratedClass '/Game/Levels/DemoTown.DemoTown_C' with ClassGeneratedBy '/Game/Levels/DemoTown.DemoTown:PersistentLevel.DemoTown'
+[2019.03.20-06.58.08:636][860]BlueprintLog: New page: Pre-Play auto-recompile
+[2019.03.20-06.58.08:653][860]LogPlayLevel: [PlayLevel] Compiling playerHud before play...
+[2019.03.20-06.58.08:888][860]LogPlayLevel: PlayLevel: Blueprint regeneration took 251 ms (1 blueprints)
+[2019.03.20-06.58.08:888][860]PIE: New page: PIE session: DemoTown (Mar 19, 2019, 4:58:08 PM)
+[2019.03.20-06.58.08:888][860]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_DemoTown
+[2019.03.20-06.58.08:914][860]LogPlayLevel: PIE: StaticDuplicateObject took: (0.025977s)
+[2019.03.20-06.58.08:915][860]LogAIModule: Creating AISystem for world DemoTown
+[2019.03.20-06.58.08:915][860]LogPlayLevel: PIE: World Init took: (0.000570s)
+[2019.03.20-06.58.08:915][860]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/DemoTown.DemoTown to /Game/Levels/UEDPIE_0_DemoTown.DemoTown (0.026882s)
+[2019.03.20-06.58.08:984][860]LogInit: XAudio2 using 'Speakers (Realtek(R) Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.03.20-06.58.09:000][860]LogInit: FAudioDevice initialized.
+[2019.03.20-06.58.09:037][860]LogLoad: Game class is 'BP_HSPGameGameModeBase_C'
+[2019.03.20-06.58.09:041][860]LogWorld: Bringing World /Game/Levels/UEDPIE_0_DemoTown.DemoTown up for play (max tick rate 0) at 2019.03.19-23.58.09
+[2019.03.20-06.58.09:041][860]LogWorld: Bringing up level for play took: 0.003507
+[2019.03.20-06.58.09:056][860]PIE: Play in editor start time for /Game/Levels/UEDPIE_0_DemoTown 0.912
+[2019.03.20-06.58.09:057][860]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Levels/DemoTown.DemoTown:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/DemoTown.DemoTown:PersistentLevel.DemoTown' with GeneratedClass '/Game/Levels/DemoTown.DemoTown_C' with ClassGeneratedBy '/Game/Levels/DemoTown.DemoTown:PersistentLevel.DemoTown'
+[2019.03.20-06.58.12:144][107]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.03.20-06.58.14:282][281]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.03.20-06.58.14:813][324]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.03.20-06.58.24:405][ 94]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.03.20-06.58.24:498][102]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Levels/DemoTown.DemoTown:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/DemoTown.DemoTown:PersistentLevel.DemoTown' with GeneratedClass '/Game/Levels/DemoTown.DemoTown_C' with ClassGeneratedBy '/Game/Levels/DemoTown.DemoTown:PersistentLevel.DemoTown'
+[2019.03.20-06.58.24:498][102]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.03.20-06.58.24:538][102]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.03.20-06.58.24:538][102]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Levels/DemoTown.DemoTown:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/DemoTown.DemoTown:PersistentLevel.DemoTown' with GeneratedClass '/Game/Levels/DemoTown.DemoTown_C' with ClassGeneratedBy '/Game/Levels/DemoTown.DemoTown:PersistentLevel.DemoTown'
+[2019.03.20-06.58.24:565][102]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.03.20-06.58.24:610][104]LogPlayLevel: Display: Destroying online subsystem :Context_17
+[2019.03.20-07.02.50:564][982]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Levels/DemoTown' took 0.025
+[2019.03.20-07.02.50:565][982]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/UI/playerHud] ([1] browsable assets)...
+[2019.03.20-07.02.50:565][982]OBJ SavePackage: Finished generating thumbnails for package [/Game/UI/playerHud]
+[2019.03.20-07.02.50:675][982]LogSavePackage: Moving 'C:/Users/gosus/Documents/CP-School/SeniorProject/gitRepos/Senior-Project-CPP-Game/Saved/playerHud_Auto31B0EC81343FA8D37BDD2C68AD3B47809.tmp' to 'C:/Users/gosus/Documents/CP-School/SeniorProject/gitRepos/Senior-Project-CPP-Game/Saved/Autosaves/Game/UI/playerHud_Auto3.uasset'
+[2019.03.20-07.02.50:677][982]LogFileHelpers: Auto-saving content packages took 0.113
+[2019.03.20-07.04.31:399][477]LogEditorFactories: Performing atomic reimport of [C:/Users/gosus/Documents/CP-School/SeniorProject/Art/Icons/AttackIcons/SkipTurn.png]
+[2019.03.20-07.04.31:400][477]LogFactory: FactoryCreateFile: Texture2D with ReimportTextureFactory (0 0 C:/Users/gosus/Documents/CP-School/SeniorProject/Art/Icons/AttackIcons/SkipTurn.png)
+[2019.03.20-07.04.31:404][477]LogTexture: Display: Building textures: SkipTurn (BGRA8, 20X20)
+[2019.03.20-07.04.31:413][477]LogEditorFactories: -- imported successfully
+[2019.03.20-07.04.35:599][741]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UI/playerHud" FILE="C:/Users/gosus/Documents/CP-School/SeniorProject/gitRepos/Senior-Project-CPP-Game/Content/UI/playerHud.uasset" SILENT=true
+[2019.03.20-07.04.35:668][741]LogSavePackage: Moving 'C:/Users/gosus/Documents/CP-School/SeniorProject/gitRepos/Senior-Project-CPP-Game/Saved/playerHud2CD16D484BCCB78266D35FAD003473B3.tmp' to 'C:/Users/gosus/Documents/CP-School/SeniorProject/gitRepos/Senior-Project-CPP-Game/Content/UI/playerHud.uasset'
+[2019.03.20-07.04.35:674][741]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Art/Icons/SkipTurn" FILE="C:/Users/gosus/Documents/CP-School/SeniorProject/gitRepos/Senior-Project-CPP-Game/Content/Art/Icons/SkipTurn.uasset" SILENT=true
+[2019.03.20-07.04.35:696][741]LogSavePackage: Moving 'C:/Users/gosus/Documents/CP-School/SeniorProject/gitRepos/Senior-Project-CPP-Game/Saved/SkipTurn1B355DDC4192A2D4FCD327A0D37C7EBB.tmp' to 'C:/Users/gosus/Documents/CP-School/SeniorProject/gitRepos/Senior-Project-CPP-Game/Content/Art/Icons/SkipTurn.uasset'
+[2019.03.20-07.04.37:775][887]LogAssetEditorManager: Opening Asset editor for Texture2D /Game/Art/Icons/SkipTurn.SkipTurn
+[2019.03.20-07.04.39:443][ 68]LogSlate: Window 'SkipTurn' being destroyed
+[2019.03.20-07.04.39:446][ 68]LogSlate: Window 'SkipTurn' being destroyed
+[2019.03.20-07.04.40:809][223]LogTemp: Repeating last play command: Selected Viewport
+[2019.03.20-07.04.40:828][223]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Levels/DemoTown.DemoTown:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/DemoTown.DemoTown:PersistentLevel.DemoTown' with GeneratedClass '/Game/Levels/DemoTown.DemoTown_C' with ClassGeneratedBy '/Game/Levels/DemoTown.DemoTown:PersistentLevel.DemoTown'
+[2019.03.20-07.04.40:828][223]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.03.20-07.04.40:828][223]PIE: New page: PIE session: DemoTown (Mar 19, 2019, 5:04:40 PM)
+[2019.03.20-07.04.40:828][223]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_DemoTown
+[2019.03.20-07.04.40:856][223]LogPlayLevel: PIE: StaticDuplicateObject took: (0.027736s)
+[2019.03.20-07.04.40:857][223]LogAIModule: Creating AISystem for world DemoTown
+[2019.03.20-07.04.40:857][223]LogPlayLevel: PIE: World Init took: (0.000737s)
+[2019.03.20-07.04.40:857][223]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/DemoTown.DemoTown to /Game/Levels/UEDPIE_0_DemoTown.DemoTown (0.028849s)
+[2019.03.20-07.04.40:933][223]LogInit: XAudio2 using 'Speakers (Realtek(R) Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.03.20-07.04.40:948][223]LogInit: FAudioDevice initialized.
+[2019.03.20-07.04.40:982][223]LogLoad: Game class is 'BP_HSPGameGameModeBase_C'
+[2019.03.20-07.04.40:986][223]LogWorld: Bringing World /Game/Levels/UEDPIE_0_DemoTown.DemoTown up for play (max tick rate 0) at 2019.03.20-00.04.40
+[2019.03.20-07.04.40:986][223]LogWorld: Bringing up level for play took: 0.004051
+[2019.03.20-07.04.41:002][223]PIE: Play in editor start time for /Game/Levels/UEDPIE_0_DemoTown 0.857
+[2019.03.20-07.04.41:002][223]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Levels/DemoTown.DemoTown:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/DemoTown.DemoTown:PersistentLevel.DemoTown' with GeneratedClass '/Game/Levels/DemoTown.DemoTown_C' with ClassGeneratedBy '/Game/Levels/DemoTown.DemoTown:PersistentLevel.DemoTown'
+[2019.03.20-07.04.44:056][587]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.03.20-07.04.44:882][686]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Levels/DemoTown.DemoTown:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/DemoTown.DemoTown:PersistentLevel.DemoTown' with GeneratedClass '/Game/Levels/DemoTown.DemoTown_C' with ClassGeneratedBy '/Game/Levels/DemoTown.DemoTown:PersistentLevel.DemoTown'
+[2019.03.20-07.04.44:882][686]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.03.20-07.04.44:919][686]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.03.20-07.04.44:919][686]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Levels/DemoTown.DemoTown:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/DemoTown.DemoTown:PersistentLevel.DemoTown' with GeneratedClass '/Game/Levels/DemoTown.DemoTown_C' with ClassGeneratedBy '/Game/Levels/DemoTown.DemoTown:PersistentLevel.DemoTown'
+[2019.03.20-07.04.44:944][686]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.03.20-07.04.44:988][688]LogPlayLevel: Display: Destroying online subsystem :Context_18
+[2019.03.20-07.05.39:182][177]LogEditorFactories: Performing atomic reimport of [C:/Users/gosus/Documents/CP-School/SeniorProject/Art/Icons/AttackIcons/SkipTurn.png]
+[2019.03.20-07.05.39:183][177]LogFactory: FactoryCreateFile: Texture2D with ReimportTextureFactory (0 0 C:/Users/gosus/Documents/CP-School/SeniorProject/Art/Icons/AttackIcons/SkipTurn.png)
+[2019.03.20-07.05.39:186][177]LogTexture: Display: Building textures: SkipTurn (BGRA8, 20X20)
+[2019.03.20-07.05.39:195][177]LogEditorFactories: -- imported successfully
+[2019.03.20-07.05.42:461][485]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Art/Icons/SkipTurn" FILE="C:/Users/gosus/Documents/CP-School/SeniorProject/gitRepos/Senior-Project-CPP-Game/Content/Art/Icons/SkipTurn.uasset" SILENT=true
+[2019.03.20-07.05.42:482][485]LogSavePackage: Moving 'C:/Users/gosus/Documents/CP-School/SeniorProject/gitRepos/Senior-Project-CPP-Game/Saved/SkipTurn04ABB1AF4059AA4DCE5602885C0B6610.tmp' to 'C:/Users/gosus/Documents/CP-School/SeniorProject/gitRepos/Senior-Project-CPP-Game/Content/Art/Icons/SkipTurn.uasset'
+[2019.03.20-07.05.43:246][574]LogTemp: Repeating last play command: Selected Viewport
+[2019.03.20-07.05.43:264][574]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Levels/DemoTown.DemoTown:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/DemoTown.DemoTown:PersistentLevel.DemoTown' with GeneratedClass '/Game/Levels/DemoTown.DemoTown_C' with ClassGeneratedBy '/Game/Levels/DemoTown.DemoTown:PersistentLevel.DemoTown'
+[2019.03.20-07.05.43:264][574]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.03.20-07.05.43:264][574]PIE: New page: PIE session: DemoTown (Mar 19, 2019, 5:05:43 PM)
+[2019.03.20-07.05.43:265][574]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_DemoTown
+[2019.03.20-07.05.43:290][574]LogPlayLevel: PIE: StaticDuplicateObject took: (0.025375s)
+[2019.03.20-07.05.43:291][574]LogAIModule: Creating AISystem for world DemoTown
+[2019.03.20-07.05.43:291][574]LogPlayLevel: PIE: World Init took: (0.000549s)
+[2019.03.20-07.05.43:291][574]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/DemoTown.DemoTown to /Game/Levels/UEDPIE_0_DemoTown.DemoTown (0.026252s)
+[2019.03.20-07.05.43:357][574]LogInit: XAudio2 using 'Speakers (Realtek(R) Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.03.20-07.05.43:373][574]LogInit: FAudioDevice initialized.
+[2019.03.20-07.05.43:408][574]LogLoad: Game class is 'BP_HSPGameGameModeBase_C'
+[2019.03.20-07.05.43:411][574]LogWorld: Bringing World /Game/Levels/UEDPIE_0_DemoTown.DemoTown up for play (max tick rate 0) at 2019.03.20-00.05.43
+[2019.03.20-07.05.43:412][574]LogWorld: Bringing up level for play took: 0.003666
+[2019.03.20-07.05.43:426][574]PIE: Play in editor start time for /Game/Levels/UEDPIE_0_DemoTown -0.719
+[2019.03.20-07.05.43:427][574]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Levels/DemoTown.DemoTown:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/DemoTown.DemoTown:PersistentLevel.DemoTown' with GeneratedClass '/Game/Levels/DemoTown.DemoTown_C' with ClassGeneratedBy '/Game/Levels/DemoTown.DemoTown:PersistentLevel.DemoTown'
+[2019.03.20-07.05.47:727][ 88]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.03.20-07.05.49:445][294]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Levels/DemoTown.DemoTown:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/DemoTown.DemoTown:PersistentLevel.DemoTown' with GeneratedClass '/Game/Levels/DemoTown.DemoTown_C' with ClassGeneratedBy '/Game/Levels/DemoTown.DemoTown:PersistentLevel.DemoTown'
+[2019.03.20-07.05.49:446][294]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.03.20-07.05.49:487][294]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.03.20-07.05.49:488][294]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Levels/DemoTown.DemoTown:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/DemoTown.DemoTown:PersistentLevel.DemoTown' with GeneratedClass '/Game/Levels/DemoTown.DemoTown_C' with ClassGeneratedBy '/Game/Levels/DemoTown.DemoTown:PersistentLevel.DemoTown'
+[2019.03.20-07.05.49:513][294]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.03.20-07.05.49:552][297]LogPlayLevel: Display: Destroying online subsystem :Context_19
+[2019.03.20-07.07.46:346][ 46]LogAssetEditorManager: Opening Asset editor for WidgetBlueprint /Game/UI/playerHud.playerHud
+[2019.03.20-07.07.53:859][596]LogSlate: Took 0.003561 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2019.03.20-07.08.00:454][378]BlueprintLog: New page: Compile playerHud
+[2019.03.20-07.08.00:917][405]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UI/playerHud" FILE="C:/Users/gosus/Documents/CP-School/SeniorProject/gitRepos/Senior-Project-CPP-Game/Content/UI/playerHud.uasset" SILENT=true
+[2019.03.20-07.08.00:979][405]LogSavePackage: Moving 'C:/Users/gosus/Documents/CP-School/SeniorProject/gitRepos/Senior-Project-CPP-Game/Saved/playerHud306582A0416DC1F892C49E9246490BA5.tmp' to 'C:/Users/gosus/Documents/CP-School/SeniorProject/gitRepos/Senior-Project-CPP-Game/Content/UI/playerHud.uasset'
+[2019.03.20-07.08.38:301][332]BlueprintLog: New page: Compile playerHud
+[2019.03.20-07.08.38:633][345]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UI/playerHud" FILE="C:/Users/gosus/Documents/CP-School/SeniorProject/gitRepos/Senior-Project-CPP-Game/Content/UI/playerHud.uasset" SILENT=true
+[2019.03.20-07.08.38:692][345]LogSavePackage: Moving 'C:/Users/gosus/Documents/CP-School/SeniorProject/gitRepos/Senior-Project-CPP-Game/Saved/playerHudF77FB14A404FD40F23AE878C56545629.tmp' to 'C:/Users/gosus/Documents/CP-School/SeniorProject/gitRepos/Senior-Project-CPP-Game/Content/UI/playerHud.uasset'
+[2019.03.20-07.09.51:979][718]Cmd: TRANSACTION UNDO
+[2019.03.20-07.09.51:979][718]LogEditorTransaction: Undo Reset to Default
+[2019.03.20-07.09.56:555][ 49]Cmd: TRANSACTION UNDO
+[2019.03.20-07.09.56:555][ 49]LogEditorTransaction: Undo Reset to Default
+[2019.03.20-07.10.04:660][678]Cmd: TRANSACTION UNDO
+[2019.03.20-07.10.04:660][678]LogEditorTransaction: Undo Edit Left
+[2019.03.20-07.10.36:854][ 99]LogEditorTransaction: Undo Animatable Property Changed
+[2019.03.20-07.10.37:928][169]LogEditorTransaction: Undo Animatable Property Changed
+[2019.03.20-07.11.36:477][385]LogEditorTransaction: Undo Edit Text
+[2019.03.20-07.13.01:284][783]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Levels/DemoTown' took 0.025
+[2019.03.20-07.13.01:287][783]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/UI/playerHud] ([1] browsable assets)...
+[2019.03.20-07.13.01:288][783]OBJ SavePackage: Finished generating thumbnails for package [/Game/UI/playerHud]
+[2019.03.20-07.13.01:359][783]LogSavePackage: Moving 'C:/Users/gosus/Documents/CP-School/SeniorProject/gitRepos/Senior-Project-CPP-Game/Saved/playerHud_Auto4571FEE2C4F85F413DFAC3795F9DB0490.tmp' to 'C:/Users/gosus/Documents/CP-School/SeniorProject/gitRepos/Senior-Project-CPP-Game/Saved/Autosaves/Game/UI/playerHud_Auto4.uasset'
+[2019.03.20-07.13.01:360][783]LogFileHelpers: Auto-saving content packages took 0.073
+[2019.03.20-07.31.01:802][227]BlueprintLog: New page: Compile playerHud
+[2019.03.20-07.31.02:322][248]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UI/playerHud" FILE="C:/Users/gosus/Documents/CP-School/SeniorProject/gitRepos/Senior-Project-CPP-Game/Content/UI/playerHud.uasset" SILENT=true
+[2019.03.20-07.31.02:387][248]LogSavePackage: Moving 'C:/Users/gosus/Documents/CP-School/SeniorProject/gitRepos/Senior-Project-CPP-Game/Saved/playerHud9F4FB8F946DC94B74F65C8B8F23018A0.tmp' to 'C:/Users/gosus/Documents/CP-School/SeniorProject/gitRepos/Senior-Project-CPP-Game/Content/UI/playerHud.uasset'
+[2019.03.20-07.32.51:138][528]BlueprintLog: New page: Compile playerHud
+[2019.03.20-07.32.51:691][557]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UI/playerHud" FILE="C:/Users/gosus/Documents/CP-School/SeniorProject/gitRepos/Senior-Project-CPP-Game/Content/UI/playerHud.uasset" SILENT=true
+[2019.03.20-07.32.51:767][557]LogSavePackage: Moving 'C:/Users/gosus/Documents/CP-School/SeniorProject/gitRepos/Senior-Project-CPP-Game/Saved/playerHud4EDDDDC2457A711CEB5D5EA4FA52ADF8.tmp' to 'C:/Users/gosus/Documents/CP-School/SeniorProject/gitRepos/Senior-Project-CPP-Game/Content/UI/playerHud.uasset'
+[2019.03.20-07.32.55:187][930]LogTemp: Repeating last play command: Selected Viewport
+[2019.03.20-07.32.55:221][930]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Levels/DemoTown.DemoTown:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/DemoTown.DemoTown:PersistentLevel.DemoTown' with GeneratedClass '/Game/Levels/DemoTown.DemoTown_C' with ClassGeneratedBy '/Game/Levels/DemoTown.DemoTown:PersistentLevel.DemoTown'
+[2019.03.20-07.32.55:221][930]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.03.20-07.32.55:221][930]PIE: New page: PIE session: DemoTown (Mar 19, 2019, 5:32:55 PM)
+[2019.03.20-07.32.55:222][930]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_DemoTown
+[2019.03.20-07.32.55:261][930]LogPlayLevel: PIE: StaticDuplicateObject took: (0.039479s)
+[2019.03.20-07.32.55:262][930]LogAIModule: Creating AISystem for world DemoTown
+[2019.03.20-07.32.55:262][930]LogPlayLevel: PIE: World Init took: (0.000812s)
+[2019.03.20-07.32.55:262][930]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/DemoTown.DemoTown to /Game/Levels/UEDPIE_0_DemoTown.DemoTown (0.040659s)
+[2019.03.20-07.32.55:335][930]LogInit: XAudio2 using 'Speakers (Realtek(R) Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.03.20-07.32.55:352][930]LogInit: FAudioDevice initialized.
+[2019.03.20-07.32.55:386][930]LogLoad: Game class is 'BP_HSPGameGameModeBase_C'
+[2019.03.20-07.32.55:390][930]LogWorld: Bringing World /Game/Levels/UEDPIE_0_DemoTown.DemoTown up for play (max tick rate 0) at 2019.03.20-00.32.55
+[2019.03.20-07.32.55:391][930]LogWorld: Bringing up level for play took: 0.004038
+[2019.03.20-07.32.55:406][930]PIE: Play in editor start time for /Game/Levels/UEDPIE_0_DemoTown -0.739
+[2019.03.20-07.32.55:406][930]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Levels/DemoTown.DemoTown:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/DemoTown.DemoTown:PersistentLevel.DemoTown' with GeneratedClass '/Game/Levels/DemoTown.DemoTown_C' with ClassGeneratedBy '/Game/Levels/DemoTown.DemoTown:PersistentLevel.DemoTown'
+[2019.03.20-07.32.57:436][171]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Levels/DemoTown.DemoTown:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/DemoTown.DemoTown:PersistentLevel.DemoTown' with GeneratedClass '/Game/Levels/DemoTown.DemoTown_C' with ClassGeneratedBy '/Game/Levels/DemoTown.DemoTown:PersistentLevel.DemoTown'
+[2019.03.20-07.32.57:437][171]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.03.20-07.32.57:480][171]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.03.20-07.32.57:480][171]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Levels/DemoTown.DemoTown:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/DemoTown.DemoTown:PersistentLevel.DemoTown' with GeneratedClass '/Game/Levels/DemoTown.DemoTown_C' with ClassGeneratedBy '/Game/Levels/DemoTown.DemoTown:PersistentLevel.DemoTown'
+[2019.03.20-07.32.57:508][171]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.03.20-07.32.57:542][173]LogPlayLevel: Display: Destroying online subsystem :Context_22
+[2019.03.20-07.33.22:283][116]BlueprintLog: New page: Compile playerHud
+[2019.03.20-07.33.22:776][133]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UI/playerHud" FILE="C:/Users/gosus/Documents/CP-School/SeniorProject/gitRepos/Senior-Project-CPP-Game/Content/UI/playerHud.uasset" SILENT=true
+[2019.03.20-07.33.22:842][133]LogSavePackage: Moving 'C:/Users/gosus/Documents/CP-School/SeniorProject/gitRepos/Senior-Project-CPP-Game/Saved/playerHud84860FC943AF94CABBCB1080E8CE3710.tmp' to 'C:/Users/gosus/Documents/CP-School/SeniorProject/gitRepos/Senior-Project-CPP-Game/Content/UI/playerHud.uasset'
+[2019.03.20-07.33.25:639][288]LogTemp: Repeating last play command: Selected Viewport
+[2019.03.20-07.33.25:671][288]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Levels/DemoTown.DemoTown:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/DemoTown.DemoTown:PersistentLevel.DemoTown' with GeneratedClass '/Game/Levels/DemoTown.DemoTown_C' with ClassGeneratedBy '/Game/Levels/DemoTown.DemoTown:PersistentLevel.DemoTown'
+[2019.03.20-07.33.25:672][288]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.03.20-07.33.25:672][288]PIE: New page: PIE session: DemoTown (Mar 19, 2019, 5:33:25 PM)
+[2019.03.20-07.33.25:672][288]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_DemoTown
+[2019.03.20-07.33.25:712][288]LogPlayLevel: PIE: StaticDuplicateObject took: (0.040006s)
+[2019.03.20-07.33.25:713][288]LogAIModule: Creating AISystem for world DemoTown
+[2019.03.20-07.33.25:713][288]LogPlayLevel: PIE: World Init took: (0.000697s)
+[2019.03.20-07.33.25:713][288]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/DemoTown.DemoTown to /Game/Levels/UEDPIE_0_DemoTown.DemoTown (0.041031s)
+[2019.03.20-07.33.25:788][288]LogInit: XAudio2 using 'Speakers (Realtek(R) Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.03.20-07.33.25:804][288]LogInit: FAudioDevice initialized.
+[2019.03.20-07.33.25:837][288]LogLoad: Game class is 'BP_HSPGameGameModeBase_C'
+[2019.03.20-07.33.25:841][288]LogWorld: Bringing World /Game/Levels/UEDPIE_0_DemoTown.DemoTown up for play (max tick rate 0) at 2019.03.20-00.33.25
+[2019.03.20-07.33.25:842][288]LogWorld: Bringing up level for play took: 0.004443
+[2019.03.20-07.33.25:857][288]PIE: Play in editor start time for /Game/Levels/UEDPIE_0_DemoTown -0.288
+[2019.03.20-07.33.25:857][288]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Levels/DemoTown.DemoTown:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/DemoTown.DemoTown:PersistentLevel.DemoTown' with GeneratedClass '/Game/Levels/DemoTown.DemoTown_C' with ClassGeneratedBy '/Game/Levels/DemoTown.DemoTown:PersistentLevel.DemoTown'
+[2019.03.20-07.33.29:289][534]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Levels/DemoTown.DemoTown:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/DemoTown.DemoTown:PersistentLevel.DemoTown' with GeneratedClass '/Game/Levels/DemoTown.DemoTown_C' with ClassGeneratedBy '/Game/Levels/DemoTown.DemoTown:PersistentLevel.DemoTown'
+[2019.03.20-07.33.29:289][534]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.03.20-07.33.29:329][534]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.03.20-07.33.29:330][534]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Levels/DemoTown.DemoTown:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/DemoTown.DemoTown:PersistentLevel.DemoTown' with GeneratedClass '/Game/Levels/DemoTown.DemoTown_C' with ClassGeneratedBy '/Game/Levels/DemoTown.DemoTown:PersistentLevel.DemoTown'
+[2019.03.20-07.33.29:356][534]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.03.20-07.33.29:400][536]LogPlayLevel: Display: Destroying online subsystem :Context_23
+[2019.03.20-07.34.05:339][ 57]BlueprintLog: New page: Compile playerHud
+[2019.03.20-07.34.05:812][ 82]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UI/playerHud" FILE="C:/Users/gosus/Documents/CP-School/SeniorProject/gitRepos/Senior-Project-CPP-Game/Content/UI/playerHud.uasset" SILENT=true
+[2019.03.20-07.34.05:878][ 82]LogSavePackage: Moving 'C:/Users/gosus/Documents/CP-School/SeniorProject/gitRepos/Senior-Project-CPP-Game/Saved/playerHudE8A91E4C46D0DED0014561BF947FEC50.tmp' to 'C:/Users/gosus/Documents/CP-School/SeniorProject/gitRepos/Senior-Project-CPP-Game/Content/UI/playerHud.uasset'
+[2019.03.20-07.34.08:256][334]Candidate modules for hot reload:
+[2019.03.20-07.34.08:256][334]  HSPGame
+[2019.03.20-07.34.08:257][334]Launching UnrealBuildTool... [G:/Games/Epic/Games/UE_4.21/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=HSPGame,8566 Win64 Development -TargetType=Editor -Project="C:/Users/gosus/Documents/CP-School/SeniorProject/gitRepos/Senior-Project-CPP-Game/HSPGame.uproject" -canskiplink "C:/Users/gosus/Documents/CP-School/SeniorProject/gitRepos/Senior-Project-CPP-Game/HSPGame.uproject" ]
+[2019.03.20-07.34.08:260][334]Warning: Starting HotReload took  0.1s.
+[2019.03.20-07.34.28:926][792]CompilerResultsLog: New page: Compilation - Mar 19, 2019, 5:34:28 PM
+[2019.03.20-07.34.28:927][792]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (C:\Users\gosus\Documents\CP-School\SeniorProject\gitRepos\Senior-Project-CPP-Game).
+[2019.03.20-07.34.28:927][792]CompilerResultsLog: Creating makefile for hot reloading HSPGameEditor (source directory changed)
+[2019.03.20-07.34.28:927][792]CompilerResultsLog: Compiling game modules for hot reload
+[2019.03.20-07.34.28:927][792]CompilerResultsLog: Using Visual Studio 2017 14.16.27023 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023) and Windows 10.0.17763.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2019.03.20-07.34.28:927][792]CompilerResultsLog: Parsing headers for HSPGameEditor
+[2019.03.20-07.34.28:927][792]CompilerResultsLog:   Running UnrealHeaderTool "C:\Users\gosus\Documents\CP-School\SeniorProject\gitRepos\Senior-Project-CPP-Game\HSPGame.uproject" "C:\Users\gosus\Documents\CP-School\SeniorProject\gitRepos\Senior-Project-CPP-Game\Intermediate\Build\Win64\HSPGameEditor\Development\HSPGameEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2019.03.20-07.34.28:927][792]CompilerResultsLog: Reflection code generated for HSPGameEditor in 10.2513496 seconds
+[2019.03.20-07.34.28:927][792]CompilerResultsLog: Building 9 actions with 8 processes...
+[2019.03.20-07.34.28:927][792]CompilerResultsLog:   [1/9] Attacks.gen.cpp
+[2019.03.20-07.34.28:927][792]CompilerResultsLog:   [2/9] Attacks.cpp
+[2019.03.20-07.34.28:927][792]CompilerResultsLog:   [3/9] EnemyClass.cpp
+[2019.03.20-07.34.28:927][792]CompilerResultsLog:   [4/9] EnemySlime.gen.cpp
+[2019.03.20-07.34.28:928][792]CompilerResultsLog:   [5/9] EnemySlime.cpp
+[2019.03.20-07.34.28:928][792]CompilerResultsLog:   [6/9] ProtagClass.gen.cpp
+[2019.03.20-07.34.28:928][792]CompilerResultsLog:   [7/9] ProtagClass.cpp
+[2019.03.20-07.34.28:928][792]CompilerResultsLog:   [8/9] UE4Editor-HSPGame-8566.lib
+[2019.03.20-07.34.28:928][792]CompilerResultsLog:      Creating library C:\Users\gosus\Documents\CP-School\SeniorProject\gitRepos\Senior-Project-CPP-Game\Intermediate\Build\Win64\UE4Editor\Development\HSPGame\UE4Editor-HSPGame-8566.lib and object C:\Users\gosus\Documents\CP-School\SeniorProject\gitRepos\Senior-Project-CPP-Game\Intermediate\Build\Win64\UE4Editor\Development\HSPGame\UE4Editor-HSPGame-8566.exp
+[2019.03.20-07.34.28:928][792]CompilerResultsLog:   [9/9] UE4Editor-HSPGame-8566.dll
+[2019.03.20-07.34.28:928][792]CompilerResultsLog:      Creating library C:\Users\gosus\Documents\CP-School\SeniorProject\gitRepos\Senior-Project-CPP-Game\Intermediate\Build\Win64\UE4Editor\Development\HSPGame\UE4Editor-HSPGame-8566.suppressed.lib and object C:\Users\gosus\Documents\CP-School\SeniorProject\gitRepos\Senior-Project-CPP-Game\Intermediate\Build\Win64\UE4Editor\Development\HSPGame\UE4Editor-HSPGame-8566.suppressed.exp
+[2019.03.20-07.34.28:928][792]CompilerResultsLog: Total build time: 20.41 seconds (Parallel executor: 5.72 seconds)
+[2019.03.20-07.34.28:928][792]LogMainFrame: MainFrame: Module compiling took 20.679 seconds
+[2019.03.20-07.34.28:995][792]LogContentBrowser: Native class hierarchy updated for 'HSPGame' in 0.0003 seconds. Added 8 classes and 2 folders.
+[2019.03.20-07.34.28:998][792]Display: HotReload successful (11 functions remapped  0 scriptstructs remapped)
+[2019.03.20-07.34.29:321][792]LogContentBrowser: Native class hierarchy populated in 0.0065 seconds. Added 2661 classes and 626 folders.
+[2019.03.20-07.34.29:332][792]Display: HotReload took 21.2s.
+[2019.03.20-07.36.01:278][821]LogTemp: Repeating last play command: Selected Viewport
+[2019.03.20-07.36.01:305][821]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Levels/DemoTown.DemoTown:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/DemoTown.DemoTown:PersistentLevel.DemoTown' with GeneratedClass '/Game/Levels/DemoTown.DemoTown_C' with ClassGeneratedBy '/Game/Levels/DemoTown.DemoTown:PersistentLevel.DemoTown'
+[2019.03.20-07.36.01:305][821]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.03.20-07.36.01:305][821]PIE: New page: PIE session: DemoTown (Mar 19, 2019, 5:36:01 PM)
+[2019.03.20-07.36.01:305][821]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_DemoTown
+[2019.03.20-07.36.01:345][821]LogPlayLevel: PIE: StaticDuplicateObject took: (0.039296s)
+[2019.03.20-07.36.01:347][821]LogAIModule: Creating AISystem for world DemoTown
+[2019.03.20-07.36.01:347][821]LogPlayLevel: PIE: World Init took: (0.000795s)
+[2019.03.20-07.36.01:348][821]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/DemoTown.DemoTown to /Game/Levels/UEDPIE_0_DemoTown.DemoTown (0.043263s)
+[2019.03.20-07.36.01:444][821]LogInit: XAudio2 using 'Speakers (Realtek(R) Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.03.20-07.36.01:460][821]LogInit: FAudioDevice initialized.
+[2019.03.20-07.36.01:491][821]LogLoad: Game class is 'BP_HSPGameGameModeBase_C'
+[2019.03.20-07.36.01:495][821]LogWorld: Bringing World /Game/Levels/UEDPIE_0_DemoTown.DemoTown up for play (max tick rate 0) at 2019.03.20-00.36.01
+[2019.03.20-07.36.01:496][821]LogWorld: Bringing up level for play took: 0.004592
+[2019.03.20-07.36.01:512][821]PIE: Play in editor start time for /Game/Levels/UEDPIE_0_DemoTown -0.634
+[2019.03.20-07.36.01:512][821]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Levels/DemoTown.DemoTown:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/DemoTown.DemoTown:PersistentLevel.DemoTown' with GeneratedClass '/Game/Levels/DemoTown.DemoTown_C' with ClassGeneratedBy '/Game/Levels/DemoTown.DemoTown:PersistentLevel.DemoTown'
+[2019.03.20-07.36.15:431][486]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Levels/DemoTown.DemoTown:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/DemoTown.DemoTown:PersistentLevel.DemoTown' with GeneratedClass '/Game/Levels/DemoTown.DemoTown_C' with ClassGeneratedBy '/Game/Levels/DemoTown.DemoTown:PersistentLevel.DemoTown'
+[2019.03.20-07.36.15:431][486]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.03.20-07.36.15:466][486]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.03.20-07.36.15:467][486]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Levels/DemoTown.DemoTown:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/DemoTown.DemoTown:PersistentLevel.DemoTown' with GeneratedClass '/Game/Levels/DemoTown.DemoTown_C' with ClassGeneratedBy '/Game/Levels/DemoTown.DemoTown:PersistentLevel.DemoTown'
+[2019.03.20-07.36.15:496][486]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.03.20-07.36.15:536][489]LogPlayLevel: Display: Destroying online subsystem :Context_24
+[2019.03.20-07.36.22:836][360]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/Blueprints/Attacks/BP_DarkWhirl.BP_DarkWhirl
+[2019.03.20-07.36.38:132][703]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Engine/Transient.World_11:playerHud_C_16.WidgetTree_0.SkillDescriptions or CanvasPanel /Game/UI/playerHud.playerHud:WidgetTree.SkillDescriptions
+[2019.03.20-07.36.38:132][703]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Engine/Transient.World_11:playerHud_C_16.WidgetTree_0.SkillDescriptions or CanvasPanel /Engine/Transient.World_11:playerHud_C_17.WidgetTree_0.SkillDescriptions
+[2019.03.20-07.36.38:132][703]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Engine/Transient.World_11:playerHud_C_16.WidgetTree_0.SkillDescriptions or CanvasPanel /Engine/Transient.World_11:playerHud_C_18.WidgetTree_0.SkillDescriptions
+[2019.03.20-07.36.38:132][703]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Engine/Transient.World_11:playerHud_C_16.WidgetTree_0.SkillDescriptions or CanvasPanel /Engine/Transient.World_11:playerHud_C_19.WidgetTree_0.SkillDescriptions
+[2019.03.20-07.36.38:132][703]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Engine/Transient.World_11:playerHud_C_16.WidgetTree_0.SkillDescriptions or CanvasPanel /Engine/Transient.World_11:playerHud_C_20.WidgetTree_0.SkillDescriptions
+[2019.03.20-07.36.38:132][703]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Engine/Transient.World_11:playerHud_C_16.WidgetTree_0.SkillDescriptions or CanvasPanel /Engine/Transient.World_11:playerHud_C_21.WidgetTree_0.SkillDescriptions
+[2019.03.20-07.36.38:132][703]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Engine/Transient.World_11:playerHud_C_16.WidgetTree_0.SkillDescriptions or ObjectProperty /Engine/Transient.REINST_playerHud_C_101:SkillDescriptions
+[2019.03.20-07.36.38:132][703]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Engine/Transient.World_11:playerHud_C_16.WidgetTree_0.SkillDescriptions or CanvasPanel /Engine/Transient.World_11:playerHud_C_43.WidgetTree_0.SkillDescriptions
+[2019.03.20-07.36.38:133][703]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Engine/Transient.World_11:playerHud_C_16.WidgetTree_0.SkillDescriptions or CanvasPanel /Engine/Transient.World_11:playerHud_C_34.WidgetTree_0.SkillDescriptions
+[2019.03.20-07.36.38:133][703]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Engine/Transient.World_11:playerHud_C_16.WidgetTree_0.SkillDescriptions or CanvasPanel /Engine/Transient.World_11:playerHud_C_24.WidgetTree_0.SkillDescriptions
+[2019.03.20-07.36.38:133][703]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Engine/Transient.World_11:playerHud_C_16.WidgetTree_0.SkillDescriptions or CanvasPanel /Engine/Transient.World_11:playerHud_C_26.WidgetTree_0.SkillDescriptions
+[2019.03.20-07.36.38:133][703]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Engine/Transient.World_11:playerHud_C_16.WidgetTree_0.SkillDescriptions or CanvasPanel /Engine/Transient.REINST_playerHud_C_101:WidgetTree.SkillDescriptions
+[2019.03.20-07.36.38:133][703]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Engine/Transient.World_11:playerHud_C_16.WidgetTree_0.SkillDescriptions or CanvasPanel /Engine/Transient.World_11:playerHud_C_27.WidgetTree_0.SkillDescriptions
+[2019.03.20-07.36.38:133][703]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Engine/Transient.World_11:playerHud_C_16.WidgetTree_0.SkillDescriptions or CanvasPanel /Engine/Transient.World_11:playerHud_C_28.WidgetTree_0.SkillDescriptions
+[2019.03.20-07.36.38:133][703]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Engine/Transient.World_11:playerHud_C_16.WidgetTree_0.SkillDescriptions or CanvasPanel /Engine/Transient.World_11:playerHud_C_29.WidgetTree_0.SkillDescriptions
+[2019.03.20-07.36.38:133][703]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Engine/Transient.World_11:playerHud_C_16.WidgetTree_0.SkillDescriptions or CanvasPanel /Engine/Transient.World_11:playerHud_C_44.WidgetTree_0.SkillDescriptions
+[2019.03.20-07.36.38:133][703]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Engine/Transient.World_11:playerHud_C_16.WidgetTree_0.SkillDescriptions or CanvasPanel /Engine/Transient.REINST_playerHud_C_98:WidgetTree.SkillDescriptions
+[2019.03.20-07.36.38:133][703]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Engine/Transient.World_11:playerHud_C_16.WidgetTree_0.SkillDescriptions or ObjectProperty /Game/UI/playerHud.SKEL_playerHud_C:SkillDescriptions
+[2019.03.20-07.36.38:133][703]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Engine/Transient.World_11:playerHud_C_16.WidgetTree_0.SkillDescriptions or CanvasPanel /Engine/Transient.World_11:playerHud_C_37.WidgetTree_0.SkillDescriptions
+[2019.03.20-07.36.38:133][703]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Engine/Transient.World_11:playerHud_C_16.WidgetTree_0.SkillDescriptions or ObjectProperty /Engine/Transient.REINST_playerHud_C_105:SkillDescriptions
+[2019.03.20-07.36.38:133][703]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Engine/Transient.World_11:playerHud_C_16.WidgetTree_0.SkillDescriptions or CanvasPanel /Engine/Transient.REINST_playerHud_C_105:WidgetTree.SkillDescriptions
+[2019.03.20-07.36.38:134][703]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Engine/Transient.World_11:playerHud_C_16.WidgetTree_0.SkillDescriptions or ObjectProperty /Game/UI/playerHud.playerHud_C:SkillDescriptions
+[2019.03.20-07.36.38:134][703]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Engine/Transient.World_11:playerHud_C_16.WidgetTree_0.SkillDescriptions or CanvasPanel /Game/UI/playerHud.playerHud_C:WidgetTree.SkillDescriptions
+[2019.03.20-07.36.38:134][703]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanelSlot /Engine/Transient.World_11:playerHud_C_26.WidgetTree_0.SkillDescriptions.CanvasPanelSlot_1 or CanvasPanelSlot /Engine/Transient.World_11:playerHud_C_34.WidgetTree_0.SkillDescriptions.CanvasPanelSlot_1
+[2019.03.20-07.36.38:134][703]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanelSlot /Engine/Transient.World_11:playerHud_C_26.WidgetTree_0.SkillDescriptions.CanvasPanelSlot_1 or CanvasPanelSlot /Engine/Transient.REINST_playerHud_C_101:WidgetTree.SkillDescriptions.CanvasPanelSlot_1
+[2019.03.20-07.36.38:134][703]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanelSlot /Engine/Transient.World_11:playerHud_C_26.WidgetTree_0.SkillDescriptions.CanvasPanelSlot_1 or CanvasPanelSlot /Engine/Transient.World_11:playerHud_C_24.WidgetTree_0.SkillDescriptions.CanvasPanelSlot_1
+[2019.03.20-07.36.38:134][703]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanelSlot /Engine/Transient.World_11:playerHud_C_26.WidgetTree_0.SkillDescriptions.CanvasPanelSlot_1 or CanvasPanelSlot /Engine/Transient.World_11:playerHud_C_37.WidgetTree_0.SkillDescriptions.CanvasPanelSlot_1
+[2019.03.20-07.36.38:134][703]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanelSlot /Engine/Transient.World_11:playerHud_C_26.WidgetTree_0.SkillDescriptions.CanvasPanelSlot_1 or CanvasPanelSlot /Engine/Transient.World_11:playerHud_C_20.WidgetTree_0.SkillDescriptions.CanvasPanelSlot_1
+[2019.03.20-07.36.38:134][703]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanelSlot /Engine/Transient.World_11:playerHud_C_26.WidgetTree_0.SkillDescriptions.CanvasPanelSlot_1 or CanvasPanelSlot /Game/UI/playerHud.playerHud:WidgetTree.SkillDescriptions.CanvasPanelSlot_1
+[2019.03.20-07.36.38:134][703]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanelSlot /Engine/Transient.World_11:playerHud_C_26.WidgetTree_0.SkillDescriptions.CanvasPanelSlot_1 or CanvasPanelSlot /Engine/Transient.World_11:playerHud_C_44.WidgetTree_0.SkillDescriptions.CanvasPanelSlot_1
+[2019.03.20-07.36.38:134][703]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanelSlot /Engine/Transient.World_11:playerHud_C_26.WidgetTree_0.SkillDescriptions.CanvasPanelSlot_1 or CanvasPanelSlot /Engine/Transient.World_11:playerHud_C_21.WidgetTree_0.SkillDescriptions.CanvasPanelSlot_1
+[2019.03.20-07.36.38:134][703]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanelSlot /Engine/Transient.World_11:playerHud_C_26.WidgetTree_0.SkillDescriptions.CanvasPanelSlot_1 or CanvasPanelSlot /Engine/Transient.World_11:playerHud_C_27.WidgetTree_0.SkillDescriptions.CanvasPanelSlot_1
+[2019.03.20-07.36.38:134][703]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanelSlot /Engine/Transient.World_11:playerHud_C_26.WidgetTree_0.SkillDescriptions.CanvasPanelSlot_1 or CanvasPanelSlot /Engine/Transient.World_11:playerHud_C_28.WidgetTree_0.SkillDescriptions.CanvasPanelSlot_1
+[2019.03.20-07.36.38:134][703]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanelSlot /Engine/Transient.World_11:playerHud_C_26.WidgetTree_0.SkillDescriptions.CanvasPanelSlot_1 or CanvasPanelSlot /Engine/Transient.World_11:playerHud_C_29.WidgetTree_0.SkillDescriptions.CanvasPanelSlot_1
+[2019.03.20-07.36.38:134][703]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanelSlot /Engine/Transient.World_11:playerHud_C_26.WidgetTree_0.SkillDescriptions.CanvasPanelSlot_1 or CanvasPanelSlot /Engine/Transient.REINST_playerHud_C_98:WidgetTree.SkillDescriptions.CanvasPanelSlot_1
+[2019.03.20-07.36.38:135][703]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanelSlot /Engine/Transient.World_11:playerHud_C_26.WidgetTree_0.SkillDescriptions.CanvasPanelSlot_1 or CanvasPanelSlot /Engine/Transient.REINST_playerHud_C_105:WidgetTree.SkillDescriptions.CanvasPanelSlot_1
+[2019.03.20-07.36.38:135][703]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanelSlot /Engine/Transient.World_11:playerHud_C_26.WidgetTree_0.SkillDescriptions.CanvasPanelSlot_1 or CanvasPanelSlot /Engine/Transient.World_11:playerHud_C_43.WidgetTree_0.SkillDescriptions.CanvasPanelSlot_1
+[2019.03.20-07.36.38:135][703]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanelSlot /Engine/Transient.World_11:playerHud_C_26.WidgetTree_0.SkillDescriptions.CanvasPanelSlot_1 or CanvasPanelSlot /Game/UI/playerHud.playerHud_C:WidgetTree.SkillDescriptions.CanvasPanelSlot_1
+[2019.03.20-07.36.38:135][703]LogProperty: Warning: Illegal TEXT reference to a private object in external package (CanvasPanelSlot /Engine/Transient.World_11:playerHud_C_26.WidgetTree_0.SkillDescriptions.CanvasPanelSlot_1) from referencer (TextBlock /Engine/UMG/Editor/Transient.TextBlock_0).  Import failed...
+[2019.03.20-07.36.38:135][703]LogProperty: Warning: ObjectProperty /Script/UMG.Widget:Slot: unresolved reference to 'CanvasPanelSlot'"SkillDescriptions.CanvasPanelSlot_1"''
+[2019.03.20-07.38.42:243][561]BlueprintLog: New page: Compile playerHud
+[2019.03.20-07.38.42:868][603]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UI/playerHud" FILE="C:/Users/gosus/Documents/CP-School/SeniorProject/gitRepos/Senior-Project-CPP-Game/Content/UI/playerHud.uasset" SILENT=true
+[2019.03.20-07.38.42:933][603]LogSavePackage: Moving 'C:/Users/gosus/Documents/CP-School/SeniorProject/gitRepos/Senior-Project-CPP-Game/Saved/playerHudD7C0DE96446BC4438E1C8EBBBE347F07.tmp' to 'C:/Users/gosus/Documents/CP-School/SeniorProject/gitRepos/Senior-Project-CPP-Game/Content/UI/playerHud.uasset'
+[2019.03.20-07.38.59:425][122]LogTemp: Repeating last play command: Selected Viewport
+[2019.03.20-07.38.59:461][122]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Levels/DemoTown.DemoTown:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/DemoTown.DemoTown:PersistentLevel.DemoTown' with GeneratedClass '/Game/Levels/DemoTown.DemoTown_C' with ClassGeneratedBy '/Game/Levels/DemoTown.DemoTown:PersistentLevel.DemoTown'
+[2019.03.20-07.38.59:462][122]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.03.20-07.38.59:462][122]PIE: New page: PIE session: DemoTown (Mar 19, 2019, 5:38:59 PM)
+[2019.03.20-07.38.59:462][122]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_DemoTown
+[2019.03.20-07.38.59:497][122]LogPlayLevel: PIE: StaticDuplicateObject took: (0.034956s)
+[2019.03.20-07.38.59:497][122]LogAIModule: Creating AISystem for world DemoTown
+[2019.03.20-07.38.59:498][122]LogPlayLevel: PIE: World Init took: (0.000669s)
+[2019.03.20-07.38.59:498][122]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/DemoTown.DemoTown to /Game/Levels/UEDPIE_0_DemoTown.DemoTown (0.035936s)
+[2019.03.20-07.38.59:571][122]LogInit: XAudio2 using 'Speakers (Realtek(R) Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.03.20-07.38.59:587][122]LogInit: FAudioDevice initialized.
+[2019.03.20-07.38.59:619][122]LogLoad: Game class is 'BP_HSPGameGameModeBase_C'
+[2019.03.20-07.38.59:623][122]LogWorld: Bringing World /Game/Levels/UEDPIE_0_DemoTown.DemoTown up for play (max tick rate 0) at 2019.03.20-00.38.59
+[2019.03.20-07.38.59:623][122]LogWorld: Bringing up level for play took: 0.003709
+[2019.03.20-07.38.59:639][122]PIE: Play in editor start time for /Game/Levels/UEDPIE_0_DemoTown -0.507
+[2019.03.20-07.38.59:639][122]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Levels/DemoTown.DemoTown:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/DemoTown.DemoTown:PersistentLevel.DemoTown' with GeneratedClass '/Game/Levels/DemoTown.DemoTown_C' with ClassGeneratedBy '/Game/Levels/DemoTown.DemoTown:PersistentLevel.DemoTown'
+[2019.03.20-07.39.06:333][923]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Levels/DemoTown.DemoTown:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/DemoTown.DemoTown:PersistentLevel.DemoTown' with GeneratedClass '/Game/Levels/DemoTown.DemoTown_C' with ClassGeneratedBy '/Game/Levels/DemoTown.DemoTown:PersistentLevel.DemoTown'
+[2019.03.20-07.39.06:333][923]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.03.20-07.39.06:371][923]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.03.20-07.39.06:372][923]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Levels/DemoTown.DemoTown:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/DemoTown.DemoTown:PersistentLevel.DemoTown' with GeneratedClass '/Game/Levels/DemoTown.DemoTown_C' with ClassGeneratedBy '/Game/Levels/DemoTown.DemoTown:PersistentLevel.DemoTown'
+[2019.03.20-07.39.06:402][923]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.03.20-07.39.06:441][926]LogPlayLevel: Display: Destroying online subsystem :Context_26
+[2019.03.20-07.40.04:855][839]LogEditorTransaction: Undo Animatable Property Changed
+[2019.03.20-07.40.09:394][140]Cmd: TRANSACTION UNDO
+[2019.03.20-07.40.09:394][140]LogEditorTransaction: Undo Animatable Property Changed
+[2019.03.20-07.40.12:738][330]LogEditorTransaction: Undo Animatable Property Changed
+[2019.03.20-07.40.22:737][ 61]Cmd: TRANSACTION UNDO
+[2019.03.20-07.40.22:737][ 61]LogEditorTransaction: Undo Reset to Default
+[2019.03.20-07.40.23:991][145]Cmd: TRANSACTION UNDO
+[2019.03.20-07.40.23:991][145]LogEditorTransaction: Undo Reset to Default
+[2019.03.20-07.40.25:362][240]Cmd: TRANSACTION UNDO
+[2019.03.20-07.40.25:362][240]LogEditorTransaction: Undo Reset to Default
+[2019.03.20-07.40.26:289][304]Cmd: TRANSACTION UNDO
+[2019.03.20-07.40.26:289][304]LogEditorTransaction: Undo Animatable Property Changed
+[2019.03.20-07.40.27:129][364]Cmd: TRANSACTION UNDO
+[2019.03.20-07.40.27:129][364]LogEditorTransaction: Undo Animatable Property Changed
+[2019.03.20-07.40.27:863][416]Cmd: TRANSACTION UNDO
+[2019.03.20-07.40.27:863][416]LogEditorTransaction: Undo Animatable Property Changed
+[2019.03.20-07.40.29:037][500]Cmd: TRANSACTION UNDO
+[2019.03.20-07.40.29:037][500]LogEditorTransaction: Undo Move Widget
+[2019.03.20-07.40.29:885][559]Cmd: TRANSACTION UNDO
+[2019.03.20-07.40.29:885][559]LogEditorTransaction: Undo Animatable Property Changed
+[2019.03.20-07.40.30:635][612]Cmd: TRANSACTION UNDO
+[2019.03.20-07.40.30:635][612]LogEditorTransaction: Undo Animatable Property Changed
+[2019.03.20-07.40.32:078][715]Cmd: TRANSACTION UNDO
+[2019.03.20-07.40.32:078][715]LogEditorTransaction: Undo Move Widget
+[2019.03.20-07.40.33:197][790]Cmd: TRANSACTION UNDO
+[2019.03.20-07.40.33:197][790]LogEditorTransaction: Undo Animatable Property Changed
+[2019.03.20-07.40.33:495][807]Cmd: TRANSACTION UNDO
+[2019.03.20-07.40.33:495][807]LogEditorTransaction: Undo Animatable Property Changed
+[2019.03.20-07.40.33:811][826]Cmd: TRANSACTION UNDO
+[2019.03.20-07.40.33:811][826]LogEditorTransaction: Undo Animatable Property Changed
+[2019.03.20-07.40.34:166][847]Cmd: TRANSACTION UNDO
+[2019.03.20-07.40.34:167][847]LogEditorTransaction: Undo Animatable Property Changed
+[2019.03.20-07.40.34:459][865]Cmd: TRANSACTION UNDO
+[2019.03.20-07.40.34:459][865]LogEditorTransaction: Undo Move Widget
+[2019.03.20-07.40.34:670][875]Cmd: TRANSACTION UNDO
+[2019.03.20-07.40.34:670][875]LogEditorTransaction: Undo Edit Right
+[2019.03.20-07.40.34:994][892]Cmd: TRANSACTION UNDO
+[2019.03.20-07.40.34:994][892]LogEditorTransaction: Undo Resize Widget
+[2019.03.20-07.40.35:435][917]Cmd: TRANSACTION UNDO
+[2019.03.20-07.40.35:435][917]LogEditorTransaction: Undo Edit ZOrder
+[2019.03.20-07.40.35:828][939]Cmd: TRANSACTION UNDO
+[2019.03.20-07.40.35:828][939]LogEditorTransaction: Undo Resize Widget
+[2019.03.20-07.42.17:303][483]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UI/playerHud" FILE="C:/Users/gosus/Documents/CP-School/SeniorProject/gitRepos/Senior-Project-CPP-Game/Content/UI/playerHud.uasset" SILENT=true
+[2019.03.20-07.42.17:385][483]LogSavePackage: Moving 'C:/Users/gosus/Documents/CP-School/SeniorProject/gitRepos/Senior-Project-CPP-Game/Saved/playerHud039D9C8D4DD03CBC6E0FDB81C759E15A.tmp' to 'C:/Users/gosus/Documents/CP-School/SeniorProject/gitRepos/Senior-Project-CPP-Game/Content/UI/playerHud.uasset'
+[2019.03.20-07.42.17:909][522]BlueprintLog: New page: Compile playerHud
+[2019.03.20-07.42.19:364][579]LogTemp: Repeating last play command: Selected Viewport
+[2019.03.20-07.42.19:389][579]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Levels/DemoTown.DemoTown:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/DemoTown.DemoTown:PersistentLevel.DemoTown' with GeneratedClass '/Game/Levels/DemoTown.DemoTown_C' with ClassGeneratedBy '/Game/Levels/DemoTown.DemoTown:PersistentLevel.DemoTown'
+[2019.03.20-07.42.19:390][579]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.03.20-07.42.19:390][579]PIE: New page: PIE session: DemoTown (Mar 19, 2019, 5:42:19 PM)
+[2019.03.20-07.42.19:390][579]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_DemoTown
+[2019.03.20-07.42.19:416][579]LogPlayLevel: PIE: StaticDuplicateObject took: (0.026307s)
+[2019.03.20-07.42.19:417][579]LogAIModule: Creating AISystem for world DemoTown
+[2019.03.20-07.42.19:417][579]LogPlayLevel: PIE: World Init took: (0.000570s)
+[2019.03.20-07.42.19:417][579]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/DemoTown.DemoTown to /Game/Levels/UEDPIE_0_DemoTown.DemoTown (0.027217s)
+[2019.03.20-07.42.19:493][579]LogInit: XAudio2 using 'Speakers (Realtek(R) Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.03.20-07.42.19:509][579]LogInit: FAudioDevice initialized.
+[2019.03.20-07.42.19:544][579]LogLoad: Game class is 'BP_HSPGameGameModeBase_C'
+[2019.03.20-07.42.19:551][579]LogWorld: Bringing World /Game/Levels/UEDPIE_0_DemoTown.DemoTown up for play (max tick rate 0) at 2019.03.20-00.42.19
+[2019.03.20-07.42.19:552][579]LogWorld: Bringing up level for play took: 0.007196
+[2019.03.20-07.42.19:567][579]PIE: Play in editor start time for /Game/Levels/UEDPIE_0_DemoTown -0.578
+[2019.03.20-07.42.19:567][579]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Levels/DemoTown.DemoTown:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/DemoTown.DemoTown:PersistentLevel.DemoTown' with GeneratedClass '/Game/Levels/DemoTown.DemoTown_C' with ClassGeneratedBy '/Game/Levels/DemoTown.DemoTown:PersistentLevel.DemoTown'
+[2019.03.20-07.42.26:729][164]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.03.20-07.42.28:651][317]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.03.20-07.42.29:146][358]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Levels/DemoTown.DemoTown:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/DemoTown.DemoTown:PersistentLevel.DemoTown' with GeneratedClass '/Game/Levels/DemoTown.DemoTown_C' with ClassGeneratedBy '/Game/Levels/DemoTown.DemoTown:PersistentLevel.DemoTown'
+[2019.03.20-07.42.29:147][358]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.03.20-07.42.29:185][358]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.03.20-07.42.29:185][358]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Levels/DemoTown.DemoTown:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/DemoTown.DemoTown:PersistentLevel.DemoTown' with GeneratedClass '/Game/Levels/DemoTown.DemoTown_C' with ClassGeneratedBy '/Game/Levels/DemoTown.DemoTown:PersistentLevel.DemoTown'
+[2019.03.20-07.42.29:220][358]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.03.20-07.42.29:251][359]LogPlayLevel: Display: Destroying online subsystem :Context_27
+[2019.03.20-07.42.39:447][ 54]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UI/playerHud" FILE="C:/Users/gosus/Documents/CP-School/SeniorProject/gitRepos/Senior-Project-CPP-Game/Content/UI/playerHud.uasset" SILENT=true
+[2019.03.20-07.42.39:521][ 54]LogSavePackage: Moving 'C:/Users/gosus/Documents/CP-School/SeniorProject/gitRepos/Senior-Project-CPP-Game/Saved/playerHud476E9F1644AA53F9B62B5FA1BA4B343D.tmp' to 'C:/Users/gosus/Documents/CP-School/SeniorProject/gitRepos/Senior-Project-CPP-Game/Content/UI/playerHud.uasset'
+[2019.03.20-07.42.40:334][115]BlueprintLog: New page: Compile playerHud
+[2019.03.20-07.42.43:535][338]LogSlate: Window 'BP_DarkWhirl' being destroyed
+[2019.03.20-07.42.43:538][338]LogSlate: Window 'BP_DarkWhirl' being destroyed
+[2019.03.20-07.42.45:939][588]LogSlate: Window 'HSPGame - Unreal Editor' being destroyed
+[2019.03.20-07.42.45:940][588]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2019.03.20-07.42.46:148][589]Cmd: QUIT_EDITOR
+[2019.03.20-07.42.46:803][589]LogExit: Preparing to exit.
+[2019.03.20-07.42.47:755][589]LogExit: Editor shut down
+[2019.03.20-07.42.47:755][589]LogExit: Transaction tracking system shut down
+[2019.03.20-07.42.48:041][589]LogExit: Object subsystem successfully closed.
+[2019.03.20-07.42.48:095][589]LogShaderCompilers: Display: Shaders left to compile 0
+[2019.03.20-07.42.48:099][589]LogD3D11RHI: Shutdown
+[2019.03.20-07.42.48:099][589]LogD3D11RHI: CleanupD3DDevice
+[2019.03.20-07.42.48:101][589]LogD3D11RHI: ~FD3D11DynamicRHI
+[2019.03.20-07.42.48:123][589]LogModuleManager: Shutting down and abandoning module HSPGame (635)
+[2019.03.20-07.42.48:123][589]LogModuleManager: Shutting down and abandoning module TextureEditor (634)
+[2019.03.20-07.42.48:123][589]LogModuleManager: Shutting down and abandoning module SequencerWidgets (632)
+[2019.03.20-07.42.48:123][589]LogModuleManager: Shutting down and abandoning module BlueprintGraph (630)
+[2019.03.20-07.42.48:123][589]LogModuleManager: Shutting down and abandoning module MovieSceneCapture (628)
+[2019.03.20-07.42.48:123][589]LogModuleManager: Shutting down and abandoning module Voice (626)
+[2019.03.20-07.42.48:123][589]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (624)
+[2019.03.20-07.42.48:123][589]LogModuleManager: Shutting down and abandoning module SceneOutliner (622)
+[2019.03.20-07.42.48:123][589]LogModuleManager: Shutting down and abandoning module AddContentDialog (620)
+[2019.03.20-07.42.48:124][589]LogModuleManager: Shutting down and abandoning module WidgetCarousel (619)
+[2019.03.20-07.42.48:124][589]LogModuleManager: Shutting down and abandoning module EditorWidgets (616)
+[2019.03.20-07.42.48:124][589]LogModuleManager: Shutting down and abandoning module CollectionManager (614)
+[2019.03.20-07.42.48:124][589]LogModuleManager: Shutting down and abandoning module StatsViewer (612)
+[2019.03.20-07.42.48:124][589]LogModuleManager: Shutting down and abandoning module FoliageEdit (610)
+[2019.03.20-07.42.48:124][589]LogModuleManager: Shutting down and abandoning module LandscapeEditor (608)
+[2019.03.20-07.42.48:125][589]LogModuleManager: Shutting down and abandoning module MeshPaintMode (606)
+[2019.03.20-07.42.48:125][589]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (604)
+[2019.03.20-07.42.48:125][589]LogModuleManager: Shutting down and abandoning module ActorPickerMode (602)
+[2019.03.20-07.42.48:126][589]LogModuleManager: Shutting down and abandoning module GeometryMode (600)
+[2019.03.20-07.42.48:126][589]LogModuleManager: Shutting down and abandoning module TextureAlignMode (598)
+[2019.03.20-07.42.48:126][589]LogModuleManager: Shutting down and abandoning module BspMode (596)
+[2019.03.20-07.42.48:126][589]LogModuleManager: Shutting down and abandoning module PIEPreviewDeviceProfileSelector (594)
+[2019.03.20-07.42.48:126][589]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (592)
+[2019.03.20-07.42.48:126][589]LogModuleManager: Shutting down and abandoning module AutomationWorker (590)
+[2019.03.20-07.42.48:126][589]LogModuleManager: Shutting down and abandoning module AudioCaptureEditor (588)
+[2019.03.20-07.42.48:126][589]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (586)
+[2019.03.20-07.42.48:126][589]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (584)
+[2019.03.20-07.42.48:126][589]LogModuleManager: Shutting down and abandoning module PlacementMode (583)
+[2019.03.20-07.42.48:126][589]LogModuleManager: Shutting down and abandoning module MaterialEditor (582)
+[2019.03.20-07.42.48:128][589]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (578)
+[2019.03.20-07.42.48:128][589]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (576)
+[2019.03.20-07.42.48:128][589]LogModuleManager: Shutting down and abandoning module WebMMediaFactory (574)
+[2019.03.20-07.42.48:128][589]LogModuleManager: Shutting down and abandoning module WebMMediaEditor (572)
+[2019.03.20-07.42.48:128][589]LogModuleManager: Shutting down and abandoning module WebMMedia (570)
+[2019.03.20-07.42.48:128][589]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (568)
+[2019.03.20-07.42.48:128][589]LogModuleManager: Shutting down and abandoning module MediaCompositingEditor (566)
+[2019.03.20-07.42.48:128][589]LogModuleManager: Shutting down and abandoning module SequenceRecorder (565)
+[2019.03.20-07.42.48:128][589]LogModuleManager: Shutting down and abandoning module OpenExrWrapper (562)
+[2019.03.20-07.42.48:128][589]LogModuleManager: Shutting down and abandoning module ImgMediaFactory (560)
+[2019.03.20-07.42.48:128][589]LogModuleManager: Shutting down and abandoning module ImgMediaEditor (558)
+[2019.03.20-07.42.48:128][589]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (556)
+[2019.03.20-07.42.48:128][589]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (554)
+[2019.03.20-07.42.48:128][589]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (552)
+[2019.03.20-07.42.48:128][589]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (550)
+[2019.03.20-07.42.48:128][589]LogModuleManager: Shutting down and abandoning module MagicLeapCameraPreviewFactory (548)
+[2019.03.20-07.42.48:128][589]LogModuleManager: Shutting down and abandoning module MagicLeapMediaFactory (546)
+[2019.03.20-07.42.48:128][589]LogModuleManager: Shutting down and abandoning module MagicLeapMediaEditor (544)
+[2019.03.20-07.42.48:129][589]LogModuleManager: Shutting down and abandoning module CharacterAI (542)
+[2019.03.20-07.42.48:129][589]LogModuleManager: Shutting down and abandoning module SmartSnapping (540)
+[2019.03.20-07.42.48:129][589]LogModuleManager: Shutting down and abandoning module SessionServices (538)
+[2019.03.20-07.42.48:129][589]LogModuleManager: Shutting down and abandoning module ViewportSnapping (536)
+[2019.03.20-07.42.48:129][589]LogModuleManager: Shutting down and abandoning module ViewportInteraction (534)
+[2019.03.20-07.42.48:129][589]LogModuleManager: Shutting down and abandoning module ClothPainter (532)
+[2019.03.20-07.42.48:129][589]LogModuleManager: Shutting down and abandoning module SkeletalMeshEditor (531)
+[2019.03.20-07.42.48:132][589]LogModuleManager: Shutting down and abandoning module LogVisualizer (528)
+[2019.03.20-07.42.48:132][589]LogModuleManager: Shutting down and abandoning module IntroTutorials (526)
+[2019.03.20-07.42.48:133][589]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (525)
+[2019.03.20-07.42.48:133][589]LogModuleManager: Shutting down and abandoning module LuminPlatformEditor (522)
+[2019.03.20-07.42.48:133][589]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (520)
+[2019.03.20-07.42.48:133][589]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (518)
+[2019.03.20-07.42.48:133][589]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (516)
+[2019.03.20-07.42.48:133][589]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (515)
+[2019.03.20-07.42.49:254][589]LogModuleManager: Shutting down and abandoning module WindowsPlatformEditor (512)
+[2019.03.20-07.42.49:254][589]LogModuleManager: Shutting down and abandoning module LuminRuntimeSettings (510)
+[2019.03.20-07.42.49:254][589]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (508)
+[2019.03.20-07.42.49:254][589]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (506)
+[2019.03.20-07.42.49:254][589]LogModuleManager: Shutting down and abandoning module TimeManagementEditor (504)
+[2019.03.20-07.42.49:254][589]LogModuleManager: Shutting down and abandoning module InputBindingEditor (502)
+[2019.03.20-07.42.49:259][589]LogModuleManager: Shutting down and abandoning module MergeActors (500)
+[2019.03.20-07.42.49:259][589]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (498)
+[2019.03.20-07.42.49:259][589]LogModuleManager: Shutting down and abandoning module LocalizationService (497)
+[2019.03.20-07.42.49:259][589]LogModuleManager: Shutting down and abandoning module HardwareTargeting (494)
+[2019.03.20-07.42.49:259][589]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (492)
+[2019.03.20-07.42.49:259][589]LogModuleManager: Shutting down and abandoning module UndoHistory (490)
+[2019.03.20-07.42.49:259][589]LogModuleManager: Shutting down and abandoning module XmlParser (488)
+[2019.03.20-07.42.49:260][589]LogModuleManager: Shutting down and abandoning module Blutility (486)
+[2019.03.20-07.42.49:260][589]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (484)
+[2019.03.20-07.42.49:260][589]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (483)
+[2019.03.20-07.42.49:260][589]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (480)
+[2019.03.20-07.42.49:260][589]LogModuleManager: Shutting down and abandoning module SettingsEditor (478)
+[2019.03.20-07.42.49:260][589]LogModuleManager: Shutting down and abandoning module ProjectLauncher (476)
+[2019.03.20-07.42.49:260][589]LogModuleManager: Shutting down and abandoning module SessionFrontend (474)
+[2019.03.20-07.42.49:260][589]LogModuleManager: Shutting down and abandoning module ProfilerClient (472)
+[2019.03.20-07.42.49:261][589]LogModuleManager: Shutting down and abandoning module DeviceManager (470)
+[2019.03.20-07.42.49:261][589]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (469)
+[2019.03.20-07.42.49:327][589]LogModuleManager: Shutting down and abandoning module AutomationController (466)
+[2019.03.20-07.42.49:327][589]LogModuleManager: Shutting down and abandoning module AutomationWindow (464)
+[2019.03.20-07.42.49:333][589]LogModuleManager: Shutting down and abandoning module Layers (462)
+[2019.03.20-07.42.49:334][589]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (460)
+[2019.03.20-07.42.49:334][589]LogModuleManager: Shutting down and abandoning module DetailCustomizations (458)
+[2019.03.20-07.42.49:334][589]LogModuleManager: Shutting down and abandoning module PackagesDialog (456)
+[2019.03.20-07.42.49:335][589]LogModuleManager: Shutting down and abandoning module Persona (454)
+[2019.03.20-07.42.49:335][589]LogModuleManager: Shutting down and abandoning module AdvancedPreviewScene (453)
+[2019.03.20-07.42.49:335][589]LogModuleManager: Shutting down and abandoning module AnimGraph (451)
+[2019.03.20-07.42.49:335][589]LogModuleManager: Shutting down and abandoning module Kismet (448)
+[2019.03.20-07.42.49:339][589]LogModuleManager: Shutting down and abandoning module GraphEditor (446)
+[2019.03.20-07.42.49:339][589]LogModuleManager: Shutting down and abandoning module ClassViewer (444)
+[2019.03.20-07.42.49:339][589]LogModuleManager: Shutting down and abandoning module Toolbox (442)
+[2019.03.20-07.42.49:339][589]LogModuleManager: Shutting down and abandoning module DesktopPlatform (441)
+[2019.03.20-07.42.49:339][589]LogModuleManager: Shutting down and abandoning module ModuleUI (438)
+[2019.03.20-07.42.49:343][589]LogModuleManager: Shutting down and abandoning module MovieSceneTools (436)
+[2019.03.20-07.42.49:343][589]LogModuleManager: Shutting down and abandoning module OutputLog (434)
+[2019.03.20-07.42.49:343][589]LogModuleManager: Shutting down and abandoning module GammaUI (432)
+[2019.03.20-07.42.49:344][589]LogModuleManager: Shutting down and abandoning module Documentation (430)
+[2019.03.20-07.42.49:344][589]LogModuleManager: Shutting down and abandoning module MovieSceneTracks (428)
+[2019.03.20-07.42.49:344][589]LogModuleManager: Shutting down and abandoning module MovieScene (426)
+[2019.03.20-07.42.49:344][589]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (424)
+[2019.03.20-07.42.49:344][589]LogModuleManager: Shutting down and abandoning module LauncherPlatform (422)
+[2019.03.20-07.42.49:344][589]LogModuleManager: Shutting down and abandoning module AnalyticsET (420)
+[2019.03.20-07.42.49:344][589]LogModuleManager: Shutting down and abandoning module PortalServices (418)
+[2019.03.20-07.42.49:344][589]LogModuleManager: Shutting down and abandoning module PortalRpc (416)
+[2019.03.20-07.42.49:344][589]LogModuleManager: Shutting down and abandoning module MessagingRpc (414)
+[2019.03.20-07.42.49:344][589]LogModuleManager: Shutting down and abandoning module AIModule (412)
+[2019.03.20-07.42.49:344][589]LogModuleManager: Shutting down and abandoning module GameplayDebugger (411)
+[2019.03.20-07.42.49:344][589]LogModuleManager: Shutting down and abandoning module AITestSuite (409)
+[2019.03.20-07.42.49:344][589]LogModuleManager: Shutting down and abandoning module NavigationSystem (407)
+[2019.03.20-07.42.49:344][589]LogModuleManager: Shutting down and abandoning module ImageWriteQueue (404)
+[2019.03.20-07.42.49:350][589]LogModuleManager: Shutting down and abandoning module ProfilerService (402)
+[2019.03.20-07.42.49:381][589]LogModuleManager: Shutting down and abandoning module TaskGraph (400)
+[2019.03.20-07.42.49:381][589]LogModuleManager: Shutting down and abandoning module SteamVRController (398)
+[2019.03.20-07.42.49:381][589]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (396)
+[2019.03.20-07.42.49:381][589]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (394)
+[2019.03.20-07.42.49:381][589]LogModuleManager: Shutting down and abandoning module OculusInput (392)
+[2019.03.20-07.42.49:381][589]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (390)
+[2019.03.20-07.42.49:381][589]LogModuleManager: Shutting down and abandoning module EditableMesh (388)
+[2019.03.20-07.42.49:381][589]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (386)
+[2019.03.20-07.42.49:381][589]LogModuleManager: Shutting down and abandoning module CableComponent (384)
+[2019.03.20-07.42.49:381][589]LogModuleManager: Shutting down and abandoning module AudioCapture (382)
+[2019.03.20-07.42.49:382][589]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (380)
+[2019.03.20-07.42.49:382][589]LogModuleManager: Shutting down and abandoning module AndroidPermission (378)
+[2019.03.20-07.42.49:382][589]LogModuleManager: Shutting down and abandoning module NUTUnrealEngine4 (376)
+[2019.03.20-07.42.49:382][589]LogModuleManager: Shutting down and abandoning module NetcodeUnitTest (374)
+[2019.03.20-07.42.49:382][589]LogModuleManager: Shutting down and abandoning module MediaCompositing (372)
+[2019.03.20-07.42.49:382][589]LogModuleManager: Shutting down and abandoning module LinearTimecode (370)
+[2019.03.20-07.42.49:382][589]LogModuleManager: Shutting down and abandoning module ImgMedia (368)
+[2019.03.20-07.42.49:390][589]LogModuleManager: Shutting down and abandoning module HTML5Networking (366)
+[2019.03.20-07.42.49:390][589]LogModuleManager: Shutting down and abandoning module GeometryCacheTracks (364)
+[2019.03.20-07.42.49:390][589]LogModuleManager: Shutting down and abandoning module GeometryCacheSequencer (362)
+[2019.03.20-07.42.49:390][589]LogModuleManager: Shutting down and abandoning module BackChannel (360)
+[2019.03.20-07.42.49:390][589]LogModuleManager: Shutting down and abandoning module AppleVision (358)
+[2019.03.20-07.42.49:390][589]LogModuleManager: Shutting down and abandoning module AppleImageUtilsBlueprintSupport (356)
+[2019.03.20-07.42.49:390][589]LogModuleManager: Shutting down and abandoning module AppleImageUtils (354)
+[2019.03.20-07.42.49:391][589]LogModuleManager: Shutting down and abandoning module AlembicImporter (352)
+[2019.03.20-07.42.49:391][589]LogModuleManager: Shutting down and abandoning module AlembicLibrary (351)
+[2019.03.20-07.42.49:391][589]LogModuleManager: Shutting down and abandoning module GeometryCache (350)
+[2019.03.20-07.42.49:391][589]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (349)
+[2019.03.20-07.42.49:391][589]LogModuleManager: Shutting down and abandoning module VariantManagerContent (344)
+[2019.03.20-07.42.49:391][589]LogModuleManager: Shutting down and abandoning module DatasmithContentEditor (342)
+[2019.03.20-07.42.49:391][589]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (340)
+[2019.03.20-07.42.49:391][589]LogModuleManager: Shutting down and abandoning module PluginBrowser (338)
+[2019.03.20-07.42.49:392][589]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (336)
+[2019.03.20-07.42.49:392][589]LogModuleManager: Shutting down and abandoning module PolygonModeling (334)
+[2019.03.20-07.42.49:392][589]LogModuleManager: Shutting down and abandoning module MeshEditor (332)
+[2019.03.20-07.42.49:392][589]LogModuleManager: Shutting down and abandoning module CryptoKeysOpenSSL (330)
+[2019.03.20-07.42.49:392][589]LogModuleManager: Shutting down and abandoning module CryptoKeys (328)
+[2019.03.20-07.42.49:392][589]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (326)
+[2019.03.20-07.42.49:392][589]LogModuleManager: Shutting down and abandoning module VisualStudioCodeSourceCodeAccess (324)
+[2019.03.20-07.42.49:392][589]LogModuleManager: Shutting down and abandoning module UObjectPlugin (322)
+[2019.03.20-07.42.49:392][589]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (320)
+[2019.03.20-07.42.49:392][589]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (318)
+[2019.03.20-07.42.49:393][589]LogModuleManager: Shutting down and abandoning module GitSourceControl (316)
+[2019.03.20-07.42.49:393][589]LogModuleManager: Shutting down and abandoning module SourceControl (315)
+[2019.03.20-07.42.49:393][589]LogModuleManager: Shutting down and abandoning module CLionSourceCodeAccess (312)
+[2019.03.20-07.42.49:393][589]LogModuleManager: Shutting down and abandoning module ActorLayerUtilitiesEditor (310)
+[2019.03.20-07.42.49:393][589]LogModuleManager: Shutting down and abandoning module ActorLayerUtilities (308)
+[2019.03.20-07.42.49:393][589]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (306)
+[2019.03.20-07.42.49:393][589]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (304)
+[2019.03.20-07.42.49:393][589]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (302)
+[2019.03.20-07.42.49:393][589]LogModuleManager: Shutting down and abandoning module Paper2DEditor (300)
+[2019.03.20-07.42.49:394][589]LogModuleManager: Shutting down and abandoning module MeshPaint (299)
+[2019.03.20-07.42.49:394][589]LogModuleManager: Shutting down and abandoning module RuntimePhysXCooking (294)
+[2019.03.20-07.42.49:394][589]LogModuleManager: Shutting down and abandoning module PhysXVehiclesEditor (292)
+[2019.03.20-07.42.49:394][589]LogModuleManager: Shutting down and abandoning module PhysXVehicles (290)
+[2019.03.20-07.42.49:394][589]LogModuleManager: Shutting down and abandoning module OculusEditor (288)
+[2019.03.20-07.42.49:394][589]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (286)
+[2019.03.20-07.42.49:394][589]LogModuleManager: Shutting down and abandoning module ActorSequence (284)
+[2019.03.20-07.42.49:394][589]LogModuleManager: Shutting down and abandoning module UdpMessaging (282)
+[2019.03.20-07.42.49:496][589]LogModuleManager: Shutting down and abandoning module TcpMessaging (280)
+[2019.03.20-07.42.49:596][589]LogModuleManager: Shutting down and abandoning module MagicLeapAudio (278)
+[2019.03.20-07.42.49:596][589]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (276)
+[2019.03.20-07.42.49:601][589]LogModuleManager: Shutting down and abandoning module FacialAnimationEditor (274)
+[2019.03.20-07.42.49:601][589]LogModuleManager: Shutting down and abandoning module FacialAnimation (272)
+[2019.03.20-07.42.49:601][589]LogModuleManager: Shutting down and abandoning module DataValidation (270)
+[2019.03.20-07.42.49:601][589]LogModuleManager: Shutting down and abandoning module AssetManagerEditor (268)
+[2019.03.20-07.42.49:603][589]LogModuleManager: Shutting down and abandoning module LevelEditor (267)
+[2019.03.20-07.42.49:604][589]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (266)
+[2019.03.20-07.42.49:604][589]LogModuleManager: Shutting down and abandoning module CommonMenuExtensions (264)
+[2019.03.20-07.42.49:604][589]LogModuleManager: Shutting down and abandoning module MainFrame (262)
+[2019.03.20-07.42.49:605][589]LogModuleManager: Shutting down and abandoning module HotReload (261)
+[2019.03.20-07.42.49:605][589]LogModuleManager: Shutting down and abandoning module ContentBrowser (257)
+[2019.03.20-07.42.49:607][589]LogModuleManager: Shutting down and abandoning module TreeMap (255)
+[2019.03.20-07.42.49:607][589]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (252)
+[2019.03.20-07.42.49:607][589]LogModuleManager: Shutting down and abandoning module AISupportModule (250)
+[2019.03.20-07.42.49:607][589]LogModuleManager: Shutting down and abandoning module Paper2D (248)
+[2019.03.20-07.42.49:607][589]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (246)
+[2019.03.20-07.42.49:608][589]LogModuleManager: Shutting down and abandoning module WebMMoviePlayer (244)
+[2019.03.20-07.42.49:608][589]LogModuleManager: Shutting down and abandoning module WmfMedia (242)
+[2019.03.20-07.42.49:613][589]LogModuleManager: Shutting down and abandoning module Media (241)
+[2019.03.20-07.42.49:620][589]LogModuleManager: Shutting down and abandoning module PacketHandler (238)
+[2019.03.20-07.42.49:620][589]LogModuleManager: Shutting down and abandoning module ClothingSystemEditor (236)
+[2019.03.20-07.42.49:620][589]LogModuleManager: Shutting down and abandoning module ClothingSystemRuntime (234)
+[2019.03.20-07.42.49:621][589]LogModuleManager: Shutting down and abandoning module MediaAssets (232)
+[2019.03.20-07.42.49:621][589]LogModuleManager: Shutting down and abandoning module Overlay (230)
+[2019.03.20-07.42.49:621][589]LogModuleManager: Shutting down and abandoning module OverlayEditor (229)
+[2019.03.20-07.42.49:621][589]LogModuleManager: Shutting down and abandoning module VREditor (226)
+[2019.03.20-07.42.49:621][589]LogModuleManager: Shutting down and abandoning module StringTableEditor (224)
+[2019.03.20-07.42.49:622][589]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (222)
+[2019.03.20-07.42.49:622][589]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (220)
+[2019.03.20-07.42.49:622][589]LogModuleManager: Shutting down and abandoning module FunctionalTesting (218)
+[2019.03.20-07.42.49:622][589]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (216)
+[2019.03.20-07.42.49:622][589]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (215)
+[2019.03.20-07.42.49:622][589]LogModuleManager: Shutting down and abandoning module UMG (212)
+[2019.03.20-07.42.49:622][589]LogModuleManager: Shutting down and abandoning module UMGEditor (211)
+[2019.03.20-07.42.49:622][589]LogModuleManager: Shutting down and abandoning module Sequencer (210)
+[2019.03.20-07.42.49:622][589]LogModuleManager: Shutting down and abandoning module MessageLog (207)
+[2019.03.20-07.42.49:622][589]LogModuleManager: Shutting down and abandoning module SlateReflector (202)
+[2019.03.20-07.42.49:624][589]LogModuleManager: Shutting down and abandoning module Slate (200)
+[2019.03.20-07.42.49:624][589]LogModuleManager: Shutting down and abandoning module EditorStyle (198)
+[2019.03.20-07.42.49:625][589]LogModuleManager: Shutting down and abandoning module MRMesh (196)
+[2019.03.20-07.42.49:625][589]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (194)
+[2019.03.20-07.42.49:625][589]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (192)
+[2019.03.20-07.42.49:625][589]LogModuleManager: Shutting down and abandoning module XAudio2 (190)
+[2019.03.20-07.42.49:625][589]LogModuleManager: Shutting down and abandoning module Networking (188)
+[2019.03.20-07.42.49:625][589]LogModuleManager: Shutting down and abandoning module Core (186)
+[2019.03.20-07.42.49:625][589]LogModuleManager: Shutting down and abandoning module LevelSequence (184)
+[2019.03.20-07.42.49:625][589]LogModuleManager: Shutting down and abandoning module KismetCompiler (182)
+[2019.03.20-07.42.49:625][589]LogModuleManager: Shutting down and abandoning module MeshUtilities (180)
+[2019.03.20-07.42.49:625][589]LogModuleManager: Shutting down and abandoning module MeshMergeUtilities (179)
+[2019.03.20-07.42.49:626][589]LogModuleManager: Shutting down and abandoning module MeshReductionInterface (178)
+[2019.03.20-07.42.49:626][589]LogModuleManager: Shutting down and abandoning module SimplygonSwarm (177)
+[2019.03.20-07.42.49:626][589]LogModuleManager: Shutting down and abandoning module ProxyLODMeshReduction (175)
+[2019.03.20-07.42.49:627][589]LogModuleManager: Shutting down and abandoning module SimplygonMeshReduction (173)
+[2019.03.20-07.42.49:627][589]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (171)
+[2019.03.20-07.42.49:627][589]LogModuleManager: Shutting down and abandoning module MaterialBaking (167)
+[2019.03.20-07.42.49:627][589]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (163)
+[2019.03.20-07.42.49:627][589]LogModuleManager: Shutting down and abandoning module DerivedDataCache (160)
+[2019.03.20-07.42.49:728][589]LogDerivedDataCache: Shutdown
+[2019.03.20-07.42.49:728][589]LogModuleManager: Shutting down and abandoning module XGEController (158)
+[2019.03.20-07.42.49:728][589]LogXGEController: Cleaning working directory: C:/Users/gosus/AppData/Local/Temp/UnrealXGEWorkingDir/
+[2019.03.20-07.42.49:728][589]LogModuleManager: Shutting down and abandoning module TargetPlatform (156)
+[2019.03.20-07.42.49:728][589]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (155)
+[2019.03.20-07.42.49:728][589]LogModuleManager: Shutting down and abandoning module ShaderFormatVectorVM (153)
+[2019.03.20-07.42.49:728][589]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (151)
+[2019.03.20-07.42.49:733][589]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (149)
+[2019.03.20-07.42.49:733][589]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (147)
+[2019.03.20-07.42.49:734][589]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (145)
+[2019.03.20-07.42.49:734][589]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (143)
+[2019.03.20-07.42.49:734][589]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (141)
+[2019.03.20-07.42.49:734][589]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (139)
+[2019.03.20-07.42.49:734][589]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (137)
+[2019.03.20-07.42.49:735][589]LogModuleManager: Shutting down and abandoning module ImageWrapper (136)
+[2019.03.20-07.42.49:735][589]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (133)
+[2019.03.20-07.42.49:735][589]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (131)
+[2019.03.20-07.42.49:735][589]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (129)
+[2019.03.20-07.42.49:735][589]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (127)
+[2019.03.20-07.42.49:735][589]LogModuleManager: Shutting down and abandoning module LuminTargetPlatform (125)
+[2019.03.20-07.42.49:735][589]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (123)
+[2019.03.20-07.42.49:735][589]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (121)
+[2019.03.20-07.42.49:735][589]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (119)
+[2019.03.20-07.42.49:736][589]LogModuleManager: Shutting down and abandoning module LinuxClientTargetPlatform (117)
+[2019.03.20-07.42.49:736][589]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (115)
+[2019.03.20-07.42.49:736][589]LogModuleManager: Shutting down and abandoning module Messaging (113)
+[2019.03.20-07.42.49:736][589]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (111)
+[2019.03.20-07.42.49:737][589]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (109)
+[2019.03.20-07.42.49:737][589]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (107)
+[2019.03.20-07.42.49:740][589]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (105)
+[2019.03.20-07.42.49:740][589]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (103)
+[2019.03.20-07.42.49:741][589]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (101)
+[2019.03.20-07.42.49:741][589]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (99)
+[2019.03.20-07.42.49:741][589]LogModuleManager: Shutting down and abandoning module MacTargetPlatform (97)
+[2019.03.20-07.42.49:741][589]LogModuleManager: Shutting down and abandoning module MacServerTargetPlatform (95)
+[2019.03.20-07.42.49:741][589]LogModuleManager: Shutting down and abandoning module MacNoEditorTargetPlatform (93)
+[2019.03.20-07.42.49:741][589]LogModuleManager: Shutting down and abandoning module MacClientTargetPlatform (91)
+[2019.03.20-07.42.49:741][589]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (89)
+[2019.03.20-07.42.49:741][589]LogModuleManager: Shutting down and abandoning module InputCore (86)
+[2019.03.20-07.42.49:741][589]LogModuleManager: Shutting down and abandoning module Settings (84)
+[2019.03.20-07.42.49:741][589]LogModuleManager: Shutting down and abandoning module PhysXCooking (82)
+[2019.03.20-07.42.49:741][589]LogModuleManager: Shutting down and abandoning module SteamVR (80)
+[2019.03.20-07.42.49:741][589]LogHMD: Freeing OpenVRDLLHandle.
+[2019.03.20-07.42.49:741][589]LogModuleManager: Shutting down and abandoning module OculusHMD (78)
+[2019.03.20-07.42.49:741][589]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (76)
+[2019.03.20-07.42.49:741][589]LogModuleManager: Shutting down and abandoning module LauncherChunkInstaller (74)
+[2019.03.20-07.42.49:741][589]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (72)
+[2019.03.20-07.42.49:741][589]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (68)
+[2019.03.20-07.42.49:743][589]LogModuleManager: Shutting down and abandoning module XMPP (63)
+[2019.03.20-07.42.49:743][589]LogModuleManager: Shutting down and abandoning module WebSockets (62)
+[2019.03.20-07.42.49:749][589]LogModuleManager: Shutting down and abandoning module HTTP (59)
+[2019.03.20-07.42.49:749][589]LogHttp: Display: Http module shutting down, but needs to wait on 1 outstanding Http requests:
+[2019.03.20-07.42.49:749][589]LogHttp: Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7BCCCA6621-4F26-9B39-6DA2-E19F1077AF9D%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.21.2-4753647%2B%2B%2BUE4%2BRelease-4.21&UserID=9e4170084badf87e8c36de96253b7ba6%7Cab42ae2a85794cd9ae0bb9c5fc3e9425%7Cb942975b-bfa1-46d0-8a9e-a54cbac2e886&AppEnvironment=datacollector-binary&UploadType=eteventstream] status=Processing
+[2019.03.20-07.42.49:782][589]LogModuleManager: Shutting down and abandoning module SSL (58)
+[2019.03.20-07.42.49:783][589]LogModuleManager: Shutting down and abandoning module MagicLeapIdentity (54)
+[2019.03.20-07.42.49:783][589]LogModuleManager: Shutting down and abandoning module MagicLeapHelperVulkan (52)
+[2019.03.20-07.42.49:783][589]LogModuleManager: Shutting down and abandoning module MagicLeapHelperOpenGL (50)
+[2019.03.20-07.42.49:783][589]LogModuleManager: Shutting down and abandoning module MagicLeapSecureStorage (48)
+[2019.03.20-07.42.49:784][589]LogModuleManager: Shutting down and abandoning module MagicLeapHandTracking (46)
+[2019.03.20-07.42.49:784][589]LogModuleManager: Shutting down and abandoning module MagicLeapEyeTracker (44)
+[2019.03.20-07.42.49:784][589]LogModuleManager: Shutting down and abandoning module MagicLeapController (42)
+[2019.03.20-07.42.49:784][589]LogSlate: Slate User Destroyed.  User Index 0, Is Virtual User: 0
+[2019.03.20-07.42.49:784][589]LogModuleManager: Shutting down and abandoning module MagicLeap (40)
+[2019.03.20-07.42.49:784][589]LogModuleManager: Shutting down and abandoning module DatasmithContent (38)
+[2019.03.20-07.42.49:784][589]LogModuleManager: Shutting down and abandoning module AnimationModifiers (36)
+[2019.03.20-07.42.49:785][589]LogModuleManager: Shutting down and abandoning module PropertyEditor (35)
+[2019.03.20-07.42.49:785][589]LogModuleManager: Shutting down and abandoning module AudioEditor (32)
+[2019.03.20-07.42.49:785][589]LogModuleManager: Shutting down and abandoning module TextureCompressor (30)
+[2019.03.20-07.42.49:785][589]LogModuleManager: Shutting down and abandoning module ShaderCore (28)
+[2019.03.20-07.42.49:785][589]LogModuleManager: Shutting down and abandoning module Landscape (26)
+[2019.03.20-07.42.49:785][589]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (24)
+[2019.03.20-07.42.49:787][589]LogModuleManager: Shutting down and abandoning module OpenGLDrv (22)
+[2019.03.20-07.42.49:787][589]LogModuleManager: Shutting down and abandoning module D3D11RHI (20)
+[2019.03.20-07.42.49:787][589]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (18)
+[2019.03.20-07.42.49:787][589]LogModuleManager: Shutting down and abandoning module Renderer (16)
+[2019.03.20-07.42.49:787][589]LogModuleManager: Shutting down and abandoning module Engine (14)
+[2019.03.20-07.42.49:787][589]LogModuleManager: Shutting down and abandoning module CoreUObject (12)
+[2019.03.20-07.42.49:787][589]LogModuleManager: Shutting down and abandoning module NetworkFile (10)
+[2019.03.20-07.42.49:787][589]LogModuleManager: Shutting down and abandoning module CookedIterativeFile (8)
+[2019.03.20-07.42.49:787][589]LogModuleManager: Shutting down and abandoning module StreamingFile (6)
+[2019.03.20-07.42.49:787][589]LogModuleManager: Shutting down and abandoning module SandboxFile (4)
+[2019.03.20-07.42.49:788][589]LogModuleManager: Shutting down and abandoning module PakFile (2)
+[2019.03.20-07.42.49:810][589]LogExit: Exiting.
+[2019.03.20-07.42.49:817][589]Log file closed, 03/20/19 00:42:49
