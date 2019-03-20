@@ -23,6 +23,8 @@ public:
 	//Bools for skills
 	UPROPERTY(BlueprintReadWrite)
 		bool isCastableFB = false; //fireball
+	UPROPERTY(BlueprintReadWrite)
+		bool isCastableLB = false; //lightning bolt
 
 	//Possibly include this later
 	//float health;

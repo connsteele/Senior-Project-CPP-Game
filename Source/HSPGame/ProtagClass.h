@@ -44,10 +44,13 @@ public:
 	UFUNCTION()
 		void turnOffJumping();
 	
+	// Blueprints for Attacks
 	UPROPERTY(EditAnywhere)
 		TSubclassOf<class AAttacks> magicAttack;
 	UPROPERTY(EditAnywhere)
 		TSubclassOf<class AAttacks> atk_fireball;
+	UPROPERTY(EditAnywhere)
+		TSubclassOf<class AAttacks> atk_LightningBolt;
 
 	UFUNCTION(BlueprintCallable) // Allow function below to be called by blueprint of this class
 		void cursorClick();

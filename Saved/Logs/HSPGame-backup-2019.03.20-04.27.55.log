@@ -1,0 +1,1314 @@
+﻿Log file open, 03/19/19 20:33:36
+LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
+LogWindows: File 'aqProf.dll' does not exist
+LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi.dll' does not exist
+LogWindows: Failed to load 'VtuneApi32e.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi32e.dll' does not exist
+LogConsoleResponse: Display: Failed to find resolution value strings in scalability ini. Falling back to default.
+LogInit: Display: Running engine for game: HSPGame
+LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+LogPlatformFile: Not using cached read wrapper
+LogTaskGraph: Started task graph with 5 named threads and 23 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 0.369767
+LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
+LogICUInternationalization: ICU TimeZone Detection - Raw Offset: -8:00, Platform Override: ''
+LogPluginManager: Mounting plugin Paper2D
+LogPluginManager: Mounting plugin AISupport
+LogPluginManager: Mounting plugin LightPropagationVolume
+LogPluginManager: Mounting plugin ActorLayerUtilities
+LogPluginManager: Mounting plugin CLionSourceCodeAccess
+LogPluginManager: Mounting plugin CodeLiteSourceCodeAccess
+LogPluginManager: Mounting plugin GitSourceControl
+LogPluginManager: Mounting plugin KDevelopSourceCodeAccess
+LogPluginManager: Mounting plugin NullSourceCodeAccess
+LogPluginManager: Mounting plugin PerforceSourceControl
+LogPluginManager: Mounting plugin SubversionSourceControl
+LogPluginManager: Mounting plugin UObjectPlugin
+LogPluginManager: Mounting plugin VisualStudioCodeSourceCodeAccess
+LogPluginManager: Mounting plugin VisualStudioSourceCodeAccess
+LogPluginManager: Mounting plugin XCodeSourceCodeAccess
+LogPluginManager: Mounting plugin AssetManagerEditor
+LogPluginManager: Mounting plugin CryptoKeys
+LogPluginManager: Mounting plugin DataValidation
+LogPluginManager: Mounting plugin FacialAnimation
+LogPluginManager: Mounting plugin GameplayTagsEditor
+LogPluginManager: Mounting plugin MacGraphicsSwitching
+LogPluginManager: Mounting plugin MeshEditor
+LogPluginManager: Mounting plugin MobileLauncherProfileWizard
+LogPluginManager: Mounting plugin PluginBrowser
+LogPluginManager: Mounting plugin SpeedTreeImporter
+LogPluginManager: Mounting plugin DatasmithContent
+LogPluginManager: Mounting plugin VariantManagerContent
+LogPluginManager: Mounting plugin AlembicImporter
+LogPluginManager: Mounting plugin AppleImageUtils
+LogPluginManager: Mounting plugin AppleVision
+LogPluginManager: Mounting plugin BackChannel
+LogPluginManager: Mounting plugin CharacterAI
+LogPluginManager: Mounting plugin GeometryCache
+LogPluginManager: Mounting plugin HTML5Networking
+LogPluginManager: Mounting plugin ProxyLODPlugin
+LogPluginManager: Mounting plugin MagicLeap
+LogPluginManager: Mounting plugin MagicLeapMedia
+LogPluginManager: Mounting plugin AndroidMedia
+LogPluginManager: Mounting plugin AvfMedia
+LogPluginManager: Mounting plugin ImgMedia
+LogPluginManager: Mounting plugin LinearTimecode
+LogPluginManager: Mounting plugin MediaCompositing
+LogPluginManager: Mounting plugin MediaPlayerEditor
+LogPluginManager: Mounting plugin WebMMedia
+LogPluginManager: Mounting plugin WmfMedia
+LogPluginManager: Mounting plugin TcpMessaging
+LogPluginManager: Mounting plugin UdpMessaging
+LogPluginManager: Mounting plugin ActorSequence
+LogPluginManager: Mounting plugin LevelSequenceEditor
+LogPluginManager: Mounting plugin MatineeToLevelSequence
+LogPluginManager: Mounting plugin NetcodeUnitTest
+LogPluginManager: Mounting plugin NUTUnrealEngine4
+LogPluginManager: Mounting plugin OnlineSubsystemGooglePlay
+LogPluginManager: Mounting plugin OnlineSubsystemIOS
+LogPluginManager: Mounting plugin OnlineSubsystem
+LogPluginManager: Mounting plugin OnlineSubsystemNull
+LogPluginManager: Mounting plugin OnlineSubsystemUtils
+LogPluginManager: Mounting plugin LauncherChunkInstaller
+LogPluginManager: Mounting plugin AndroidDeviceProfileSelector
+LogPluginManager: Mounting plugin AndroidMoviePlayer
+LogPluginManager: Mounting plugin AndroidPermission
+LogPluginManager: Mounting plugin AppleMoviePlayer
+LogPluginManager: Mounting plugin ArchVisCharacter
+LogPluginManager: Mounting plugin AudioCapture
+LogPluginManager: Mounting plugin CableComponent
+LogPluginManager: Mounting plugin CustomMeshComponent
+LogPluginManager: Mounting plugin EditableMesh
+LogPluginManager: Mounting plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting plugin Firebase
+LogPluginManager: Mounting plugin GoogleCloudMessaging
+LogPluginManager: Mounting plugin IOSDeviceProfileSelector
+LogPluginManager: Mounting plugin LinuxDeviceProfileSelector
+LogPluginManager: Mounting plugin LocationServicesBPLibrary
+LogPluginManager: Mounting plugin MobilePatchingUtils
+LogPluginManager: Mounting plugin OculusVR
+LogPluginManager: Mounting plugin PhysXVehicles
+LogPluginManager: Mounting plugin ProceduralMeshComponent
+LogPluginManager: Mounting plugin RuntimePhysXCooking
+LogPluginManager: Mounting plugin SteamVR
+LogPluginManager: Mounting plugin WebMMoviePlayer
+LogPluginManager: Mounting plugin WindowsMoviePlayer
+LogStreaming: Display: Took  0.087s to configure plugins.
+LogInit: Using libcurl 7.55.1-DEV
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2h
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - MaxHostConnections = 16  - Libcurl will limit the number of connections to a host
+LogInit:  - LocalHostAddr = Default
+LogInit:  - BufferSize = 65536
+LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+LogInit: Build: ++UE4+Release-4.21-CL-4753647
+LogInit: Engine Version: 4.21.2-4753647+++UE4+Release-4.21
+LogInit: Compatible Engine Version: 4.21.0-4541578+++UE4+Release-4.21
+LogInit: Net CL: 4541578
+LogInit: OS: Windows 10 (), CPU: Intel(R) Core(TM) i7-6700K CPU @ 4.00GHz, GPU: NVIDIA GeForce RTX 2080
+LogInit: Compiled (64-bit): Jan 19 2019 02:07:31
+LogInit: Compiled with Visual C++: 19.13.26129.00
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.21
+LogInit: Command Line:  -skipcompile
+LogInit: Base Directory: G:/Games/Epic/Games/UE_4.21/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogDevObjectVersion: Number of dev versions registered: 22
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 26
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 34
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 2
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 27
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 9
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 2
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 3
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 17
+LogDevObjectVersion:   Dev-Anim (AF43A65D-7FD3-4947-9873-3E8ED9C1BB05): 2
+LogDevObjectVersion:   Dev-ReflectionCapture (6B266CEC-1EC7-4B8F-A30B-E4D90942FC07): 1
+LogDevObjectVersion:   Dev-Automation (0DF73D61-A23F-47EA-B727-89E90C41499A): 1
+LogDevObjectVersion:   FortniteMain (601D1886-AC64-4F84-AA16-D3DE0DEAC7D6): 17
+LogDevObjectVersion:   Dev-Enterprise (9DFFBCD6-494F-0158-E221-12823C92A888): 4
+LogDevObjectVersion:   Dev-Niagara (F2AED0AC-9AFE-416F-8664-AA7FFA26D6FC): 1
+LogStreaming: Display: Took  0.003s to delete old logs.
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+LogConfig: Setting CVar [[con.DebugEarlyDefault:1]]
+LogConfig: Setting CVar [[r.setres:1280x720]]
+[2019.03.20-03.33.36:729][  0]LogConfig: Setting CVar [[r.VSync:0]]
+[2019.03.20-03.33.36:729][  0]LogConfig: Setting CVar [[r.RHICmdBypass:0]]
+[2019.03.20-03.33.36:729][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererSettings] File [C:/Users/gosus/Documents/CP-School/SeniorProject/gitRepos/Senior-Project-CPP-Game/Saved/Config/Windows/Engine.ini]
+[2019.03.20-03.33.36:729][  0]LogConfig: Setting CVar [[r.GPUCrashDebugging:0]]
+[2019.03.20-03.33.36:729][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererOverrideSettings] File [C:/Users/gosus/Documents/CP-School/SeniorProject/gitRepos/Senior-Project-CPP-Game/Saved/Config/Windows/Engine.ini]
+[2019.03.20-03.33.36:729][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [C:/Users/gosus/Documents/CP-School/SeniorProject/gitRepos/Senior-Project-CPP-Game/Saved/Config/Windows/Engine.ini]
+[2019.03.20-03.33.36:729][  0]LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
+[2019.03.20-03.33.36:729][  0]LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
+[2019.03.20-03.33.36:729][  0]LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
+[2019.03.20-03.33.36:729][  0]LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
+[2019.03.20-03.33.36:729][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
+[2019.03.20-03.33.36:729][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
+[2019.03.20-03.33.36:729][  0]LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
+[2019.03.20-03.33.36:729][  0]LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
+[2019.03.20-03.33.36:729][  0]LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
+[2019.03.20-03.33.36:729][  0]LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
+[2019.03.20-03.33.36:729][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
+[2019.03.20-03.33.36:730][  0]LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
+[2019.03.20-03.33.36:730][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
+[2019.03.20-03.33.36:730][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.GarbageCollectionSettings] File [C:/Users/gosus/Documents/CP-School/SeniorProject/gitRepos/Senior-Project-CPP-Game/Saved/Config/Windows/Engine.ini]
+[2019.03.20-03.33.36:730][  0]LogConfig: Setting CVar [[gc.MaxObjectsNotConsideredByGC:1]]
+[2019.03.20-03.33.36:730][  0]LogConfig: Setting CVar [[gc.SizeOfPermanentObjectPool:0]]
+[2019.03.20-03.33.36:730][  0]LogConfig: Setting CVar [[gc.FlushStreamingOnGC:0]]
+[2019.03.20-03.33.36:730][  0]LogConfig: Setting CVar [[gc.NumRetriesBeforeForcingGC:10]]
+[2019.03.20-03.33.36:730][  0]LogConfig: Setting CVar [[gc.AllowParallelGC:1]]
+[2019.03.20-03.33.36:730][  0]LogConfig: Setting CVar [[gc.TimeBetweenPurgingPendingKillObjects:61.1]]
+[2019.03.20-03.33.36:730][  0]LogConfig: Setting CVar [[gc.MaxObjectsInEditor:8388607]]
+[2019.03.20-03.33.36:730][  0]LogConfig: Setting CVar [[gc.IncrementalBeginDestroyEnabled:1]]
+[2019.03.20-03.33.36:730][  0]LogConfig: Setting CVar [[gc.CreateGCClusters:1]]
+[2019.03.20-03.33.36:730][  0]LogConfig: Setting CVar [[gc.MergeGCClusters:0]]
+[2019.03.20-03.33.36:730][  0]LogConfig: Setting CVar [[gc.MinGCClusterSize:5]]
+[2019.03.20-03.33.36:730][  0]LogConfig: Setting CVar [[gc.ActorClusteringEnabled:0]]
+[2019.03.20-03.33.36:730][  0]LogConfig: Setting CVar [[gc.BlueprintClusteringEnabled:0]]
+[2019.03.20-03.33.36:730][  0]LogConfig: Setting CVar [[gc.UseDisregardForGCOnDedicatedServers:0]]
+[2019.03.20-03.33.36:730][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.NetworkSettings] File [C:/Users/gosus/Documents/CP-School/SeniorProject/gitRepos/Senior-Project-CPP-Game/Saved/Config/Windows/Engine.ini]
+[2019.03.20-03.33.36:731][  0]LogConfig: Applying CVar settings from Section [/Script/UnrealEd.CookerSettings] File [C:/Users/gosus/Documents/CP-School/SeniorProject/gitRepos/Senior-Project-CPP-Game/Saved/Config/Windows/Engine.ini]
+[2019.03.20-03.33.36:743][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [C:/Users/gosus/Documents/CP-School/SeniorProject/gitRepos/Senior-Project-CPP-Game/Saved/Config/Windows/Scalability.ini]
+[2019.03.20-03.33.36:743][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2019.03.20-03.33.36:743][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2019.03.20-03.33.36:743][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [C:/Users/gosus/Documents/CP-School/SeniorProject/gitRepos/Senior-Project-CPP-Game/Saved/Config/Windows/Scalability.ini]
+[2019.03.20-03.33.36:743][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2019.03.20-03.33.36:743][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [C:/Users/gosus/Documents/CP-School/SeniorProject/gitRepos/Senior-Project-CPP-Game/Saved/Config/Windows/Scalability.ini]
+[2019.03.20-03.33.36:743][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2019.03.20-03.33.36:743][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2019.03.20-03.33.36:743][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2019.03.20-03.33.36:744][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2019.03.20-03.33.36:744][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2019.03.20-03.33.36:744][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2019.03.20-03.33.36:744][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2019.03.20-03.33.36:744][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2019.03.20-03.33.36:744][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2019.03.20-03.33.36:744][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2019.03.20-03.33.36:744][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2019.03.20-03.33.36:744][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2019.03.20-03.33.36:744][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2019.03.20-03.33.36:744][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2019.03.20-03.33.36:744][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2019.03.20-03.33.36:744][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2019.03.20-03.33.36:744][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2019.03.20-03.33.36:744][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2019.03.20-03.33.36:744][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [C:/Users/gosus/Documents/CP-School/SeniorProject/gitRepos/Senior-Project-CPP-Game/Saved/Config/Windows/Scalability.ini]
+[2019.03.20-03.33.36:744][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2019.03.20-03.33.36:744][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2019.03.20-03.33.36:744][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2019.03.20-03.33.36:745][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2019.03.20-03.33.36:745][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2019.03.20-03.33.36:745][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2019.03.20-03.33.36:745][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2019.03.20-03.33.36:745][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2019.03.20-03.33.36:745][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2019.03.20-03.33.36:745][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2019.03.20-03.33.36:745][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2019.03.20-03.33.36:745][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2019.03.20-03.33.36:745][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2019.03.20-03.33.36:745][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2019.03.20-03.33.36:745][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2019.03.20-03.33.36:745][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2019.03.20-03.33.36:745][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2019.03.20-03.33.36:745][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2019.03.20-03.33.36:745][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2019.03.20-03.33.36:745][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2019.03.20-03.33.36:745][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2019.03.20-03.33.36:745][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2019.03.20-03.33.36:745][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2019.03.20-03.33.36:746][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2019.03.20-03.33.36:746][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2019.03.20-03.33.36:746][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2019.03.20-03.33.36:746][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2019.03.20-03.33.36:746][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2019.03.20-03.33.36:746][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2019.03.20-03.33.36:746][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2019.03.20-03.33.36:746][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [C:/Users/gosus/Documents/CP-School/SeniorProject/gitRepos/Senior-Project-CPP-Game/Saved/Config/Windows/Scalability.ini]
+[2019.03.20-03.33.36:746][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2019.03.20-03.33.36:746][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2019.03.20-03.33.36:746][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2019.03.20-03.33.36:746][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2019.03.20-03.33.36:746][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2019.03.20-03.33.36:746][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2019.03.20-03.33.36:746][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2019.03.20-03.33.36:746][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2019.03.20-03.33.36:746][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [C:/Users/gosus/Documents/CP-School/SeniorProject/gitRepos/Senior-Project-CPP-Game/Saved/Config/Windows/Scalability.ini]
+[2019.03.20-03.33.36:746][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2019.03.20-03.33.36:746][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2019.03.20-03.33.36:746][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2019.03.20-03.33.36:747][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2019.03.20-03.33.36:747][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2019.03.20-03.33.36:747][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2019.03.20-03.33.36:747][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2019.03.20-03.33.36:747][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2019.03.20-03.33.36:747][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2019.03.20-03.33.36:747][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2019.03.20-03.33.36:747][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:1]]
+[2019.03.20-03.33.36:747][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2019.03.20-03.33.36:747][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2019.03.20-03.33.36:747][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [C:/Users/gosus/Documents/CP-School/SeniorProject/gitRepos/Senior-Project-CPP-Game/Saved/Config/Windows/Scalability.ini]
+[2019.03.20-03.33.36:747][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2019.03.20-03.33.36:747][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2019.03.20-03.33.36:747][  0]LogInit: Selected Device Profile: [Windows]
+[2019.03.20-03.33.36:747][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2019.03.20-03.33.36:758][  0]LogHAL: Display: Platform has ~ 32 GB [34313105408 / 34359738368 / 32], which maps to Largest [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2019.03.20-03.33.36:758][  0]LogConfig: Setting CVar [[r.Vulkan.UseRealUBs:1]]
+[2019.03.20-03.33.36:758][  0]LogInit: Going up to parent DeviceProfile []
+[2019.03.20-03.33.36:758][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [C:/Users/gosus/Documents/CP-School/SeniorProject/gitRepos/Senior-Project-CPP-Game/Saved/Config/Windows/Scalability.ini]
+[2019.03.20-03.33.36:759][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2019.03.20-03.33.36:759][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2019.03.20-03.33.36:759][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [C:/Users/gosus/Documents/CP-School/SeniorProject/gitRepos/Senior-Project-CPP-Game/Saved/Config/Windows/Scalability.ini]
+[2019.03.20-03.33.36:759][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2019.03.20-03.33.36:759][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [C:/Users/gosus/Documents/CP-School/SeniorProject/gitRepos/Senior-Project-CPP-Game/Saved/Config/Windows/Scalability.ini]
+[2019.03.20-03.33.36:759][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2019.03.20-03.33.36:759][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2019.03.20-03.33.36:759][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2019.03.20-03.33.36:759][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2019.03.20-03.33.36:759][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2019.03.20-03.33.36:759][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2019.03.20-03.33.36:759][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2019.03.20-03.33.36:759][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2019.03.20-03.33.36:759][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2019.03.20-03.33.36:759][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2019.03.20-03.33.36:759][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2019.03.20-03.33.36:759][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2019.03.20-03.33.36:759][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2019.03.20-03.33.36:759][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2019.03.20-03.33.36:760][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2019.03.20-03.33.36:760][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2019.03.20-03.33.36:760][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2019.03.20-03.33.36:760][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2019.03.20-03.33.36:760][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [C:/Users/gosus/Documents/CP-School/SeniorProject/gitRepos/Senior-Project-CPP-Game/Saved/Config/Windows/Scalability.ini]
+[2019.03.20-03.33.36:760][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2019.03.20-03.33.36:760][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2019.03.20-03.33.36:760][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2019.03.20-03.33.36:760][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2019.03.20-03.33.36:760][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2019.03.20-03.33.36:760][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2019.03.20-03.33.36:760][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2019.03.20-03.33.36:760][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2019.03.20-03.33.36:760][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2019.03.20-03.33.36:760][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2019.03.20-03.33.36:760][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2019.03.20-03.33.36:760][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2019.03.20-03.33.36:760][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2019.03.20-03.33.36:760][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2019.03.20-03.33.36:760][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2019.03.20-03.33.36:761][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2019.03.20-03.33.36:761][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2019.03.20-03.33.36:761][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2019.03.20-03.33.36:761][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2019.03.20-03.33.36:761][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2019.03.20-03.33.36:761][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2019.03.20-03.33.36:761][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2019.03.20-03.33.36:761][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2019.03.20-03.33.36:761][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2019.03.20-03.33.36:761][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2019.03.20-03.33.36:761][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2019.03.20-03.33.36:761][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2019.03.20-03.33.36:761][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2019.03.20-03.33.36:761][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2019.03.20-03.33.36:761][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2019.03.20-03.33.36:761][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [C:/Users/gosus/Documents/CP-School/SeniorProject/gitRepos/Senior-Project-CPP-Game/Saved/Config/Windows/Scalability.ini]
+[2019.03.20-03.33.36:761][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2019.03.20-03.33.36:761][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2019.03.20-03.33.36:761][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2019.03.20-03.33.36:762][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2019.03.20-03.33.36:762][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2019.03.20-03.33.36:762][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2019.03.20-03.33.36:762][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2019.03.20-03.33.36:762][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2019.03.20-03.33.36:762][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [C:/Users/gosus/Documents/CP-School/SeniorProject/gitRepos/Senior-Project-CPP-Game/Saved/Config/Windows/Scalability.ini]
+[2019.03.20-03.33.36:762][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2019.03.20-03.33.36:762][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2019.03.20-03.33.36:762][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2019.03.20-03.33.36:762][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2019.03.20-03.33.36:762][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2019.03.20-03.33.36:762][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2019.03.20-03.33.36:762][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2019.03.20-03.33.36:762][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2019.03.20-03.33.36:762][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2019.03.20-03.33.36:762][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2019.03.20-03.33.36:762][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:1]]
+[2019.03.20-03.33.36:762][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2019.03.20-03.33.36:762][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2019.03.20-03.33.36:763][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [C:/Users/gosus/Documents/CP-School/SeniorProject/gitRepos/Senior-Project-CPP-Game/Saved/Config/Windows/Scalability.ini]
+[2019.03.20-03.33.36:763][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2019.03.20-03.33.36:763][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2019.03.20-03.33.36:763][  0]LogConfig: Applying CVar settings from Section [Startup] File [../../../Engine/Config/ConsoleVariables.ini]
+[2019.03.20-03.33.36:763][  0]LogConfig: Setting CVar [[net.UseAdaptiveNetUpdateFrequency:0]]
+[2019.03.20-03.33.36:763][  0]LogConfig: Applying CVar settings from Section [ConsoleVariables] File [C:/Users/gosus/Documents/CP-School/SeniorProject/gitRepos/Senior-Project-CPP-Game/Saved/Config/Windows/Engine.ini]
+[2019.03.20-03.33.36:763][  0]LogInit: Computer: UNIT-01
+[2019.03.20-03.33.36:763][  0]LogInit: User: gosus
+[2019.03.20-03.33.36:763][  0]LogInit: CPU Page size=4096, Cores=4
+[2019.03.20-03.33.36:763][  0]LogInit: High frequency timer resolution =10.000000 MHz
+[2019.03.20-03.33.36:764][  0]LogMemory: Memory total: Physical=32.0GB (32GB approx)
+[2019.03.20-03.33.36:764][  0]LogMemory: Platform Memory Stats for Windows
+[2019.03.20-03.33.36:764][  0]LogMemory: Process Physical Memory: 105.33 MB used, 105.33 MB peak
+[2019.03.20-03.33.36:764][  0]LogMemory: Process Virtual Memory: 103.92 MB used, 103.92 MB peak
+[2019.03.20-03.33.36:764][  0]LogMemory: Physical Memory: 6052.71 MB used,  26670.82 MB free, 32723.53 MB total
+[2019.03.20-03.33.36:764][  0]LogMemory: Virtual Memory: 4662.04 MB used,  134213064.00 MB free, 134217728.00 MB total
+[2019.03.20-03.33.36:902][  0]LogInit: Using OS detected language (en-US).
+[2019.03.20-03.33.36:902][  0]LogInit: Using OS detected locale (en-US).
+[2019.03.20-03.33.36:903][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2019.03.20-03.33.37:200][  0]LogStreaming: Display: Took  0.298s to InitEngineTextLocalization.
+[2019.03.20-03.33.37:200][  0]LogInit: Setting process to per monitor DPI aware
+[2019.03.20-03.33.37:266][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2019.03.20-03.33.37:266][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2019.03.20-03.33.37:432][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2019.03.20-03.33.37:432][  0]LogD3D11RHI: D3D11 adapters:
+[2019.03.20-03.33.37:572][  0]LogD3D11RHI:    0. 'NVIDIA GeForce RTX 2080' (Feature Level 11_0)
+[2019.03.20-03.33.37:572][  0]LogD3D11RHI:       8010/0/16361 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x10de
+[2019.03.20-03.33.37:579][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2019.03.20-03.33.37:579][  0]LogD3D11RHI:       0/0/16361 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2019.03.20-03.33.37:579][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2019.03.20-03.33.37:586][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2019.03.20-03.33.37:587][  0]LogD3D11RHI:     GPU DeviceId: 0x1e87 (for the marketing name, search the web for "GPU Device Id")
+[2019.03.20-03.33.37:587][  0]LogWindows: EnumDisplayDevices:
+[2019.03.20-03.33.37:587][  0]LogWindows:    0. 'NVIDIA GeForce RTX 2080' (P:1 D:1)
+[2019.03.20-03.33.37:587][  0]LogWindows:    1. 'NVIDIA GeForce RTX 2080' (P:0 D:1)
+[2019.03.20-03.33.37:587][  0]LogWindows:    2. 'NVIDIA GeForce RTX 2080' (P:0 D:0)
+[2019.03.20-03.33.37:588][  0]LogWindows:    3. 'NVIDIA GeForce RTX 2080' (P:0 D:0)
+[2019.03.20-03.33.37:588][  0]LogWindows: DebugString: FoundDriverCount:4 
+[2019.03.20-03.33.37:588][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce RTX 2080
+[2019.03.20-03.33.37:588][  0]LogD3D11RHI:   Driver Version: 419.35 (internal:25.21.14.1935, unified:419.35)
+[2019.03.20-03.33.37:588][  0]LogD3D11RHI:      Driver Date: 3-1-2019
+[2019.03.20-03.33.37:588][  0]LogRHI: Texture pool is 5607 MB (70% of 8010 MB)
+[2019.03.20-03.33.37:632][  0]LogD3D11RHI: Async texture creation enabled
+[2019.03.20-03.33.37:652][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2019.03.20-03.33.38:017][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
+[2019.03.20-03.33.38:034][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
+[2019.03.20-03.33.38:052][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
+[2019.03.20-03.33.38:069][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
+[2019.03.20-03.33.38:088][  0]LogTemp: Display: Loaded TP MacTargetPlatform
+[2019.03.20-03.33.38:107][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
+[2019.03.20-03.33.38:126][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
+[2019.03.20-03.33.38:144][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
+[2019.03.20-03.33.38:157][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
+[2019.03.20-03.33.38:240][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.03.20-03.33.38:240][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.03.20-03.33.38:240][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.03.20-03.33.38:240][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.03.20-03.33.38:240][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.03.20-03.33.38:240][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.03.20-03.33.38:241][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.03.20-03.33.38:241][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.03.20-03.33.38:241][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.03.20-03.33.38:241][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.03.20-03.33.38:241][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.03.20-03.33.38:241][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.03.20-03.33.38:241][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.03.20-03.33.38:241][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.03.20-03.33.38:241][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.03.20-03.33.38:241][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.03.20-03.33.38:241][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.03.20-03.33.38:241][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.03.20-03.33.38:252][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
+[2019.03.20-03.33.38:328][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2019.03.20-03.33.38:328][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2019.03.20-03.33.38:351][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2019.03.20-03.33.38:351][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2019.03.20-03.33.38:365][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
+[2019.03.20-03.33.38:380][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
+[2019.03.20-03.33.38:394][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
+[2019.03.20-03.33.38:415][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
+[2019.03.20-03.33.38:453][  0]LogTemp: Display: Loaded TP LuminTargetPlatform
+[2019.03.20-03.33.38:454][  0]LogTemp: Display: Loaded TP LuminTargetPlatform
+[2019.03.20-03.33.38:454][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2019.03.20-03.33.38:652][  0]LogShaderCompilers: Guid format shader working directory is -36 characters bigger than the processId version (C:/Users/gosus/Documents/CP-School/SeniorProject/gitRepos/Senior-Project-CPP-Game/Intermediate/Shaders/WorkingDirectory/10888/).
+[2019.03.20-03.33.38:652][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/gosus/AppData/Local/Temp/UnrealShaderWorkingDir/79F2CA854165D079076CCDBC18630A6B/'.
+[2019.03.20-03.33.38:653][  0]LogXGEController: Cleaning working directory: C:/Users/gosus/AppData/Local/Temp/UnrealXGEWorkingDir/
+[2019.03.20-03.33.38:653][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2019.03.20-03.33.38:653][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2019.03.20-03.33.38:654][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2019.03.20-03.33.39:111][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2019.03.20-03.33.39:159][  0]LogDerivedDataCache: Loaded boot cache 0.05s 71MB C:/Users/gosus/AppData/Local/UnrealEngine/4.21/DerivedDataCache/Boot.ddc.
+[2019.03.20-03.33.39:159][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/gosus/AppData/Local/UnrealEngine/4.21/DerivedDataCache/Boot.ddc
+[2019.03.20-03.33.39:160][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file C:/Users/gosus/Documents/CP-School/SeniorProject/gitRepos/Senior-Project-CPP-Game/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2019.03.20-03.33.39:160][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2019.03.20-03.33.39:160][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file C:/Users/gosus/Documents/CP-School/SeniorProject/gitRepos/Senior-Project-CPP-Game/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2019.03.20-03.33.39:160][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2019.03.20-03.33.39:174][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2019.03.20-03.33.39:174][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  EnterprisePak pak cache file ../../../Enterprise/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2019.03.20-03.33.39:174][  0]LogDerivedDataCache: Unable to find inner node EnterprisePak for hierarchical cache Hierarchy.
+[2019.03.20-03.33.39:187][  0]LogDerivedDataCache: Using Local data cache path C:/Users/gosus/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2019.03.20-03.33.39:187][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2019.03.20-03.33.39:187][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2019.03.20-03.33.39:206][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2019.03.20-03.33.39:208][  0]LogSlate: Using FreeType 2.6.0
+[2019.03.20-03.33.39:208][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2019.03.20-03.33.39:276][  0]LogAssetRegistry: FAssetRegistry took 0.0324 seconds to start up
+[2019.03.20-03.33.39:576][  0]LogInit: Selected Device Profile: [Windows]
+[2019.03.20-03.33.39:755][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2019.03.20-03.33.39:784][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
+[2019.03.20-03.33.39:784][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
+[2019.03.20-03.33.39:784][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2019.03.20-03.33.39:784][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
+[2019.03.20-03.33.39:794][  0]LogNetVersion: HSPGame 1.0.0, NetCL: 4541578, EngineNetVer: 5, GameNetVer: 0 (Checksum: 2893343623)
+[2019.03.20-03.33.40:252][  0]LogPackageLocalizationCache: Processed 11 localized package path(s) for 2 prioritized culture(s) in 0.092968 seconds
+[2019.03.20-03.33.40:258][  0]LogUObjectArray: 39775 objects as part of root set at end of initial load.
+[2019.03.20-03.33.40:258][  0]LogUObjectAllocator: 6914656 out of 0 bytes used by permanent object pool.
+[2019.03.20-03.33.40:258][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2019.03.20-03.33.41:401][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2019.03.20-03.33.41:423][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2019.03.20-03.33.42:162][  0]SourceControl: Source control is disabled
+[2019.03.20-03.33.42:162][  0]SourceControl: Source control is disabled
+[2019.03.20-03.33.42:180][  0]SourceControl: Source control is disabled
+[2019.03.20-03.33.42:189][  0]SourceControl: Source control is disabled
+[2019.03.20-03.33.42:681][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2019.03.20-03.33.42:924][  0]LogOcInput: OculusInput pre-init called
+[2019.03.20-03.33.43:095][  0]LogEngine: Initializing Engine...
+[2019.03.20-03.33.43:096][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2019.03.20-03.33.43:097][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
+[2019.03.20-03.33.43:098][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2019.03.20-03.33.43:098][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
+[2019.03.20-03.33.43:098][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2019.03.20-03.33.43:297][  0]LogInit: Initializing FReadOnlyCVARCache
+[2019.03.20-03.33.43:317][  0]LogAIModule: Creating AISystem for world Untitled
+[2019.03.20-03.33.43:376][  0]LogInit: XAudio2 using 'Speakers (Realtek(R) Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.03.20-03.33.43:433][  0]LogInit: FAudioDevice initialized.
+[2019.03.20-03.33.43:434][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2019.03.20-03.33.43:477][  0]LogDerivedDataCache: Saved boot cache 0.04s 71MB C:/Users/gosus/AppData/Local/UnrealEngine/4.21/DerivedDataCache/Boot.ddc.
+[2019.03.20-03.33.43:485][  0]LogInit: Texture streaming: Enabled
+[2019.03.20-03.33.43:535][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2019.03.20-03.33.43:553][  0]LogInit: Transaction tracking system initialized
+[2019.03.20-03.33.43:620][  0]BlueprintLog: New page: Editor Load
+[2019.03.20-03.33.43:908][  0]LocalizationService: Localization service is disabled
+[2019.03.20-03.33.44:572][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2019.03.20-03.33.44:573][  0]LogCook: Display: Mobile HDR setting 1
+[2019.03.20-03.33.44:573][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
+[2019.03.20-03.33.44:573][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
+[2019.03.20-03.33.44:573][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2019.03.20-03.33.44:573][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
+[2019.03.20-03.33.44:573][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2019.03.20-03.33.45:025][  0]LogFileCache: Scanning file cache for directory 'C:/Users/gosus/Documents/CP-School/SeniorProject/gitRepos/Senior-Project-CPP-Game/Content/' took 0.05s
+[2019.03.20-03.33.45:026][  0]SourceControl: Source control is disabled
+[2019.03.20-03.33.45:026][  0]Cmd: MAP LOAD FILE="C:/Users/gosus/Documents/CP-School/SeniorProject/gitRepos/Senior-Project-CPP-Game/Content/Levels/DemoTown.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2019.03.20-03.33.45:026][  0]LightingResults: New page: Lighting Build
+[2019.03.20-03.33.45:028][  0]MapCheck: New page: Map Check
+[2019.03.20-03.33.45:028][  0]LightingResults: New page: Lighting Build
+[2019.03.20-03.33.45:530][  0]LogAIModule: Creating AISystem for world DemoTown
+[2019.03.20-03.33.45:560][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2019.03.20-03.33.45:581][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2019.03.20-03.33.45:581][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.148ms to complete.
+[2019.03.20-03.33.45:581][  0]LogFileHelpers: Loading map 'DemoTown' took 0.556
+[2019.03.20-03.33.45:704][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.03.20-03.33.45:711][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.03.20-03.33.45:720][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.03.20-03.33.45:728][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.03.20-03.33.45:745][  0]LogCollectionManager: Loaded 0 collections in 0.001141 seconds
+[2019.03.20-03.33.45:762][  0]LogFileCache: Scanning file cache for directory 'C:/Users/gosus/Documents/CP-School/SeniorProject/gitRepos/Senior-Project-CPP-Game/Saved/Collections/' took 0.01s
+[2019.03.20-03.33.45:763][  0]LogFileCache: Scanning file cache for directory 'C:/Users/gosus/Documents/CP-School/SeniorProject/gitRepos/Senior-Project-CPP-Game/Content/Developers/gosus/Collections/' took 0.00s
+[2019.03.20-03.33.45:763][  0]LogFileCache: Scanning file cache for directory 'C:/Users/gosus/Documents/CP-School/SeniorProject/gitRepos/Senior-Project-CPP-Game/Content/Collections/' took 0.00s
+[2019.03.20-03.33.45:763][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000000 seconds
+[2019.03.20-03.33.45:773][  0]LogContentBrowser: Native class hierarchy populated in 0.0103 seconds. Added 2659 classes and 622 folders.
+[2019.03.20-03.33.45:781][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2019.03.20-03.33.45:782][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.03.20-03.33.45:783][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.03.20-03.33.45:783][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.03.20-03.33.45:784][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.03.20-03.33.45:785][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.03.20-03.33.45:785][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.03.20-03.33.45:786][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.03.20-03.33.45:786][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.03.20-03.33.45:787][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.03.20-03.33.45:787][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.03.20-03.33.45:788][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.03.20-03.33.45:789][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.03.20-03.33.45:789][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.03.20-03.33.45:790][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.03.20-03.33.45:791][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.03.20-03.33.45:791][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.03.20-03.33.45:792][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.03.20-03.33.45:792][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.03.20-03.33.45:793][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.03.20-03.33.45:793][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.03.20-03.33.45:794][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.03.20-03.33.45:795][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.03.20-03.33.45:795][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.03.20-03.33.45:796][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.03.20-03.33.45:796][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.03.20-03.33.45:796][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.03.20-03.33.45:819][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2019.03.20-03.33.45:846][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0003 seconds. Added 1 classes and 2 folders.
+[2019.03.20-03.33.45:921][  0]LogSlate: Took 0.000139 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2019.03.20-03.33.45:923][  0]LogSlate: Took 0.000124 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2019.03.20-03.33.45:930][  0]LogSlate: Took 0.000158 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2019.03.20-03.33.46:008][  0]LogRenderer: Reallocating scene render targets to support 1620x848 Format 10 NumSamples 1 (Frame:1).
+[2019.03.20-03.33.46:146][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2019.03.20-03.33.46:146][  0]LogLoad: (Engine Initialization) Total time: 11.25 seconds
+[2019.03.20-03.33.46:146][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2019.03.20-03.33.46:206][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2019.03.20-03.33.46:364][  2]LogAssetRegistry: Asset discovery search completed in 7.1130 seconds
+[2019.03.20-03.33.46:366][  2]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
+[2019.03.20-03.33.46:366][  2]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000141 seconds (updated 0 objects)
+[2019.03.20-03.33.59:162][500]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.03.20-03.33.59:237][509]LogTemp: Repeating last play command: Selected Viewport
+[2019.03.20-03.33.59:260][509]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Levels/DemoTown.DemoTown:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/DemoTown.DemoTown:PersistentLevel.DemoTown' with GeneratedClass '/Game/Levels/DemoTown.DemoTown_C' with ClassGeneratedBy '/Game/Levels/DemoTown.DemoTown:PersistentLevel.DemoTown'
+[2019.03.20-03.33.59:260][509]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.03.20-03.33.59:261][509]PIE: New page: PIE session: DemoTown (Mar 19, 2019, 1:33:59 PM)
+[2019.03.20-03.33.59:276][509]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_DemoTown
+[2019.03.20-03.33.59:318][509]LogPlayLevel: PIE: StaticDuplicateObject took: (0.042039s)
+[2019.03.20-03.33.59:319][509]LogAIModule: Creating AISystem for world DemoTown
+[2019.03.20-03.33.59:319][509]LogPlayLevel: PIE: World Init took: (0.000753s)
+[2019.03.20-03.33.59:319][509]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/DemoTown.DemoTown to /Game/Levels/UEDPIE_0_DemoTown.DemoTown (0.043272s)
+[2019.03.20-03.33.59:388][509]LogInit: XAudio2 using 'Speakers (Realtek(R) Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.03.20-03.33.59:404][509]LogInit: FAudioDevice initialized.
+[2019.03.20-03.34.00:193][509]LogLoad: Game class is 'BP_HSPGameGameModeBase_C'
+[2019.03.20-03.34.00:198][509]LogWorld: Bringing World /Game/Levels/UEDPIE_0_DemoTown.DemoTown up for play (max tick rate 0) at 2019.03.19-20.34.00
+[2019.03.20-03.34.00:204][509]LogWorld: Bringing up level for play took: 0.009398
+[2019.03.20-03.34.00:223][509]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0003 seconds. Added 20 classes and 0 folders.
+[2019.03.20-03.34.00:228][509]PIE: Play in editor start time for /Game/Levels/UEDPIE_0_DemoTown 1.22
+[2019.03.20-03.34.00:228][509]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Levels/DemoTown.DemoTown:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/DemoTown.DemoTown:PersistentLevel.DemoTown' with GeneratedClass '/Game/Levels/DemoTown.DemoTown_C' with ClassGeneratedBy '/Game/Levels/DemoTown.DemoTown:PersistentLevel.DemoTown'
+[2019.03.20-03.34.16:801][491]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.03.20-03.34.23:502][295]LogNet: Browse: /Game/Levels/DemoBattlefield
+[2019.03.20-03.34.23:502][295]LogLoad: LoadMap: /Game/Levels/DemoBattlefield
+[2019.03.20-03.34.23:833][295]LogAIModule: Creating AISystem for world DemoBattlefield
+[2019.03.20-03.34.23:834][295]LogLoad: Game class is 'BP_HSPGameGameModeBase_C'
+[2019.03.20-03.34.23:840][295]LogWorld: Bringing World /Game/Levels/UEDPIE_0_DemoBattlefield.DemoBattlefield up for play (max tick rate 0) at 2019.03.19-20.34.23
+[2019.03.20-03.34.23:842][295]LogWorld: Bringing up level for play took: 0.007011
+[2019.03.20-03.34.23:845][295]LogLoad: Took 0.342533 seconds to LoadMap(/Game/Levels/DemoBattlefield)
+[2019.03.20-03.34.25:568][500]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.03.20-03.35.09:662][742]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.03.20-03.35.09:721][749]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Levels/DemoTown.DemoTown:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/DemoTown.DemoTown:PersistentLevel.DemoTown' with GeneratedClass '/Game/Levels/DemoTown.DemoTown_C' with ClassGeneratedBy '/Game/Levels/DemoTown.DemoTown:PersistentLevel.DemoTown'
+[2019.03.20-03.35.09:721][749]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.03.20-03.35.09:762][749]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.03.20-03.35.09:762][749]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Levels/DemoTown.DemoTown:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/DemoTown.DemoTown:PersistentLevel.DemoTown' with GeneratedClass '/Game/Levels/DemoTown.DemoTown_C' with ClassGeneratedBy '/Game/Levels/DemoTown.DemoTown:PersistentLevel.DemoTown'
+[2019.03.20-03.35.09:782][749]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.03.20-03.35.09:821][752]LogPlayLevel: Display: Destroying online subsystem :Context_1
+[2019.03.20-03.35.24:749][527]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.03.20-03.35.51:812][764]LogSlate: Took 0.000119 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2019.03.20-03.35.51:863][764]LogSlate: Took 0.005303 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2019.03.20-03.36.14:794][513]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/Blueprints/Attacks/BP_LightningBolt.BP_LightningBolt
+[2019.03.20-03.36.15:295][513]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0005 seconds. Added 117 classes and 0 folders.
+[2019.03.20-03.36.15:998][513]LogSlate: Window 'Add Blueprint Class' being destroyed
+[2019.03.20-03.36.16:091][513]LogRenderer: Reallocating scene render targets to support 1708x900 Format 10 NumSamples 1 (Frame:1).
+[2019.03.20-03.36.21:435][840]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/Blueprints/Attacks/BP_Fireball.BP_Fireball
+[2019.03.20-03.36.22:773][955]LogSlate: Took 0.004453 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2019.03.20-03.36.31:253][874]LogSavePackage: Moving 'C:/Users/gosus/Documents/CP-School/SeniorProject/gitRepos/Senior-Project-CPP-Game/Saved/BP_FireballEF7ACD7343DB5394424326B4392F6276.tmp' to 'C:/Users/gosus/Documents/CP-School/SeniorProject/gitRepos/Senior-Project-CPP-Game/Content/Blueprints/Attacks/BP_Fireball.uasset'
+[2019.03.20-03.36.31:687][924]BlueprintLog: New page: Compile BP_Fireball
+[2019.03.20-03.36.32:094][950]LogSavePackage: Moving 'C:/Users/gosus/Documents/CP-School/SeniorProject/gitRepos/Senior-Project-CPP-Game/Saved/BP_FireballBD3BDE4843DD41B94E394B8BDACB8706.tmp' to 'C:/Users/gosus/Documents/CP-School/SeniorProject/gitRepos/Senior-Project-CPP-Game/Content/Blueprints/Attacks/BP_Fireball.uasset'
+[2019.03.20-03.36.58:741][583]LogTexture: Display: Building textures: T_ky_deco_rainbow (AutoDXT, 128X512)
+[2019.03.20-03.36.58:741][583]LogTexture: Display: Building textures: ThumbnailTexture (DXT1, 512X512)
+[2019.03.20-03.36.58:741][583]LogTexture: Display: Building textures: T_ky_flareVertical03_4x4 (DXT1, 2048X2048)
+[2019.03.20-03.36.58:741][583]LogTexture: Display: Building textures: T_ky_flareVertical02 (DXT1, 1024X1024)
+[2019.03.20-03.36.58:741][583]LogTexture: Display: Building textures: T_ky_shine01_4x4 (DXT1, 2048X2048)
+[2019.03.20-03.36.58:741][583]LogTexture: Display: Building textures: T_ky_shockwave10_4x4 (DXT1, 2048X2048)
+[2019.03.20-03.36.58:741][583]LogMaterial: Display: Missing cached shader map for material M_ky_subUV03, compiling. 
+[2019.03.20-03.36.58:782][583]LogMaterial: Display: Missing cached shader map for material M_ky_trail_primitive, compiling. 
+[2019.03.20-03.36.58:809][583]LogShaderCompilers: Display: Shaders left to compile 35
+[2019.03.20-03.36.58:811][583]LogShaderCompilers: Display: Shaders left to compile 25
+[2019.03.20-03.36.58:812][583]LogShaderCompilers: Display: Shaders left to compile 15
+[2019.03.20-03.36.58:812][583]LogShaderCompilers: Display: Shaders left to compile 5
+[2019.03.20-03.36.58:812][583]LogMaterial: Display: Missing cached shader map for material M_ky_flare01_primitive, compiling. 
+[2019.03.20-03.36.59:283][583]LogMaterial: Display: Missing cached shader map for material M_ky_flare01_primitive, compiling. 
+[2019.03.20-03.36.59:311][583]LogMaterial: Display: Missing cached shader map for material M_ky_polar_primitive, compiling. 
+[2019.03.20-03.36.59:333][583]LogMaterial: Display: Missing cached shader map for material M_ky_flare01_primitive, compiling. 
+[2019.03.20-03.36.59:382][583]LogAssetEditorManager: Opening Asset editor for ParticleSystem /Game/FXVarietyPack/Particles/P_ky_shootingStar1.P_ky_shootingStar1
+[2019.03.20-03.36.59:453][583]LogContentBrowser: Native class hierarchy updated for 'Cascade' in 0.0005 seconds. Added 2 classes and 2 folders.
+[2019.03.20-03.37.01:010][643]LogShaderCompilers: Display: Shaders left to compile 207
+[2019.03.20-03.37.01:767][702]LogShaderCompilers: Display: Shaders left to compile 197
+[2019.03.20-03.37.02:187][737]LogShaderCompilers: Display: Shaders left to compile 187
+[2019.03.20-03.37.02:305][747]LogShaderCompilers: Display: Shaders left to compile 177
+[2019.03.20-03.37.03:751][811]LogShaderCompilers: Display: Shaders left to compile 167
+[2019.03.20-03.37.04:623][873]LogShaderCompilers: Display: Shaders left to compile 157
+[2019.03.20-03.37.04:753][880]LogShaderCompilers: Display: Shaders left to compile 147
+[2019.03.20-03.37.05:000][896]LogShaderCompilers: Display: Shaders left to compile 137
+[2019.03.20-03.37.07:154][ 58]LogShaderCompilers: Display: Shaders left to compile 127
+[2019.03.20-03.37.07:385][ 70]LogShaderCompilers: Display: Shaders left to compile 117
+[2019.03.20-03.37.07:478][ 77]LogShaderCompilers: Display: Shaders left to compile 107
+[2019.03.20-03.37.07:958][112]LogShaderCompilers: Display: Shaders left to compile 97
+[2019.03.20-03.37.09:803][250]LogShaderCompilers: Display: Shaders left to compile 87
+[2019.03.20-03.37.10:475][297]LogShaderCompilers: Display: Shaders left to compile 77
+[2019.03.20-03.37.10:793][321]LogShaderCompilers: Display: Shaders left to compile 67
+[2019.03.20-03.37.11:048][339]LogShaderCompilers: Display: Shaders left to compile 57
+[2019.03.20-03.37.12:350][434]LogShaderCompilers: Display: Shaders left to compile 47
+[2019.03.20-03.37.13:759][538]LogShaderCompilers: Display: Shaders left to compile 37
+[2019.03.20-03.37.13:796][541]LogShaderCompilers: Display: Shaders left to compile 27
+[2019.03.20-03.37.14:220][575]LogShaderCompilers: Display: Shaders left to compile 17
+[2019.03.20-03.37.15:146][647]LogShaderCompilers: Display: Shaders left to compile 7
+[2019.03.20-03.37.30:868][310]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.03.20-03.37.31:763][325]LogTexture: Display: Building textures: T_ky_chantDecoC (AutoDXT, 1024X1024)
+[2019.03.20-03.37.31:765][325]LogTexture: Display: Building textures: T_ky_noise (AutoDXT, 512X512)
+[2019.03.20-03.37.31:766][325]LogTexture: Display: Building textures: T_ky_magicCircle020 (DXT1, 1024X1024)
+[2019.03.20-03.37.31:766][325]LogTexture: Display: Building textures: T_ky_circle01_4x4 (DXT1, 2048X2048)
+[2019.03.20-03.37.31:766][325]LogTexture: Display: Building textures: ThumbnailTexture (DXT1, 512X512)
+[2019.03.20-03.37.31:766][325]LogTexture: Display: Building textures: T_ky_circleDust (AutoDXT, 512X512)
+[2019.03.20-03.37.31:766][325]LogTexture: Display: Building textures: T_ky_auraWallWhite_4x4 (AutoDXT, 2048X2048)
+[2019.03.20-03.37.31:766][325]LogMaterial: Display: Missing cached shader map for material M_ky_Fresnel, compiling. 
+[2019.03.20-03.37.32:309][325]LogShaderCompilers: Display: Shaders left to compile 43
+[2019.03.20-03.37.32:312][325]LogShaderCompilers: Display: Shaders left to compile 33
+[2019.03.20-03.37.32:312][325]LogShaderCompilers: Display: Shaders left to compile 23
+[2019.03.20-03.37.32:312][325]LogShaderCompilers: Display: Shaders left to compile 13
+[2019.03.20-03.37.32:313][325]LogMaterial: Display: Missing cached shader map for material M_ky_base, compiling. 
+[2019.03.20-03.37.32:337][325]LogMaterial: Display: Missing cached shader map for material M_ky_base, compiling. 
+[2019.03.20-03.37.32:365][325]LogMaterial: Display: Missing cached shader map for material M_ky_magicCircle020, compiling. 
+[2019.03.20-03.37.32:385][325]LogMaterial: Display: Missing cached shader map for material M_ky_chantDecoA, compiling. 
+[2019.03.20-03.37.32:410][325]LogMaterial: Display: Missing cached shader map for material M_ky_circle01_4x4G_nonD, compiling. 
+[2019.03.20-03.37.32:448][325]LogStaticMesh: Building static mesh SM_ky_cylinderBend07...
+[2019.03.20-03.37.32:470][325]LogStaticMesh: Built static mesh [0.02s] /Game/FXVarietyPack/Meshes/SM_ky_cylinderBend07.SM_ky_cylinderBend07
+[2019.03.20-03.37.32:493][325]LogAssetEditorManager: Opening Asset editor for ParticleSystem /Game/FXVarietyPack/Particles/P_ky_magicCircle1.P_ky_magicCircle1
+[2019.03.20-03.37.34:074][417]LogShaderCompilers: Display: Shaders left to compile 178
+[2019.03.20-03.37.34:868][477]LogShaderCompilers: Display: Shaders left to compile 168
+[2019.03.20-03.37.35:098][495]LogShaderCompilers: Display: Shaders left to compile 158
+[2019.03.20-03.37.35:724][542]LogShaderCompilers: Display: Shaders left to compile 148
+[2019.03.20-03.37.37:022][633]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.03.20-03.37.37:765][683]LogShaderCompilers: Display: Shaders left to compile 138
+[2019.03.20-03.37.37:835][685]LogShaderCompilers: Display: Shaders left to compile 128
+[2019.03.20-03.37.38:561][735]LogShaderCompilers: Display: Shaders left to compile 118
+[2019.03.20-03.37.38:576][736]LogShaderCompilers: Display: Shaders left to compile 108
+[2019.03.20-03.37.41:102][894]LogShaderCompilers: Display: Shaders left to compile 98
+[2019.03.20-03.37.41:228][904]LogShaderCompilers: Display: Shaders left to compile 88
+[2019.03.20-03.37.41:466][921]LogShaderCompilers: Display: Shaders left to compile 78
+[2019.03.20-03.37.42:419][992]LogShaderCompilers: Display: Shaders left to compile 68
+[2019.03.20-03.37.44:048][104]LogShaderCompilers: Display: Shaders left to compile 58
+[2019.03.20-03.37.44:538][141]LogShaderCompilers: Display: Shaders left to compile 48
+[2019.03.20-03.37.44:792][161]LogShaderCompilers: Display: Shaders left to compile 38
+[2019.03.20-03.37.45:677][220]LogShaderCompilers: Display: Shaders left to compile 28
+[2019.03.20-03.37.46:485][283]LogShaderCompilers: Display: Shaders left to compile 18
+[2019.03.20-03.37.46:788][307]LogShaderCompilers: Display: Shaders left to compile 8
+[2019.03.20-03.37.58:949][611]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.03.20-03.37.59:106][624]LogTexture: Display: Building textures: T_ky_bg_LC (DXT1, 64X64)
+[2019.03.20-03.37.59:106][624]LogTexture: Display: Building textures: ThumbnailTexture (DXT1, 512X512)
+[2019.03.20-03.37.59:106][624]LogMaterial: Display: Missing cached shader map for material M_ky_subUV_dynRGB, compiling. 
+[2019.03.20-03.37.59:610][624]LogShaderCompilers: Display: Shaders left to compile 35
+[2019.03.20-03.37.59:613][624]LogShaderCompilers: Display: Shaders left to compile 25
+[2019.03.20-03.37.59:613][624]LogShaderCompilers: Display: Shaders left to compile 15
+[2019.03.20-03.37.59:613][624]LogShaderCompilers: Display: Shaders left to compile 5
+[2019.03.20-03.37.59:614][624]LogTexture: Display: Building textures: T_ky_flare25_4x4 (DXT1, 2048X2048)
+[2019.03.20-03.37.59:620][624]LogAssetEditorManager: Opening Asset editor for ParticleSystem /Game/FXVarietyPack/Particles/P_ky_hit1.P_ky_hit1
+[2019.03.20-03.38.04:811][ 45]LogTexture: Display: Building textures: ThumbnailTexture (DXT1, 512X512)
+[2019.03.20-03.38.04:811][ 45]LogTexture: Display: Building textures: T_ky_lightning02_4x4 (DXT1, 2048X2048)
+[2019.03.20-03.38.04:811][ 45]LogTexture: Display: Building textures: T_ky_lightningDust01_4x4 (DXT1, 2048X2048)
+[2019.03.20-03.38.04:819][ 45]LogAssetEditorManager: Opening Asset editor for ParticleSystem /Game/FXVarietyPack/Particles/P_ky_lightning2.P_ky_lightning2
+[2019.03.20-03.38.09:513][522]LogTexture: Display: Building textures: ThumbnailTexture (DXT1, 512X512)
+[2019.03.20-03.38.09:519][522]LogAssetEditorManager: Opening Asset editor for ParticleSystem /Game/FXVarietyPack/Particles/P_ky_lightning1.P_ky_lightning1
+[2019.03.20-03.38.13:530][918]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.03.20-03.38.13:824][932]LogTexture: Display: Building textures: ThumbnailTexture (DXT1, 512X512)
+[2019.03.20-03.38.13:825][932]LogTexture: Display: Building textures: T_ky_noise3 (AutoDXT, 1024X1024)
+[2019.03.20-03.38.13:825][932]LogTexture: Display: Building textures: T_ky_smoke2 (AutoDXT, 1024X1024)
+[2019.03.20-03.38.13:825][932]LogMaterial: Display: Missing cached shader map for material M_ky_dynDust, compiling. 
+[2019.03.20-03.38.14:046][932]LogShaderCompilers: Display: Shaders left to compile 43
+[2019.03.20-03.38.14:046][932]LogShaderCompilers: Display: Shaders left to compile 33
+[2019.03.20-03.38.14:047][932]LogShaderCompilers: Display: Shaders left to compile 23
+[2019.03.20-03.38.14:047][932]LogShaderCompilers: Display: Shaders left to compile 13
+[2019.03.20-03.38.14:054][932]LogAssetEditorManager: Opening Asset editor for ParticleSystem /Game/FXVarietyPack/Particles/P_ky_lightning3.P_ky_lightning3
+[2019.03.20-03.38.16:691][ 87]LogShaderCompilers: Display: Shaders left to compile 3
+[2019.03.20-03.38.42:979][533]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.03.20-03.38.52:772][650]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.03.20-03.38.52:846][659]BlueprintLog: New page: Compile BP_LightningBolt
+[2019.03.20-03.38.53:229][686]LogSavePackage: Moving 'C:/Users/gosus/Documents/CP-School/SeniorProject/gitRepos/Senior-Project-CPP-Game/Saved/BP_LightningBoltC7F4A2BE46338903B4AA5FBC6C44529F.tmp' to 'C:/Users/gosus/Documents/CP-School/SeniorProject/gitRepos/Senior-Project-CPP-Game/Content/Blueprints/Attacks/BP_LightningBolt.uasset'
+[2019.03.20-03.39.17:212][219]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.03.20-03.39.17:265][225]BlueprintLog: New page: Compile BP_LightningBolt
+[2019.03.20-03.39.17:722][255]LogSavePackage: Moving 'C:/Users/gosus/Documents/CP-School/SeniorProject/gitRepos/Senior-Project-CPP-Game/Saved/BP_LightningBolt043609864331BE39B76F1C8B2B08F0E3.tmp' to 'C:/Users/gosus/Documents/CP-School/SeniorProject/gitRepos/Senior-Project-CPP-Game/Content/Blueprints/Attacks/BP_LightningBolt.uasset'
+[2019.03.20-03.40.03:530][ 97]LogSavePackage: Moving 'C:/Users/gosus/Documents/CP-School/SeniorProject/gitRepos/Senior-Project-CPP-Game/Saved/BP_LightningBoltAA5BB1DD4FEE935590219D8A84079321.tmp' to 'C:/Users/gosus/Documents/CP-School/SeniorProject/gitRepos/Senior-Project-CPP-Game/Content/Blueprints/Attacks/BP_LightningBolt.uasset'
+[2019.03.20-03.40.04:529][210]BlueprintLog: New page: Compile BP_LightningBolt
+[2019.03.20-03.41.05:094][ 99]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/Blueprints/Characters/BP_ProtagClass.BP_ProtagClass
+[2019.03.20-03.41.36:100][907]LogAssetEditorManager: Opening Asset editor for WidgetBlueprint /Game/UI/playerHud.playerHud
+[2019.03.20-03.43.36:683][966]BlueprintLog: New page: Compile playerHud
+[2019.03.20-03.43.37:022][990]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UI/playerHud" FILE="C:/Users/gosus/Documents/CP-School/SeniorProject/gitRepos/Senior-Project-CPP-Game/Content/UI/playerHud.uasset" SILENT=true
+[2019.03.20-03.43.37:075][990]LogSavePackage: Moving 'C:/Users/gosus/Documents/CP-School/SeniorProject/gitRepos/Senior-Project-CPP-Game/Saved/playerHud7AC3D3174F808B14AFB16DA1D22FFE8A.tmp' to 'C:/Users/gosus/Documents/CP-School/SeniorProject/gitRepos/Senior-Project-CPP-Game/Content/UI/playerHud.uasset'
+[2019.03.20-03.43.44:850][585]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Game/UI/armsDealerHUD.armsDealerHUD:WidgetTree.CanvasPanel_0 or CanvasPanel /Game/UI/armsDealerHUD.armsDealerHUD_C:WidgetTree.CanvasPanel_0
+[2019.03.20-03.43.44:850][585]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Game/UI/armsDealerHUD.armsDealerHUD:WidgetTree.CanvasPanel_0 or CanvasPanel /Game/UI/playerHud.playerHud:WidgetTree.CanvasPanel_0
+[2019.03.20-03.43.44:850][585]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Game/UI/armsDealerHUD.armsDealerHUD:WidgetTree.CanvasPanel_0 or CanvasPanel /Game/Levels/DemoTown.DemoTown:armsDealerHUD_C_1.WidgetTree_0.CanvasPanel_0
+[2019.03.20-03.43.44:850][585]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Game/UI/armsDealerHUD.armsDealerHUD:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_11:playerHud_C_3.WidgetTree_0.CanvasPanel_0
+[2019.03.20-03.43.44:850][585]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Game/UI/armsDealerHUD.armsDealerHUD:WidgetTree.CanvasPanel_0 or CanvasPanel /Game/UI/ShopScreen.shopScreen:WidgetTree.CanvasPanel_0
+[2019.03.20-03.43.44:851][585]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Game/UI/armsDealerHUD.armsDealerHUD:WidgetTree.CanvasPanel_0 or CanvasPanel /Game/UI/ShopScreen.shopScreen_C:WidgetTree.CanvasPanel_0
+[2019.03.20-03.43.44:851][585]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Game/UI/armsDealerHUD.armsDealerHUD:WidgetTree.CanvasPanel_0 or CanvasPanel /Game/UI/slimeHud.slimeHud_C:WidgetTree.CanvasPanel_0
+[2019.03.20-03.43.44:851][585]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Game/UI/armsDealerHUD.armsDealerHUD:WidgetTree.CanvasPanel_0 or CanvasPanel /Game/UI/slimeHud.slimeHud:WidgetTree.CanvasPanel_0
+[2019.03.20-03.43.44:851][585]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Game/UI/armsDealerHUD.armsDealerHUD:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_11:playerHud_C_4.WidgetTree_0.CanvasPanel_0
+[2019.03.20-03.43.44:851][585]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Game/UI/armsDealerHUD.armsDealerHUD:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.REINST_playerHud_C_6:WidgetTree.CanvasPanel_0
+[2019.03.20-03.43.44:851][585]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Game/UI/armsDealerHUD.armsDealerHUD:WidgetTree.CanvasPanel_0 or CanvasPanel /Game/UI/playerHud.playerHud_C:WidgetTree.CanvasPanel_0
+[2019.03.20-03.43.44:851][585]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Game/UI/armsDealerHUD.armsDealerHUD:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_11:playerHud_C_2.WidgetTree_0.CanvasPanel_0
+[2019.03.20-03.43.44:851][585]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanelSlot /Game/UI/playerHud.playerHud:WidgetTree.CanvasPanel_0.CanvasPanelSlot_3 or CanvasPanelSlot /Engine/Transient.World_11:playerHud_C_3.WidgetTree_0.CanvasPanel_0.CanvasPanelSlot_3
+[2019.03.20-03.43.44:851][585]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanelSlot /Game/UI/playerHud.playerHud:WidgetTree.CanvasPanel_0.CanvasPanelSlot_3 or CanvasPanelSlot /Engine/Transient.World_11:playerHud_C_4.WidgetTree_0.CanvasPanel_0.CanvasPanelSlot_3
+[2019.03.20-03.43.44:851][585]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanelSlot /Game/UI/playerHud.playerHud:WidgetTree.CanvasPanel_0.CanvasPanelSlot_3 or CanvasPanelSlot /Engine/Transient.REINST_playerHud_C_6:WidgetTree.CanvasPanel_0.CanvasPanelSlot_3
+[2019.03.20-03.43.44:851][585]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanelSlot /Game/UI/playerHud.playerHud:WidgetTree.CanvasPanel_0.CanvasPanelSlot_3 or CanvasPanelSlot /Game/UI/playerHud.playerHud_C:WidgetTree.CanvasPanel_0.CanvasPanelSlot_3
+[2019.03.20-03.43.44:851][585]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanelSlot /Game/UI/playerHud.playerHud:WidgetTree.CanvasPanel_0.CanvasPanelSlot_3 or CanvasPanelSlot /Engine/Transient.World_11:playerHud_C_2.WidgetTree_0.CanvasPanel_0.CanvasPanelSlot_3
+[2019.03.20-03.43.44:851][585]LogProperty: Warning: Illegal TEXT reference to a private object in external package (CanvasPanelSlot /Game/UI/playerHud.playerHud:WidgetTree.CanvasPanel_0.CanvasPanelSlot_3) from referencer (Button /Engine/UMG/Editor/Transient.B_Fireball).  Import failed...
+[2019.03.20-03.43.44:852][585]LogProperty: Warning: ObjectProperty /Script/UMG.Widget:Slot: unresolved reference to 'CanvasPanelSlot'"CanvasPanel_0.CanvasPanelSlot_3"''
+[2019.03.20-03.43.46:028][641]LogEditorTransaction: Undo Animatable Property Changed
+[2019.03.20-03.43.47:003][685]LogEditorTransaction: Undo Animatable Property Changed
+[2019.03.20-03.43.47:948][740]LogEditorTransaction: Undo Animatable Property Changed
+[2019.03.20-03.43.48:465][771]LogEditorTransaction: Undo Paste clipboard contents
+[2019.03.20-03.43.51:981][ 10]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Game/UI/armsDealerHUD.armsDealerHUD:WidgetTree.CanvasPanel_0 or CanvasPanel /Game/UI/armsDealerHUD.armsDealerHUD_C:WidgetTree.CanvasPanel_0
+[2019.03.20-03.43.51:981][ 10]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Game/UI/armsDealerHUD.armsDealerHUD:WidgetTree.CanvasPanel_0 or CanvasPanel /Game/UI/playerHud.playerHud:WidgetTree.CanvasPanel_0
+[2019.03.20-03.43.51:982][ 10]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Game/UI/armsDealerHUD.armsDealerHUD:WidgetTree.CanvasPanel_0 or CanvasPanel /Game/Levels/DemoTown.DemoTown:armsDealerHUD_C_1.WidgetTree_0.CanvasPanel_0
+[2019.03.20-03.43.51:982][ 10]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Game/UI/armsDealerHUD.armsDealerHUD:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_11:playerHud_C_3.WidgetTree_0.CanvasPanel_0
+[2019.03.20-03.43.51:982][ 10]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Game/UI/armsDealerHUD.armsDealerHUD:WidgetTree.CanvasPanel_0 or CanvasPanel /Game/UI/ShopScreen.shopScreen:WidgetTree.CanvasPanel_0
+[2019.03.20-03.43.51:982][ 10]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Game/UI/armsDealerHUD.armsDealerHUD:WidgetTree.CanvasPanel_0 or CanvasPanel /Game/UI/ShopScreen.shopScreen_C:WidgetTree.CanvasPanel_0
+[2019.03.20-03.43.51:982][ 10]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Game/UI/armsDealerHUD.armsDealerHUD:WidgetTree.CanvasPanel_0 or CanvasPanel /Game/UI/slimeHud.slimeHud_C:WidgetTree.CanvasPanel_0
+[2019.03.20-03.43.51:982][ 10]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Game/UI/armsDealerHUD.armsDealerHUD:WidgetTree.CanvasPanel_0 or CanvasPanel /Game/UI/slimeHud.slimeHud:WidgetTree.CanvasPanel_0
+[2019.03.20-03.43.51:982][ 10]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Game/UI/armsDealerHUD.armsDealerHUD:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_11:playerHud_C_4.WidgetTree_0.CanvasPanel_0
+[2019.03.20-03.43.51:982][ 10]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Game/UI/armsDealerHUD.armsDealerHUD:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_11:playerHud_C_5.WidgetTree_0.CanvasPanel_0
+[2019.03.20-03.43.51:982][ 10]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Game/UI/armsDealerHUD.armsDealerHUD:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.REINST_playerHud_C_6:WidgetTree.CanvasPanel_0
+[2019.03.20-03.43.51:982][ 10]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Game/UI/armsDealerHUD.armsDealerHUD:WidgetTree.CanvasPanel_0 or CanvasPanel /Game/UI/playerHud.playerHud_C:WidgetTree.CanvasPanel_0
+[2019.03.20-03.43.51:982][ 10]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Game/UI/armsDealerHUD.armsDealerHUD:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_11:playerHud_C_2.WidgetTree_0.CanvasPanel_0
+[2019.03.20-03.43.51:982][ 10]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Game/UI/armsDealerHUD.armsDealerHUD:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_11:playerHud_C_6.WidgetTree_0.CanvasPanel_0
+[2019.03.20-03.43.51:982][ 10]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanelSlot /Game/UI/playerHud.playerHud:WidgetTree.CanvasPanel_0.CanvasPanelSlot_10 or CanvasPanelSlot /Engine/Transient.World_11:playerHud_C_3.WidgetTree_0.CanvasPanel_0.CanvasPanelSlot_10
+[2019.03.20-03.43.51:982][ 10]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanelSlot /Game/UI/playerHud.playerHud:WidgetTree.CanvasPanel_0.CanvasPanelSlot_10 or CanvasPanelSlot /Game/UI/slimeHud.slimeHud:WidgetTree.CanvasPanel_0.CanvasPanelSlot_10
+[2019.03.20-03.43.51:982][ 10]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanelSlot /Game/UI/playerHud.playerHud:WidgetTree.CanvasPanel_0.CanvasPanelSlot_10 or CanvasPanelSlot /Game/UI/slimeHud.slimeHud_C:WidgetTree.CanvasPanel_0.CanvasPanelSlot_10
+[2019.03.20-03.43.51:982][ 10]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanelSlot /Game/UI/playerHud.playerHud:WidgetTree.CanvasPanel_0.CanvasPanelSlot_10 or CanvasPanelSlot /Engine/Transient.World_11:playerHud_C_4.WidgetTree_0.CanvasPanel_0.CanvasPanelSlot_10
+[2019.03.20-03.43.51:983][ 10]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanelSlot /Game/UI/playerHud.playerHud:WidgetTree.CanvasPanel_0.CanvasPanelSlot_10 or CanvasPanelSlot /Engine/Transient.World_11:playerHud_C_5.WidgetTree_0.CanvasPanel_0.CanvasPanelSlot_10
+[2019.03.20-03.43.51:983][ 10]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanelSlot /Game/UI/playerHud.playerHud:WidgetTree.CanvasPanel_0.CanvasPanelSlot_10 or CanvasPanelSlot /Engine/Transient.REINST_playerHud_C_6:WidgetTree.CanvasPanel_0.CanvasPanelSlot_10
+[2019.03.20-03.43.51:983][ 10]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanelSlot /Game/UI/playerHud.playerHud:WidgetTree.CanvasPanel_0.CanvasPanelSlot_10 or CanvasPanelSlot /Game/UI/playerHud.playerHud_C:WidgetTree.CanvasPanel_0.CanvasPanelSlot_10
+[2019.03.20-03.43.51:983][ 10]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanelSlot /Game/UI/playerHud.playerHud:WidgetTree.CanvasPanel_0.CanvasPanelSlot_10 or CanvasPanelSlot /Engine/Transient.World_11:playerHud_C_2.WidgetTree_0.CanvasPanel_0.CanvasPanelSlot_10
+[2019.03.20-03.43.51:983][ 10]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanelSlot /Game/UI/playerHud.playerHud:WidgetTree.CanvasPanel_0.CanvasPanelSlot_10 or CanvasPanelSlot /Engine/Transient.World_11:playerHud_C_6.WidgetTree_0.CanvasPanel_0.CanvasPanelSlot_10
+[2019.03.20-03.43.51:983][ 10]LogProperty: Warning: Illegal TEXT reference to a private object in external package (CanvasPanelSlot /Game/UI/playerHud.playerHud:WidgetTree.CanvasPanel_0.CanvasPanelSlot_10) from referencer (Button /Engine/UMG/Editor/Transient.B_EndTurn).  Import failed...
+[2019.03.20-03.43.51:983][ 10]LogProperty: Warning: ObjectProperty /Script/UMG.Widget:Slot: unresolved reference to 'CanvasPanelSlot'"CanvasPanel_0.CanvasPanelSlot_10"''
+[2019.03.20-03.43.55:092][218]LogEditorTransaction: Undo Animatable Property Changed
+[2019.03.20-03.43.55:912][261]LogEditorTransaction: Undo Animatable Property Changed
+[2019.03.20-03.44.01:124][596]LogEditorTransaction: Undo Animatable Property Changed
+[2019.03.20-03.44.11:561][147]LogSlate: Window 'Color Picker' being destroyed
+[2019.03.20-03.45.21:257][474]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Levels/DemoTown' took 0.046
+[2019.03.20-03.45.21:264][474]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/UI/playerHud] ([1] browsable assets)...
+[2019.03.20-03.45.21:264][474]OBJ SavePackage: Finished generating thumbnails for package [/Game/UI/playerHud]
+[2019.03.20-03.45.21:316][474]LogSavePackage: Moving 'C:/Users/gosus/Documents/CP-School/SeniorProject/gitRepos/Senior-Project-CPP-Game/Saved/playerHud_Auto1D4A32FB645481BE2C052E69B429682B1.tmp' to 'C:/Users/gosus/Documents/CP-School/SeniorProject/gitRepos/Senior-Project-CPP-Game/Saved/Autosaves/Game/UI/playerHud_Auto1.uasset'
+[2019.03.20-03.45.21:317][474]LogFileHelpers: Auto-saving content packages took 0.059
+[2019.03.20-03.47.04:636][ 47]Candidate modules for hot reload:
+[2019.03.20-03.47.04:636][ 47]  HSPGame
+[2019.03.20-03.47.04:636][ 47]Launching UnrealBuildTool... [G:/Games/Epic/Games/UE_4.21/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=HSPGame,6353 Win64 Development -TargetType=Editor -Project="C:/Users/gosus/Documents/CP-School/SeniorProject/gitRepos/Senior-Project-CPP-Game/HSPGame.uproject" -canskiplink "C:/Users/gosus/Documents/CP-School/SeniorProject/gitRepos/Senior-Project-CPP-Game/HSPGame.uproject" ]
+[2019.03.20-03.47.04:639][ 47]Warning: Starting HotReload took  0.1s.
+[2019.03.20-03.47.18:314][132]CompilerResultsLog: New page: Compilation - Mar 19, 2019, 1:47:18 PM
+[2019.03.20-03.47.18:314][132]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (C:\Users\gosus\Documents\CP-School\SeniorProject\gitRepos\Senior-Project-CPP-Game).
+[2019.03.20-03.47.18:315][132]CompilerResultsLog: Creating makefile for hot reloading HSPGameEditor (source directory changed)
+[2019.03.20-03.47.18:315][132]CompilerResultsLog: Compiling game modules for hot reload
+[2019.03.20-03.47.18:315][132]CompilerResultsLog: Using Visual Studio 2017 14.16.27023 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023) and Windows 10.0.17763.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2019.03.20-03.47.18:315][132]CompilerResultsLog: Parsing headers for HSPGameEditor
+[2019.03.20-03.47.18:315][132]CompilerResultsLog:   Running UnrealHeaderTool "C:\Users\gosus\Documents\CP-School\SeniorProject\gitRepos\Senior-Project-CPP-Game\HSPGame.uproject" "C:\Users\gosus\Documents\CP-School\SeniorProject\gitRepos\Senior-Project-CPP-Game\Intermediate\Build\Win64\HSPGameEditor\Development\HSPGameEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2019.03.20-03.47.18:315][132]CompilerResultsLog: Error: C:/Users/gosus/Documents/CP-School/SeniorProject/gitRepos/Senior-Project-CPP-Game/Source/HSPGame/ProtagClass.h(51)  : Error: Comma delimited properties cannot be converted ProtagClass.atk_LightningBolt
+[2019.03.20-03.47.18:315][132]CompilerResultsLog: Error: UnrealHeaderTool failed for target 'HSPGameEditor' (platform: Win64, module info: C:\Users\gosus\Documents\CP-School\SeniorProject\gitRepos\Senior-Project-CPP-Game\Intermediate\Build\Win64\HSPGameEditor\Development\HSPGameEditor.uhtmanifest, exit code: OtherCompilationError (5)).
+[2019.03.20-03.47.18:315][132]LogMainFrame: MainFrame: Module compiling took 13.682 seconds
+[2019.03.20-03.47.18:315][132]Warning: HotReload failed, recompile failed
+[2019.03.20-03.47.48:536][758]LogSlate: Window 'Message Log' being destroyed
+[2019.03.20-03.47.48:540][758]LogSlate: Window 'Message Log' being destroyed
+[2019.03.20-03.47.49:923][893]Candidate modules for hot reload:
+[2019.03.20-03.47.49:923][893]  HSPGame
+[2019.03.20-03.47.49:924][893]Launching UnrealBuildTool... [G:/Games/Epic/Games/UE_4.21/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=HSPGame,7038 Win64 Development -TargetType=Editor -Project="C:/Users/gosus/Documents/CP-School/SeniorProject/gitRepos/Senior-Project-CPP-Game/HSPGame.uproject" -canskiplink "C:/Users/gosus/Documents/CP-School/SeniorProject/gitRepos/Senior-Project-CPP-Game/HSPGame.uproject" ]
+[2019.03.20-03.47.49:926][893]Warning: Starting HotReload took  0.0s.
+[2019.03.20-03.48.12:736][927]CompilerResultsLog: New page: Compilation - Mar 19, 2019, 1:48:12 PM
+[2019.03.20-03.48.12:736][927]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (C:\Users\gosus\Documents\CP-School\SeniorProject\gitRepos\Senior-Project-CPP-Game).
+[2019.03.20-03.48.12:736][927]CompilerResultsLog: Creating makefile for hot reloading HSPGameEditor (source directory changed)
+[2019.03.20-03.48.12:736][927]CompilerResultsLog: Compiling game modules for hot reload
+[2019.03.20-03.48.12:737][927]CompilerResultsLog: Using Visual Studio 2017 14.16.27023 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023) and Windows 10.0.17763.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2019.03.20-03.48.12:737][927]CompilerResultsLog: Parsing headers for HSPGameEditor
+[2019.03.20-03.48.12:737][927]CompilerResultsLog:   Running UnrealHeaderTool "C:\Users\gosus\Documents\CP-School\SeniorProject\gitRepos\Senior-Project-CPP-Game\HSPGame.uproject" "C:\Users\gosus\Documents\CP-School\SeniorProject\gitRepos\Senior-Project-CPP-Game\Intermediate\Build\Win64\HSPGameEditor\Development\HSPGameEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2019.03.20-03.48.12:737][927]CompilerResultsLog: Reflection code generated for HSPGameEditor in 12.5247511 seconds
+[2019.03.20-03.48.12:737][927]CompilerResultsLog: Building 10 actions with 8 processes...
+[2019.03.20-03.48.12:737][927]CompilerResultsLog:   [1/10] HSPGameInstance.cpp
+[2019.03.20-03.48.12:737][927]CompilerResultsLog:   [2/10] HSPGame.init.gen.cpp
+[2019.03.20-03.48.12:737][927]CompilerResultsLog:   [3/10] HSPGameInstance.gen.cpp
+[2019.03.20-03.48.12:737][927]CompilerResultsLog:   [4/10] EnemySlime.cpp
+[2019.03.20-03.48.12:737][927]CompilerResultsLog:   [5/10] EnemyClass.cpp
+[2019.03.20-03.48.12:737][927]CompilerResultsLog:   [6/10] ProtagClass.gen.cpp
+[2019.03.20-03.48.12:737][927]CompilerResultsLog:   [7/10] EnemySlime.gen.cpp
+[2019.03.20-03.48.12:737][927]CompilerResultsLog:   [8/10] ProtagClass.cpp
+[2019.03.20-03.48.12:737][927]CompilerResultsLog:   [9/10] UE4Editor-HSPGame-7038.lib
+[2019.03.20-03.48.12:738][927]CompilerResultsLog:      Creating library C:\Users\gosus\Documents\CP-School\SeniorProject\gitRepos\Senior-Project-CPP-Game\Intermediate\Build\Win64\UE4Editor\Development\HSPGame\UE4Editor-HSPGame-7038.lib and object C:\Users\gosus\Documents\CP-School\SeniorProject\gitRepos\Senior-Project-CPP-Game\Intermediate\Build\Win64\UE4Editor\Development\HSPGame\UE4Editor-HSPGame-7038.exp
+[2019.03.20-03.48.12:738][927]CompilerResultsLog:   [10/10] UE4Editor-HSPGame-7038.dll
+[2019.03.20-03.48.12:738][927]CompilerResultsLog:      Creating library C:\Users\gosus\Documents\CP-School\SeniorProject\gitRepos\Senior-Project-CPP-Game\Intermediate\Build\Win64\UE4Editor\Development\HSPGame\UE4Editor-HSPGame-7038.suppressed.lib and object C:\Users\gosus\Documents\CP-School\SeniorProject\gitRepos\Senior-Project-CPP-Game\Intermediate\Build\Win64\UE4Editor\Development\HSPGame\UE4Editor-HSPGame-7038.suppressed.exp
+[2019.03.20-03.48.12:738][927]CompilerResultsLog: Total build time: 22.56 seconds (Parallel executor: 5.70 seconds)
+[2019.03.20-03.48.12:738][927]LogMainFrame: MainFrame: Module compiling took 22.817 seconds
+[2019.03.20-03.48.12:800][927]LogClass: Could not find existing class HSPGameInstance in package /Script/HSPGame for HotReload, assuming new class
+[2019.03.20-03.48.12:800][927]LogClass: Could not find existing class ProtagClass in package /Script/HSPGame for HotReload, assuming new class
+[2019.03.20-03.48.12:800][927]LogClass: Function charHit is new.
+[2019.03.20-03.48.12:800][927]LogClass: Function cursorClick is new.
+[2019.03.20-03.48.12:800][927]LogClass: Function inSight is new.
+[2019.03.20-03.48.12:800][927]LogClass: Function ReverseAnim is new.
+[2019.03.20-03.48.12:800][927]LogClass: Function turnOffJumping is new.
+[2019.03.20-03.48.12:814][927]LogHotReload: Re-instancing HSPGameInstance after hot-reload.
+[2019.03.20-03.48.12:928][927]LogHotReload: Re-instancing ProtagClass after hot-reload.
+[2019.03.20-03.48.13:210][927]LogContentBrowser: Native class hierarchy updated for 'HSPGame' in 0.0003 seconds. Added 8 classes and 2 folders.
+[2019.03.20-03.48.13:214][927]Display: HotReload successful (6 functions remapped  0 scriptstructs remapped)
+[2019.03.20-03.48.13:561][927]LogContentBrowser: Native class hierarchy populated in 0.0069 seconds. Added 2662 classes and 626 folders.
+[2019.03.20-03.48.13:574][927]Display: HotReload took 23.7s.
+[2019.03.20-03.48.49:896][828]BlueprintLog: New page: Compile BP_ProtagClass
+[2019.03.20-03.48.50:373][839]LogSavePackage: Moving 'C:/Users/gosus/Documents/CP-School/SeniorProject/gitRepos/Senior-Project-CPP-Game/Saved/BP_ProtagClass4995BCFA4E13C3A986932FBD31CD4E1E.tmp' to 'C:/Users/gosus/Documents/CP-School/SeniorProject/gitRepos/Senior-Project-CPP-Game/Content/Blueprints/Characters/BP_ProtagClass.uasset'
+[2019.03.20-03.48.51:630][959]LogTemp: Repeating last play command: Selected Viewport
+[2019.03.20-03.48.51:661][959]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Levels/DemoTown.DemoTown:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/DemoTown.DemoTown:PersistentLevel.DemoTown' with GeneratedClass '/Game/Levels/DemoTown.DemoTown_C' with ClassGeneratedBy '/Game/Levels/DemoTown.DemoTown:PersistentLevel.DemoTown'
+[2019.03.20-03.48.51:661][959]BlueprintLog: New page: Pre-Play auto-recompile
+[2019.03.20-03.48.51:672][959]LogPlayLevel: [PlayLevel] Compiling playerHud before play...
+[2019.03.20-03.48.51:848][959]LogPlayLevel: PlayLevel: Blueprint regeneration took 186 ms (1 blueprints)
+[2019.03.20-03.48.51:848][959]PIE: New page: PIE session: DemoTown (Mar 19, 2019, 1:48:51 PM)
+[2019.03.20-03.48.51:848][959]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_DemoTown
+[2019.03.20-03.48.51:878][959]LogPlayLevel: PIE: StaticDuplicateObject took: (0.029484s)
+[2019.03.20-03.48.51:879][959]LogAIModule: Creating AISystem for world DemoTown
+[2019.03.20-03.48.51:879][959]LogPlayLevel: PIE: World Init took: (0.000607s)
+[2019.03.20-03.48.51:879][959]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/DemoTown.DemoTown to /Game/Levels/UEDPIE_0_DemoTown.DemoTown (0.030400s)
+[2019.03.20-03.48.51:954][959]LogInit: XAudio2 using 'Speakers (Realtek(R) Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.03.20-03.48.51:970][959]LogInit: FAudioDevice initialized.
+[2019.03.20-03.48.52:004][959]LogLoad: Game class is 'BP_HSPGameGameModeBase_C'
+[2019.03.20-03.48.52:008][959]LogWorld: Bringing World /Game/Levels/UEDPIE_0_DemoTown.DemoTown up for play (max tick rate 0) at 2019.03.19-20.48.52
+[2019.03.20-03.48.52:009][959]LogWorld: Bringing up level for play took: 0.003637
+[2019.03.20-03.48.52:023][959]PIE: Play in editor start time for /Game/Levels/UEDPIE_0_DemoTown 1.017
+[2019.03.20-03.48.52:024][959]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Levels/DemoTown.DemoTown:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/DemoTown.DemoTown:PersistentLevel.DemoTown' with GeneratedClass '/Game/Levels/DemoTown.DemoTown_C' with ClassGeneratedBy '/Game/Levels/DemoTown.DemoTown:PersistentLevel.DemoTown'
+[2019.03.20-03.48.54:400][189]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.03.20-03.49.00:406][835]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.03.20-03.49.14:612][234]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.03.20-03.49.14:660][239]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Levels/DemoTown.DemoTown:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/DemoTown.DemoTown:PersistentLevel.DemoTown' with GeneratedClass '/Game/Levels/DemoTown.DemoTown_C' with ClassGeneratedBy '/Game/Levels/DemoTown.DemoTown:PersistentLevel.DemoTown'
+[2019.03.20-03.49.14:661][239]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.03.20-03.49.14:705][239]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.03.20-03.49.14:706][239]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Levels/DemoTown.DemoTown:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/DemoTown.DemoTown:PersistentLevel.DemoTown' with GeneratedClass '/Game/Levels/DemoTown.DemoTown_C' with ClassGeneratedBy '/Game/Levels/DemoTown.DemoTown:PersistentLevel.DemoTown'
+[2019.03.20-03.49.14:760][239]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.03.20-03.49.14:790][240]LogPlayLevel: Display: Destroying online subsystem :Context_14
+[2019.03.20-03.49.18:685][608]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.03.20-03.49.19:639][703]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.03.20-03.49.19:643][703]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UI/playerHud" FILE="C:/Users/gosus/Documents/CP-School/SeniorProject/gitRepos/Senior-Project-CPP-Game/Content/UI/playerHud.uasset" SILENT=true
+[2019.03.20-03.49.19:703][703]LogSavePackage: Moving 'C:/Users/gosus/Documents/CP-School/SeniorProject/gitRepos/Senior-Project-CPP-Game/Saved/playerHud9A14B4C74C045620DA7730B70071BD1F.tmp' to 'C:/Users/gosus/Documents/CP-School/SeniorProject/gitRepos/Senior-Project-CPP-Game/Content/UI/playerHud.uasset'
+[2019.03.20-03.49.23:913][868]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.03.20-03.49.25:352][990]LogSavePackage: Moving 'C:/Users/gosus/Documents/CP-School/SeniorProject/gitRepos/Senior-Project-CPP-Game/Saved/BP_ProtagClass2B49580B4A31E4DBFE62BAAE5937559B.tmp' to 'C:/Users/gosus/Documents/CP-School/SeniorProject/gitRepos/Senior-Project-CPP-Game/Content/Blueprints/Characters/BP_ProtagClass.uasset'
+[2019.03.20-03.49.44:272][914]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.03.20-03.50.04:634][901]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.03.20-03.54.26:969][158]BlueprintLog: New page: Compile playerHud
+[2019.03.20-03.54.27:551][192]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UI/playerHud" FILE="C:/Users/gosus/Documents/CP-School/SeniorProject/gitRepos/Senior-Project-CPP-Game/Content/UI/playerHud.uasset" SILENT=true
+[2019.03.20-03.54.27:607][192]LogSavePackage: Moving 'C:/Users/gosus/Documents/CP-School/SeniorProject/gitRepos/Senior-Project-CPP-Game/Saved/playerHudDD5947EF4A9D4541DCB24595EEFA28D9.tmp' to 'C:/Users/gosus/Documents/CP-School/SeniorProject/gitRepos/Senior-Project-CPP-Game/Content/UI/playerHud.uasset'
+[2019.03.20-03.54.31:016][521]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.03.20-03.54.31:190][538]LogAssetEditorManager: Opening Asset editor for WidgetBlueprint /Game/UI/ShopScreen.shopScreen
+[2019.03.20-03.54.40:502][191]LogEditorTransaction: Undo Animatable Property Changed
+[2019.03.20-03.54.59:041][724]LogAssetEditorManager: Opening Asset editor for WidgetBlueprint /Game/UI/ShopScreen.shopScreen
+[2019.03.20-03.56.28:509][635]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Game/UI/armsDealerHUD.armsDealerHUD:WidgetTree.CanvasPanel_0 or CanvasPanel /Game/UI/armsDealerHUD.armsDealerHUD_C:WidgetTree.CanvasPanel_0
+[2019.03.20-03.56.28:509][635]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Game/UI/armsDealerHUD.armsDealerHUD:WidgetTree.CanvasPanel_0 or CanvasPanel /Game/UI/playerHud.playerHud:WidgetTree.CanvasPanel_0
+[2019.03.20-03.56.28:509][635]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Game/UI/armsDealerHUD.armsDealerHUD:WidgetTree.CanvasPanel_0 or CanvasPanel /Game/Levels/DemoTown.DemoTown:armsDealerHUD_C_1.WidgetTree_0.CanvasPanel_0
+[2019.03.20-03.56.28:509][635]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Game/UI/armsDealerHUD.armsDealerHUD:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_11:playerHud_C_16.WidgetTree_0.CanvasPanel_0
+[2019.03.20-03.56.28:509][635]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Game/UI/armsDealerHUD.armsDealerHUD:WidgetTree.CanvasPanel_0 or CanvasPanel /Game/UI/ShopScreen.shopScreen:WidgetTree.CanvasPanel_0
+[2019.03.20-03.56.28:509][635]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Game/UI/armsDealerHUD.armsDealerHUD:WidgetTree.CanvasPanel_0 or CanvasPanel /Game/UI/ShopScreen.shopScreen_C:WidgetTree.CanvasPanel_0
+[2019.03.20-03.56.28:509][635]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Game/UI/armsDealerHUD.armsDealerHUD:WidgetTree.CanvasPanel_0 or CanvasPanel /Game/UI/slimeHud.slimeHud_C:WidgetTree.CanvasPanel_0
+[2019.03.20-03.56.28:509][635]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Game/UI/armsDealerHUD.armsDealerHUD:WidgetTree.CanvasPanel_0 or CanvasPanel /Game/UI/slimeHud.slimeHud:WidgetTree.CanvasPanel_0
+[2019.03.20-03.56.28:509][635]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Game/UI/armsDealerHUD.armsDealerHUD:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_13:shopScreen_C_2.WidgetTree_0.CanvasPanel_0
+[2019.03.20-03.56.28:509][635]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Game/UI/armsDealerHUD.armsDealerHUD:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_13:shopScreen_C_0.WidgetTree_0.CanvasPanel_0
+[2019.03.20-03.56.28:509][635]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Game/UI/armsDealerHUD.armsDealerHUD:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_13:shopScreen_C_1.WidgetTree_0.CanvasPanel_0
+[2019.03.20-03.56.28:509][635]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Game/UI/armsDealerHUD.armsDealerHUD:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_11:playerHud_C_10.WidgetTree_0.CanvasPanel_0
+[2019.03.20-03.56.28:509][635]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Game/UI/armsDealerHUD.armsDealerHUD:WidgetTree.CanvasPanel_0 or CanvasPanel /Game/UI/playerHud.playerHud_C:WidgetTree.CanvasPanel_0
+[2019.03.20-03.56.28:510][635]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Game/UI/armsDealerHUD.armsDealerHUD:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_11:playerHud_C_17.WidgetTree_0.CanvasPanel_0
+[2019.03.20-03.56.28:510][635]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Game/UI/armsDealerHUD.armsDealerHUD:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.REINST_playerHud_C_17:WidgetTree.CanvasPanel_0
+[2019.03.20-03.56.28:510][635]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Game/UI/armsDealerHUD.armsDealerHUD:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_11:playerHud_C_7.WidgetTree_0.CanvasPanel_0
+[2019.03.20-03.56.28:510][635]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Game/UI/armsDealerHUD.armsDealerHUD:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_11:playerHud_C_8.WidgetTree_0.CanvasPanel_0
+[2019.03.20-03.56.28:510][635]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Game/UI/armsDealerHUD.armsDealerHUD:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_11:playerHud_C_9.WidgetTree_0.CanvasPanel_0
+[2019.03.20-03.56.28:510][635]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Game/UI/armsDealerHUD.armsDealerHUD:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.REINST_playerHud_C_20:WidgetTree.CanvasPanel_0
+[2019.03.20-03.56.28:510][635]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Game/UI/armsDealerHUD.armsDealerHUD:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_15:shopScreen_C_0.WidgetTree_0.CanvasPanel_0
+[2019.03.20-03.56.28:510][635]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Game/UI/armsDealerHUD.armsDealerHUD:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_15:shopScreen_C_1.WidgetTree_0.CanvasPanel_0
+[2019.03.20-03.56.28:510][635]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Game/UI/armsDealerHUD.armsDealerHUD:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_15:shopScreen_C_2.WidgetTree_0.CanvasPanel_0
+[2019.03.20-03.56.28:510][635]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Game/UI/armsDealerHUD.armsDealerHUD:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_15:shopScreen_C_3.WidgetTree_0.CanvasPanel_0
+[2019.03.20-03.56.28:510][635]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Game/UI/armsDealerHUD.armsDealerHUD:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_15:shopScreen_C_4.WidgetTree_0.CanvasPanel_0
+[2019.03.20-03.56.28:510][635]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanelSlot /Game/UI/ShopScreen.shopScreen:WidgetTree.CanvasPanel_0.CanvasPanelSlot_62 or CanvasPanelSlot /Game/UI/ShopScreen.shopScreen_C:WidgetTree.CanvasPanel_0.CanvasPanelSlot_62
+[2019.03.20-03.56.28:510][635]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanelSlot /Game/UI/ShopScreen.shopScreen:WidgetTree.CanvasPanel_0.CanvasPanelSlot_62 or CanvasPanelSlot /Engine/Transient.World_13:shopScreen_C_0.WidgetTree_0.CanvasPanel_0.CanvasPanelSlot_62
+[2019.03.20-03.56.28:510][635]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanelSlot /Game/UI/ShopScreen.shopScreen:WidgetTree.CanvasPanel_0.CanvasPanelSlot_62 or CanvasPanelSlot /Engine/Transient.World_13:shopScreen_C_1.WidgetTree_0.CanvasPanel_0.CanvasPanelSlot_62
+[2019.03.20-03.56.28:510][635]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanelSlot /Game/UI/ShopScreen.shopScreen:WidgetTree.CanvasPanel_0.CanvasPanelSlot_62 or CanvasPanelSlot /Engine/Transient.World_13:shopScreen_C_2.WidgetTree_0.CanvasPanel_0.CanvasPanelSlot_62
+[2019.03.20-03.56.28:510][635]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanelSlot /Game/UI/ShopScreen.shopScreen:WidgetTree.CanvasPanel_0.CanvasPanelSlot_62 or CanvasPanelSlot /Engine/Transient.World_15:shopScreen_C_0.WidgetTree_0.CanvasPanel_0.CanvasPanelSlot_62
+[2019.03.20-03.56.28:511][635]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanelSlot /Game/UI/ShopScreen.shopScreen:WidgetTree.CanvasPanel_0.CanvasPanelSlot_62 or CanvasPanelSlot /Engine/Transient.World_15:shopScreen_C_1.WidgetTree_0.CanvasPanel_0.CanvasPanelSlot_62
+[2019.03.20-03.56.28:511][635]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanelSlot /Game/UI/ShopScreen.shopScreen:WidgetTree.CanvasPanel_0.CanvasPanelSlot_62 or CanvasPanelSlot /Engine/Transient.World_15:shopScreen_C_2.WidgetTree_0.CanvasPanel_0.CanvasPanelSlot_62
+[2019.03.20-03.56.28:511][635]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanelSlot /Game/UI/ShopScreen.shopScreen:WidgetTree.CanvasPanel_0.CanvasPanelSlot_62 or CanvasPanelSlot /Engine/Transient.World_15:shopScreen_C_3.WidgetTree_0.CanvasPanel_0.CanvasPanelSlot_62
+[2019.03.20-03.56.28:511][635]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanelSlot /Game/UI/ShopScreen.shopScreen:WidgetTree.CanvasPanel_0.CanvasPanelSlot_62 or CanvasPanelSlot /Engine/Transient.World_15:shopScreen_C_4.WidgetTree_0.CanvasPanel_0.CanvasPanelSlot_62
+[2019.03.20-03.56.28:511][635]LogProperty: Warning: Illegal TEXT reference to a private object in external package (CanvasPanelSlot /Game/UI/ShopScreen.shopScreen:WidgetTree.CanvasPanel_0.CanvasPanelSlot_62) from referencer (TextBlock /Engine/UMG/Editor/Transient.TextBlock_178).  Import failed...
+[2019.03.20-03.56.28:511][635]LogProperty: Warning: ObjectProperty /Script/UMG.Widget:Slot: unresolved reference to 'CanvasPanelSlot'"CanvasPanel_0.CanvasPanelSlot_62"''
+[2019.03.20-03.56.28:511][635]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Game/UI/armsDealerHUD.armsDealerHUD:WidgetTree.CanvasPanel_0 or CanvasPanel /Game/UI/armsDealerHUD.armsDealerHUD_C:WidgetTree.CanvasPanel_0
+[2019.03.20-03.56.28:511][635]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Game/UI/armsDealerHUD.armsDealerHUD:WidgetTree.CanvasPanel_0 or CanvasPanel /Game/UI/playerHud.playerHud:WidgetTree.CanvasPanel_0
+[2019.03.20-03.56.28:511][635]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Game/UI/armsDealerHUD.armsDealerHUD:WidgetTree.CanvasPanel_0 or CanvasPanel /Game/Levels/DemoTown.DemoTown:armsDealerHUD_C_1.WidgetTree_0.CanvasPanel_0
+[2019.03.20-03.56.28:511][635]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Game/UI/armsDealerHUD.armsDealerHUD:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_11:playerHud_C_16.WidgetTree_0.CanvasPanel_0
+[2019.03.20-03.56.28:512][635]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Game/UI/armsDealerHUD.armsDealerHUD:WidgetTree.CanvasPanel_0 or CanvasPanel /Game/UI/ShopScreen.shopScreen:WidgetTree.CanvasPanel_0
+[2019.03.20-03.56.28:512][635]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Game/UI/armsDealerHUD.armsDealerHUD:WidgetTree.CanvasPanel_0 or CanvasPanel /Game/UI/ShopScreen.shopScreen_C:WidgetTree.CanvasPanel_0
+[2019.03.20-03.56.28:512][635]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Game/UI/armsDealerHUD.armsDealerHUD:WidgetTree.CanvasPanel_0 or CanvasPanel /Game/UI/slimeHud.slimeHud_C:WidgetTree.CanvasPanel_0
+[2019.03.20-03.56.28:512][635]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Game/UI/armsDealerHUD.armsDealerHUD:WidgetTree.CanvasPanel_0 or CanvasPanel /Game/UI/slimeHud.slimeHud:WidgetTree.CanvasPanel_0
+[2019.03.20-03.56.28:512][635]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Game/UI/armsDealerHUD.armsDealerHUD:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_13:shopScreen_C_2.WidgetTree_0.CanvasPanel_0
+[2019.03.20-03.56.28:512][635]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Game/UI/armsDealerHUD.armsDealerHUD:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_13:shopScreen_C_0.WidgetTree_0.CanvasPanel_0
+[2019.03.20-03.56.28:512][635]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Game/UI/armsDealerHUD.armsDealerHUD:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_13:shopScreen_C_1.WidgetTree_0.CanvasPanel_0
+[2019.03.20-03.56.28:512][635]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Game/UI/armsDealerHUD.armsDealerHUD:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_11:playerHud_C_10.WidgetTree_0.CanvasPanel_0
+[2019.03.20-03.56.28:512][635]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Game/UI/armsDealerHUD.armsDealerHUD:WidgetTree.CanvasPanel_0 or CanvasPanel /Game/UI/playerHud.playerHud_C:WidgetTree.CanvasPanel_0
+[2019.03.20-03.56.28:512][635]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Game/UI/armsDealerHUD.armsDealerHUD:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_11:playerHud_C_17.WidgetTree_0.CanvasPanel_0
+[2019.03.20-03.56.28:512][635]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Game/UI/armsDealerHUD.armsDealerHUD:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.REINST_playerHud_C_17:WidgetTree.CanvasPanel_0
+[2019.03.20-03.56.28:512][635]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Game/UI/armsDealerHUD.armsDealerHUD:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_11:playerHud_C_7.WidgetTree_0.CanvasPanel_0
+[2019.03.20-03.56.28:512][635]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Game/UI/armsDealerHUD.armsDealerHUD:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_11:playerHud_C_8.WidgetTree_0.CanvasPanel_0
+[2019.03.20-03.56.28:512][635]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Game/UI/armsDealerHUD.armsDealerHUD:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_11:playerHud_C_9.WidgetTree_0.CanvasPanel_0
+[2019.03.20-03.56.28:512][635]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Game/UI/armsDealerHUD.armsDealerHUD:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.REINST_playerHud_C_20:WidgetTree.CanvasPanel_0
+[2019.03.20-03.56.28:512][635]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Game/UI/armsDealerHUD.armsDealerHUD:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_15:shopScreen_C_0.WidgetTree_0.CanvasPanel_0
+[2019.03.20-03.56.28:512][635]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Game/UI/armsDealerHUD.armsDealerHUD:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_15:shopScreen_C_1.WidgetTree_0.CanvasPanel_0
+[2019.03.20-03.56.28:513][635]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Game/UI/armsDealerHUD.armsDealerHUD:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_15:shopScreen_C_2.WidgetTree_0.CanvasPanel_0
+[2019.03.20-03.56.28:513][635]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Game/UI/armsDealerHUD.armsDealerHUD:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_15:shopScreen_C_3.WidgetTree_0.CanvasPanel_0
+[2019.03.20-03.56.28:513][635]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Game/UI/armsDealerHUD.armsDealerHUD:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_15:shopScreen_C_4.WidgetTree_0.CanvasPanel_0
+[2019.03.20-03.56.28:513][635]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanelSlot /Game/UI/ShopScreen.shopScreen:WidgetTree.CanvasPanel_0.CanvasPanelSlot_45 or CanvasPanelSlot /Game/UI/ShopScreen.shopScreen_C:WidgetTree.CanvasPanel_0.CanvasPanelSlot_45
+[2019.03.20-03.56.28:513][635]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanelSlot /Game/UI/ShopScreen.shopScreen:WidgetTree.CanvasPanel_0.CanvasPanelSlot_45 or CanvasPanelSlot /Engine/Transient.World_13:shopScreen_C_0.WidgetTree_0.CanvasPanel_0.CanvasPanelSlot_45
+[2019.03.20-03.56.28:513][635]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanelSlot /Game/UI/ShopScreen.shopScreen:WidgetTree.CanvasPanel_0.CanvasPanelSlot_45 or CanvasPanelSlot /Engine/Transient.World_13:shopScreen_C_1.WidgetTree_0.CanvasPanel_0.CanvasPanelSlot_45
+[2019.03.20-03.56.28:513][635]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanelSlot /Game/UI/ShopScreen.shopScreen:WidgetTree.CanvasPanel_0.CanvasPanelSlot_45 or CanvasPanelSlot /Engine/Transient.World_13:shopScreen_C_2.WidgetTree_0.CanvasPanel_0.CanvasPanelSlot_45
+[2019.03.20-03.56.28:513][635]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanelSlot /Game/UI/ShopScreen.shopScreen:WidgetTree.CanvasPanel_0.CanvasPanelSlot_45 or CanvasPanelSlot /Engine/Transient.World_15:shopScreen_C_0.WidgetTree_0.CanvasPanel_0.CanvasPanelSlot_45
+[2019.03.20-03.56.28:513][635]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanelSlot /Game/UI/ShopScreen.shopScreen:WidgetTree.CanvasPanel_0.CanvasPanelSlot_45 or CanvasPanelSlot /Engine/Transient.World_15:shopScreen_C_1.WidgetTree_0.CanvasPanel_0.CanvasPanelSlot_45
+[2019.03.20-03.56.28:513][635]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanelSlot /Game/UI/ShopScreen.shopScreen:WidgetTree.CanvasPanel_0.CanvasPanelSlot_45 or CanvasPanelSlot /Engine/Transient.World_15:shopScreen_C_2.WidgetTree_0.CanvasPanel_0.CanvasPanelSlot_45
+[2019.03.20-03.56.28:513][635]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanelSlot /Game/UI/ShopScreen.shopScreen:WidgetTree.CanvasPanel_0.CanvasPanelSlot_45 or CanvasPanelSlot /Engine/Transient.World_15:shopScreen_C_3.WidgetTree_0.CanvasPanel_0.CanvasPanelSlot_45
+[2019.03.20-03.56.28:513][635]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanelSlot /Game/UI/ShopScreen.shopScreen:WidgetTree.CanvasPanel_0.CanvasPanelSlot_45 or CanvasPanelSlot /Engine/Transient.World_15:shopScreen_C_4.WidgetTree_0.CanvasPanel_0.CanvasPanelSlot_45
+[2019.03.20-03.56.28:513][635]LogProperty: Warning: Illegal TEXT reference to a private object in external package (CanvasPanelSlot /Game/UI/ShopScreen.shopScreen:WidgetTree.CanvasPanel_0.CanvasPanelSlot_45) from referencer (Button /Engine/UMG/Editor/Transient.B_Fireball).  Import failed...
+[2019.03.20-03.56.28:513][635]LogProperty: Warning: ObjectProperty /Script/UMG.Widget:Slot: unresolved reference to 'CanvasPanelSlot'"CanvasPanel_0.CanvasPanelSlot_45"''
+[2019.03.20-03.56.28:514][635]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Game/UI/armsDealerHUD.armsDealerHUD:WidgetTree.CanvasPanel_0 or CanvasPanel /Game/UI/armsDealerHUD.armsDealerHUD_C:WidgetTree.CanvasPanel_0
+[2019.03.20-03.56.28:514][635]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Game/UI/armsDealerHUD.armsDealerHUD:WidgetTree.CanvasPanel_0 or CanvasPanel /Game/UI/playerHud.playerHud:WidgetTree.CanvasPanel_0
+[2019.03.20-03.56.28:514][635]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Game/UI/armsDealerHUD.armsDealerHUD:WidgetTree.CanvasPanel_0 or CanvasPanel /Game/Levels/DemoTown.DemoTown:armsDealerHUD_C_1.WidgetTree_0.CanvasPanel_0
+[2019.03.20-03.56.28:514][635]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Game/UI/armsDealerHUD.armsDealerHUD:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_11:playerHud_C_16.WidgetTree_0.CanvasPanel_0
+[2019.03.20-03.56.28:514][635]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Game/UI/armsDealerHUD.armsDealerHUD:WidgetTree.CanvasPanel_0 or CanvasPanel /Game/UI/ShopScreen.shopScreen:WidgetTree.CanvasPanel_0
+[2019.03.20-03.56.28:514][635]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Game/UI/armsDealerHUD.armsDealerHUD:WidgetTree.CanvasPanel_0 or CanvasPanel /Game/UI/ShopScreen.shopScreen_C:WidgetTree.CanvasPanel_0
+[2019.03.20-03.56.28:514][635]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Game/UI/armsDealerHUD.armsDealerHUD:WidgetTree.CanvasPanel_0 or CanvasPanel /Game/UI/slimeHud.slimeHud_C:WidgetTree.CanvasPanel_0
+[2019.03.20-03.56.28:514][635]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Game/UI/armsDealerHUD.armsDealerHUD:WidgetTree.CanvasPanel_0 or CanvasPanel /Game/UI/slimeHud.slimeHud:WidgetTree.CanvasPanel_0
+[2019.03.20-03.56.28:514][635]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Game/UI/armsDealerHUD.armsDealerHUD:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_13:shopScreen_C_2.WidgetTree_0.CanvasPanel_0
+[2019.03.20-03.56.28:514][635]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Game/UI/armsDealerHUD.armsDealerHUD:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_13:shopScreen_C_0.WidgetTree_0.CanvasPanel_0
+[2019.03.20-03.56.28:514][635]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Game/UI/armsDealerHUD.armsDealerHUD:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_13:shopScreen_C_1.WidgetTree_0.CanvasPanel_0
+[2019.03.20-03.56.28:514][635]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Game/UI/armsDealerHUD.armsDealerHUD:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_11:playerHud_C_10.WidgetTree_0.CanvasPanel_0
+[2019.03.20-03.56.28:514][635]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Game/UI/armsDealerHUD.armsDealerHUD:WidgetTree.CanvasPanel_0 or CanvasPanel /Game/UI/playerHud.playerHud_C:WidgetTree.CanvasPanel_0
+[2019.03.20-03.56.28:514][635]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Game/UI/armsDealerHUD.armsDealerHUD:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_11:playerHud_C_17.WidgetTree_0.CanvasPanel_0
+[2019.03.20-03.56.28:514][635]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Game/UI/armsDealerHUD.armsDealerHUD:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.REINST_playerHud_C_17:WidgetTree.CanvasPanel_0
+[2019.03.20-03.56.28:514][635]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Game/UI/armsDealerHUD.armsDealerHUD:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_11:playerHud_C_7.WidgetTree_0.CanvasPanel_0
+[2019.03.20-03.56.28:515][635]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Game/UI/armsDealerHUD.armsDealerHUD:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_11:playerHud_C_8.WidgetTree_0.CanvasPanel_0
+[2019.03.20-03.56.28:515][635]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Game/UI/armsDealerHUD.armsDealerHUD:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_11:playerHud_C_9.WidgetTree_0.CanvasPanel_0
+[2019.03.20-03.56.28:515][635]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Game/UI/armsDealerHUD.armsDealerHUD:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.REINST_playerHud_C_20:WidgetTree.CanvasPanel_0
+[2019.03.20-03.56.28:515][635]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Game/UI/armsDealerHUD.armsDealerHUD:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_15:shopScreen_C_0.WidgetTree_0.CanvasPanel_0
+[2019.03.20-03.56.28:515][635]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Game/UI/armsDealerHUD.armsDealerHUD:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_15:shopScreen_C_1.WidgetTree_0.CanvasPanel_0
+[2019.03.20-03.56.28:515][635]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Game/UI/armsDealerHUD.armsDealerHUD:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_15:shopScreen_C_2.WidgetTree_0.CanvasPanel_0
+[2019.03.20-03.56.28:515][635]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Game/UI/armsDealerHUD.armsDealerHUD:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_15:shopScreen_C_3.WidgetTree_0.CanvasPanel_0
+[2019.03.20-03.56.28:515][635]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Game/UI/armsDealerHUD.armsDealerHUD:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_15:shopScreen_C_4.WidgetTree_0.CanvasPanel_0
+[2019.03.20-03.56.28:515][635]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanelSlot /Game/UI/ShopScreen.shopScreen:WidgetTree.CanvasPanel_0.CanvasPanelSlot_64 or CanvasPanelSlot /Game/UI/ShopScreen.shopScreen_C:WidgetTree.CanvasPanel_0.CanvasPanelSlot_64
+[2019.03.20-03.56.28:515][635]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanelSlot /Game/UI/ShopScreen.shopScreen:WidgetTree.CanvasPanel_0.CanvasPanelSlot_64 or CanvasPanelSlot /Engine/Transient.World_13:shopScreen_C_0.WidgetTree_0.CanvasPanel_0.CanvasPanelSlot_64
+[2019.03.20-03.56.28:515][635]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanelSlot /Game/UI/ShopScreen.shopScreen:WidgetTree.CanvasPanel_0.CanvasPanelSlot_64 or CanvasPanelSlot /Engine/Transient.World_13:shopScreen_C_1.WidgetTree_0.CanvasPanel_0.CanvasPanelSlot_64
+[2019.03.20-03.56.28:515][635]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanelSlot /Game/UI/ShopScreen.shopScreen:WidgetTree.CanvasPanel_0.CanvasPanelSlot_64 or CanvasPanelSlot /Engine/Transient.World_13:shopScreen_C_2.WidgetTree_0.CanvasPanel_0.CanvasPanelSlot_64
+[2019.03.20-03.56.28:515][635]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanelSlot /Game/UI/ShopScreen.shopScreen:WidgetTree.CanvasPanel_0.CanvasPanelSlot_64 or CanvasPanelSlot /Engine/Transient.World_15:shopScreen_C_0.WidgetTree_0.CanvasPanel_0.CanvasPanelSlot_64
+[2019.03.20-03.56.28:515][635]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanelSlot /Game/UI/ShopScreen.shopScreen:WidgetTree.CanvasPanel_0.CanvasPanelSlot_64 or CanvasPanelSlot /Engine/Transient.World_15:shopScreen_C_1.WidgetTree_0.CanvasPanel_0.CanvasPanelSlot_64
+[2019.03.20-03.56.28:515][635]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanelSlot /Game/UI/ShopScreen.shopScreen:WidgetTree.CanvasPanel_0.CanvasPanelSlot_64 or CanvasPanelSlot /Engine/Transient.World_15:shopScreen_C_2.WidgetTree_0.CanvasPanel_0.CanvasPanelSlot_64
+[2019.03.20-03.56.28:515][635]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanelSlot /Game/UI/ShopScreen.shopScreen:WidgetTree.CanvasPanel_0.CanvasPanelSlot_64 or CanvasPanelSlot /Engine/Transient.World_15:shopScreen_C_3.WidgetTree_0.CanvasPanel_0.CanvasPanelSlot_64
+[2019.03.20-03.56.28:516][635]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanelSlot /Game/UI/ShopScreen.shopScreen:WidgetTree.CanvasPanel_0.CanvasPanelSlot_64 or CanvasPanelSlot /Engine/Transient.World_15:shopScreen_C_4.WidgetTree_0.CanvasPanel_0.CanvasPanelSlot_64
+[2019.03.20-03.56.28:516][635]LogProperty: Warning: Illegal TEXT reference to a private object in external package (CanvasPanelSlot /Game/UI/ShopScreen.shopScreen:WidgetTree.CanvasPanel_0.CanvasPanelSlot_64) from referencer (TextBlock /Engine/UMG/Editor/Transient.T_Damage).  Import failed...
+[2019.03.20-03.56.28:516][635]LogProperty: Warning: ObjectProperty /Script/UMG.Widget:Slot: unresolved reference to 'CanvasPanelSlot'"CanvasPanel_0.CanvasPanelSlot_64"''
+[2019.03.20-03.56.28:516][635]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Game/UI/armsDealerHUD.armsDealerHUD:WidgetTree.CanvasPanel_0 or CanvasPanel /Game/UI/armsDealerHUD.armsDealerHUD_C:WidgetTree.CanvasPanel_0
+[2019.03.20-03.56.28:516][635]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Game/UI/armsDealerHUD.armsDealerHUD:WidgetTree.CanvasPanel_0 or CanvasPanel /Game/UI/playerHud.playerHud:WidgetTree.CanvasPanel_0
+[2019.03.20-03.56.28:516][635]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Game/UI/armsDealerHUD.armsDealerHUD:WidgetTree.CanvasPanel_0 or CanvasPanel /Game/Levels/DemoTown.DemoTown:armsDealerHUD_C_1.WidgetTree_0.CanvasPanel_0
+[2019.03.20-03.56.28:516][635]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Game/UI/armsDealerHUD.armsDealerHUD:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_11:playerHud_C_16.WidgetTree_0.CanvasPanel_0
+[2019.03.20-03.56.28:516][635]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Game/UI/armsDealerHUD.armsDealerHUD:WidgetTree.CanvasPanel_0 or CanvasPanel /Game/UI/ShopScreen.shopScreen:WidgetTree.CanvasPanel_0
+[2019.03.20-03.56.28:516][635]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Game/UI/armsDealerHUD.armsDealerHUD:WidgetTree.CanvasPanel_0 or CanvasPanel /Game/UI/ShopScreen.shopScreen_C:WidgetTree.CanvasPanel_0
+[2019.03.20-03.56.28:516][635]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Game/UI/armsDealerHUD.armsDealerHUD:WidgetTree.CanvasPanel_0 or CanvasPanel /Game/UI/slimeHud.slimeHud_C:WidgetTree.CanvasPanel_0
+[2019.03.20-03.56.28:516][635]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Game/UI/armsDealerHUD.armsDealerHUD:WidgetTree.CanvasPanel_0 or CanvasPanel /Game/UI/slimeHud.slimeHud:WidgetTree.CanvasPanel_0
+[2019.03.20-03.56.28:516][635]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Game/UI/armsDealerHUD.armsDealerHUD:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_13:shopScreen_C_2.WidgetTree_0.CanvasPanel_0
+[2019.03.20-03.56.28:516][635]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Game/UI/armsDealerHUD.armsDealerHUD:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_13:shopScreen_C_0.WidgetTree_0.CanvasPanel_0
+[2019.03.20-03.56.28:516][635]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Game/UI/armsDealerHUD.armsDealerHUD:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_13:shopScreen_C_1.WidgetTree_0.CanvasPanel_0
+[2019.03.20-03.56.28:517][635]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Game/UI/armsDealerHUD.armsDealerHUD:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_11:playerHud_C_10.WidgetTree_0.CanvasPanel_0
+[2019.03.20-03.56.28:517][635]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Game/UI/armsDealerHUD.armsDealerHUD:WidgetTree.CanvasPanel_0 or CanvasPanel /Game/UI/playerHud.playerHud_C:WidgetTree.CanvasPanel_0
+[2019.03.20-03.56.28:517][635]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Game/UI/armsDealerHUD.armsDealerHUD:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_11:playerHud_C_17.WidgetTree_0.CanvasPanel_0
+[2019.03.20-03.56.28:517][635]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Game/UI/armsDealerHUD.armsDealerHUD:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.REINST_playerHud_C_17:WidgetTree.CanvasPanel_0
+[2019.03.20-03.56.28:517][635]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Game/UI/armsDealerHUD.armsDealerHUD:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_11:playerHud_C_7.WidgetTree_0.CanvasPanel_0
+[2019.03.20-03.56.28:517][635]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Game/UI/armsDealerHUD.armsDealerHUD:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_11:playerHud_C_8.WidgetTree_0.CanvasPanel_0
+[2019.03.20-03.56.28:517][635]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Game/UI/armsDealerHUD.armsDealerHUD:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_11:playerHud_C_9.WidgetTree_0.CanvasPanel_0
+[2019.03.20-03.56.28:517][635]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Game/UI/armsDealerHUD.armsDealerHUD:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.REINST_playerHud_C_20:WidgetTree.CanvasPanel_0
+[2019.03.20-03.56.28:517][635]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Game/UI/armsDealerHUD.armsDealerHUD:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_15:shopScreen_C_0.WidgetTree_0.CanvasPanel_0
+[2019.03.20-03.56.28:517][635]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Game/UI/armsDealerHUD.armsDealerHUD:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_15:shopScreen_C_1.WidgetTree_0.CanvasPanel_0
+[2019.03.20-03.56.28:517][635]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Game/UI/armsDealerHUD.armsDealerHUD:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_15:shopScreen_C_2.WidgetTree_0.CanvasPanel_0
+[2019.03.20-03.56.28:517][635]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Game/UI/armsDealerHUD.armsDealerHUD:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_15:shopScreen_C_3.WidgetTree_0.CanvasPanel_0
+[2019.03.20-03.56.28:517][635]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Game/UI/armsDealerHUD.armsDealerHUD:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_15:shopScreen_C_4.WidgetTree_0.CanvasPanel_0
+[2019.03.20-03.56.28:518][635]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanelSlot /Game/UI/ShopScreen.shopScreen:WidgetTree.CanvasPanel_0.CanvasPanelSlot_51 or CanvasPanelSlot /Game/UI/ShopScreen.shopScreen_C:WidgetTree.CanvasPanel_0.CanvasPanelSlot_51
+[2019.03.20-03.56.28:518][635]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanelSlot /Game/UI/ShopScreen.shopScreen:WidgetTree.CanvasPanel_0.CanvasPanelSlot_51 or CanvasPanelSlot /Engine/Transient.World_13:shopScreen_C_0.WidgetTree_0.CanvasPanel_0.CanvasPanelSlot_51
+[2019.03.20-03.56.28:518][635]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanelSlot /Game/UI/ShopScreen.shopScreen:WidgetTree.CanvasPanel_0.CanvasPanelSlot_51 or CanvasPanelSlot /Engine/Transient.World_13:shopScreen_C_1.WidgetTree_0.CanvasPanel_0.CanvasPanelSlot_51
+[2019.03.20-03.56.28:518][635]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanelSlot /Game/UI/ShopScreen.shopScreen:WidgetTree.CanvasPanel_0.CanvasPanelSlot_51 or CanvasPanelSlot /Engine/Transient.World_13:shopScreen_C_2.WidgetTree_0.CanvasPanel_0.CanvasPanelSlot_51
+[2019.03.20-03.56.28:518][635]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanelSlot /Game/UI/ShopScreen.shopScreen:WidgetTree.CanvasPanel_0.CanvasPanelSlot_51 or CanvasPanelSlot /Engine/Transient.World_15:shopScreen_C_0.WidgetTree_0.CanvasPanel_0.CanvasPanelSlot_51
+[2019.03.20-03.56.28:518][635]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanelSlot /Game/UI/ShopScreen.shopScreen:WidgetTree.CanvasPanel_0.CanvasPanelSlot_51 or CanvasPanelSlot /Engine/Transient.World_15:shopScreen_C_1.WidgetTree_0.CanvasPanel_0.CanvasPanelSlot_51
+[2019.03.20-03.56.28:518][635]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanelSlot /Game/UI/ShopScreen.shopScreen:WidgetTree.CanvasPanel_0.CanvasPanelSlot_51 or CanvasPanelSlot /Engine/Transient.World_15:shopScreen_C_2.WidgetTree_0.CanvasPanel_0.CanvasPanelSlot_51
+[2019.03.20-03.56.28:518][635]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanelSlot /Game/UI/ShopScreen.shopScreen:WidgetTree.CanvasPanel_0.CanvasPanelSlot_51 or CanvasPanelSlot /Engine/Transient.World_15:shopScreen_C_3.WidgetTree_0.CanvasPanel_0.CanvasPanelSlot_51
+[2019.03.20-03.56.28:518][635]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanelSlot /Game/UI/ShopScreen.shopScreen:WidgetTree.CanvasPanel_0.CanvasPanelSlot_51 or CanvasPanelSlot /Engine/Transient.World_15:shopScreen_C_4.WidgetTree_0.CanvasPanel_0.CanvasPanelSlot_51
+[2019.03.20-03.56.28:518][635]LogProperty: Warning: Illegal TEXT reference to a private object in external package (CanvasPanelSlot /Game/UI/ShopScreen.shopScreen:WidgetTree.CanvasPanel_0.CanvasPanelSlot_51) from referencer (Image /Engine/UMG/Editor/Transient.I_FireballBg).  Import failed...
+[2019.03.20-03.56.28:518][635]LogProperty: Warning: ObjectProperty /Script/UMG.Widget:Slot: unresolved reference to 'CanvasPanelSlot'"CanvasPanel_0.CanvasPanelSlot_51"''
+[2019.03.20-03.56.28:518][635]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Game/UI/armsDealerHUD.armsDealerHUD:WidgetTree.CanvasPanel_0 or CanvasPanel /Game/UI/armsDealerHUD.armsDealerHUD_C:WidgetTree.CanvasPanel_0
+[2019.03.20-03.56.28:519][635]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Game/UI/armsDealerHUD.armsDealerHUD:WidgetTree.CanvasPanel_0 or CanvasPanel /Game/UI/playerHud.playerHud:WidgetTree.CanvasPanel_0
+[2019.03.20-03.56.28:519][635]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Game/UI/armsDealerHUD.armsDealerHUD:WidgetTree.CanvasPanel_0 or CanvasPanel /Game/Levels/DemoTown.DemoTown:armsDealerHUD_C_1.WidgetTree_0.CanvasPanel_0
+[2019.03.20-03.56.28:519][635]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Game/UI/armsDealerHUD.armsDealerHUD:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_11:playerHud_C_16.WidgetTree_0.CanvasPanel_0
+[2019.03.20-03.56.28:519][635]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Game/UI/armsDealerHUD.armsDealerHUD:WidgetTree.CanvasPanel_0 or CanvasPanel /Game/UI/ShopScreen.shopScreen:WidgetTree.CanvasPanel_0
+[2019.03.20-03.56.28:519][635]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Game/UI/armsDealerHUD.armsDealerHUD:WidgetTree.CanvasPanel_0 or CanvasPanel /Game/UI/ShopScreen.shopScreen_C:WidgetTree.CanvasPanel_0
+[2019.03.20-03.56.28:519][635]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Game/UI/armsDealerHUD.armsDealerHUD:WidgetTree.CanvasPanel_0 or CanvasPanel /Game/UI/slimeHud.slimeHud_C:WidgetTree.CanvasPanel_0
+[2019.03.20-03.56.28:519][635]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Game/UI/armsDealerHUD.armsDealerHUD:WidgetTree.CanvasPanel_0 or CanvasPanel /Game/UI/slimeHud.slimeHud:WidgetTree.CanvasPanel_0
+[2019.03.20-03.56.28:519][635]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Game/UI/armsDealerHUD.armsDealerHUD:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_13:shopScreen_C_2.WidgetTree_0.CanvasPanel_0
+[2019.03.20-03.56.28:519][635]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Game/UI/armsDealerHUD.armsDealerHUD:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_13:shopScreen_C_0.WidgetTree_0.CanvasPanel_0
+[2019.03.20-03.56.28:519][635]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Game/UI/armsDealerHUD.armsDealerHUD:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_13:shopScreen_C_1.WidgetTree_0.CanvasPanel_0
+[2019.03.20-03.56.28:519][635]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Game/UI/armsDealerHUD.armsDealerHUD:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_11:playerHud_C_10.WidgetTree_0.CanvasPanel_0
+[2019.03.20-03.56.28:519][635]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Game/UI/armsDealerHUD.armsDealerHUD:WidgetTree.CanvasPanel_0 or CanvasPanel /Game/UI/playerHud.playerHud_C:WidgetTree.CanvasPanel_0
+[2019.03.20-03.56.28:519][635]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Game/UI/armsDealerHUD.armsDealerHUD:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_11:playerHud_C_17.WidgetTree_0.CanvasPanel_0
+[2019.03.20-03.56.28:519][635]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Game/UI/armsDealerHUD.armsDealerHUD:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.REINST_playerHud_C_17:WidgetTree.CanvasPanel_0
+[2019.03.20-03.56.28:519][635]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Game/UI/armsDealerHUD.armsDealerHUD:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_11:playerHud_C_7.WidgetTree_0.CanvasPanel_0
+[2019.03.20-03.56.28:519][635]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Game/UI/armsDealerHUD.armsDealerHUD:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_11:playerHud_C_8.WidgetTree_0.CanvasPanel_0
+[2019.03.20-03.56.28:519][635]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Game/UI/armsDealerHUD.armsDealerHUD:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_11:playerHud_C_9.WidgetTree_0.CanvasPanel_0
+[2019.03.20-03.56.28:519][635]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Game/UI/armsDealerHUD.armsDealerHUD:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.REINST_playerHud_C_20:WidgetTree.CanvasPanel_0
+[2019.03.20-03.56.28:520][635]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Game/UI/armsDealerHUD.armsDealerHUD:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_15:shopScreen_C_0.WidgetTree_0.CanvasPanel_0
+[2019.03.20-03.56.28:520][635]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Game/UI/armsDealerHUD.armsDealerHUD:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_15:shopScreen_C_1.WidgetTree_0.CanvasPanel_0
+[2019.03.20-03.56.28:520][635]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Game/UI/armsDealerHUD.armsDealerHUD:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_15:shopScreen_C_2.WidgetTree_0.CanvasPanel_0
+[2019.03.20-03.56.28:520][635]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Game/UI/armsDealerHUD.armsDealerHUD:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_15:shopScreen_C_3.WidgetTree_0.CanvasPanel_0
+[2019.03.20-03.56.28:520][635]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Game/UI/armsDealerHUD.armsDealerHUD:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_15:shopScreen_C_4.WidgetTree_0.CanvasPanel_0
+[2019.03.20-03.56.28:520][635]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanelSlot /Game/UI/ShopScreen.shopScreen:WidgetTree.CanvasPanel_0.CanvasPanelSlot_61 or CanvasPanelSlot /Game/UI/ShopScreen.shopScreen_C:WidgetTree.CanvasPanel_0.CanvasPanelSlot_61
+[2019.03.20-03.56.28:520][635]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanelSlot /Game/UI/ShopScreen.shopScreen:WidgetTree.CanvasPanel_0.CanvasPanelSlot_61 or CanvasPanelSlot /Engine/Transient.World_13:shopScreen_C_0.WidgetTree_0.CanvasPanel_0.CanvasPanelSlot_61
+[2019.03.20-03.56.28:520][635]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanelSlot /Game/UI/ShopScreen.shopScreen:WidgetTree.CanvasPanel_0.CanvasPanelSlot_61 or CanvasPanelSlot /Engine/Transient.World_13:shopScreen_C_1.WidgetTree_0.CanvasPanel_0.CanvasPanelSlot_61
+[2019.03.20-03.56.28:520][635]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanelSlot /Game/UI/ShopScreen.shopScreen:WidgetTree.CanvasPanel_0.CanvasPanelSlot_61 or CanvasPanelSlot /Engine/Transient.World_13:shopScreen_C_2.WidgetTree_0.CanvasPanel_0.CanvasPanelSlot_61
+[2019.03.20-03.56.28:520][635]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanelSlot /Game/UI/ShopScreen.shopScreen:WidgetTree.CanvasPanel_0.CanvasPanelSlot_61 or CanvasPanelSlot /Engine/Transient.World_15:shopScreen_C_0.WidgetTree_0.CanvasPanel_0.CanvasPanelSlot_61
+[2019.03.20-03.56.28:520][635]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanelSlot /Game/UI/ShopScreen.shopScreen:WidgetTree.CanvasPanel_0.CanvasPanelSlot_61 or CanvasPanelSlot /Engine/Transient.World_15:shopScreen_C_1.WidgetTree_0.CanvasPanel_0.CanvasPanelSlot_61
+[2019.03.20-03.56.28:520][635]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanelSlot /Game/UI/ShopScreen.shopScreen:WidgetTree.CanvasPanel_0.CanvasPanelSlot_61 or CanvasPanelSlot /Engine/Transient.World_15:shopScreen_C_2.WidgetTree_0.CanvasPanel_0.CanvasPanelSlot_61
+[2019.03.20-03.56.28:520][635]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanelSlot /Game/UI/ShopScreen.shopScreen:WidgetTree.CanvasPanel_0.CanvasPanelSlot_61 or CanvasPanelSlot /Engine/Transient.World_15:shopScreen_C_3.WidgetTree_0.CanvasPanel_0.CanvasPanelSlot_61
+[2019.03.20-03.56.28:520][635]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanelSlot /Game/UI/ShopScreen.shopScreen:WidgetTree.CanvasPanel_0.CanvasPanelSlot_61 or CanvasPanelSlot /Engine/Transient.World_15:shopScreen_C_4.WidgetTree_0.CanvasPanel_0.CanvasPanelSlot_61
+[2019.03.20-03.56.28:520][635]LogProperty: Warning: Illegal TEXT reference to a private object in external package (CanvasPanelSlot /Game/UI/ShopScreen.shopScreen:WidgetTree.CanvasPanel_0.CanvasPanelSlot_61) from referencer (TextBlock /Engine/UMG/Editor/Transient.T_FireballExpCost).  Import failed...
+[2019.03.20-03.56.28:520][635]LogProperty: Warning: ObjectProperty /Script/UMG.Widget:Slot: unresolved reference to 'CanvasPanelSlot'"CanvasPanel_0.CanvasPanelSlot_61"''
+[2019.03.20-03.59.26:158][815]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Game/UI/armsDealerHUD.armsDealerHUD:WidgetTree.CanvasPanel_0 or CanvasPanel /Game/UI/armsDealerHUD.armsDealerHUD_C:WidgetTree.CanvasPanel_0
+[2019.03.20-03.59.26:158][815]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Game/UI/armsDealerHUD.armsDealerHUD:WidgetTree.CanvasPanel_0 or CanvasPanel /Game/UI/playerHud.playerHud:WidgetTree.CanvasPanel_0
+[2019.03.20-03.59.26:158][815]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Game/UI/armsDealerHUD.armsDealerHUD:WidgetTree.CanvasPanel_0 or CanvasPanel /Game/Levels/DemoTown.DemoTown:armsDealerHUD_C_1.WidgetTree_0.CanvasPanel_0
+[2019.03.20-03.59.26:159][815]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Game/UI/armsDealerHUD.armsDealerHUD:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_11:playerHud_C_16.WidgetTree_0.CanvasPanel_0
+[2019.03.20-03.59.26:159][815]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Game/UI/armsDealerHUD.armsDealerHUD:WidgetTree.CanvasPanel_0 or CanvasPanel /Game/UI/ShopScreen.shopScreen:WidgetTree.CanvasPanel_0
+[2019.03.20-03.59.26:159][815]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Game/UI/armsDealerHUD.armsDealerHUD:WidgetTree.CanvasPanel_0 or CanvasPanel /Game/UI/ShopScreen.shopScreen_C:WidgetTree.CanvasPanel_0
+[2019.03.20-03.59.26:159][815]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Game/UI/armsDealerHUD.armsDealerHUD:WidgetTree.CanvasPanel_0 or CanvasPanel /Game/UI/slimeHud.slimeHud_C:WidgetTree.CanvasPanel_0
+[2019.03.20-03.59.26:159][815]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Game/UI/armsDealerHUD.armsDealerHUD:WidgetTree.CanvasPanel_0 or CanvasPanel /Game/UI/slimeHud.slimeHud:WidgetTree.CanvasPanel_0
+[2019.03.20-03.59.26:159][815]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Game/UI/armsDealerHUD.armsDealerHUD:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_13:shopScreen_C_2.WidgetTree_0.CanvasPanel_0
+[2019.03.20-03.59.26:159][815]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Game/UI/armsDealerHUD.armsDealerHUD:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_13:shopScreen_C_0.WidgetTree_0.CanvasPanel_0
+[2019.03.20-03.59.26:159][815]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Game/UI/armsDealerHUD.armsDealerHUD:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_13:shopScreen_C_1.WidgetTree_0.CanvasPanel_0
+[2019.03.20-03.59.26:159][815]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Game/UI/armsDealerHUD.armsDealerHUD:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_11:playerHud_C_10.WidgetTree_0.CanvasPanel_0
+[2019.03.20-03.59.26:159][815]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Game/UI/armsDealerHUD.armsDealerHUD:WidgetTree.CanvasPanel_0 or CanvasPanel /Game/UI/playerHud.playerHud_C:WidgetTree.CanvasPanel_0
+[2019.03.20-03.59.26:159][815]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Game/UI/armsDealerHUD.armsDealerHUD:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_11:playerHud_C_17.WidgetTree_0.CanvasPanel_0
+[2019.03.20-03.59.26:159][815]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Game/UI/armsDealerHUD.armsDealerHUD:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.REINST_playerHud_C_17:WidgetTree.CanvasPanel_0
+[2019.03.20-03.59.26:159][815]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Game/UI/armsDealerHUD.armsDealerHUD:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_11:playerHud_C_7.WidgetTree_0.CanvasPanel_0
+[2019.03.20-03.59.26:159][815]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Game/UI/armsDealerHUD.armsDealerHUD:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_11:playerHud_C_8.WidgetTree_0.CanvasPanel_0
+[2019.03.20-03.59.26:160][815]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Game/UI/armsDealerHUD.armsDealerHUD:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_11:playerHud_C_9.WidgetTree_0.CanvasPanel_0
+[2019.03.20-03.59.26:160][815]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Game/UI/armsDealerHUD.armsDealerHUD:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.REINST_playerHud_C_20:WidgetTree.CanvasPanel_0
+[2019.03.20-03.59.26:160][815]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Game/UI/armsDealerHUD.armsDealerHUD:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_15:shopScreen_C_0.WidgetTree_0.CanvasPanel_0
+[2019.03.20-03.59.26:160][815]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Game/UI/armsDealerHUD.armsDealerHUD:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_15:shopScreen_C_1.WidgetTree_0.CanvasPanel_0
+[2019.03.20-03.59.26:160][815]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Game/UI/armsDealerHUD.armsDealerHUD:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_15:shopScreen_C_2.WidgetTree_0.CanvasPanel_0
+[2019.03.20-03.59.26:160][815]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Game/UI/armsDealerHUD.armsDealerHUD:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_15:shopScreen_C_3.WidgetTree_0.CanvasPanel_0
+[2019.03.20-03.59.26:160][815]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Game/UI/armsDealerHUD.armsDealerHUD:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_15:shopScreen_C_4.WidgetTree_0.CanvasPanel_0
+[2019.03.20-03.59.26:160][815]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Game/UI/armsDealerHUD.armsDealerHUD:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_15:shopScreen_C_5.WidgetTree_0.CanvasPanel_0
+[2019.03.20-03.59.26:160][815]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Game/UI/armsDealerHUD.armsDealerHUD:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_15:shopScreen_C_6.WidgetTree_0.CanvasPanel_0
+[2019.03.20-03.59.26:160][815]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Game/UI/armsDealerHUD.armsDealerHUD:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_15:shopScreen_C_7.WidgetTree_0.CanvasPanel_0
+[2019.03.20-03.59.26:160][815]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Game/UI/armsDealerHUD.armsDealerHUD:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_15:shopScreen_C_8.WidgetTree_0.CanvasPanel_0
+[2019.03.20-03.59.26:160][815]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Game/UI/armsDealerHUD.armsDealerHUD:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_15:shopScreen_C_9.WidgetTree_0.CanvasPanel_0
+[2019.03.20-03.59.26:160][815]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Game/UI/armsDealerHUD.armsDealerHUD:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_15:shopScreen_C_10.WidgetTree_0.CanvasPanel_0
+[2019.03.20-03.59.26:160][815]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanelSlot /Game/UI/ShopScreen.shopScreen:WidgetTree.CanvasPanel_0.CanvasPanelSlot_54 or CanvasPanelSlot /Game/UI/ShopScreen.shopScreen_C:WidgetTree.CanvasPanel_0.CanvasPanelSlot_54
+[2019.03.20-03.59.26:161][815]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanelSlot /Game/UI/ShopScreen.shopScreen:WidgetTree.CanvasPanel_0.CanvasPanelSlot_54 or CanvasPanelSlot /Engine/Transient.World_13:shopScreen_C_0.WidgetTree_0.CanvasPanel_0.CanvasPanelSlot_54
+[2019.03.20-03.59.26:161][815]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanelSlot /Game/UI/ShopScreen.shopScreen:WidgetTree.CanvasPanel_0.CanvasPanelSlot_54 or CanvasPanelSlot /Engine/Transient.World_13:shopScreen_C_1.WidgetTree_0.CanvasPanel_0.CanvasPanelSlot_54
+[2019.03.20-03.59.26:161][815]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanelSlot /Game/UI/ShopScreen.shopScreen:WidgetTree.CanvasPanel_0.CanvasPanelSlot_54 or CanvasPanelSlot /Engine/Transient.World_13:shopScreen_C_2.WidgetTree_0.CanvasPanel_0.CanvasPanelSlot_54
+[2019.03.20-03.59.26:161][815]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanelSlot /Game/UI/ShopScreen.shopScreen:WidgetTree.CanvasPanel_0.CanvasPanelSlot_54 or CanvasPanelSlot /Engine/Transient.World_15:shopScreen_C_0.WidgetTree_0.CanvasPanel_0.CanvasPanelSlot_54
+[2019.03.20-03.59.26:161][815]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanelSlot /Game/UI/ShopScreen.shopScreen:WidgetTree.CanvasPanel_0.CanvasPanelSlot_54 or CanvasPanelSlot /Engine/Transient.World_15:shopScreen_C_1.WidgetTree_0.CanvasPanel_0.CanvasPanelSlot_54
+[2019.03.20-03.59.26:161][815]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanelSlot /Game/UI/ShopScreen.shopScreen:WidgetTree.CanvasPanel_0.CanvasPanelSlot_54 or CanvasPanelSlot /Engine/Transient.World_15:shopScreen_C_2.WidgetTree_0.CanvasPanel_0.CanvasPanelSlot_54
+[2019.03.20-03.59.26:161][815]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanelSlot /Game/UI/ShopScreen.shopScreen:WidgetTree.CanvasPanel_0.CanvasPanelSlot_54 or CanvasPanelSlot /Engine/Transient.World_15:shopScreen_C_3.WidgetTree_0.CanvasPanel_0.CanvasPanelSlot_54
+[2019.03.20-03.59.26:161][815]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanelSlot /Game/UI/ShopScreen.shopScreen:WidgetTree.CanvasPanel_0.CanvasPanelSlot_54 or CanvasPanelSlot /Engine/Transient.World_15:shopScreen_C_4.WidgetTree_0.CanvasPanel_0.CanvasPanelSlot_54
+[2019.03.20-03.59.26:161][815]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanelSlot /Game/UI/ShopScreen.shopScreen:WidgetTree.CanvasPanel_0.CanvasPanelSlot_54 or CanvasPanelSlot /Engine/Transient.World_15:shopScreen_C_5.WidgetTree_0.CanvasPanel_0.CanvasPanelSlot_54
+[2019.03.20-03.59.26:161][815]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanelSlot /Game/UI/ShopScreen.shopScreen:WidgetTree.CanvasPanel_0.CanvasPanelSlot_54 or CanvasPanelSlot /Engine/Transient.World_15:shopScreen_C_6.WidgetTree_0.CanvasPanel_0.CanvasPanelSlot_54
+[2019.03.20-03.59.26:161][815]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanelSlot /Game/UI/ShopScreen.shopScreen:WidgetTree.CanvasPanel_0.CanvasPanelSlot_54 or CanvasPanelSlot /Engine/Transient.World_15:shopScreen_C_7.WidgetTree_0.CanvasPanel_0.CanvasPanelSlot_54
+[2019.03.20-03.59.26:161][815]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanelSlot /Game/UI/ShopScreen.shopScreen:WidgetTree.CanvasPanel_0.CanvasPanelSlot_54 or CanvasPanelSlot /Engine/Transient.World_15:shopScreen_C_8.WidgetTree_0.CanvasPanel_0.CanvasPanelSlot_54
+[2019.03.20-03.59.26:161][815]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanelSlot /Game/UI/ShopScreen.shopScreen:WidgetTree.CanvasPanel_0.CanvasPanelSlot_54 or CanvasPanelSlot /Engine/Transient.World_15:shopScreen_C_9.WidgetTree_0.CanvasPanel_0.CanvasPanelSlot_54
+[2019.03.20-03.59.26:161][815]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanelSlot /Game/UI/ShopScreen.shopScreen:WidgetTree.CanvasPanel_0.CanvasPanelSlot_54 or CanvasPanelSlot /Engine/Transient.World_15:shopScreen_C_10.WidgetTree_0.CanvasPanel_0.CanvasPanelSlot_54
+[2019.03.20-03.59.26:161][815]LogProperty: Warning: Illegal TEXT reference to a private object in external package (CanvasPanelSlot /Game/UI/ShopScreen.shopScreen:WidgetTree.CanvasPanel_0.CanvasPanelSlot_54) from referencer (TextBlock /Engine/UMG/Editor/Transient.TextBlock_179).  Import failed...
+[2019.03.20-03.59.26:161][815]LogProperty: Warning: ObjectProperty /Script/UMG.Widget:Slot: unresolved reference to 'CanvasPanelSlot'"CanvasPanel_0.CanvasPanelSlot_54"''
+[2019.03.20-04.00.11:242][960]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UI/ShopScreen" FILE="C:/Users/gosus/Documents/CP-School/SeniorProject/gitRepos/Senior-Project-CPP-Game/Content/UI/ShopScreen.uasset" SILENT=true
+[2019.03.20-04.00.11:300][960]LogSavePackage: Moving 'C:/Users/gosus/Documents/CP-School/SeniorProject/gitRepos/Senior-Project-CPP-Game/Saved/ShopScreen8AFA1D344262C2BF4CCA0D8C466A895D.tmp' to 'C:/Users/gosus/Documents/CP-School/SeniorProject/gitRepos/Senior-Project-CPP-Game/Content/UI/ShopScreen.uasset'
+[2019.03.20-04.00.14:357][171]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.03.20-04.01.27:182][141]BlueprintLog: New page: Compile shopScreen
+[2019.03.20-04.01.28:020][202]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UI/ShopScreen" FILE="C:/Users/gosus/Documents/CP-School/SeniorProject/gitRepos/Senior-Project-CPP-Game/Content/UI/ShopScreen.uasset" SILENT=true
+[2019.03.20-04.01.28:062][202]LogSavePackage: Moving 'C:/Users/gosus/Documents/CP-School/SeniorProject/gitRepos/Senior-Project-CPP-Game/Saved/ShopScreen842526ED431B90D5A491D684C856348C.tmp' to 'C:/Users/gosus/Documents/CP-School/SeniorProject/gitRepos/Senior-Project-CPP-Game/Content/UI/ShopScreen.uasset'
+[2019.03.20-04.01.31:162][514]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.03.20-04.01.42:069][397]BlueprintLog: New page: Compile playerHud
+[2019.03.20-04.01.43:157][454]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UI/playerHud" FILE="C:/Users/gosus/Documents/CP-School/SeniorProject/gitRepos/Senior-Project-CPP-Game/Content/UI/playerHud.uasset" SILENT=true
+[2019.03.20-04.01.43:215][454]LogSavePackage: Moving 'C:/Users/gosus/Documents/CP-School/SeniorProject/gitRepos/Senior-Project-CPP-Game/Saved/playerHudBC65C1694403815557E5CAA6076322F1.tmp' to 'C:/Users/gosus/Documents/CP-School/SeniorProject/gitRepos/Senior-Project-CPP-Game/Content/UI/playerHud.uasset'
+[2019.03.20-04.01.44:679][558]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.03.20-04.02.07:743][946]LogBlueprint: Warning: [Compiler ] Pasted node  CustomEvent   conflicted with  On Clicked (B_Fireball)  and was replaced as a Custom Event!
+[2019.03.20-04.03.28:220][118]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UI/ShopScreen" FILE="C:/Users/gosus/Documents/CP-School/SeniorProject/gitRepos/Senior-Project-CPP-Game/Content/UI/ShopScreen.uasset" SILENT=true
+[2019.03.20-04.03.28:273][118]LogSavePackage: Moving 'C:/Users/gosus/Documents/CP-School/SeniorProject/gitRepos/Senior-Project-CPP-Game/Saved/ShopScreen64F025B340B4762341245AB92E2E85C9.tmp' to 'C:/Users/gosus/Documents/CP-School/SeniorProject/gitRepos/Senior-Project-CPP-Game/Content/UI/ShopScreen.uasset'
+[2019.03.20-04.03.30:831][360]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.03.20-04.03.54:863][867]BlueprintLog: New page: Compile shopScreen
+[2019.03.20-04.03.55:310][898]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UI/ShopScreen" FILE="C:/Users/gosus/Documents/CP-School/SeniorProject/gitRepos/Senior-Project-CPP-Game/Content/UI/ShopScreen.uasset" SILENT=true
+[2019.03.20-04.03.55:359][898]LogSavePackage: Moving 'C:/Users/gosus/Documents/CP-School/SeniorProject/gitRepos/Senior-Project-CPP-Game/Saved/ShopScreen891A44824D4A06B0821F82B62BE0C276.tmp' to 'C:/Users/gosus/Documents/CP-School/SeniorProject/gitRepos/Senior-Project-CPP-Game/Content/UI/ShopScreen.uasset'
+[2019.03.20-04.03.55:789][941]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.03.20-04.03.59:352][298]LogTemp: Repeating last play command: Selected Viewport
+[2019.03.20-04.03.59:396][298]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Levels/DemoTown.DemoTown:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/DemoTown.DemoTown:PersistentLevel.DemoTown' with GeneratedClass '/Game/Levels/DemoTown.DemoTown_C' with ClassGeneratedBy '/Game/Levels/DemoTown.DemoTown:PersistentLevel.DemoTown'
+[2019.03.20-04.03.59:397][298]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.03.20-04.03.59:397][298]PIE: New page: PIE session: DemoTown (Mar 19, 2019, 2:03:59 PM)
+[2019.03.20-04.03.59:397][298]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_DemoTown
+[2019.03.20-04.03.59:429][298]LogPlayLevel: PIE: StaticDuplicateObject took: (0.031837s)
+[2019.03.20-04.03.59:429][298]LogAIModule: Creating AISystem for world DemoTown
+[2019.03.20-04.03.59:429][298]LogPlayLevel: PIE: World Init took: (0.000624s)
+[2019.03.20-04.03.59:429][298]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/DemoTown.DemoTown to /Game/Levels/UEDPIE_0_DemoTown.DemoTown (0.032777s)
+[2019.03.20-04.03.59:504][298]LogInit: XAudio2 using 'Speakers (Realtek(R) Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.03.20-04.03.59:522][298]LogInit: FAudioDevice initialized.
+[2019.03.20-04.03.59:560][298]LogLoad: Game class is 'BP_HSPGameGameModeBase_C'
+[2019.03.20-04.03.59:570][298]LogWorld: Bringing World /Game/Levels/UEDPIE_0_DemoTown.DemoTown up for play (max tick rate 0) at 2019.03.19-21.03.59
+[2019.03.20-04.03.59:571][298]LogWorld: Bringing up level for play took: 0.008887
+[2019.03.20-04.03.59:592][298]PIE: Play in editor start time for /Game/Levels/UEDPIE_0_DemoTown 0.585
+[2019.03.20-04.03.59:593][298]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Levels/DemoTown.DemoTown:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/DemoTown.DemoTown:PersistentLevel.DemoTown' with GeneratedClass '/Game/Levels/DemoTown.DemoTown_C' with ClassGeneratedBy '/Game/Levels/DemoTown.DemoTown:PersistentLevel.DemoTown'
+[2019.03.20-04.04.05:387][852]LogNet: Browse: /Game/Levels/DemoBattlefield
+[2019.03.20-04.04.05:387][852]LogLoad: LoadMap: /Game/Levels/DemoBattlefield
+[2019.03.20-04.04.05:483][852]LogAIModule: Creating AISystem for world DemoBattlefield
+[2019.03.20-04.04.05:484][852]LogLoad: Game class is 'BP_HSPGameGameModeBase_C'
+[2019.03.20-04.04.05:489][852]LogWorld: Bringing World /Game/Levels/UEDPIE_0_DemoBattlefield.DemoBattlefield up for play (max tick rate 0) at 2019.03.19-21.04.05
+[2019.03.20-04.04.05:490][852]LogWorld: Bringing up level for play took: 0.005636
+[2019.03.20-04.04.05:494][852]LogLoad: Took 0.105806 seconds to LoadMap(/Game/Levels/DemoBattlefield)
+[2019.03.20-04.04.07:788][ 67]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.03.20-04.04.13:060][580]LogNet: Browse: /Game/Levels/DemoTown
+[2019.03.20-04.04.13:060][580]LogLoad: LoadMap: /Game/Levels/DemoTown
+[2019.03.20-04.04.13:093][580]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_DemoTown
+[2019.03.20-04.04.13:118][580]LogPlayLevel: PIE: StaticDuplicateObject took: (0.024946s)
+[2019.03.20-04.04.13:118][580]LogAIModule: Creating AISystem for world DemoTown
+[2019.03.20-04.04.13:119][580]LogPlayLevel: PIE: World Init took: (0.000524s)
+[2019.03.20-04.04.13:119][580]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/DemoTown.DemoTown to /Game/Levels/UEDPIE_0_DemoTown.DemoTown (0.025834s)
+[2019.03.20-04.04.13:119][580]LogLoad: Game class is 'BP_HSPGameGameModeBase_C'
+[2019.03.20-04.04.13:122][580]LogWorld: Bringing World /Game/Levels/UEDPIE_0_DemoTown.DemoTown up for play (max tick rate 0) at 2019.03.19-21.04.13
+[2019.03.20-04.04.13:123][580]LogWorld: Bringing up level for play took: 0.003527
+[2019.03.20-04.04.13:125][580]LogLoad: Took 0.065342 seconds to LoadMap(/Game/Levels/UEDPIE_0_DemoTown)
+[2019.03.20-04.04.24:760][709]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.03.20-04.04.25:706][800]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Levels/DemoTown.DemoTown:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/DemoTown.DemoTown:PersistentLevel.DemoTown' with GeneratedClass '/Game/Levels/DemoTown.DemoTown_C' with ClassGeneratedBy '/Game/Levels/DemoTown.DemoTown:PersistentLevel.DemoTown'
+[2019.03.20-04.04.25:706][800]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.03.20-04.04.25:745][800]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.03.20-04.04.25:746][800]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Levels/DemoTown.DemoTown:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/DemoTown.DemoTown:PersistentLevel.DemoTown' with GeneratedClass '/Game/Levels/DemoTown.DemoTown_C' with ClassGeneratedBy '/Game/Levels/DemoTown.DemoTown:PersistentLevel.DemoTown'
+[2019.03.20-04.04.25:818][800]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.03.20-04.04.25:848][801]LogPlayLevel: Display: Destroying online subsystem :Context_19
+[2019.03.20-04.05.01:032][223]BlueprintLog: New page: Compile shopScreen
+[2019.03.20-04.05.01:671][258]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UI/ShopScreen" FILE="C:/Users/gosus/Documents/CP-School/SeniorProject/gitRepos/Senior-Project-CPP-Game/Content/UI/ShopScreen.uasset" SILENT=true
+[2019.03.20-04.05.01:720][258]LogSavePackage: Moving 'C:/Users/gosus/Documents/CP-School/SeniorProject/gitRepos/Senior-Project-CPP-Game/Saved/ShopScreenCAF7A204440DDF61BC90E587FC3AA003.tmp' to 'C:/Users/gosus/Documents/CP-School/SeniorProject/gitRepos/Senior-Project-CPP-Game/Content/UI/ShopScreen.uasset'
+[2019.03.20-04.05.03:116][360]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.03.20-04.05.03:197][367]LogTemp: Repeating last play command: Selected Viewport
+[2019.03.20-04.05.03:241][367]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Levels/DemoTown.DemoTown:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/DemoTown.DemoTown:PersistentLevel.DemoTown' with GeneratedClass '/Game/Levels/DemoTown.DemoTown_C' with ClassGeneratedBy '/Game/Levels/DemoTown.DemoTown:PersistentLevel.DemoTown'
+[2019.03.20-04.05.03:241][367]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.03.20-04.05.03:241][367]PIE: New page: PIE session: DemoTown (Mar 19, 2019, 2:05:03 PM)
+[2019.03.20-04.05.03:241][367]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_DemoTown
+[2019.03.20-04.05.03:278][367]LogPlayLevel: PIE: StaticDuplicateObject took: (0.036237s)
+[2019.03.20-04.05.03:278][367]LogAIModule: Creating AISystem for world DemoTown
+[2019.03.20-04.05.03:279][367]LogPlayLevel: PIE: World Init took: (0.000661s)
+[2019.03.20-04.05.03:279][367]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/DemoTown.DemoTown to /Game/Levels/UEDPIE_0_DemoTown.DemoTown (0.037276s)
+[2019.03.20-04.05.03:359][367]LogInit: XAudio2 using 'Speakers (Realtek(R) Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.03.20-04.05.03:376][367]LogInit: FAudioDevice initialized.
+[2019.03.20-04.05.03:409][367]LogLoad: Game class is 'BP_HSPGameGameModeBase_C'
+[2019.03.20-04.05.03:413][367]LogWorld: Bringing World /Game/Levels/UEDPIE_0_DemoTown.DemoTown up for play (max tick rate 0) at 2019.03.19-21.05.03
+[2019.03.20-04.05.03:413][367]LogWorld: Bringing up level for play took: 0.003638
+[2019.03.20-04.05.03:431][367]PIE: Play in editor start time for /Game/Levels/UEDPIE_0_DemoTown 0.424
+[2019.03.20-04.05.03:432][367]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Levels/DemoTown.DemoTown:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/DemoTown.DemoTown:PersistentLevel.DemoTown' with GeneratedClass '/Game/Levels/DemoTown.DemoTown_C' with ClassGeneratedBy '/Game/Levels/DemoTown.DemoTown:PersistentLevel.DemoTown'
+[2019.03.20-04.05.09:015][790]LogNet: Browse: /Game/Levels/DemoBattlefield
+[2019.03.20-04.05.09:016][790]LogLoad: LoadMap: /Game/Levels/DemoBattlefield
+[2019.03.20-04.05.09:108][790]LogAIModule: Creating AISystem for world DemoBattlefield
+[2019.03.20-04.05.09:108][790]LogLoad: Game class is 'BP_HSPGameGameModeBase_C'
+[2019.03.20-04.05.09:113][790]LogWorld: Bringing World /Game/Levels/UEDPIE_0_DemoBattlefield.DemoBattlefield up for play (max tick rate 0) at 2019.03.19-21.05.09
+[2019.03.20-04.05.09:114][790]LogWorld: Bringing up level for play took: 0.005539
+[2019.03.20-04.05.09:118][790]LogLoad: Took 0.103085 seconds to LoadMap(/Game/Levels/DemoBattlefield)
+[2019.03.20-04.05.09:725][828]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.03.20-04.05.14:965][230]LogNet: Browse: /Game/Levels/DemoTown
+[2019.03.20-04.05.14:965][230]LogLoad: LoadMap: /Game/Levels/DemoTown
+[2019.03.20-04.05.15:002][230]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_DemoTown
+[2019.03.20-04.05.15:028][230]LogPlayLevel: PIE: StaticDuplicateObject took: (0.026040s)
+[2019.03.20-04.05.15:028][230]LogAIModule: Creating AISystem for world DemoTown
+[2019.03.20-04.05.15:029][230]LogPlayLevel: PIE: World Init took: (0.000512s)
+[2019.03.20-04.05.15:029][230]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/DemoTown.DemoTown to /Game/Levels/UEDPIE_0_DemoTown.DemoTown (0.026910s)
+[2019.03.20-04.05.15:029][230]LogLoad: Game class is 'BP_HSPGameGameModeBase_C'
+[2019.03.20-04.05.15:032][230]LogWorld: Bringing World /Game/Levels/UEDPIE_0_DemoTown.DemoTown up for play (max tick rate 0) at 2019.03.19-21.05.15
+[2019.03.20-04.05.15:033][230]LogWorld: Bringing up level for play took: 0.003649
+[2019.03.20-04.05.15:035][230]LogLoad: Took 0.070266 seconds to LoadMap(/Game/Levels/UEDPIE_0_DemoTown)
+[2019.03.20-04.05.18:152][468]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.03.20-04.05.26:125][ 93]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.03.20-04.05.31:862][537]LogNet: Browse: /Game/Levels/DemoBattlefield
+[2019.03.20-04.05.31:862][537]LogLoad: LoadMap: /Game/Levels/DemoBattlefield
+[2019.03.20-04.05.31:955][537]LogAIModule: Creating AISystem for world DemoBattlefield
+[2019.03.20-04.05.31:955][537]LogLoad: Game class is 'BP_HSPGameGameModeBase_C'
+[2019.03.20-04.05.31:961][537]LogWorld: Bringing World /Game/Levels/UEDPIE_0_DemoBattlefield.DemoBattlefield up for play (max tick rate 0) at 2019.03.19-21.05.31
+[2019.03.20-04.05.31:962][537]LogWorld: Bringing up level for play took: 0.006000
+[2019.03.20-04.05.31:966][537]LogLoad: Took 0.103983 seconds to LoadMap(/Game/Levels/DemoBattlefield)
+[2019.03.20-04.05.33:869][678]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.03.20-04.05.53:800][218]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.03.20-04.05.53:826][220]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Levels/DemoTown.DemoTown:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/DemoTown.DemoTown:PersistentLevel.DemoTown' with GeneratedClass '/Game/Levels/DemoTown.DemoTown_C' with ClassGeneratedBy '/Game/Levels/DemoTown.DemoTown:PersistentLevel.DemoTown'
+[2019.03.20-04.05.53:826][220]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.03.20-04.05.53:867][220]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.03.20-04.05.53:868][220]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Levels/DemoTown.DemoTown:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/DemoTown.DemoTown:PersistentLevel.DemoTown' with GeneratedClass '/Game/Levels/DemoTown.DemoTown_C' with ClassGeneratedBy '/Game/Levels/DemoTown.DemoTown:PersistentLevel.DemoTown'
+[2019.03.20-04.05.53:904][220]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.03.20-04.05.53:938][221]LogPlayLevel: Display: Destroying online subsystem :Context_20
+[2019.03.20-04.06.07:962][281]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.03.20-04.07.26:352][523]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Levels/DemoTown' took 0.042
+[2019.03.20-04.07.47:753][571]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.03.20-04.09.39:179][256]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.03.20-04.24.57:737][949]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
+[2019.03.20-04.25.12:592][677]LogEditorTransaction: Undo Delete current selection
+[2019.03.20-04.25.13:633][772]LogEditorTransaction: Undo Change Class Pin Value
+[2019.03.20-04.25.14:232][827]LogEditorTransaction: Undo Add Node
+[2019.03.20-04.25.14:499][845]LogEditorTransaction: Undo Edit ZOrder
+[2019.03.20-04.25.15:776][983]LogEditorTransaction: Undo Edit ZOrder
+[2019.03.20-04.25.18:045][220]LogSavePackage: Moving 'C:/Users/gosus/Documents/CP-School/SeniorProject/gitRepos/Senior-Project-CPP-Game/Saved/BP_LightningBolt53A994B543DE44F41D4F7F945FA8CD66.tmp' to 'C:/Users/gosus/Documents/CP-School/SeniorProject/gitRepos/Senior-Project-CPP-Game/Content/Blueprints/Attacks/BP_LightningBolt.uasset'
+[2019.03.20-04.25.18:288][243]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.03.20-04.25.18:348][250]BlueprintLog: New page: Compile BP_LightningBolt
+[2019.03.20-04.27.19:848][ 94]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.03.20-04.27.19:923][102]Candidate modules for hot reload:
+[2019.03.20-04.27.19:923][102]  HSPGame
+[2019.03.20-04.27.19:924][102]Launching UnrealBuildTool... [G:/Games/Epic/Games/UE_4.21/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=HSPGame,538 Win64 Development -TargetType=Editor -Project="C:/Users/gosus/Documents/CP-School/SeniorProject/gitRepos/Senior-Project-CPP-Game/HSPGame.uproject" -canskiplink "C:/Users/gosus/Documents/CP-School/SeniorProject/gitRepos/Senior-Project-CPP-Game/HSPGame.uproject" ]
+[2019.03.20-04.27.19:933][102]Warning: Starting HotReload took  0.0s.
+[2019.03.20-04.27.26:850][918]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Levels/DemoTown' took 0.036
+[2019.03.20-04.27.26:853][918]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/UI/ShopScreen] ([1] browsable assets)...
+[2019.03.20-04.27.26:853][918]OBJ SavePackage: Finished generating thumbnails for package [/Game/UI/ShopScreen]
+[2019.03.20-04.27.26:923][918]LogSavePackage: Moving 'C:/Users/gosus/Documents/CP-School/SeniorProject/gitRepos/Senior-Project-CPP-Game/Saved/ShopScreen_Auto2D3B3C099490C28906F64FE9874ABFC31.tmp' to 'C:/Users/gosus/Documents/CP-School/SeniorProject/gitRepos/Senior-Project-CPP-Game/Saved/Autosaves/Game/UI/ShopScreen_Auto2.uasset'
+[2019.03.20-04.27.26:925][918]LogFileHelpers: Auto-saving content packages took 0.073
+[2019.03.20-04.27.26:939][919]CompilerResultsLog: New page: Compilation - Mar 19, 2019, 2:27:26 PM
+[2019.03.20-04.27.26:939][919]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (C:\Users\gosus\Documents\CP-School\SeniorProject\gitRepos\Senior-Project-CPP-Game).
+[2019.03.20-04.27.26:939][919]CompilerResultsLog: Creating makefile for hot reloading HSPGameEditor (source directory changed)
+[2019.03.20-04.27.26:939][919]CompilerResultsLog: Compiling game modules for hot reload
+[2019.03.20-04.27.26:939][919]CompilerResultsLog: Using Visual Studio 2017 14.16.27023 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023) and Windows 10.0.17763.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2019.03.20-04.27.26:939][919]CompilerResultsLog: Building 3 actions with 8 processes...
+[2019.03.20-04.27.26:939][919]CompilerResultsLog:   [1/3] ProtagClass.cpp
+[2019.03.20-04.27.26:940][919]CompilerResultsLog:   [2/3] UE4Editor-HSPGame-538.lib
+[2019.03.20-04.27.26:940][919]CompilerResultsLog:      Creating library C:\Users\gosus\Documents\CP-School\SeniorProject\gitRepos\Senior-Project-CPP-Game\Intermediate\Build\Win64\UE4Editor\Development\HSPGame\UE4Editor-HSPGame-538.lib and object C:\Users\gosus\Documents\CP-School\SeniorProject\gitRepos\Senior-Project-CPP-Game\Intermediate\Build\Win64\UE4Editor\Development\HSPGame\UE4Editor-HSPGame-538.exp
+[2019.03.20-04.27.26:940][919]CompilerResultsLog:   [3/3] UE4Editor-HSPGame-538.dll
+[2019.03.20-04.27.26:940][919]CompilerResultsLog:      Creating library C:\Users\gosus\Documents\CP-School\SeniorProject\gitRepos\Senior-Project-CPP-Game\Intermediate\Build\Win64\UE4Editor\Development\HSPGame\UE4Editor-HSPGame-538.suppressed.lib and object C:\Users\gosus\Documents\CP-School\SeniorProject\gitRepos\Senior-Project-CPP-Game\Intermediate\Build\Win64\UE4Editor\Development\HSPGame\UE4Editor-HSPGame-538.suppressed.exp
+[2019.03.20-04.27.26:940][919]CompilerResultsLog: Total build time: 6.74 seconds (Parallel executor: 2.86 seconds)
+[2019.03.20-04.27.26:940][919]LogMainFrame: MainFrame: Module compiling took 7.019 seconds
+[2019.03.20-04.27.27:017][919]LogContentBrowser: Native class hierarchy updated for 'HSPGame' in 0.0003 seconds. Added 8 classes and 2 folders.
+[2019.03.20-04.27.27:021][919]Display: HotReload successful (11 functions remapped  0 scriptstructs remapped)
+[2019.03.20-04.27.27:285][919]LogContentBrowser: Native class hierarchy populated in 0.0065 seconds. Added 2662 classes and 626 folders.
+[2019.03.20-04.27.27:290][919]Display: HotReload took  7.4s.
+[2019.03.20-04.27.28:207][ 26]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.03.20-04.27.28:290][ 36]LogTemp: Repeating last play command: Selected Viewport
+[2019.03.20-04.27.28:328][ 36]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Levels/DemoTown.DemoTown:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/DemoTown.DemoTown:PersistentLevel.DemoTown' with GeneratedClass '/Game/Levels/DemoTown.DemoTown_C' with ClassGeneratedBy '/Game/Levels/DemoTown.DemoTown:PersistentLevel.DemoTown'
+[2019.03.20-04.27.28:328][ 36]BlueprintLog: New page: Pre-Play auto-recompile
+[2019.03.20-04.27.28:340][ 36]LogPlayLevel: [PlayLevel] Compiling shopScreen before play...
+[2019.03.20-04.27.28:551][ 36]LogPlayLevel: PlayLevel: Blueprint regeneration took 221 ms (1 blueprints)
+[2019.03.20-04.27.28:551][ 36]PIE: New page: PIE session: DemoTown (Mar 19, 2019, 2:27:28 PM)
+[2019.03.20-04.27.28:551][ 36]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_DemoTown
+[2019.03.20-04.27.28:577][ 36]LogPlayLevel: PIE: StaticDuplicateObject took: (0.025926s)
+[2019.03.20-04.27.28:578][ 36]LogAIModule: Creating AISystem for world DemoTown
+[2019.03.20-04.27.28:578][ 36]LogPlayLevel: PIE: World Init took: (0.000620s)
+[2019.03.20-04.27.28:578][ 36]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/DemoTown.DemoTown to /Game/Levels/UEDPIE_0_DemoTown.DemoTown (0.026882s)
+[2019.03.20-04.27.28:658][ 36]LogInit: XAudio2 using 'Speakers (Realtek(R) Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.03.20-04.27.28:674][ 36]LogInit: FAudioDevice initialized.
+[2019.03.20-04.27.28:710][ 36]LogLoad: Game class is 'BP_HSPGameGameModeBase_C'
+[2019.03.20-04.27.28:718][ 36]LogWorld: Bringing World /Game/Levels/UEDPIE_0_DemoTown.DemoTown up for play (max tick rate 0) at 2019.03.19-21.27.28
+[2019.03.20-04.27.28:720][ 36]LogWorld: Bringing up level for play took: 0.008674
+[2019.03.20-04.27.28:741][ 36]PIE: Play in editor start time for /Game/Levels/UEDPIE_0_DemoTown -0.266
+[2019.03.20-04.27.28:741][ 36]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Levels/DemoTown.DemoTown:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/DemoTown.DemoTown:PersistentLevel.DemoTown' with GeneratedClass '/Game/Levels/DemoTown.DemoTown_C' with ClassGeneratedBy '/Game/Levels/DemoTown.DemoTown:PersistentLevel.DemoTown'
+[2019.03.20-04.27.34:441][703]LogNet: Browse: /Game/Levels/DemoBattlefield
+[2019.03.20-04.27.34:442][703]LogLoad: LoadMap: /Game/Levels/DemoBattlefield
+[2019.03.20-04.27.34:539][703]LogAIModule: Creating AISystem for world DemoBattlefield
+[2019.03.20-04.27.34:539][703]LogLoad: Game class is 'BP_HSPGameGameModeBase_C'
+[2019.03.20-04.27.34:545][703]LogWorld: Bringing World /Game/Levels/UEDPIE_0_DemoBattlefield.DemoBattlefield up for play (max tick rate 0) at 2019.03.19-21.27.34
+[2019.03.20-04.27.34:546][703]LogWorld: Bringing up level for play took: 0.005564
+[2019.03.20-04.27.34:549][703]LogLoad: Took 0.107373 seconds to LoadMap(/Game/Levels/DemoBattlefield)
+[2019.03.20-04.27.36:004][876]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.03.20-04.27.41:471][528]LogNet: Browse: /Game/Levels/DemoTown
+[2019.03.20-04.27.41:471][528]LogLoad: LoadMap: /Game/Levels/DemoTown
+[2019.03.20-04.27.41:509][528]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_DemoTown
+[2019.03.20-04.27.41:535][528]LogPlayLevel: PIE: StaticDuplicateObject took: (0.025336s)
+[2019.03.20-04.27.41:535][528]LogAIModule: Creating AISystem for world DemoTown
+[2019.03.20-04.27.41:536][528]LogPlayLevel: PIE: World Init took: (0.000517s)
+[2019.03.20-04.27.41:536][528]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/DemoTown.DemoTown to /Game/Levels/UEDPIE_0_DemoTown.DemoTown (0.026254s)
+[2019.03.20-04.27.41:536][528]LogLoad: Game class is 'BP_HSPGameGameModeBase_C'
+[2019.03.20-04.27.41:539][528]LogWorld: Bringing World /Game/Levels/UEDPIE_0_DemoTown.DemoTown up for play (max tick rate 0) at 2019.03.19-21.27.41
+[2019.03.20-04.27.41:540][528]LogWorld: Bringing up level for play took: 0.003555
+[2019.03.20-04.27.41:542][528]LogLoad: Took 0.071099 seconds to LoadMap(/Game/Levels/UEDPIE_0_DemoTown)
+[2019.03.20-04.27.48:980][419]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.03.20-04.27.55:175][783]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Levels/DemoTown.DemoTown:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/DemoTown.DemoTown:PersistentLevel.DemoTown' with GeneratedClass '/Game/Levels/DemoTown.DemoTown_C' with ClassGeneratedBy '/Game/Levels/DemoTown.DemoTown:PersistentLevel.DemoTown'
+[2019.03.20-04.27.55:176][783]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.03.20-04.27.55:211][783]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.03.20-04.27.55:212][783]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Levels/DemoTown.DemoTown:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/DemoTown.DemoTown:PersistentLevel.DemoTown' with GeneratedClass '/Game/Levels/DemoTown.DemoTown_C' with ClassGeneratedBy '/Game/Levels/DemoTown.DemoTown:PersistentLevel.DemoTown'
+[2019.03.20-04.27.55:249][783]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.03.20-04.27.55:279][784]LogPlayLevel: Display: Destroying online subsystem :Context_21

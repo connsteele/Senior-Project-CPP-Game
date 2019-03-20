@@ -131,7 +131,8 @@ void AProtagClass::cursorClick()
 		FVector atkSpawnLoc;
 		FRotator atkSpawnRot;
 
-		// Set the attack to spawn
+
+		// Set the attack to spawn (These are set in the graph of the PlayerHud by the UI buttons)
 		if ( currentAttack == FString(TEXT("Darkwhirl")) && magicAttack)
 		{
 			atkToSpawn = magicAttack;
@@ -145,6 +146,12 @@ void AProtagClass::cursorClick()
 			atkToSpawn = atk_fireball;
 			atkSpawnLoc = GetActorLocation();
 			atkSpawnRot = (CursorClickLoc - atkSpawnLoc).Rotation();
+		}
+		else if (currentAttack == FString(TEXT("LightningBolt")) && atk_LightningBolt)
+		{
+			atkToSpawn = atk_LightningBolt;
+			atkSpawnLoc = FVector(CursorClickLoc.X, CursorClickLoc.Y, CursorClickLoc.Z);
+			atkSpawnRot = GetActorRotation();
 		}
 		
 		// If an attack is selected and the player has enough ap spawn it
