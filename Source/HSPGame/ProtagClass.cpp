@@ -137,7 +137,7 @@ void AProtagClass::cursorClick()
 		{
 			atkToSpawn = magicAttack;
 			// Move the attack location slightly off the ground
-			atkSpawnLoc = FVector(CursorClickLoc.X, CursorClickLoc.Y, CursorClickLoc.Z + 15.f);
+			atkSpawnLoc = FVector(CursorClickLoc.X, CursorClickLoc.Y, CursorClickLoc.Z);
 			atkSpawnRot = GetActorRotation();
 			
 		}

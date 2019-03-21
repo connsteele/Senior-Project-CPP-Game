@@ -21,13 +21,6 @@ public:
 	UPROPERTY(BlueprintReadWrite, EditAnywhere)
 		USphereComponent * atkHitBox;
 
-	UPROPERTY(BlueprintReadWrite, EditAnywhere)
-		float radiusDarkWhirl = 50.0f;
-	UPROPERTY(BlueprintReadWrite, EditAnywhere)
-		float radiusFireBall = 32.0f;
-	UPROPERTY(BlueprintReadWrite, EditAnywhere)
-		float radiusLightningBolt = 20.0f;
-
 	UPROPERTY(EditAnywhere)
 		float atkDamage; // How much the attack does to health on hit
 	UPROPERTY(EditAnywhere)
