@@ -89,6 +89,12 @@ void AProtagClass::Tick(float DeltaTime)
 {
 	Super::Tick(DeltaTime);
 
+	// Check to see if turnAP is greater than maxAP
+	if (turnAP > maxTurnAP)
+	{
+		turnAP = maxTurnAP;
+	}
+
 }
 
 // Called to bind functionality to input
