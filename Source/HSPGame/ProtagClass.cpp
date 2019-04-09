@@ -1,7 +1,8 @@
 // Fill out your copyright notice in the Description page of Project Settings.
 
 #include "ProtagClass.h"
-#include "ArmsDealerClass.h"
+#include "ArmsDealerClass.h" // Forward Decleration to avoid compile dependency issues
+#include "ScientistClass.h"
 #include "GameFramework/FloatingPawnMovement.h"
 
 // On Class Construction
@@ -324,9 +325,9 @@ void AProtagClass::Talk()
 	TArray<AActor *> foundMerchants;
 	UGameplayStatics::GetAllActorsOfClass(GetWorld(), AArmsDealerClass::StaticClass() , foundMerchants);
 
+	// Look for merchants
 	for (AActor* TActor : foundMerchants)
 	{
-		
 		AArmsDealerClass * dealer = (Cast<AArmsDealerClass>(TActor));
 		if (dealer != NULL)
 		{
@@ -335,6 +336,24 @@ void AProtagClass::Talk()
 				D("Talked with Merchant");
 			}
 			D("Found a Merch");
+			//return;
+		}
+	}
+
+	// Otherwise look for scientists
+	TArray<AActor *> foundScientists;
+	UGameplayStatics::GetAllActorsOfClass(GetWorld(), AScientistClass::StaticClass(), foundScientists);
+	for (AActor* TActor : foundScientists)
+	{
+		AScientistClass * scientist = (Cast<AScientistClass>(TActor));
+		if (scientist != NULL)
+		{
+			if (scientist->canTalk == true)
+			{
+				D("Talked with Scientist");
+			}
+			D("Found a Scientist");
+			//return;
 		}
 	}
 	
