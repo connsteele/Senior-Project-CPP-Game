@@ -60,6 +60,7 @@ void AProtagClass::BeginPlay()
 	maxHealth = 100.f;
 	currHealth = 100.f;
 	maxTurnAP = 300.f;
+	exMaxTurnAP = 1000.f;
 	turnAP = 300.f;
 	attackCost = 20.f;
 	distanceToAP = 6.f; // Used as divisor to turn the length of distance moved into AP

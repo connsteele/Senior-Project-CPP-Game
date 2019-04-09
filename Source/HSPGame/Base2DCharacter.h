@@ -60,8 +60,10 @@ public:
 		float maxHealth;
 	UPROPERTY(BlueprintReadOnly)
 		float turnAP;
-	UPROPERTY(BlueprintReadOnly)
+	UPROPERTY(BlueprintReadWrite, EditAnywhere)
 		float maxTurnAP;
+	UPROPERTY(BlueprintReadWrite, EditAnywhere)
+		float exMaxTurnAP;
 	UPROPERTY(BlueprintReadOnly)
 		float healthPercentage;
 	UPROPERTY(BlueprintReadOnly)
