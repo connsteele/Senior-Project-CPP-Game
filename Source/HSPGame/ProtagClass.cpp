@@ -48,6 +48,8 @@ void AProtagClass::BeginPlay()
 		PC->bEnableClickEvents = true;
 		PC->bEnableMouseOverEvents = true;
 	}
+	//--- Get reference to game instance to set variables that change between scenes
+	UHSPGameInstance* HGI = Cast<UHSPGameInstance>(GetGameInstance());
 
 	//--- Set Up Dynamic Functions
 	GetCapsuleComponent()->OnComponentHit.RemoveDynamic(this, &AProtagClass::charHit);
@@ -60,9 +62,9 @@ void AProtagClass::BeginPlay()
 	//--- Stat Related Variable Initialization
 	maxHealth = 100.f;
 	currHealth = 100.f;
-	maxTurnAP = 300.f;
+	maxTurnAP = HGI->maxTurnAP; //This value changes between scenes so we reference the game instance
 	exMaxTurnAP = 1000.f;
-	turnAP = 300.f;
+	turnAP = maxTurnAP;
 	attackCost = 20.f;
 	distanceToAP = 6.f; // Used as divisor to turn the length of distance moved into AP
 	isMoveable = true; // Allow actor to move

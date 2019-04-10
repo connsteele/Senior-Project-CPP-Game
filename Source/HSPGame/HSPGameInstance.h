@@ -19,7 +19,9 @@ public:
 	//Keep track of player exp between levels
 	UPROPERTY(BlueprintReadWrite)
 		float playerEXP;
-
+	//Keep track of Player AP set by slider
+	UPROPERTY(BlueprintReadWrite)
+		float maxTurnAP = 300.f;
 	//Bools for skills
 	UPROPERTY(BlueprintReadWrite)
 		bool isCastableFB = false; //fireball
