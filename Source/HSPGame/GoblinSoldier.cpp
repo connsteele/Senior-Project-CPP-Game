@@ -50,7 +50,7 @@ void AGoblinSoldier::endTurn()
 
 void AGoblinSoldier::startTurn()
 {
-	D("Slime Turn Start");
+	D("Goblin Turn Start");
 	isTurn = true;
 	// isBattling = true;
 	turnAP = maxTurnAP; // Reset AP for new turn
