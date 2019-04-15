@@ -123,7 +123,7 @@ void ABase2DCharacter::die()
 	// Give XP to the player
 
 	// Change the sprite to the death 
-	GetSprite()->SetFlipbook(deathAnim);
+	//GetSprite()->SetFlipbook(deathAnim);
 
 
 	//UWidgetLayoutLibrary::RemoveAllWidgets(this);
