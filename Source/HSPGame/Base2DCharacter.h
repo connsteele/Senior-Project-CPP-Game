@@ -50,8 +50,8 @@ public:
 	
 	// Combat Stat Related Variables
 	bool isMoveable; // Movement Boolean
-	UPROPERTY(BlueprintReadOnly)
-		float isMoving; // Used in bp animation state machine, set when movement happens in blueprint
+	UPROPERTY(BlueprintReadWrite, EditAnywhere)
+		bool isMoving; // Used in bp animation state machine, set when movement happens in blueprint
 	UPROPERTY(BlueprintReadWrite)
 		bool isTurn;
 	float attackCost; // Basic Attack AP cost
