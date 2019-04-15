@@ -7,6 +7,7 @@
 AEnemyClass::AEnemyClass() : ABase2DCharacter()
 {
 	pawnSensing = CreateDefaultSubobject<UPawnSensingComponent>("pawnSensing");
+	
 	// Set default enemy vision radius
 	visionSphere->SetSphereRadius(200.f);
 }

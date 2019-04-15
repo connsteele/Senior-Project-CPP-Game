@@ -6,6 +6,7 @@
 //#include "GameFramework/Character.h"
 #include "Base2DCharacter.h"
 #include "Perception/PawnSensingComponent.h"
+#include "Components/WidgetComponent.h"
 #include "Kismet/GameplayStatics.h"
 #include "EnemyClass.generated.h"
 
