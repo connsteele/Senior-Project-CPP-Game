@@ -56,11 +56,11 @@ public:
 		bool isTurn;
 	float attackCost; // Basic Attack AP cost
 	float distanceToAP; // Used as divisor to turn the length of distance moved into AP
-	UPROPERTY(BlueprintReadOnly)
+	UPROPERTY(BlueprintReadWrite, EditAnywhere)
 		float currHealth;
 	UPROPERTY(BlueprintReadOnly)
 		float maxHealth;
-	UPROPERTY(BlueprintReadOnly)
+	UPROPERTY(BlueprintReadWrite, EditAnywhere)
 		float turnAP;
 	UPROPERTY(BlueprintReadWrite, EditAnywhere)
 		float maxTurnAP;
@@ -104,6 +104,8 @@ public:
 	void moveRight();
 	void moveForward();
 	virtual void die();
+
+	UFUNCTION(BlueprintCallable)
 	virtual void endTurn();
 	virtual void startTurn();
 	//friend class ProtagClass; //Let protag class can direcly acces this classes vars
