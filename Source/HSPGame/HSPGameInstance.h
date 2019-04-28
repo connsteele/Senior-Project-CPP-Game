@@ -22,6 +22,11 @@ public:
 	//Keep track of Player AP set by slider
 	UPROPERTY(BlueprintReadWrite)
 		float maxTurnAP = 300.f;
+
+	//Keep track of ranged attack base damage set by slider
+	UPROPERTY(BlueprintReadWrite)
+		float rangedEnemyDamage = 1.0f;
+
 	//Bools for skills
 	UPROPERTY(BlueprintReadWrite)
 		bool isCastableFB = false; //fireball
