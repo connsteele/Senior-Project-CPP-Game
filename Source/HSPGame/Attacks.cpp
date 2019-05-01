@@ -14,7 +14,7 @@ AAttacks::AAttacks()
 	// Set up a spherical hit box and set it as the root component
 	atkHitBox = CreateDefaultSubobject<USphereComponent>("Atk Hit Box");
 	RootComponent = atkHitBox;
-
+	baseAtkDmg = 10.0f;
 }
 
 // Called when the game starts or when spawned
@@ -27,6 +27,8 @@ void AAttacks::BeginPlay()
 	atkHitBox->OnComponentBeginOverlap.AddDynamic(this, &AAttacks::hitCharacter);
 	atkHitBox->SetGenerateOverlapEvents(true); // Generate overlap events
 	atkHitBox->SetNotifyRigidBodyCollision(true);
+
+	//baseAtkDmg = 10.0f;
 }
 
 void AAttacks::hitCharacter(UPrimitiveComponent * OverlappedComponent, AActor * OtherActor, UPrimitiveComponent * OtherComp, int32 OtherBodyIndex, bool bFromSweep, const FHitResult & SweepResult)
@@ -37,7 +39,7 @@ void AAttacks::hitCharacter(UPrimitiveComponent * OverlappedComponent, AActor * 
 	{
 		D("Attack hit an enemy");
 		AEnemyClass * enemRef = Cast<AEnemyClass>(OtherActor);
-		enemRef->takeDmg(atkDamage);
+		enemRef->takeDmg(baseAtkDmg * atkMultiplier);
 	}
 }
 

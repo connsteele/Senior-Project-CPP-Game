@@ -29,7 +29,9 @@ public:
 		float radiusLightningBolt = 20.0f;
 
 	UPROPERTY(EditAnywhere)
-		float atkDamage; // How much the attack does to health on hit
+		float baseAtkDmg; // Base Damage, doesnt change between attack but player can change it
+	UPROPERTY(EditAnywhere)
+		float atkMultiplier; // Is multiplied by base damage for total damage to enemy, is changed between attacks and is unchangable by the player
 	UPROPERTY(EditAnywhere)
 		float apCost; // How much the attack costs to use
 
