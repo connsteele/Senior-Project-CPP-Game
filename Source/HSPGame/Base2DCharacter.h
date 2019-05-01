@@ -55,7 +55,8 @@ public:
 	UPROPERTY(BlueprintReadWrite)
 		bool isTurn;
 	float attackCost; // Basic Attack AP cost
-	float distanceToAP; // Used as divisor to turn the length of distance moved into AP
+	UPROPERTY(BlueprintReadWrite, EditAnywhere)
+		float distanceToAP; // Used as divisor to turn the length of distance moved into AP
 	UPROPERTY(BlueprintReadWrite, EditAnywhere)
 		float currHealth;
 	UPROPERTY(BlueprintReadOnly)

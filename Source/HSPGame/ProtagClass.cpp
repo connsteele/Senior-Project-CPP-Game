@@ -66,7 +66,7 @@ void AProtagClass::BeginPlay()
 	exMaxTurnAP = 1000.f;
 	turnAP = maxTurnAP;
 	attackCost = 20.f;
-	distanceToAP = 6.f; // Used as divisor to turn the length of distance moved into AP
+	distanceToAP = 10.f; // Used as divisor to turn the length of distance moved into AP
 	isMoveable = true; // Allow actor to move
 	isHorzMoving = false; // Used for horizontal animation
 	isVertMoving = false; // Used for vertical animation
