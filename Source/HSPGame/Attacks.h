@@ -6,6 +6,7 @@
 #include "GameFramework/Actor.h"
 #include "Components/SphereComponent.h"
 #include "Components/CapsuleComponent.h"
+#include "HSPGameInstance.h"
 // No Includes beneath here
 #include "Attacks.generated.h"
 
@@ -28,8 +29,8 @@ public:
 	UPROPERTY(BlueprintReadWrite, EditAnywhere)
 		float radiusLightningBolt = 20.0f;
 
-	UPROPERTY(EditAnywhere)
-		float baseAtkDmg; // Base Damage, doesnt change between attack but player can change it
+	//UPROPERTY(EditAnywhere)
+	//	float baseAtkDmg; // Base Damage, doesnt change between attack but player can change it
 	UPROPERTY(EditAnywhere)
 		float atkMultiplier; // Is multiplied by base damage for total damage to enemy, is changed between attacks and is unchangable by the player
 	UPROPERTY(EditAnywhere)

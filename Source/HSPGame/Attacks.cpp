@@ -14,7 +14,7 @@ AAttacks::AAttacks()
 	// Set up a spherical hit box and set it as the root component
 	atkHitBox = CreateDefaultSubobject<USphereComponent>("Atk Hit Box");
 	RootComponent = atkHitBox;
-	baseAtkDmg = 10.0f;
+	// baseAtkDmg = 10.0f;
 }
 
 // Called when the game starts or when spawned
@@ -39,7 +39,8 @@ void AAttacks::hitCharacter(UPrimitiveComponent * OverlappedComponent, AActor * 
 	{
 		D("Attack hit an enemy");
 		AEnemyClass * enemRef = Cast<AEnemyClass>(OtherActor);
-		enemRef->takeDmg(baseAtkDmg * atkMultiplier);
+		UHSPGameInstance* HGI = Cast<UHSPGameInstance>(GetGameInstance());
+		enemRef->takeDmg((HGI->playerBaseDMG) * atkMultiplier);
 	}
 }
 

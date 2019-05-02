@@ -27,6 +27,14 @@ public:
 	UPROPERTY(BlueprintReadWrite)
 		float rangedEnemyDamage = 1.0f;
 
+	//-- Base Damage for player, can be changed by talking to the scientist
+	UPROPERTY(BlueprintReadWrite)
+		float playerBaseDMG = 5.0f;
+
+	//-- Max Possible Base Damage for player, limit for player customization
+	UPROPERTY(BlueprintReadWrite)
+		float EXplayerBaseDMG = 20.0f;
+
 	//Bools for skills
 	UPROPERTY(BlueprintReadWrite)
 		bool isCastableFB = false; //fireball

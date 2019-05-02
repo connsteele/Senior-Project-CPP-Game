@@ -1,0 +1,1427 @@
+﻿Log file open, 05/01/19 23:52:39
+LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
+LogWindows: File 'aqProf.dll' does not exist
+LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi.dll' does not exist
+LogWindows: Failed to load 'VtuneApi32e.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi32e.dll' does not exist
+LogConsoleResponse: Display: Failed to find resolution value strings in scalability ini. Falling back to default.
+LogInit: Display: Running engine for game: HSPGame
+LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+LogPlatformFile: Not using cached read wrapper
+LogTaskGraph: Started task graph with 5 named threads and 23 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 0.400659
+LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
+LogICUInternationalization: ICU TimeZone Detection - Raw Offset: -8:00, Platform Override: ''
+LogPluginManager: Mounting plugin Paper2D
+LogPluginManager: Mounting plugin AISupport
+LogPluginManager: Mounting plugin LightPropagationVolume
+LogPluginManager: Mounting plugin ActorLayerUtilities
+LogPluginManager: Mounting plugin CLionSourceCodeAccess
+LogPluginManager: Mounting plugin CodeLiteSourceCodeAccess
+LogPluginManager: Mounting plugin GitSourceControl
+LogPluginManager: Mounting plugin KDevelopSourceCodeAccess
+LogPluginManager: Mounting plugin NullSourceCodeAccess
+LogPluginManager: Mounting plugin PerforceSourceControl
+LogPluginManager: Mounting plugin SubversionSourceControl
+LogPluginManager: Mounting plugin UObjectPlugin
+LogPluginManager: Mounting plugin VisualStudioCodeSourceCodeAccess
+LogPluginManager: Mounting plugin VisualStudioSourceCodeAccess
+LogPluginManager: Mounting plugin XCodeSourceCodeAccess
+LogPluginManager: Mounting plugin AssetManagerEditor
+LogPluginManager: Mounting plugin CryptoKeys
+LogPluginManager: Mounting plugin DataValidation
+LogPluginManager: Mounting plugin FacialAnimation
+LogPluginManager: Mounting plugin GameplayTagsEditor
+LogPluginManager: Mounting plugin MacGraphicsSwitching
+LogPluginManager: Mounting plugin MeshEditor
+LogPluginManager: Mounting plugin MobileLauncherProfileWizard
+LogPluginManager: Mounting plugin PluginBrowser
+LogPluginManager: Mounting plugin SpeedTreeImporter
+LogPluginManager: Mounting plugin DatasmithContent
+LogPluginManager: Mounting plugin VariantManagerContent
+LogPluginManager: Mounting plugin AlembicImporter
+LogPluginManager: Mounting plugin AppleImageUtils
+LogPluginManager: Mounting plugin AppleVision
+LogPluginManager: Mounting plugin BackChannel
+LogPluginManager: Mounting plugin CharacterAI
+LogPluginManager: Mounting plugin GeometryCache
+LogPluginManager: Mounting plugin HTML5Networking
+LogPluginManager: Mounting plugin ProxyLODPlugin
+LogPluginManager: Mounting plugin MagicLeap
+LogPluginManager: Mounting plugin MagicLeapMedia
+LogPluginManager: Mounting plugin AndroidMedia
+LogPluginManager: Mounting plugin AvfMedia
+LogPluginManager: Mounting plugin ImgMedia
+LogPluginManager: Mounting plugin LinearTimecode
+LogPluginManager: Mounting plugin MediaCompositing
+LogPluginManager: Mounting plugin MediaPlayerEditor
+LogPluginManager: Mounting plugin WebMMedia
+LogPluginManager: Mounting plugin WmfMedia
+LogPluginManager: Mounting plugin TcpMessaging
+LogPluginManager: Mounting plugin UdpMessaging
+LogPluginManager: Mounting plugin ActorSequence
+LogPluginManager: Mounting plugin LevelSequenceEditor
+LogPluginManager: Mounting plugin MatineeToLevelSequence
+LogPluginManager: Mounting plugin NetcodeUnitTest
+LogPluginManager: Mounting plugin NUTUnrealEngine4
+LogPluginManager: Mounting plugin OnlineSubsystemGooglePlay
+LogPluginManager: Mounting plugin OnlineSubsystemIOS
+LogPluginManager: Mounting plugin OnlineSubsystem
+LogPluginManager: Mounting plugin OnlineSubsystemNull
+LogPluginManager: Mounting plugin OnlineSubsystemUtils
+LogPluginManager: Mounting plugin LauncherChunkInstaller
+LogPluginManager: Mounting plugin AndroidDeviceProfileSelector
+LogPluginManager: Mounting plugin AndroidMoviePlayer
+LogPluginManager: Mounting plugin AndroidPermission
+LogPluginManager: Mounting plugin AppleMoviePlayer
+LogPluginManager: Mounting plugin ArchVisCharacter
+LogPluginManager: Mounting plugin AudioCapture
+LogPluginManager: Mounting plugin CableComponent
+LogPluginManager: Mounting plugin CustomMeshComponent
+LogPluginManager: Mounting plugin EditableMesh
+LogPluginManager: Mounting plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting plugin Firebase
+LogPluginManager: Mounting plugin GoogleCloudMessaging
+LogPluginManager: Mounting plugin IOSDeviceProfileSelector
+LogPluginManager: Mounting plugin LinuxDeviceProfileSelector
+LogPluginManager: Mounting plugin LocationServicesBPLibrary
+LogPluginManager: Mounting plugin MobilePatchingUtils
+LogPluginManager: Mounting plugin OculusVR
+LogPluginManager: Mounting plugin PhysXVehicles
+LogPluginManager: Mounting plugin ProceduralMeshComponent
+LogPluginManager: Mounting plugin RuntimePhysXCooking
+LogPluginManager: Mounting plugin SteamVR
+LogPluginManager: Mounting plugin WebMMoviePlayer
+LogPluginManager: Mounting plugin WindowsMoviePlayer
+LogStreaming: Display: Took  0.073s to configure plugins.
+LogInit: Using libcurl 7.55.1-DEV
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2h
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - MaxHostConnections = 16  - Libcurl will limit the number of connections to a host
+LogInit:  - LocalHostAddr = Default
+LogInit:  - BufferSize = 65536
+LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+LogInit: Build: ++UE4+Release-4.21-CL-4753647
+LogInit: Engine Version: 4.21.2-4753647+++UE4+Release-4.21
+LogInit: Compatible Engine Version: 4.21.0-4541578+++UE4+Release-4.21
+LogInit: Net CL: 4541578
+LogInit: OS: Windows 10 (), CPU: Intel(R) Core(TM) i7-6700K CPU @ 4.00GHz, GPU: NVIDIA GeForce RTX 2080
+LogInit: Compiled (64-bit): Jan 19 2019 02:07:31
+LogInit: Compiled with Visual C++: 19.13.26129.00
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.21
+LogInit: Command Line:  -skipcompile
+LogInit: Base Directory: G:/Games/Epic/Games/UE_4.21/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogDevObjectVersion: Number of dev versions registered: 22
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 26
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 34
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 2
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 27
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 9
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 2
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 3
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 17
+LogDevObjectVersion:   Dev-Anim (AF43A65D-7FD3-4947-9873-3E8ED9C1BB05): 2
+LogDevObjectVersion:   Dev-ReflectionCapture (6B266CEC-1EC7-4B8F-A30B-E4D90942FC07): 1
+LogDevObjectVersion:   Dev-Automation (0DF73D61-A23F-47EA-B727-89E90C41499A): 1
+LogDevObjectVersion:   FortniteMain (601D1886-AC64-4F84-AA16-D3DE0DEAC7D6): 17
+LogDevObjectVersion:   Dev-Enterprise (9DFFBCD6-494F-0158-E221-12823C92A888): 4
+LogDevObjectVersion:   Dev-Niagara (F2AED0AC-9AFE-416F-8664-AA7FFA26D6FC): 1
+LogStreaming: Display: Took  0.007s to delete old logs.
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+LogConfig: Setting CVar [[con.DebugEarlyDefault:1]]
+LogConfig: Setting CVar [[r.setres:1280x720]]
+[2019.05.02-06.52.40:194][  0]LogConfig: Setting CVar [[r.VSync:0]]
+[2019.05.02-06.52.40:195][  0]LogConfig: Setting CVar [[r.RHICmdBypass:0]]
+[2019.05.02-06.52.40:195][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererSettings] File [C:/Users/gosus/Documents/CP-School/SeniorProject/gitRepos/Senior-Project-CPP-Game/Saved/Config/Windows/Engine.ini]
+[2019.05.02-06.52.40:195][  0]LogConfig: Setting CVar [[r.GPUCrashDebugging:0]]
+[2019.05.02-06.52.40:195][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererOverrideSettings] File [C:/Users/gosus/Documents/CP-School/SeniorProject/gitRepos/Senior-Project-CPP-Game/Saved/Config/Windows/Engine.ini]
+[2019.05.02-06.52.40:195][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [C:/Users/gosus/Documents/CP-School/SeniorProject/gitRepos/Senior-Project-CPP-Game/Saved/Config/Windows/Engine.ini]
+[2019.05.02-06.52.40:195][  0]LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
+[2019.05.02-06.52.40:195][  0]LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
+[2019.05.02-06.52.40:195][  0]LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
+[2019.05.02-06.52.40:195][  0]LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
+[2019.05.02-06.52.40:195][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
+[2019.05.02-06.52.40:195][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
+[2019.05.02-06.52.40:195][  0]LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
+[2019.05.02-06.52.40:195][  0]LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
+[2019.05.02-06.52.40:195][  0]LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
+[2019.05.02-06.52.40:195][  0]LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
+[2019.05.02-06.52.40:195][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
+[2019.05.02-06.52.40:196][  0]LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
+[2019.05.02-06.52.40:196][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
+[2019.05.02-06.52.40:196][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.GarbageCollectionSettings] File [C:/Users/gosus/Documents/CP-School/SeniorProject/gitRepos/Senior-Project-CPP-Game/Saved/Config/Windows/Engine.ini]
+[2019.05.02-06.52.40:196][  0]LogConfig: Setting CVar [[gc.MaxObjectsNotConsideredByGC:1]]
+[2019.05.02-06.52.40:196][  0]LogConfig: Setting CVar [[gc.SizeOfPermanentObjectPool:0]]
+[2019.05.02-06.52.40:196][  0]LogConfig: Setting CVar [[gc.FlushStreamingOnGC:0]]
+[2019.05.02-06.52.40:196][  0]LogConfig: Setting CVar [[gc.NumRetriesBeforeForcingGC:10]]
+[2019.05.02-06.52.40:196][  0]LogConfig: Setting CVar [[gc.AllowParallelGC:1]]
+[2019.05.02-06.52.40:196][  0]LogConfig: Setting CVar [[gc.TimeBetweenPurgingPendingKillObjects:61.1]]
+[2019.05.02-06.52.40:196][  0]LogConfig: Setting CVar [[gc.MaxObjectsInEditor:8388607]]
+[2019.05.02-06.52.40:196][  0]LogConfig: Setting CVar [[gc.IncrementalBeginDestroyEnabled:1]]
+[2019.05.02-06.52.40:196][  0]LogConfig: Setting CVar [[gc.CreateGCClusters:1]]
+[2019.05.02-06.52.40:196][  0]LogConfig: Setting CVar [[gc.MergeGCClusters:0]]
+[2019.05.02-06.52.40:196][  0]LogConfig: Setting CVar [[gc.MinGCClusterSize:5]]
+[2019.05.02-06.52.40:196][  0]LogConfig: Setting CVar [[gc.ActorClusteringEnabled:0]]
+[2019.05.02-06.52.40:196][  0]LogConfig: Setting CVar [[gc.BlueprintClusteringEnabled:0]]
+[2019.05.02-06.52.40:196][  0]LogConfig: Setting CVar [[gc.UseDisregardForGCOnDedicatedServers:0]]
+[2019.05.02-06.52.40:196][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.NetworkSettings] File [C:/Users/gosus/Documents/CP-School/SeniorProject/gitRepos/Senior-Project-CPP-Game/Saved/Config/Windows/Engine.ini]
+[2019.05.02-06.52.40:196][  0]LogConfig: Applying CVar settings from Section [/Script/UnrealEd.CookerSettings] File [C:/Users/gosus/Documents/CP-School/SeniorProject/gitRepos/Senior-Project-CPP-Game/Saved/Config/Windows/Engine.ini]
+[2019.05.02-06.52.40:205][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [C:/Users/gosus/Documents/CP-School/SeniorProject/gitRepos/Senior-Project-CPP-Game/Saved/Config/Windows/Scalability.ini]
+[2019.05.02-06.52.40:205][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2019.05.02-06.52.40:205][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2019.05.02-06.52.40:205][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [C:/Users/gosus/Documents/CP-School/SeniorProject/gitRepos/Senior-Project-CPP-Game/Saved/Config/Windows/Scalability.ini]
+[2019.05.02-06.52.40:205][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2019.05.02-06.52.40:205][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [C:/Users/gosus/Documents/CP-School/SeniorProject/gitRepos/Senior-Project-CPP-Game/Saved/Config/Windows/Scalability.ini]
+[2019.05.02-06.52.40:205][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2019.05.02-06.52.40:205][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2019.05.02-06.52.40:205][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2019.05.02-06.52.40:205][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2019.05.02-06.52.40:205][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2019.05.02-06.52.40:205][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2019.05.02-06.52.40:205][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2019.05.02-06.52.40:206][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2019.05.02-06.52.40:206][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2019.05.02-06.52.40:206][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2019.05.02-06.52.40:206][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2019.05.02-06.52.40:206][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2019.05.02-06.52.40:206][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2019.05.02-06.52.40:206][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2019.05.02-06.52.40:206][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2019.05.02-06.52.40:206][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2019.05.02-06.52.40:206][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2019.05.02-06.52.40:206][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2019.05.02-06.52.40:206][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [C:/Users/gosus/Documents/CP-School/SeniorProject/gitRepos/Senior-Project-CPP-Game/Saved/Config/Windows/Scalability.ini]
+[2019.05.02-06.52.40:206][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2019.05.02-06.52.40:206][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2019.05.02-06.52.40:206][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2019.05.02-06.52.40:206][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2019.05.02-06.52.40:206][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2019.05.02-06.52.40:207][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2019.05.02-06.52.40:207][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2019.05.02-06.52.40:207][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2019.05.02-06.52.40:207][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2019.05.02-06.52.40:207][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2019.05.02-06.52.40:207][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2019.05.02-06.52.40:207][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2019.05.02-06.52.40:207][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2019.05.02-06.52.40:207][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2019.05.02-06.52.40:207][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2019.05.02-06.52.40:207][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2019.05.02-06.52.40:207][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2019.05.02-06.52.40:207][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2019.05.02-06.52.40:207][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2019.05.02-06.52.40:207][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2019.05.02-06.52.40:207][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2019.05.02-06.52.40:207][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2019.05.02-06.52.40:207][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2019.05.02-06.52.40:207][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2019.05.02-06.52.40:208][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2019.05.02-06.52.40:208][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2019.05.02-06.52.40:208][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2019.05.02-06.52.40:208][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2019.05.02-06.52.40:208][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2019.05.02-06.52.40:208][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2019.05.02-06.52.40:208][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [C:/Users/gosus/Documents/CP-School/SeniorProject/gitRepos/Senior-Project-CPP-Game/Saved/Config/Windows/Scalability.ini]
+[2019.05.02-06.52.40:208][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2019.05.02-06.52.40:208][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2019.05.02-06.52.40:208][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2019.05.02-06.52.40:208][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2019.05.02-06.52.40:208][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2019.05.02-06.52.40:208][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2019.05.02-06.52.40:208][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2019.05.02-06.52.40:208][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2019.05.02-06.52.40:208][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [C:/Users/gosus/Documents/CP-School/SeniorProject/gitRepos/Senior-Project-CPP-Game/Saved/Config/Windows/Scalability.ini]
+[2019.05.02-06.52.40:208][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2019.05.02-06.52.40:209][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2019.05.02-06.52.40:209][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2019.05.02-06.52.40:209][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2019.05.02-06.52.40:209][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2019.05.02-06.52.40:209][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2019.05.02-06.52.40:209][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2019.05.02-06.52.40:209][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2019.05.02-06.52.40:209][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2019.05.02-06.52.40:209][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2019.05.02-06.52.40:209][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:1]]
+[2019.05.02-06.52.40:209][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2019.05.02-06.52.40:209][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2019.05.02-06.52.40:209][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [C:/Users/gosus/Documents/CP-School/SeniorProject/gitRepos/Senior-Project-CPP-Game/Saved/Config/Windows/Scalability.ini]
+[2019.05.02-06.52.40:209][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2019.05.02-06.52.40:209][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2019.05.02-06.52.40:209][  0]LogInit: Selected Device Profile: [Windows]
+[2019.05.02-06.52.40:209][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2019.05.02-06.52.40:219][  0]LogHAL: Display: Platform has ~ 32 GB [34313105408 / 34359738368 / 32], which maps to Largest [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2019.05.02-06.52.40:220][  0]LogConfig: Setting CVar [[r.Vulkan.UseRealUBs:1]]
+[2019.05.02-06.52.40:220][  0]LogInit: Going up to parent DeviceProfile []
+[2019.05.02-06.52.40:220][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [C:/Users/gosus/Documents/CP-School/SeniorProject/gitRepos/Senior-Project-CPP-Game/Saved/Config/Windows/Scalability.ini]
+[2019.05.02-06.52.40:220][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2019.05.02-06.52.40:220][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2019.05.02-06.52.40:220][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [C:/Users/gosus/Documents/CP-School/SeniorProject/gitRepos/Senior-Project-CPP-Game/Saved/Config/Windows/Scalability.ini]
+[2019.05.02-06.52.40:220][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2019.05.02-06.52.40:220][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [C:/Users/gosus/Documents/CP-School/SeniorProject/gitRepos/Senior-Project-CPP-Game/Saved/Config/Windows/Scalability.ini]
+[2019.05.02-06.52.40:220][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2019.05.02-06.52.40:220][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2019.05.02-06.52.40:220][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2019.05.02-06.52.40:220][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2019.05.02-06.52.40:220][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2019.05.02-06.52.40:220][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2019.05.02-06.52.40:220][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2019.05.02-06.52.40:220][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2019.05.02-06.52.40:220][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2019.05.02-06.52.40:221][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2019.05.02-06.52.40:221][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2019.05.02-06.52.40:221][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2019.05.02-06.52.40:221][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2019.05.02-06.52.40:221][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2019.05.02-06.52.40:221][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2019.05.02-06.52.40:221][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2019.05.02-06.52.40:221][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2019.05.02-06.52.40:221][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2019.05.02-06.52.40:221][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [C:/Users/gosus/Documents/CP-School/SeniorProject/gitRepos/Senior-Project-CPP-Game/Saved/Config/Windows/Scalability.ini]
+[2019.05.02-06.52.40:221][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2019.05.02-06.52.40:221][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2019.05.02-06.52.40:221][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2019.05.02-06.52.40:221][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2019.05.02-06.52.40:221][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2019.05.02-06.52.40:221][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2019.05.02-06.52.40:221][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2019.05.02-06.52.40:221][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2019.05.02-06.52.40:222][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2019.05.02-06.52.40:222][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2019.05.02-06.52.40:222][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2019.05.02-06.52.40:222][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2019.05.02-06.52.40:222][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2019.05.02-06.52.40:222][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2019.05.02-06.52.40:222][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2019.05.02-06.52.40:222][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2019.05.02-06.52.40:222][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2019.05.02-06.52.40:222][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2019.05.02-06.52.40:222][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2019.05.02-06.52.40:222][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2019.05.02-06.52.40:222][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2019.05.02-06.52.40:222][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2019.05.02-06.52.40:222][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2019.05.02-06.52.40:222][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2019.05.02-06.52.40:222][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2019.05.02-06.52.40:222][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2019.05.02-06.52.40:222][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2019.05.02-06.52.40:222][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2019.05.02-06.52.40:223][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2019.05.02-06.52.40:223][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2019.05.02-06.52.40:223][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [C:/Users/gosus/Documents/CP-School/SeniorProject/gitRepos/Senior-Project-CPP-Game/Saved/Config/Windows/Scalability.ini]
+[2019.05.02-06.52.40:223][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2019.05.02-06.52.40:223][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2019.05.02-06.52.40:223][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2019.05.02-06.52.40:223][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2019.05.02-06.52.40:223][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2019.05.02-06.52.40:223][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2019.05.02-06.52.40:223][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2019.05.02-06.52.40:223][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2019.05.02-06.52.40:223][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [C:/Users/gosus/Documents/CP-School/SeniorProject/gitRepos/Senior-Project-CPP-Game/Saved/Config/Windows/Scalability.ini]
+[2019.05.02-06.52.40:223][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2019.05.02-06.52.40:223][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2019.05.02-06.52.40:223][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2019.05.02-06.52.40:223][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2019.05.02-06.52.40:223][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2019.05.02-06.52.40:223][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2019.05.02-06.52.40:223][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2019.05.02-06.52.40:223][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2019.05.02-06.52.40:224][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2019.05.02-06.52.40:224][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2019.05.02-06.52.40:224][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:1]]
+[2019.05.02-06.52.40:224][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2019.05.02-06.52.40:224][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2019.05.02-06.52.40:224][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [C:/Users/gosus/Documents/CP-School/SeniorProject/gitRepos/Senior-Project-CPP-Game/Saved/Config/Windows/Scalability.ini]
+[2019.05.02-06.52.40:224][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2019.05.02-06.52.40:224][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2019.05.02-06.52.40:224][  0]LogConfig: Applying CVar settings from Section [Startup] File [../../../Engine/Config/ConsoleVariables.ini]
+[2019.05.02-06.52.40:224][  0]LogConfig: Setting CVar [[net.UseAdaptiveNetUpdateFrequency:0]]
+[2019.05.02-06.52.40:224][  0]LogConfig: Applying CVar settings from Section [ConsoleVariables] File [C:/Users/gosus/Documents/CP-School/SeniorProject/gitRepos/Senior-Project-CPP-Game/Saved/Config/Windows/Engine.ini]
+[2019.05.02-06.52.40:224][  0]LogInit: Computer: UNIT-01
+[2019.05.02-06.52.40:224][  0]LogInit: User: gosus
+[2019.05.02-06.52.40:224][  0]LogInit: CPU Page size=4096, Cores=4
+[2019.05.02-06.52.40:224][  0]LogInit: High frequency timer resolution =10.000000 MHz
+[2019.05.02-06.52.40:225][  0]LogMemory: Memory total: Physical=32.0GB (32GB approx)
+[2019.05.02-06.52.40:225][  0]LogMemory: Platform Memory Stats for Windows
+[2019.05.02-06.52.40:225][  0]LogMemory: Process Physical Memory: 104.68 MB used, 104.68 MB peak
+[2019.05.02-06.52.40:225][  0]LogMemory: Process Virtual Memory: 87.00 MB used, 87.00 MB peak
+[2019.05.02-06.52.40:225][  0]LogMemory: Physical Memory: 7941.66 MB used,  24781.86 MB free, 32723.53 MB total
+[2019.05.02-06.52.40:225][  0]LogMemory: Virtual Memory: 4645.01 MB used,  134213080.00 MB free, 134217728.00 MB total
+[2019.05.02-06.52.40:317][  0]LogInit: Using OS detected language (en-US).
+[2019.05.02-06.52.40:317][  0]LogInit: Using OS detected locale (en-US).
+[2019.05.02-06.52.40:317][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2019.05.02-06.52.40:626][  0]LogStreaming: Display: Took  0.309s to InitEngineTextLocalization.
+[2019.05.02-06.52.40:626][  0]LogInit: Setting process to per monitor DPI aware
+[2019.05.02-06.52.40:683][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2019.05.02-06.52.40:683][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2019.05.02-06.52.40:839][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2019.05.02-06.52.40:839][  0]LogD3D11RHI: D3D11 adapters:
+[2019.05.02-06.52.40:961][  0]LogD3D11RHI:    0. 'NVIDIA GeForce RTX 2080' (Feature Level 11_0)
+[2019.05.02-06.52.40:961][  0]LogD3D11RHI:       8010/0/16361 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x10de
+[2019.05.02-06.52.40:965][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2019.05.02-06.52.40:965][  0]LogD3D11RHI:       0/0/16361 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2019.05.02-06.52.40:965][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2019.05.02-06.52.40:972][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2019.05.02-06.52.40:972][  0]LogD3D11RHI:     GPU DeviceId: 0x1e87 (for the marketing name, search the web for "GPU Device Id")
+[2019.05.02-06.52.40:972][  0]LogWindows: EnumDisplayDevices:
+[2019.05.02-06.52.40:972][  0]LogWindows:    0. 'NVIDIA GeForce RTX 2080' (P:1 D:1)
+[2019.05.02-06.52.40:972][  0]LogWindows:    1. 'NVIDIA GeForce RTX 2080' (P:0 D:1)
+[2019.05.02-06.52.40:973][  0]LogWindows:    2. 'NVIDIA GeForce RTX 2080' (P:0 D:0)
+[2019.05.02-06.52.40:973][  0]LogWindows:    3. 'NVIDIA GeForce RTX 2080' (P:0 D:0)
+[2019.05.02-06.52.40:973][  0]LogWindows: DebugString: FoundDriverCount:4 
+[2019.05.02-06.52.40:973][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce RTX 2080
+[2019.05.02-06.52.40:973][  0]LogD3D11RHI:   Driver Version: 430.39 (internal:26.21.14.3039, unified:430.39)
+[2019.05.02-06.52.40:973][  0]LogD3D11RHI:      Driver Date: 4-17-2019
+[2019.05.02-06.52.40:973][  0]LogRHI: Texture pool is 5607 MB (70% of 8010 MB)
+[2019.05.02-06.52.41:014][  0]LogD3D11RHI: Async texture creation enabled
+[2019.05.02-06.52.41:033][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2019.05.02-06.52.41:417][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
+[2019.05.02-06.52.41:431][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
+[2019.05.02-06.52.41:446][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
+[2019.05.02-06.52.41:461][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
+[2019.05.02-06.52.41:475][  0]LogTemp: Display: Loaded TP MacTargetPlatform
+[2019.05.02-06.52.41:490][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
+[2019.05.02-06.52.41:504][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
+[2019.05.02-06.52.41:518][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
+[2019.05.02-06.52.41:527][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
+[2019.05.02-06.52.41:587][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.05.02-06.52.41:588][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.05.02-06.52.41:588][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.05.02-06.52.41:588][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.05.02-06.52.41:588][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.05.02-06.52.41:588][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.05.02-06.52.41:588][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.05.02-06.52.41:588][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.05.02-06.52.41:588][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.05.02-06.52.41:588][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.05.02-06.52.41:588][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.05.02-06.52.41:588][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.05.02-06.52.41:588][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.05.02-06.52.41:588][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.05.02-06.52.41:588][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.05.02-06.52.41:588][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.05.02-06.52.41:588][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.05.02-06.52.41:588][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.05.02-06.52.41:592][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
+[2019.05.02-06.52.41:671][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2019.05.02-06.52.41:671][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2019.05.02-06.52.41:696][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2019.05.02-06.52.41:696][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2019.05.02-06.52.41:708][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
+[2019.05.02-06.52.41:721][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
+[2019.05.02-06.52.41:733][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
+[2019.05.02-06.52.41:747][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
+[2019.05.02-06.52.41:782][  0]LogTemp: Display: Loaded TP LuminTargetPlatform
+[2019.05.02-06.52.41:783][  0]LogTemp: Display: Loaded TP LuminTargetPlatform
+[2019.05.02-06.52.41:783][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2019.05.02-06.52.41:919][  0]LogShaderCompilers: Guid format shader working directory is -35 characters bigger than the processId version (C:/Users/gosus/Documents/CP-School/SeniorProject/gitRepos/Senior-Project-CPP-Game/Intermediate/Shaders/WorkingDirectory/1108/).
+[2019.05.02-06.52.41:920][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/gosus/AppData/Local/Temp/UnrealShaderWorkingDir/2839BEB34CA3E4B6098CA78935D4E02D/'.
+[2019.05.02-06.52.41:921][  0]LogXGEController: Cleaning working directory: C:/Users/gosus/AppData/Local/Temp/UnrealXGEWorkingDir/
+[2019.05.02-06.52.41:921][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2019.05.02-06.52.41:921][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2019.05.02-06.52.41:921][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2019.05.02-06.52.42:331][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2019.05.02-06.52.42:369][  0]LogDerivedDataCache: Loaded boot cache 0.04s 71MB C:/Users/gosus/AppData/Local/UnrealEngine/4.21/DerivedDataCache/Boot.ddc.
+[2019.05.02-06.52.42:369][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/gosus/AppData/Local/UnrealEngine/4.21/DerivedDataCache/Boot.ddc
+[2019.05.02-06.52.42:369][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file C:/Users/gosus/Documents/CP-School/SeniorProject/gitRepos/Senior-Project-CPP-Game/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2019.05.02-06.52.42:369][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2019.05.02-06.52.42:369][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file C:/Users/gosus/Documents/CP-School/SeniorProject/gitRepos/Senior-Project-CPP-Game/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2019.05.02-06.52.42:369][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2019.05.02-06.52.42:381][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2019.05.02-06.52.42:381][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  EnterprisePak pak cache file ../../../Enterprise/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2019.05.02-06.52.42:381][  0]LogDerivedDataCache: Unable to find inner node EnterprisePak for hierarchical cache Hierarchy.
+[2019.05.02-06.52.42:393][  0]LogDerivedDataCache: Using Local data cache path C:/Users/gosus/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2019.05.02-06.52.42:393][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2019.05.02-06.52.42:393][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2019.05.02-06.52.42:411][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2019.05.02-06.52.42:412][  0]LogSlate: Using FreeType 2.6.0
+[2019.05.02-06.52.42:413][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2019.05.02-06.52.42:483][  0]LogAssetRegistry: FAssetRegistry took 0.0346 seconds to start up
+[2019.05.02-06.52.42:750][  0]LogInit: Selected Device Profile: [Windows]
+[2019.05.02-06.52.42:894][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2019.05.02-06.52.42:909][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
+[2019.05.02-06.52.42:909][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
+[2019.05.02-06.52.42:909][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2019.05.02-06.52.42:909][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
+[2019.05.02-06.52.42:919][  0]LogNetVersion: HSPGame 1.0.0, NetCL: 4541578, EngineNetVer: 5, GameNetVer: 0 (Checksum: 2893343623)
+[2019.05.02-06.52.43:299][  0]LogPackageLocalizationCache: Processed 11 localized package path(s) for 2 prioritized culture(s) in 0.078116 seconds
+[2019.05.02-06.52.43:304][  0]LogUObjectArray: 39775 objects as part of root set at end of initial load.
+[2019.05.02-06.52.43:304][  0]LogUObjectAllocator: 6914656 out of 0 bytes used by permanent object pool.
+[2019.05.02-06.52.43:304][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2019.05.02-06.52.44:129][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2019.05.02-06.52.44:147][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2019.05.02-06.52.44:780][  0]SourceControl: Source control is disabled
+[2019.05.02-06.52.44:781][  0]SourceControl: Source control is disabled
+[2019.05.02-06.52.44:791][  0]SourceControl: Source control is disabled
+[2019.05.02-06.52.44:796][  0]SourceControl: Source control is disabled
+[2019.05.02-06.52.45:184][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2019.05.02-06.52.45:440][  0]LogOcInput: OculusInput pre-init called
+[2019.05.02-06.52.45:605][  0]LogEngine: Initializing Engine...
+[2019.05.02-06.52.45:606][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2019.05.02-06.52.45:607][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
+[2019.05.02-06.52.45:607][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2019.05.02-06.52.45:607][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
+[2019.05.02-06.52.45:607][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2019.05.02-06.52.45:783][  0]LogInit: Initializing FReadOnlyCVARCache
+[2019.05.02-06.52.45:798][  0]LogAIModule: Creating AISystem for world Untitled
+[2019.05.02-06.52.45:849][  0]LogInit: XAudio2 using 'LG ULTRAWIDE (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2019.05.02-06.52.45:964][  0]LogInit: FAudioDevice initialized.
+[2019.05.02-06.52.45:964][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2019.05.02-06.52.46:009][  0]LogDerivedDataCache: Saved boot cache 0.04s 71MB C:/Users/gosus/AppData/Local/UnrealEngine/4.21/DerivedDataCache/Boot.ddc.
+[2019.05.02-06.52.46:013][  0]LogInit: Texture streaming: Enabled
+[2019.05.02-06.52.46:058][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2019.05.02-06.52.46:070][  0]LogInit: Transaction tracking system initialized
+[2019.05.02-06.52.46:120][  0]BlueprintLog: New page: Editor Load
+[2019.05.02-06.52.46:277][  0]LocalizationService: Localization service is disabled
+[2019.05.02-06.52.46:761][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2019.05.02-06.52.46:761][  0]LogCook: Display: Mobile HDR setting 1
+[2019.05.02-06.52.46:761][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
+[2019.05.02-06.52.46:762][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
+[2019.05.02-06.52.46:762][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2019.05.02-06.52.46:762][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
+[2019.05.02-06.52.46:762][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2019.05.02-06.52.47:000][  0]LogFileCache: Scanning file cache for directory 'C:/Users/gosus/Documents/CP-School/SeniorProject/gitRepos/Senior-Project-CPP-Game/Content/' took 0.03s
+[2019.05.02-06.52.47:000][  0]SourceControl: Source control is disabled
+[2019.05.02-06.52.47:000][  0]Cmd: MAP LOAD FILE="C:/Users/gosus/Documents/CP-School/SeniorProject/gitRepos/Senior-Project-CPP-Game/Content/Levels/DemoTown.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2019.05.02-06.52.47:001][  0]LightingResults: New page: Lighting Build
+[2019.05.02-06.52.47:003][  0]MapCheck: New page: Map Check
+[2019.05.02-06.52.47:003][  0]LightingResults: New page: Lighting Build
+[2019.05.02-06.52.47:613][  0]LogAIModule: Creating AISystem for world DemoTown
+[2019.05.02-06.52.47:638][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2019.05.02-06.52.47:657][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2019.05.02-06.52.47:658][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.132ms to complete.
+[2019.05.02-06.52.47:658][  0]LogFileHelpers: Loading map 'DemoTown' took 0.657
+[2019.05.02-06.52.47:817][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.05.02-06.52.47:823][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.05.02-06.52.47:829][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.05.02-06.52.47:837][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.05.02-06.52.47:844][  0]LogCollectionManager: Loaded 0 collections in 0.000918 seconds
+[2019.05.02-06.52.47:873][  0]LogFileCache: Scanning file cache for directory 'C:/Users/gosus/Documents/CP-School/SeniorProject/gitRepos/Senior-Project-CPP-Game/Saved/Collections/' took 0.01s
+[2019.05.02-06.52.47:873][  0]LogFileCache: Scanning file cache for directory 'C:/Users/gosus/Documents/CP-School/SeniorProject/gitRepos/Senior-Project-CPP-Game/Content/Developers/gosus/Collections/' took 0.01s
+[2019.05.02-06.52.47:873][  0]LogFileCache: Scanning file cache for directory 'C:/Users/gosus/Documents/CP-School/SeniorProject/gitRepos/Senior-Project-CPP-Game/Content/Collections/' took 0.00s
+[2019.05.02-06.52.47:873][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000000 seconds
+[2019.05.02-06.52.47:881][  0]LogContentBrowser: Native class hierarchy populated in 0.0077 seconds. Added 2661 classes and 622 folders.
+[2019.05.02-06.52.47:887][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2019.05.02-06.52.47:889][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.05.02-06.52.47:889][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.05.02-06.52.47:890][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.05.02-06.52.47:890][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.05.02-06.52.47:890][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.05.02-06.52.47:891][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.05.02-06.52.47:891][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.05.02-06.52.47:892][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.05.02-06.52.47:892][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.05.02-06.52.47:893][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.05.02-06.52.47:893][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.05.02-06.52.47:893][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.05.02-06.52.47:894][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.05.02-06.52.47:894][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.05.02-06.52.47:895][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.05.02-06.52.47:895][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.05.02-06.52.47:896][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.05.02-06.52.47:896][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.05.02-06.52.47:897][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.05.02-06.52.47:897][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.05.02-06.52.47:897][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.05.02-06.52.47:898][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.05.02-06.52.47:898][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.05.02-06.52.47:899][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.05.02-06.52.47:899][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.05.02-06.52.47:899][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.05.02-06.52.47:920][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2019.05.02-06.52.47:930][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0003 seconds. Added 1 classes and 2 folders.
+[2019.05.02-06.52.47:991][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.05.02-06.52.47:997][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.05.02-06.52.48:003][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.05.02-06.52.48:011][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.05.02-06.52.48:017][  0]LogSlate: Took 0.000104 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2019.05.02-06.52.48:019][  0]LogSlate: Took 0.000101 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2019.05.02-06.52.48:023][  0]LogSlate: Took 0.000094 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2019.05.02-06.52.48:062][  0]LogRenderer: Reallocating scene render targets to support 1772x792 Format 10 NumSamples 1 (Frame:1).
+[2019.05.02-06.52.48:128][  0]LogRenderer: Reallocating scene render targets to support 2556x1056 Format 10 NumSamples 1 (Frame:2).
+[2019.05.02-06.52.48:248][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2019.05.02-06.52.48:248][  0]LogLoad: (Engine Initialization) Total time: 9.80 seconds
+[2019.05.02-06.52.48:248][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2019.05.02-06.52.48:307][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2019.05.02-06.52.48:420][  2]LogAssetRegistry: Asset discovery search completed in 5.9611 seconds
+[2019.05.02-06.52.48:423][  2]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
+[2019.05.02-06.52.48:423][  2]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000143 seconds (updated 0 objects)
+[2019.05.02-06.52.52:601][494]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.05.02-06.52.52:765][506]LogSlate: Took 0.000119 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2019.05.02-06.52.52:771][506]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/Blueprints/Attacks/BP_DarkWhirl.BP_DarkWhirl
+[2019.05.02-06.52.53:090][506]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0005 seconds. Added 117 classes and 0 folders.
+[2019.05.02-06.52.53:798][506]LogSlate: Took 0.000122 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2019.05.02-06.52.53:865][507]LogSlate: Took 0.000135 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2019.05.02-06.52.59:805][111]LogTemp: Repeating last play command: Selected Viewport
+[2019.05.02-06.52.59:843][111]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Levels/DemoTown.DemoTown:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/DemoTown.DemoTown:PersistentLevel.DemoTown' with GeneratedClass '/Game/Levels/DemoTown.DemoTown_C' with ClassGeneratedBy '/Game/Levels/DemoTown.DemoTown:PersistentLevel.DemoTown'
+[2019.05.02-06.52.59:844][111]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.05.02-06.52.59:845][111]PIE: New page: PIE session: DemoTown (May 1, 2019, 4:52:59 PM)
+[2019.05.02-06.52.59:861][111]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_DemoTown
+[2019.05.02-06.52.59:904][111]LogPlayLevel: PIE: StaticDuplicateObject took: (0.043116s)
+[2019.05.02-06.52.59:905][111]LogAIModule: Creating AISystem for world DemoTown
+[2019.05.02-06.52.59:905][111]LogPlayLevel: PIE: World Init took: (0.000665s)
+[2019.05.02-06.52.59:905][111]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/DemoTown.DemoTown to /Game/Levels/UEDPIE_0_DemoTown.DemoTown (0.044257s)
+[2019.05.02-06.52.59:973][111]LogInit: XAudio2 using 'LG ULTRAWIDE (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2019.05.02-06.52.59:983][111]LogInit: FAudioDevice initialized.
+[2019.05.02-06.53.00:382][111]LogLoad: Game class is 'BP_HSPGameGameModeBase_C'
+[2019.05.02-06.53.00:387][111]LogWorld: Bringing World /Game/Levels/UEDPIE_0_DemoTown.DemoTown up for play (max tick rate 0) at 2019.05.01-23.53.00
+[2019.05.02-06.53.00:398][111]LogWorld: Bringing up level for play took: 0.014802
+[2019.05.02-06.53.00:418][111]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0008 seconds. Added 20 classes and 0 folders.
+[2019.05.02-06.53.00:428][111]PIE: Play in editor start time for /Game/Levels/UEDPIE_0_DemoTown 0.541
+[2019.05.02-06.53.00:429][111]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Levels/DemoTown.DemoTown:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/DemoTown.DemoTown:PersistentLevel.DemoTown' with GeneratedClass '/Game/Levels/DemoTown.DemoTown_C' with ClassGeneratedBy '/Game/Levels/DemoTown.DemoTown:PersistentLevel.DemoTown'
+[2019.05.02-06.53.02:711][248]LogRenderer: Reallocating scene render targets to support 2556x1376 Format 10 NumSamples 1 (Frame:139).
+[2019.05.02-06.53.07:773][737]LogNet: Browse: /Game/Levels/Dungeon1
+[2019.05.02-06.53.07:774][737]LogLoad: LoadMap: /Game/Levels/Dungeon1
+[2019.05.02-06.53.09:584][737]LogAIModule: Creating AISystem for world Dungeon1
+[2019.05.02-06.53.09:584][737]LogLoad: Game class is 'BP_HSPGameGameModeBase_C'
+[2019.05.02-06.53.09:600][737]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Dungeon1.Dungeon1 up for play (max tick rate 0) at 2019.05.01-23.53.09
+[2019.05.02-06.53.09:625][737]LogWorld: Bringing up level for play took: 0.040271
+[2019.05.02-06.53.09:631][737]LogLoad: Took 1.857473 seconds to LoadMap(/Game/Levels/Dungeon1)
+[2019.05.02-06.53.14:878][213]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.05.02-06.53.40:311][531]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.05.02-06.53.52:976][637]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.05.02-06.54.10:028][230]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Levels/DemoTown.DemoTown:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/DemoTown.DemoTown:PersistentLevel.DemoTown' with GeneratedClass '/Game/Levels/DemoTown.DemoTown_C' with ClassGeneratedBy '/Game/Levels/DemoTown.DemoTown:PersistentLevel.DemoTown'
+[2019.05.02-06.54.10:029][230]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.05.02-06.54.10:104][230]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.05.02-06.54.10:105][230]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Levels/DemoTown.DemoTown:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/DemoTown.DemoTown:PersistentLevel.DemoTown' with GeneratedClass '/Game/Levels/DemoTown.DemoTown_C' with ClassGeneratedBy '/Game/Levels/DemoTown.DemoTown:PersistentLevel.DemoTown'
+[2019.05.02-06.54.10:157][230]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.05.02-06.54.10:189][231]LogPlayLevel: Display: Destroying online subsystem :Context_2
+[2019.05.02-06.54.24:957][265]LogSlate: Window 'BP_DarkWhirl' being destroyed
+[2019.05.02-06.54.51:767][437]LogAssetEditorManager: Opening Asset editor for WidgetBlueprint /Game/UI/sliderControlScreen.sliderControlScreen
+[2019.05.02-06.54.58:922][258]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Game/UI/floatTalkPrompt.floatTalkPrompt:WidgetTree.CanvasPanel_0 or CanvasPanel /Game/UI/floatTalkPrompt.floatTalkPrompt_C:WidgetTree.CanvasPanel_0
+[2019.05.02-06.54.58:922][258]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Game/UI/floatTalkPrompt.floatTalkPrompt:WidgetTree.CanvasPanel_0 or CanvasPanel /Game/UI/playerHud.playerHud:WidgetTree.CanvasPanel_0
+[2019.05.02-06.54.58:922][258]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Game/UI/floatTalkPrompt.floatTalkPrompt:WidgetTree.CanvasPanel_0 or CanvasPanel /Game/Levels/DemoTown.DemoTown:floatTalkPrompt_C_2.WidgetTree_0.CanvasPanel_0
+[2019.05.02-06.54.58:922][258]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Game/UI/floatTalkPrompt.floatTalkPrompt:WidgetTree.CanvasPanel_0 or CanvasPanel /Game/Levels/DemoTown.DemoTown:floatTalkPrompt_C_3.WidgetTree_0.CanvasPanel_0
+[2019.05.02-06.54.58:923][258]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Game/UI/floatTalkPrompt.floatTalkPrompt:WidgetTree.CanvasPanel_0 or CanvasPanel /Game/UI/playerHud.playerHud_C:WidgetTree.CanvasPanel_0
+[2019.05.02-06.54.58:923][258]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Game/UI/floatTalkPrompt.floatTalkPrompt:WidgetTree.CanvasPanel_0 or CanvasPanel /Game/UI/ShopScreen.shopScreen:WidgetTree.CanvasPanel_0
+[2019.05.02-06.54.58:923][258]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Game/UI/floatTalkPrompt.floatTalkPrompt:WidgetTree.CanvasPanel_0 or CanvasPanel /Game/UI/sliderControlScreen.sliderControlScreen:WidgetTree.CanvasPanel_0
+[2019.05.02-06.54.58:923][258]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Game/UI/floatTalkPrompt.floatTalkPrompt:WidgetTree.CanvasPanel_0 or CanvasPanel /Game/UI/ShopScreen.shopScreen_C:WidgetTree.CanvasPanel_0
+[2019.05.02-06.54.58:923][258]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Game/UI/floatTalkPrompt.floatTalkPrompt:WidgetTree.CanvasPanel_0 or CanvasPanel /Game/UI/sliderControlScreen.sliderControlScreen_C:WidgetTree.CanvasPanel_0
+[2019.05.02-06.54.58:923][258]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Game/UI/floatTalkPrompt.floatTalkPrompt:WidgetTree.CanvasPanel_0 or CanvasPanel /Game/UI/enemyHoverInfo.enemyHoverInfo_C:WidgetTree.CanvasPanel_0
+[2019.05.02-06.54.58:924][258]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Game/UI/floatTalkPrompt.floatTalkPrompt:WidgetTree.CanvasPanel_0 or CanvasPanel /Game/UI/enemyHoverInfo.enemyHoverInfo:WidgetTree.CanvasPanel_0
+[2019.05.02-06.54.58:924][258]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Game/UI/floatTalkPrompt.floatTalkPrompt:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_3:sliderControlScreen_C_1.WidgetTree_0.CanvasPanel_0
+[2019.05.02-06.54.58:924][258]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Game/UI/floatTalkPrompt.floatTalkPrompt:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_3:sliderControlScreen_C_0.WidgetTree_0.CanvasPanel_0
+[2019.05.02-06.54.58:924][258]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanelSlot /Game/UI/playerHud.playerHud:WidgetTree.CanvasPanel_0.CanvasPanelSlot_5 or CanvasPanelSlot /Game/UI/playerHud.playerHud_C:WidgetTree.CanvasPanel_0.CanvasPanelSlot_5
+[2019.05.02-06.54.58:924][258]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanelSlot /Game/UI/playerHud.playerHud:WidgetTree.CanvasPanel_0.CanvasPanelSlot_5 or CanvasPanelSlot /Game/UI/sliderControlScreen.sliderControlScreen:WidgetTree.CanvasPanel_0.CanvasPanelSlot_5
+[2019.05.02-06.54.58:924][258]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanelSlot /Game/UI/playerHud.playerHud:WidgetTree.CanvasPanel_0.CanvasPanelSlot_5 or CanvasPanelSlot /Game/UI/sliderControlScreen.sliderControlScreen_C:WidgetTree.CanvasPanel_0.CanvasPanelSlot_5
+[2019.05.02-06.54.58:924][258]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanelSlot /Game/UI/playerHud.playerHud:WidgetTree.CanvasPanel_0.CanvasPanelSlot_5 or CanvasPanelSlot /Engine/Transient.World_3:sliderControlScreen_C_0.WidgetTree_0.CanvasPanel_0.CanvasPanelSlot_5
+[2019.05.02-06.54.58:925][258]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanelSlot /Game/UI/playerHud.playerHud:WidgetTree.CanvasPanel_0.CanvasPanelSlot_5 or CanvasPanelSlot /Engine/Transient.World_3:sliderControlScreen_C_1.WidgetTree_0.CanvasPanel_0.CanvasPanelSlot_5
+[2019.05.02-06.54.58:925][258]LogProperty: Warning: Illegal TEXT reference to a private object in external package (CanvasPanelSlot /Game/UI/playerHud.playerHud:WidgetTree.CanvasPanel_0.CanvasPanelSlot_5) from referencer (VerticalBox /Engine/UMG/Editor/Transient.VerticalBox_0).  Import failed...
+[2019.05.02-06.54.58:925][258]LogProperty: Warning: ObjectProperty /Script/UMG.Widget:Slot: unresolved reference to 'CanvasPanelSlot'"CanvasPanel_0.CanvasPanelSlot_5"''
+[2019.05.02-06.54.58:973][258]LogSlate: Took 0.001421 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/DroidSansFallback.ttf' (3848K)
+[2019.05.02-06.56.02:061][417]BlueprintLog: New page: Compile sliderControlScreen
+[2019.05.02-06.56.02:888][503]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UI/sliderControlScreen" FILE="C:/Users/gosus/Documents/CP-School/SeniorProject/gitRepos/Senior-Project-CPP-Game/Content/UI/sliderControlScreen.uasset" SILENT=true
+[2019.05.02-06.56.02:945][503]LogSavePackage: Moving 'C:/Users/gosus/Documents/CP-School/SeniorProject/gitRepos/Senior-Project-CPP-Game/Saved/sliderControlScreenB4757AF64729677C0E3A1B8056ADC13C.tmp' to 'C:/Users/gosus/Documents/CP-School/SeniorProject/gitRepos/Senior-Project-CPP-Game/Content/UI/sliderControlScreen.uasset'
+[2019.05.02-06.58.06:805][ 88]LogEditorTransaction: Undo Move Node
+[2019.05.02-06.58.07:216][134]LogEditorTransaction: Undo Create Pin Link
+[2019.05.02-06.58.21:782][870]BlueprintLog: New page: Compile sliderControlScreen
+[2019.05.02-06.58.22:199][910]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UI/sliderControlScreen" FILE="C:/Users/gosus/Documents/CP-School/SeniorProject/gitRepos/Senior-Project-CPP-Game/Content/UI/sliderControlScreen.uasset" SILENT=true
+[2019.05.02-06.58.22:240][910]LogSavePackage: Moving 'C:/Users/gosus/Documents/CP-School/SeniorProject/gitRepos/Senior-Project-CPP-Game/Saved/sliderControlScreenF68E5F954D25D779F86276B50889DB04.tmp' to 'C:/Users/gosus/Documents/CP-School/SeniorProject/gitRepos/Senior-Project-CPP-Game/Content/UI/sliderControlScreen.uasset'
+[2019.05.02-06.58.25:736][296]LogTemp: Repeating last play command: Selected Viewport
+[2019.05.02-06.58.25:769][296]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Levels/DemoTown.DemoTown:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/DemoTown.DemoTown:PersistentLevel.DemoTown' with GeneratedClass '/Game/Levels/DemoTown.DemoTown_C' with ClassGeneratedBy '/Game/Levels/DemoTown.DemoTown:PersistentLevel.DemoTown'
+[2019.05.02-06.58.25:769][296]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.05.02-06.58.25:769][296]PIE: New page: PIE session: DemoTown (May 1, 2019, 4:58:25 PM)
+[2019.05.02-06.58.25:769][296]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_DemoTown
+[2019.05.02-06.58.25:797][296]LogPlayLevel: PIE: StaticDuplicateObject took: (0.028095s)
+[2019.05.02-06.58.25:798][296]LogAIModule: Creating AISystem for world DemoTown
+[2019.05.02-06.58.25:798][296]LogPlayLevel: PIE: World Init took: (0.000642s)
+[2019.05.02-06.58.25:798][296]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/DemoTown.DemoTown to /Game/Levels/UEDPIE_0_DemoTown.DemoTown (0.029065s)
+[2019.05.02-06.58.25:877][296]LogInit: XAudio2 using 'LG ULTRAWIDE (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2019.05.02-06.58.25:889][296]LogInit: FAudioDevice initialized.
+[2019.05.02-06.58.25:930][296]LogLoad: Game class is 'BP_HSPGameGameModeBase_C'
+[2019.05.02-06.58.25:934][296]LogWorld: Bringing World /Game/Levels/UEDPIE_0_DemoTown.DemoTown up for play (max tick rate 0) at 2019.05.01-23.58.25
+[2019.05.02-06.58.25:935][296]LogWorld: Bringing up level for play took: 0.004779
+[2019.05.02-06.58.25:951][296]PIE: Play in editor start time for /Game/Levels/UEDPIE_0_DemoTown 0.063
+[2019.05.02-06.58.25:951][296]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Levels/DemoTown.DemoTown:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/DemoTown.DemoTown:PersistentLevel.DemoTown' with GeneratedClass '/Game/Levels/DemoTown.DemoTown_C' with ClassGeneratedBy '/Game/Levels/DemoTown.DemoTown:PersistentLevel.DemoTown'
+[2019.05.02-06.58.26:338][333]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
+[2019.05.02-06.58.28:428][567]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.05.02-06.58.28:622][575]LogSlate: Window 'Viewport 2' being destroyed
+[2019.05.02-06.58.28:628][575]LogSlate: Window 'Viewport 2' being destroyed
+[2019.05.02-06.58.28:628][575]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Levels/DemoTown.DemoTown:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/DemoTown.DemoTown:PersistentLevel.DemoTown' with GeneratedClass '/Game/Levels/DemoTown.DemoTown_C' with ClassGeneratedBy '/Game/Levels/DemoTown.DemoTown:PersistentLevel.DemoTown'
+[2019.05.02-06.58.28:629][575]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.05.02-06.58.28:667][575]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.05.02-06.58.28:667][575]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Levels/DemoTown.DemoTown:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/DemoTown.DemoTown:PersistentLevel.DemoTown' with GeneratedClass '/Game/Levels/DemoTown.DemoTown_C' with ClassGeneratedBy '/Game/Levels/DemoTown.DemoTown:PersistentLevel.DemoTown'
+[2019.05.02-06.58.28:699][575]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.05.02-06.58.28:844][576]LogPlayLevel: Display: Destroying online subsystem :Context_6
+[2019.05.02-06.58.29:970][710]LogTemp: Repeating last play command: Selected Viewport
+[2019.05.02-06.58.30:004][710]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Levels/DemoTown.DemoTown:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/DemoTown.DemoTown:PersistentLevel.DemoTown' with GeneratedClass '/Game/Levels/DemoTown.DemoTown_C' with ClassGeneratedBy '/Game/Levels/DemoTown.DemoTown:PersistentLevel.DemoTown'
+[2019.05.02-06.58.30:004][710]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.05.02-06.58.30:004][710]PIE: New page: PIE session: DemoTown (May 1, 2019, 4:58:30 PM)
+[2019.05.02-06.58.30:004][710]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_DemoTown
+[2019.05.02-06.58.30:031][710]LogPlayLevel: PIE: StaticDuplicateObject took: (0.027356s)
+[2019.05.02-06.58.30:032][710]LogAIModule: Creating AISystem for world DemoTown
+[2019.05.02-06.58.30:032][710]LogPlayLevel: PIE: World Init took: (0.000607s)
+[2019.05.02-06.58.30:032][710]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/DemoTown.DemoTown to /Game/Levels/UEDPIE_0_DemoTown.DemoTown (0.028263s)
+[2019.05.02-06.58.30:098][710]LogInit: XAudio2 using 'LG ULTRAWIDE (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2019.05.02-06.58.30:108][710]LogInit: FAudioDevice initialized.
+[2019.05.02-06.58.30:147][710]LogLoad: Game class is 'BP_HSPGameGameModeBase_C'
+[2019.05.02-06.58.30:171][710]LogWorld: Bringing World /Game/Levels/UEDPIE_0_DemoTown.DemoTown up for play (max tick rate 0) at 2019.05.01-23.58.30
+[2019.05.02-06.58.30:175][710]LogWorld: Bringing up level for play took: 0.025518
+[2019.05.02-06.58.30:196][710]PIE: Play in editor start time for /Game/Levels/UEDPIE_0_DemoTown 0.309
+[2019.05.02-06.58.30:197][710]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Levels/DemoTown.DemoTown:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/DemoTown.DemoTown:PersistentLevel.DemoTown' with GeneratedClass '/Game/Levels/DemoTown.DemoTown_C' with ClassGeneratedBy '/Game/Levels/DemoTown.DemoTown:PersistentLevel.DemoTown'
+[2019.05.02-06.58.36:967][516]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.05.02-06.59.04:203][ 37]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.05.02-06.59.04:263][ 44]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Levels/DemoTown.DemoTown:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/DemoTown.DemoTown:PersistentLevel.DemoTown' with GeneratedClass '/Game/Levels/DemoTown.DemoTown_C' with ClassGeneratedBy '/Game/Levels/DemoTown.DemoTown:PersistentLevel.DemoTown'
+[2019.05.02-06.59.04:263][ 44]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.05.02-06.59.04:339][ 44]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.05.02-06.59.04:340][ 44]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Levels/DemoTown.DemoTown:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/DemoTown.DemoTown:PersistentLevel.DemoTown' with GeneratedClass '/Game/Levels/DemoTown.DemoTown_C' with ClassGeneratedBy '/Game/Levels/DemoTown.DemoTown:PersistentLevel.DemoTown'
+[2019.05.02-06.59.04:411][ 44]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.05.02-06.59.04:432][ 45]LogPlayLevel: Display: Destroying online subsystem :Context_8
+[2019.05.02-06.59.17:039][666]LogTemp: Repeating last play command: Selected Viewport
+[2019.05.02-06.59.17:072][666]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Levels/DemoTown.DemoTown:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/DemoTown.DemoTown:PersistentLevel.DemoTown' with GeneratedClass '/Game/Levels/DemoTown.DemoTown_C' with ClassGeneratedBy '/Game/Levels/DemoTown.DemoTown:PersistentLevel.DemoTown'
+[2019.05.02-06.59.17:072][666]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.05.02-06.59.17:073][666]PIE: New page: PIE session: DemoTown (May 1, 2019, 4:59:17 PM)
+[2019.05.02-06.59.17:073][666]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_DemoTown
+[2019.05.02-06.59.17:110][666]LogPlayLevel: PIE: StaticDuplicateObject took: (0.036562s)
+[2019.05.02-06.59.17:110][666]LogAIModule: Creating AISystem for world DemoTown
+[2019.05.02-06.59.17:111][666]LogPlayLevel: PIE: World Init took: (0.000835s)
+[2019.05.02-06.59.17:111][666]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/DemoTown.DemoTown to /Game/Levels/UEDPIE_0_DemoTown.DemoTown (0.037751s)
+[2019.05.02-06.59.17:180][666]LogInit: XAudio2 using 'LG ULTRAWIDE (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2019.05.02-06.59.17:189][666]LogInit: FAudioDevice initialized.
+[2019.05.02-06.59.17:225][666]LogLoad: Game class is 'BP_HSPGameGameModeBase_C'
+[2019.05.02-06.59.17:234][666]LogWorld: Bringing World /Game/Levels/UEDPIE_0_DemoTown.DemoTown up for play (max tick rate 0) at 2019.05.01-23.59.17
+[2019.05.02-06.59.17:235][666]LogWorld: Bringing up level for play took: 0.008307
+[2019.05.02-06.59.17:255][666]PIE: Play in editor start time for /Game/Levels/UEDPIE_0_DemoTown -0.633
+[2019.05.02-06.59.17:255][666]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Levels/DemoTown.DemoTown:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/DemoTown.DemoTown:PersistentLevel.DemoTown' with GeneratedClass '/Game/Levels/DemoTown.DemoTown_C' with ClassGeneratedBy '/Game/Levels/DemoTown.DemoTown:PersistentLevel.DemoTown'
+[2019.05.02-06.59.22:313][267]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Levels/DemoTown.DemoTown:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/DemoTown.DemoTown:PersistentLevel.DemoTown' with GeneratedClass '/Game/Levels/DemoTown.DemoTown_C' with ClassGeneratedBy '/Game/Levels/DemoTown.DemoTown:PersistentLevel.DemoTown'
+[2019.05.02-06.59.22:314][267]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.05.02-06.59.22:349][267]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.05.02-06.59.22:350][267]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Levels/DemoTown.DemoTown:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/DemoTown.DemoTown:PersistentLevel.DemoTown' with GeneratedClass '/Game/Levels/DemoTown.DemoTown_C' with ClassGeneratedBy '/Game/Levels/DemoTown.DemoTown:PersistentLevel.DemoTown'
+[2019.05.02-06.59.22:378][267]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.05.02-06.59.22:416][269]LogPlayLevel: Display: Destroying online subsystem :Context_9
+[2019.05.02-06.59.27:241][650]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.05.02-07.00.10:176][706]LogEditorTransaction: Undo Changed Anchors
+[2019.05.02-07.00.51:459][ 88]BlueprintLog: New page: Compile sliderControlScreen
+[2019.05.02-07.00.52:026][135]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UI/sliderControlScreen" FILE="C:/Users/gosus/Documents/CP-School/SeniorProject/gitRepos/Senior-Project-CPP-Game/Content/UI/sliderControlScreen.uasset" SILENT=true
+[2019.05.02-07.00.52:072][135]LogSavePackage: Moving 'C:/Users/gosus/Documents/CP-School/SeniorProject/gitRepos/Senior-Project-CPP-Game/Saved/sliderControlScreen0302C5DD479994FD8334358F7F498116.tmp' to 'C:/Users/gosus/Documents/CP-School/SeniorProject/gitRepos/Senior-Project-CPP-Game/Content/UI/sliderControlScreen.uasset'
+[2019.05.02-07.00.57:002][713]BlueprintLog: New page: Compile sliderControlScreen
+[2019.05.02-07.00.57:437][742]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UI/sliderControlScreen" FILE="C:/Users/gosus/Documents/CP-School/SeniorProject/gitRepos/Senior-Project-CPP-Game/Content/UI/sliderControlScreen.uasset" SILENT=true
+[2019.05.02-07.00.57:479][742]LogSavePackage: Moving 'C:/Users/gosus/Documents/CP-School/SeniorProject/gitRepos/Senior-Project-CPP-Game/Saved/sliderControlScreen954D818549EADF2DC27DC7A16A7B6616.tmp' to 'C:/Users/gosus/Documents/CP-School/SeniorProject/gitRepos/Senior-Project-CPP-Game/Content/UI/sliderControlScreen.uasset'
+[2019.05.02-07.03.32:690][948]BlueprintLog: New page: Compile sliderControlScreen
+[2019.05.02-07.03.33:150][990]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UI/sliderControlScreen" FILE="C:/Users/gosus/Documents/CP-School/SeniorProject/gitRepos/Senior-Project-CPP-Game/Content/UI/sliderControlScreen.uasset" SILENT=true
+[2019.05.02-07.03.33:198][990]LogSavePackage: Moving 'C:/Users/gosus/Documents/CP-School/SeniorProject/gitRepos/Senior-Project-CPP-Game/Saved/sliderControlScreen36D5887841138B3BD12F8D89E32CC70D.tmp' to 'C:/Users/gosus/Documents/CP-School/SeniorProject/gitRepos/Senior-Project-CPP-Game/Content/UI/sliderControlScreen.uasset'
+[2019.05.02-07.04.21:298][724]Candidate modules for hot reload:
+[2019.05.02-07.04.21:298][724]  HSPGame
+[2019.05.02-07.04.21:298][724]Launching UnrealBuildTool... [G:/Games/Epic/Games/UE_4.21/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=HSPGame,2336 Win64 Development -TargetType=Editor -Project="C:/Users/gosus/Documents/CP-School/SeniorProject/gitRepos/Senior-Project-CPP-Game/HSPGame.uproject" -canskiplink "C:/Users/gosus/Documents/CP-School/SeniorProject/gitRepos/Senior-Project-CPP-Game/HSPGame.uproject" ]
+[2019.05.02-07.04.21:301][724]Warning: Starting HotReload took  0.0s.
+[2019.05.02-07.04.42:391][210]CompilerResultsLog: New page: Compilation - May 1, 2019, 5:04:42 PM
+[2019.05.02-07.04.42:391][210]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (C:\Users\gosus\Documents\CP-School\SeniorProject\gitRepos\Senior-Project-CPP-Game).
+[2019.05.02-07.04.42:391][210]CompilerResultsLog: Creating makefile for hot reloading HSPGameEditor (source directory changed)
+[2019.05.02-07.04.42:391][210]CompilerResultsLog: Compiling game modules for hot reload
+[2019.05.02-07.04.42:391][210]CompilerResultsLog: Using Visual Studio 2017 14.16.27023 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023) and Windows 10.0.17763.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2019.05.02-07.04.42:391][210]CompilerResultsLog: Parsing headers for HSPGameEditor
+[2019.05.02-07.04.42:391][210]CompilerResultsLog:   Running UnrealHeaderTool "C:\Users\gosus\Documents\CP-School\SeniorProject\gitRepos\Senior-Project-CPP-Game\HSPGame.uproject" "C:\Users\gosus\Documents\CP-School\SeniorProject\gitRepos\Senior-Project-CPP-Game\Intermediate\Build\Win64\HSPGameEditor\Development\HSPGameEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2019.05.02-07.04.42:391][210]CompilerResultsLog: Reflection code generated for HSPGameEditor in 9.6478473 seconds
+[2019.05.02-07.04.42:392][210]CompilerResultsLog: Building 13 actions with 8 processes...
+[2019.05.02-07.04.42:392][210]CompilerResultsLog:   [1/13] HSPGame.init.gen.cpp
+[2019.05.02-07.04.42:392][210]CompilerResultsLog:   [2/13] HSPGameInstance.cpp
+[2019.05.02-07.04.42:392][210]CompilerResultsLog:   [3/13] HSPGameInstance.gen.cpp
+[2019.05.02-07.04.42:392][210]CompilerResultsLog:   [4/13] Attacks.gen.cpp
+[2019.05.02-07.04.42:392][210]CompilerResultsLog:   [5/13] ProtagClass.gen.cpp
+[2019.05.02-07.04.42:392][210]CompilerResultsLog:   [6/13] EnemySlime.gen.cpp
+[2019.05.02-07.04.42:392][210]CompilerResultsLog:   [7/13] GoblinSoldier.cpp
+[2019.05.02-07.04.42:392][210]CompilerResultsLog:   [8/13] Attacks.cpp
+[2019.05.02-07.04.42:392][210]CompilerResultsLog:   [9/13] EnemySlime.cpp
+[2019.05.02-07.04.42:392][210]CompilerResultsLog:   [10/13] EnemyClass.cpp
+[2019.05.02-07.04.42:392][210]CompilerResultsLog:   [11/13] ProtagClass.cpp
+[2019.05.02-07.04.42:392][210]CompilerResultsLog:   [12/13] UE4Editor-HSPGame-2336.lib
+[2019.05.02-07.04.42:392][210]CompilerResultsLog:      Creating library C:\Users\gosus\Documents\CP-School\SeniorProject\gitRepos\Senior-Project-CPP-Game\Intermediate\Build\Win64\UE4Editor\Development\HSPGame\UE4Editor-HSPGame-2336.lib and object C:\Users\gosus\Documents\CP-School\SeniorProject\gitRepos\Senior-Project-CPP-Game\Intermediate\Build\Win64\UE4Editor\Development\HSPGame\UE4Editor-HSPGame-2336.exp
+[2019.05.02-07.04.42:393][210]CompilerResultsLog:   [13/13] UE4Editor-HSPGame-2336.dll
+[2019.05.02-07.04.42:393][210]CompilerResultsLog:      Creating library C:\Users\gosus\Documents\CP-School\SeniorProject\gitRepos\Senior-Project-CPP-Game\Intermediate\Build\Win64\UE4Editor\Development\HSPGame\UE4Editor-HSPGame-2336.suppressed.lib and object C:\Users\gosus\Documents\CP-School\SeniorProject\gitRepos\Senior-Project-CPP-Game\Intermediate\Build\Win64\UE4Editor\Development\HSPGame\UE4Editor-HSPGame-2336.suppressed.exp
+[2019.05.02-07.04.42:393][210]CompilerResultsLog: Total build time: 20.86 seconds (Parallel executor: 7.35 seconds)
+[2019.05.02-07.04.42:393][210]LogMainFrame: MainFrame: Module compiling took 21.103 seconds
+[2019.05.02-07.04.42:454][210]LogClass: Could not find existing class HSPGameInstance in package /Script/HSPGame for HotReload, assuming new class
+[2019.05.02-07.04.42:474][210]LogHotReload: Re-instancing HSPGameInstance after hot-reload.
+[2019.05.02-07.04.42:621][210]LogContentBrowser: Native class hierarchy updated for 'HSPGame' in 0.0003 seconds. Added 10 classes and 2 folders.
+[2019.05.02-07.04.42:625][210]Display: HotReload successful (14 functions remapped  0 scriptstructs remapped)
+[2019.05.02-07.04.43:013][210]LogContentBrowser: Native class hierarchy populated in 0.0072 seconds. Added 2662 classes and 624 folders.
+[2019.05.02-07.04.43:025][210]Display: HotReload took 21.8s.
+[2019.05.02-07.08.43:479][851]BlueprintLog: New page: Compile sliderControlScreen
+[2019.05.02-07.08.43:845][880]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UI/sliderControlScreen" FILE="C:/Users/gosus/Documents/CP-School/SeniorProject/gitRepos/Senior-Project-CPP-Game/Content/UI/sliderControlScreen.uasset" SILENT=true
+[2019.05.02-07.08.43:897][880]LogSavePackage: Moving 'C:/Users/gosus/Documents/CP-School/SeniorProject/gitRepos/Senior-Project-CPP-Game/Saved/sliderControlScreen736E346545E019476F6187954C69B320.tmp' to 'C:/Users/gosus/Documents/CP-School/SeniorProject/gitRepos/Senior-Project-CPP-Game/Content/UI/sliderControlScreen.uasset'
+[2019.05.02-07.08.45:638][ 76]LogTemp: Repeating last play command: Selected Viewport
+[2019.05.02-07.08.45:683][ 76]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Levels/DemoTown.DemoTown:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/DemoTown.DemoTown:PersistentLevel.DemoTown' with GeneratedClass '/Game/Levels/DemoTown.DemoTown_C' with ClassGeneratedBy '/Game/Levels/DemoTown.DemoTown:PersistentLevel.DemoTown'
+[2019.05.02-07.08.45:683][ 76]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.05.02-07.08.45:684][ 76]PIE: New page: PIE session: DemoTown (May 1, 2019, 5:08:45 PM)
+[2019.05.02-07.08.45:684][ 76]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_DemoTown
+[2019.05.02-07.08.45:713][ 76]LogPlayLevel: PIE: StaticDuplicateObject took: (0.029467s)
+[2019.05.02-07.08.45:714][ 76]LogAIModule: Creating AISystem for world DemoTown
+[2019.05.02-07.08.45:714][ 76]LogPlayLevel: PIE: World Init took: (0.000824s)
+[2019.05.02-07.08.45:714][ 76]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/DemoTown.DemoTown to /Game/Levels/UEDPIE_0_DemoTown.DemoTown (0.030710s)
+[2019.05.02-07.08.45:795][ 76]LogInit: XAudio2 using 'LG ULTRAWIDE (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2019.05.02-07.08.45:805][ 76]LogInit: FAudioDevice initialized.
+[2019.05.02-07.08.45:840][ 76]LogLoad: Game class is 'BP_HSPGameGameModeBase_C'
+[2019.05.02-07.08.45:845][ 76]LogWorld: Bringing World /Game/Levels/UEDPIE_0_DemoTown.DemoTown up for play (max tick rate 0) at 2019.05.02-00.08.45
+[2019.05.02-07.08.45:845][ 76]LogWorld: Bringing up level for play took: 0.004206
+[2019.05.02-07.08.45:861][ 76]LogScript: Warning: Attempted to access missing property 'isCastableFB'. If this is a packaged/cooked build, are you attempting to use an editor-only property?
+	playerHud_C /Engine/Transient.UnrealEdEngine_0:HSPGameInstance_0.playerHud_C_0
+	Function /Game/UI/playerHud.playerHud_C:ExecuteUbergraph_playerHud:0DDE
+[2019.05.02-07.08.45:861][ 76]PIE: Error: Blueprint Runtime Error: "Attempted to access missing property 'isCastableFB'. If this is a packaged/cooked build, are you attempting to use an editor-only property?". Blueprint:  playerHud Function:  Execute Ubergraph Player Hud Graph:  EventGraph Node:  Branch
+[2019.05.02-07.08.45:861][ 76]LogScript: Warning: Attempted to access missing property 'isCastableLB'. If this is a packaged/cooked build, are you attempting to use an editor-only property?
+	playerHud_C /Engine/Transient.UnrealEdEngine_0:HSPGameInstance_0.playerHud_C_0
+	Function /Game/UI/playerHud.playerHud_C:ExecuteUbergraph_playerHud:0D92
+[2019.05.02-07.08.45:861][ 76]PIE: Error: Blueprint Runtime Error: "Attempted to access missing property 'isCastableLB'. If this is a packaged/cooked build, are you attempting to use an editor-only property?". Blueprint:  playerHud Function:  Execute Ubergraph Player Hud Graph:  EventGraph Node:  Branch
+[2019.05.02-07.08.45:862][ 76]PIE: Play in editor start time for /Game/Levels/UEDPIE_0_DemoTown -0.025
+[2019.05.02-07.08.45:862][ 76]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Levels/DemoTown.DemoTown:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/DemoTown.DemoTown:PersistentLevel.DemoTown' with GeneratedClass '/Game/Levels/DemoTown.DemoTown_C' with ClassGeneratedBy '/Game/Levels/DemoTown.DemoTown:PersistentLevel.DemoTown'
+[2019.05.02-07.08.45:881][ 76]LogScript: Warning: Attempted to access missing property 'playerEXP'. If this is a packaged/cooked build, are you attempting to use an editor-only property?
+	playerHud_C /Engine/Transient.UnrealEdEngine_0:HSPGameInstance_0.playerHud_C_0
+	Function /Game/UI/playerHud.playerHud_C:GetEXP:00D9
+[2019.05.02-07.08.45:898][ 77]LogScript: Warning: Attempted to access missing property 'playerEXP'. If this is a packaged/cooked build, are you attempting to use an editor-only property?
+	playerHud_C /Engine/Transient.UnrealEdEngine_0:HSPGameInstance_0.playerHud_C_0
+	Function /Game/UI/playerHud.playerHud_C:GetEXP:00D9
+[2019.05.02-07.08.45:904][ 78]LogScript: Warning: Attempted to access missing property 'playerEXP'. If this is a packaged/cooked build, are you attempting to use an editor-only property?
+	playerHud_C /Engine/Transient.UnrealEdEngine_0:HSPGameInstance_0.playerHud_C_0
+	Function /Game/UI/playerHud.playerHud_C:GetEXP:00D9
+[2019.05.02-07.08.45:913][ 79]LogScript: Warning: Attempted to access missing property 'playerEXP'. If this is a packaged/cooked build, are you attempting to use an editor-only property?
+	playerHud_C /Engine/Transient.UnrealEdEngine_0:HSPGameInstance_0.playerHud_C_0
+	Function /Game/UI/playerHud.playerHud_C:GetEXP:00D9
+[2019.05.02-07.08.45:922][ 80]LogScript: Warning: Attempted to access missing property 'playerEXP'. If this is a packaged/cooked build, are you attempting to use an editor-only property?
+	playerHud_C /Engine/Transient.UnrealEdEngine_0:HSPGameInstance_0.playerHud_C_0
+	Function /Game/UI/playerHud.playerHud_C:GetEXP:00D9
+[2019.05.02-07.08.45:929][ 81]LogScript: Warning: Attempted to access missing property 'playerEXP'. If this is a packaged/cooked build, are you attempting to use an editor-only property?
+	playerHud_C /Engine/Transient.UnrealEdEngine_0:HSPGameInstance_0.playerHud_C_0
+	Function /Game/UI/playerHud.playerHud_C:GetEXP:00D9
+[2019.05.02-07.08.45:937][ 82]LogScript: Warning: Attempted to access missing property 'playerEXP'. If this is a packaged/cooked build, are you attempting to use an editor-only property?
+	playerHud_C /Engine/Transient.UnrealEdEngine_0:HSPGameInstance_0.playerHud_C_0
+	Function /Game/UI/playerHud.playerHud_C:GetEXP:00D9
+[2019.05.02-07.08.45:947][ 83]LogScript: Warning: Attempted to access missing property 'playerEXP'. If this is a packaged/cooked build, are you attempting to use an editor-only property?
+	playerHud_C /Engine/Transient.UnrealEdEngine_0:HSPGameInstance_0.playerHud_C_0
+	Function /Game/UI/playerHud.playerHud_C:GetEXP:00D9
+[2019.05.02-07.08.45:954][ 84]LogScript: Warning: Attempted to access missing property 'playerEXP'. If this is a packaged/cooked build, are you attempting to use an editor-only property?
+	playerHud_C /Engine/Transient.UnrealEdEngine_0:HSPGameInstance_0.playerHud_C_0
+	Function /Game/UI/playerHud.playerHud_C:GetEXP:00D9
+[2019.05.02-07.08.45:962][ 85]LogScript: Warning: Attempted to access missing property 'playerEXP'. If this is a packaged/cooked build, are you attempting to use an editor-only property?
+	playerHud_C /Engine/Transient.UnrealEdEngine_0:HSPGameInstance_0.playerHud_C_0
+	Function /Game/UI/playerHud.playerHud_C:GetEXP:00D9
+[2019.05.02-07.08.45:971][ 86]LogScript: Warning: Attempted to access missing property 'playerEXP'. If this is a packaged/cooked build, are you attempting to use an editor-only property?
+	playerHud_C /Engine/Transient.UnrealEdEngine_0:HSPGameInstance_0.playerHud_C_0
+	Function /Game/UI/playerHud.playerHud_C:GetEXP:00D9
+[2019.05.02-07.08.45:980][ 87]LogScript: Warning: Attempted to access missing property 'playerEXP'. If this is a packaged/cooked build, are you attempting to use an editor-only property?
+	playerHud_C /Engine/Transient.UnrealEdEngine_0:HSPGameInstance_0.playerHud_C_0
+	Function /Game/UI/playerHud.playerHud_C:GetEXP:00D9
+[2019.05.02-07.08.45:988][ 88]LogScript: Warning: Attempted to access missing property 'playerEXP'. If this is a packaged/cooked build, are you attempting to use an editor-only property?
+	playerHud_C /Engine/Transient.UnrealEdEngine_0:HSPGameInstance_0.playerHud_C_0
+	Function /Game/UI/playerHud.playerHud_C:GetEXP:00D9
+[2019.05.02-07.08.45:996][ 89]LogScript: Warning: Attempted to access missing property 'playerEXP'. If this is a packaged/cooked build, are you attempting to use an editor-only property?
+	playerHud_C /Engine/Transient.UnrealEdEngine_0:HSPGameInstance_0.playerHud_C_0
+	Function /Game/UI/playerHud.playerHud_C:GetEXP:00D9
+[2019.05.02-07.08.46:004][ 90]LogScript: Warning: Attempted to access missing property 'playerEXP'. If this is a packaged/cooked build, are you attempting to use an editor-only property?
+	playerHud_C /Engine/Transient.UnrealEdEngine_0:HSPGameInstance_0.playerHud_C_0
+	Function /Game/UI/playerHud.playerHud_C:GetEXP:00D9
+[2019.05.02-07.08.48:903][438]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.05.02-07.09.01:422][937]LogNet: Browse: /Game/Levels/Dungeon1
+[2019.05.02-07.09.01:422][937]LogLoad: LoadMap: /Game/Levels/Dungeon1
+[2019.05.02-07.09.01:511][937]LogAIModule: Creating AISystem for world Dungeon1
+[2019.05.02-07.09.01:511][937]LogLoad: Game class is 'BP_HSPGameGameModeBase_C'
+[2019.05.02-07.09.01:527][937]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Dungeon1.Dungeon1 up for play (max tick rate 0) at 2019.05.02-00.09.01
+[2019.05.02-07.09.01:545][937]LogWorld: Bringing up level for play took: 0.033073
+[2019.05.02-07.09.01:551][937]PIE: Error: Blueprint Runtime Error: "Attempted to access missing property 'isCastableFB'. If this is a packaged/cooked build, are you attempting to use an editor-only property?". Blueprint:  playerHud Function:  Execute Ubergraph Player Hud Graph:  EventGraph Node:  Branch
+[2019.05.02-07.09.01:551][937]PIE: Error: Blueprint Runtime Error: "Attempted to access missing property 'isCastableLB'. If this is a packaged/cooked build, are you attempting to use an editor-only property?". Blueprint:  playerHud Function:  Execute Ubergraph Player Hud Graph:  EventGraph Node:  Branch
+[2019.05.02-07.09.01:551][937]LogLoad: Took 0.128557 seconds to LoadMap(/Game/Levels/Dungeon1)
+[2019.05.02-07.09.06:537][534]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.05.02-07.09.15:886][655]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Levels/DemoTown.DemoTown:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/DemoTown.DemoTown:PersistentLevel.DemoTown' with GeneratedClass '/Game/Levels/DemoTown.DemoTown_C' with ClassGeneratedBy '/Game/Levels/DemoTown.DemoTown:PersistentLevel.DemoTown'
+[2019.05.02-07.09.15:886][655]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.05.02-07.09.15:925][655]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.05.02-07.09.15:926][655]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Levels/DemoTown.DemoTown:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/DemoTown.DemoTown:PersistentLevel.DemoTown' with GeneratedClass '/Game/Levels/DemoTown.DemoTown_C' with ClassGeneratedBy '/Game/Levels/DemoTown.DemoTown:PersistentLevel.DemoTown'
+[2019.05.02-07.09.15:956][655]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.05.02-07.09.15:966][655]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.05.02-07.09.16:003][656]LogPlayLevel: Display: Destroying online subsystem :Context_10
+[2019.05.02-07.09.23:428][537]LogAssetEditorManager: Opening Asset editor for WidgetBlueprint /Game/UI/playerHud.playerHud
+[2019.05.02-07.09.25:448][732]LogSlate: Window 'Message Log' being destroyed
+[2019.05.02-07.09.25:452][732]LogSlate: Window 'Message Log' being destroyed
+[2019.05.02-07.09.35:616][869]LogSavePackage: Moving 'C:/Users/gosus/Documents/CP-School/SeniorProject/gitRepos/Senior-Project-CPP-Game/Saved/DemoTownB8010A6342F645F48E56F38C4795A5C5.tmp' to 'C:/Users/gosus/Documents/CP-School/SeniorProject/gitRepos/Senior-Project-CPP-Game/Content/Levels/DemoTown.umap'
+[2019.05.02-07.09.35:673][869]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/DemoTown_BuiltData" FILE="C:/Users/gosus/Documents/CP-School/SeniorProject/gitRepos/Senior-Project-CPP-Game/Content/Levels/DemoTown_BuiltData.uasset" SILENT=true
+[2019.05.02-07.09.36:022][869]LogSavePackage: Moving 'C:/Users/gosus/Documents/CP-School/SeniorProject/gitRepos/Senior-Project-CPP-Game/Saved/DemoTown_BuiltDataC1430EE34C5F9157F2D163BA18B1A591.tmp' to 'C:/Users/gosus/Documents/CP-School/SeniorProject/gitRepos/Senior-Project-CPP-Game/Content/Levels/DemoTown_BuiltData.uasset'
+[2019.05.02-07.09.40:080][347]LogTemp: Repeating last play command: Selected Viewport
+[2019.05.02-07.09.40:129][347]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Levels/DemoTown.DemoTown:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/DemoTown.DemoTown:PersistentLevel.DemoTown' with GeneratedClass '/Game/Levels/DemoTown.DemoTown_C' with ClassGeneratedBy '/Game/Levels/DemoTown.DemoTown:PersistentLevel.DemoTown'
+[2019.05.02-07.09.40:129][347]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.05.02-07.09.40:129][347]PIE: New page: PIE session: DemoTown (May 1, 2019, 5:09:40 PM)
+[2019.05.02-07.09.40:130][347]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_DemoTown
+[2019.05.02-07.09.40:167][347]LogPlayLevel: PIE: StaticDuplicateObject took: (0.037652s)
+[2019.05.02-07.09.40:168][347]LogAIModule: Creating AISystem for world DemoTown
+[2019.05.02-07.09.40:168][347]LogPlayLevel: PIE: World Init took: (0.000664s)
+[2019.05.02-07.09.40:168][347]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/DemoTown.DemoTown to /Game/Levels/UEDPIE_0_DemoTown.DemoTown (0.038686s)
+[2019.05.02-07.09.40:244][347]LogInit: XAudio2 using 'LG ULTRAWIDE (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2019.05.02-07.09.40:254][347]LogInit: FAudioDevice initialized.
+[2019.05.02-07.09.40:298][347]LogLoad: Game class is 'BP_HSPGameGameModeBase_C'
+[2019.05.02-07.09.40:306][347]LogWorld: Bringing World /Game/Levels/UEDPIE_0_DemoTown.DemoTown up for play (max tick rate 0) at 2019.05.02-00.09.40
+[2019.05.02-07.09.40:308][347]LogWorld: Bringing up level for play took: 0.008319
+[2019.05.02-07.09.40:326][347]LogScript: Warning: Attempted to access missing property 'isCastableFB'. If this is a packaged/cooked build, are you attempting to use an editor-only property?
+	playerHud_C /Engine/Transient.UnrealEdEngine_0:HSPGameInstance_1.playerHud_C_0
+	Function /Game/UI/playerHud.playerHud_C:ExecuteUbergraph_playerHud:0DDE
+[2019.05.02-07.09.40:326][347]PIE: Error: Blueprint Runtime Error: "Attempted to access missing property 'isCastableFB'. If this is a packaged/cooked build, are you attempting to use an editor-only property?". Blueprint:  playerHud Function:  Execute Ubergraph Player Hud Graph:  EventGraph Node:  Branch
+[2019.05.02-07.09.40:326][347]LogScript: Warning: Attempted to access missing property 'isCastableLB'. If this is a packaged/cooked build, are you attempting to use an editor-only property?
+	playerHud_C /Engine/Transient.UnrealEdEngine_0:HSPGameInstance_1.playerHud_C_0
+	Function /Game/UI/playerHud.playerHud_C:ExecuteUbergraph_playerHud:0D92
+[2019.05.02-07.09.40:327][347]PIE: Error: Blueprint Runtime Error: "Attempted to access missing property 'isCastableLB'. If this is a packaged/cooked build, are you attempting to use an editor-only property?". Blueprint:  playerHud Function:  Execute Ubergraph Player Hud Graph:  EventGraph Node:  Branch
+[2019.05.02-07.09.40:327][347]PIE: Play in editor start time for /Game/Levels/UEDPIE_0_DemoTown 0.44
+[2019.05.02-07.09.40:327][347]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Levels/DemoTown.DemoTown:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/DemoTown.DemoTown:PersistentLevel.DemoTown' with GeneratedClass '/Game/Levels/DemoTown.DemoTown_C' with ClassGeneratedBy '/Game/Levels/DemoTown.DemoTown:PersistentLevel.DemoTown'
+[2019.05.02-07.09.40:334][347]LogScript: Warning: Attempted to access missing property 'playerEXP'. If this is a packaged/cooked build, are you attempting to use an editor-only property?
+	playerHud_C /Engine/Transient.UnrealEdEngine_0:HSPGameInstance_1.playerHud_C_0
+	Function /Game/UI/playerHud.playerHud_C:GetEXP:00D9
+[2019.05.02-07.09.40:383][348]LogScript: Warning: Attempted to access missing property 'playerEXP'. If this is a packaged/cooked build, are you attempting to use an editor-only property?
+	playerHud_C /Engine/Transient.UnrealEdEngine_0:HSPGameInstance_1.playerHud_C_0
+	Function /Game/UI/playerHud.playerHud_C:GetEXP:00D9
+[2019.05.02-07.09.40:390][349]LogScript: Warning: Attempted to access missing property 'playerEXP'. If this is a packaged/cooked build, are you attempting to use an editor-only property?
+	playerHud_C /Engine/Transient.UnrealEdEngine_0:HSPGameInstance_1.playerHud_C_0
+	Function /Game/UI/playerHud.playerHud_C:GetEXP:00D9
+[2019.05.02-07.09.40:399][350]LogScript: Warning: Attempted to access missing property 'playerEXP'. If this is a packaged/cooked build, are you attempting to use an editor-only property?
+	playerHud_C /Engine/Transient.UnrealEdEngine_0:HSPGameInstance_1.playerHud_C_0
+	Function /Game/UI/playerHud.playerHud_C:GetEXP:00D9
+[2019.05.02-07.09.40:406][351]LogScript: Warning: Attempted to access missing property 'playerEXP'. If this is a packaged/cooked build, are you attempting to use an editor-only property?
+	playerHud_C /Engine/Transient.UnrealEdEngine_0:HSPGameInstance_1.playerHud_C_0
+	Function /Game/UI/playerHud.playerHud_C:GetEXP:00D9
+[2019.05.02-07.09.40:416][352]LogScript: Warning: Attempted to access missing property 'playerEXP'. If this is a packaged/cooked build, are you attempting to use an editor-only property?
+	playerHud_C /Engine/Transient.UnrealEdEngine_0:HSPGameInstance_1.playerHud_C_0
+	Function /Game/UI/playerHud.playerHud_C:GetEXP:00D9
+[2019.05.02-07.09.40:424][353]LogScript: Warning: Attempted to access missing property 'playerEXP'. If this is a packaged/cooked build, are you attempting to use an editor-only property?
+	playerHud_C /Engine/Transient.UnrealEdEngine_0:HSPGameInstance_1.playerHud_C_0
+	Function /Game/UI/playerHud.playerHud_C:GetEXP:00D9
+[2019.05.02-07.09.40:432][354]LogScript: Warning: Attempted to access missing property 'playerEXP'. If this is a packaged/cooked build, are you attempting to use an editor-only property?
+	playerHud_C /Engine/Transient.UnrealEdEngine_0:HSPGameInstance_1.playerHud_C_0
+	Function /Game/UI/playerHud.playerHud_C:GetEXP:00D9
+[2019.05.02-07.09.40:441][355]LogScript: Warning: Attempted to access missing property 'playerEXP'. If this is a packaged/cooked build, are you attempting to use an editor-only property?
+	playerHud_C /Engine/Transient.UnrealEdEngine_0:HSPGameInstance_1.playerHud_C_0
+	Function /Game/UI/playerHud.playerHud_C:GetEXP:00D9
+[2019.05.02-07.09.40:448][356]LogScript: Warning: Attempted to access missing property 'playerEXP'. If this is a packaged/cooked build, are you attempting to use an editor-only property?
+	playerHud_C /Engine/Transient.UnrealEdEngine_0:HSPGameInstance_1.playerHud_C_0
+	Function /Game/UI/playerHud.playerHud_C:GetEXP:00D9
+[2019.05.02-07.09.40:457][357]LogScript: Warning: Attempted to access missing property 'playerEXP'. If this is a packaged/cooked build, are you attempting to use an editor-only property?
+	playerHud_C /Engine/Transient.UnrealEdEngine_0:HSPGameInstance_1.playerHud_C_0
+	Function /Game/UI/playerHud.playerHud_C:GetEXP:00D9
+[2019.05.02-07.09.40:465][358]LogScript: Warning: Attempted to access missing property 'playerEXP'. If this is a packaged/cooked build, are you attempting to use an editor-only property?
+	playerHud_C /Engine/Transient.UnrealEdEngine_0:HSPGameInstance_1.playerHud_C_0
+	Function /Game/UI/playerHud.playerHud_C:GetEXP:00D9
+[2019.05.02-07.09.40:473][359]LogScript: Warning: Attempted to access missing property 'playerEXP'. If this is a packaged/cooked build, are you attempting to use an editor-only property?
+	playerHud_C /Engine/Transient.UnrealEdEngine_0:HSPGameInstance_1.playerHud_C_0
+	Function /Game/UI/playerHud.playerHud_C:GetEXP:00D9
+[2019.05.02-07.09.40:482][360]LogScript: Warning: Attempted to access missing property 'playerEXP'. If this is a packaged/cooked build, are you attempting to use an editor-only property?
+	playerHud_C /Engine/Transient.UnrealEdEngine_0:HSPGameInstance_1.playerHud_C_0
+	Function /Game/UI/playerHud.playerHud_C:GetEXP:00D9
+[2019.05.02-07.09.40:490][361]LogScript: Warning: Attempted to access missing property 'playerEXP'. If this is a packaged/cooked build, are you attempting to use an editor-only property?
+	playerHud_C /Engine/Transient.UnrealEdEngine_0:HSPGameInstance_1.playerHud_C_0
+	Function /Game/UI/playerHud.playerHud_C:GetEXP:00D9
+[2019.05.02-07.09.43:880][768]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.05.02-07.09.51:475][679]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Levels/DemoTown.DemoTown:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/DemoTown.DemoTown:PersistentLevel.DemoTown' with GeneratedClass '/Game/Levels/DemoTown.DemoTown_C' with ClassGeneratedBy '/Game/Levels/DemoTown.DemoTown:PersistentLevel.DemoTown'
+[2019.05.02-07.09.51:475][679]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.05.02-07.09.51:509][679]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.05.02-07.09.51:509][679]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Levels/DemoTown.DemoTown:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/DemoTown.DemoTown:PersistentLevel.DemoTown' with GeneratedClass '/Game/Levels/DemoTown.DemoTown_C' with ClassGeneratedBy '/Game/Levels/DemoTown.DemoTown:PersistentLevel.DemoTown'
+[2019.05.02-07.09.51:543][679]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.05.02-07.09.51:581][680]LogPlayLevel: Display: Destroying online subsystem :Context_13
+[2019.05.02-07.09.54:914][ 75]LogSlate: Window 'Message Log' being destroyed
+[2019.05.02-07.09.54:917][ 75]LogSlate: Window 'Message Log' being destroyed
+[2019.05.02-07.11.07:516][649]BlueprintLog: New page: Compile sliderControlScreen
+[2019.05.02-07.11.07:839][675]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UI/sliderControlScreen" FILE="C:/Users/gosus/Documents/CP-School/SeniorProject/gitRepos/Senior-Project-CPP-Game/Content/UI/sliderControlScreen.uasset" SILENT=true
+[2019.05.02-07.11.07:883][675]LogSavePackage: Moving 'C:/Users/gosus/Documents/CP-School/SeniorProject/gitRepos/Senior-Project-CPP-Game/Saved/sliderControlScreen2C6ACDFA42B17C06F8FA4F9853060129.tmp' to 'C:/Users/gosus/Documents/CP-School/SeniorProject/gitRepos/Senior-Project-CPP-Game/Content/UI/sliderControlScreen.uasset'
+[2019.05.02-07.11.11:305][ 26]LogSavePackage: Moving 'C:/Users/gosus/Documents/CP-School/SeniorProject/gitRepos/Senior-Project-CPP-Game/Saved/DemoTown0294B2E04D4BA12857E0CD95C6B7A6F0.tmp' to 'C:/Users/gosus/Documents/CP-School/SeniorProject/gitRepos/Senior-Project-CPP-Game/Content/Levels/DemoTown.umap'
+[2019.05.02-07.11.11:360][ 26]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/DemoTown_BuiltData" FILE="C:/Users/gosus/Documents/CP-School/SeniorProject/gitRepos/Senior-Project-CPP-Game/Content/Levels/DemoTown_BuiltData.uasset" SILENT=true
+[2019.05.02-07.11.11:608][ 26]LogSavePackage: Moving 'C:/Users/gosus/Documents/CP-School/SeniorProject/gitRepos/Senior-Project-CPP-Game/Saved/DemoTown_BuiltDataA16DCD97427B4C031709DBA728FEF740.tmp' to 'C:/Users/gosus/Documents/CP-School/SeniorProject/gitRepos/Senior-Project-CPP-Game/Content/Levels/DemoTown_BuiltData.uasset'
+[2019.05.02-07.11.38:153][469]BlueprintLog: New page: Compile sliderControlScreen
+[2019.05.02-07.11.38:573][501]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UI/sliderControlScreen" FILE="C:/Users/gosus/Documents/CP-School/SeniorProject/gitRepos/Senior-Project-CPP-Game/Content/UI/sliderControlScreen.uasset" SILENT=true
+[2019.05.02-07.11.38:618][501]LogSavePackage: Moving 'C:/Users/gosus/Documents/CP-School/SeniorProject/gitRepos/Senior-Project-CPP-Game/Saved/sliderControlScreen710B55E2419FA2C3C63E5CB9B831D02E.tmp' to 'C:/Users/gosus/Documents/CP-School/SeniorProject/gitRepos/Senior-Project-CPP-Game/Content/UI/sliderControlScreen.uasset'
+[2019.05.02-07.11.45:634][322]LogTemp: Repeating last play command: Selected Viewport
+[2019.05.02-07.11.45:679][322]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Levels/DemoTown.DemoTown:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/DemoTown.DemoTown:PersistentLevel.DemoTown' with GeneratedClass '/Game/Levels/DemoTown.DemoTown_C' with ClassGeneratedBy '/Game/Levels/DemoTown.DemoTown:PersistentLevel.DemoTown'
+[2019.05.02-07.11.45:679][322]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.05.02-07.11.45:679][322]PIE: New page: PIE session: DemoTown (May 1, 2019, 5:11:45 PM)
+[2019.05.02-07.11.45:679][322]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_DemoTown
+[2019.05.02-07.11.45:715][322]LogPlayLevel: PIE: StaticDuplicateObject took: (0.035628s)
+[2019.05.02-07.11.45:716][322]LogAIModule: Creating AISystem for world DemoTown
+[2019.05.02-07.11.45:716][322]LogPlayLevel: PIE: World Init took: (0.000726s)
+[2019.05.02-07.11.45:716][322]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/DemoTown.DemoTown to /Game/Levels/UEDPIE_0_DemoTown.DemoTown (0.036673s)
+[2019.05.02-07.11.45:790][322]LogInit: XAudio2 using 'LG ULTRAWIDE (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2019.05.02-07.11.45:800][322]LogInit: FAudioDevice initialized.
+[2019.05.02-07.11.45:831][322]LogLoad: Game class is 'BP_HSPGameGameModeBase_C'
+[2019.05.02-07.11.45:835][322]LogWorld: Bringing World /Game/Levels/UEDPIE_0_DemoTown.DemoTown up for play (max tick rate 0) at 2019.05.02-00.11.45
+[2019.05.02-07.11.45:836][322]LogWorld: Bringing up level for play took: 0.003936
+[2019.05.02-07.11.45:851][322]LogScript: Warning: Attempted to access missing property 'isCastableFB'. If this is a packaged/cooked build, are you attempting to use an editor-only property?
+	playerHud_C /Engine/Transient.UnrealEdEngine_0:HSPGameInstance_2.playerHud_C_0
+	Function /Game/UI/playerHud.playerHud_C:ExecuteUbergraph_playerHud:0DDE
+[2019.05.02-07.11.45:851][322]PIE: Error: Blueprint Runtime Error: "Attempted to access missing property 'isCastableFB'. If this is a packaged/cooked build, are you attempting to use an editor-only property?". Blueprint:  playerHud Function:  Execute Ubergraph Player Hud Graph:  EventGraph Node:  Branch
+[2019.05.02-07.11.45:851][322]LogScript: Warning: Attempted to access missing property 'isCastableLB'. If this is a packaged/cooked build, are you attempting to use an editor-only property?
+	playerHud_C /Engine/Transient.UnrealEdEngine_0:HSPGameInstance_2.playerHud_C_0
+	Function /Game/UI/playerHud.playerHud_C:ExecuteUbergraph_playerHud:0D92
+[2019.05.02-07.11.45:851][322]PIE: Error: Blueprint Runtime Error: "Attempted to access missing property 'isCastableLB'. If this is a packaged/cooked build, are you attempting to use an editor-only property?". Blueprint:  playerHud Function:  Execute Ubergraph Player Hud Graph:  EventGraph Node:  Branch
+[2019.05.02-07.11.45:851][322]PIE: Play in editor start time for /Game/Levels/UEDPIE_0_DemoTown -0.036
+[2019.05.02-07.11.45:852][322]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Levels/DemoTown.DemoTown:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/DemoTown.DemoTown:PersistentLevel.DemoTown' with GeneratedClass '/Game/Levels/DemoTown.DemoTown_C' with ClassGeneratedBy '/Game/Levels/DemoTown.DemoTown:PersistentLevel.DemoTown'
+[2019.05.02-07.11.45:869][322]LogScript: Warning: Attempted to access missing property 'playerEXP'. If this is a packaged/cooked build, are you attempting to use an editor-only property?
+	playerHud_C /Engine/Transient.UnrealEdEngine_0:HSPGameInstance_2.playerHud_C_0
+	Function /Game/UI/playerHud.playerHud_C:GetEXP:00D9
+[2019.05.02-07.11.45:883][323]LogScript: Warning: Attempted to access missing property 'playerEXP'. If this is a packaged/cooked build, are you attempting to use an editor-only property?
+	playerHud_C /Engine/Transient.UnrealEdEngine_0:HSPGameInstance_2.playerHud_C_0
+	Function /Game/UI/playerHud.playerHud_C:GetEXP:00D9
+[2019.05.02-07.11.45:892][324]LogScript: Warning: Attempted to access missing property 'playerEXP'. If this is a packaged/cooked build, are you attempting to use an editor-only property?
+	playerHud_C /Engine/Transient.UnrealEdEngine_0:HSPGameInstance_2.playerHud_C_0
+	Function /Game/UI/playerHud.playerHud_C:GetEXP:00D9
+[2019.05.02-07.11.45:900][325]LogScript: Warning: Attempted to access missing property 'playerEXP'. If this is a packaged/cooked build, are you attempting to use an editor-only property?
+	playerHud_C /Engine/Transient.UnrealEdEngine_0:HSPGameInstance_2.playerHud_C_0
+	Function /Game/UI/playerHud.playerHud_C:GetEXP:00D9
+[2019.05.02-07.11.45:908][326]LogScript: Warning: Attempted to access missing property 'playerEXP'. If this is a packaged/cooked build, are you attempting to use an editor-only property?
+	playerHud_C /Engine/Transient.UnrealEdEngine_0:HSPGameInstance_2.playerHud_C_0
+	Function /Game/UI/playerHud.playerHud_C:GetEXP:00D9
+[2019.05.02-07.11.45:917][327]LogScript: Warning: Attempted to access missing property 'playerEXP'. If this is a packaged/cooked build, are you attempting to use an editor-only property?
+	playerHud_C /Engine/Transient.UnrealEdEngine_0:HSPGameInstance_2.playerHud_C_0
+	Function /Game/UI/playerHud.playerHud_C:GetEXP:00D9
+[2019.05.02-07.11.45:925][328]LogScript: Warning: Attempted to access missing property 'playerEXP'. If this is a packaged/cooked build, are you attempting to use an editor-only property?
+	playerHud_C /Engine/Transient.UnrealEdEngine_0:HSPGameInstance_2.playerHud_C_0
+	Function /Game/UI/playerHud.playerHud_C:GetEXP:00D9
+[2019.05.02-07.11.45:933][329]LogScript: Warning: Attempted to access missing property 'playerEXP'. If this is a packaged/cooked build, are you attempting to use an editor-only property?
+	playerHud_C /Engine/Transient.UnrealEdEngine_0:HSPGameInstance_2.playerHud_C_0
+	Function /Game/UI/playerHud.playerHud_C:GetEXP:00D9
+[2019.05.02-07.11.45:942][330]LogScript: Warning: Attempted to access missing property 'playerEXP'. If this is a packaged/cooked build, are you attempting to use an editor-only property?
+	playerHud_C /Engine/Transient.UnrealEdEngine_0:HSPGameInstance_2.playerHud_C_0
+	Function /Game/UI/playerHud.playerHud_C:GetEXP:00D9
+[2019.05.02-07.11.45:950][331]LogScript: Warning: Attempted to access missing property 'playerEXP'. If this is a packaged/cooked build, are you attempting to use an editor-only property?
+	playerHud_C /Engine/Transient.UnrealEdEngine_0:HSPGameInstance_2.playerHud_C_0
+	Function /Game/UI/playerHud.playerHud_C:GetEXP:00D9
+[2019.05.02-07.11.45:958][332]LogScript: Warning: Attempted to access missing property 'playerEXP'. If this is a packaged/cooked build, are you attempting to use an editor-only property?
+	playerHud_C /Engine/Transient.UnrealEdEngine_0:HSPGameInstance_2.playerHud_C_0
+	Function /Game/UI/playerHud.playerHud_C:GetEXP:00D9
+[2019.05.02-07.11.45:966][333]LogScript: Warning: Attempted to access missing property 'playerEXP'. If this is a packaged/cooked build, are you attempting to use an editor-only property?
+	playerHud_C /Engine/Transient.UnrealEdEngine_0:HSPGameInstance_2.playerHud_C_0
+	Function /Game/UI/playerHud.playerHud_C:GetEXP:00D9
+[2019.05.02-07.11.45:975][334]LogScript: Warning: Attempted to access missing property 'playerEXP'. If this is a packaged/cooked build, are you attempting to use an editor-only property?
+	playerHud_C /Engine/Transient.UnrealEdEngine_0:HSPGameInstance_2.playerHud_C_0
+	Function /Game/UI/playerHud.playerHud_C:GetEXP:00D9
+[2019.05.02-07.11.45:982][335]LogScript: Warning: Attempted to access missing property 'playerEXP'. If this is a packaged/cooked build, are you attempting to use an editor-only property?
+	playerHud_C /Engine/Transient.UnrealEdEngine_0:HSPGameInstance_2.playerHud_C_0
+	Function /Game/UI/playerHud.playerHud_C:GetEXP:00D9
+[2019.05.02-07.11.45:991][336]LogScript: Warning: Attempted to access missing property 'playerEXP'. If this is a packaged/cooked build, are you attempting to use an editor-only property?
+	playerHud_C /Engine/Transient.UnrealEdEngine_0:HSPGameInstance_2.playerHud_C_0
+	Function /Game/UI/playerHud.playerHud_C:GetEXP:00D9
+[2019.05.02-07.11.48:651][655]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.05.02-07.12.06:928][772]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Levels/DemoTown.DemoTown:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/DemoTown.DemoTown:PersistentLevel.DemoTown' with GeneratedClass '/Game/Levels/DemoTown.DemoTown_C' with ClassGeneratedBy '/Game/Levels/DemoTown.DemoTown:PersistentLevel.DemoTown'
+[2019.05.02-07.12.06:928][772]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.05.02-07.12.06:997][772]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.05.02-07.12.06:997][772]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Levels/DemoTown.DemoTown:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/DemoTown.DemoTown:PersistentLevel.DemoTown' with GeneratedClass '/Game/Levels/DemoTown.DemoTown_C' with ClassGeneratedBy '/Game/Levels/DemoTown.DemoTown:PersistentLevel.DemoTown'
+[2019.05.02-07.12.07:051][772]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.05.02-07.12.07:094][773]LogPlayLevel: Display: Destroying online subsystem :Context_14
+[2019.05.02-07.12.09:526][ 62]LogSlate: Window 'Message Log' being destroyed
+[2019.05.02-07.12.09:530][ 62]LogSlate: Window 'Message Log' being destroyed
+[2019.05.02-07.12.13:314][510]LogTemp: Repeating last play command: Selected Viewport
+[2019.05.02-07.12.13:348][510]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Levels/DemoTown.DemoTown:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/DemoTown.DemoTown:PersistentLevel.DemoTown' with GeneratedClass '/Game/Levels/DemoTown.DemoTown_C' with ClassGeneratedBy '/Game/Levels/DemoTown.DemoTown:PersistentLevel.DemoTown'
+[2019.05.02-07.12.13:348][510]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.05.02-07.12.13:349][510]PIE: New page: PIE session: DemoTown (May 1, 2019, 5:12:13 PM)
+[2019.05.02-07.12.13:349][510]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_DemoTown
+[2019.05.02-07.12.13:379][510]LogPlayLevel: PIE: StaticDuplicateObject took: (0.030835s)
+[2019.05.02-07.12.13:380][510]LogAIModule: Creating AISystem for world DemoTown
+[2019.05.02-07.12.13:380][510]LogPlayLevel: PIE: World Init took: (0.000674s)
+[2019.05.02-07.12.13:380][510]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/DemoTown.DemoTown to /Game/Levels/UEDPIE_0_DemoTown.DemoTown (0.031903s)
+[2019.05.02-07.12.13:459][510]LogInit: XAudio2 using 'LG ULTRAWIDE (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2019.05.02-07.12.13:469][510]LogInit: FAudioDevice initialized.
+[2019.05.02-07.12.13:501][510]LogLoad: Game class is 'BP_HSPGameGameModeBase_C'
+[2019.05.02-07.12.13:509][510]LogWorld: Bringing World /Game/Levels/UEDPIE_0_DemoTown.DemoTown up for play (max tick rate 0) at 2019.05.02-00.12.13
+[2019.05.02-07.12.13:510][510]LogWorld: Bringing up level for play took: 0.008015
+[2019.05.02-07.12.13:530][510]LogScript: Warning: Attempted to access missing property 'isCastableFB'. If this is a packaged/cooked build, are you attempting to use an editor-only property?
+	playerHud_C /Engine/Transient.UnrealEdEngine_0:HSPGameInstance_3.playerHud_C_0
+	Function /Game/UI/playerHud.playerHud_C:ExecuteUbergraph_playerHud:0DDE
+[2019.05.02-07.12.13:530][510]PIE: Error: Blueprint Runtime Error: "Attempted to access missing property 'isCastableFB'. If this is a packaged/cooked build, are you attempting to use an editor-only property?". Blueprint:  playerHud Function:  Execute Ubergraph Player Hud Graph:  EventGraph Node:  Branch
+[2019.05.02-07.12.13:530][510]LogScript: Warning: Attempted to access missing property 'isCastableLB'. If this is a packaged/cooked build, are you attempting to use an editor-only property?
+	playerHud_C /Engine/Transient.UnrealEdEngine_0:HSPGameInstance_3.playerHud_C_0
+	Function /Game/UI/playerHud.playerHud_C:ExecuteUbergraph_playerHud:0D92
+[2019.05.02-07.12.13:530][510]PIE: Error: Blueprint Runtime Error: "Attempted to access missing property 'isCastableLB'. If this is a packaged/cooked build, are you attempting to use an editor-only property?". Blueprint:  playerHud Function:  Execute Ubergraph Player Hud Graph:  EventGraph Node:  Branch
+[2019.05.02-07.12.13:531][510]PIE: Play in editor start time for /Game/Levels/UEDPIE_0_DemoTown -0.356
+[2019.05.02-07.12.13:531][510]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Levels/DemoTown.DemoTown:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/DemoTown.DemoTown:PersistentLevel.DemoTown' with GeneratedClass '/Game/Levels/DemoTown.DemoTown_C' with ClassGeneratedBy '/Game/Levels/DemoTown.DemoTown:PersistentLevel.DemoTown'
+[2019.05.02-07.12.13:569][510]LogScript: Warning: Attempted to access missing property 'playerEXP'. If this is a packaged/cooked build, are you attempting to use an editor-only property?
+	playerHud_C /Engine/Transient.UnrealEdEngine_0:HSPGameInstance_3.playerHud_C_0
+	Function /Game/UI/playerHud.playerHud_C:GetEXP:00D9
+[2019.05.02-07.12.13:595][511]LogScript: Warning: Attempted to access missing property 'playerEXP'. If this is a packaged/cooked build, are you attempting to use an editor-only property?
+	playerHud_C /Engine/Transient.UnrealEdEngine_0:HSPGameInstance_3.playerHud_C_0
+	Function /Game/UI/playerHud.playerHud_C:GetEXP:00D9
+[2019.05.02-07.12.13:603][512]LogScript: Warning: Attempted to access missing property 'playerEXP'. If this is a packaged/cooked build, are you attempting to use an editor-only property?
+	playerHud_C /Engine/Transient.UnrealEdEngine_0:HSPGameInstance_3.playerHud_C_0
+	Function /Game/UI/playerHud.playerHud_C:GetEXP:00D9
+[2019.05.02-07.12.13:612][513]LogScript: Warning: Attempted to access missing property 'playerEXP'. If this is a packaged/cooked build, are you attempting to use an editor-only property?
+	playerHud_C /Engine/Transient.UnrealEdEngine_0:HSPGameInstance_3.playerHud_C_0
+	Function /Game/UI/playerHud.playerHud_C:GetEXP:00D9
+[2019.05.02-07.12.13:619][514]LogScript: Warning: Attempted to access missing property 'playerEXP'. If this is a packaged/cooked build, are you attempting to use an editor-only property?
+	playerHud_C /Engine/Transient.UnrealEdEngine_0:HSPGameInstance_3.playerHud_C_0
+	Function /Game/UI/playerHud.playerHud_C:GetEXP:00D9
+[2019.05.02-07.12.13:628][515]LogScript: Warning: Attempted to access missing property 'playerEXP'. If this is a packaged/cooked build, are you attempting to use an editor-only property?
+	playerHud_C /Engine/Transient.UnrealEdEngine_0:HSPGameInstance_3.playerHud_C_0
+	Function /Game/UI/playerHud.playerHud_C:GetEXP:00D9
+[2019.05.02-07.12.13:636][516]LogScript: Warning: Attempted to access missing property 'playerEXP'. If this is a packaged/cooked build, are you attempting to use an editor-only property?
+	playerHud_C /Engine/Transient.UnrealEdEngine_0:HSPGameInstance_3.playerHud_C_0
+	Function /Game/UI/playerHud.playerHud_C:GetEXP:00D9
+[2019.05.02-07.12.13:644][517]LogScript: Warning: Attempted to access missing property 'playerEXP'. If this is a packaged/cooked build, are you attempting to use an editor-only property?
+	playerHud_C /Engine/Transient.UnrealEdEngine_0:HSPGameInstance_3.playerHud_C_0
+	Function /Game/UI/playerHud.playerHud_C:GetEXP:00D9
+[2019.05.02-07.12.13:654][518]LogScript: Warning: Attempted to access missing property 'playerEXP'. If this is a packaged/cooked build, are you attempting to use an editor-only property?
+	playerHud_C /Engine/Transient.UnrealEdEngine_0:HSPGameInstance_3.playerHud_C_0
+	Function /Game/UI/playerHud.playerHud_C:GetEXP:00D9
+[2019.05.02-07.12.13:661][519]LogScript: Warning: Attempted to access missing property 'playerEXP'. If this is a packaged/cooked build, are you attempting to use an editor-only property?
+	playerHud_C /Engine/Transient.UnrealEdEngine_0:HSPGameInstance_3.playerHud_C_0
+	Function /Game/UI/playerHud.playerHud_C:GetEXP:00D9
+[2019.05.02-07.12.13:669][520]LogScript: Warning: Attempted to access missing property 'playerEXP'. If this is a packaged/cooked build, are you attempting to use an editor-only property?
+	playerHud_C /Engine/Transient.UnrealEdEngine_0:HSPGameInstance_3.playerHud_C_0
+	Function /Game/UI/playerHud.playerHud_C:GetEXP:00D9
+[2019.05.02-07.12.13:678][521]LogScript: Warning: Attempted to access missing property 'playerEXP'. If this is a packaged/cooked build, are you attempting to use an editor-only property?
+	playerHud_C /Engine/Transient.UnrealEdEngine_0:HSPGameInstance_3.playerHud_C_0
+	Function /Game/UI/playerHud.playerHud_C:GetEXP:00D9
+[2019.05.02-07.12.13:686][522]LogScript: Warning: Attempted to access missing property 'playerEXP'. If this is a packaged/cooked build, are you attempting to use an editor-only property?
+	playerHud_C /Engine/Transient.UnrealEdEngine_0:HSPGameInstance_3.playerHud_C_0
+	Function /Game/UI/playerHud.playerHud_C:GetEXP:00D9
+[2019.05.02-07.12.13:695][523]LogScript: Warning: Attempted to access missing property 'playerEXP'. If this is a packaged/cooked build, are you attempting to use an editor-only property?
+	playerHud_C /Engine/Transient.UnrealEdEngine_0:HSPGameInstance_3.playerHud_C_0
+	Function /Game/UI/playerHud.playerHud_C:GetEXP:00D9
+[2019.05.02-07.12.13:703][524]LogScript: Warning: Attempted to access missing property 'playerEXP'. If this is a packaged/cooked build, are you attempting to use an editor-only property?
+	playerHud_C /Engine/Transient.UnrealEdEngine_0:HSPGameInstance_3.playerHud_C_0
+	Function /Game/UI/playerHud.playerHud_C:GetEXP:00D9
+[2019.05.02-07.12.16:615][873]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.05.02-07.12.26:825][ 61]LogSlate: Window 'HSPGame - Unreal Editor' being destroyed
+[2019.05.02-07.12.26:957][ 61]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Levels/DemoTown.DemoTown:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/DemoTown.DemoTown:PersistentLevel.DemoTown' with GeneratedClass '/Game/Levels/DemoTown.DemoTown_C' with ClassGeneratedBy '/Game/Levels/DemoTown.DemoTown:PersistentLevel.DemoTown'
+[2019.05.02-07.12.26:957][ 61]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.05.02-07.12.26:991][ 61]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.05.02-07.12.26:991][ 61]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Levels/DemoTown.DemoTown:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/DemoTown.DemoTown:PersistentLevel.DemoTown' with GeneratedClass '/Game/Levels/DemoTown.DemoTown_C' with ClassGeneratedBy '/Game/Levels/DemoTown.DemoTown:PersistentLevel.DemoTown'
+[2019.05.02-07.12.27:022][ 61]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.05.02-07.12.27:191][ 62]Cmd: QUIT_EDITOR
+[2019.05.02-07.12.28:126][ 62]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2019.05.02-07.12.28:141][ 62]LogExit: Preparing to exit.
+[2019.05.02-07.12.28:503][ 62]LogExit: Editor shut down
+[2019.05.02-07.12.28:503][ 62]LogExit: Transaction tracking system shut down
+[2019.05.02-07.12.28:864][ 62]LogExit: Object subsystem successfully closed.
+[2019.05.02-07.12.28:918][ 62]LogShaderCompilers: Display: Shaders left to compile 0
+[2019.05.02-07.12.28:923][ 62]LogD3D11RHI: Shutdown
+[2019.05.02-07.12.28:923][ 62]LogD3D11RHI: CleanupD3DDevice
+[2019.05.02-07.12.28:926][ 62]LogD3D11RHI: ~FD3D11DynamicRHI
+[2019.05.02-07.12.28:959][ 62]LogModuleManager: Shutting down and abandoning module HSPGame (633)
+[2019.05.02-07.12.28:959][ 62]LogModuleManager: Shutting down and abandoning module SequencerWidgets (632)
+[2019.05.02-07.12.28:960][ 62]LogModuleManager: Shutting down and abandoning module MovieSceneCapture (630)
+[2019.05.02-07.12.28:960][ 62]LogModuleManager: Shutting down and abandoning module Voice (628)
+[2019.05.02-07.12.28:960][ 62]LogModuleManager: Shutting down and abandoning module BlueprintGraph (626)
+[2019.05.02-07.12.28:960][ 62]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (624)
+[2019.05.02-07.12.28:960][ 62]LogModuleManager: Shutting down and abandoning module SceneOutliner (622)
+[2019.05.02-07.12.28:960][ 62]LogModuleManager: Shutting down and abandoning module AddContentDialog (620)
+[2019.05.02-07.12.28:960][ 62]LogModuleManager: Shutting down and abandoning module WidgetCarousel (619)
+[2019.05.02-07.12.28:960][ 62]LogModuleManager: Shutting down and abandoning module EditorWidgets (616)
+[2019.05.02-07.12.28:960][ 62]LogModuleManager: Shutting down and abandoning module CollectionManager (614)
+[2019.05.02-07.12.28:961][ 62]LogModuleManager: Shutting down and abandoning module StatsViewer (612)
+[2019.05.02-07.12.28:961][ 62]LogModuleManager: Shutting down and abandoning module FoliageEdit (610)
+[2019.05.02-07.12.28:961][ 62]LogModuleManager: Shutting down and abandoning module LandscapeEditor (608)
+[2019.05.02-07.12.28:965][ 62]LogModuleManager: Shutting down and abandoning module MeshPaintMode (606)
+[2019.05.02-07.12.28:966][ 62]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (604)
+[2019.05.02-07.12.28:966][ 62]LogModuleManager: Shutting down and abandoning module ActorPickerMode (602)
+[2019.05.02-07.12.28:966][ 62]LogModuleManager: Shutting down and abandoning module GeometryMode (600)
+[2019.05.02-07.12.28:966][ 62]LogModuleManager: Shutting down and abandoning module TextureAlignMode (598)
+[2019.05.02-07.12.28:966][ 62]LogModuleManager: Shutting down and abandoning module BspMode (596)
+[2019.05.02-07.12.28:966][ 62]LogModuleManager: Shutting down and abandoning module PIEPreviewDeviceProfileSelector (594)
+[2019.05.02-07.12.28:966][ 62]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (592)
+[2019.05.02-07.12.28:966][ 62]LogModuleManager: Shutting down and abandoning module AutomationWorker (590)
+[2019.05.02-07.12.28:966][ 62]LogModuleManager: Shutting down and abandoning module AudioCaptureEditor (588)
+[2019.05.02-07.12.28:966][ 62]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (586)
+[2019.05.02-07.12.28:966][ 62]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (584)
+[2019.05.02-07.12.28:966][ 62]LogModuleManager: Shutting down and abandoning module PlacementMode (583)
+[2019.05.02-07.12.28:966][ 62]LogModuleManager: Shutting down and abandoning module MaterialEditor (582)
+[2019.05.02-07.12.28:970][ 62]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (578)
+[2019.05.02-07.12.28:970][ 62]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (576)
+[2019.05.02-07.12.28:970][ 62]LogModuleManager: Shutting down and abandoning module WebMMediaFactory (574)
+[2019.05.02-07.12.28:970][ 62]LogModuleManager: Shutting down and abandoning module WebMMediaEditor (572)
+[2019.05.02-07.12.28:970][ 62]LogModuleManager: Shutting down and abandoning module WebMMedia (570)
+[2019.05.02-07.12.28:970][ 62]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (568)
+[2019.05.02-07.12.28:970][ 62]LogModuleManager: Shutting down and abandoning module MediaCompositingEditor (566)
+[2019.05.02-07.12.28:970][ 62]LogModuleManager: Shutting down and abandoning module SequenceRecorder (565)
+[2019.05.02-07.12.28:970][ 62]LogModuleManager: Shutting down and abandoning module OpenExrWrapper (562)
+[2019.05.02-07.12.28:970][ 62]LogModuleManager: Shutting down and abandoning module ImgMediaFactory (560)
+[2019.05.02-07.12.28:970][ 62]LogModuleManager: Shutting down and abandoning module ImgMediaEditor (558)
+[2019.05.02-07.12.28:971][ 62]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (556)
+[2019.05.02-07.12.28:971][ 62]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (554)
+[2019.05.02-07.12.28:971][ 62]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (552)
+[2019.05.02-07.12.28:971][ 62]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (550)
+[2019.05.02-07.12.28:971][ 62]LogModuleManager: Shutting down and abandoning module MagicLeapCameraPreviewFactory (548)
+[2019.05.02-07.12.28:971][ 62]LogModuleManager: Shutting down and abandoning module MagicLeapMediaFactory (546)
+[2019.05.02-07.12.28:971][ 62]LogModuleManager: Shutting down and abandoning module MagicLeapMediaEditor (544)
+[2019.05.02-07.12.28:971][ 62]LogModuleManager: Shutting down and abandoning module CharacterAI (542)
+[2019.05.02-07.12.28:971][ 62]LogModuleManager: Shutting down and abandoning module SmartSnapping (540)
+[2019.05.02-07.12.28:971][ 62]LogModuleManager: Shutting down and abandoning module SessionServices (538)
+[2019.05.02-07.12.28:971][ 62]LogModuleManager: Shutting down and abandoning module ViewportSnapping (536)
+[2019.05.02-07.12.28:971][ 62]LogModuleManager: Shutting down and abandoning module ViewportInteraction (534)
+[2019.05.02-07.12.28:972][ 62]LogModuleManager: Shutting down and abandoning module ClothPainter (532)
+[2019.05.02-07.12.28:972][ 62]LogModuleManager: Shutting down and abandoning module SkeletalMeshEditor (531)
+[2019.05.02-07.12.28:974][ 62]LogModuleManager: Shutting down and abandoning module LogVisualizer (528)
+[2019.05.02-07.12.28:974][ 62]LogModuleManager: Shutting down and abandoning module IntroTutorials (526)
+[2019.05.02-07.12.28:975][ 62]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (525)
+[2019.05.02-07.12.28:975][ 62]LogModuleManager: Shutting down and abandoning module LuminPlatformEditor (522)
+[2019.05.02-07.12.28:975][ 62]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (520)
+[2019.05.02-07.12.28:975][ 62]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (518)
+[2019.05.02-07.12.28:976][ 62]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (516)
+[2019.05.02-07.12.28:976][ 62]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (515)
+[2019.05.02-07.12.29:092][ 62]LogModuleManager: Shutting down and abandoning module WindowsPlatformEditor (512)
+[2019.05.02-07.12.29:092][ 62]LogModuleManager: Shutting down and abandoning module LuminRuntimeSettings (510)
+[2019.05.02-07.12.29:092][ 62]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (508)
+[2019.05.02-07.12.29:092][ 62]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (506)
+[2019.05.02-07.12.29:092][ 62]LogModuleManager: Shutting down and abandoning module TimeManagementEditor (504)
+[2019.05.02-07.12.29:092][ 62]LogModuleManager: Shutting down and abandoning module InputBindingEditor (502)
+[2019.05.02-07.12.29:097][ 62]LogModuleManager: Shutting down and abandoning module MergeActors (500)
+[2019.05.02-07.12.29:097][ 62]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (498)
+[2019.05.02-07.12.29:098][ 62]LogModuleManager: Shutting down and abandoning module LocalizationService (497)
+[2019.05.02-07.12.29:098][ 62]LogModuleManager: Shutting down and abandoning module HardwareTargeting (494)
+[2019.05.02-07.12.29:098][ 62]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (492)
+[2019.05.02-07.12.29:098][ 62]LogModuleManager: Shutting down and abandoning module UndoHistory (490)
+[2019.05.02-07.12.29:098][ 62]LogModuleManager: Shutting down and abandoning module XmlParser (488)
+[2019.05.02-07.12.29:098][ 62]LogModuleManager: Shutting down and abandoning module Blutility (486)
+[2019.05.02-07.12.29:098][ 62]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (484)
+[2019.05.02-07.12.29:098][ 62]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (483)
+[2019.05.02-07.12.29:098][ 62]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (480)
+[2019.05.02-07.12.29:098][ 62]LogModuleManager: Shutting down and abandoning module SettingsEditor (478)
+[2019.05.02-07.12.29:098][ 62]LogModuleManager: Shutting down and abandoning module ProjectLauncher (476)
+[2019.05.02-07.12.29:099][ 62]LogModuleManager: Shutting down and abandoning module SessionFrontend (474)
+[2019.05.02-07.12.29:099][ 62]LogModuleManager: Shutting down and abandoning module ProfilerClient (472)
+[2019.05.02-07.12.29:100][ 62]LogModuleManager: Shutting down and abandoning module DeviceManager (470)
+[2019.05.02-07.12.29:100][ 62]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (469)
+[2019.05.02-07.12.29:166][ 62]LogModuleManager: Shutting down and abandoning module AutomationController (466)
+[2019.05.02-07.12.29:166][ 62]LogModuleManager: Shutting down and abandoning module AutomationWindow (464)
+[2019.05.02-07.12.29:176][ 62]LogModuleManager: Shutting down and abandoning module Layers (462)
+[2019.05.02-07.12.29:180][ 62]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (460)
+[2019.05.02-07.12.29:180][ 62]LogModuleManager: Shutting down and abandoning module DetailCustomizations (458)
+[2019.05.02-07.12.29:180][ 62]LogModuleManager: Shutting down and abandoning module PackagesDialog (456)
+[2019.05.02-07.12.29:180][ 62]LogModuleManager: Shutting down and abandoning module Persona (454)
+[2019.05.02-07.12.29:181][ 62]LogModuleManager: Shutting down and abandoning module AdvancedPreviewScene (453)
+[2019.05.02-07.12.29:181][ 62]LogModuleManager: Shutting down and abandoning module AnimGraph (451)
+[2019.05.02-07.12.29:181][ 62]LogModuleManager: Shutting down and abandoning module Kismet (448)
+[2019.05.02-07.12.29:187][ 62]LogModuleManager: Shutting down and abandoning module GraphEditor (446)
+[2019.05.02-07.12.29:187][ 62]LogModuleManager: Shutting down and abandoning module ClassViewer (444)
+[2019.05.02-07.12.29:187][ 62]LogModuleManager: Shutting down and abandoning module Toolbox (442)
+[2019.05.02-07.12.29:187][ 62]LogModuleManager: Shutting down and abandoning module DesktopPlatform (441)
+[2019.05.02-07.12.29:188][ 62]LogModuleManager: Shutting down and abandoning module ModuleUI (438)
+[2019.05.02-07.12.29:188][ 62]LogModuleManager: Shutting down and abandoning module MovieSceneTools (436)
+[2019.05.02-07.12.29:188][ 62]LogModuleManager: Shutting down and abandoning module OutputLog (434)
+[2019.05.02-07.12.29:189][ 62]LogModuleManager: Shutting down and abandoning module GammaUI (432)
+[2019.05.02-07.12.29:189][ 62]LogModuleManager: Shutting down and abandoning module Documentation (430)
+[2019.05.02-07.12.29:189][ 62]LogModuleManager: Shutting down and abandoning module MovieSceneTracks (428)
+[2019.05.02-07.12.29:189][ 62]LogModuleManager: Shutting down and abandoning module MovieScene (426)
+[2019.05.02-07.12.29:189][ 62]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (424)
+[2019.05.02-07.12.29:189][ 62]LogModuleManager: Shutting down and abandoning module LauncherPlatform (422)
+[2019.05.02-07.12.29:189][ 62]LogModuleManager: Shutting down and abandoning module AnalyticsET (420)
+[2019.05.02-07.12.29:189][ 62]LogModuleManager: Shutting down and abandoning module PortalServices (418)
+[2019.05.02-07.12.29:189][ 62]LogModuleManager: Shutting down and abandoning module PortalRpc (416)
+[2019.05.02-07.12.29:189][ 62]LogModuleManager: Shutting down and abandoning module MessagingRpc (414)
+[2019.05.02-07.12.29:189][ 62]LogModuleManager: Shutting down and abandoning module AIModule (412)
+[2019.05.02-07.12.29:190][ 62]LogModuleManager: Shutting down and abandoning module GameplayDebugger (411)
+[2019.05.02-07.12.29:190][ 62]LogModuleManager: Shutting down and abandoning module AITestSuite (409)
+[2019.05.02-07.12.29:190][ 62]LogModuleManager: Shutting down and abandoning module NavigationSystem (407)
+[2019.05.02-07.12.29:190][ 62]LogModuleManager: Shutting down and abandoning module ImageWriteQueue (404)
+[2019.05.02-07.12.29:197][ 62]LogModuleManager: Shutting down and abandoning module ProfilerService (402)
+[2019.05.02-07.12.29:229][ 62]LogModuleManager: Shutting down and abandoning module TaskGraph (400)
+[2019.05.02-07.12.29:229][ 62]LogModuleManager: Shutting down and abandoning module SteamVRController (398)
+[2019.05.02-07.12.29:229][ 62]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (396)
+[2019.05.02-07.12.29:229][ 62]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (394)
+[2019.05.02-07.12.29:229][ 62]LogModuleManager: Shutting down and abandoning module OculusInput (392)
+[2019.05.02-07.12.29:229][ 62]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (390)
+[2019.05.02-07.12.29:229][ 62]LogModuleManager: Shutting down and abandoning module EditableMesh (388)
+[2019.05.02-07.12.29:229][ 62]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (386)
+[2019.05.02-07.12.29:230][ 62]LogModuleManager: Shutting down and abandoning module CableComponent (384)
+[2019.05.02-07.12.29:230][ 62]LogModuleManager: Shutting down and abandoning module AudioCapture (382)
+[2019.05.02-07.12.29:230][ 62]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (380)
+[2019.05.02-07.12.29:230][ 62]LogModuleManager: Shutting down and abandoning module AndroidPermission (378)
+[2019.05.02-07.12.29:230][ 62]LogModuleManager: Shutting down and abandoning module NUTUnrealEngine4 (376)
+[2019.05.02-07.12.29:230][ 62]LogModuleManager: Shutting down and abandoning module NetcodeUnitTest (374)
+[2019.05.02-07.12.29:230][ 62]LogModuleManager: Shutting down and abandoning module MediaCompositing (372)
+[2019.05.02-07.12.29:230][ 62]LogModuleManager: Shutting down and abandoning module LinearTimecode (370)
+[2019.05.02-07.12.29:230][ 62]LogModuleManager: Shutting down and abandoning module ImgMedia (368)
+[2019.05.02-07.12.29:242][ 62]LogModuleManager: Shutting down and abandoning module HTML5Networking (366)
+[2019.05.02-07.12.29:242][ 62]LogModuleManager: Shutting down and abandoning module GeometryCacheTracks (364)
+[2019.05.02-07.12.29:242][ 62]LogModuleManager: Shutting down and abandoning module GeometryCacheSequencer (362)
+[2019.05.02-07.12.29:242][ 62]LogModuleManager: Shutting down and abandoning module BackChannel (360)
+[2019.05.02-07.12.29:242][ 62]LogModuleManager: Shutting down and abandoning module AppleVision (358)
+[2019.05.02-07.12.29:242][ 62]LogModuleManager: Shutting down and abandoning module AppleImageUtilsBlueprintSupport (356)
+[2019.05.02-07.12.29:242][ 62]LogModuleManager: Shutting down and abandoning module AppleImageUtils (354)
+[2019.05.02-07.12.29:242][ 62]LogModuleManager: Shutting down and abandoning module AlembicImporter (352)
+[2019.05.02-07.12.29:243][ 62]LogModuleManager: Shutting down and abandoning module AlembicLibrary (351)
+[2019.05.02-07.12.29:243][ 62]LogModuleManager: Shutting down and abandoning module GeometryCache (350)
+[2019.05.02-07.12.29:243][ 62]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (349)
+[2019.05.02-07.12.29:243][ 62]LogModuleManager: Shutting down and abandoning module VariantManagerContent (344)
+[2019.05.02-07.12.29:243][ 62]LogModuleManager: Shutting down and abandoning module DatasmithContentEditor (342)
+[2019.05.02-07.12.29:243][ 62]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (340)
+[2019.05.02-07.12.29:243][ 62]LogModuleManager: Shutting down and abandoning module PluginBrowser (338)
+[2019.05.02-07.12.29:247][ 62]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (336)
+[2019.05.02-07.12.29:248][ 62]LogModuleManager: Shutting down and abandoning module PolygonModeling (334)
+[2019.05.02-07.12.29:248][ 62]LogModuleManager: Shutting down and abandoning module MeshEditor (332)
+[2019.05.02-07.12.29:248][ 62]LogModuleManager: Shutting down and abandoning module CryptoKeysOpenSSL (330)
+[2019.05.02-07.12.29:248][ 62]LogModuleManager: Shutting down and abandoning module CryptoKeys (328)
+[2019.05.02-07.12.29:248][ 62]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (326)
+[2019.05.02-07.12.29:248][ 62]LogModuleManager: Shutting down and abandoning module VisualStudioCodeSourceCodeAccess (324)
+[2019.05.02-07.12.29:248][ 62]LogModuleManager: Shutting down and abandoning module UObjectPlugin (322)
+[2019.05.02-07.12.29:248][ 62]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (320)
+[2019.05.02-07.12.29:248][ 62]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (318)
+[2019.05.02-07.12.29:249][ 62]LogModuleManager: Shutting down and abandoning module GitSourceControl (316)
+[2019.05.02-07.12.29:249][ 62]LogModuleManager: Shutting down and abandoning module SourceControl (315)
+[2019.05.02-07.12.29:249][ 62]LogModuleManager: Shutting down and abandoning module CLionSourceCodeAccess (312)
+[2019.05.02-07.12.29:249][ 62]LogModuleManager: Shutting down and abandoning module ActorLayerUtilitiesEditor (310)
+[2019.05.02-07.12.29:249][ 62]LogModuleManager: Shutting down and abandoning module ActorLayerUtilities (308)
+[2019.05.02-07.12.29:249][ 62]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (306)
+[2019.05.02-07.12.29:249][ 62]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (304)
+[2019.05.02-07.12.29:249][ 62]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (302)
+[2019.05.02-07.12.29:249][ 62]LogModuleManager: Shutting down and abandoning module Paper2DEditor (300)
+[2019.05.02-07.12.29:250][ 62]LogModuleManager: Shutting down and abandoning module MeshPaint (299)
+[2019.05.02-07.12.29:250][ 62]LogModuleManager: Shutting down and abandoning module RuntimePhysXCooking (294)
+[2019.05.02-07.12.29:250][ 62]LogModuleManager: Shutting down and abandoning module PhysXVehiclesEditor (292)
+[2019.05.02-07.12.29:250][ 62]LogModuleManager: Shutting down and abandoning module PhysXVehicles (290)
+[2019.05.02-07.12.29:250][ 62]LogModuleManager: Shutting down and abandoning module OculusEditor (288)
+[2019.05.02-07.12.29:250][ 62]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (286)
+[2019.05.02-07.12.29:250][ 62]LogModuleManager: Shutting down and abandoning module ActorSequence (284)
+[2019.05.02-07.12.29:250][ 62]LogModuleManager: Shutting down and abandoning module UdpMessaging (282)
+[2019.05.02-07.12.29:352][ 62]LogModuleManager: Shutting down and abandoning module TcpMessaging (280)
+[2019.05.02-07.12.29:453][ 62]LogModuleManager: Shutting down and abandoning module MagicLeapAudio (278)
+[2019.05.02-07.12.29:453][ 62]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (276)
+[2019.05.02-07.12.29:458][ 62]LogModuleManager: Shutting down and abandoning module FacialAnimationEditor (274)
+[2019.05.02-07.12.29:458][ 62]LogModuleManager: Shutting down and abandoning module FacialAnimation (272)
+[2019.05.02-07.12.29:458][ 62]LogModuleManager: Shutting down and abandoning module DataValidation (270)
+[2019.05.02-07.12.29:458][ 62]LogModuleManager: Shutting down and abandoning module AssetManagerEditor (268)
+[2019.05.02-07.12.29:459][ 62]LogModuleManager: Shutting down and abandoning module LevelEditor (267)
+[2019.05.02-07.12.29:459][ 62]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (266)
+[2019.05.02-07.12.29:459][ 62]LogModuleManager: Shutting down and abandoning module CommonMenuExtensions (264)
+[2019.05.02-07.12.29:459][ 62]LogModuleManager: Shutting down and abandoning module MainFrame (262)
+[2019.05.02-07.12.29:459][ 62]LogModuleManager: Shutting down and abandoning module HotReload (261)
+[2019.05.02-07.12.29:459][ 62]LogModuleManager: Shutting down and abandoning module ContentBrowser (257)
+[2019.05.02-07.12.29:460][ 62]LogModuleManager: Shutting down and abandoning module TreeMap (255)
+[2019.05.02-07.12.29:460][ 62]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (252)
+[2019.05.02-07.12.29:460][ 62]LogModuleManager: Shutting down and abandoning module AISupportModule (250)
+[2019.05.02-07.12.29:460][ 62]LogModuleManager: Shutting down and abandoning module Paper2D (248)
+[2019.05.02-07.12.29:460][ 62]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (246)
+[2019.05.02-07.12.29:460][ 62]LogModuleManager: Shutting down and abandoning module WebMMoviePlayer (244)
+[2019.05.02-07.12.29:460][ 62]LogModuleManager: Shutting down and abandoning module WmfMedia (242)
+[2019.05.02-07.12.29:464][ 62]LogModuleManager: Shutting down and abandoning module Media (241)
+[2019.05.02-07.12.29:471][ 62]LogModuleManager: Shutting down and abandoning module PacketHandler (238)
+[2019.05.02-07.12.29:471][ 62]LogModuleManager: Shutting down and abandoning module ClothingSystemEditor (236)
+[2019.05.02-07.12.29:471][ 62]LogModuleManager: Shutting down and abandoning module ClothingSystemRuntime (234)
+[2019.05.02-07.12.29:471][ 62]LogModuleManager: Shutting down and abandoning module MediaAssets (232)
+[2019.05.02-07.12.29:471][ 62]LogModuleManager: Shutting down and abandoning module Overlay (230)
+[2019.05.02-07.12.29:471][ 62]LogModuleManager: Shutting down and abandoning module OverlayEditor (229)
+[2019.05.02-07.12.29:471][ 62]LogModuleManager: Shutting down and abandoning module VREditor (226)
+[2019.05.02-07.12.29:472][ 62]LogModuleManager: Shutting down and abandoning module StringTableEditor (224)
+[2019.05.02-07.12.29:472][ 62]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (222)
+[2019.05.02-07.12.29:472][ 62]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (220)
+[2019.05.02-07.12.29:473][ 62]LogModuleManager: Shutting down and abandoning module FunctionalTesting (218)
+[2019.05.02-07.12.29:473][ 62]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (216)
+[2019.05.02-07.12.29:473][ 62]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (215)
+[2019.05.02-07.12.29:473][ 62]LogModuleManager: Shutting down and abandoning module UMG (212)
+[2019.05.02-07.12.29:473][ 62]LogModuleManager: Shutting down and abandoning module UMGEditor (211)
+[2019.05.02-07.12.29:473][ 62]LogModuleManager: Shutting down and abandoning module Sequencer (210)
+[2019.05.02-07.12.29:473][ 62]LogModuleManager: Shutting down and abandoning module MessageLog (207)
+[2019.05.02-07.12.29:473][ 62]LogModuleManager: Shutting down and abandoning module SlateReflector (202)
+[2019.05.02-07.12.29:477][ 62]LogModuleManager: Shutting down and abandoning module Slate (200)
+[2019.05.02-07.12.29:477][ 62]LogModuleManager: Shutting down and abandoning module EditorStyle (198)
+[2019.05.02-07.12.29:478][ 62]LogModuleManager: Shutting down and abandoning module MRMesh (196)
+[2019.05.02-07.12.29:479][ 62]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (194)
+[2019.05.02-07.12.29:479][ 62]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (192)
+[2019.05.02-07.12.29:479][ 62]LogModuleManager: Shutting down and abandoning module XAudio2 (190)
+[2019.05.02-07.12.29:479][ 62]LogModuleManager: Shutting down and abandoning module Networking (188)
+[2019.05.02-07.12.29:479][ 62]LogModuleManager: Shutting down and abandoning module Core (186)
+[2019.05.02-07.12.29:479][ 62]LogModuleManager: Shutting down and abandoning module LevelSequence (184)
+[2019.05.02-07.12.29:479][ 62]LogModuleManager: Shutting down and abandoning module KismetCompiler (182)
+[2019.05.02-07.12.29:479][ 62]LogModuleManager: Shutting down and abandoning module MeshUtilities (180)
+[2019.05.02-07.12.29:479][ 62]LogModuleManager: Shutting down and abandoning module MeshMergeUtilities (179)
+[2019.05.02-07.12.29:479][ 62]LogModuleManager: Shutting down and abandoning module MeshReductionInterface (178)
+[2019.05.02-07.12.29:479][ 62]LogModuleManager: Shutting down and abandoning module SimplygonSwarm (177)
+[2019.05.02-07.12.29:480][ 62]LogModuleManager: Shutting down and abandoning module ProxyLODMeshReduction (175)
+[2019.05.02-07.12.29:480][ 62]LogModuleManager: Shutting down and abandoning module SimplygonMeshReduction (173)
+[2019.05.02-07.12.29:480][ 62]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (171)
+[2019.05.02-07.12.29:480][ 62]LogModuleManager: Shutting down and abandoning module MaterialBaking (167)
+[2019.05.02-07.12.29:481][ 62]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (163)
+[2019.05.02-07.12.29:481][ 62]LogModuleManager: Shutting down and abandoning module DerivedDataCache (160)
+[2019.05.02-07.12.29:514][ 62]LogDerivedDataCache: Shutdown
+[2019.05.02-07.12.29:514][ 62]LogModuleManager: Shutting down and abandoning module XGEController (158)
+[2019.05.02-07.12.29:514][ 62]LogXGEController: Cleaning working directory: C:/Users/gosus/AppData/Local/Temp/UnrealXGEWorkingDir/
+[2019.05.02-07.12.29:514][ 62]LogModuleManager: Shutting down and abandoning module TargetPlatform (156)
+[2019.05.02-07.12.29:514][ 62]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (155)
+[2019.05.02-07.12.29:514][ 62]LogModuleManager: Shutting down and abandoning module ShaderFormatVectorVM (153)
+[2019.05.02-07.12.29:514][ 62]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (151)
+[2019.05.02-07.12.29:517][ 62]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (149)
+[2019.05.02-07.12.29:517][ 62]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (147)
+[2019.05.02-07.12.29:517][ 62]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (145)
+[2019.05.02-07.12.29:517][ 62]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (143)
+[2019.05.02-07.12.29:517][ 62]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (141)
+[2019.05.02-07.12.29:517][ 62]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (139)
+[2019.05.02-07.12.29:518][ 62]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (137)
+[2019.05.02-07.12.29:518][ 62]LogModuleManager: Shutting down and abandoning module ImageWrapper (136)
+[2019.05.02-07.12.29:518][ 62]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (133)
+[2019.05.02-07.12.29:518][ 62]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (131)
+[2019.05.02-07.12.29:518][ 62]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (129)
+[2019.05.02-07.12.29:518][ 62]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (127)
+[2019.05.02-07.12.29:518][ 62]LogModuleManager: Shutting down and abandoning module LuminTargetPlatform (125)
+[2019.05.02-07.12.29:519][ 62]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (123)
+[2019.05.02-07.12.29:519][ 62]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (121)
+[2019.05.02-07.12.29:519][ 62]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (119)
+[2019.05.02-07.12.29:519][ 62]LogModuleManager: Shutting down and abandoning module LinuxClientTargetPlatform (117)
+[2019.05.02-07.12.29:519][ 62]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (115)
+[2019.05.02-07.12.29:520][ 62]LogModuleManager: Shutting down and abandoning module Messaging (113)
+[2019.05.02-07.12.29:520][ 62]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (111)
+[2019.05.02-07.12.29:520][ 62]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (109)
+[2019.05.02-07.12.29:521][ 62]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (107)
+[2019.05.02-07.12.29:525][ 62]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (105)
+[2019.05.02-07.12.29:525][ 62]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (103)
+[2019.05.02-07.12.29:525][ 62]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (101)
+[2019.05.02-07.12.29:525][ 62]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (99)
+[2019.05.02-07.12.29:525][ 62]LogModuleManager: Shutting down and abandoning module MacTargetPlatform (97)
+[2019.05.02-07.12.29:525][ 62]LogModuleManager: Shutting down and abandoning module MacServerTargetPlatform (95)
+[2019.05.02-07.12.29:525][ 62]LogModuleManager: Shutting down and abandoning module MacNoEditorTargetPlatform (93)
+[2019.05.02-07.12.29:525][ 62]LogModuleManager: Shutting down and abandoning module MacClientTargetPlatform (91)
+[2019.05.02-07.12.29:525][ 62]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (89)
+[2019.05.02-07.12.29:525][ 62]LogModuleManager: Shutting down and abandoning module InputCore (86)
+[2019.05.02-07.12.29:525][ 62]LogModuleManager: Shutting down and abandoning module Settings (84)
+[2019.05.02-07.12.29:525][ 62]LogModuleManager: Shutting down and abandoning module PhysXCooking (82)
+[2019.05.02-07.12.29:525][ 62]LogModuleManager: Shutting down and abandoning module SteamVR (80)
+[2019.05.02-07.12.29:525][ 62]LogHMD: Freeing OpenVRDLLHandle.
+[2019.05.02-07.12.29:525][ 62]LogModuleManager: Shutting down and abandoning module OculusHMD (78)
+[2019.05.02-07.12.29:526][ 62]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (76)
+[2019.05.02-07.12.29:526][ 62]LogModuleManager: Shutting down and abandoning module LauncherChunkInstaller (74)
+[2019.05.02-07.12.29:526][ 62]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (72)
+[2019.05.02-07.12.29:526][ 62]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (68)
+[2019.05.02-07.12.29:528][ 62]LogModuleManager: Shutting down and abandoning module XMPP (63)
+[2019.05.02-07.12.29:528][ 62]LogModuleManager: Shutting down and abandoning module WebSockets (62)
+[2019.05.02-07.12.29:556][ 62]LogModuleManager: Shutting down and abandoning module HTTP (59)
+[2019.05.02-07.12.29:557][ 62]LogHttp: Display: Http module shutting down, but needs to wait on 1 outstanding Http requests:
+[2019.05.02-07.12.29:557][ 62]LogHttp: Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B3A2426F5-4884-EA03-1912-F3A3B98E2A6F%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.21.2-4753647%2B%2B%2BUE4%2BRelease-4.21&UserID=9e4170084badf87e8c36de96253b7ba6%7Cab42ae2a85794cd9ae0bb9c5fc3e9425%7Cb942975b-bfa1-46d0-8a9e-a54cbac2e886&AppEnvironment=datacollector-binary&UploadType=eteventstream] status=Processing
+[2019.05.02-07.12.29:560][ 62]LogModuleManager: Shutting down and abandoning module SSL (58)
+[2019.05.02-07.12.29:561][ 62]LogModuleManager: Shutting down and abandoning module MagicLeapIdentity (54)
+[2019.05.02-07.12.29:561][ 62]LogModuleManager: Shutting down and abandoning module MagicLeapHelperVulkan (52)
+[2019.05.02-07.12.29:562][ 62]LogModuleManager: Shutting down and abandoning module MagicLeapHelperOpenGL (50)
+[2019.05.02-07.12.29:562][ 62]LogModuleManager: Shutting down and abandoning module MagicLeapSecureStorage (48)
+[2019.05.02-07.12.29:562][ 62]LogModuleManager: Shutting down and abandoning module MagicLeapHandTracking (46)
+[2019.05.02-07.12.29:562][ 62]LogModuleManager: Shutting down and abandoning module MagicLeapEyeTracker (44)
+[2019.05.02-07.12.29:562][ 62]LogModuleManager: Shutting down and abandoning module MagicLeapController (42)
+[2019.05.02-07.12.29:562][ 62]LogSlate: Slate User Destroyed.  User Index 0, Is Virtual User: 0
+[2019.05.02-07.12.29:562][ 62]LogModuleManager: Shutting down and abandoning module MagicLeap (40)
+[2019.05.02-07.12.29:562][ 62]LogModuleManager: Shutting down and abandoning module DatasmithContent (38)
+[2019.05.02-07.12.29:562][ 62]LogModuleManager: Shutting down and abandoning module AnimationModifiers (36)
+[2019.05.02-07.12.29:563][ 62]LogModuleManager: Shutting down and abandoning module PropertyEditor (35)
+[2019.05.02-07.12.29:563][ 62]LogModuleManager: Shutting down and abandoning module AudioEditor (32)
+[2019.05.02-07.12.29:563][ 62]LogModuleManager: Shutting down and abandoning module TextureCompressor (30)
+[2019.05.02-07.12.29:564][ 62]LogModuleManager: Shutting down and abandoning module ShaderCore (28)
+[2019.05.02-07.12.29:564][ 62]LogModuleManager: Shutting down and abandoning module Landscape (26)
+[2019.05.02-07.12.29:564][ 62]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (24)
+[2019.05.02-07.12.29:567][ 62]LogModuleManager: Shutting down and abandoning module OpenGLDrv (22)
+[2019.05.02-07.12.29:568][ 62]LogModuleManager: Shutting down and abandoning module D3D11RHI (20)
+[2019.05.02-07.12.29:568][ 62]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (18)
+[2019.05.02-07.12.29:568][ 62]LogModuleManager: Shutting down and abandoning module Renderer (16)
+[2019.05.02-07.12.29:568][ 62]LogModuleManager: Shutting down and abandoning module Engine (14)
+[2019.05.02-07.12.29:568][ 62]LogModuleManager: Shutting down and abandoning module CoreUObject (12)
+[2019.05.02-07.12.29:568][ 62]LogModuleManager: Shutting down and abandoning module NetworkFile (10)
+[2019.05.02-07.12.29:568][ 62]LogModuleManager: Shutting down and abandoning module CookedIterativeFile (8)
+[2019.05.02-07.12.29:568][ 62]LogModuleManager: Shutting down and abandoning module StreamingFile (6)
+[2019.05.02-07.12.29:568][ 62]LogModuleManager: Shutting down and abandoning module SandboxFile (4)
+[2019.05.02-07.12.29:568][ 62]LogModuleManager: Shutting down and abandoning module PakFile (2)
+[2019.05.02-07.12.29:590][ 62]LogExit: Exiting.
+[2019.05.02-07.12.29:593][ 62]Log file closed, 05/02/19 00:12:29
