@@ -45,12 +45,12 @@ void AGoblinSoldier::endTurn()
 {
 	Super::endTurn();
 	isTurn = false;
-	D("Slime Turn End");
+	// D("Slime Turn End");
 }
 
 void AGoblinSoldier::startTurn()
 {
-	D("Goblin Turn Start");
+	// D("Goblin Turn Start");
 	isTurn = true;
 	// isBattling = true;
 	turnAP = maxTurnAP; // Reset AP for new turn
@@ -62,13 +62,13 @@ void AGoblinSoldier::startTurn()
 // Called when the enemy slime's vision collider overlaps with a component
 void AGoblinSoldier::inSight(UPrimitiveComponent * OverlappedComponent, AActor * OtherActor, UPrimitiveComponent * OtherComp, int32 OtherBodyIndex, bool bFromSweep, const FHitResult & SweepResult)
 {
-	D("Slime hit");
+	// D("Slime hit");
 	if ((Cast<AProtagClass>(OtherActor) != NULL) && (Cast<UCapsuleComponent>(OtherComp)) && (isBattling == false))
 	{
 		isBattling = true;
 		AHSPGameGameModeBase* gameModeref = (AHSPGameGameModeBase*)GetWorld()->GetAuthGameMode();
 		gameModeref->addToBattle(this, "Slime"); // maybe cast this to (ABase2DCharacter *)
-		D("Slime Enters Battle");
+		// D("Slime Enters Battle");
 	}
 }
 // Called when the enemy slime's root component (capsule component) is hit
@@ -79,7 +79,7 @@ void AGoblinSoldier::charHit(UPrimitiveComponent * HitComponent, AActor * OtherA
 	// If you hit the player's body
 	if ((isTurn == true) && (Cast<AProtagClass>(OtherActor) != NULL) && (Cast<UCapsuleComponent>(OtherComp)))
 	{
-		D("Hit Player");
+		// D("Hit Player");
 		AProtagClass * playerRef = Cast<AProtagClass>(OtherActor);
 		playerRef->currHealth -= 10.0f;
 		endTurn();

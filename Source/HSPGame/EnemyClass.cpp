@@ -62,12 +62,12 @@ void AEnemyClass::endTurn()
 {
 	Super::endTurn();
 	isTurn = false;
-	D("Enemy Turn End");
+	// D("Enemy Turn End");
 }
 
 void AEnemyClass::startTurn()
 {
-	D("Enemy Turn Start");
+	// D("Enemy Turn Start");
 	isTurn = true;
 	// isBattling = true;
 	turnAP = maxTurnAP; // Reset AP for new turn
@@ -89,13 +89,13 @@ void AEnemyClass::takeDmg(float hitDmg)
 // Called when the enemy slime's vision collider overlaps with a component
 void AEnemyClass::inSight(UPrimitiveComponent * OverlappedComponent, AActor * OtherActor, UPrimitiveComponent * OtherComp, int32 OtherBodyIndex, bool bFromSweep, const FHitResult & SweepResult)
 {
-	D("Enemy hit");
+	// D("Enemy hit");
 	if ((Cast<AProtagClass>(OtherActor) != NULL) && (Cast<UCapsuleComponent>(OtherComp)) && (isBattling == false))
 	{
 		isBattling = true;
 		AHSPGameGameModeBase* gameModeref = (AHSPGameGameModeBase*)GetWorld()->GetAuthGameMode();
 		gameModeref->addToBattle(this, "Enemy");
-		D("Slime Enters Battle");
+		// D("Slime Enters Battle");
 	}
 }
 
@@ -103,7 +103,7 @@ void AEnemyClass::charHit(UPrimitiveComponent * HitComponent, AActor * OtherActo
 {
 	if ((isTurn == true) && (Cast<AProtagClass>(OtherActor) != NULL) && (Cast<UCapsuleComponent>(OtherComp)))
 	{
-		D("Hit Player");
+		//D("Hit Player");
 		AProtagClass * playerRef = Cast<AProtagClass>(OtherActor);
 		playerRef->currHealth -= attackDMG;
 		endTurn();

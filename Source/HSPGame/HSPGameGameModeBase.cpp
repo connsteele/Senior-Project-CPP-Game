@@ -12,7 +12,7 @@ void AHSPGameGameModeBase::addToBattle(ABase2DCharacter * addChar, FString class
 	// Add the new character to the end of the battle array
 	battleChars.Add(bpNode);
 	//battleChars.Find(AProtagClass *, battleChIndex);
-	D("Battle Char Node added to the Battle Array");
+	// D("Battle Char Node added to the Battle Array");
 }
 
 
@@ -21,7 +21,7 @@ int get2DcharClassType(FString className)
 {
 	if (className == "Protag")
 	{
-		D("Protag");
+		// D("Protag");
 		return 0;
 	}
 	return -1;
@@ -39,7 +39,7 @@ void AHSPGameGameModeBase::nextFighter() {
 
 		while (i < battleChars.Num()) {
 			if (battleChars[i].isDead) {
-				D("BOOM DEAD");
+				// D("BOOM DEAD");
 				battleChars.RemoveAt(i);
 			}
 			else {

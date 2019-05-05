@@ -197,7 +197,7 @@ void AProtagClass::ReverseAnim()
 {
 	// Clear the timer
 	GetWorld()->GetTimerManager().ClearTimer(JumpTimerHandle);
-	D("Timer went off");
+	// D("Timer went off");
 	GetSprite()->ReverseFromEnd(); // Reverse the flipbook
 	GetWorld()->GetTimerManager().SetTimer(FallingTimerHandle, this, &AProtagClass::turnOffJumping, 0.3f, false);
 
@@ -205,7 +205,7 @@ void AProtagClass::ReverseAnim()
 // Used with Jumping, Turn off the isJumping Boolean
 void AProtagClass::turnOffJumping()
 {
-	D("HITTTT");
+	// D("HITTTT");
 	isJumping = false;
 	GetWorld()->GetTimerManager().ClearTimer(FallingTimerHandle);
 }
@@ -298,7 +298,7 @@ void AProtagClass::moveForward(float axisValue)
 // When the Sight Collider Overlaps another component this function is called
 void AProtagClass::inSight(UPrimitiveComponent* OverlappedComponent, AActor* OtherActor, UPrimitiveComponent* OtherComp, int32 OtherBodyIndex, bool bFromSweep, const FHitResult & SweepResult)
 {
-	D("Player Vision Sphere Hit");
+	// D("Player Vision Sphere Hit");
 	// Test adding self to battle chars array
 	// Get the game mode and cast it
 	if ((Cast<AEnemyClass>(OtherActor) != NULL) && (Cast<UCapsuleComponent>(OtherComp)) && (isBattling == false))
@@ -306,7 +306,7 @@ void AProtagClass::inSight(UPrimitiveComponent* OverlappedComponent, AActor* Oth
 		isBattling = true;
 		AHSPGameGameModeBase* gameModeref = (AHSPGameGameModeBase*)GetWorld()->GetAuthGameMode();
 		gameModeref->addToBattle(this, "Protag"); // maybe cast this to (ABase2DCharacter *)
-		D("Player Enters Battle");
+		// D("Player Enters Battle");
 		gameModeref->nextFighter();
 	}
 	// If arms dealer is in sight and char is not in battle
@@ -335,9 +335,9 @@ void AProtagClass::Talk()
 		{
 			if (dealer->canTalk == true)
 			{
-				D("Talked with Merchant");
+				// D("Talked with Merchant");
 			}
-			D("Found a Merch");
+			// D("Found a Merch");
 			//return;
 		}
 	}
@@ -352,9 +352,9 @@ void AProtagClass::Talk()
 		{
 			if (scientist->canTalk == true)
 			{
-				D("Talked with Scientist");
+				// D("Talked with Scientist");
 			}
-			D("Found a Scientist");
+			// D("Found a Scientist");
 			//return;
 		}
 	}
@@ -366,7 +366,7 @@ void AProtagClass::Talk()
 void AProtagClass::charHit(UPrimitiveComponent * HitComponent, AActor * OtherActor, UPrimitiveComponent * OtherComp, FVector NormalImpulse, const FHitResult & Hit)
 {
 	
-	D(FString::FromInt(currHealth));
+	// D(FString::FromInt(currHealth));
 
 }
 
@@ -380,7 +380,7 @@ void AProtagClass::startTurn()
 	//isMoveable = true;
 	EnableInput(PC);
 	isTurn = true;
-	D("Player turn start");
+	// D("Player turn start");
 	// isBattling = true;
 }
 
@@ -402,7 +402,7 @@ void AProtagClass::killEnemy(float gainedEXP)
 // Rotate the Camera + 90 degrees
 void AProtagClass::RotateCamPlus()
 {
-	D("+ ROT CAM");
+	// D("+ ROT CAM");
 
 	// Update the cam arm's relative rotation
 	CamBoom->AddRelativeRotation(FRotator(0.f, 90.f, 0.f));
@@ -415,7 +415,7 @@ void AProtagClass::RotateCamPlus()
 // Rotate the Camera - 90 degrees
 void AProtagClass::RotateCamMinus()
 {
-	D("- ROT CAM");
+	// D("- ROT CAM");
 
 	// Update the cam arm's relative rotation
 	CamBoom->AddRelativeRotation(FRotator(0.f, -90.f, 0.f));

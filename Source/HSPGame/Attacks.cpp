@@ -33,11 +33,11 @@ void AAttacks::BeginPlay()
 
 void AAttacks::hitCharacter(UPrimitiveComponent * OverlappedComponent, AActor * OtherActor, UPrimitiveComponent * OtherComp, int32 OtherBodyIndex, bool bFromSweep, const FHitResult & SweepResult)
 {
-	D("Attack hit a thing");
+	// D("Attack hit a thing");
 	// If the other actor is an enemy do damage
 	if ((Cast<AEnemyClass>(OtherActor) != NULL) && (Cast<UCapsuleComponent>(OtherComp)))
 	{
-		D("Attack hit an enemy");
+		// D("Attack hit an enemy");
 		AEnemyClass * enemRef = Cast<AEnemyClass>(OtherActor);
 		UHSPGameInstance* HGI = Cast<UHSPGameInstance>(GetGameInstance());
 		enemRef->takeDmg((HGI->playerBaseDMG) * atkMultiplier);
