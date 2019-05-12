@@ -98,6 +98,10 @@ void AProtagClass::Tick(float DeltaTime)
 		turnAP = maxTurnAP;
 	}
 
+	AHSPGameGameModeBase* gameModeref = (AHSPGameGameModeBase*)GetWorld()->GetAuthGameMode();
+
+	D(FString::FromInt(gameModeref->aliveCharacters));
+
 }
 
 // Called to bind functionality to input
