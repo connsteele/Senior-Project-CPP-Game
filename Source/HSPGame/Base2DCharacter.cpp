@@ -129,6 +129,9 @@ void ABase2DCharacter::die()
 	//UWidgetLayoutLibrary::RemoveAllWidgets(this);
 	//D("Actor is dead");
 	//Super::Destroy();
+
+	// Subtract alive players from game mode
+
 }
 
 

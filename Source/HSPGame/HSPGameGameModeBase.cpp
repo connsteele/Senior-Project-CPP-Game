@@ -29,6 +29,7 @@ int get2DcharClassType(FString className)
 
 
 void AHSPGameGameModeBase::nextFighter() {
+
 	//Do out of bounds check before grabbing next fighter
 	if (activeFighterIndex >= battleChars.Num()) {
 		activeFighterIndex = 0;
@@ -61,5 +62,15 @@ void AHSPGameGameModeBase::nextFighter() {
 		activeFighter->startTurn();
 
 		activeFighterIndex++;
+	}
+
+	if (aliveCharacters == 1) {
+		battleChars.Empty();
+		ABase2DCharacter* protag = (ABase2DCharacter*)UGameplayStatics::GetPlayerCharacter(GetWorld(), 0);
+		protag->isBattling = false;
+		protag->isTurn = false;
+		aliveCharacters = 0;
+		activeFighterIndex = 0;
+		return;
 	}
 }

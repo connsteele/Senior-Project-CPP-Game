@@ -35,6 +35,8 @@ public:
 	//index of fighter whose turn it is
 	int activeFighterIndex = 0;
 
+	int aliveCharacters = 0;
+
 	int get2DcharClassType(FString className);
 
 	UFUNCTION(BlueprintCallable)

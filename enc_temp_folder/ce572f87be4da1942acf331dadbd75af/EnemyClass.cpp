@@ -82,13 +82,9 @@ void AEnemyClass::takeDmg(float hitDmg)
 	if (currHealth <= 0)
 	{
 		AHSPGameGameModeBase* gameModeref = (AHSPGameGameModeBase*)GetWorld()->GetAuthGameMode();
-		if (isEnemyDead == false)
-		{
-			isEnemyDead = true;
-			gameModeref->aliveCharacters -= 1;
-			die();
-			return;
-		}
+		gameModeref->aliveCharacters -= 1;
+		die();
+		return;
 	}
 
 	// If the enemy isnt in battle yet when takign damage, add them to the battle

@@ -98,6 +98,10 @@ void AProtagClass::Tick(float DeltaTime)
 		turnAP = maxTurnAP;
 	}
 
+	AHSPGameGameModeBase* gameModeref = (AHSPGameGameModeBase*)GetWorld()->GetAuthGameMode();
+
+	D(FString::FromInt(gameModeref->aliveCharacters));
+
 }
 
 // Called to bind functionality to input
@@ -301,14 +305,15 @@ void AProtagClass::inSight(UPrimitiveComponent* OverlappedComponent, AActor* Oth
 	// D("Player Vision Sphere Hit");
 	// Test adding self to battle chars array
 	// Get the game mode and cast it
-	if ((Cast<AEnemyClass>(OtherActor) != NULL) && (Cast<UCapsuleComponent>(OtherComp)) && (isBattling == false))
-	{
-		isBattling = true;
-		AHSPGameGameModeBase* gameModeref = (AHSPGameGameModeBase*)GetWorld()->GetAuthGameMode();
-		gameModeref->addToBattle(this, "Protag"); // maybe cast this to (ABase2DCharacter *)
-		// D("Player Enters Battle");
-		gameModeref->nextFighter();
-	}
+	//if ((Cast<AEnemyClass>(OtherActor) != NULL) && (Cast<UCapsuleComponent>(OtherComp)) && (isBattling == false))
+	//{
+	//	isBattling = true;
+	//	AHSPGameGameModeBase* gameModeref = (AHSPGameGameModeBase*)GetWorld()->GetAuthGameMode();
+	//	gameModeref->addToBattle(this, "Protag"); // maybe cast this to (ABase2DCharacter *)
+	//	gameModeref->aliveCharacters += 1;
+	//	// D("Player Enters Battle");
+	//	gameModeref->nextFighter();
+	//}
 	// If arms dealer is in sight and char is not in battle
 	/*else if ((Cast<AArmsDealerClass>(OtherActor) != NULL) && (Cast<UCapsuleComponent>(OtherComp)) && (isBattling == false))
 	{

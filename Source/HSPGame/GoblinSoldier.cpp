@@ -68,6 +68,7 @@ void AGoblinSoldier::inSight(UPrimitiveComponent * OverlappedComponent, AActor *
 		isBattling = true;
 		AHSPGameGameModeBase* gameModeref = (AHSPGameGameModeBase*)GetWorld()->GetAuthGameMode();
 		gameModeref->addToBattle(this, "Slime"); // maybe cast this to (ABase2DCharacter *)
+		//gameModeref->aliveCharacters += 1;
 		// D("Slime Enters Battle");
 	}
 }

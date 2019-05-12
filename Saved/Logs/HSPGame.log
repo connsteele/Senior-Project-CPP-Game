@@ -1,4 +1,4 @@
-﻿Log file open, 05/11/19 20:36:54
+﻿Log file open, 05/11/19 22:33:18
 LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
 LogWindows: File 'aqProf.dll' does not exist
 LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
@@ -10,7 +10,7 @@ LogInit: Display: Running engine for game: HSPGame
 LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
 LogPlatformFile: Not using cached read wrapper
 LogTaskGraph: Started task graph with 5 named threads and 23 total threads with 3 sets of task threads.
-LogStats: Stats thread started at 0.392249
+LogStats: Stats thread started at 0.345525
 LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
 LogICUInternationalization: ICU TimeZone Detection - Raw Offset: -8:00, Platform Override: ''
 LogPluginManager: Mounting plugin Paper2D
@@ -94,7 +94,7 @@ LogPluginManager: Mounting plugin RuntimePhysXCooking
 LogPluginManager: Mounting plugin SteamVR
 LogPluginManager: Mounting plugin WebMMoviePlayer
 LogPluginManager: Mounting plugin WindowsMoviePlayer
-LogStreaming: Display: Took  0.101s to configure plugins.
+LogStreaming: Display: Took  0.105s to configure plugins.
 LogInit: Using libcurl 7.55.1-DEV
 LogInit:  - built for x86_64-pc-win32
 LogInit:  - supports SSL with OpenSSL/1.0.2h
@@ -154,435 +154,564 @@ LogInit: Presizing for max 8388607 objects, including 0 objects not considered b
 LogInit: Object subsystem initialized
 LogConfig: Setting CVar [[con.DebugEarlyDefault:1]]
 LogConfig: Setting CVar [[r.setres:1280x720]]
-[2019.05.12-03.36.55:050][  0]LogConfig: Setting CVar [[r.VSync:0]]
-[2019.05.12-03.36.55:050][  0]LogConfig: Setting CVar [[r.RHICmdBypass:0]]
-[2019.05.12-03.36.55:051][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererSettings] File [C:/Users/gosus/Documents/CP-School/SeniorProject/gitRepos/Senior-Project-CPP-Game/Saved/Config/Windows/Engine.ini]
-[2019.05.12-03.36.55:051][  0]LogConfig: Setting CVar [[r.GPUCrashDebugging:0]]
-[2019.05.12-03.36.55:051][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererOverrideSettings] File [C:/Users/gosus/Documents/CP-School/SeniorProject/gitRepos/Senior-Project-CPP-Game/Saved/Config/Windows/Engine.ini]
-[2019.05.12-03.36.55:051][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [C:/Users/gosus/Documents/CP-School/SeniorProject/gitRepos/Senior-Project-CPP-Game/Saved/Config/Windows/Engine.ini]
-[2019.05.12-03.36.55:051][  0]LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
-[2019.05.12-03.36.55:051][  0]LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
-[2019.05.12-03.36.55:051][  0]LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
-[2019.05.12-03.36.55:051][  0]LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
-[2019.05.12-03.36.55:051][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
-[2019.05.12-03.36.55:051][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
-[2019.05.12-03.36.55:051][  0]LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
-[2019.05.12-03.36.55:051][  0]LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
-[2019.05.12-03.36.55:051][  0]LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
-[2019.05.12-03.36.55:051][  0]LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
-[2019.05.12-03.36.55:051][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
-[2019.05.12-03.36.55:051][  0]LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
-[2019.05.12-03.36.55:051][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
-[2019.05.12-03.36.55:051][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.GarbageCollectionSettings] File [C:/Users/gosus/Documents/CP-School/SeniorProject/gitRepos/Senior-Project-CPP-Game/Saved/Config/Windows/Engine.ini]
-[2019.05.12-03.36.55:051][  0]LogConfig: Setting CVar [[gc.MaxObjectsNotConsideredByGC:1]]
-[2019.05.12-03.36.55:052][  0]LogConfig: Setting CVar [[gc.SizeOfPermanentObjectPool:0]]
-[2019.05.12-03.36.55:052][  0]LogConfig: Setting CVar [[gc.FlushStreamingOnGC:0]]
-[2019.05.12-03.36.55:052][  0]LogConfig: Setting CVar [[gc.NumRetriesBeforeForcingGC:10]]
-[2019.05.12-03.36.55:052][  0]LogConfig: Setting CVar [[gc.AllowParallelGC:1]]
-[2019.05.12-03.36.55:052][  0]LogConfig: Setting CVar [[gc.TimeBetweenPurgingPendingKillObjects:61.1]]
-[2019.05.12-03.36.55:052][  0]LogConfig: Setting CVar [[gc.MaxObjectsInEditor:8388607]]
-[2019.05.12-03.36.55:052][  0]LogConfig: Setting CVar [[gc.IncrementalBeginDestroyEnabled:1]]
-[2019.05.12-03.36.55:052][  0]LogConfig: Setting CVar [[gc.CreateGCClusters:1]]
-[2019.05.12-03.36.55:052][  0]LogConfig: Setting CVar [[gc.MergeGCClusters:0]]
-[2019.05.12-03.36.55:052][  0]LogConfig: Setting CVar [[gc.MinGCClusterSize:5]]
-[2019.05.12-03.36.55:052][  0]LogConfig: Setting CVar [[gc.ActorClusteringEnabled:0]]
-[2019.05.12-03.36.55:052][  0]LogConfig: Setting CVar [[gc.BlueprintClusteringEnabled:0]]
-[2019.05.12-03.36.55:052][  0]LogConfig: Setting CVar [[gc.UseDisregardForGCOnDedicatedServers:0]]
-[2019.05.12-03.36.55:052][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.NetworkSettings] File [C:/Users/gosus/Documents/CP-School/SeniorProject/gitRepos/Senior-Project-CPP-Game/Saved/Config/Windows/Engine.ini]
-[2019.05.12-03.36.55:052][  0]LogConfig: Applying CVar settings from Section [/Script/UnrealEd.CookerSettings] File [C:/Users/gosus/Documents/CP-School/SeniorProject/gitRepos/Senior-Project-CPP-Game/Saved/Config/Windows/Engine.ini]
-[2019.05.12-03.36.55:065][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [C:/Users/gosus/Documents/CP-School/SeniorProject/gitRepos/Senior-Project-CPP-Game/Saved/Config/Windows/Scalability.ini]
-[2019.05.12-03.36.55:065][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
-[2019.05.12-03.36.55:065][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
-[2019.05.12-03.36.55:065][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [C:/Users/gosus/Documents/CP-School/SeniorProject/gitRepos/Senior-Project-CPP-Game/Saved/Config/Windows/Scalability.ini]
-[2019.05.12-03.36.55:065][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
-[2019.05.12-03.36.55:065][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [C:/Users/gosus/Documents/CP-School/SeniorProject/gitRepos/Senior-Project-CPP-Game/Saved/Config/Windows/Scalability.ini]
-[2019.05.12-03.36.55:065][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
-[2019.05.12-03.36.55:065][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
-[2019.05.12-03.36.55:065][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
-[2019.05.12-03.36.55:065][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
-[2019.05.12-03.36.55:066][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
-[2019.05.12-03.36.55:066][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
-[2019.05.12-03.36.55:066][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
-[2019.05.12-03.36.55:066][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
-[2019.05.12-03.36.55:066][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
-[2019.05.12-03.36.55:066][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
-[2019.05.12-03.36.55:066][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
-[2019.05.12-03.36.55:066][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
-[2019.05.12-03.36.55:066][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
-[2019.05.12-03.36.55:066][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
-[2019.05.12-03.36.55:066][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
-[2019.05.12-03.36.55:066][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
-[2019.05.12-03.36.55:066][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
-[2019.05.12-03.36.55:066][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
-[2019.05.12-03.36.55:066][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [C:/Users/gosus/Documents/CP-School/SeniorProject/gitRepos/Senior-Project-CPP-Game/Saved/Config/Windows/Scalability.ini]
-[2019.05.12-03.36.55:066][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
-[2019.05.12-03.36.55:066][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
-[2019.05.12-03.36.55:066][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
-[2019.05.12-03.36.55:067][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
-[2019.05.12-03.36.55:067][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
-[2019.05.12-03.36.55:067][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
-[2019.05.12-03.36.55:067][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
-[2019.05.12-03.36.55:067][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
-[2019.05.12-03.36.55:067][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
-[2019.05.12-03.36.55:067][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
-[2019.05.12-03.36.55:067][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
-[2019.05.12-03.36.55:067][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
-[2019.05.12-03.36.55:067][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
-[2019.05.12-03.36.55:067][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
-[2019.05.12-03.36.55:067][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
-[2019.05.12-03.36.55:067][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
-[2019.05.12-03.36.55:067][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
-[2019.05.12-03.36.55:067][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
-[2019.05.12-03.36.55:067][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
-[2019.05.12-03.36.55:067][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
-[2019.05.12-03.36.55:067][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
-[2019.05.12-03.36.55:067][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
-[2019.05.12-03.36.55:067][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
-[2019.05.12-03.36.55:067][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
-[2019.05.12-03.36.55:068][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
-[2019.05.12-03.36.55:068][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
-[2019.05.12-03.36.55:068][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
-[2019.05.12-03.36.55:068][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
-[2019.05.12-03.36.55:068][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
-[2019.05.12-03.36.55:068][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
-[2019.05.12-03.36.55:068][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [C:/Users/gosus/Documents/CP-School/SeniorProject/gitRepos/Senior-Project-CPP-Game/Saved/Config/Windows/Scalability.ini]
-[2019.05.12-03.36.55:068][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
-[2019.05.12-03.36.55:068][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
-[2019.05.12-03.36.55:068][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
-[2019.05.12-03.36.55:068][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
-[2019.05.12-03.36.55:068][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
-[2019.05.12-03.36.55:068][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
-[2019.05.12-03.36.55:068][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
-[2019.05.12-03.36.55:068][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
-[2019.05.12-03.36.55:068][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [C:/Users/gosus/Documents/CP-School/SeniorProject/gitRepos/Senior-Project-CPP-Game/Saved/Config/Windows/Scalability.ini]
-[2019.05.12-03.36.55:068][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
-[2019.05.12-03.36.55:068][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
-[2019.05.12-03.36.55:068][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
-[2019.05.12-03.36.55:069][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
-[2019.05.12-03.36.55:069][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
-[2019.05.12-03.36.55:069][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
-[2019.05.12-03.36.55:069][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
-[2019.05.12-03.36.55:069][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
-[2019.05.12-03.36.55:069][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
-[2019.05.12-03.36.55:069][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
-[2019.05.12-03.36.55:069][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:1]]
-[2019.05.12-03.36.55:069][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
-[2019.05.12-03.36.55:069][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
-[2019.05.12-03.36.55:069][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [C:/Users/gosus/Documents/CP-School/SeniorProject/gitRepos/Senior-Project-CPP-Game/Saved/Config/Windows/Scalability.ini]
-[2019.05.12-03.36.55:069][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
-[2019.05.12-03.36.55:069][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
-[2019.05.12-03.36.55:070][  0]LogInit: Selected Device Profile: [Windows]
-[2019.05.12-03.36.55:071][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
-[2019.05.12-03.36.55:085][  0]LogHAL: Display: Platform has ~ 32 GB [34313105408 / 34359738368 / 32], which maps to Largest [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
-[2019.05.12-03.36.55:086][  0]LogConfig: Setting CVar [[r.Vulkan.UseRealUBs:1]]
-[2019.05.12-03.36.55:086][  0]LogInit: Going up to parent DeviceProfile []
-[2019.05.12-03.36.55:087][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [C:/Users/gosus/Documents/CP-School/SeniorProject/gitRepos/Senior-Project-CPP-Game/Saved/Config/Windows/Scalability.ini]
-[2019.05.12-03.36.55:087][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
-[2019.05.12-03.36.55:087][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
-[2019.05.12-03.36.55:087][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [C:/Users/gosus/Documents/CP-School/SeniorProject/gitRepos/Senior-Project-CPP-Game/Saved/Config/Windows/Scalability.ini]
-[2019.05.12-03.36.55:087][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
-[2019.05.12-03.36.55:087][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [C:/Users/gosus/Documents/CP-School/SeniorProject/gitRepos/Senior-Project-CPP-Game/Saved/Config/Windows/Scalability.ini]
-[2019.05.12-03.36.55:087][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
-[2019.05.12-03.36.55:087][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
-[2019.05.12-03.36.55:087][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
-[2019.05.12-03.36.55:087][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
-[2019.05.12-03.36.55:087][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
-[2019.05.12-03.36.55:087][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
-[2019.05.12-03.36.55:087][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
-[2019.05.12-03.36.55:087][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
-[2019.05.12-03.36.55:087][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
-[2019.05.12-03.36.55:087][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
-[2019.05.12-03.36.55:087][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
-[2019.05.12-03.36.55:087][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
-[2019.05.12-03.36.55:087][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
-[2019.05.12-03.36.55:087][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
-[2019.05.12-03.36.55:088][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
-[2019.05.12-03.36.55:088][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
-[2019.05.12-03.36.55:088][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
-[2019.05.12-03.36.55:088][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
-[2019.05.12-03.36.55:088][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [C:/Users/gosus/Documents/CP-School/SeniorProject/gitRepos/Senior-Project-CPP-Game/Saved/Config/Windows/Scalability.ini]
-[2019.05.12-03.36.55:088][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
-[2019.05.12-03.36.55:088][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
-[2019.05.12-03.36.55:088][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
-[2019.05.12-03.36.55:088][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
-[2019.05.12-03.36.55:088][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
-[2019.05.12-03.36.55:088][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
-[2019.05.12-03.36.55:088][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
-[2019.05.12-03.36.55:088][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
-[2019.05.12-03.36.55:088][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
-[2019.05.12-03.36.55:088][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
-[2019.05.12-03.36.55:088][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
-[2019.05.12-03.36.55:088][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
-[2019.05.12-03.36.55:088][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
-[2019.05.12-03.36.55:088][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
-[2019.05.12-03.36.55:088][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
-[2019.05.12-03.36.55:088][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
-[2019.05.12-03.36.55:088][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
-[2019.05.12-03.36.55:089][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
-[2019.05.12-03.36.55:089][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
-[2019.05.12-03.36.55:089][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
-[2019.05.12-03.36.55:089][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
-[2019.05.12-03.36.55:089][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
-[2019.05.12-03.36.55:089][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
-[2019.05.12-03.36.55:089][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
-[2019.05.12-03.36.55:089][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
-[2019.05.12-03.36.55:089][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
-[2019.05.12-03.36.55:089][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
-[2019.05.12-03.36.55:089][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
-[2019.05.12-03.36.55:089][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
-[2019.05.12-03.36.55:089][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
-[2019.05.12-03.36.55:089][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [C:/Users/gosus/Documents/CP-School/SeniorProject/gitRepos/Senior-Project-CPP-Game/Saved/Config/Windows/Scalability.ini]
-[2019.05.12-03.36.55:089][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
-[2019.05.12-03.36.55:089][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
-[2019.05.12-03.36.55:089][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
-[2019.05.12-03.36.55:089][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
-[2019.05.12-03.36.55:089][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
-[2019.05.12-03.36.55:089][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
-[2019.05.12-03.36.55:089][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
-[2019.05.12-03.36.55:090][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
-[2019.05.12-03.36.55:090][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [C:/Users/gosus/Documents/CP-School/SeniorProject/gitRepos/Senior-Project-CPP-Game/Saved/Config/Windows/Scalability.ini]
-[2019.05.12-03.36.55:090][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
-[2019.05.12-03.36.55:090][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
-[2019.05.12-03.36.55:090][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
-[2019.05.12-03.36.55:090][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
-[2019.05.12-03.36.55:090][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
-[2019.05.12-03.36.55:090][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
-[2019.05.12-03.36.55:090][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
-[2019.05.12-03.36.55:090][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
-[2019.05.12-03.36.55:090][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
-[2019.05.12-03.36.55:090][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
-[2019.05.12-03.36.55:090][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:1]]
-[2019.05.12-03.36.55:090][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
-[2019.05.12-03.36.55:090][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
-[2019.05.12-03.36.55:090][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [C:/Users/gosus/Documents/CP-School/SeniorProject/gitRepos/Senior-Project-CPP-Game/Saved/Config/Windows/Scalability.ini]
-[2019.05.12-03.36.55:090][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
-[2019.05.12-03.36.55:090][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
-[2019.05.12-03.36.55:090][  0]LogConfig: Applying CVar settings from Section [Startup] File [../../../Engine/Config/ConsoleVariables.ini]
-[2019.05.12-03.36.55:091][  0]LogConfig: Setting CVar [[net.UseAdaptiveNetUpdateFrequency:0]]
-[2019.05.12-03.36.55:091][  0]LogConfig: Applying CVar settings from Section [ConsoleVariables] File [C:/Users/gosus/Documents/CP-School/SeniorProject/gitRepos/Senior-Project-CPP-Game/Saved/Config/Windows/Engine.ini]
-[2019.05.12-03.36.55:092][  0]LogInit: Computer: UNIT-01
-[2019.05.12-03.36.55:093][  0]LogInit: User: gosus
-[2019.05.12-03.36.55:093][  0]LogInit: CPU Page size=4096, Cores=4
-[2019.05.12-03.36.55:093][  0]LogInit: High frequency timer resolution =10.000000 MHz
-[2019.05.12-03.36.55:093][  0]LogMemory: Memory total: Physical=32.0GB (32GB approx)
-[2019.05.12-03.36.55:093][  0]LogMemory: Platform Memory Stats for Windows
-[2019.05.12-03.36.55:093][  0]LogMemory: Process Physical Memory: 104.75 MB used, 104.75 MB peak
-[2019.05.12-03.36.55:093][  0]LogMemory: Process Virtual Memory: 103.12 MB used, 103.12 MB peak
-[2019.05.12-03.36.55:093][  0]LogMemory: Physical Memory: 6877.04 MB used,  25846.49 MB free, 32723.53 MB total
-[2019.05.12-03.36.55:093][  0]LogMemory: Virtual Memory: 4661.01 MB used,  134213064.00 MB free, 134217728.00 MB total
-[2019.05.12-03.36.55:407][  0]LogInit: Using OS detected language (en-US).
-[2019.05.12-03.36.55:407][  0]LogInit: Using OS detected locale (en-US).
-[2019.05.12-03.36.55:410][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
-[2019.05.12-03.36.55:839][  0]LogStreaming: Display: Took  0.432s to InitEngineTextLocalization.
-[2019.05.12-03.36.55:839][  0]LogInit: Setting process to per monitor DPI aware
-[2019.05.12-03.36.55:958][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
-[2019.05.12-03.36.55:958][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
-[2019.05.12-03.36.57:715][  0]LogHMD: Failed to initialize OpenVR with code 110
-[2019.05.12-03.36.57:715][  0]LogD3D11RHI: D3D11 adapters:
-[2019.05.12-03.36.57:862][  0]LogD3D11RHI:    0. 'NVIDIA GeForce RTX 2080' (Feature Level 11_0)
-[2019.05.12-03.36.57:862][  0]LogD3D11RHI:       8010/0/16361 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x10de
-[2019.05.12-03.36.57:867][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
-[2019.05.12-03.36.57:867][  0]LogD3D11RHI:       0/0/16361 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
-[2019.05.12-03.36.57:868][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
-[2019.05.12-03.36.57:875][  0]LogD3D11RHI: Creating new Direct3DDevice
-[2019.05.12-03.36.57:875][  0]LogD3D11RHI:     GPU DeviceId: 0x1e87 (for the marketing name, search the web for "GPU Device Id")
-[2019.05.12-03.36.57:876][  0]LogWindows: EnumDisplayDevices:
-[2019.05.12-03.36.57:876][  0]LogWindows:    0. 'NVIDIA GeForce RTX 2080' (P:1 D:1)
-[2019.05.12-03.36.57:876][  0]LogWindows:    1. 'NVIDIA GeForce RTX 2080' (P:0 D:1)
-[2019.05.12-03.36.57:876][  0]LogWindows:    2. 'NVIDIA GeForce RTX 2080' (P:0 D:0)
-[2019.05.12-03.36.57:877][  0]LogWindows:    3. 'NVIDIA GeForce RTX 2080' (P:0 D:0)
-[2019.05.12-03.36.57:877][  0]LogWindows: DebugString: FoundDriverCount:4 
-[2019.05.12-03.36.57:877][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce RTX 2080
-[2019.05.12-03.36.57:877][  0]LogD3D11RHI:   Driver Version: 430.64 (internal:26.21.14.3064, unified:430.64)
-[2019.05.12-03.36.57:878][  0]LogD3D11RHI:      Driver Date: 5-5-2019
-[2019.05.12-03.36.57:878][  0]LogRHI: Texture pool is 5607 MB (70% of 8010 MB)
-[2019.05.12-03.36.57:923][  0]LogD3D11RHI: Async texture creation enabled
-[2019.05.12-03.36.57:957][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
-[2019.05.12-03.36.58:337][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
-[2019.05.12-03.36.58:367][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
-[2019.05.12-03.36.58:397][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
-[2019.05.12-03.36.58:425][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
-[2019.05.12-03.36.58:460][  0]LogTemp: Display: Loaded TP MacTargetPlatform
-[2019.05.12-03.36.58:492][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
-[2019.05.12-03.36.58:520][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
-[2019.05.12-03.36.58:550][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
-[2019.05.12-03.36.58:573][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
-[2019.05.12-03.36.58:663][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.05.12-03.36.58:664][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.05.12-03.36.58:664][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.05.12-03.36.58:664][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.05.12-03.36.58:664][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.05.12-03.36.58:664][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.05.12-03.36.58:664][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.05.12-03.36.58:664][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.05.12-03.36.58:664][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.05.12-03.36.58:664][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.05.12-03.36.58:664][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.05.12-03.36.58:664][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.05.12-03.36.58:664][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.05.12-03.36.58:664][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.05.12-03.36.58:664][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.05.12-03.36.58:664][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.05.12-03.36.58:664][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.05.12-03.36.58:664][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.05.12-03.36.58:681][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
-[2019.05.12-03.36.58:791][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
-[2019.05.12-03.36.58:791][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
-[2019.05.12-03.36.58:823][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
-[2019.05.12-03.36.58:823][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
-[2019.05.12-03.36.58:847][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
-[2019.05.12-03.36.58:877][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
-[2019.05.12-03.36.58:907][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
-[2019.05.12-03.36.58:941][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
-[2019.05.12-03.36.59:000][  0]LogTemp: Display: Loaded TP LuminTargetPlatform
-[2019.05.12-03.36.59:001][  0]LogTemp: Display: Loaded TP LuminTargetPlatform
-[2019.05.12-03.36.59:001][  0]LogTargetPlatformManager: Display: Building Assets For Windows
-[2019.05.12-03.36.59:449][  0]LogShaderCompilers: Guid format shader working directory is -36 characters bigger than the processId version (C:/Users/gosus/Documents/CP-School/SeniorProject/gitRepos/Senior-Project-CPP-Game/Intermediate/Shaders/WorkingDirectory/14916/).
-[2019.05.12-03.36.59:449][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/gosus/AppData/Local/Temp/UnrealShaderWorkingDir/BC848F8A43A897C28A9B149AACD9ACB2/'.
-[2019.05.12-03.36.59:451][  0]LogXGEController: Cleaning working directory: C:/Users/gosus/AppData/Local/Temp/UnrealXGEWorkingDir/
-[2019.05.12-03.36.59:451][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
-[2019.05.12-03.36.59:452][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
-[2019.05.12-03.36.59:452][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
-[2019.05.12-03.37.00:992][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
-[2019.05.12-03.37.01:088][  0]LogDerivedDataCache: Loaded boot cache 0.09s 71MB C:/Users/gosus/AppData/Local/UnrealEngine/4.21/DerivedDataCache/Boot.ddc.
-[2019.05.12-03.37.01:088][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/gosus/AppData/Local/UnrealEngine/4.21/DerivedDataCache/Boot.ddc
-[2019.05.12-03.37.01:089][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file C:/Users/gosus/Documents/CP-School/SeniorProject/gitRepos/Senior-Project-CPP-Game/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
-[2019.05.12-03.37.01:089][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
-[2019.05.12-03.37.01:089][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file C:/Users/gosus/Documents/CP-School/SeniorProject/gitRepos/Senior-Project-CPP-Game/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
-[2019.05.12-03.37.01:089][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
-[2019.05.12-03.37.01:114][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
-[2019.05.12-03.37.01:114][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  EnterprisePak pak cache file ../../../Enterprise/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
-[2019.05.12-03.37.01:115][  0]LogDerivedDataCache: Unable to find inner node EnterprisePak for hierarchical cache Hierarchy.
-[2019.05.12-03.37.01:128][  0]LogDerivedDataCache: Using Local data cache path C:/Users/gosus/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
-[2019.05.12-03.37.01:128][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
-[2019.05.12-03.37.01:128][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
-[2019.05.12-03.37.01:156][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
-[2019.05.12-03.37.01:163][  0]LogSlate: Using FreeType 2.6.0
-[2019.05.12-03.37.01:175][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2019.05.12-03.37.01:468][  0]LogAssetRegistry: FAssetRegistry took 0.0393 seconds to start up
-[2019.05.12-03.37.01:968][  0]LogInit: Selected Device Profile: [Windows]
-[2019.05.12-03.37.02:466][  0]LogSimplygon: Simplygon DLL not present - disabling.
-[2019.05.12-03.37.02:532][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
-[2019.05.12-03.37.02:533][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
-[2019.05.12-03.37.02:534][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
-[2019.05.12-03.37.02:534][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
-[2019.05.12-03.37.02:587][  0]LogNetVersion: HSPGame 1.0.0, NetCL: 4541578, EngineNetVer: 5, GameNetVer: 0 (Checksum: 2893343623)
-[2019.05.12-03.37.03:630][  0]LogPackageLocalizationCache: Processed 11 localized package path(s) for 2 prioritized culture(s) in 0.120606 seconds
-[2019.05.12-03.37.03:637][  0]LogUObjectArray: 39775 objects as part of root set at end of initial load.
-[2019.05.12-03.37.03:637][  0]LogUObjectAllocator: 6914656 out of 0 bytes used by permanent object pool.
-[2019.05.12-03.37.03:637][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
-[2019.05.12-03.37.07:475][  0]LogTcpMessaging: Initializing TcpMessaging bridge
-[2019.05.12-03.37.07:511][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
-[2019.05.12-03.37.08:548][  0]SourceControl: Source control is disabled
-[2019.05.12-03.37.08:553][  0]SourceControl: Source control is disabled
-[2019.05.12-03.37.08:589][  0]SourceControl: Source control is disabled
-[2019.05.12-03.37.08:611][  0]SourceControl: Source control is disabled
-[2019.05.12-03.37.09:527][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
-[2019.05.12-03.37.09:843][  0]LogOcInput: OculusInput pre-init called
-[2019.05.12-03.37.10:133][  0]LogEngine: Initializing Engine...
-[2019.05.12-03.37.10:135][  0]LogHMD: Failed to initialize OpenVR with code 110
-[2019.05.12-03.37.10:138][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.001 s
-[2019.05.12-03.37.10:138][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
-[2019.05.12-03.37.10:138][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
-[2019.05.12-03.37.10:138][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
-[2019.05.12-03.37.10:336][  0]LogInit: Initializing FReadOnlyCVARCache
-[2019.05.12-03.37.10:403][  0]LogAIModule: Creating AISystem for world Untitled
-[2019.05.12-03.37.10:480][  0]LogInit: XAudio2 using 'Speakers (Realtek(R) Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2019.05.12-03.37.10:576][  0]LogInit: FAudioDevice initialized.
-[2019.05.12-03.37.10:577][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
-[2019.05.12-03.37.10:615][  0]LogDerivedDataCache: Saved boot cache 0.04s 71MB C:/Users/gosus/AppData/Local/UnrealEngine/4.21/DerivedDataCache/Boot.ddc.
-[2019.05.12-03.37.10:619][  0]LogInit: Texture streaming: Enabled
-[2019.05.12-03.37.10:698][  0]LogEngineSessionManager: EngineSessionManager initialized
-[2019.05.12-03.37.10:730][  0]LogInit: Transaction tracking system initialized
-[2019.05.12-03.37.10:858][  0]BlueprintLog: New page: Editor Load
-[2019.05.12-03.37.11:396][  0]LocalizationService: Localization service is disabled
-[2019.05.12-03.37.12:260][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
-[2019.05.12-03.37.12:261][  0]LogCook: Display: Mobile HDR setting 1
-[2019.05.12-03.37.12:261][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
-[2019.05.12-03.37.12:261][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
-[2019.05.12-03.37.12:261][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
-[2019.05.12-03.37.12:261][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
-[2019.05.12-03.37.12:261][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
-[2019.05.12-03.37.12:995][  0]LogFileCache: Scanning file cache for directory 'C:/Users/gosus/Documents/CP-School/SeniorProject/gitRepos/Senior-Project-CPP-Game/Content/' took 0.02s
-[2019.05.12-03.37.13:038][  0]SourceControl: Source control is disabled
-[2019.05.12-03.37.13:040][  0]Cmd: MAP LOAD FILE="C:/Users/gosus/Documents/CP-School/SeniorProject/gitRepos/Senior-Project-CPP-Game/Content/Levels/DemoTown.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
-[2019.05.12-03.37.13:041][  0]LightingResults: New page: Lighting Build
-[2019.05.12-03.37.13:049][  0]MapCheck: New page: Map Check
-[2019.05.12-03.37.13:049][  0]LightingResults: New page: Lighting Build
-[2019.05.12-03.37.13:235][  0]LogLinker: Warning: Can't find file '/Game/Levels/DemoTown_BuiltData'
-[2019.05.12-03.37.13:236][  0]LogLinker: Warning: Can't find file for asset '/Game/Levels/DemoTown_BuiltData' while loading C:/Users/gosus/Documents/CP-School/SeniorProject/gitRepos/Senior-Project-CPP-Game/Content/Levels/DemoTown.umap.
-[2019.05.12-03.37.13:236][  0]LoadErrors: Error: /Game/Levels/DemoTown : Can't find file for asset. /Game/Levels/DemoTown_BuiltData
-[2019.05.12-03.37.13:345][  0]LogLinker: Warning: Can't find file '/Game/Levels/DemoTown_BuiltData'
-[2019.05.12-03.37.13:345][  0]LogLinker: Warning: Can't find file for asset '/Game/Levels/DemoTown_BuiltData' while loading C:/Users/gosus/Documents/CP-School/SeniorProject/gitRepos/Senior-Project-CPP-Game/Content/Levels/DemoTown.umap.
-[2019.05.12-03.37.13:345][  0]LoadErrors: Error: /Game/Levels/DemoTown : Can't find file for asset. /Game/Levels/DemoTown_BuiltData
-[2019.05.12-03.37.13:584][  0]LogLinker: Warning: Can't find file '/Game/Levels/DemoTown_BuiltData'
-[2019.05.12-03.37.13:584][  0]LogLinker: Warning: Can't find file for asset '/Game/Levels/DemoTown_BuiltData' while loading NULL.
-[2019.05.12-03.37.13:584][  0]LogLinker: Warning: Can't find file '/Game/Levels/DemoTown_BuiltData'
-[2019.05.12-03.37.13:584][  0]LogLinker: Warning: Can't find file for asset '/Game/Levels/DemoTown_BuiltData' while loading NULL.
-[2019.05.12-03.37.13:688][  0]LogLinker: Warning: Can't find file '/Game/Levels/DemoTown_BuiltData'
-[2019.05.12-03.37.13:688][  0]LoadErrors: Failed to load /Game/Levels/DemoTown_BuiltData.DemoTown_BuiltData Referenced by PersistentLevel
-[2019.05.12-03.37.13:689][  0]LogLinker: Warning: Can't find file for asset '/Game/Levels/DemoTown_BuiltData' while loading NULL.
-[2019.05.12-03.37.13:689][  0]LoadErrors: Failed to load /Game/Levels/DemoTown_BuiltData.DemoTown_BuiltData Referenced by PersistentLevel
-[2019.05.12-03.37.14:302][  0]LogAIModule: Creating AISystem for world DemoTown
-[2019.05.12-03.37.14:523][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2019.05.12-03.37.14:550][  0]Cmd: MAP CHECKDEP NOCLEARLOG
-[2019.05.12-03.37.14:550][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.178ms to complete.
-[2019.05.12-03.37.14:551][  0]LogFileHelpers: Loading map 'DemoTown' took 1.512
-[2019.05.12-03.37.14:714][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.05.12-03.37.14:723][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.05.12-03.37.14:730][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.05.12-03.37.14:739][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.05.12-03.37.14:880][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.05.12-03.37.14:886][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.05.12-03.37.14:895][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.05.12-03.37.14:902][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.05.12-03.37.14:927][  0]LogCollectionManager: Loaded 0 collections in 0.000853 seconds
-[2019.05.12-03.37.14:979][  0]LogFileCache: Scanning file cache for directory 'C:/Users/gosus/Documents/CP-School/SeniorProject/gitRepos/Senior-Project-CPP-Game/Saved/Collections/' took 0.01s
-[2019.05.12-03.37.14:979][  0]LogFileCache: Scanning file cache for directory 'C:/Users/gosus/Documents/CP-School/SeniorProject/gitRepos/Senior-Project-CPP-Game/Content/Developers/gosus/Collections/' took 0.01s
-[2019.05.12-03.37.14:980][  0]LogFileCache: Scanning file cache for directory 'C:/Users/gosus/Documents/CP-School/SeniorProject/gitRepos/Senior-Project-CPP-Game/Content/Collections/' took 0.01s
-[2019.05.12-03.37.14:980][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000001 seconds
-[2019.05.12-03.37.14:992][  0]LogContentBrowser: Native class hierarchy populated in 0.0124 seconds. Added 2662 classes and 624 folders.
-[2019.05.12-03.37.15:002][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0005 seconds. Added 0 classes and 0 folders.
-[2019.05.12-03.37.15:014][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.05.12-03.37.15:021][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.05.12-03.37.15:036][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.05.12-03.37.15:041][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.05.12-03.37.15:046][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.05.12-03.37.15:051][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.05.12-03.37.15:056][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.05.12-03.37.15:060][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.05.12-03.37.15:071][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.05.12-03.37.15:076][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.05.12-03.37.15:081][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.05.12-03.37.15:085][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.05.12-03.37.15:091][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.05.12-03.37.15:095][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.05.12-03.37.15:099][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.05.12-03.37.15:103][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.05.12-03.37.15:120][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.05.12-03.37.15:124][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.05.12-03.37.15:128][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.05.12-03.37.15:132][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.05.12-03.37.15:151][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.05.12-03.37.15:155][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.05.12-03.37.15:159][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.05.12-03.37.15:165][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.05.12-03.37.15:169][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.05.12-03.37.15:173][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.05.12-03.37.15:311][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0003 seconds. Added 0 classes and 0 folders.
-[2019.05.12-03.37.15:323][  0]LogSlate: Took 0.003932 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
-[2019.05.12-03.37.15:329][  0]LogSlate: Took 0.003711 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
-[2019.05.12-03.37.15:341][  0]LogSlate: Took 0.003225 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
-[2019.05.12-03.37.15:415][  0]LogRenderer: Reallocating scene render targets to support 1772x1284 Format 10 NumSamples 1 (Frame:1).
-[2019.05.12-03.37.15:743][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0003 seconds. Added 0 classes and 0 folders.
-[2019.05.12-03.37.15:743][  0]LogLoad: (Engine Initialization) Total time: 23.26 seconds
-[2019.05.12-03.37.15:743][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
-[2019.05.12-03.37.15:826][  0]LogContentStreaming: Texture pool size now 1000 MB
-[2019.05.12-03.37.15:830][  0]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2019.05.12-03.37.16:019][  2]LogAssetRegistry: Asset discovery search completed in 14.5755 seconds
-[2019.05.12-03.37.16:022][  2]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
-[2019.05.12-03.37.16:022][  2]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000163 seconds (updated 0 objects)
-[2019.05.12-03.37.20:767][550]LogSlate: Window 'Message Log' being destroyed
-[2019.05.12-03.37.20:771][550]LogSlate: Window 'Message Log' being destroyed
-[2019.05.12-03.37.20:887][564]LogFileCache: Retrieving MD5 hashes for directory 'C:/Users/gosus/Documents/CP-School/SeniorProject/gitRepos/Senior-Project-CPP-Game/Content/' took 5.13s
-[2019.05.12-03.37.33:791][ 65]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.05.12-05.33.18:632][  0]LogConfig: Setting CVar [[r.VSync:0]]
+[2019.05.12-05.33.18:633][  0]LogConfig: Setting CVar [[r.RHICmdBypass:0]]
+[2019.05.12-05.33.18:633][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererSettings] File [C:/Users/gosus/Documents/CP-School/SeniorProject/gitRepos/Senior-Project-CPP-Game/Saved/Config/Windows/Engine.ini]
+[2019.05.12-05.33.18:633][  0]LogConfig: Setting CVar [[r.GPUCrashDebugging:0]]
+[2019.05.12-05.33.18:633][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererOverrideSettings] File [C:/Users/gosus/Documents/CP-School/SeniorProject/gitRepos/Senior-Project-CPP-Game/Saved/Config/Windows/Engine.ini]
+[2019.05.12-05.33.18:633][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [C:/Users/gosus/Documents/CP-School/SeniorProject/gitRepos/Senior-Project-CPP-Game/Saved/Config/Windows/Engine.ini]
+[2019.05.12-05.33.18:633][  0]LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
+[2019.05.12-05.33.18:633][  0]LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
+[2019.05.12-05.33.18:633][  0]LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
+[2019.05.12-05.33.18:633][  0]LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
+[2019.05.12-05.33.18:633][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
+[2019.05.12-05.33.18:633][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
+[2019.05.12-05.33.18:633][  0]LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
+[2019.05.12-05.33.18:633][  0]LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
+[2019.05.12-05.33.18:633][  0]LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
+[2019.05.12-05.33.18:633][  0]LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
+[2019.05.12-05.33.18:633][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
+[2019.05.12-05.33.18:633][  0]LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
+[2019.05.12-05.33.18:633][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
+[2019.05.12-05.33.18:634][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.GarbageCollectionSettings] File [C:/Users/gosus/Documents/CP-School/SeniorProject/gitRepos/Senior-Project-CPP-Game/Saved/Config/Windows/Engine.ini]
+[2019.05.12-05.33.18:634][  0]LogConfig: Setting CVar [[gc.MaxObjectsNotConsideredByGC:1]]
+[2019.05.12-05.33.18:634][  0]LogConfig: Setting CVar [[gc.SizeOfPermanentObjectPool:0]]
+[2019.05.12-05.33.18:634][  0]LogConfig: Setting CVar [[gc.FlushStreamingOnGC:0]]
+[2019.05.12-05.33.18:634][  0]LogConfig: Setting CVar [[gc.NumRetriesBeforeForcingGC:10]]
+[2019.05.12-05.33.18:634][  0]LogConfig: Setting CVar [[gc.AllowParallelGC:1]]
+[2019.05.12-05.33.18:634][  0]LogConfig: Setting CVar [[gc.TimeBetweenPurgingPendingKillObjects:61.1]]
+[2019.05.12-05.33.18:634][  0]LogConfig: Setting CVar [[gc.MaxObjectsInEditor:8388607]]
+[2019.05.12-05.33.18:634][  0]LogConfig: Setting CVar [[gc.IncrementalBeginDestroyEnabled:1]]
+[2019.05.12-05.33.18:634][  0]LogConfig: Setting CVar [[gc.CreateGCClusters:1]]
+[2019.05.12-05.33.18:634][  0]LogConfig: Setting CVar [[gc.MergeGCClusters:0]]
+[2019.05.12-05.33.18:634][  0]LogConfig: Setting CVar [[gc.MinGCClusterSize:5]]
+[2019.05.12-05.33.18:634][  0]LogConfig: Setting CVar [[gc.ActorClusteringEnabled:0]]
+[2019.05.12-05.33.18:634][  0]LogConfig: Setting CVar [[gc.BlueprintClusteringEnabled:0]]
+[2019.05.12-05.33.18:634][  0]LogConfig: Setting CVar [[gc.UseDisregardForGCOnDedicatedServers:0]]
+[2019.05.12-05.33.18:634][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.NetworkSettings] File [C:/Users/gosus/Documents/CP-School/SeniorProject/gitRepos/Senior-Project-CPP-Game/Saved/Config/Windows/Engine.ini]
+[2019.05.12-05.33.18:634][  0]LogConfig: Applying CVar settings from Section [/Script/UnrealEd.CookerSettings] File [C:/Users/gosus/Documents/CP-School/SeniorProject/gitRepos/Senior-Project-CPP-Game/Saved/Config/Windows/Engine.ini]
+[2019.05.12-05.33.18:642][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [C:/Users/gosus/Documents/CP-School/SeniorProject/gitRepos/Senior-Project-CPP-Game/Saved/Config/Windows/Scalability.ini]
+[2019.05.12-05.33.18:642][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2019.05.12-05.33.18:642][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2019.05.12-05.33.18:642][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [C:/Users/gosus/Documents/CP-School/SeniorProject/gitRepos/Senior-Project-CPP-Game/Saved/Config/Windows/Scalability.ini]
+[2019.05.12-05.33.18:643][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2019.05.12-05.33.18:643][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [C:/Users/gosus/Documents/CP-School/SeniorProject/gitRepos/Senior-Project-CPP-Game/Saved/Config/Windows/Scalability.ini]
+[2019.05.12-05.33.18:643][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2019.05.12-05.33.18:643][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2019.05.12-05.33.18:643][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2019.05.12-05.33.18:643][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2019.05.12-05.33.18:643][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2019.05.12-05.33.18:643][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2019.05.12-05.33.18:643][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2019.05.12-05.33.18:644][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2019.05.12-05.33.18:644][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2019.05.12-05.33.18:644][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2019.05.12-05.33.18:644][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2019.05.12-05.33.18:644][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2019.05.12-05.33.18:644][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2019.05.12-05.33.18:644][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2019.05.12-05.33.18:644][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2019.05.12-05.33.18:644][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2019.05.12-05.33.18:644][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2019.05.12-05.33.18:644][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2019.05.12-05.33.18:644][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [C:/Users/gosus/Documents/CP-School/SeniorProject/gitRepos/Senior-Project-CPP-Game/Saved/Config/Windows/Scalability.ini]
+[2019.05.12-05.33.18:644][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2019.05.12-05.33.18:644][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2019.05.12-05.33.18:644][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2019.05.12-05.33.18:645][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2019.05.12-05.33.18:645][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2019.05.12-05.33.18:645][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2019.05.12-05.33.18:645][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2019.05.12-05.33.18:645][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2019.05.12-05.33.18:645][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2019.05.12-05.33.18:645][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2019.05.12-05.33.18:645][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2019.05.12-05.33.18:645][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2019.05.12-05.33.18:645][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2019.05.12-05.33.18:645][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2019.05.12-05.33.18:645][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2019.05.12-05.33.18:645][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2019.05.12-05.33.18:645][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2019.05.12-05.33.18:645][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2019.05.12-05.33.18:645][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2019.05.12-05.33.18:645][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2019.05.12-05.33.18:645][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2019.05.12-05.33.18:645][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2019.05.12-05.33.18:646][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2019.05.12-05.33.18:646][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2019.05.12-05.33.18:646][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2019.05.12-05.33.18:646][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2019.05.12-05.33.18:646][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2019.05.12-05.33.18:646][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2019.05.12-05.33.18:646][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2019.05.12-05.33.18:646][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2019.05.12-05.33.18:646][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [C:/Users/gosus/Documents/CP-School/SeniorProject/gitRepos/Senior-Project-CPP-Game/Saved/Config/Windows/Scalability.ini]
+[2019.05.12-05.33.18:646][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2019.05.12-05.33.18:646][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2019.05.12-05.33.18:646][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2019.05.12-05.33.18:646][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2019.05.12-05.33.18:646][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2019.05.12-05.33.18:646][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2019.05.12-05.33.18:646][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2019.05.12-05.33.18:646][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2019.05.12-05.33.18:646][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [C:/Users/gosus/Documents/CP-School/SeniorProject/gitRepos/Senior-Project-CPP-Game/Saved/Config/Windows/Scalability.ini]
+[2019.05.12-05.33.18:647][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2019.05.12-05.33.18:647][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2019.05.12-05.33.18:647][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2019.05.12-05.33.18:647][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2019.05.12-05.33.18:647][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2019.05.12-05.33.18:647][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2019.05.12-05.33.18:647][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2019.05.12-05.33.18:647][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2019.05.12-05.33.18:647][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2019.05.12-05.33.18:647][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2019.05.12-05.33.18:647][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:1]]
+[2019.05.12-05.33.18:647][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2019.05.12-05.33.18:647][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2019.05.12-05.33.18:647][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [C:/Users/gosus/Documents/CP-School/SeniorProject/gitRepos/Senior-Project-CPP-Game/Saved/Config/Windows/Scalability.ini]
+[2019.05.12-05.33.18:647][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2019.05.12-05.33.18:647][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2019.05.12-05.33.18:647][  0]LogInit: Selected Device Profile: [Windows]
+[2019.05.12-05.33.18:647][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2019.05.12-05.33.18:657][  0]LogHAL: Display: Platform has ~ 32 GB [34313105408 / 34359738368 / 32], which maps to Largest [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2019.05.12-05.33.18:657][  0]LogConfig: Setting CVar [[r.Vulkan.UseRealUBs:1]]
+[2019.05.12-05.33.18:657][  0]LogInit: Going up to parent DeviceProfile []
+[2019.05.12-05.33.18:657][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [C:/Users/gosus/Documents/CP-School/SeniorProject/gitRepos/Senior-Project-CPP-Game/Saved/Config/Windows/Scalability.ini]
+[2019.05.12-05.33.18:657][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2019.05.12-05.33.18:657][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2019.05.12-05.33.18:657][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [C:/Users/gosus/Documents/CP-School/SeniorProject/gitRepos/Senior-Project-CPP-Game/Saved/Config/Windows/Scalability.ini]
+[2019.05.12-05.33.18:657][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2019.05.12-05.33.18:657][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [C:/Users/gosus/Documents/CP-School/SeniorProject/gitRepos/Senior-Project-CPP-Game/Saved/Config/Windows/Scalability.ini]
+[2019.05.12-05.33.18:657][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2019.05.12-05.33.18:657][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2019.05.12-05.33.18:658][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2019.05.12-05.33.18:658][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2019.05.12-05.33.18:658][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2019.05.12-05.33.18:658][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2019.05.12-05.33.18:658][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2019.05.12-05.33.18:658][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2019.05.12-05.33.18:658][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2019.05.12-05.33.18:658][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2019.05.12-05.33.18:658][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2019.05.12-05.33.18:658][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2019.05.12-05.33.18:658][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2019.05.12-05.33.18:658][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2019.05.12-05.33.18:658][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2019.05.12-05.33.18:658][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2019.05.12-05.33.18:658][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2019.05.12-05.33.18:658][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2019.05.12-05.33.18:658][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [C:/Users/gosus/Documents/CP-School/SeniorProject/gitRepos/Senior-Project-CPP-Game/Saved/Config/Windows/Scalability.ini]
+[2019.05.12-05.33.18:658][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2019.05.12-05.33.18:659][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2019.05.12-05.33.18:659][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2019.05.12-05.33.18:659][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2019.05.12-05.33.18:659][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2019.05.12-05.33.18:659][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2019.05.12-05.33.18:659][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2019.05.12-05.33.18:659][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2019.05.12-05.33.18:659][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2019.05.12-05.33.18:659][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2019.05.12-05.33.18:659][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2019.05.12-05.33.18:659][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2019.05.12-05.33.18:659][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2019.05.12-05.33.18:659][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2019.05.12-05.33.18:659][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2019.05.12-05.33.18:659][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2019.05.12-05.33.18:660][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2019.05.12-05.33.18:660][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2019.05.12-05.33.18:660][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2019.05.12-05.33.18:660][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2019.05.12-05.33.18:660][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2019.05.12-05.33.18:660][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2019.05.12-05.33.18:660][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2019.05.12-05.33.18:660][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2019.05.12-05.33.18:660][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2019.05.12-05.33.18:660][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2019.05.12-05.33.18:660][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2019.05.12-05.33.18:660][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2019.05.12-05.33.18:660][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2019.05.12-05.33.18:660][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2019.05.12-05.33.18:660][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [C:/Users/gosus/Documents/CP-School/SeniorProject/gitRepos/Senior-Project-CPP-Game/Saved/Config/Windows/Scalability.ini]
+[2019.05.12-05.33.18:660][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2019.05.12-05.33.18:660][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2019.05.12-05.33.18:660][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2019.05.12-05.33.18:661][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2019.05.12-05.33.18:661][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2019.05.12-05.33.18:661][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2019.05.12-05.33.18:661][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2019.05.12-05.33.18:661][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2019.05.12-05.33.18:661][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [C:/Users/gosus/Documents/CP-School/SeniorProject/gitRepos/Senior-Project-CPP-Game/Saved/Config/Windows/Scalability.ini]
+[2019.05.12-05.33.18:661][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2019.05.12-05.33.18:661][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2019.05.12-05.33.18:661][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2019.05.12-05.33.18:661][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2019.05.12-05.33.18:661][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2019.05.12-05.33.18:661][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2019.05.12-05.33.18:661][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2019.05.12-05.33.18:661][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2019.05.12-05.33.18:661][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2019.05.12-05.33.18:661][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2019.05.12-05.33.18:661][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:1]]
+[2019.05.12-05.33.18:661][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2019.05.12-05.33.18:661][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2019.05.12-05.33.18:662][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [C:/Users/gosus/Documents/CP-School/SeniorProject/gitRepos/Senior-Project-CPP-Game/Saved/Config/Windows/Scalability.ini]
+[2019.05.12-05.33.18:662][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2019.05.12-05.33.18:662][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2019.05.12-05.33.18:662][  0]LogConfig: Applying CVar settings from Section [Startup] File [../../../Engine/Config/ConsoleVariables.ini]
+[2019.05.12-05.33.18:662][  0]LogConfig: Setting CVar [[net.UseAdaptiveNetUpdateFrequency:0]]
+[2019.05.12-05.33.18:662][  0]LogConfig: Applying CVar settings from Section [ConsoleVariables] File [C:/Users/gosus/Documents/CP-School/SeniorProject/gitRepos/Senior-Project-CPP-Game/Saved/Config/Windows/Engine.ini]
+[2019.05.12-05.33.18:662][  0]LogInit: Computer: UNIT-01
+[2019.05.12-05.33.18:662][  0]LogInit: User: gosus
+[2019.05.12-05.33.18:662][  0]LogInit: CPU Page size=4096, Cores=4
+[2019.05.12-05.33.18:662][  0]LogInit: High frequency timer resolution =10.000000 MHz
+[2019.05.12-05.33.18:662][  0]LogMemory: Memory total: Physical=32.0GB (32GB approx)
+[2019.05.12-05.33.18:663][  0]LogMemory: Platform Memory Stats for Windows
+[2019.05.12-05.33.18:663][  0]LogMemory: Process Physical Memory: 104.86 MB used, 104.86 MB peak
+[2019.05.12-05.33.18:663][  0]LogMemory: Process Virtual Memory: 102.98 MB used, 102.98 MB peak
+[2019.05.12-05.33.18:663][  0]LogMemory: Physical Memory: 11594.39 MB used,  21129.13 MB free, 32723.53 MB total
+[2019.05.12-05.33.18:663][  0]LogMemory: Virtual Memory: 4661.01 MB used,  134213064.00 MB free, 134217728.00 MB total
+[2019.05.12-05.33.18:773][  0]LogInit: Using OS detected language (en-US).
+[2019.05.12-05.33.18:773][  0]LogInit: Using OS detected locale (en-US).
+[2019.05.12-05.33.18:773][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2019.05.12-05.33.19:083][  0]LogStreaming: Display: Took  0.310s to InitEngineTextLocalization.
+[2019.05.12-05.33.19:083][  0]LogInit: Setting process to per monitor DPI aware
+[2019.05.12-05.33.19:137][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2019.05.12-05.33.19:137][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2019.05.12-05.33.19:314][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2019.05.12-05.33.19:314][  0]LogD3D11RHI: D3D11 adapters:
+[2019.05.12-05.33.19:450][  0]LogD3D11RHI:    0. 'NVIDIA GeForce RTX 2080' (Feature Level 11_0)
+[2019.05.12-05.33.19:450][  0]LogD3D11RHI:       8010/0/16361 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x10de
+[2019.05.12-05.33.19:455][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2019.05.12-05.33.19:455][  0]LogD3D11RHI:       0/0/16361 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2019.05.12-05.33.19:455][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2019.05.12-05.33.19:463][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2019.05.12-05.33.19:463][  0]LogD3D11RHI:     GPU DeviceId: 0x1e87 (for the marketing name, search the web for "GPU Device Id")
+[2019.05.12-05.33.19:463][  0]LogWindows: EnumDisplayDevices:
+[2019.05.12-05.33.19:464][  0]LogWindows:    0. 'NVIDIA GeForce RTX 2080' (P:1 D:1)
+[2019.05.12-05.33.19:464][  0]LogWindows:    1. 'NVIDIA GeForce RTX 2080' (P:0 D:1)
+[2019.05.12-05.33.19:464][  0]LogWindows:    2. 'NVIDIA GeForce RTX 2080' (P:0 D:0)
+[2019.05.12-05.33.19:465][  0]LogWindows:    3. 'NVIDIA GeForce RTX 2080' (P:0 D:0)
+[2019.05.12-05.33.19:465][  0]LogWindows: DebugString: FoundDriverCount:4 
+[2019.05.12-05.33.19:465][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce RTX 2080
+[2019.05.12-05.33.19:465][  0]LogD3D11RHI:   Driver Version: 430.64 (internal:26.21.14.3064, unified:430.64)
+[2019.05.12-05.33.19:465][  0]LogD3D11RHI:      Driver Date: 5-5-2019
+[2019.05.12-05.33.19:465][  0]LogRHI: Texture pool is 5607 MB (70% of 8010 MB)
+[2019.05.12-05.33.19:506][  0]LogD3D11RHI: Async texture creation enabled
+[2019.05.12-05.33.19:525][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2019.05.12-05.33.19:875][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
+[2019.05.12-05.33.19:890][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
+[2019.05.12-05.33.19:905][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
+[2019.05.12-05.33.19:920][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
+[2019.05.12-05.33.19:935][  0]LogTemp: Display: Loaded TP MacTargetPlatform
+[2019.05.12-05.33.19:950][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
+[2019.05.12-05.33.19:964][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
+[2019.05.12-05.33.19:979][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
+[2019.05.12-05.33.19:988][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
+[2019.05.12-05.33.20:052][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.05.12-05.33.20:053][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.05.12-05.33.20:053][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.05.12-05.33.20:053][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.05.12-05.33.20:053][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.05.12-05.33.20:053][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.05.12-05.33.20:053][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.05.12-05.33.20:053][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.05.12-05.33.20:053][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.05.12-05.33.20:053][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.05.12-05.33.20:053][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.05.12-05.33.20:053][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.05.12-05.33.20:053][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.05.12-05.33.20:053][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.05.12-05.33.20:053][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.05.12-05.33.20:053][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.05.12-05.33.20:053][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.05.12-05.33.20:053][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.05.12-05.33.20:057][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
+[2019.05.12-05.33.20:126][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2019.05.12-05.33.20:126][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2019.05.12-05.33.20:147][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2019.05.12-05.33.20:147][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2019.05.12-05.33.20:160][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
+[2019.05.12-05.33.20:173][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
+[2019.05.12-05.33.20:193][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
+[2019.05.12-05.33.20:205][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
+[2019.05.12-05.33.20:243][  0]LogTemp: Display: Loaded TP LuminTargetPlatform
+[2019.05.12-05.33.20:243][  0]LogTemp: Display: Loaded TP LuminTargetPlatform
+[2019.05.12-05.33.20:243][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2019.05.12-05.33.20:385][  0]LogShaderCompilers: Guid format shader working directory is -35 characters bigger than the processId version (C:/Users/gosus/Documents/CP-School/SeniorProject/gitRepos/Senior-Project-CPP-Game/Intermediate/Shaders/WorkingDirectory/4404/).
+[2019.05.12-05.33.20:385][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/gosus/AppData/Local/Temp/UnrealShaderWorkingDir/1C258C8C493F90F588F5B882BBF1952B/'.
+[2019.05.12-05.33.20:387][  0]LogXGEController: Cleaning working directory: C:/Users/gosus/AppData/Local/Temp/UnrealXGEWorkingDir/
+[2019.05.12-05.33.20:387][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2019.05.12-05.33.20:387][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2019.05.12-05.33.20:387][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2019.05.12-05.33.20:814][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2019.05.12-05.33.20:856][  0]LogDerivedDataCache: Loaded boot cache 0.04s 71MB C:/Users/gosus/AppData/Local/UnrealEngine/4.21/DerivedDataCache/Boot.ddc.
+[2019.05.12-05.33.20:856][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/gosus/AppData/Local/UnrealEngine/4.21/DerivedDataCache/Boot.ddc
+[2019.05.12-05.33.20:856][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file C:/Users/gosus/Documents/CP-School/SeniorProject/gitRepos/Senior-Project-CPP-Game/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2019.05.12-05.33.20:856][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2019.05.12-05.33.20:857][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file C:/Users/gosus/Documents/CP-School/SeniorProject/gitRepos/Senior-Project-CPP-Game/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2019.05.12-05.33.20:857][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2019.05.12-05.33.20:869][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2019.05.12-05.33.20:869][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  EnterprisePak pak cache file ../../../Enterprise/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2019.05.12-05.33.20:869][  0]LogDerivedDataCache: Unable to find inner node EnterprisePak for hierarchical cache Hierarchy.
+[2019.05.12-05.33.20:882][  0]LogDerivedDataCache: Using Local data cache path C:/Users/gosus/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2019.05.12-05.33.20:882][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2019.05.12-05.33.20:882][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2019.05.12-05.33.20:904][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2019.05.12-05.33.20:905][  0]LogSlate: Using FreeType 2.6.0
+[2019.05.12-05.33.20:906][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2019.05.12-05.33.20:974][  0]LogAssetRegistry: FAssetRegistry took 0.0324 seconds to start up
+[2019.05.12-05.33.21:249][  0]LogInit: Selected Device Profile: [Windows]
+[2019.05.12-05.33.21:402][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2019.05.12-05.33.21:417][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
+[2019.05.12-05.33.21:417][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
+[2019.05.12-05.33.21:417][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2019.05.12-05.33.21:417][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
+[2019.05.12-05.33.21:427][  0]LogNetVersion: HSPGame 1.0.0, NetCL: 4541578, EngineNetVer: 5, GameNetVer: 0 (Checksum: 2893343623)
+[2019.05.12-05.33.21:830][  0]LogPackageLocalizationCache: Processed 11 localized package path(s) for 2 prioritized culture(s) in 0.085129 seconds
+[2019.05.12-05.33.21:836][  0]LogUObjectArray: 39775 objects as part of root set at end of initial load.
+[2019.05.12-05.33.21:836][  0]LogUObjectAllocator: 6914656 out of 0 bytes used by permanent object pool.
+[2019.05.12-05.33.21:836][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2019.05.12-05.33.22:703][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2019.05.12-05.33.22:723][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2019.05.12-05.33.23:325][  0]SourceControl: Source control is disabled
+[2019.05.12-05.33.23:326][  0]SourceControl: Source control is disabled
+[2019.05.12-05.33.23:338][  0]SourceControl: Source control is disabled
+[2019.05.12-05.33.23:344][  0]SourceControl: Source control is disabled
+[2019.05.12-05.33.23:681][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2019.05.12-05.33.23:899][  0]LogOcInput: OculusInput pre-init called
+[2019.05.12-05.33.24:049][  0]LogEngine: Initializing Engine...
+[2019.05.12-05.33.24:049][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2019.05.12-05.33.24:051][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
+[2019.05.12-05.33.24:051][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2019.05.12-05.33.24:051][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
+[2019.05.12-05.33.24:051][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2019.05.12-05.33.24:241][  0]LogInit: Initializing FReadOnlyCVARCache
+[2019.05.12-05.33.24:255][  0]LogAIModule: Creating AISystem for world Untitled
+[2019.05.12-05.33.24:317][  0]LogInit: XAudio2 using 'Speakers (Realtek(R) Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.05.12-05.33.24:351][  0]LogInit: FAudioDevice initialized.
+[2019.05.12-05.33.24:351][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2019.05.12-05.33.24:394][  0]LogDerivedDataCache: Saved boot cache 0.04s 71MB C:/Users/gosus/AppData/Local/UnrealEngine/4.21/DerivedDataCache/Boot.ddc.
+[2019.05.12-05.33.24:399][  0]LogInit: Texture streaming: Enabled
+[2019.05.12-05.33.24:430][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2019.05.12-05.33.24:430][  0]LogEngineSessionManager: EngineSessionManager sent abnormal shutdown report. Type=Debugger, SessionId={FF366C37-47E7-F224-6C2A-6C838A93453C}
+[2019.05.12-05.33.24:441][  0]LogInit: Transaction tracking system initialized
+[2019.05.12-05.33.24:479][  0]BlueprintLog: New page: Editor Load
+[2019.05.12-05.33.24:637][  0]LocalizationService: Localization service is disabled
+[2019.05.12-05.33.25:134][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2019.05.12-05.33.25:134][  0]LogCook: Display: Mobile HDR setting 1
+[2019.05.12-05.33.25:135][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
+[2019.05.12-05.33.25:135][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
+[2019.05.12-05.33.25:135][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2019.05.12-05.33.25:135][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
+[2019.05.12-05.33.25:135][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2019.05.12-05.33.25:388][  0]LogFileCache: Scanning file cache for directory 'C:/Users/gosus/Documents/CP-School/SeniorProject/gitRepos/Senior-Project-CPP-Game/Content/' took 0.03s
+[2019.05.12-05.33.25:388][  0]SourceControl: Source control is disabled
+[2019.05.12-05.33.25:388][  0]Cmd: MAP LOAD FILE="C:/Users/gosus/Documents/CP-School/SeniorProject/gitRepos/Senior-Project-CPP-Game/Content/Levels/DemoTown.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2019.05.12-05.33.25:389][  0]LightingResults: New page: Lighting Build
+[2019.05.12-05.33.25:391][  0]MapCheck: New page: Map Check
+[2019.05.12-05.33.25:391][  0]LightingResults: New page: Lighting Build
+[2019.05.12-05.33.25:521][  0]LogLinker: Warning: Can't find file '/Game/Levels/DemoTown_BuiltData'
+[2019.05.12-05.33.25:521][  0]LogLinker: Warning: Can't find file for asset '/Game/Levels/DemoTown_BuiltData' while loading C:/Users/gosus/Documents/CP-School/SeniorProject/gitRepos/Senior-Project-CPP-Game/Content/Levels/DemoTown.umap.
+[2019.05.12-05.33.25:521][  0]LoadErrors: Error: /Game/Levels/DemoTown : Can't find file for asset. /Game/Levels/DemoTown_BuiltData
+[2019.05.12-05.33.25:586][  0]LogLinker: Warning: Can't find file '/Game/Levels/DemoTown_BuiltData'
+[2019.05.12-05.33.25:586][  0]LogLinker: Warning: Can't find file for asset '/Game/Levels/DemoTown_BuiltData' while loading C:/Users/gosus/Documents/CP-School/SeniorProject/gitRepos/Senior-Project-CPP-Game/Content/Levels/DemoTown.umap.
+[2019.05.12-05.33.25:586][  0]LoadErrors: Error: /Game/Levels/DemoTown : Can't find file for asset. /Game/Levels/DemoTown_BuiltData
+[2019.05.12-05.33.25:643][  0]LogLinker: Warning: Can't find file '/Game/Levels/DemoTown_BuiltData'
+[2019.05.12-05.33.25:644][  0]LogLinker: Warning: Can't find file for asset '/Game/Levels/DemoTown_BuiltData' while loading NULL.
+[2019.05.12-05.33.25:644][  0]LogLinker: Warning: Can't find file '/Game/Levels/DemoTown_BuiltData'
+[2019.05.12-05.33.25:644][  0]LogLinker: Warning: Can't find file for asset '/Game/Levels/DemoTown_BuiltData' while loading NULL.
+[2019.05.12-05.33.25:696][  0]LogLinker: Warning: Can't find file '/Game/Levels/DemoTown_BuiltData'
+[2019.05.12-05.33.25:696][  0]LoadErrors: Failed to load /Game/Levels/DemoTown_BuiltData.DemoTown_BuiltData Referenced by PersistentLevel
+[2019.05.12-05.33.25:697][  0]LogLinker: Warning: Can't find file for asset '/Game/Levels/DemoTown_BuiltData' while loading NULL.
+[2019.05.12-05.33.25:697][  0]LoadErrors: Failed to load /Game/Levels/DemoTown_BuiltData.DemoTown_BuiltData Referenced by PersistentLevel
+[2019.05.12-05.33.26:008][  0]LogAIModule: Creating AISystem for world DemoTown
+[2019.05.12-05.33.26:037][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2019.05.12-05.33.26:055][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2019.05.12-05.33.26:055][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.138ms to complete.
+[2019.05.12-05.33.26:055][  0]LogFileHelpers: Loading map 'DemoTown' took 0.667
+[2019.05.12-05.33.26:154][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.05.12-05.33.26:161][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.05.12-05.33.26:168][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.05.12-05.33.26:175][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.05.12-05.33.26:245][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.05.12-05.33.26:251][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.05.12-05.33.26:258][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.05.12-05.33.26:264][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.05.12-05.33.26:272][  0]LogCollectionManager: Loaded 0 collections in 0.000850 seconds
+[2019.05.12-05.33.26:288][  0]LogFileCache: Scanning file cache for directory 'C:/Users/gosus/Documents/CP-School/SeniorProject/gitRepos/Senior-Project-CPP-Game/Saved/Collections/' took 0.01s
+[2019.05.12-05.33.26:288][  0]LogFileCache: Scanning file cache for directory 'C:/Users/gosus/Documents/CP-School/SeniorProject/gitRepos/Senior-Project-CPP-Game/Content/Developers/gosus/Collections/' took 0.00s
+[2019.05.12-05.33.26:288][  0]LogFileCache: Scanning file cache for directory 'C:/Users/gosus/Documents/CP-School/SeniorProject/gitRepos/Senior-Project-CPP-Game/Content/Collections/' took 0.00s
+[2019.05.12-05.33.26:288][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000000 seconds
+[2019.05.12-05.33.26:296][  0]LogContentBrowser: Native class hierarchy populated in 0.0073 seconds. Added 2662 classes and 624 folders.
+[2019.05.12-05.33.26:302][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2019.05.12-05.33.26:303][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.05.12-05.33.26:303][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.05.12-05.33.26:304][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.05.12-05.33.26:304][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.05.12-05.33.26:304][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.05.12-05.33.26:305][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.05.12-05.33.26:305][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.05.12-05.33.26:305][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.05.12-05.33.26:306][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.05.12-05.33.26:306][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.05.12-05.33.26:306][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.05.12-05.33.26:307][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.05.12-05.33.26:307][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.05.12-05.33.26:307][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.05.12-05.33.26:308][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.05.12-05.33.26:308][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.05.12-05.33.26:309][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.05.12-05.33.26:309][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.05.12-05.33.26:309][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.05.12-05.33.26:310][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.05.12-05.33.26:310][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.05.12-05.33.26:311][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.05.12-05.33.26:311][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.05.12-05.33.26:311][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.05.12-05.33.26:312][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.05.12-05.33.26:312][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.05.12-05.33.26:331][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2019.05.12-05.33.26:336][  0]LogSlate: Took 0.000144 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2019.05.12-05.33.26:338][  0]LogSlate: Took 0.000138 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2019.05.12-05.33.26:342][  0]LogSlate: Took 0.000096 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2019.05.12-05.33.26:384][  0]LogRenderer: Reallocating scene render targets to support 1772x1284 Format 10 NumSamples 1 (Frame:1).
+[2019.05.12-05.33.26:527][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2019.05.12-05.33.26:527][  0]LogLoad: (Engine Initialization) Total time: 9.48 seconds
+[2019.05.12-05.33.26:527][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2019.05.12-05.33.26:598][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2019.05.12-05.33.26:601][  0]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.05.12-05.33.26:780][  2]LogAssetRegistry: Asset discovery search completed in 5.8299 seconds
+[2019.05.12-05.33.26:784][  2]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
+[2019.05.12-05.33.26:784][  2]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000201 seconds (updated 0 objects)
+[2019.05.12-05.33.28:801][239]LogSlate: Window 'Message Log' being destroyed
+[2019.05.12-05.33.28:805][239]LogSlate: Window 'Message Log' being destroyed
+[2019.05.12-05.33.29:212][288]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.05.12-05.33.30:173][393]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.05.12-05.33.30:231][400]LogTemp: Repeating last play command: Selected Viewport
+[2019.05.12-05.33.30:258][400]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Levels/DemoTown.DemoTown:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/DemoTown.DemoTown:PersistentLevel.DemoTown' with GeneratedClass '/Game/Levels/DemoTown.DemoTown_C' with ClassGeneratedBy '/Game/Levels/DemoTown.DemoTown:PersistentLevel.DemoTown'
+[2019.05.12-05.33.30:259][400]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.05.12-05.33.30:259][400]PIE: New page: PIE session: DemoTown (May 11, 2019, 3:33:30 PM)
+[2019.05.12-05.33.30:273][400]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_DemoTown
+[2019.05.12-05.33.30:318][400]LogPlayLevel: PIE: StaticDuplicateObject took: (0.044803s)
+[2019.05.12-05.33.30:319][400]LogAIModule: Creating AISystem for world DemoTown
+[2019.05.12-05.33.30:319][400]LogPlayLevel: PIE: World Init took: (0.000690s)
+[2019.05.12-05.33.30:319][400]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/DemoTown.DemoTown to /Game/Levels/UEDPIE_0_DemoTown.DemoTown (0.045950s)
+[2019.05.12-05.33.30:396][400]LogInit: XAudio2 using 'Speakers (Realtek(R) Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.05.12-05.33.30:413][400]LogInit: FAudioDevice initialized.
+[2019.05.12-05.33.30:864][400]LogLoad: Game class is 'BP_HSPGameGameModeBase_C'
+[2019.05.12-05.33.30:868][400]LogWorld: Bringing World /Game/Levels/UEDPIE_0_DemoTown.DemoTown up for play (max tick rate 0) at 2019.05.11-22.33.30
+[2019.05.12-05.33.30:870][400]LogWorld: Bringing up level for play took: 0.004730
+[2019.05.12-05.33.30:885][400]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0003 seconds. Added 20 classes and 0 folders.
+[2019.05.12-05.33.30:889][400]PIE: Play in editor start time for /Game/Levels/UEDPIE_0_DemoTown 0.743
+[2019.05.12-05.33.30:897][400]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Levels/DemoTown.DemoTown:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/DemoTown.DemoTown:PersistentLevel.DemoTown' with GeneratedClass '/Game/Levels/DemoTown.DemoTown_C' with ClassGeneratedBy '/Game/Levels/DemoTown.DemoTown:PersistentLevel.DemoTown'
+[2019.05.12-05.33.34:390][807]LogNet: Browse: /Game/Levels/DemoBattlefield
+[2019.05.12-05.33.34:390][807]LogLoad: LoadMap: /Game/Levels/DemoBattlefield
+[2019.05.12-05.33.34:527][807]LogLinker: Warning: Can't find file '/Game/Levels/DemoBattlefield_BuiltData'
+[2019.05.12-05.33.34:528][807]LogLinker: Warning: Can't find file for asset '/Game/Levels/DemoBattlefield_BuiltData' while loading C:/Users/gosus/Documents/CP-School/SeniorProject/gitRepos/Senior-Project-CPP-Game/Content/Levels/DemoBattlefield.umap.
+[2019.05.12-05.33.34:528][807]LoadErrors: Error: /Game/Levels/DemoBattlefield : Can't find file for asset. /Game/Levels/DemoBattlefield_BuiltData
+[2019.05.12-05.33.34:530][807]LogLinker: Warning: Can't find file '/Game/Levels/DemoBattlefield_BuiltData'
+[2019.05.12-05.33.34:530][807]LogLinker: Warning: Can't find file for asset '/Game/Levels/DemoBattlefield_BuiltData' while loading C:/Users/gosus/Documents/CP-School/SeniorProject/gitRepos/Senior-Project-CPP-Game/Content/Levels/DemoBattlefield.umap.
+[2019.05.12-05.33.34:550][807]LogLinker: Warning: Can't find file '/Game/Levels/DemoBattlefield_BuiltData'
+[2019.05.12-05.33.34:550][807]LogLinker: Warning: Can't find file for asset '/Game/Levels/DemoBattlefield_BuiltData' while loading NULL.
+[2019.05.12-05.33.34:550][807]LogLinker: Warning: Can't find file '/Game/Levels/DemoBattlefield_BuiltData'
+[2019.05.12-05.33.34:551][807]LogLinker: Warning: Can't find file for asset '/Game/Levels/DemoBattlefield_BuiltData' while loading NULL.
+[2019.05.12-05.33.34:595][807]LogLinker: Warning: Can't find file '/Game/Levels/DemoBattlefield_BuiltData'
+[2019.05.12-05.33.34:595][807]LoadErrors: Failed to load /Game/Levels/DemoBattlefield_BuiltData.DemoBattlefield_BuiltData Referenced by PersistentLevel
+[2019.05.12-05.33.34:595][807]LogLinker: Warning: Can't find file for asset '/Game/Levels/DemoBattlefield_BuiltData' while loading NULL.
+[2019.05.12-05.33.34:669][807]LogAIModule: Creating AISystem for world DemoBattlefield
+[2019.05.12-05.33.34:670][807]LogLoad: Game class is 'BP_HSPGameGameModeBase_C'
+[2019.05.12-05.33.34:677][807]LogWorld: Bringing World /Game/Levels/UEDPIE_0_DemoBattlefield.DemoBattlefield up for play (max tick rate 0) at 2019.05.11-22.33.34
+[2019.05.12-05.33.34:679][807]LogWorld: Bringing up level for play took: 0.008424
+[2019.05.12-05.33.34:686][807]LogLoad: Took 0.295034 seconds to LoadMap(/Game/Levels/DemoBattlefield)
+[2019.05.12-05.33.49:451][574]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.05.12-05.34.22:650][552]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.05.12-05.34.22:727][561]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Levels/DemoTown.DemoTown:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/DemoTown.DemoTown:PersistentLevel.DemoTown' with GeneratedClass '/Game/Levels/DemoTown.DemoTown_C' with ClassGeneratedBy '/Game/Levels/DemoTown.DemoTown:PersistentLevel.DemoTown'
+[2019.05.12-05.34.22:728][561]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.05.12-05.34.22:765][561]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.05.12-05.34.22:766][561]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Levels/DemoTown.DemoTown:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/DemoTown.DemoTown:PersistentLevel.DemoTown' with GeneratedClass '/Game/Levels/DemoTown.DemoTown_C' with ClassGeneratedBy '/Game/Levels/DemoTown.DemoTown:PersistentLevel.DemoTown'
+[2019.05.12-05.34.22:791][561]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.05.12-05.34.22:833][564]LogPlayLevel: Display: Destroying online subsystem :Context_2
+[2019.05.12-05.38.03:412][561]Candidate modules for hot reload:
+[2019.05.12-05.38.03:412][561]  HSPGame
+[2019.05.12-05.38.03:413][561]Launching UnrealBuildTool... [G:/Games/Epic/Games/UE_4.21/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=HSPGame,1279 Win64 Development -TargetType=Editor -Project="C:/Users/gosus/Documents/CP-School/SeniorProject/gitRepos/Senior-Project-CPP-Game/HSPGame.uproject" -canskiplink "C:/Users/gosus/Documents/CP-School/SeniorProject/gitRepos/Senior-Project-CPP-Game/HSPGame.uproject" ]
+[2019.05.12-05.38.03:417][561]Warning: Starting HotReload took  0.0s.
+[2019.05.12-05.38.26:333][278]CompilerResultsLog: New page: Compilation - May 11, 2019, 3:38:26 PM
+[2019.05.12-05.38.26:333][278]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (C:\Users\gosus\Documents\CP-School\SeniorProject\gitRepos\Senior-Project-CPP-Game).
+[2019.05.12-05.38.26:333][278]CompilerResultsLog: Creating makefile for hot reloading HSPGameEditor (source directory changed)
+[2019.05.12-05.38.26:333][278]CompilerResultsLog: Compiling game modules for hot reload
+[2019.05.12-05.38.26:333][278]CompilerResultsLog: Using Visual Studio 2017 14.16.27023 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023) and Windows 10.0.17763.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2019.05.12-05.38.26:333][278]CompilerResultsLog: Parsing headers for HSPGameEditor
+[2019.05.12-05.38.26:334][278]CompilerResultsLog:   Running UnrealHeaderTool "C:\Users\gosus\Documents\CP-School\SeniorProject\gitRepos\Senior-Project-CPP-Game\HSPGame.uproject" "C:\Users\gosus\Documents\CP-School\SeniorProject\gitRepos\Senior-Project-CPP-Game\Intermediate\Build\Win64\HSPGameEditor\Development\HSPGameEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2019.05.12-05.38.26:334][278]CompilerResultsLog: Reflection code generated for HSPGameEditor in 9.1506373 seconds
+[2019.05.12-05.38.26:334][278]CompilerResultsLog: Building 14 actions with 8 processes...
+[2019.05.12-05.38.26:334][278]CompilerResultsLog:   [1/14] EnemyClass.gen.cpp
+[2019.05.12-05.38.26:334][278]CompilerResultsLog:   [2/14] GoblinSoldier.cpp
+[2019.05.12-05.38.26:334][278]CompilerResultsLog:   [3/14] HSPGameGameModeBase.cpp
+[2019.05.12-05.38.26:334][278]CompilerResultsLog:   [4/14] GoblinSoldier.gen.cpp
+[2019.05.12-05.38.26:334][278]CompilerResultsLog:   [5/14] ProtagClass.cpp
+[2019.05.12-05.38.26:334][278]CompilerResultsLog:   [6/14] HSPGameGameModeBase.gen.cpp
+[2019.05.12-05.38.26:334][278]CompilerResultsLog:   [7/14] ProtagClass.gen.cpp
+[2019.05.12-05.38.26:334][278]CompilerResultsLog:   [8/14] EnemySlime.gen.cpp
+[2019.05.12-05.38.26:334][278]CompilerResultsLog:   [9/14] Base2DCharacter.cpp
+[2019.05.12-05.38.26:335][278]CompilerResultsLog:   [10/14] EnemyClass.cpp
+[2019.05.12-05.38.26:335][278]CompilerResultsLog:   [11/14] EnemySlime.cpp
+[2019.05.12-05.38.26:335][278]CompilerResultsLog:   [12/14] Attacks.cpp
+[2019.05.12-05.38.26:335][278]CompilerResultsLog:   [13/14] UE4Editor-HSPGame-1279.lib
+[2019.05.12-05.38.26:335][278]CompilerResultsLog:      Creating library C:\Users\gosus\Documents\CP-School\SeniorProject\gitRepos\Senior-Project-CPP-Game\Intermediate\Build\Win64\UE4Editor\Development\HSPGame\UE4Editor-HSPGame-1279.lib and object C:\Users\gosus\Documents\CP-School\SeniorProject\gitRepos\Senior-Project-CPP-Game\Intermediate\Build\Win64\UE4Editor\Development\HSPGame\UE4Editor-HSPGame-1279.exp
+[2019.05.12-05.38.26:335][278]CompilerResultsLog:   [14/14] UE4Editor-HSPGame-1279.dll
+[2019.05.12-05.38.26:335][278]CompilerResultsLog:      Creating library C:\Users\gosus\Documents\CP-School\SeniorProject\gitRepos\Senior-Project-CPP-Game\Intermediate\Build\Win64\UE4Editor\Development\HSPGame\UE4Editor-HSPGame-1279.suppressed.lib and object C:\Users\gosus\Documents\CP-School\SeniorProject\gitRepos\Senior-Project-CPP-Game\Intermediate\Build\Win64\UE4Editor\Development\HSPGame\UE4Editor-HSPGame-1279.suppressed.exp
+[2019.05.12-05.38.26:335][278]CompilerResultsLog: Total build time: 22.69 seconds (Parallel executor: 9.29 seconds)
+[2019.05.12-05.38.26:335][278]LogMainFrame: MainFrame: Module compiling took 22.925 seconds
+[2019.05.12-05.38.26:379][278]LogClass: Could not find existing class EnemyClass in package /Script/HSPGame for HotReload, assuming new class
+[2019.05.12-05.38.26:379][278]LogClass: Function charHit is new.
+[2019.05.12-05.38.26:380][278]LogClass: Function inSight is new.
+[2019.05.12-05.38.26:380][278]LogClass: Could not find existing class EnemySlime in package /Script/HSPGame for HotReload, assuming new class
+[2019.05.12-05.38.26:380][278]LogClass: Could not find existing class GoblinSoldier in package /Script/HSPGame for HotReload, assuming new class
+[2019.05.12-05.38.26:395][278]LogHotReload: Re-instancing EnemyClass after hot-reload.
+[2019.05.12-05.38.26:524][278]LogHotReload: Re-instancing EnemySlime after hot-reload.
+[2019.05.12-05.38.26:587][278]LogHotReload: Re-instancing GoblinSoldier after hot-reload.
+[2019.05.12-05.38.26:653][278]LogContentBrowser: Native class hierarchy updated for 'HSPGame' in 0.0003 seconds. Added 10 classes and 2 folders.
+[2019.05.12-05.38.26:656][278]Display: HotReload successful (12 functions remapped  0 scriptstructs remapped)
+[2019.05.12-05.38.26:779][278]LogContentBrowser: Native class hierarchy populated in 0.0068 seconds. Added 2662 classes and 624 folders.
+[2019.05.12-05.38.26:784][278]Display: HotReload took 23.4s.
+[2019.05.12-05.38.28:003][422]LogTemp: Repeating last play command: Selected Viewport
+[2019.05.12-05.38.28:032][422]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Levels/DemoTown.DemoTown:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/DemoTown.DemoTown:PersistentLevel.DemoTown' with GeneratedClass '/Game/Levels/DemoTown.DemoTown_C' with ClassGeneratedBy '/Game/Levels/DemoTown.DemoTown:PersistentLevel.DemoTown'
+[2019.05.12-05.38.28:033][422]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.05.12-05.38.28:033][422]PIE: New page: PIE session: DemoTown (May 11, 2019, 3:38:28 PM)
+[2019.05.12-05.38.28:033][422]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_DemoTown
+[2019.05.12-05.38.28:066][422]LogPlayLevel: PIE: StaticDuplicateObject took: (0.032706s)
+[2019.05.12-05.38.28:067][422]LogAIModule: Creating AISystem for world DemoTown
+[2019.05.12-05.38.28:067][422]LogPlayLevel: PIE: World Init took: (0.000967s)
+[2019.05.12-05.38.28:067][422]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/DemoTown.DemoTown to /Game/Levels/UEDPIE_0_DemoTown.DemoTown (0.034130s)
+[2019.05.12-05.38.28:150][422]LogInit: XAudio2 using 'Speakers (Realtek(R) Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.05.12-05.38.28:167][422]LogInit: FAudioDevice initialized.
+[2019.05.12-05.38.28:204][422]LogLoad: Game class is 'BP_HSPGameGameModeBase_C'
+[2019.05.12-05.38.28:208][422]LogWorld: Bringing World /Game/Levels/UEDPIE_0_DemoTown.DemoTown up for play (max tick rate 0) at 2019.05.11-22.38.28
+[2019.05.12-05.38.28:210][422]LogWorld: Bringing up level for play took: 0.004379
+[2019.05.12-05.38.28:225][422]PIE: Play in editor start time for /Game/Levels/UEDPIE_0_DemoTown 0.08
+[2019.05.12-05.38.28:225][422]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Levels/DemoTown.DemoTown:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/DemoTown.DemoTown:PersistentLevel.DemoTown' with GeneratedClass '/Game/Levels/DemoTown.DemoTown_C' with ClassGeneratedBy '/Game/Levels/DemoTown.DemoTown:PersistentLevel.DemoTown'
+[2019.05.12-05.38.30:400][678]LogNet: Browse: /Game/Levels/DemoBattlefield
+[2019.05.12-05.38.30:400][678]LogLoad: LoadMap: /Game/Levels/DemoBattlefield
+[2019.05.12-05.38.30:439][678]LogLinker: Warning: Can't find file '/Game/Levels/DemoBattlefield_BuiltData'
+[2019.05.12-05.38.30:439][678]LogLinker: Warning: Can't find file for asset '/Game/Levels/DemoBattlefield_BuiltData' while loading C:/Users/gosus/Documents/CP-School/SeniorProject/gitRepos/Senior-Project-CPP-Game/Content/Levels/DemoBattlefield.umap.
+[2019.05.12-05.38.30:441][678]LogLinker: Warning: Can't find file '/Game/Levels/DemoBattlefield_BuiltData'
+[2019.05.12-05.38.30:441][678]LogLinker: Warning: Can't find file for asset '/Game/Levels/DemoBattlefield_BuiltData' while loading C:/Users/gosus/Documents/CP-School/SeniorProject/gitRepos/Senior-Project-CPP-Game/Content/Levels/DemoBattlefield.umap.
+[2019.05.12-05.38.30:444][678]LogLinker: Warning: Can't find file '/Game/Levels/DemoBattlefield_BuiltData'
+[2019.05.12-05.38.30:444][678]LogLinker: Warning: Can't find file for asset '/Game/Levels/DemoBattlefield_BuiltData' while loading NULL.
+[2019.05.12-05.38.30:444][678]LogLinker: Warning: Can't find file '/Game/Levels/DemoBattlefield_BuiltData'
+[2019.05.12-05.38.30:444][678]LogLinker: Warning: Can't find file for asset '/Game/Levels/DemoBattlefield_BuiltData' while loading NULL.
+[2019.05.12-05.38.30:479][678]LogLinker: Warning: Can't find file '/Game/Levels/DemoBattlefield_BuiltData'
+[2019.05.12-05.38.30:479][678]LogLinker: Warning: Can't find file for asset '/Game/Levels/DemoBattlefield_BuiltData' while loading NULL.
+[2019.05.12-05.38.30:504][678]LogAIModule: Creating AISystem for world DemoBattlefield
+[2019.05.12-05.38.30:504][678]LogLoad: Game class is 'BP_HSPGameGameModeBase_C'
+[2019.05.12-05.38.30:511][678]LogWorld: Bringing World /Game/Levels/UEDPIE_0_DemoBattlefield.DemoBattlefield up for play (max tick rate 0) at 2019.05.11-22.38.30
+[2019.05.12-05.38.30:513][678]LogWorld: Bringing up level for play took: 0.007840
+[2019.05.12-05.38.30:520][678]LogLoad: Took 0.120070 seconds to LoadMap(/Game/Levels/DemoBattlefield)
+[2019.05.12-05.38.34:523][156]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.05.12-05.38.50:414][ 55]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.05.12-05.38.50:465][ 61]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Levels/DemoTown.DemoTown:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/DemoTown.DemoTown:PersistentLevel.DemoTown' with GeneratedClass '/Game/Levels/DemoTown.DemoTown_C' with ClassGeneratedBy '/Game/Levels/DemoTown.DemoTown:PersistentLevel.DemoTown'
+[2019.05.12-05.38.50:466][ 61]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.05.12-05.38.50:509][ 61]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.05.12-05.38.50:509][ 61]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Levels/DemoTown.DemoTown:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/DemoTown.DemoTown:PersistentLevel.DemoTown' with GeneratedClass '/Game/Levels/DemoTown.DemoTown_C' with ClassGeneratedBy '/Game/Levels/DemoTown.DemoTown:PersistentLevel.DemoTown'
+[2019.05.12-05.38.50:530][ 61]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.05.12-05.38.50:571][ 64]LogPlayLevel: Display: Destroying online subsystem :Context_3

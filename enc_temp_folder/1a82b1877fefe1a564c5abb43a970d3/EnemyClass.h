@@ -44,8 +44,6 @@ public:
 	virtual void endTurn();
 	virtual void startTurn();
 
-	bool isEnemyDead = false;
-
 
 protected:
 	virtual void BeginPlay() override;
