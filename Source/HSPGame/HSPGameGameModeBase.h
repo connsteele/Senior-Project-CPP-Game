@@ -35,6 +35,9 @@ public:
 	//index of fighter whose turn it is
 	int activeFighterIndex = 0;
 
+	UPROPERTY(EditAnywhere)
+		ABase2DCharacter * activeFighter = NULL;
+
 	int aliveCharacters = 0;
 
 	int get2DcharClassType(FString className);
@@ -42,7 +45,8 @@ public:
 	UFUNCTION(BlueprintCallable)
 		void nextFighter();
 
-	
+	UFUNCTION(BlueprintCallable)
+		ABase2DCharacter * getActiveFighter();
 
 protected:
 

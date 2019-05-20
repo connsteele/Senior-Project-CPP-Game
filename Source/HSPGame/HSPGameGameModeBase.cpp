@@ -27,6 +27,11 @@ int get2DcharClassType(FString className)
 	return -1;
 }
 
+ABase2DCharacter * AHSPGameGameModeBase::getActiveFighter()
+{
+	return activeFighter;
+}
+
 
 void AHSPGameGameModeBase::nextFighter() {
 
@@ -49,7 +54,7 @@ void AHSPGameGameModeBase::nextFighter() {
 		}
 	}
 
-	ABase2DCharacter * activeFighter = (battleChars[activeFighterIndex].charRef);
+	activeFighter = (battleChars[activeFighterIndex].charRef);
 
 
 	//Check if actor is dead. If they are skip their turn
