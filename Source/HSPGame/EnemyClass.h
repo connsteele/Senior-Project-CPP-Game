@@ -33,7 +33,8 @@ public:
 
 	// Called every frame
 	virtual void Tick(float DeltaTime) override;
-	float rewardExp; // Exp given for killing this character
+	UPROPERTY(BlueprintReadWrite, EditAnywhere)
+		float rewardExp; // Exp given for killing this character
 	virtual void die(); // override the parent function
 	virtual void takeDmg(float hitDmg); //ovveride parent function
 	

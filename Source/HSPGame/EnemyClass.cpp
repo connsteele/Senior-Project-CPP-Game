@@ -37,7 +37,7 @@ void AEnemyClass::BeginPlay()
 	turnAP = maxTurnAP;
 	distanceToAP = 10.f; // Used as divisor to turn the length of distance moved into AP, higher = more per turn movement
 	isMoveable = true; // Allow actor to move
-	rewardExp = 10;
+	// rewardExp = 10.f;
 	attackDMG = 10.f;
 
 }
