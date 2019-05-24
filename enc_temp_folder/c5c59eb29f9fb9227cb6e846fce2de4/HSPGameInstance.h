@@ -25,7 +25,7 @@ public:
 
 	//Keep track of Enemy damage scale KEPT NAME SO LESS CHANGES NEED TO BE MADE
 	UPROPERTY(BlueprintReadWrite)
-		float rangedEnemyDamage = 10.0f;
+		float rangedEnemyDamage = 1.0f;
 
 	//-- Base Damage for player, can be changed by talking to the scientist
 	UPROPERTY(BlueprintReadWrite)

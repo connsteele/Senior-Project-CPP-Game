@@ -40,7 +40,7 @@ void AEnemyClass::BeginPlay()
 	distanceToAP = 10.f; // Used as divisor to turn the length of distance moved into AP, higher = more per turn movement
 	isMoveable = true; // Allow actor to move
 	// rewardExp = 10.f;
-	attackDMG = 20.f * HGI->rangedEnemyDamage;
+	attackDMG = HGI->rangedEnemyDamage;
 
 }
 
