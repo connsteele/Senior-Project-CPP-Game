@@ -23,7 +23,7 @@ public:
 	UPROPERTY(BlueprintReadWrite)
 		float maxTurnAP = 300.f;
 
-	//Keep track of ranged attack base damage set by slider
+	//Keep track of Enemy damage scale KEPT NAME SO LESS CHANGES NEED TO BE MADE
 	UPROPERTY(BlueprintReadWrite)
 		float rangedEnemyDamage = 1.0f;
 

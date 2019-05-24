@@ -16,6 +16,8 @@ void AEnemyClass::BeginPlay()
 {
 	Super::BeginPlay();
 
+	UHSPGameInstance* HGI = Cast<UHSPGameInstance>(GetGameInstance());
+
 	//--- Force enemies to face camera while moving
 	bUseControllerRotationYaw = false;
 	UCharacterMovementComponent * mover = GetCharacterMovement();
@@ -38,7 +40,7 @@ void AEnemyClass::BeginPlay()
 	distanceToAP = 10.f; // Used as divisor to turn the length of distance moved into AP, higher = more per turn movement
 	isMoveable = true; // Allow actor to move
 	// rewardExp = 10.f;
-	attackDMG = 10.f;
+	attackDMG = 20.f * HGI->rangedEnemyDamage;
 
 }
 
@@ -60,8 +62,8 @@ void AEnemyClass::die()
 //----- Turn Related Functions
 void AEnemyClass::endTurn()
 {
-	Super::endTurn();
 	isTurn = false;
+	Super::endTurn();
 	// D("Enemy Turn End");
 }
 

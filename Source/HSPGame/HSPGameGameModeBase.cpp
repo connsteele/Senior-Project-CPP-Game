@@ -76,6 +76,7 @@ void AHSPGameGameModeBase::nextFighter() {
 		protag->isTurn = false;
 		aliveCharacters = 0;
 		activeFighterIndex = 0;
+		activeFighter = NULL;
 		return;
 	}
 }
