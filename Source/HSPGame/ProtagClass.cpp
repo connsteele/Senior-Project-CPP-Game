@@ -60,10 +60,11 @@ void AProtagClass::BeginPlay()
 	visionSphere->OnComponentBeginOverlap.AddDynamic(this, &AProtagClass::inSight);
 
 	//--- Stat Related Variable Initialization
-	maxHealth = 100.f;
-	currHealth = 100.f;
+	maxHealth = HGI->MAXplayerHealth;
+	currHealth = maxHealth;
 	maxTurnAP = HGI->maxTurnAP; //This value changes between scenes so we reference the game instance
 	exMaxTurnAP = 1000.f;
+	exMaxHealth = 400.0f;
 	turnAP = maxTurnAP;
 	attackCost = 20.f;
 	distanceToAP = 10.f; // Used as divisor to turn the length of distance moved into AP

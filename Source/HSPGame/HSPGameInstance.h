@@ -41,6 +41,9 @@ public:
 	UPROPERTY(BlueprintReadWrite)
 		bool isCastableLB = false; //lightning bolt
 
+	UPROPERTY(BlueprintReadWrite)
+		float MAXplayerHealth = 100.0f;
+
 	//Possibly include this later
 	//float health;
 

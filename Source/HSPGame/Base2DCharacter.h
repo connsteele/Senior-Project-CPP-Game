@@ -59,7 +59,7 @@ public:
 		float distanceToAP; // Used as divisor to turn the length of distance moved into AP
 	UPROPERTY(BlueprintReadWrite, EditAnywhere)
 		float currHealth;
-	UPROPERTY(BlueprintReadOnly)
+	UPROPERTY(BlueprintReadWrite, EditAnywhere)
 		float maxHealth;
 	UPROPERTY(BlueprintReadWrite, EditAnywhere)
 		float turnAP;
@@ -67,6 +67,8 @@ public:
 		float maxTurnAP;
 	UPROPERTY(BlueprintReadWrite, EditAnywhere)
 		float exMaxTurnAP;
+	UPROPERTY(BlueprintReadWrite, EditAnywhere)
+		float exMaxHealth;
 	UPROPERTY(BlueprintReadOnly)
 		float healthPercentage;
 	UPROPERTY(BlueprintReadOnly)
